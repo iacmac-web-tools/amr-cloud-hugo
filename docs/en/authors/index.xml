@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on AMRCloud</title>
-    <link>/en/authors/</link>
+    <link>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/authors/</link>
     <description>Recent content in Authors on AMRCloud</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>IACMAC</copyright>
     <lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/en/authors/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/en/authors/admin/</link>
+      <link>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/authors/admin/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/en/authors/admin/</guid>
+      <guid>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/authors/admin/</guid>
       <description>&lt;p&gt;Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.&lt;/p&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.&lt;/p&gt;
@@ -26,10 +26,10 @@
     
     <item>
       <title>Robert Ford</title>
-      <link>/en/authors/robert-ford/</link>
+      <link>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/authors/robert-ford/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>/en/authors/robert-ford/</guid>
+      <guid>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/authors/robert-ford/</guid>
       <description></description>
     </item>
     

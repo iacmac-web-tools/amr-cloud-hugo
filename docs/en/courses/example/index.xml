@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Overview on AMRCloud</title>
-    <link>/en/courses/example/</link>
+    <link>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/courses/example/</link>
     <description>Recent content in Overview on AMRCloud</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>IACMAC</copyright>
     <lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/en/courses/example/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/courses/example/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Example Page 1</title>
-      <link>/en/courses/example/example1/</link>
+      <link>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/courses/example/example1/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       
-      <guid>/en/courses/example/example1/</guid>
+      <guid>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/courses/example/example1/</guid>
       <description>
 
 &lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
@@ -50,10 +50,10 @@
     
     <item>
       <title>Example Page 2</title>
-      <link>/en/courses/example/example2/</link>
+      <link>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/courses/example/example2/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       
-      <guid>/en/courses/example/example2/</guid>
+      <guid>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/courses/example/example2/</guid>
       <description>
 
 &lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;

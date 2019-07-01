@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on AMRCloud</title>
-    <link>/ru/talk/</link>
+    <link>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on AMRCloud</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>ru-ru</language>
     <copyright>IACMAC</copyright>
     <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/ru/talk/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Example Talk</title>
-      <link>/ru/talk/example/</link>
+      <link>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/talk/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
       
-      <guid>/ru/talk/example/</guid>
+      <guid>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/talk/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.

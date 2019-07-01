@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Demo on AMRCloud</title>
-    <link>/ru/tags/demo/</link>
+    <link>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/tags/demo/</link>
     <description>Recent content in Demo on AMRCloud</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>ru-ru</language>
     <copyright>IACMAC</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/ru/tags/demo/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/tags/demo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>External Project</title>
-      <link>/ru/project/external-project/</link>
+      <link>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/ru/project/external-project/</guid>
+      <guid>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/project/external-project/</guid>
       <description></description>
     </item>
     
