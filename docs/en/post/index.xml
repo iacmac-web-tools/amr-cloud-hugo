@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on AMRcloud</title>
+    <title>News on AMRcloud</title>
     <link>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/post/</link>
-    <description>Recent content in Posts on AMRcloud</description>
+    <description>Recent content in News on AMRcloud</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>IACMAC</copyright>
+    <copyright>AMRcloud</copyright>
     <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/post/index.xml" rel="self" type="application/rss+xml" />

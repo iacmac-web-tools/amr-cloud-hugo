@@ -94,21 +94,6 @@
   </url>
   
   <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/authors/admin/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/admin/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/authors/admin/"
-                />
-  </url>
-  
-  <url>
     <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/publication_types/3/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -215,6 +200,22 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/authors/admin/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/admin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/authors/admin/"
                 />
   </url>
   
@@ -358,6 +359,11 @@
   </url>
   
   <url>
+    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/authors/trushin-iv/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/tags/academic/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -464,6 +470,18 @@
                 hreflang="en"
                 href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/publication/conference-paper/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/authors/avramenko-aa/</loc>
+  </url>
+  
+  <url>
+    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/authors/kuzmenkov-ay/</loc>
+  </url>
+  
+  <url>
+    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/authors/vinogradova-ag/</loc>
   </url>
   
   <url>
