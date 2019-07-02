@@ -14,14 +14,14 @@
   weight = 20
 
 [[main]]
-  name = "Projects"
+  name = "Public Datasets"
   url = "#projects"
   weight = 30
 
-[[main]]
-  name = "Publications"
-  url = "#featured"
-  weight = 40
+# [[main]]
+#   name = "Publications"
+#   url = "#featured"
+#   weight = 40
 
 [[main]]
   name = "Courses"
@@ -32,6 +32,12 @@
   name = "Contact"
   url = "#contact"
   weight = 60
+
+[[main_right]]
+  name = "More AMR services"
+  url = "http://amrhub.ru"
+  weight = 60
+  pre = "<i class='fas fa-external-link-alt'></i>&nbsp;"
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

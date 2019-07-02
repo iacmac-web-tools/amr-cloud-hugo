@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "AMRCloud"
+title = "AMRcloud"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 hero_media = "amr-cloud-logo.png"
@@ -44,8 +44,8 @@ hero_media = "amr-cloud-logo.png"
 #  label = "Register"
 
 # Note. An optional note to show underneath the links.
-[cta_note]
-  label = "Now AMRCloud works in test mode and access is granted by invite."
+# [cta_note]
+#  label = "Now AMRCloud works in test mode and access is granted by invite."
 +++
 
 **AntiMicrobial Resistance Cloud is a web platform for analysis and sharing of AMR surveillance data.**
