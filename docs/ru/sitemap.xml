@@ -3,53 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/courses/example/example1/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/courses/example/example1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/courses/example/example1/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/courses/example/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/courses/example/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/courses/example/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/courses/example/example2/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/courses/example/example2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/courses/example/example2/"
-                />
-  </url>
-  
-  <url>
     <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <lastmod>2019-06-28T16:17:43+03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -65,7 +20,7 @@
   
   <url>
     <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/talk/example/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <lastmod>2019-06-28T16:17:43+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -79,23 +34,8 @@
   </url>
   
   <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/talk/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/talk/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/talk/"
-                />
-  </url>
-  
-  <url>
     <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/admin/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-28T16:17:43+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -109,39 +49,64 @@
   </url>
   
   <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/publication_types/3/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/avramenko-aa/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/publication_types/3/"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/authors/avramenko-aa/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/publication_types/3/"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/avramenko-aa/"
                 />
   </url>
   
   <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/publication/preprint/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/kuzmenkov-ay/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/publication/preprint/"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/authors/kuzmenkov-ay/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/publication/preprint/"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/kuzmenkov-ay/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/trushin-iv/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/authors/trushin-iv/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/trushin-iv/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/vinogradova-ag/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/authors/vinogradova-ag/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/vinogradova-ag/"
                 />
   </url>
   
   <url>
     <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-28T16:17:43+03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -152,317 +117,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/publication_types/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/publication_types/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/publication_types/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/publication/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/publication/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/publication/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/tags/source-themes/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/tags/source-themes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/tags/source-themes/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/tags/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/post/jupyter/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/post/jupyter/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/post/jupyter/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/post/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/post/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/slides/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/slides/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/slides/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/slides/example/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/slides/example/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/slides/example/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/tags/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/tags/deep-learning/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/tags/deep-learning/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/tags/demo/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/tags/demo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/tags/demo/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/project/external-project/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/project/external-project/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/project/internal-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/project/internal-project/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/project/internal-project/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/project/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/project/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/tags/academic/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/tags/academic/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/tags/academic/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/post/getting-started/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/post/getting-started/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/post/getting-started/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/publication_types/2/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/publication_types/2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/publication_types/2/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/publication/journal-article/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/publication/journal-article/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/publication/journal-article/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/robert-ford/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/authors/robert-ford/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/robert-ford/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/publication_types/1/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/publication_types/1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/publication_types/1/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/publication/conference-paper/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/publication/conference-paper/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/publication/conference-paper/"
                 />
   </url>
   
@@ -482,16 +136,91 @@
   </url>
   
   <url>
-    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/courses/</loc>
+    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/post/</loc>
+    <lastmod>2019-06-28T16:17:43+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/courses/"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/courses/"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/publication_types/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/publication_types/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/publication/</loc>
+    <lastmod>2019-06-28T16:17:43+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/publication/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/talk/</loc>
+    <lastmod>2019-06-28T16:17:43+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/talk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/talk/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/tutorials/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/tutorials/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/tutorials/"
                 />
   </url>
   

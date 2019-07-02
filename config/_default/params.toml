@@ -63,7 +63,7 @@ appointment_url = ""
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "internet-explorer", icon_pack = "fab", name = "Find more AMR services on AMRhub.ru", link = "http://amrhub.ru/"},
+  {icon = "internet-explorer", icon_pack = "fab", name = "AMRhub.ru", link = "http://amrhub.ru/"},
   {icon = "twitter", icon_pack = "fab", name = "twitter.com/iacmac1997", link = "https://twitter.com/iacmac1997"},
   {icon = "instagram", icon_pack = "fab", name = "instagram.com/iacmac1997", link = "https://instagram.com/iacmac1997"},
   {icon = "facebook", icon_pack = "fab", name = "facebook.com/iacmac", link = "https://facebook.com/iacmac"},

@@ -23,13 +23,13 @@ subtitle = ""
 [[feature]]
   icon = "file-import"
   icon_pack = "fas"
-  name = "import metadata and AST results directly from Excel or CSV files using a wizard"
+  name = "import metadata and AST results directly from Excel or CSV files"
   description = ""
 
 [[feature]]
   icon = "vials"
   icon_pack = "fas"
-  name = "automatically determine clinical S/I/R categories for the known organism-antibiotic combinations"
+  name = "automatically determine clinical S/I/R categories"
   description = ""
 
 [[feature]]

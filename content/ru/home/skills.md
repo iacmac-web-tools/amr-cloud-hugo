@@ -3,33 +3,51 @@
 widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 2  # Order that this section will appear.
+weight = 20  # Order that this section will appear.
 
-title = "Features"
-subtitle = "The AMRcloud platform allows users to"
+title = "Платформа AMRcloud позволяет"
+subtitle = ""
 
 # Showcase personal skills or business features.
 # 
 # Add/remove as many `[[feature]]` blocks below as you like.
 # 
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
+  
+[[feature]]
+  icon = "tasks"
+  icon_pack = "fas"
+  name = "Работать с большим количеством АМР проектов и дата-сетов"
+  description = ""  
+  
+[[feature]]
+  icon = "file-import"
+  icon_pack = "fas"
+  name = "Импортировать информацию о чувствительности в форматах CSV и Excel"
+  description = ""
 
 [[feature]]
-  icon = "r-project"
-  icon_pack = "fab"
-  name = "R"
-  description = "90%"
-  
-[[feature]]
-  icon = "chart-line"
+  icon = "vials"
   icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
-  
+  name = "Автоматически интерпретировать категории чувствительности"
+  description = ""
+
 [[feature]]
-  icon = "camera-retro"
+  icon = "microscope"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Исследовать данные с помощью умных фильтров и интерактивных средств визуализации"
+  description = ""  
+
+[[feature]]
+  icon = "cloud-download-alt"
+  icon_pack = "fas"
+  name = "Экспортировать статистику и инфографику"
+  description = ""  
+
+[[feature]]
+  icon = "share-alt"
+  icon_pack = "fas"
+  name = "Делиться результатами вашей работы с помощью ссылок"
+  description = ""  
 
 +++
