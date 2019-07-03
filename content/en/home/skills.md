@@ -33,7 +33,7 @@ subtitle = ""
   description = ""
 
 [[feature]]
-  icon = "microscope"
+  icon = "chart-pie"
   icon_pack = "fas"
   name = "explore data using smart filters and interactive visualization tools"
   description = ""  

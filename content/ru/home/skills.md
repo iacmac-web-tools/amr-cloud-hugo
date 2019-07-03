@@ -17,13 +17,13 @@ subtitle = ""
 [[feature]]
   icon = "tasks"
   icon_pack = "fas"
-  name = "Работать с большим количеством АМР проектов и дата-сетов"
+  name = "Управлять несколькими проектами и датасетами"
   description = ""  
   
 [[feature]]
   icon = "file-import"
   icon_pack = "fas"
-  name = "Импортировать информацию о чувствительности в форматах CSV и Excel"
+  name = "Импортировать данные о чувствительности из файлов CSV и Excel"
   description = ""
 
 [[feature]]
@@ -33,9 +33,9 @@ subtitle = ""
   description = ""
 
 [[feature]]
-  icon = "microscope"
+  icon = "chart-pie"
   icon_pack = "fas"
-  name = "Исследовать данные с помощью умных фильтров и интерактивных средств визуализации"
+  name = "Исследовать данные с помощью сложных фильтров и средств визуализации"
   description = ""  
 
 [[feature]]
@@ -47,7 +47,7 @@ subtitle = ""
 [[feature]]
   icon = "share-alt"
   icon_pack = "fas"
-  name = "Делиться результатами вашей работы с помощью ссылок"
+  name = "Делиться результатами своей работы"
   description = ""  
 
 +++
