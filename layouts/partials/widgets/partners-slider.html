@@ -1,0 +1,60 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+<div class="row justify-content-center people-widget">
+  {{ with $page.Title }}
+  <div class="col-md-12 section-heading">
+    <h1>{{ . | markdownify | emojify }}</h1>
+    {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
+  </div>
+  {{ end }}
+
+  {{ with $page.Content }}
+  <div class="col-md-12">
+    <p>{{ . }}</p>
+  </div>
+  {{ end }}
+
+  {{ range $page.Params.partner_groups }}
+  <div class="col-md-12">
+    <h2 class="mb-4">{{ . | markdownify }}</h2>
+  </div>
+
+  {{ $query := where (where site.Pages "Section" "partners") ".Params.partner_groups" "intersect" (slice .) }}
+  {{ range $query }}
+
+  {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
+  {{/* Get link to user's profile page. */}}
+  {{ $link := "" }}
+  {{ with site.GetPage (printf "/partners/%s" (path.Base (path.Split .Path).Dir)) }}
+    {{ $link = .RelPermalink }}
+  {{ end }}
+  <div class="col-12 col-sm-auto people-person">
+    {{ $src := "" }}
+    {{ $src = $avatar.RelPermalink }}
+    <a href="{{  .Params.url | relLangURL }}" target="_blank"><img src="{{ $src }}" alt="Avatar"></a>
+
+    <div class="portrait-title">
+      <h2><a href="{{ .Params.url  | relLangURL }}" target="_blank">{{ .Params.name }}</a></h2>
+      {{ with .Params.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
+    </div>
+  </div>
+
+
+  {{ $link := .Params.url }}
+  {{ $scheme := (urls.Parse $link).Scheme }}
+  {{ $target := "" }}
+  {{ if not $scheme }}
+    {{ $link = .Params.link | relLangURL }}
+  {{ else if in (slice "http" "https") $scheme }}
+    {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+  {{ end }}
+
+        <li class="nav-item">
+                <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>111</a>
+        </li>
+
+
+  {{ end }}
+  {{ end }}
+</div>
