@@ -2,6 +2,8 @@
 # Display name
 name: Алина Виноградова
 
+weight: 02
+
 # Username (this should match the folder name)
 authors:
 - vinogradova-ag
@@ -10,7 +12,7 @@ authors:
 superuser: true
 
 # Role/position
-role: должность
+role: 
 
 # Organizations/Affiliations
 organizations: []

@@ -64,6 +64,20 @@
   </url>
   
   <url>
+    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/authors/edelstein-mv/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/edelstein-mv/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/authors/edelstein-mv/"
+                />
+  </url>
+  
+  <url>
     <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/authors/kuzmenkov-ay/</loc>
     <lastmod>2019-07-04T16:13:35+03:00</lastmod>
     <xhtml:link

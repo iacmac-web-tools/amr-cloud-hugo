@@ -2,6 +2,8 @@
 # Display name
 name: Андрей Авраменко
 
+weight: 01
+
 # Username (this should match the folder name)
 authors:
 - avramenko-aa
@@ -10,7 +12,7 @@ authors:
 superuser: true
 
 # Role/position
-role: должность
+role: 
 
 # Organizations/Affiliations
 organizations: []

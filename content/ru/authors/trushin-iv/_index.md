@@ -2,6 +2,8 @@
 # Display name
 name: Иван Трушин
 
+weight: 04
+
 # Username (this should match the folder name)
 authors:
 - trushin-iv
@@ -10,7 +12,7 @@ authors:
 superuser: true
 
 # Role/position
-role: должность
+role: 
 
 # Organizations/Affiliations
 organizations: []

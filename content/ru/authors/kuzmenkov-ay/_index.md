@@ -2,6 +2,8 @@
 # Display name
 name: Алексей Кузьменков
 
+weight: 03
+
 # Username (this should match the folder name)
 authors:
 - kuzmenkov-ay
@@ -10,7 +12,7 @@ authors:
 superuser: true
 
 # Role/position
-role: должность
+role: 
 
 # Organizations/Affiliations
 organizations: []
