@@ -46,6 +46,22 @@ hero_media = "amr-cloud-logo.png"
 # Note. An optional note to show underneath the links.
 # [cta_note]
 #  label = "Now AMRCloud works in test mode and access is granted by invite."
+
+# [cta_alt]
+#   url = "https://sourcethemes.com/academic/"
+#   label = "View Documentation"
+
+# Note. An optional note to show underneath the links.
+# [cta_note]
+#   label = '<a id="academic-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release <!-- V --></a>'
+
+[cta_terms]
+  url = "terms-of-use/20190926"
+  label = "Terms of Use"
+
+[cta_privacy]
+  url = "privacy-policy/20190926"
+  label = "Privacy Policy"
 +++
 
 **AntiMicrobial Resistance Cloud — это онлайн платформа для анализа и обмена данными антибиотикорезистентности.**

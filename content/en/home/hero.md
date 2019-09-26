@@ -46,6 +46,15 @@ hero_media = "amr-cloud-logo.png"
 # Note. An optional note to show underneath the links.
 # [cta_note]
 #  label = "Now AMRCloud works in test mode and access is granted by invite."
+
+[cta_terms]
+  url = "/terms-of-use/20190926"
+  label = "Terms of Use"
+
+[cta_privacy]
+  url = "/privacy-policy/20190926"
+  label = "Privacy Policy"
+
 +++
 
 **AntiMicrobial Resistance Cloud is a web platform for analysis and sharing of AMR surveillance data.**
