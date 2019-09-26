@@ -3,8 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/tutorials/example/</loc>
+    <lastmod>2019-07-03T00:44:31+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/tutorials/example/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/tutorials/example/"
+                />
+  </url>
+  
+  <url>
     <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/avramenko-aa/</loc>
-    <lastmod>2019-07-04T16:13:35+03:00</lastmod>
+    <lastmod>2019-07-05T15:45:09+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -19,7 +34,7 @@
   
   <url>
     <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/vinogradova-ag/</loc>
-    <lastmod>2019-07-04T16:13:35+03:00</lastmod>
+    <lastmod>2019-07-05T15:45:09+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -34,7 +49,7 @@
   
   <url>
     <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/kuzmenkov-ay/</loc>
-    <lastmod>2019-07-04T16:13:35+03:00</lastmod>
+    <lastmod>2019-07-05T15:45:09+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -49,7 +64,7 @@
   
   <url>
     <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/trushin-iv/</loc>
-    <lastmod>2019-07-04T16:13:35+03:00</lastmod>
+    <lastmod>2019-07-05T15:45:09+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -64,6 +79,7 @@
   
   <url>
     <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/edelstein-mv/</loc>
+    <lastmod>2019-07-05T15:45:09+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -78,8 +94,7 @@
   
   <url>
     <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/</loc>
-    <lastmod>2019-06-28T16:17:43+03:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2019-09-26T22:52:28+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -108,6 +123,36 @@
   </url>
   
   <url>
+    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/privacy-policy/20190926/</loc>
+    <lastmod>2019-09-26T22:52:28+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/privacy-policy/20190926/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/privacy-policy/20190926/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/terms-of-use/20190926/</loc>
+    <lastmod>2019-09-26T22:52:28+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/terms-of-use/20190926/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/terms-of-use/20190926/"
+                />
+  </url>
+  
+  <url>
     <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/admin/</loc>
     <lastmod>2019-07-03T00:44:31+03:00</lastmod>
     <xhtml:link
@@ -124,8 +169,6 @@
   
   <url>
     <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/</loc>
-    <lastmod>2019-07-04T16:13:35+03:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -140,7 +183,6 @@
   
   <url>
     <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/categories/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -170,7 +212,6 @@
   
   <url>
     <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/publication_types/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -215,7 +256,6 @@
   
   <url>
     <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/tags/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -240,6 +280,36 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/tutorials/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/privacy-policy/</loc>
+    <lastmod>2019-09-26T22:52:28+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/privacy-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/privacy-policy/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/terms-of-use/</loc>
+    <lastmod>2019-09-26T22:52:28+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/terms-of-use/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/terms-of-use/"
                 />
   </url>
   

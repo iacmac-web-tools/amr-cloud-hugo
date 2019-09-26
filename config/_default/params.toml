@@ -45,6 +45,9 @@ date_format = "2006-01-02"
 #   Examples: "3:04 pm" or "15:04"
 time_format = "15:04"
 
+# To user GDPR alert https://2gdpr.com/cookieconsent
+gdpr = true
+
 ############################
 ## Contact Widget setup   ##
 ############################

@@ -13,27 +13,84 @@
     
     
     <item>
-      <title>Example Talk</title>
-      <link>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/talk/example/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <title></title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/talk/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/publication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/publication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/talk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorials</title>
+      <link>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/tutorials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/tutorials/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Политика конфиденциальности</title>
+      <link>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/privacy-policy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Условия использования</title>
+      <link>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/terms-of-use/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/terms-of-use/</guid>
+      <description></description>
     </item>
     
   </channel>
