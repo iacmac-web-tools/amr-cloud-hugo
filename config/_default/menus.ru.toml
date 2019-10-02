@@ -33,10 +33,10 @@
   url = "#people"
   weight = 58
 
-[[main]]
-  name = "Партнеры"
-  url = "#partners"
-  weight = 59
+# [[main]]
+#  name = "Партнеры"
+#  url = "#partners"
+#  weight = 59
 
 [[main]]
   name = "Контакты"
