@@ -45,11 +45,16 @@
         {{ end }}
       <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} class="hero-cta-alt pl-4">{{ $page.Params.cta_alt.label | markdownify | emojify | safeHTML }} <i class="fas fa-angle-right"></i></a>
       {{ end }}
+    </p>
       {{ with $page.Params.cta_privacy }}
-      <a href="{{ .url | relLangURL }}" class="hero-cta-alt pl-4">{{ .label | markdownify | emojify | safeHTML }} <i class="fas fa-angle-right"></i></a>
+      <p class="cta-btns">
+      <a href="{{ .url | relLangURL }}" class="hero-cta-alt">{{ .label | markdownify | emojify | safeHTML }} <i class="fas fa-angle-right"></i></a>
+      </p>
       {{ end }}
       {{ with $page.Params.cta_terms }}
-      <a href="{{ .url | relLangURL }}" class="hero-cta-alt pl-4">{{ .label | markdownify | emojify | safeHTML }} <i class="fas fa-angle-right"></i></a>
+      <p class="cta-btns">
+      <a href="{{ .url | relLangURL }}" class="hero-cta-alt">{{ .label | markdownify | emojify | safeHTML }} <i class="fas fa-angle-right"></i></a>
+    </p>
       {{ end }}
 
     </p>

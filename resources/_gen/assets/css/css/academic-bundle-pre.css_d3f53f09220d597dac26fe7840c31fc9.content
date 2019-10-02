@@ -1,1 +1,1 @@
-.logo-container{margin-top:2em}.home-section{background-color:#fff;padding:50px 0;animation:intro .3s both;animation-delay:0s;animation-delay:.15s}.site-footer{margin:0;padding:1rem 0;width:100%}
+.logo-container{margin-top:2em}.home-section{background-color:#fff;padding:50px 0;animation:intro .3s both;animation-delay:0s;animation-delay:.15s}.site-footer{margin:0;padding:1rem 0;width:100%}.article-container{max-width:960px}a.hero-cta-alt{font-size:1rem}

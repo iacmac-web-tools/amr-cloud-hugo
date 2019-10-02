@@ -34,7 +34,7 @@ hero_media = "amr-cloud-logo.png"
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "http://amrcloud.net/"
+  url = "https://app.amrcloud.net/"
   label = "Войти"
   icon_pack = "fas"
   icon = "sign-in-alt"
@@ -57,11 +57,11 @@ hero_media = "amr-cloud-logo.png"
 
 [cta_terms]
   url = "terms-of-use/20190926"
-  label = "Terms of Use"
+  label = "Условия использования"
 
 [cta_privacy]
   url = "privacy-policy/20190926"
-  label = "Privacy Policy"
+  label = "Политика конфиденциальности"
 +++
 
 **AntiMicrobial Resistance Cloud — это онлайн платформа для анализа и обмена данными антибиотикорезистентности.**
