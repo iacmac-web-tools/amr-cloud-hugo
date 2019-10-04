@@ -17,7 +17,7 @@ baseurl = "https://amrcloud.net"
 copyright = "AMRcloud"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-85066436-14"
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
