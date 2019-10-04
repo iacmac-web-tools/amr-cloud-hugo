@@ -77,7 +77,7 @@
 - id: date
   translation: Дата
 - id: last_updated
-  translation: Last updated on
+  translation: Обновлено
 - id: event
   translation: Событие
 - id: location
