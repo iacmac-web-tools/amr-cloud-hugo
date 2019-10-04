@@ -123,8 +123,8 @@
 - id: 404_recommendations
   translation: Возможно вы искали следующее?
 - id: cookie_message
-  translation: This website uses cookies to ensure you get the best experience on our website.
+  translation: На нашем сайте включены cookies, потому что мы используем услуги Google Analytics.
 - id: cookie_dismiss
-  translation: Got it!
+  translation: Понятно
 - id: cookie_learn
-  translation: Learn more
+  translation: Узнать больше...
