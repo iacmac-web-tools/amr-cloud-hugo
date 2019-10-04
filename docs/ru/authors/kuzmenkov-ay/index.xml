@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AMRcloud</title>
-    <link>https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/kuzmenkov-ay/</link>
+    <link>https://amrcloud.net/ru/authors/kuzmenkov-ay/</link>
     <description>Recent content on AMRcloud</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>ru-ru</language>
     <copyright>AMRcloud</copyright>
     
-	    <atom:link href="https://iacmac-web-tools.github.io/amr-cloud-hugo/ru/authors/kuzmenkov-ay/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://amrcloud.net/ru/authors/kuzmenkov-ay/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

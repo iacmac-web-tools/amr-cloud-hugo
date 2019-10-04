@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AMRcloud</title>
-    <link>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/</link>
+    <link>https://amrcloud.net/en/</link>
     <description>Recent content on AMRcloud</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>AMRcloud</copyright>
     <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://iacmac-web-tools.github.io/amr-cloud-hugo/en/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://amrcloud.net/en/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Example Talk</title>
-      <link>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/talk/example/</link>
+      <link>https://amrcloud.net/en/talk/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
       
-      <guid>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/talk/example/</guid>
+      <guid>https://amrcloud.net/en/talk/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -38,10 +38,10 @@
     
     <item>
       <title>Privacy Policy</title>
-      <link>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/privacy-policy/20190926/</link>
+      <link>https://amrcloud.net/en/privacy-policy/20190926/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/privacy-policy/20190926/</guid>
+      <guid>https://amrcloud.net/en/privacy-policy/20190926/</guid>
       <description>
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -150,10 +150,10 @@
     
     <item>
       <title>Terms of Use</title>
-      <link>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/terms-of-use/20190926/</link>
+      <link>https://amrcloud.net/en/terms-of-use/20190926/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://iacmac-web-tools.github.io/amr-cloud-hugo/en/terms-of-use/20190926/</guid>
+      <guid>https://amrcloud.net/en/terms-of-use/20190926/</guid>
       <description>
 
 &lt;h2 id=&#34;use-of-amrcloud&#34;&gt;Use of AMRcloud&lt;/h2&gt;
