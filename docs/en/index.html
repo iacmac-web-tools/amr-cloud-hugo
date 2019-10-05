@@ -95,7 +95,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.88260a5fc487bbe881db1420bc14cd25.css">
+    <link rel="stylesheet" href="/css/academic.0c6a16bbc9c8bac4c0ac770307a9684e.css">
   
 
   
@@ -438,6 +438,37 @@
 
 
 
+<script>
+    function openSplash() {
+        document.getElementById("mySplash").style.width = "100%";
+        $.ajax({
+            url: "https://app.amrcloud.net",
+            type: 'GET',
+            crossDomain : true,
+            success: function (data) {
+                setTimeout(goToApp, 2000);
+            },
+            error: function (data) { 
+                setTimeout(goToApp, 8000);
+            }
+        });
+    }
+
+    function goToApp(){
+        window.location = "https://app.amrcloud.net"
+    }
+</script>
+
+<div id="mySplash" class="overlay">
+    <div class="overlay-content">
+        <div class="container">
+            <div class="text-center">
+                <div class="loader d-block mx-auto mb-4"></div>
+                <h3> Please, wait, your personal container is opening</h3>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="row">
   <div class="col-md-6 order-md-1 text-center text-md-left">
@@ -466,8 +497,8 @@
         
       
     <p class="cta-btns">
-      <a href="https://app.amrcloud.net/app_direct/AMRcloud_en" target="_blank" rel="noopener" class="btn btn-light btn-lg"><i class="fas fa-sign-in-alt pr-1" aria-hidden="true"></i>Log in</a>
-
+      
+      <a href="javascript:void(0)" class="btn btn-light btn-lg"  onclick="openSplash()"><i class="fas fa-sign-in-alt pr-1" aria-hidden="true"></i>Log in</a>
       
       
     </p>

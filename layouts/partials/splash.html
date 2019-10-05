@@ -1,0 +1,32 @@
+{{ $page := .page }}
+<script>
+    function openSplash() {
+        document.getElementById("mySplash").style.width = "100%";
+        $.ajax({
+            url: "https://app.amrcloud.net",
+            type: 'GET',
+            crossDomain : true,
+            success: function (data) {
+                setTimeout(goToApp, 2000);
+            },
+            error: function (data) { 
+                setTimeout(goToApp, 8000);
+            }
+        });
+    }
+
+    function goToApp(){
+        window.location = "https://app.amrcloud.net"
+    }
+</script>
+
+<div id="mySplash" class="overlay">
+    <div class="overlay-content">
+        <div class="container">
+            <div class="text-center">
+                <div class="loader d-block mx-auto mb-4"></div>
+                <h3> {{ $page.Params.splash_msg }}</h3>
+            </div>
+        </div>
+    </div>
+</div>

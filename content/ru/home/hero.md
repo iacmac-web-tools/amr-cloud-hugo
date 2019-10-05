@@ -6,6 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
 title = "AMRcloud"
+splash_msg = "Пожалуйста подождите, для вас создается контейнер"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 hero_media = "amr-cloud-logo.png"
