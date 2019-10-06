@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
 title = "AMRcloud"
-splash_msg = "Please, wait, your personal container is opening"
+splash_msg = "Please, wait, we are preparing a personal workspace for you"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 hero_media = "amr-cloud-logo.png"
