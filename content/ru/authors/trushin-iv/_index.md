@@ -1,6 +1,7 @@
 ---
 # Display name
 name: Иван Трушин
+title: Иван Трушин
 
 weight: 04
 
@@ -15,9 +16,10 @@ superuser: true
 role: 
 
 # Organizations/Affiliations
-organizations: []
-# - name: Stanford University
-  # url: ""
+organizations:
+- name: Научно-исследовательский институт антимикробной химиотерапии, ФГБОУ ВО "Смоленский государственный медицинский университет" Министерства здравоохранения Российской Федерации
+  url: "http://www.antibiotic.ru/iac.php"
+  post: "Младший научный сотрудник"
 
 # Short bio (displayed in user profile at end of posts)
 bio: ""

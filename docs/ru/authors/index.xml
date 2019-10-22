@@ -7,12 +7,13 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>ru-ru</language>
     <copyright>AMRcloud</copyright>
+    <lastBuildDate>Thu, 10 Oct 2019 00:04:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://amrcloud.net/ru/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
+      <title>Андрей Авраменко</title>
       <link>https://amrcloud.net/ru/authors/avramenko-aa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -25,7 +26,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
     </item>
     
     <item>
-      <title></title>
+      <title>Алина Виноградова</title>
       <link>https://amrcloud.net/ru/authors/vinogradova-ag/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -38,7 +39,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
     </item>
     
     <item>
-      <title></title>
+      <title>Алексей Кузьменков</title>
       <link>https://amrcloud.net/ru/authors/kuzmenkov-ay/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -51,7 +52,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
     </item>
     
     <item>
-      <title></title>
+      <title>Иван Трушин</title>
       <link>https://amrcloud.net/ru/authors/trushin-iv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -64,7 +65,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
     </item>
     
     <item>
-      <title></title>
+      <title>Михаил Эйдельштейн</title>
       <link>https://amrcloud.net/ru/authors/edelstein-mv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -77,9 +78,72 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
     </item>
     
     <item>
+      <title>Авраменко А.А.</title>
+      <link>https://amrcloud.net/ru/authors/%D0%B0%D0%B2%D1%80%D0%B0%D0%BC%D0%B5%D0%BD%D0%BA%D0%BE-%D0%B0.%D0%B0./</link>
+      <pubDate>Thu, 10 Oct 2019 00:04:00 +0000</pubDate>
+      
+      <guid>https://amrcloud.net/ru/authors/%D0%B0%D0%B2%D1%80%D0%B0%D0%BC%D0%B5%D0%BD%D0%BA%D0%BE-%D0%B0.%D0%B0./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Виноградова А.Г.</title>
+      <link>https://amrcloud.net/ru/authors/%D0%B2%D0%B8%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D0%BE%D0%B2%D0%B0-%D0%B0.%D0%B3./</link>
+      <pubDate>Thu, 10 Oct 2019 00:04:00 +0000</pubDate>
+      
+      <guid>https://amrcloud.net/ru/authors/%D0%B2%D0%B8%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D0%BE%D0%B2%D0%B0-%D0%B0.%D0%B3./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Дехнич А.В.</title>
+      <link>https://amrcloud.net/ru/authors/%D0%B4%D0%B5%D1%85%D0%BD%D0%B8%D1%87-%D0%B0.%D0%B2./</link>
+      <pubDate>Thu, 10 Oct 2019 00:04:00 +0000</pubDate>
+      
+      <guid>https://amrcloud.net/ru/authors/%D0%B4%D0%B5%D1%85%D0%BD%D0%B8%D1%87-%D0%B0.%D0%B2./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Козлов Р.С.</title>
+      <link>https://amrcloud.net/ru/authors/%D0%BA%D0%BE%D0%B7%D0%BB%D0%BE%D0%B2-%D1%80.%D1%81./</link>
+      <pubDate>Thu, 10 Oct 2019 00:04:00 +0000</pubDate>
+      
+      <guid>https://amrcloud.net/ru/authors/%D0%BA%D0%BE%D0%B7%D0%BB%D0%BE%D0%B2-%D1%80.%D1%81./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Кузьменков А.Ю.</title>
+      <link>https://amrcloud.net/ru/authors/%D0%BA%D1%83%D0%B7%D1%8C%D0%BC%D0%B5%D0%BD%D0%BA%D0%BE%D0%B2-%D0%B0.%D1%8E./</link>
+      <pubDate>Thu, 10 Oct 2019 00:04:00 +0000</pubDate>
+      
+      <guid>https://amrcloud.net/ru/authors/%D0%BA%D1%83%D0%B7%D1%8C%D0%BC%D0%B5%D0%BD%D0%BA%D0%BE%D0%B2-%D0%B0.%D1%8E./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Трушин И.В.</title>
+      <link>https://amrcloud.net/ru/authors/%D1%82%D1%80%D1%83%D1%88%D0%B8%D0%BD-%D0%B8.%D0%B2./</link>
+      <pubDate>Thu, 10 Oct 2019 00:04:00 +0000</pubDate>
+      
+      <guid>https://amrcloud.net/ru/authors/%D1%82%D1%80%D1%83%D1%88%D0%B8%D0%BD-%D0%B8.%D0%B2./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Эйдельштейн М.В.</title>
+      <link>https://amrcloud.net/ru/authors/%D1%8D%D0%B9%D0%B4%D0%B5%D0%BB%D1%8C%D1%88%D1%82%D0%B5%D0%B9%D0%BD-%D0%BC.%D0%B2./</link>
+      <pubDate>Thu, 10 Oct 2019 00:04:00 +0000</pubDate>
+      
+      <guid>https://amrcloud.net/ru/authors/%D1%8D%D0%B9%D0%B4%D0%B5%D0%BB%D1%8C%D1%88%D1%82%D0%B5%D0%B9%D0%BD-%D0%BC.%D0%B2./</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title></title>
       <link>https://amrcloud.net/ru/authors/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://amrcloud.net/ru/authors/admin/</guid>
       <description>&lt;!-- 

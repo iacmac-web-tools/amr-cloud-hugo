@@ -1,6 +1,7 @@
 ---
 # Display name
-name: Михаил Эдельштейн
+name: Михаил Эйдельштейн
+title: Михаил Эйдельштейн
 
 weight: 05
 
@@ -13,11 +14,13 @@ superuser: true
 
 # Role/position
 role: ""
+regalia: кандидат биологических наук
 
 # Organizations/Affiliations
-organizations: []
-# - name: Stanford University
-  # url: ""
+organizations:
+- name: Научно-исследовательский институт антимикробной химиотерапии, ФГБОУ ВО "Смоленский государственный медицинский университет" Министерства здравоохранения Российской Федерации
+  url: "http://www.antibiotic.ru/iac.php"
+  post: "Заведующий лабораторией"
 
 # Short bio (displayed in user profile at end of posts)
 bio: ""

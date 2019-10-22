@@ -1,6 +1,7 @@
 ---
 # Display name
 name: Алина Виноградова
+title: Алина Виноградова
 
 weight: 02
 
@@ -14,11 +15,10 @@ superuser: true
 # Role/position
 role: 
 
-# Organizations/Affiliations
-organizations: []
-# - name: Stanford University
-  # url: ""
-
+organizations:
+- name: Научно-исследовательский институт антимикробной химиотерапии, ФГБОУ ВО "Смоленский государственный медицинский университет" Министерства здравоохранения Российской Федерации
+  url: "http://www.antibiotic.ru/iac.php"
+  post: "Научный сотрудник"
 # Short bio (displayed in user profile at end of posts)
 bio: ""
 

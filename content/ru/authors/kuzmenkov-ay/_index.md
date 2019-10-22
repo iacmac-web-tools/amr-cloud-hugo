@@ -1,6 +1,7 @@
 ---
 # Display name
 name: Алексей Кузьменков
+title: Алексей Кузьменков
 
 weight: 03
 
@@ -13,11 +14,13 @@ superuser: true
 
 # Role/position
 role: 
+regalia: кандидат медицинских наук
 
 # Organizations/Affiliations
-organizations: []
-# - name: Stanford University
-  # url: ""
+organizations:
+- name: Научно-исследовательский институт антимикробной химиотерапии, ФГБОУ ВО "Смоленский государственный медицинский университет" Министерства здравоохранения Российской Федерации
+  url: "http://www.antibiotic.ru/iac.php"
+  post: "Заместитель Директора"
 
 # Short bio (displayed in user profile at end of posts)
 bio: ""

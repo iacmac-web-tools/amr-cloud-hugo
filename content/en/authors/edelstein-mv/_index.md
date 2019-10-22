@@ -1,6 +1,7 @@
 ---
 # Display name
-name: Michael Edelstein
+name: Mikhail Edelstein
+title: Mikhail Edelstein
 
 # Username (this should match the folder name)
 authors:
@@ -12,10 +13,13 @@ superuser: true
 # Role/position
 role: ""
 
+regalia: PhD
+
 # Organizations/Affiliations
-organizations: []
-# - name: Stanford University
-  # url: ""
+organizations:
+- name: Institute of Antimicrobial Chemotherapy (IAC) of the Smolensk State Medical University of Ministry of Health of Russian Federation
+  url: "http://www.antibiotic.ru/iac.php"
+  post: "Head Laboratory of Antimicrobial Resistance"
 
 # Short bio (displayed in user profile at end of posts)
 bio: ""

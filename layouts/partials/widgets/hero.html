@@ -32,18 +32,29 @@
       {{ end }}
     <p class="cta-btns">
       <!-- <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} class="btn {{if $bg.text_color_light}}btn-light{{else}}btn-primary{{end}} btn-lg">{{ if $page.Params.cta.icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ $page.Params.cta.icon }} pr-1" aria-hidden="true"></i>{{end}}{{ $page.Params.cta.label | markdownify | emojify | safeHTML }}</a> -->
-      <a href="javascript:void(0)" class="btn {{if $bg.text_color_light}}btn-light{{else}}btn-primary{{end}} btn-lg"  onclick="openSplash()">{{ if $page.Params.cta.icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ $page.Params.cta.icon }} pr-1" aria-hidden="true"></i>{{end}}{{ $page.Params.cta.label | markdownify | emojify | safeHTML }}</a>
+      <a href="javascript:void(0)" class="btn btn-cta {{if $bg.text_color_light}}btn-light{{else}}btn-primary{{end}} btn-lg" role="button"  onclick="openSplash()">
+        {{ if $page.Params.cta.icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ $page.Params.cta.icon }} pr-1" aria-hidden="true"></i>{{end}}
+        {{ $page.Params.cta.label | markdownify | emojify | safeHTML }}
+      </a>
       {{/* Alternative Call-to-action link */}}
-      {{ if $page.Params.cta_alt.url }}
-        {{ $link := $page.Params.cta_alt.url }}
-        {{ $scheme := (urls.Parse $link).Scheme }}
-        {{ $target := "" }}
-        {{ if not $scheme }}
-          {{ $link = $link | relLangURL }}
-        {{ else if in (slice "http" "https") $scheme }}
-          {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+      {{ if $page.Params.cta_alt }}
+        {{ $pack_alt := or $page.Params.cta_alt.icon_pack "fas" }}
+        {{ $pack_prefix_alt := $pack_alt }}
+        {{ if in (slice "fab" "fas" "far" "fal") $pack_alt }}
+          {{ $pack_prefix_alt = "fa" }}
         {{ end }}
-      <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} class="hero-cta-alt pl-4">{{ $page.Params.cta_alt.label | markdownify | emojify | safeHTML }} <i class="fas fa-angle-right"></i></a>
+        {{ $link_alt := $page.Params.cta_alt.url }}
+        {{ $scheme_alt := (urls.Parse $link_alt).Scheme }}
+        {{ $target_alt := "" }}
+        {{ if not $scheme_alt }}
+          {{ $link_alt = $link_alt | relLangURL }}
+        {{ else if in (slice "http" "https") $scheme_alt }}
+          {{ $target_alt = "target=\"_blank\" rel=\"noopener\"" }}
+        {{ end }}
+      <a href="{{ $link_alt | safeURL }}" {{ $target_alt | safeHTMLAttr }} class="btn btn-cta-alt {{if $bg.text_color_light}}btn-outline-light{{else}}btn-primary{{end}} btn-lg">
+        {{ if $page.Params.cta_alt.icon }}<i class="{{ $pack_alt }} {{ $pack_prefix_alt }}-{{ $page.Params.cta_alt.icon }} pr-1" aria-hidden="true"></i>{{end}}
+        {{ $page.Params.cta_alt.label | markdownify | emojify | safeHTML }}
+      </a>
       {{ end }}
     </p>
       {{ with $page.Params.cta_privacy }}

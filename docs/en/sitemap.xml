@@ -48,6 +48,101 @@
   </url>
   
   <url>
+    <loc>https://amrcloud.net/en/publication_types/2/</loc>
+    <lastmod>2019-10-10T00:04:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/publication_types/2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/publication_types/2/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/</loc>
+    <lastmod>2019-10-10T00:04:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/publication/cmac-2019-t21-n2-p119/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/authors/</loc>
+    <lastmod>2019-10-10T00:04:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/authors/avramenko-a.a./</loc>
+    <lastmod>2019-10-10T00:04:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/authors/dekhnich-a.v./</loc>
+    <lastmod>2019-10-10T00:04:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/authors/edelstein-m.v./</loc>
+    <lastmod>2019-10-10T00:04:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/authors/kozlov-r.s./</loc>
+    <lastmod>2019-10-10T00:04:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/authors/kuzmenkov-a.y./</loc>
+    <lastmod>2019-10-10T00:04:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/publication_types/</loc>
+    <lastmod>2019-10-10T00:04:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/publication_types/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/authors/trushin-i.v./</loc>
+    <lastmod>2019-10-10T00:04:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/authors/vinogradova-a.g./</loc>
+    <lastmod>2019-10-10T00:04:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://amrcloud.net/en/privacy-policy/20190926/</loc>
     <lastmod>2019-09-30T22:03:20+03:00</lastmod>
     <xhtml:link
@@ -78,6 +173,21 @@
   </url>
   
   <url>
+    <loc>https://amrcloud.net/en/post/invite-register/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/post/invite-register/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/post/invite-register/"
+                />
+  </url>
+  
+  <url>
     <loc>https://amrcloud.net/en/authors/admin/</loc>
     <lastmod>2019-07-02T22:32:59+03:00</lastmod>
     <xhtml:link
@@ -89,36 +199,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://amrcloud.net/en/authors/admin/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/en/authors/avramenko-aa/</loc>
-    <lastmod>2019-07-05T15:45:09+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/authors/avramenko-aa/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/authors/avramenko-aa/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/en/authors/edelstein-mv/</loc>
-    <lastmod>2019-07-05T15:45:09+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/authors/edelstein-mv/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/authors/edelstein-mv/"
                 />
   </url>
   
@@ -138,21 +218,6 @@
   </url>
   
   <url>
-    <loc>https://amrcloud.net/en/authors/trushin-iv/</loc>
-    <lastmod>2019-07-05T15:45:09+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/authors/trushin-iv/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/authors/trushin-iv/"
-                />
-  </url>
-  
-  <url>
     <loc>https://amrcloud.net/en/authors/vinogradova-ag/</loc>
     <lastmod>2019-07-05T15:45:09+03:00</lastmod>
     <xhtml:link
@@ -168,16 +233,17 @@
   </url>
   
   <url>
-    <loc>https://amrcloud.net/en/authors/</loc>
+    <loc>https://amrcloud.net/en/authors/avramenko-aa/</loc>
+    <lastmod>2019-07-05T15:45:09+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://amrcloud.net/ru/authors/"
+                href="https://amrcloud.net/ru/authors/avramenko-aa/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://amrcloud.net/en/authors/"
+                href="https://amrcloud.net/en/authors/avramenko-aa/"
                 />
   </url>
   
@@ -192,6 +258,36 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://amrcloud.net/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/authors/trushin-iv/</loc>
+    <lastmod>2019-07-05T15:45:09+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/authors/trushin-iv/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/authors/trushin-iv/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/authors/edelstein-mv/</loc>
+    <lastmod>2019-07-05T15:45:09+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/authors/edelstein-mv/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/authors/edelstein-mv/"
                 />
   </url>
   
@@ -222,20 +318,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://amrcloud.net/en/privacy-policy/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/en/publication_types/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/publication_types/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/publication_types/"
                 />
   </url>
   

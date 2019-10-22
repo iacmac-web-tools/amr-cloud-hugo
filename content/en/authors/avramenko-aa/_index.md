@@ -1,6 +1,7 @@
 ---
 # Display name
 name: Andrey Avramenko
+title: Andrey Avramenko
 
 # Username (this should match the folder name)
 authors:
@@ -13,9 +14,10 @@ superuser: true
 role: ""
 
 # Organizations/Affiliations
-organizations: []
-# - name: Stanford University
-  # url: ""
+organizations:
+- name: Institute of Antimicrobial Chemotherapy (IAC) of the Smolensk State Medical University of Ministry of Health of Russian Federation
+  url: "http://www.antibiotic.ru/iac.php"
+  post: "Research associate"
 
 # Short bio (displayed in user profile at end of posts)
 bio: ""

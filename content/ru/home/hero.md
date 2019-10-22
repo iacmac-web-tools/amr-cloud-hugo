@@ -40,9 +40,11 @@ hero_media = "amr-cloud-logo.png"
   icon_pack = "fas"
   icon = "sign-in-alt"
 
-# [cta_alt]
-#  url = "http://amrcloud.net/"
-#  label = "Register"
+[cta_alt]
+  url = "post/invite-register"
+  label = "Регистрация"
+  icon_pack = "fas"
+  icon = "user-plus"
 
 # Note. An optional note to show underneath the links.
 # [cta_note]
