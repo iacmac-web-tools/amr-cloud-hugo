@@ -13,8 +13,8 @@ draft: false
 
 ---
 
-Currently registration in AMRcloud is allowed only after a personal request to <a href="mailto:support@antibiotic.ru">support@antibiotic.ru</a>.
+Currently registration in AMRcloud is allowed after a personal request to <a href="mailto:support@antibiotic.ru">support@antibiotic.ru</a> only.
 
-In the letter please specify your occupation and speciality, as well as the organization you represent, if any.
+Please, specify your name, occupation, speciality, and organization you represent (if any) in your request letter.
 
-The administration of AMRcloud will consider your application and answer you soon.
+The administration of AMRcloud will consider your application and will respond to you soon.
