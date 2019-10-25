@@ -17,4 +17,4 @@ Currently registration in AMRcloud is allowed after a personal request to <a hre
 
 Please, specify your name, occupation, speciality, and organization you represent (if any) in your request letter.
 
-The administration of AMRcloud will consider your application and will respond to you soon.
+The AMRcloud Administration will consider your application and will respond to you soon.
