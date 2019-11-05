@@ -9,7 +9,7 @@ title = "AMRcloud"
 splash_msg = "Пожалуйста подождите, мы создаем для вас рабочую среду"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "amr-cloud-logo-halloween.png"
+hero_media = "amr-cloud-logo.png"
 
 [design.background]
   # Apply a background color, gradient, or image.
