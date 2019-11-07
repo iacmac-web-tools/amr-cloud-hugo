@@ -4,12 +4,12 @@
   
   <url>
     <loc>https://amrcloud.net/ru/tutorials/import-data/</loc>
-    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-07T18:12:01+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://amrcloud.net/ru/tutorials/import-data/01-prepare/</loc>
-    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-07T18:12:01+03:00</lastmod>
   </url>
   
   <url>
@@ -29,7 +29,7 @@
   
   <url>
     <loc>https://amrcloud.net/ru/tutorials/import-data/02-project-and-dataset/</loc>
-    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-07T18:12:01+03:00</lastmod>
   </url>
   
   <url>
@@ -49,7 +49,7 @@
   
   <url>
     <loc>https://amrcloud.net/ru/tutorials/import-data/03-recomendations-table/</loc>
-    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-07T18:12:01+03:00</lastmod>
   </url>
   
   <url>
@@ -69,7 +69,7 @@
   
   <url>
     <loc>https://amrcloud.net/ru/tutorials/import-data/04-upload-file/</loc>
-    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-07T18:12:01+03:00</lastmod>
   </url>
   
   <url>
@@ -89,7 +89,7 @@
   
   <url>
     <loc>https://amrcloud.net/ru/tutorials/import-data/05-identification/</loc>
-    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-07T18:12:01+03:00</lastmod>
   </url>
   
   <url>
@@ -109,22 +109,22 @@
   
   <url>
     <loc>https://amrcloud.net/ru/tutorials/import-data/06-geocode/</loc>
-    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-07T18:12:01+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://amrcloud.net/ru/tutorials/import-data/07-interpretation/</loc>
-    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-07T18:12:01+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://amrcloud.net/ru/tutorials/import-data/08-description/</loc>
-    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-07T18:12:01+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://amrcloud.net/ru/</loc>
-    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-07T18:12:01+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -367,17 +367,7 @@
   
   <url>
     <loc>https://amrcloud.net/ru/tutorials/</loc>
-    <lastmod>2019-07-03T00:44:31+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/tutorials/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/tutorials/"
-                />
+    <lastmod>2019-11-07T18:12:01+03:00</lastmod>
   </url>
   
   <url>

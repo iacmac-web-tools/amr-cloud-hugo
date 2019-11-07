@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://amrcloud.net/en/tutorials/example/</loc>
-    <lastmod>2019-07-03T00:44:31+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://amrcloud.net/en/</loc>
     <lastmod>2019-10-25T10:44:53+03:00</lastmod>
     <xhtml:link
@@ -367,21 +362,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://amrcloud.net/en/terms-of-use/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/en/tutorials/</loc>
-    <lastmod>2019-07-03T00:44:31+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/tutorials/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/tutorials/"
                 />
   </url>
   
