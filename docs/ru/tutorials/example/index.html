@@ -31,8 +31,6 @@
   <meta name="description" content="Learn how to use Academic&#39;s docs layout for publishing online courses, software documentation, and tutorials.">
 
   
-  <link rel="alternate" hreflang="en" href="https://amrcloud.net/en/tutorials/example/">
-  
   <link rel="alternate" hreflang="ru-ru" href="https://amrcloud.net/ru/tutorials/example/">
 
   
@@ -84,7 +82,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.257a17974a90488a98e8ae4e5c165b03.css">
+  <link rel="stylesheet" href="/css/academic.min.0048c0cde5b19476bda61a1524b12b84.css">
 
   
     
@@ -95,7 +93,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.ae843b62a3befe751e52b557f45ea1f9.css">
+    <link rel="stylesheet" href="/css/academic.c6a23e0eafb8fb12b72c26498c416b54.css">
   
 
   
@@ -283,6 +281,28 @@
         
         
         
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/ru/tutorials/"><span>Начало работы</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
           
           
           
@@ -356,22 +376,6 @@
         
 
         
-        <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
-            <i class="fas fa-globe" aria-hidden="true"></i>
-            <span>Русский</span>
-          </a>
-          <ul class="dropdown-menu">
-            
-            <li class="dropdown-item my-0 py-0 mx-0 px-0">
-              <a href="https://amrcloud.net/en/tutorials/example/">
-                <span>English</span>
-              </a>
-            </li>
-            
-          </ul>
-        </li>
-        
 
         
 
@@ -411,6 +415,23 @@
 
   </div>
   
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/ru/tutorials/example/example1/">Example Topic</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/ru/tutorials/example/example1/">Tips 1-2</a>
+      </li>
+      
+      <li >
+        <a href="/ru/tutorials/example/example2/">Tips 3-4</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
   
 </nav>
 
@@ -419,10 +440,20 @@
     
     <div class="d-none d-xl-block col-xl-2 docs-toc">
       <ul class="nav toc-top">
-        <li><a href="#" id="back_to_top" class="docs-toc-title">On this page</a></li>
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Содержание</a></li>
       </ul>
 
-      
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#flexibility">Flexibility</a></li>
+<li><a href="#delete-tutorials">Delete tutorials</a></li>
+<li><a href="#update-site-menu">Update site menu</a></li>
+<li><a href="#update-the-docs-menu">Update the docs menu</a></li>
+</ul></li>
+</ul>
+</nav>
 
       
     </div>
@@ -434,20 +465,67 @@
 
         <div class="docs-article-container">
           <h1 itemprop="name">Overview</h1>
-
+         
           <div class="article-style" itemprop="articleBody">
             
+
+<h2 id="flexibility">Flexibility</h2>
+
+<p>This feature can be used for publishing content such as:</p>
+
+<ul>
+<li><strong>Online courses</strong></li>
+<li><strong>Project or software documentation</strong></li>
+<li><strong>Tutorials</strong></li>
+</ul>
+
+<p>The <code>courses</code> folder may be renamed. For example, we can rename it to <code>docs</code> for software/project documentation or <code>tutorials</code> for creating an online course.</p>
+
+<h2 id="delete-tutorials">Delete tutorials</h2>
+
+<p><strong>To remove these pages, delete the <code>courses</code> folder and see below to delete the associated menu link.</strong></p>
+
+<h2 id="update-site-menu">Update site menu</h2>
+
+<p>After renaming or deleting the <code>courses</code> folder, you may wish to update any <code>[[main]]</code> menu links to it by editing your menu configuration at <code>config/_default/menus.toml</code>.</p>
+
+<p>For example, if you delete this folder, you can remove the following from your menu configuration:</p>
+
+<pre><code class="language-toml">[[main]]
+  name = &quot;Courses&quot;
+  url = &quot;courses/&quot;
+  weight = 50
+</code></pre>
+
+<p>Or, if you are creating a software documentation site, you can rename the <code>courses</code> folder to <code>docs</code> and update the associated <em>Courses</em> menu configuration to:</p>
+
+<pre><code class="language-toml">[[main]]
+  name = &quot;Docs&quot;
+  url = &quot;docs/&quot;
+  weight = 50
+</code></pre>
+
+<h2 id="update-the-docs-menu">Update the docs menu</h2>
+
+<p>If you use the <em>docs</em> layout, note that the name of the menu in the front matter should be in the form <code>[menu.X]</code> where <code>X</code> is the folder name. Hence, if you rename the <code>courses/example/</code> folder, you should also rename the menu definitions in the front matter of files within <code>courses/example/</code> from <code>[menu.example]</code> to <code>[menu.&lt;NewFolderName&gt;]</code>.</p>
+
           </div>
 
           
 
 
+         
 
           
           <div class="article-widget">
             
-<div class="post-nav">
+<div class="post-nav d-flex justify-content-between">
   
+  <div class="body-footer-extended">
+    <p>Обновлено 2019-11-07</p>
+
+    
+  </div>
   
 </div>
 
@@ -455,11 +533,7 @@
           
         </div>
 
-        <div class="body-footer">
-          <p>Обновлено 2019-07-03</p>
-
-          
-        </div>
+       
 
       </article>
 
@@ -477,7 +551,7 @@
   </p>
 </footer>
 
-
+      
     </main>
   </div>
 </div>
