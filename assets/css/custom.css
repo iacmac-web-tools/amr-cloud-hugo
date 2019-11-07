@@ -20,6 +20,10 @@
   max-width: 960px;
 }
 
+.docs-article-container {
+  max-width: 1024px;
+}
+
 a.hero-cta-alt {
   font-size: 1rem;
 }
@@ -141,4 +145,28 @@ div.doi > a {
 
 div.doi > small {
   vertical-align: middle; 
+}
+
+.post-nav-item-left {
+  width: auto;
+  text-align: left;
+}
+
+.post-nav-item-right {
+  width: auto;
+  text-align: right;
+}
+
+
+.docs .body-footer-extended {
+margin-top: 30px;
+padding-top: 10px;
+font-size: 0.75em;
+color: #707070;
+width: auto;
+}
+
+.post-nav { 
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
 }

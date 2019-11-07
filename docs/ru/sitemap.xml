@@ -3,18 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://amrcloud.net/ru/tutorials/example/</loc>
-    <lastmod>2019-07-03T00:44:31+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/tutorials/example/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/tutorials/example/"
-                />
+    <loc>https://amrcloud.net/ru/tutorials/import-data/</loc>
+    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/tutorials/import-data/01-prepare/</loc>
+    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -33,6 +28,11 @@
   </url>
   
   <url>
+    <loc>https://amrcloud.net/ru/tutorials/import-data/02-project-and-dataset/</loc>
+    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://amrcloud.net/ru/authors/vinogradova-ag/</loc>
     <lastmod>2019-10-22T17:47:35+03:00</lastmod>
     <xhtml:link
@@ -45,6 +45,11 @@
                 hreflang="ru"
                 href="https://amrcloud.net/ru/authors/vinogradova-ag/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/tutorials/import-data/03-recomendations-table/</loc>
+    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -63,6 +68,11 @@
   </url>
   
   <url>
+    <loc>https://amrcloud.net/ru/tutorials/import-data/04-upload-file/</loc>
+    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://amrcloud.net/ru/authors/trushin-iv/</loc>
     <lastmod>2019-10-22T17:47:35+03:00</lastmod>
     <xhtml:link
@@ -75,6 +85,11 @@
                 hreflang="ru"
                 href="https://amrcloud.net/ru/authors/trushin-iv/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/tutorials/import-data/05-identification/</loc>
+    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -93,8 +108,23 @@
   </url>
   
   <url>
+    <loc>https://amrcloud.net/ru/tutorials/import-data/06-geocode/</loc>
+    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/tutorials/import-data/07-interpretation/</loc>
+    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/tutorials/import-data/08-description/</loc>
+    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://amrcloud.net/ru/</loc>
-    <lastmod>2019-10-22T17:55:37+03:00</lastmod>
+    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="ru-ru">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Андрей Авраменко">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Что такое проект и набор данных В рамках онлайн-платформы AMRcloud пользователь может создавать различные проекты и наборы данных.
+Проект - это структурный элемент приложения, который позволяет сгруппировать несколько наборов с данными по усмотрению пользователя.
+Проекты могут быть в ограниченном или публичном доступе.
+ Ограниченный доступ - определенное количество пользователей может работать с проектом. Публичный доступ - просмотр возможен для любого пользователя.  Набор(ы) данных - основная единица в рамках проекта, содержит информацию с которой AMRcloud осуществляет непосредственную работу.">
+
+  
+  <link rel="alternate" hreflang="ru-ru" href="https://amrcloud.net/ru/tutorials/import-data/02-project-and-dataset/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.257a17974a90488a98e8ae4e5c165b03.css">
+
+  
+    
+    
+    
+    
+      
+    
+    
+    
+    <link rel="stylesheet" href="/css/academic.c6a23e0eafb8fb12b72c26498c416b54.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-85066436-14', 'auto');
+      ga('set', 'anonymizeIp', true);
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://amrcloud.net/ru/tutorials/import-data/02-project-and-dataset/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@@iacmac1997">
+  <meta property="twitter:creator" content="@@iacmac1997">
+  
+  <meta property="og:site_name" content="AMRcloud">
+  <meta property="og:url" content="https://amrcloud.net/ru/tutorials/import-data/02-project-and-dataset/">
+  <meta property="og:title" content="Проект и набор данных | AMRcloud">
+  <meta property="og:description" content="Что такое проект и набор данных В рамках онлайн-платформы AMRcloud пользователь может создавать различные проекты и наборы данных.
+Проект - это структурный элемент приложения, который позволяет сгруппировать несколько наборов с данными по усмотрению пользователя.
+Проекты могут быть в ограниченном или публичном доступе.
+ Ограниченный доступ - определенное количество пользователей может работать с проектом. Публичный доступ - просмотр возможен для любого пользователя.  Набор(ы) данных - основная единица в рамках проекта, содержит информацию с которой AMRcloud осуществляет непосредственную работу."><meta property="og:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png">
+  <meta property="twitter:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png"><meta property="og:locale" content="ru-ru">
+  
+  <meta property="article:published_time" content="2019-11-07T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2019-11-07T00:00:00&#43;00:00">
+  
+
+  
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#3f51b5",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#3f51b5"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "На нашем сайте включены cookies, потому что мы используем услуги Google Analytics.",
+        "dismiss": "Понятно",
+        "link": "Узнать больше...",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
+
+
+  
+
+
+
+
+
+  <title>Проект и набор данных | AMRcloud</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Поиск</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Поиск..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/ru/">AMRcloud</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Переключить навигацию">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/ru/#hero"><span>Главная</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/ru/tutorials/"><span>Начало работы</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/ru/#people"><span>Команда</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/ru/#contact"><span>Контакты</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+        
+          <a class="nav-link" href="http://amrhub.ru" target="_blank" rel="noopener"><i class='fas fa-external-link-alt'></i>&nbsp;<span>Другие AMR сервисы</span></a>
+        </li>
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Поиск..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/ru/tutorials/import-data/">AMRcloud. Импорт данных</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/ru/tutorials/import-data/01-prepare/">Подготовка данных</a>
+      </li>
+      
+      <li class="active">
+        <a href="/ru/tutorials/import-data/02-project-and-dataset/">Проект и набор данных</a>
+      </li>
+      
+      <li >
+        <a href="/ru/tutorials/import-data/03-recomendations-table/">Рекомендаций к табличным данным</a>
+      </li>
+      
+      <li >
+        <a href="/ru/tutorials/import-data/04-upload-file/">Шаг 1 - Загрузка файла</a>
+      </li>
+      
+      <li >
+        <a href="/ru/tutorials/import-data/05-identification/">Шаг 2 - Идентификация</a>
+      </li>
+      
+      <li >
+        <a href="/ru/tutorials/import-data/06-geocode/">Шаг 3 - Геокодирование</a>
+      </li>
+      
+      <li >
+        <a href="/ru/tutorials/import-data/07-interpretation/">Шаг 4 - Интерпретация</a>
+      </li>
+      
+      <li >
+        <a href="/ru/tutorials/import-data/08-description/">Шаг 5 - Описание данных</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Проект и набор данных</h1>
+         
+          <div class="article-style" itemprop="articleBody">
+            
+
+<h2 id="что-такое-проект-и-набор-данных">Что такое проект и набор данных</h2>
+
+<p>В рамках онлайн-платформы <span style="color:#2BA2E6"><strong>AMRcloud</strong></span> пользователь может создавать различные проекты и наборы данных.</p>
+
+<p><u>Проект</u> - это структурный элемент приложения, который позволяет сгруппировать несколько наборов с данными по усмотрению пользователя.</p>
+
+<p>Проекты могут быть в ограниченном или публичном доступе.</p>
+
+<ul>
+<li>Ограниченный доступ - определенное количество пользователей может работать с проектом.</li>
+<li>Публичный доступ - просмотр возможен для любого пользователя.</li>
+</ul>
+
+<p><u>Набор(ы) данных</u> - основная единица в рамках проекта, содержит информацию с которой <span style="color:#2BA2E6"><strong>AMRcloud</strong></span> осуществляет непосредственную работу.</p>
+
+<p>Для создания проекта пользователю после входа в личный аккаунт следует нажать кнопку <strong><em>&plus;&nbsp;Новый проект</em></strong> в верхнем левом углу экрана.</p>
+
+
+
+
+  
+
+
+
+
+<figure>
+
+  <a data-fancybox="" href="/img/tutorials/import-data/new_project.png" >
+
+<img src="/img/tutorials/import-data/new_project.png" >
+</a>
+
+
+<figcaption data-pre="Рисунок " data-post=":" class="numbered">
+  <h4>Новый проект</h4>
+  
+</figcaption>
+
+</figure>
+
+
+<p>Во всплывающем окне пользователю предлагается заполнить поля <strong>Название нового проекта</strong> и <strong>Подзаголовок проекта</strong>.<br />
+При постоянной работе с различными проектами рекомендуется использовать полностью уникальные или значимо отличающиеся между собой названия. Например, не ограничиваться вариантами <em>test1</em>, <em>test2</em>.</p>
+
+<p><strong>Подзаголовок проекта</strong> может быть представлен ключевыми словами, которые поясняют название, при этом следует учесть ограничения: для названия каждого поля не более <strong>255 символов</strong>.</p>
+
+
+
+
+  
+
+
+
+
+<figure>
+
+  <a data-fancybox="" href="/img/tutorials/import-data/new_project2.png" >
+
+<img src="/img/tutorials/import-data/new_project2.png" >
+</a>
+
+
+<figcaption data-pre="Рисунок " data-post=":" class="numbered">
+  <h4>Создание проекта</h4>
+  
+</figcaption>
+
+</figure>
+
+
+<p>Пользователь может работать с двумя типами проектов:</p>
+
+<ul>
+<li><strong>Мои проекты</strong></li>
+<li><strong>Командные проекты</strong></li>
+</ul>
+
+<p><strong>Мои проекты</strong> - персональные проекты пользовательзователя.<br />
+Доступ к данным единолично предоставлен пользователю, распространение данных реализуется с помощью генерации ссылок.</p>
+
+<p><strong>Командные проекты</strong> - для работы с такими проектами формируется команда.
+При этом пользователь может быть <em>администратором</em> команды (т.е. ее создателем) или <em>участником</em> команды, т.е. пользователем, приглашенным администратором команды.</p>
+
+<p>В рамках проекта пользователь создает несколько наборов данных или сетов. Переходя в выбранный проект, следует нажать <strong><em>+ Новый набор данных</em></strong>.</p>
+
+<p>Во всплывающем окне пользователю предлагается заполнить поля <strong>Название нового набора</strong> и <strong>Подзаголовок нового набора</strong>.</p>
+
+<p>При постоянной работе с несколькими наборами данных в рамках одного проекта рекомендуется использовать понятные,
+полностью уникальные или значимо отличающиеся между собой названия.
+Например, не ограничиваться вариантами <em>test1</em>, <em>test2</em>.</p>
+
+<p><strong>Подзаголовок нового набора</strong> может быть представлен ключевыми словами, которые поясняют название, при этом следует учесть ограничения: для названия каждого поля не более <strong>255 символов</strong>.</p>
+
+
+
+
+  
+
+
+
+
+<figure>
+
+  <a data-fancybox="" href="/img/tutorials/import-data/new_project3.png" >
+
+<img src="/img/tutorials/import-data/new_project3.png" >
+</a>
+
+
+<figcaption data-pre="Рисунок " data-post=":" class="numbered">
+  <h4>Создание набора данных</h4>
+  
+</figcaption>
+
+</figure>
+
+
+<p>После присвоения имени для проекта и набора данных пользователь может приступить к непосредственной загрузке. Для этого открыть необходимый проект, нажать левой кнопкой мыши на необходимый набор данных и нажать кнопку <strong>&laquo;Редактировать набор данных&raquo;.</strong></p>
+
+<p>Для каждого набора данных следует пройти 5 шагов (этапов).</p>
+
+          </div>
+
+          
+
+
+         
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav d-flex justify-content-between">
+  
+  
+  
+  <div class="post-nav-item post-nav-item-left float-left" >
+    <div class="meta-nav">Предыдущий</div>
+    <a href="/ru/tutorials/import-data/01-prepare/" rel="next">Подготовка данных</a>
+  </div>
+  
+  <div class="body-footer-extended">
+    <p>Обновлено 2019-11-07</p>
+
+    
+  </div>
+  
+  
+  <div class="post-nav-item post-nav-item-right float-right" >
+    <div class="meta-nav">Следующий</div>
+    <a href="/ru/tutorials/import-data/03-recomendations-table/" rel="prev">Рекомендаций к табличным данным</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+       
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    AMRcloud &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+      
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/ru/index.json";
+      const i18n = {
+        'placeholder': "Поиск...",
+        'results': "найдено",
+        'no_results': "Ничего не найдено"
+      };
+      const content_type = {
+        'post': "Статьи",
+        'project': "Проекты",
+        'publication' : "Публикации",
+        'talk' : "Выступления"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

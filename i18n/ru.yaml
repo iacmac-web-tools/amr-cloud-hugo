@@ -3,7 +3,7 @@
 - id: table_of_contents
   translation: Оглавление
 - id: on_this_page
-  translation: On this page
+  translation: Содержание
 - id: back_to_top
   translation: Back to top
 - id: related
@@ -11,11 +11,11 @@
 - id: minute_read
   translation: min read
 - id: previous
-  translation: Previous
+  translation: Предыдущий
 - id: next
-  translation: Next
+  translation: Следующий
 - id: figure
-  translation: 'Figure %d:'
+  translation: 'Рисунок %d:'
 - id: btn_preprint
   translation: Preprint
 - id: btn_pdf
