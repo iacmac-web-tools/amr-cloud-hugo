@@ -160,3 +160,6 @@ sharing = true
     api_key = ""
     index_name = ""
     show_logo = false
+
+
+toc_levels = 4

@@ -37,6 +37,8 @@ defaultContentLanguage = "ru"
 hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = true
 
+
+
 paginate = 10  # Number of items per page in paginated lists.
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -53,6 +55,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 	angledQuotes = true
 	latexDashes = true
   extensions = ["backslashLineBreak"]
+  
 
 [imaging]
   resampleFilter = "lanczos"

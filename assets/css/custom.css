@@ -22,6 +22,11 @@
 
 .docs-article-container {
   max-width: 1024px;
+  font-size: 0.85em;
+}
+
+.docs-article-container > .article-style > .alert > div {
+  font-size: 1em;
 }
 
 a.hero-cta-alt {
@@ -170,3 +175,41 @@ width: auto;
   border-top: 1px solid #e8e8e8;
   border-bottom: 1px solid #e8e8e8;
 }
+
+
+/* Enable third level of TOC */
+
+#TableOfContents ul ul {
+  display: block;
+  font-style: italic;
+  padding: .125rem 1.5rem;
+}
+
+/* Подписи рисунков */
+
+figcaption { 
+  text-align: center;
+}
+
+figcaption h6 {
+  display: inline;
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin: 0;
+
+
+}
+
+figcaption.numbered::before {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.75rem;
+  content: attr(data-pre) counter(captions) attr(data-post);
+}
+
+/* SLIDER FIX */
+/* .hero-lead {
+  max-width: 768px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+} */

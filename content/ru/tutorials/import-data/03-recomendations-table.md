@@ -4,7 +4,7 @@ linktitle: Рекомендаций к табличным данным
 toc: true
 type: docs
 date: "2019-11-07T00:00:00Z"
-draft: false
+draft: true
 menu:
   import-data:
     parent: AMRcloud. Импорт данных

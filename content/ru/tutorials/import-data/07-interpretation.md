@@ -7,7 +7,7 @@ date: "2019-11-07T00:00:00Z"
 draft: false
 menu:
   import-data:
-    parent: AMRcloud. Импорт данных
+    parent: Импорт данных
     weight: 7
 
 weight: 7

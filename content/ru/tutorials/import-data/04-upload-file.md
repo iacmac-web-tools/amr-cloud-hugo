@@ -7,7 +7,7 @@ date: "2019-11-07T00:00:00Z"
 draft: false
 menu:
   import-data:
-    parent: AMRcloud. Импорт данных
+    parent: Импорт данных
     weight: 4
 
 weight: 4
@@ -73,32 +73,23 @@ weight: 4
 
 {{< figure library="true" title="Ошибка прочтения файла" src="tutorials/import-data/unread.png"  numbered="true" lightbox="true" >}}
 
-#### Алгоритм решения:
+**Алгоритм решения:**
 
-##### 1.Скачать и установить бесплатный текстовый редактор  [Sublime Text](https://www.sublimetext.com/)
-
+1. Скачать и установить бесплатный текстовый редактор  [Sublime Text](https://www.sublimetext.com/)
 {{< figure library="true" title="Загрузка текстового редактора" src="tutorials/import-data/sublime_download.png"  numbered="true" lightbox="true" >}}
 
-##### 2.В установленном редакторе выбираем раздел file **&rarr;** Open File. 
-
+2. В установленном редакторе выбираем раздел file **&rarr;** Open File. 
 {{< figure library="true" title="Выбор файла для исправления" src="tutorials/import-data/sublime_open.png"  numbered="true" lightbox="true" >}}
-
 Выбираем в появившемся окне таблицу, которую не удалось открыть в <span style="color:#2BA2E6">**AMRcloud**</span>. Открывшийся документ должен быть представлен в виде сплошного текста, т.е. нет структуры таблицы как в Microsoft Excel. Можно увидеть "иероглифы".
 
-##### 3.Необходимо поочередно менять различные кодировки и ориентироваться на текст ("иероглифы" должны исчезнуть).
-
+3. Необходимо поочередно менять различные кодировки и ориентироваться на текст ("иероглифы" должны исчезнуть).
 Рекомендуется начинать с *UTF-8* и и *Windows-1251*.
-
 Раздел File **&rarr;** Reopen with Encoding **&rarr;** необходимая кодировка.
-
 {{< figure library="true" title="Кодировка таблицы" src="tutorials/import-data/sublime_reopen.png"  numbered="true" lightbox="true" >}}
-
 После выполненных действий пользователь сможет прочитать текст. "Иероглифы" исчезнут.
 
-##### Файл необходимо сохранить.
-
+4. Файл необходимо сохранить.
 File **&rarr;** Save with Encoding **&rarr;** *UTF-8*.
-
 {{< figure library="true" title="Сохранение файла с UTF-8" src="tutorials/import-data/save_utf8.png"  numbered="true" lightbox="true" >}}
 
 
@@ -106,26 +97,22 @@ File **&rarr;** Save with Encoding **&rarr;** *UTF-8*.
 
 При загрузке данных в окне предварительного просмотра на Шаге 1, проблем не было. Пользователь провел анализ данных, скачал таблицу из <span style="color:#2BA2E6">**AMRcloud**</span>, и Microsoft Excel открывает данные с "иероглифами".
 
-#### Способ №1
+**Способ №1**
  
 Необходимо скачать таблицу с кодировкой  *Windows-1251*. Для этого **не** переключать параметры, которые уже установлены в <span style="color:#2BA2E6">**AMRcloud**</span>.
  
 {{< figure library="true" title="Скачивание файла из AMRcloud с настройками по умолчанию" src="tutorials/import-data/change_code.png"  numbered="true" lightbox="true" >}}
 
-#### Способ №2
+**Способ №2**
 
-##### 1.Скачать и установить бесплатный текстовый редактор [Sublime Text](https://www.sublimetext.com/)
-
+1. Скачать и установить бесплатный текстовый редактор [Sublime Text](https://www.sublimetext.com/)
 {{< figure library="true" title="Загрузка текстового редактора" src="tutorials/import-data/sublime_download.png"  numbered="true" lightbox="true" >}}
 
-##### 2.В установленном редакторе выбираем раздел File **&rarr;** Open File. 
-
+2. В установленном редакторе выбираем раздел File **&rarr;** Open File. 
 {{< figure library="true" title="Выбор файла для исправления" src="tutorials/import-data/sublime_open.png"  numbered="true" lightbox="true" >}}
 
-##### 3.Файл необходимо сохранить с кодировкой *Windows-1251*.
-
+3. Файл необходимо сохранить с кодировкой *Windows-1251*.
 File**&rarr;** Save with Encoding **&rarr;** Windows-1251.
-
 {{< figure library="true" title="Сохранение файла с кодировкой Windows-1251" src="tutorials/import-data/save_1251.png"  numbered="true" lightbox="true" >}}
 
 Теперь можно просматривать таблицу, которая была скачана из онлайн-платформы <span style="color:#2BA2E6">**AMRcloud**</span>, на локальном компьютере.
