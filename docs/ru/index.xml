@@ -13,84 +13,2076 @@
     
     
     <item>
-      <title></title>
-      <link></link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Подготовка данных</title>
+      <link>https://amrcloud.net/ru/tutorials/import-data/01-prepare/</link>
+      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid></guid>
-      <description></description>
+      <guid>https://amrcloud.net/ru/tutorials/import-data/01-prepare/</guid>
+      <description>
+
+&lt;h2 id=&#34;3олотое-правило-для-данных&#34;&gt;«3олотое правило» для данных&lt;/h2&gt;
+
+&lt;p&gt;Одним из ключевых этапов работы с платформой &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; является структурирование исходных данных.&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Основные принципы организации данных можно сформулировать в виде следующих «золотых правил»:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Для каждого изолята – своя строка&lt;/li&gt;
+&lt;li&gt;5 обязательных столбцов&lt;/li&gt;
+&lt;li&gt;Суффикс после генерического названия АМП&lt;/li&gt;
+&lt;li&gt;Столбцы с метаданными&lt;/li&gt;
+&lt;/ol&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;что-такое-проект-и-набор-данных&#34;&gt;Что такое проект и набор данных&lt;/h2&gt;
+
+&lt;p&gt;В рамках онлайн-платформы &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; пользователь может создавать различные проекты и наборы данных.&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;Проект&lt;/u&gt; - это структурный элемент приложения, который позволяет сгруппировать несколько наборов с данными по усмотрению пользователя.&lt;/p&gt;
+
+&lt;p&gt;Проекты могут быть в ограниченном или публичном доступе.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ограниченный доступ - определенное количество пользователей может работать с проектом.&lt;/li&gt;
+&lt;li&gt;Публичный доступ - просмотр возможен для любого пользователя.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;u&gt;Набор(ы) данных&lt;/u&gt; - основная единица в рамках проекта, содержит информацию с которой &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; осуществляет непосредственную работу.&lt;/p&gt;
+
+&lt;p&gt;Для создания проекта пользователю после входа в личный аккаунт следует нажать кнопку &lt;strong&gt;&lt;em&gt;&amp;plus;&amp;nbsp;Новый проект&lt;/em&gt;&lt;/strong&gt; в верхнем левом углу экрана.&lt;/p&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/new_project.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/new_project.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Новый проект&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;Во всплывающем окне пользователю предлагается заполнить поля &lt;strong&gt;Название нового проекта&lt;/strong&gt; и &lt;strong&gt;Подзаголовок проекта&lt;/strong&gt;.&lt;br /&gt;
+При постоянной работе с различными проектами рекомендуется использовать полностью уникальные или значимо отличающиеся между собой названия. Например, не ограничиваться вариантами &lt;em&gt;test1&lt;/em&gt;, &lt;em&gt;test2&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Подзаголовок проекта&lt;/strong&gt; может быть представлен ключевыми словами, которые поясняют название, при этом следует учесть ограничения: для названия каждого поля не более &lt;strong&gt;255 символов&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/new_project2.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/new_project2.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Создание проекта&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;Пользователь может работать с двумя типами проектов:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Мои проекты&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Командные проекты&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Мои проекты&lt;/strong&gt; - персональные проекты пользовательзователя.&lt;br /&gt;
+Доступ к данным единолично предоставлен пользователю, распространение данных реализуется с помощью генерации ссылок.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Командные проекты&lt;/strong&gt; - для работы с такими проектами формируется команда.
+При этом пользователь может быть &lt;em&gt;администратором&lt;/em&gt; команды (т.е. ее создателем) или &lt;em&gt;участником&lt;/em&gt; команды, т.е. пользователем, приглашенным администратором команды.&lt;/p&gt;
+
+&lt;p&gt;В рамках проекта пользователь создает несколько наборов данных или сетов. Переходя в выбранный проект, следует нажать &lt;strong&gt;&lt;em&gt;+ Новый набор данных&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Во всплывающем окне пользователю предлагается заполнить поля &lt;strong&gt;Название нового набора&lt;/strong&gt; и &lt;strong&gt;Подзаголовок нового набора&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;При постоянной работе с несколькими наборами данных в рамках одного проекта рекомендуется использовать понятные,
+полностью уникальные или значимо отличающиеся между собой названия.
+Например, не ограничиваться вариантами &lt;em&gt;test1&lt;/em&gt;, &lt;em&gt;test2&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Подзаголовок нового набора&lt;/strong&gt; может быть представлен ключевыми словами, которые поясняют название, при этом следует учесть ограничения: для названия каждого поля не более &lt;strong&gt;255 символов&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/new_project3.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/new_project3.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Создание набора данных&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;После присвоения имени для проекта и набора данных пользователь может приступить к непосредственной загрузке. Для этого открыть необходимый проект, нажать левой кнопкой мыши на необходимый набор данных и нажать кнопку &lt;strong&gt;&amp;laquo;Редактировать набор данных&amp;raquo;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Для каждого набора данных следует пройти 5 шагов (этапов).&lt;/p&gt;
+
+&lt;h2 id=&#34;рекомендации-к-табличным-данным&#34;&gt;Рекомендации к табличным данным&lt;/h2&gt;
+
+&lt;p&gt;В качестве обобщенных рекомендаций к исходным табличным данным предложен пункт &lt;strong&gt;Важная информация&lt;/strong&gt;. Последовательно изложены ключевые требования. В конце страницы предложен образец таблицы, который можно использовать для редактирования исходных пользовательских данных.&lt;/p&gt;
+
+&lt;p&gt;Разберем основные требования к данным, по пунктам. Для этого скачаем образец данных, который расположен в нижнем левом углу экрана.&lt;/p&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/example.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/example.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Скачивание образца данных&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;h3 id=&#34;основные-требования&#34;&gt;Основные требования&lt;/h3&gt;
+
+&lt;p&gt;Чтобы работать с &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; необходимо привести данные к единому формату.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Таблица должна быть плоской. Это означает, что она состоит из столбцов и строк в которых &lt;em&gt;нет дополнительных разделений - иерархий&lt;/em&gt; (нет подстрок или разделенных столбцов)&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/row_column.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/row_column.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Структура таблицы&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;ol&gt;
+&lt;li&gt;Для прочтения необходимых наименований показателей платформа использует первую строку, поэтому она должна содержать имена столбцов (заголовочная строка).&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/name.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/name.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Заголовочная строка таблицы&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;ol&gt;
+&lt;li&gt;Таблица должна содержать 5 видов обязательных столбцов:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Идентификатор изолята (ID_изолята)&lt;/li&gt;
+&lt;li&gt;Название вида микроорганизма&lt;/li&gt;
+&lt;li&gt;Название группы микроорганизмов&lt;/li&gt;
+&lt;li&gt;Дата&lt;/li&gt;
+&lt;li&gt;Результаты определения чувствительности к антимикробным препаратам (АМП)&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/mandatory.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/mandatory.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Обязательные столбцы таблицы&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;h3 id=&#34;идентификатор-изолята&#34;&gt;Идентификатор изолята&lt;/h3&gt;
+
+&lt;p&gt;В качестве идентификатора изолята  допустимо использовать неуникальные номера, они могут быть буквенными или числовыми.&lt;/p&gt;
+
+&lt;h3 id=&#34;вид-микроорганизма&#34;&gt;Вид микроорганизма&lt;/h3&gt;
+
+&lt;p&gt;Для автоматической и быстрой интерпретации результатов &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; использует полные названия видов микроорганизмов.&lt;/p&gt;
+
+&lt;p&gt;Поэтому &lt;strong&gt;Название вида микроорганизма&lt;/strong&gt; должно быть полное, сокращения не допустимы.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Правильно:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Staphylococcus aureus, Streptococcus pneumoniae&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Неправильно:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;S. aureus, S. pneumoniae&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;группа-микроорганизма&#34;&gt;Группа микроорганизма&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Название группы микроорганизмов&lt;/strong&gt; может быть сокращено, но сокращения необходимо сделать стандартными (одинаковыми по всему столбцу).&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Правильно:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Enterobacterales, Staphylococ, Staphylococ (сокращенные названия -  стандартизированы)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Неправильно:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Неправильно: Enterobac, Staph, Staphyl, Staphylococ (сокращенные названия нестандартизированы)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;дата&#34;&gt;Дата&lt;/h3&gt;
+
+&lt;p&gt;Алгоритм, работающий с временными параметрами, определит любой стандартный вариант написания даты.&lt;/p&gt;
+
+&lt;p&gt;Главным условием является универсальность оформления.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Правильно:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;12.08.2018, 20.05.2017, 16.03.2014 (единое оформление ДД.ММ.ГГГГ)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Неправильно:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;12.08.2018, 20/05/19, 03/16/2014 (разное оформление ДД.ММ.ГГГГ, ДД/ММ/ГГ,ММ/ДД/ГГГГ)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/data.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/data.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Формат дат&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;h3 id=&#34;результаты-определения-чувствительности-к-антимикробным-препаратам-амп&#34;&gt;Результаты определения чувствительности к антимикробным препаратам (АМП)&lt;/h3&gt;
+
+&lt;p&gt;Включает все возможные варианты:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Значения минимальных подавляющих концентраций (МПК) - мг/л&lt;/li&gt;
+&lt;li&gt;Диаметры зон подавления роста - мм&lt;/li&gt;
+&lt;li&gt;Категории чувствительности (S/I/R) - значения заранее определены пользователем&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;При названии столбцов с результатами определения чувствительности необходимо соблюдать правила:&lt;/p&gt;
+
+&lt;p&gt;1.Название антимикробного препарата на &lt;em&gt;английском языке&lt;/em&gt;, &lt;em&gt;полностью, без сокращений&lt;/em&gt;
+Список допустимых названий АМП доступен внизу страницы.&lt;/p&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/list_antib.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/list_antib.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Список допустимых антибиотиков&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;2.Обязательно указывать идентифицирующий суффикс, чтобы осуществить автоматическую интерпретацию результатов&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Значения минимальных подавляющих концентраций&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;_&lt;strong&gt;mic&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Диаметры зон подавления роста&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;_&lt;strong&gt;dd&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Категории чувствительности&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;_&lt;strong&gt;sir&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Пример:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;tobramycin_sir, tetracycline_sir, amoxicillin-clavulanic acid_mic, daptomycin_dd&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;На заметку!&lt;/p&gt;
+
+&lt;p&gt;Антибактериальные препараты с оценкой по &amp;laquo;особым&amp;raquo; критериям интерпретации (пользовательские категории S/I/R) и/или со значениями &lt;em&gt;ECOFF&lt;/em&gt; могут быть записаны следующим образом:&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Пример:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;meropenem_ecoff_sir, moxifloxacin_clsi_sir, marbofloxacin_clsi_sir&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;Важно!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Значения минимальных подавляющих концентраций&lt;/strong&gt; - в мг/л.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Значения должны быть числовыми&lt;/li&gt;
+&lt;li&gt;Нечисловые значения, содержащие выражения, такие как &lt;strong&gt;&lt;code&gt;&amp;lt;= ...&lt;/code&gt;&lt;/strong&gt; или &lt;strong&gt;&lt;code&gt;&amp;gt; ...&lt;/code&gt;&lt;/strong&gt; или &lt;strong&gt;&lt;code&gt;&amp;gt;= ...&lt;/code&gt;&lt;/strong&gt; , будут преобразованы в &lt;strong&gt;числовые&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;*Символы &lt;strong&gt;&lt;code&gt;&amp;lt;=&lt;/code&gt;&lt;/strong&gt; и &lt;strong&gt;&lt;code&gt;&amp;gt;=&lt;/code&gt;&lt;/strong&gt; перед числами - игнорируются; числа после символа &amp;laquo;&amp;gt;&amp;raquo; будут умножены на 2*&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Диаметры зон подавления роста&lt;/strong&gt; - измеряются в мм. Значения - любые целые числа, больше или равные 6.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Категории чувствительности&lt;/strong&gt;  - S/I/R. Категория чувствительности только одна.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Правильно:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;S, S, R (категория чувствительности 1 для каждого изолята)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Неправильно:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;S+I, S+I, I+R (больше 1 категории чувствительности для каждого изолята)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;дополнительные-столбцы&#34;&gt;Дополнительные столбцы&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Дополнительные столбцы&lt;/strong&gt; - заполнение столбцов не является обязательным&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Географические данные
+
+&lt;ul&gt;
+&lt;li&gt;Географические объекты (Город, область, страна и т.д.)&lt;/li&gt;
+&lt;li&gt;Широта&lt;/li&gt;
+&lt;li&gt;Долгота&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Метаданные (текстовые)&lt;/li&gt;
+&lt;li&gt;Метаданные (числовые)&lt;/li&gt;
+&lt;li&gt;Маркеры (генетические маркеры резистентности, особые фенотипы и/или факторы вирулентности)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Географические данные&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Географические объекты могут включать название города, области, страны.&lt;/p&gt;
+
+&lt;p&gt;Для эффективного подстраивания результатов к практической деятельности пользователь может выбрать более подробные адресные данные (например, корпус ЛПУ).
+Основные требования и рекомендации представлены в разделе &amp;laquo;Геокодирование&amp;raquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Широта&lt;/em&gt; - значения при возможности пользователь может указать. При наличии столбца с географическими объектами модуль &amp;laquo;Геокодирование&amp;raquo; автоматически осуществит расстановку координат.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Долгота&lt;/em&gt; - значения при возможности пользователь может указать. При наличии столбца с географическими объектами модуль &amp;laquo;Геокодирование&amp;raquo; автоматически осуществит расстановку координат.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Метаданные (текстовые)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Пользователь может выбрать &lt;strong&gt;до 10&lt;/strong&gt; показателей в формате &amp;laquo;текстовые данные&amp;raquo; (если в таблице есть столбец с названием географических объектов, рекомендуется его также включать).&lt;/p&gt;
+
+&lt;p&gt;Например, локализация инфекции, отделение, клинический материал.&lt;/p&gt;
+
+&lt;p&gt;Кроме того, среди данных категорий могут быть включены индивидуальные характеристики пациента (например, столбец с категорией &amp;laquo;Фебрильная лихорадка&amp;raquo;). Рекомендованые обозначения: &amp;laquo;Да&amp;raquo;, &amp;laquo;Нет&amp;raquo;, &amp;laquo;Неприменимо&amp;raquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Метаданные (числовые)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Пользователь может выбрать &lt;strong&gt;1&lt;/strong&gt; показатель в формате &amp;laquo;числовые данные&amp;raquo;.&lt;/p&gt;
+
+&lt;p&gt;Например, возраст или вес пациента.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Маркеры&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Общее количество маркеров неограничено&lt;/li&gt;
+&lt;li&gt;Создание пользователем собственной &amp;laquo;группировки маркеров&amp;raquo;&lt;/li&gt;
+&lt;li&gt;Генетические маркеры, особые фенотипы, факторы вирулентности&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;При расстановке показателей по генетическим маркерам и особым фенотипам рекомендованы следующие значения:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Поиск определенного генетического маркера или особого фенотипа &lt;strong&gt;проводился, результат отрицательный&lt;/strong&gt; : &amp;laquo;Не обнаружено&amp;raquo;&lt;/li&gt;
+&lt;li&gt;Поиск определенного генетического маркера или особого фенотипа &lt;strong&gt;не проводился&lt;/strong&gt; : &amp;laquo;Не определено&amp;raquo;&lt;/li&gt;
+&lt;li&gt;Поиск определенного генетического маркера или особого фенотипа &lt;strong&gt;проводился, результат положительный&lt;/strong&gt; : &amp;laquo;OXA-48&amp;raquo;, &amp;laquo;KPC&amp;raquo;, &amp;laquo;MRSA&amp;raquo;, &amp;laquo;CTX-M-15&amp;raquo; и т.д.&lt;/li&gt;
+&lt;li&gt;Поиск определенного генетического маркера или особого фенотипа для данного микроорганизма &lt;strong&gt;неприменим&lt;/strong&gt;, т.е. генетический маркер или особый фенотип не характерен для данного микроорганизма: ячейка пустая&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/markers.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/markers.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Генетические маркеры&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+</description>
     </item>
     
     <item>
-      <title>News</title>
-      <link>https://amrcloud.net/ru/post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Шаг 1 - Загрузка файла</title>
+      <link>https://amrcloud.net/ru/tutorials/import-data/04-upload-file/</link>
+      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://amrcloud.net/ru/post/</guid>
-      <description></description>
+      <guid>https://amrcloud.net/ru/tutorials/import-data/04-upload-file/</guid>
+      <description>
+
+&lt;h2 id=&#34;типы-файлов&#34;&gt;Типы файлов&lt;/h2&gt;
+
+&lt;p&gt;После ознакомления с разделом &lt;strong&gt;Важная информация&lt;/strong&gt; пользователь может приступить к загрузке данных в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Важно!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Онлайн-платформа поддерживает загрузку таблиц в формате .xlsx и .csv&lt;/li&gt;
+&lt;li&gt;Предварительный просмотр таблицы включает от 5 до 30 строк&lt;/li&gt;
+&lt;li&gt;Панель &amp;laquo;Настройка для csv файла&amp;raquo; настраивает отображение таблицы, если в поле предварительного просмотра - таблица неструктурированная (Несколько строк и отсутствуют столбцы)&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/choice_file.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/choice_file.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Загрузка файла&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/step1.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/step1.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Предварительный просмотр таблицы&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;На заметку!&lt;/p&gt;
+
+&lt;p&gt;Как сохранить таблицу в формате .csv?&lt;/p&gt;
+
+&lt;p&gt;Что значит UTF-8 и Windows-1251? Как и когда применять UTF-8 в исходной таблице?&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;сохранение-в-csv&#34;&gt;Сохранение в csv&lt;/h2&gt;
+
+&lt;p&gt;Открыть необходимую таблицу в Microsoft Excel, перейти в раздел &lt;em&gt;Файл&lt;/em&gt; (левый верхний угол), затем выбрать пункт &lt;em&gt;Экспорт&lt;/em&gt; &lt;strong&gt;&amp;rarr;&lt;/strong&gt; &lt;em&gt;Изменить тип файла&lt;/em&gt; &lt;strong&gt;&amp;rarr;&lt;/strong&gt; &lt;em&gt;Другие типы файлов&lt;/em&gt; &lt;strong&gt;&amp;rarr;&lt;/strong&gt; CSV (разделители запятые)(*.csv)&lt;/p&gt;
+
+&lt;p&gt;
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/file_for_export.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/file_for_export.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Переход во вкладку &lt;em&gt;Файл&lt;/em&gt;&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/export_csv.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/export_csv.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Сохранение в формате csv&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;кодировка-текста&#34;&gt;Кодировка текста&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;UTF-8&lt;/em&gt; - самая распространенная кодировка текста, включает более двух миллионов символов: все современные алфавиты, цифры, знаки препинания, математические и специальные символы.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;UTF-8&lt;/em&gt; является стандартной кодировкой текста веб-страниц.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Windows-1251&lt;/em&gt; — набор символов и кодировка текста, являющаяся стандартной для русских версий Microsoft Windows до 10-й версии. Менее 1% веб-страниц используют кодировку &lt;em&gt;Windows-1251&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Почему пользователю &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; следует ориентироваться в кодировке?&lt;/p&gt;
+
+&lt;p&gt;Алгоритмы &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; распознают кодировку и настраивают по необходимым требованиям работы платформы.&lt;/p&gt;
+
+&lt;p&gt;Несмотря на эти меры, пользователь может столкнуться с ситуацией, когда в таблице данные открываются &amp;laquo;непонятными знаками - иероглифами&amp;raquo; вместо текста. Как настроить кодировку и вернуть текст?&lt;/p&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/wrong_letters.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/wrong_letters.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Запись по типу &lt;em&gt;иероглифы&lt;/em&gt;&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;Разберем возможные варианты поэтапного процесса &amp;laquo;исправления&amp;raquo; на примерах.&lt;/p&gt;
+
+&lt;p&gt;Важно отметить, что использование текстового редактора Sublime Text носит рекомендательный характер, не является оплаченной формой неличной передачи информации. Пользователь может использовать любой имеющийся текстовый редактор с настройкой кодинга.&lt;/p&gt;
+
+&lt;h3 id=&#34;ситуация-1&#34;&gt;Ситуация 1.&lt;/h3&gt;
+
+&lt;p&gt;При загрузке таблицы в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; на шаге 1, в окне предварительного просмотра появляется надпись &lt;strong&gt;&amp;laquo;Не могу прочитать файл&amp;raquo;&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/unread.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/unread.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Ошибка прочтения файла&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Алгоритм решения:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Скачать и установить бесплатный текстовый редактор  &lt;a href=&#34;https://www.sublimetext.com/&#34; target=&#34;_blank&#34;&gt;Sublime Text&lt;/a&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/sublime_download.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/sublime_download.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Загрузка текстового редактора&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;В установленном редакторе выбираем раздел file &lt;strong&gt;&amp;rarr;&lt;/strong&gt; Open File.
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/sublime_open.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/sublime_open.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Выбор файла для исправления&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+Выбираем в появившемся окне таблицу, которую не удалось открыть в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;. Открывшийся документ должен быть представлен в виде сплошного текста, т.е. нет структуры таблицы как в Microsoft Excel. Можно увидеть &amp;laquo;иероглифы&amp;raquo;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Необходимо поочередно менять различные кодировки и ориентироваться на текст (&amp;laquo;иероглифы&amp;raquo; должны исчезнуть).
+Рекомендуется начинать с &lt;em&gt;UTF-8&lt;/em&gt; и и &lt;em&gt;Windows-1251&lt;/em&gt;.
+Раздел File &lt;strong&gt;&amp;rarr;&lt;/strong&gt; Reopen with Encoding &lt;strong&gt;&amp;rarr;&lt;/strong&gt; необходимая кодировка.
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/sublime_reopen.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/sublime_reopen.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Кодировка таблицы&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+После выполненных действий пользователь сможет прочитать текст. &amp;laquo;Иероглифы&amp;raquo; исчезнут.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Файл необходимо сохранить.
+File &lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&amp;rarr;&lt;/strong&gt; &lt;em&gt;UTF-8&lt;/em&gt;.
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/save_utf8.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/save_utf8.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Сохранение файла с UTF-8&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;ситуация-2&#34;&gt;Ситуация 2.&lt;/h3&gt;
+
+&lt;p&gt;При загрузке данных в окне предварительного просмотра на Шаге 1, проблем не было. Пользователь провел анализ данных, скачал таблицу из &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;, и Microsoft Excel открывает данные с &amp;laquo;иероглифами&amp;raquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Способ №1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Необходимо скачать таблицу с кодировкой  &lt;em&gt;Windows-1251&lt;/em&gt;. Для этого &lt;strong&gt;не&lt;/strong&gt; переключать параметры, которые уже установлены в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/change_code.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/change_code.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Скачивание файла из AMRcloud с настройками по умолчанию&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Способ №2&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Скачать и установить бесплатный текстовый редактор &lt;a href=&#34;https://www.sublimetext.com/&#34; target=&#34;_blank&#34;&gt;Sublime Text&lt;/a&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/sublime_download.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/sublime_download.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Загрузка текстового редактора&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;В установленном редакторе выбираем раздел File &lt;strong&gt;&amp;rarr;&lt;/strong&gt; Open File.
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/sublime_open.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/sublime_open.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Выбор файла для исправления&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Файл необходимо сохранить с кодировкой &lt;em&gt;Windows-1251&lt;/em&gt;.
+File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&amp;rarr;&lt;/strong&gt; Windows-1251.
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/save_1251.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/save_1251.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Сохранение файла с кодировкой Windows-1251&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Теперь можно просматривать таблицу, которая была скачана из онлайн-платформы &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;, на локальном компьютере.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Projects</title>
-      <link></link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Шаг 2 - Идентификация</title>
+      <link>https://amrcloud.net/ru/tutorials/import-data/05-identification/</link>
+      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid></guid>
-      <description></description>
+      <guid>https://amrcloud.net/ru/tutorials/import-data/05-identification/</guid>
+      <description>
+
+&lt;p&gt;Представление онлайн-платформе &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; обязательных и факультативных столбцов.&lt;/p&gt;
+
+&lt;p&gt;Для правильной работы всех аналитических компонентов, важно правильно соотнести названия 8 категорий со столбцами в загруженной таблице.&lt;/p&gt;
+
+&lt;h2 id=&#34;обязательные-столбцы&#34;&gt;Обязательные столбцы&lt;/h2&gt;
+
+&lt;p&gt;Ключевые пункты, которые соответствуют обязательным столбцам - первые 4.&lt;/p&gt;
+
+&lt;p&gt;Разберем прохождение данного шага на примере.&lt;/p&gt;
+
+&lt;p&gt;Первые два пункта: &lt;strong&gt;Выберите столбец, содержащий идентификатор изолята&lt;/strong&gt; и &lt;strong&gt;Выберите столбец, содержащий названия групп микроорганизмов&lt;/strong&gt; - выбор из выпадающего списка соответствующего названия столбца.
+Слева экрана представлена общая информация по требованиям к каждому столбцу, для дополнительной проверки.&lt;/p&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/choice_orgroup.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/choice_orgroup.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Структура пунктов шага 2&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;Некоторые затруднения у пользователя могут вызвать обязательные пункты:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Выберите столбец, содержащий названия видов микроорганизмов&lt;/li&gt;
+&lt;li&gt;Выберите столбец, содержащий информацию о датах выделения изолятов.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- ### Выберите столбец, содержащий названия видов микроорганизмов. --&gt;
+
+&lt;h3 id=&#34;виды-микроорганизмов&#34;&gt;Виды микроорганизмов&lt;/h3&gt;
+
+&lt;p&gt;Необходимым условием является: &lt;em&gt;двойные латинские названия видов микроорганизмов&lt;/em&gt;, которые соответствуют &lt;em&gt;официальной номенклатуре&lt;/em&gt;. Правильно записанные названия позволяют системе автоматически применить критерии для интерпретации значений МПК, зон подавления роста и определения категорий чувствительности к АМП.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Правильно:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Klebsiella pneumoniae, Acinetobacter baumannii, Pseudomonas aeruginosa (нет сокращений, соответствует официальной номенклатуре)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Неправильно:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;K. pneumoniae, A. baumannii, P. aeruginosa (используется сокращения)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;После выбора из выпадающего списка - столбца, в котором записаны названия видов микроорганизмов, система предлагает проверить названия видов, нажав кнопку &lt;strong&gt;Проверить названия видов&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/change_sp.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/change_sp.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Проверка названия видов&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;Пользователю предлагаются следующие шаги для возможной корректировки названий.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Просмотреть список микроорганизмов, которые не удалось первоначально распознать&lt;/li&gt;
+&lt;li&gt;При наличии ошибки в написании: двойной щелчок левой клавишей мыши по необходимой ячейке &lt;strong&gt;&amp;rarr;&lt;/strong&gt; исправить название вручную &lt;strong&gt;&amp;rarr;&lt;/strong&gt; нажать кнопку &lt;strong&gt;Исправить названия видов&lt;/strong&gt;. Приступить к следующему пункту &lt;strong&gt;Выберите столбец, содержащий информацию о датах выделения изолятов&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Ошибки в написании нет. В этом случае, для автоматической интерпретации МПК, зон подавления роста и определения категорий чувствительности к АМП, система будет искать критерии для соответствующей группы микроорганизмов.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Пример. Salmonella typhi (не найдены критерии) &lt;strong&gt;&amp;rarr;&lt;/strong&gt; Salmonella spp.(будут применены критерии)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Если критерии интепретации для группы не будут найдены, система не сможет автоматически проставить критерии.&lt;/p&gt;
+
+&lt;p&gt;Такие микроорганизмы &lt;strong&gt;не исключаются&lt;/strong&gt; из общих данных и для них также будут построены графики, но они не окрашиваются в соответствии с категориями чувствительности, поэтому на графике появится серый цвет.&lt;/p&gt;
+
+&lt;p&gt;Если пользователь работает только с готовыми &amp;laquo;своими&amp;raquo; категориями чувствительности S/I/R, проблем в идентификации видов микроорганизмов нет.&lt;/p&gt;
+
+&lt;!-- ### Выберите столбец, содержащий информацию о датах выделения изолятов --&gt;
+
+&lt;h3 id=&#34;даты-выделения-изолятов&#34;&gt;Даты выделения изолятов&lt;/h3&gt;
+
+&lt;p&gt;Онлайн-платформа &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; автоматически распознает все возможные варианты написания дат, с условием: единый формат для всех изолятов.&lt;/p&gt;
+
+&lt;p&gt;&amp;laquo;По умолчанию&amp;raquo; формат записи даты определяется автоматически.
+Если выбран неправильный столбец или формат записи даты неодинаковый для каждого изолята, строчки с такими записями будут удалены.&lt;/p&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/date_wrong.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/date_wrong.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Неправильный формат дат&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;При правильном оформлении столбца с датой, пользователь сможет увидеть временную шкалу - &lt;strong&gt;Диапозон дат - (предпросмотр)&lt;/strong&gt;. &lt;br&gt;&lt;/br&gt;После этого необходимо поставить &amp;laquo;отметку&amp;raquo; рядом с вопросом &lt;em&gt;Отображается ли временная шкала?&lt;/em&gt;&lt;/p&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/date_right.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/date_right.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Последовательность работы с датами&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;h2 id=&#34;факультативные-столбцы&#34;&gt;Факультативные столбцы&lt;/h2&gt;
+
+&lt;p&gt;Все пункты по дополнительным данным следует заполнять, если в пользовательской таблице есть столбцы с такой информацией.
+Если таких &lt;strong&gt;данных нет&lt;/strong&gt; - пункты необходимо оставить &lt;strong&gt;незаполненными&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;!-- ### Выберите столбец, содержащий названия географических объектов --&gt;
+
+&lt;h3 id=&#34;географические-объекты&#34;&gt;Географические объекты&lt;/h3&gt;
+
+&lt;p&gt;К столбцам, содержащим названия географических объектов относится два типа столбцов:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Географические объекты (Область, Город, корпуса ЛПУ)&lt;/li&gt;
+&lt;li&gt;Широта и долгота (рекомендуется включать географические координаты из исходной таблицы при условии их неоспоримой точности)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Если пользователь сомневается в точности географических координат, рекомендуется их не включать (не ставить отметку рядом с вопросом &lt;em&gt;Содержит ли набор данных координаты широты и долготы?&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;Необходимо выбрать подходящие столбцы. &lt;br&gt;&lt;/br&gt; Возможность выбора данных по географическим объектам, широте и долготе появляются после установления отметки рядом с вопросами: &lt;em&gt;Содержит ли набор данных географические наименования?&lt;/em&gt; и &lt;em&gt;Содержит ли набор данных координаты широты и долготы?&lt;/em&gt;&lt;/p&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/geog_object.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/geog_object.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Географический объект&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;Для предварительного просмотра пользователю выводится первые 10 строк соответствующего столбца.&lt;/p&gt;
+
+&lt;!-- ### Выберите столбец, содержащий любую числовую переменную --&gt;
+
+&lt;h3 id=&#34;числовая-переменная&#34;&gt;Числовая переменная&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Пользователь может выбрать любой 1 количественный показатель.&lt;/li&gt;
+&lt;li&gt;Данным показателем может быть: Возраст, Вес пациента, Длительность пребывания в стационаре и т.д.&lt;/li&gt;
+&lt;li&gt;Для этого необходимо поставить отметку возле вопроса&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Содержит ли набор данных количественные параметры?&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;В выпадающем списке названий столбцов следует выбрать необходимый столбец.&lt;/li&gt;
+&lt;li&gt;Для проверки доступны первые 10 строчек.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/numeric.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/numeric.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Выбор количественного показателя&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;!-- ### Выберите столбцы, содержащие информацию о маркерах резистентности --&gt;
+
+&lt;h3 id=&#34;маркеры-резистентности&#34;&gt;Маркеры резистентности&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Пользователь выбирает названия столбцов с информацией по генетическим маркерам резистентности, особым фенотипам или факторам вирулентности.&lt;/li&gt;
+&lt;li&gt;Общее количество столбцов такого типа неограничено.&lt;/li&gt;
+&lt;li&gt;Следует поставить отметку возле вопроса &lt;em&gt;Содержит ли набор данных информацию о маркерах/детерминантах резистентности?&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;В выпадающем списке названий столбцов следует выбрать необходимые столбцы.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/markers_genetic.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/markers_genetic.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Выбор маркеров резистентности&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;!-- ### Выберите столбцы, содержащие другие параметры для фильтрации и группировки данных --&gt;
+
+&lt;h3 id=&#34;прочие-параметры-фильтрации-и-группировки-данных&#34;&gt;Прочие параметры фильтрации и группировки данных&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Общее количество столбцов с другими параметрами фильтрации не должно быть более 10 с учетом данных по географическим объектам (если они есть, их рекомендуется включить - см. пункт &lt;strong&gt;Выберите столбец, содержащий названия географических объектов&lt;/strong&gt;).&lt;/li&gt;
+&lt;li&gt;Расположение параметров по приоритету возможно при перетаскивании названий столбцов с помощью указателя мыши в нужном порядке.&lt;/li&gt;
+&lt;li&gt;Порядок будет влиять на последовательность фильтров в поле &amp;laquo;Параметры основные&amp;raquo; на этапе работы с графиками.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/other_filter.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/other_filter.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Выбор дополнительных параметров&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;До перехода на следующий этап - &lt;strong&gt;ШАГ 3&lt;/strong&gt; пользователю рекомендуется просмотреть все пункты &lt;strong&gt;ШАГ 2&lt;/strong&gt;, после можно переходить на &lt;strong&gt;ШАГ 3&lt;/strong&gt;, нажав кнопку &lt;strong&gt;Сохранить шаг 2&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/save_step2.png&#34; &gt;
+
+
+&lt;/figure&gt;
+
+</description>
     </item>
     
     <item>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>https://amrcloud.net/ru/talk/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Шаг 3 - Геокодирование</title>
+      <link>https://amrcloud.net/ru/tutorials/import-data/06-geocode/</link>
+      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://amrcloud.net/ru/talk/</guid>
-      <description></description>
+      <guid>https://amrcloud.net/ru/tutorials/import-data/06-geocode/</guid>
+      <description>
+
+&lt;h2 id=&#34;общая-информация&#34;&gt;Общая информация&lt;/h2&gt;
+
+&lt;p&gt;Важный этап для создания основы, с помощью которой &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; строит различные карты, проставляя метки географических объектов - геокодирование.&lt;/p&gt;
+
+&lt;p&gt;Географические объекты, которые можно использовать в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; находятся в широком диапозоне от области, города до отдельных корпусов ЛПУ.&lt;/p&gt;
+
+&lt;p&gt;Для запуска процесса геокодирования необходимо нажать кнопку &lt;strong&gt;1.Геокодировать&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/geoc_1.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/geoc_1.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Геокодирование. Структура первого подпункта&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;Предварительно просматривая карту, пользователь для каждого географического объекта может получить Широту и Долготу - расположение внизу экрана.&lt;/p&gt;
+
+&lt;p&gt;Ручной поиск географических объектов доступен двумя способами:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Введение адреса в строке поиска&lt;/li&gt;
+&lt;li&gt;С помощью приближения карты&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/geoc_2.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/geoc_2.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Структурные элементы - Карта:предпросмотр&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;Данные по геокодированию можно скорректировать.
+Для этого нажать на необходимую ячейку, при этом данные можно ввести, выбрав подходящие объекты на карте и скопировать показатели Широты и Долготы.&lt;/p&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/geoc_3.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/geoc_3.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Коррекция данных в ячейках&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;Если все данные по географическим объектам правильные, следует переходить к следующему этапу  &lt;strong&gt;ШАГ 4&lt;/strong&gt;, нажав кнопку &lt;strong&gt;Сохранить шаг 3&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;практические-ситуации&#34;&gt;Практические ситуации&lt;/h2&gt;
+
+&lt;p&gt;При работе с геокодированием могут возникнуть ситуации, которые потребуют от пользователя ручного ввода более подробной информации или исправления географических координат, которые система не идентифицировала.&lt;/p&gt;
+
+&lt;p&gt;Рассмотрим несколько практических ситуаций.&lt;/p&gt;
+
+&lt;h3 id=&#34;ситуация-1-span-style-color-2ba2e6-amrcloud-span-не-распознал-географический-объект&#34;&gt;Ситуация 1. &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; не распознал географический объект.&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;1.Проверить правильность названия географического объекта.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Неправильное название&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Решение&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Для нескольких географических объектов&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Основной вариант&lt;/strong&gt;: исправить данные в исходной таблице &lt;strong&gt;&amp;rarr;&lt;/strong&gt; сбросить предыдущие Шаги (1-2) &lt;strong&gt;&amp;rarr;&lt;/strong&gt; загрузить исправленный вариант&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Для 1-2 географических объектов&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Основной вариант&lt;/strong&gt;: исправить данные в исходной таблице &lt;strong&gt;&amp;rarr;&lt;/strong&gt;  сбросить предыдущие Шаги (1-2) &lt;strong&gt;&amp;rarr;&lt;/strong&gt; загрузить исправленный вариант &lt;strong&gt;Альтернативный вариант&lt;/strong&gt;: вручную ввести Широту, Долготу &lt;strong&gt;&amp;rarr;&lt;/strong&gt; Нажать оранжевую кнопку &lt;strong&gt;2.Применить исправления&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;2.Ручная корректировка географических объектов.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ручная корректировка позволяет быстро уточнить географические координаты.&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;Важно!&lt;/p&gt;
+
+&lt;p&gt;Ручное исправление система учитывает отдельно от автоматического этапа геокодирования, поэтому при ручной корректировке рекомендуется устанавливать Широту и Долготу по более подробным данным, например, конкретный корпус ЛПУ.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+        
+
+&lt;p&gt;Если пользователь знает координаты ненайденного географического объекта, то их можно ввести в таблицу, нажав двойным щелчком мыши по необходимой ячейке. В случаях, когда географические координаты неизвестны, можно воспользоваться разделом &lt;em&gt;Карта: предпросмотр&lt;/em&gt; - подробно  Ситуация 2 (см. ниже).&lt;/p&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/geoc_change.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/geoc_change.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Коррекция ненайденных данных&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;h3 id=&#34;ситуация-2-требуется-скорректировать-геокоординаты&#34;&gt;Ситуация 2. Требуется скорректировать геокоординаты.&lt;/h3&gt;
+
+&lt;p&gt;Данная ситуация может возникнуть, если система автоматически не нашла объекты на карте и/или требуется более точные координаты. Например, в рамках одного города - разные ЛПУ или разные корпуса одного лечебного учреждения.&lt;/p&gt;
+
+&lt;p&gt;Рассмотрим пример. Представим ситуцию, когда пользователь работает с данными, полученными в городе Смоленске из нескольких ЛПУ.&lt;/p&gt;
+
+&lt;p&gt;Предположим, что один из объектов - СОДКБ (Смоленская областная детская клиническая больница).&lt;/p&gt;
+
+&lt;p&gt;Алгоритм работы:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;После нажатия кнопки &lt;strong&gt;1. Геокодирование&lt;/strong&gt; и получения &lt;span style=&#34;color:#73A839&#34;&gt;&lt;strong&gt;зеленой таблицы&lt;/strong&gt;&lt;/span&gt; с валидированными данными &lt;strong&gt;&amp;rarr;&lt;/strong&gt; просмотреть таблицу и найти ячейки, которые требуют корректировки.&lt;/li&gt;
+&lt;li&gt;Просмотреть географические объекты в разделе &lt;em&gt;Карта: предпросмотр&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    На заметку!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Если на этапе &lt;strong&gt;ШАГ 2&lt;/strong&gt; рядом с вопросом &lt;em&gt;Содержит ли набор данных координаты широты и долготы?&lt;/em&gt;, была поставлена отметка, т.е. система использовала данные пользователя, рекомендуется использовать исходную таблицу для контроля внесения исправлений.&lt;/li&gt;
+&lt;li&gt;Если пользователь неуверен в точности данных по Широте и Долготе, рекомендуется не включать пользовательские данные, т.е. не ставить отметку рядом с вопросом &lt;em&gt;Содержит ли набор данных координаты широты и долготы?&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;В нашем примере, пользовательские данные содержали неточность в геокординатах, после просмотра исходной таблицы.&lt;/p&gt;
+
+&lt;p&gt;Как внести исправления? Доступно два варианта:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Воспользоваться поиском. Внести адрес или названия объекта &lt;strong&gt;&amp;rarr;&lt;/strong&gt; выбрать из списка подходящий вариант &lt;strong&gt;&amp;rarr;&lt;/strong&gt; получить внизу экрана координаты &lt;strong&gt;&amp;rarr;&lt;/strong&gt; обвести их с помощью мыши - левая кнопка &lt;strong&gt;&amp;rarr;&lt;/strong&gt; скопировать, нажав правую кнопку мыши &lt;strong&gt;&amp;rarr;&lt;/strong&gt; двойной щелчок по ячейке в нужной таблице (&lt;span style=&#34;color:#73A839&#34;&gt;&lt;strong&gt;зеленой&lt;/strong&gt;&lt;/span&gt; или &lt;span style=&#34;color:#FEAB3A&#34;&gt;&lt;strong&gt;оранжевой&lt;/strong&gt;&lt;/span&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/geoc_search.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/geoc_search.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Исправление с использованием строки поиска&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;ol&gt;
+&lt;li&gt;Приблизить карту &lt;strong&gt;&amp;rarr;&lt;/strong&gt; нажать левую кнопку мыши по конкретному географическому объекту &lt;strong&gt;&amp;rarr;&lt;/strong&gt; получить внизу экрана координаты &lt;strong&gt;&amp;rarr;&lt;/strong&gt; обвести их с помощью мыши - левая кнопка &lt;strong&gt;&amp;rarr;&lt;/strong&gt; скопировать, нажав правую кнопку мыши &lt;strong&gt;&amp;rarr;&lt;/strong&gt; двойной щелчок по ячейке в нужной таблице (&lt;span style=&#34;color:#73A839&#34;&gt;&lt;strong&gt;зеленой&lt;/strong&gt;&lt;/span&gt; или &lt;span style=&#34;color:#FEAB3A&#34;&gt;&lt;strong&gt;оранжевой&lt;/strong&gt;&lt;/span&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/geoc_search2.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/geoc_search2.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Исправление с использованием приближения карты&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;На заметку!&lt;/p&gt;
+
+&lt;p&gt;Если значение Широты или Долготы скопированы в неправильную ячейку и курсор мыши находится в данной ячейке, первичный вариант можно вернуть, нажав на клавиатуре клавиши &lt;em&gt;Ctrl&lt;/em&gt;+&lt;em&gt;Z&lt;/em&gt;.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;После внесения необходимых исправлений в &lt;span style=&#34;color:#FEAB3A&#34;&gt;&lt;strong&gt;оранжевую&lt;/strong&gt;&lt;/span&gt; таблицу необходимо нажать кнопку &lt;strong&gt;2. Применить исправления&lt;/strong&gt;, затем
+нажать кнопку &lt;strong&gt;3. Сохранить шаг 3&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/save_step3.png&#34; &gt;
+
+
+&lt;/figure&gt;
+
+
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;Важно!&lt;/p&gt;
+
+&lt;p&gt;При нажатии кнопки &lt;strong&gt;3. Сохранить шаг 3&lt;/strong&gt; может появиться предупреждающая надпись &lt;strong&gt;Существует несколько вариантов координат для одной и той же точки&lt;/strong&gt;.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/alarm.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/alarm.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Оповещение по нескольким координатам для одной точки&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;Варианты решения - выбор &lt;strong&gt;Точного географического объекта&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Ситуация&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Решение&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Точный географический объект&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Вернуться на &lt;strong&gt;ШАГ 2&lt;/strong&gt;  и сбросить его &lt;strong&gt;&amp;rarr;&lt;/strong&gt;  заново все заполнить и в пункте &lt;strong&gt;Выберите столбец, содержащий названия географических объектов&lt;/strong&gt;  выбрать &amp;laquo;точный&amp;raquo; географический объект&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Точный географический объект выбран&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Скорректировать координаты см. Ситуации 1-3&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Точного географического объекта нет&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Вернуться на &lt;strong&gt;ШАГ 2&lt;/strong&gt;  и сбросить его &lt;strong&gt;&amp;rarr;&lt;/strong&gt;  заново все заполнить &lt;strong&gt;&amp;rarr;&lt;/strong&gt;  не ставить отметку возле вопроса * Содержит ли набор данных координаты широты и долготы?*&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Точный географический объект - это более подробное географическое описание в сравнении с текущим вариантом. Например, был выбран город или область, то точным вариантом может быть конкретный корпус ЛПУ.&lt;/p&gt;
+
+&lt;h3 id=&#34;ситуация-3-локальные-географические-данные&#34;&gt;Ситуация 3. Локальные географические данные.&lt;/h3&gt;
+
+&lt;p&gt;Рассмотрим вариант, когда пользователю необходимо проставить географические координаты в рамках одного ЛПУ.&lt;/p&gt;
+
+&lt;p&gt;Предположим, что необходимо расставить географические координаты для 1,2,3 корпусов Смоленской областной клинической больницы.&lt;/p&gt;
+
+&lt;p&gt;Алгоритм работы:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Нажмем кнопку &lt;strong&gt;1. Геокодировать&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Откроем окно &lt;em&gt;Карта: предпросмотр&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Нажмем на строку поиска и напечатаем нужное ЛПУ.
+В примере это - Смоленская областная клиническая больница (печатать полностью, не сокращать до СОКБ)&lt;/li&gt;
+&lt;li&gt;Выберем из списка необходимый географический объект&lt;/li&gt;
+&lt;li&gt;Поочередно нажимая на необходимые корпуса больниц, получим географические координаты&lt;/li&gt;
+&lt;li&gt;Последовательно скопируем географические координаты для каждого корпуса и вставим их в соответствующую ячейку таблицы
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/built.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/built.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Алгоритм работы с локальными данными&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;Нажать кнопку &lt;strong&gt;2.Применить исправления&lt;/strong&gt; и проверить результаты.&lt;/li&gt;
+&lt;li&gt;Перейти на следующий этап, нажав кнопку &lt;strong&gt;3. Сохранить шаг 3&lt;/strong&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/built_save.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/built_save.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Контроль и сохранение проставленных координат&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
     </item>
     
     <item>
-      <title>Slides</title>
-      <link></link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Шаг 4 - Интерпретация</title>
+      <link>https://amrcloud.net/ru/tutorials/import-data/07-interpretation/</link>
+      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid></guid>
-      <description></description>
+      <guid>https://amrcloud.net/ru/tutorials/import-data/07-interpretation/</guid>
+      <description>&lt;p&gt;Пользователю следует выбрать подходящие критерии интепретации &lt;strong&gt;&amp;rarr;&lt;/strong&gt; нажать кнопку &lt;strong&gt;Интерпретировать МПК и данные диск-диффузии&lt;/strong&gt; &lt;strong&gt;&amp;rarr;&lt;/strong&gt; нажать кнопку &lt;strong&gt;3. Сохранить шаг 4&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/save_step4.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/save_step4.png&#34; &gt;
+&lt;/a&gt;
+
+&lt;/figure&gt;
+
+</description>
     </item>
     
     <item>
-      <title>Как начать работу с AMRcloud</title>
-      <link>https://amrcloud.net/ru/tutorials/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Шаг 5 - Описание данных</title>
+      <link>https://amrcloud.net/ru/tutorials/import-data/08-description/</link>
+      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://amrcloud.net/ru/tutorials/</guid>
+      <guid>https://amrcloud.net/ru/tutorials/import-data/08-description/</guid>
+      <description>&lt;p&gt;Пользователь добавляет описание к набору данных.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Информация может включать дополнительные характеристики по изолятам или по пациентам и другие обобщенные показатели.&lt;/li&gt;
+&lt;li&gt;Описание позволяет быстро ознакомиться с набором данных любому пользователю, если проект публичный, или участникам командного проекта.&lt;/li&gt;
+&lt;li&gt;Рекомендуется делать структурное описание и избегать сокращений, которые не являются общепринятыми.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;После нажатия кнопки &lt;strong&gt;Обновить информацию для набора данных&lt;/strong&gt; пользователь может просмотреть итоговое описание,  и заново обновить его при необходимости, после внесения поправок в окне ввода.&lt;/p&gt;
+
+&lt;p&gt;Если описание не требует исправлений, то следует нажать кнопку &lt;strong&gt;Завершить все шаги&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>https://amrcloud.net/ru/talk/example/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      
+      <guid>https://amrcloud.net/ru/talk/example/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AMRcloud: новая парадигма мониторинга антибиотикорезистентности</title>
+      <link>https://amrcloud.net/ru/publication/cmac-2019-t21-n2-p119/</link>
+      <pubDate>Thu, 10 Oct 2019 00:04:00 +0000</pubDate>
+      
+      <guid>https://amrcloud.net/ru/publication/cmac-2019-t21-n2-p119/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Политика конфиденциальности</title>
-      <link>https://amrcloud.net/ru/privacy-policy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://amrcloud.net/ru/privacy-policy/20190926/</link>
+      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://amrcloud.net/ru/privacy-policy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Публикации</title>
-      <link>https://amrcloud.net/ru/publication/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://amrcloud.net/ru/publication/</guid>
-      <description></description>
+      <guid>https://amrcloud.net/ru/privacy-policy/20190926/</guid>
+      <description>
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;Администрация AMRcloud не проверяет предоставленную Вами Персональную информацию за исключением случаев, предусмотренных Пользовательским соглашением или условиями использования отдельных сервисов, и не может судить о ее достоверности, а также о том, обладаете ли Вы достаточной правоспособностью для предоставления Вашей Персональной информации. Тем не менее Администрация AMRcloud исходит из того, что Вы предоставляете достоверную и достаточную Персональную информацию, а также своевременно обновляете ее.&lt;/p&gt;
+
+&lt;p&gt;При использовании Вами AMRcloud Ваша Персональная информация защищена и обрабатывается в строгом соответствии с применимым законодательством.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;цель-данной-политики&#34;&gt;Цель данной Политики&lt;/h2&gt;
+
+&lt;p&gt;Следуя Политике Администрация AMRcloud информирует Вас о следующих аспектах:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;какую Персональную информацию собирает и использует («обрабатывает») AMRcloud;&lt;/li&gt;
+&lt;li&gt;как используется Ваша Персональная информация в рамках AMRcloud;&lt;/li&gt;
+&lt;li&gt;каковы Ваши права в рамках проводимой обработки Персональной информации.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;какую-персональную-информацию-о-вас-собирает-amrcloud&#34;&gt;Какую Персональную информацию о Вас собирает AMRcloud&lt;/h2&gt;
+
+&lt;p&gt;При создании учетной записи в AMRcloud Вы предоставляете следующие сведения:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Адрес электронной почты – это необходимо для создания  Вашей уникальной учетной записи в AMRcloud, а также чтобы Вы смогли получить доступ к приложению.&lt;/li&gt;
+&lt;li&gt;Имя – используется для обращения к Вам. Также Ваше имя отображается при переходе по созданной Вами ссылке для сторонних пользователей, которым Вы предоставили доступ к результатам обработки данных.&lt;/li&gt;
+&lt;li&gt;Пароль – требуется для аутентификации и предоставления доступа к Вашей учетной записи в AMRcloud.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Обращаем Ваше внимание на то, что Администрация не хранит пароли учетных записей в открытом виде, и, следовательно, не может воспользоваться Вашей учетной записью.&lt;/p&gt;
+
+&lt;p&gt;На всех страницах сайта AMRcloud размещены файлы cookie, необходимые для сбора обезличенной аналитической информации, которая используется в дальнейшем для улучшения работы ресурса. Полученная таким образом информация не продается третьим лицам. К собираемой аналитической информации относятся:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;электронные данные (HTTP-заголовки, IP-адрес, файлы cookie, веб-маяки/пиксельные теги, данные об идентификаторе браузера, информация об аппаратном и программном обеспечении);&lt;/li&gt;
+&lt;li&gt;дата и время осуществления доступа к AMRcloud;&lt;/li&gt;
+&lt;li&gt;информация о Вашей активности в AMRcloud;&lt;/li&gt;
+&lt;li&gt;информация о геолокации.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;создание-и-обмен-информацией&#34;&gt;Создание и обмен информацией&lt;/h2&gt;
+
+&lt;p&gt;Вы можете использовать платформу AMRcloud для получения результатов обработки данных в соответствии с Пользовательским соглашением. Все материалы, которые Вы создаете в AMRcloud, включая все загруженные и скачиваемые данные, остаются доступными только для Вашей учетной записи до тех пор, пока Вы самостоятельно не предоставите к ним внешний доступ («поделитесь результатами»).&lt;/p&gt;
+
+&lt;p&gt;Вы можете делиться своими результатами обработки данных в двух режимах: публичном (доступ для всех без исключения) и защищенном (доступ только после ввода специального пароля). Люди, с которыми Вы «делитесь», могут видеть результаты визуальной обработки Ваших данных, а также Ваше зарегистрированное Имя, но не Адрес электронной почты.&lt;/p&gt;
+
+&lt;p&gt;Администрация AMRcloud не использует созданный Вами контент и не предоставляет к нему доступ третьим лицам. Администрация AMRcloud  может получить доступ к Вашему контенту только тогда, когда Вы даете на это явное разрешение (такой сценарий возможен в случаях, когда необходимо выявить и устранить сбои в работе AMRcloud).&lt;/p&gt;
+
+&lt;h2 id=&#34;информация-об-использовании-сервиса&#34;&gt;Информация об использовании сервиса&lt;/h2&gt;
+
+&lt;p&gt;В целях улучшения работы Администрация AMRcloud сохраняет анонимные записи об использовании AMRcloud. Записи включают такие данные, как количество посещений и время, проведенное на страницах, взаимодействия с сайтом (щелчки по кнопкам или ссылкам и т.п.), информация об используемом Вами устройстве, операционной системе и веб-браузере. Часть вышеуказанной информации также временно хранится в файлах cookie. Всякий раз, когда Вы посещаете любую из страниц  AMRcloud, Администрация AMRcloud получает URL-адрес страниц, с которых Вы пришли, и страницу назначения AMRcloud, на которую Вы перешли. В рамках запроса Администрация AMRcloud собирает информацию о Вашем IP-адресе, прокси-сервере, операционной системе, веб-браузере, провайдере мобильных данных. Эти данные собираются анонимно и агрегируются без какой-либо личной информации.&lt;/p&gt;
+
+&lt;p&gt;Для осуществления сбора анонимной статистики используется сторонний сервис Google Analytics, с политикой конфиденциальности которого Вы можете ознакомиться по ссылке &lt;a href=&#34;https://policies.google.com/technologies/partner-sites&#34; target=&#34;_blank&#34;&gt;https://policies.google.com/technologies/partner-sites&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;как-используется-ваша-персональная-информация&#34;&gt;Как используется Ваша персональная информация&lt;/h2&gt;
+
+&lt;p&gt;Администрация AMRcloud использует Вашу Персональную информацию (Адрес электронной почты) для аутентификации и предоставления вам права на использование AMRcloud и доступа к результатам обработки данных.&lt;/p&gt;
+
+&lt;p&gt;Администрация AMRcloud  может связаться с Вами в следующих случаях:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;сообщить об изменении ключевых параметров учетных записей (включая сброс пароля, удаление учетной записи и т.д.);&lt;/li&gt;
+&lt;li&gt;ответить на запросы о поддержке;&lt;/li&gt;
+&lt;li&gt;сообщить об изменениях в предоставлении услуг (о сбоях и возобновлении работы сервиса, обновлениях или других вопросах, связанных с услугами, обновлениях политики безопасности и использования AMRcloud).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Вы не можете отказаться от получения сообщений, связанных с критически важными для функционирования AMRcloud вопросами, обновлениями системы безопасности и законодательства Российской Федерации. Помимо указанных сообщений Администрация AMRcloud может сообщать Вам об обновлениях и анонсах (включая запуск новых функций, изменения в существующих функциях или функциональности и т.д.), и рассылать другую информацию по электронной почте, только если Вы дали свое согласие на их получение.&lt;/p&gt;
+
+&lt;p&gt;Администрация AMRcloud не использует персональные данные (Адрес электронной почты) зарегистрированных пользователей для каких-либо иных целей и не передает их третьим лицам.&lt;/p&gt;
+
+&lt;h2 id=&#34;права-и-ответственность-пользователя&#34;&gt;Права и ответственность пользователя&lt;/h2&gt;
+
+&lt;p&gt;AMRcloud будет хранить Вашу персональную информацию столько времени, сколько это необходимо для достижения цели, для которой она была собрана, или для соблюдения требований законодательства и нормативных актов Российской Федерации. Однако, Администрация AMRcloud оставляет за собой право удалить Ваш аккаунт, включая Персональную информацию и созданный контент, в случае нарушения Вами Пользовательского соглашения.
+Если Вы хотите, чтобы Ваша Персональная информация была удалена из баз данных AMRcloud, Вы можете подать запрос на удаление Персональной информации.&lt;/p&gt;
+
+&lt;p&gt;В случае если это предусмотрено применимым законодательством, Вы имеете право на доступ к Вашей Персональной информации, обрабатываемой AMRcloud в соответствии с настоящей Политикой.&lt;/p&gt;
+
+&lt;p&gt;Если Вы считаете, что какая-либо информация, которую AMRcloud хранит о Вас, является некорректной или неактуальной, Вы можете подать запрос на исправление Вашей Персональной информации.&lt;/p&gt;
+
+&lt;p&gt;Если это предусмотрено применяемым законодательством Российской Федерации, Вы имеете право:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;требовать удаления Вашей Персональной информации или ее части, а также отзывать согласие на обработку Вашей Персональной информации;&lt;/li&gt;
+&lt;li&gt;требовать введения ограничений на обработку Вашей Персональной информации;&lt;/li&gt;
+&lt;li&gt;возражать против обработки Вашей Персональной информации.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;В случаях, предусмотренных применимым законодательством Российской Федерации, Вы можете также обладать другими правами, не указанными выше.&lt;/p&gt;
+
+&lt;p&gt;Для осуществления вышеуказанных прав, пожалуйста, свяжитесь со службой поддержки AMRcloud. Если Вы не удовлетворены тем, как AMRcloud обрабатывает Вашу Персональную информацию, пожалуйста, сообщите Администрации AMRcloud.&lt;/p&gt;
+
+&lt;h2 id=&#34;юридические-основания-обработки-персональной-информации&#34;&gt;Юридические основания обработки Персональной Информации&lt;/h2&gt;
+
+&lt;p&gt;Сбор и обработка Вашей Персональной информации осуществляется на законных основаниях. Законным основанием для обработки Вашей Персональной информации является явное согласие,  которое Вы даете, принимая условия настоящей Политики конфиденциальности и/или договор (например, для выполнения любых договорных обязательств, которые Администрация AMRcloud может взять на себя). Любое согласие, которое Вы даете, может быть отозвано Вами в любое время. Однако, если речь идет о законных деловых интересах, Вы имеете право возражать против сбора и обработки Вашей Персональной информации, и в этом случае Администрация AMRcloud оставляет за собой право удалить Ваш аккаунт в соответствии с Вашим возражением против сохранения и обработки Вашей Персональной информации.&lt;/p&gt;
+
+&lt;h2 id=&#34;где-хранится-и-обрабатывается-ваша-персональная-информация&#34;&gt;Где хранится и обрабатывается Ваша Персональная информация&lt;/h2&gt;
+
+&lt;p&gt;Ваша Персональная информация хранится на территории Российской Федерации.&lt;/p&gt;
+
+&lt;p&gt;Администрация AMRcloud осуществляет запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение персональных данных граждан Российской Федерации с использованием баз данных, находящихся на территории Российской Федерации.&lt;/p&gt;
+
+&lt;h2 id=&#34;обновление-настоящей-политики&#34;&gt;Обновление настоящей Политики&lt;/h2&gt;
+
+&lt;p&gt;Администрация AMRcloud имеет право вносить изменения в настоящую Политику конфиденциальности по своему усмотрению, в том числе в случаях, когда соответствующие изменения связаны с изменениями в применимом законодательстве Российской Федерации, а также когда соответствующие изменения связаны с изменениями в работе AMRcloud.&lt;/p&gt;
+
+&lt;p&gt;Администрация AMRcloud обязуется не вносить существенных изменений, не налагать дополнительных обременений или ограничений Ваших прав, установленных настоящей Политикой конфиденциальности без предварительного уведомления по электронной почте.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Условия использования</title>
-      <link>https://amrcloud.net/ru/terms-of-use/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://amrcloud.net/ru/terms-of-use/20190926/</link>
+      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://amrcloud.net/ru/terms-of-use/</guid>
-      <description></description>
+      <guid>https://amrcloud.net/ru/terms-of-use/20190926/</guid>
+      <description>
+
+&lt;h2 id=&#34;условия-использования&#34;&gt;Условия использования&lt;/h2&gt;
+
+&lt;p&gt;AMRcloud предоставляет Пользователю право использовать AMRcloud для размещения файлов (далее - «файлы» либо «данные») на дисковом пространстве серверов AMRcloud, с целью последующей обработки размещенных файлов, их изменения, удаления, обработки, визуализации результатов анализа, предоставления и управления доступом третьих лиц к результатам обработки. Такие права неотчуждаемы и непередаваемы третьим лицам. Взаимодействие Пользователя с AMRcloud осуществляется с использованием веб-интерфейса.&lt;/p&gt;
+
+&lt;p&gt;Использование AMRcloud для размещения файлов и анализа данных Пользователя невозможно без создания учетной записи в AMRcloud. При создании учетной записи Пользователь предупрежден и согласен с тем, что имя его учетной записи может быть отображено и доступно для ознакомления третьим лицам, при предоставлении Пользователем доступа к результатам обработки данных.
+ 
+Использование стандартных возможностей AMRcloud осуществляется Пользователем безвозмездно.
+ 
+Использование AMRcloud возможно только при наличии доступа к сети Интернет. Пользователь самостоятельно получает и оплачивает доступ к сети Интернет на условиях и по правилам своего оператора связи или провайдера доступа к сети Интернет.&lt;/p&gt;
+
+&lt;p&gt;Администрация AMRcloud может пересмотреть настоящее Пользовательское соглашение в любое время без предварительного уведомления. Любые изменения будут опубликованы на этой странице. Новая редакция Пользовательского соглашения вступает в силу с момента ее размещения в сети Интернет по указанному в настоящем пункте адресу (&lt;a href=&#34;https://amrcloud.net/ru/terms-of-use&#34; target=&#34;_blank&#34;&gt;https://amrcloud.net/ru/terms-of-use&lt;/a&gt;), если иное не предусмотрено новой редакцией Пользовательского соглашения.&lt;/p&gt;
+
+&lt;p&gt;В случае если были внесены изменения, с которыми Пользователь не согласен, он обязан прекратить использование AMRcloud.&lt;/p&gt;
+
+&lt;h2 id=&#34;права-и-ответственность-пользователя&#34;&gt;Права и ответственность Пользователя&lt;/h2&gt;
+
+&lt;p&gt;Пользователю дано право самостоятельно определять, как использовать AMRcloud.&lt;/p&gt;
+
+&lt;p&gt;Пользователь соглашается с тем, что он несет единоличную полную ответственность за:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;цели использования AMRcloud;&lt;/li&gt;
+&lt;li&gt;содержание любого размещаемого Пользователем файла, и соответствие его требованиям действующего законодательства страны юрисдикции/местонахождения Пользователя и нормам международного права;&lt;/li&gt;
+&lt;li&gt;действия Пользователя, повлекшие нарушение законных интересов третьих лиц, в том числе личных неимущественных прав авторов, иных интеллектуальных прав третьих лиц;&lt;/li&gt;
+&lt;li&gt;посягательство на принадлежащие третьим лицам нематериальные блага.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;При использовании сервисов AMRcloud Пользователь не вправе:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;загружать, передавать или распространять контент, который является недостоверным, незаконным, вредоносным, нарушает права интеллектуальной собственности, дискриминирует людей по расовому, этническому, половому, религиозному, социальному признакам, раскрывает персональные данные третьих лиц, включая личные идентификационные данные пациентов, нарушает права третьих лиц или причиняет им вред в любой форме, содержит не разрешенную специальным образом рекламную информацию, нарушает действующие требования законодательства страны юрисдикции/местонахождения Пользователя, законодательства Российской Федерации (РФ) и нормы международного права;&lt;/li&gt;
+&lt;li&gt;загружать, передавать или распространять контент, при отсутствии прав на такие действия согласно законодательству или каким-либо договорным отношениям;&lt;/li&gt;
+&lt;li&gt;выдавать себя за представителя организации и/или сообщества без достаточных на то прав;&lt;/li&gt;
+&lt;li&gt;намеренно нарушать нормальную работу AMRcloud;&lt;/li&gt;
+&lt;li&gt;использовать AMRcloud в коммерческих целях без дополнительного соглашения с Администрацией AMRcloud;&lt;/li&gt;
+&lt;li&gt;использовать AMRcloud в иных целях, нарушающих действующие требования законодательства страны юрисдикции/местонахождения Пользователя, законодательства РФ и нормы международного права.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Вне зависимости от юрисдикции и/или места нахождения Пользователя или его оборудования, ко всем отношениям, связанным с использованием AMRcloud, применимо право РФ в сфере Интернет-коммуникаций.&lt;/p&gt;
+
+&lt;h2 id=&#34;удаление-и-блокировка&#34;&gt;Удаление и блокировка&lt;/h2&gt;
+
+&lt;p&gt;Администрация AMRcloud оставляет за собой право удалить файлы Пользователя, с или без предварительного уведомления, в любое время с немедленным вступлением в силу, если будет обнаружено нарушение любого из условий Пользовательского соглашения.&lt;/p&gt;
+
+&lt;p&gt;Администрация AMRcloud оставляет за собой право приостановить и/или прекратить  доступ Пользователя к AMRcloud С УВЕДОМЛЕНИЕМ, если:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Пользователь использует AMRcloud таким образом, что это может привести к риску причинения вреда или убытков AMRcloud или другим Пользователям;&lt;/li&gt;
+&lt;li&gt;Пользователь не входил в учетную запись  AMRcloud в течение 12 месяцев подряд;&lt;/li&gt;
+&lt;li&gt;Пользователь не указывает AMRcloud в качестве системы обработки, анализа и представления данных при публичном представлении результатов, полученных с помощью AMRcloud, в печатных или электронных публикациях, иных печатных материалах, в выступлениях на конференциях и прочих мероприятиях;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cmac-journal.ru/publication/2019/2/cmac-2019-t21-n2-p119/&#34; target=&#34;_blank&#34;&gt;Ссылка для цитирования&lt;/a&gt; AMRcloud в публикациях: Кузьменков А.Ю., Виноградова А.Г., Трушин И.В., Авраменко А.А., Эйдельштейн М.В., Дехнич А.В., Козлов Р.С. AMRcloud: новая парадигма мониторинга антибиотикорезистентности. Клиническая микробиология и антимикробная химиотерапия. 2019; Т.21, №2; С.119-124. DOI: 10.36488/cmac.2019.2.119-124.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;При возникновении одной из вышеуказанных ситуаций, Пользователю будет направлено уведомление по адресу электронной почты, указанному во время регистрации, с целью устранения возникших нарушений. С момента выявления вышеуказанных нарушений доступ Пользователя к AMRcloud может быть приостановлен, а в случае сохранения нарушений, игнорирования уведомлений Администрации или повторных нарушений – прекращен без дополнительного уведомления. Прекращение доступа к услугам будет включать удаление учетной записи Пользователя, включая все загруженные данные, результаты их обработки и созданные ссылки.&lt;/p&gt;
+
+&lt;p&gt;Пользователю НЕ БУДЕТ ПРЕДОСТАВЛЕНО УВЕДОМЛЕНИЕ до прекращения предоставления услуг и удаления учетной записи и всех связанных с ней данных в случае, если:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Пользователь нарушает настоящие условия Пользовательского соглашения (за исключением нарушений, предусматривающих предварительное уведомление), или документов, на которые ссылаются условия Пользовательского соглашения;&lt;/li&gt;
+&lt;li&gt;нарушения влекут за собой юридическую ответственность и/или ставят под угрозу  способность AMRcloud предоставлять услуги другим Пользователям;&lt;/li&gt;
+&lt;li&gt;отсутствует техническая возможность для связи с Пользователем.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Кроме того, в случае чрезмерной нагрузки на AMRcloud при предоставлении Пользователем прав общего доступа к результатам обработки данных (путем создания ссылки средствами AMRcloud), созданная ссылка может быть заблокирована.&lt;/p&gt;
+
+&lt;h2 id=&#34;изменения-в-работе-amrcloud&#34;&gt;Изменения в работе AMRcloud&lt;/h2&gt;
+
+&lt;p&gt;Возможности AMRcloud могут быть изменены в том числе с добавлением и/или корректировкой функций. Администрация AMRcloud оставляет за собой право не уведомлять Пользователя персонально о внесенных изменениях.&lt;/p&gt;
+
+&lt;h2 id=&#34;исправления-и-ошибки&#34;&gt;Исправления и ошибки&lt;/h2&gt;
+
+&lt;p&gt;Информация, размещенная на ресурсах AMRcloud, может содержать технические, орфографические, типографские или фотографические ошибки. Администрация AMRcloud не гарантирует, что любой из этих материалов является точным, полным или актуальным. Администрация AMRcloud оставляет за собой право вносить изменения и исправления в материалы, содержащиеся на AMRcloud, без предварительного уведомления.&lt;/p&gt;
+
+&lt;h2 id=&#34;авторские-права-и-товарные-знаки&#34;&gt;Авторские права и товарные знаки&lt;/h2&gt;
+
+&lt;p&gt;Пользователь сохраняет право собственности и авторские права, право интеллектуальной собственности, применимые ко всем материалам, загруженным в AMRcloud.&lt;/p&gt;
+
+&lt;p&gt;Пользователю дано право свободно распространять результаты обработки данных, полученные с помощью AMRcloud. При публичном использовании и представлении результатов обработки данных в AMRcloud (в печатных или электронных публикациях, иных печатных материалах, в выступлениях на конференциях и прочих мероприятиях) Пользователь обязан указать AMRcloud в качестве системы обработки, анализа и представления данных. &lt;a href=&#34;https://cmac-journal.ru/publication/2019/2/cmac-2019-t21-n2-p119/&#34; target=&#34;_blank&#34;&gt;Ссылка для цитирования&lt;/a&gt; AMRcloud в публикациях: Кузьменков А.Ю., Виноградова А.Г., Трушин И.В., Авраменко А.А., Эйдельштейн М.В., Дехнич А.В., Козлов Р.С. AMRcloud: новая парадигма мониторинга антибиотикорезистентности. Клиническая микробиология и антимикробная химиотерапия. 2019; Т.21, №2; С.119-124. DOI: 10.36488/cmac.2019.2.119-124.&lt;/p&gt;
+
+&lt;h2 id=&#34;ограничения&#34;&gt;Ограничения&lt;/h2&gt;
+
+&lt;p&gt;Пользователь признает и соглашается с возможностью возникновения технических неисправностей и сбоев в работе AMRcloud, в том числе, приводящих к нарушению доступа к результатам обработки данных или удалению загруженных данных. Пользователь согласен с тем, что у Администрации отсутствует техническая возможность предсказать возникновение неисправностей и сбоев в работе AMRcloud и уведомить о них Пользователя заблаговременно, либо полностью исключить вероятность их возникновения. Возникновение таких неисправностей или сбоев вне зависимости от причин и последствий не может быть основанием для применения мер ответственности.&lt;/p&gt;
+
+&lt;p&gt;Пользователь признает и соглашается с тем, что Администрация AMRcloud не осуществляет модерацию, просмотр, редактирование данных, размещаемых Пользователем, а также просмотр результатов их обработки в AMRcloud, за исключением случаев, когда Пользователь дает на это явное разрешение.  Следовательно, Администрация AMRcloud не может гарантировать что файлы, размещенные Пользователем, не нарушают положений настоящего Пользовательского соглашения, правовых актов, иных документов.&lt;/p&gt;
+
+&lt;p&gt;Пользователь признает и соглашается с тем, что он должен самостоятельно оценивать все риски, связанные с использованием данных и/или результатов их обработки, размещенных в AMRcloud, включая оценку надежности, полноты, безопасности, законности и корректности этих данных и/или результатов их обработки.&lt;/p&gt;
+
+&lt;p&gt;Пользователь самостоятельно несет ответственность за возможные последствия использования указанных данных и/или результатов их обработки, в том числе за ущерб, который это может причинить компьютеру и/или мобильному устройству Пользователя или третьим лицам, за потерю данных и/или результатов их обработки, нарушение прав или любой другой вред.&lt;/p&gt;
+
+&lt;p&gt;Пользователь признает и соглашается с тем, что учетная запись предназначена для единоличного использования. Могут возникнуть технические проблемы, если учетная запись используется более чем одним Пользователем одновременно. Пользователь не вправе возмездно или безвозмездно передавать свою учетную запись третьим лицам.&lt;/p&gt;
+
+&lt;p&gt;Администрация AMRcloud не несет ответственности за любые убытки, произошедшие вследствие использования или невозможности использования Пользователем AMRcloud или отдельных его частей/функций, в том числе из-за возможных ошибок и/или сбоев в работе, а также за любые убытки, связанные с потерей данных.&lt;/p&gt;
+
+&lt;h2 id=&#34;дисклеймер&#34;&gt;Дисклеймер&lt;/h2&gt;
+
+&lt;p&gt;Пользователь использует AMRcloud на свой собственный риск. AMRcloud предоставляется «как есть». Администрация AMRcloud не принимает на себя никакой ответственности, в том числе за соответствие сервисов целям и ожиданиям Пользователя.&lt;/p&gt;
+
+&lt;p&gt;Администрация AMRcloud не дает гарантий, что доступ к AMRcloud будет предоставляться непрерывно, быстро, надежно и без ошибок.&lt;/p&gt;
+
+&lt;p&gt;Администрация AMRcloud не дает никаких гарантий, явных или подразумеваемых в отношении точности результатов или надежности использования материалов и информации, найденных на AMRcloud или других ресурсах, связанных с AMRcloud.&lt;/p&gt;
+
+&lt;p&gt;Администрация AMRcloud не поддерживает и не контролирует созданные Пользователем ссылки и наборы данных. Администрация AMRcloud не может гарантировать подлинность любых данных и/или результатов их обработки, которые Пользователи могут публиковать. Администрация AMRcloud также не может гарантировать хранение загруженных Пользователем данных.&lt;/p&gt;
+
+&lt;p&gt;Администрация AMRcloud оставляет за собой право устанавливать любые правила, лимиты и ограничения (технические, юридические, организационные или иные) на использование AMRcloud, и может менять их по собственному усмотрению, без предварительного уведомления Пользователя. В случаях, когда это не запрещено законодательством РФ и/или международным правом, указанные правила, лимиты и ограничения могут быть различными для различных категорий Пользователей и определяются дополнительными соглашениями между Пользователем и Администрацией.&lt;/p&gt;
+
+&lt;p&gt;Ссылки на любой сайт, продукт, услугу, любую информацию коммерческого или некоммерческого характера, размещенные на AMRcloud, не являются одобрением или рекомендацией данных продуктов (услуг, деятельности) со стороны Администрации AMRcloud, за исключением случаев, когда на это прямо указывается.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Регистрация в AMRcloud</title>
+      <link>https://amrcloud.net/ru/post/invite-register/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://amrcloud.net/ru/post/invite-register/</guid>
+      <description>&lt;p&gt;В данный момент регистрация в AMRcloud осуществляется только после личного запроса, отправленного по адресу &lt;a href=&#34;mailto:support@antibiotic.ru&#34;&gt;support@antibiotic.ru&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;В письме укажите Ваш род деятельности и Вашу специальность, а также организацию, которую Вы представляете, если таковая имеется.&lt;/p&gt;
+
+&lt;p&gt;Администрация AMRcloud рассмотрит Вашу заявку и ответит Вам в ближайшее время.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
