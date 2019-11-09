@@ -213,3 +213,25 @@ figcaption.numbered::before {
   font-size: 1rem;
   margin-bottom: 1rem;
 } */
+
+
+.btn-project-main { 
+  font-size: 1.1rem;
+  padding: .6em 2.1em;
+  border-color: #3f51b5;
+  color: #3f51b5;
+}
+
+.btn-project-main:hover {
+  color: #32408f;
+  font-weight: 700;
+  }
+
+.project-item .article-title { 
+  font-size: 1em;
+}
+
+.project-item .article-style { 
+  font-size: 0.8em;
+}
+
