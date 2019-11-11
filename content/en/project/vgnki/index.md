@@ -5,7 +5,7 @@ summary: Russian State Center for Quality and Standardization of Veterinary Drug
 tags:
 date: "2019-11-08T00:00:00Z"
 
-draft: false
+draft: true
 
 # Optional external URL for project (replaces project detail page).
 external_link: "" 
@@ -14,10 +14,10 @@ main_link:
   icon: play
   icon_pack: fas
   name: Run
-  url: "http://public.amrcloud.net/link?id=rqKqa49nl02nl15"
+  url: "http://public.amrcloud.net/link?id=5pk3U49r900r915"
 
 
-abstract: We present  the data on antimicrobial resistance of animal zoonotic bacteria isolates from different regions of Russia to over than 50 antimicrobials from 12 different groups.
+abstract: 
 
 image:
   caption: 
@@ -27,7 +27,7 @@ links:
 - icon: university
   icon_pack: fas
   name: Website
-  url: http://www.vgnki.ru/
+  url: http://en.vgnki.ru/
 
 url_code: ""
 url_pdf: ""
@@ -48,6 +48,18 @@ comments: false
 
 ---
 
+### Russian State Center for Quality and Standardization of Veterinary Drugs and Feed
+
+Research Institute of the Federal Service for Veterinary and Phytosanitary Surveillance (ROSSELKHOZNADZOR).
+
+OIE collaborating Center on Food Safety, Diagnosis and Control of Animal Diseases in Eastern Europe, Central Asia and Transcaucasia.
+
+Main activities of VGNKI are ensuring veterinary drugs quality, food of animal origin and feed safety, certification and registration of veterinary drugs, feed and feed additives, including GMO-containing.
+
+### Abstract:
+
+We present the data on antimicrobial resistance of animal zoonotic bacteria isolates from different regions of Russia to over than 50 antimicrobials from 12 different groups.
+
 #### Object: 
 
 Isolates of E.coli, Campylobacter spp., Salmonella spp., Enterococcus spp. taken from biomaterial of farm animals (poultry, cattle, reindeer, swine), food and feed materials.
@@ -64,15 +76,15 @@ Microbiological end-points – EUCAST ECOFFs (https://mic.eucast.org/Eucast2/, v
 
 Whole-genome sequencing (Illumina Miseq).
 
-
 #### Data:  
 
+- Makarov D.A. 
 - Ivanova O.E. 
 - Karabanov S.Yu. 
-- Makarov D.A. 
 - Kulikosky A.V. 
 - Lenev S.V. 
 - Krylova E.V. 
+- Komarov A.A.
 - Prasolova O.V. 
 - Pomazkova A.V. 
 - Pobolelova Yu. I.

@@ -13,10 +13,10 @@
 #   url = "#posts"
 #   weight = 20
 
-[[main]]
-  name = "Открытые проекты"
-  url = "#projects"
-  weight = 50
+# [[main]]
+#   name = "Открытые проекты"
+#   url = "#projects"
+#   weight = 50
 
 # [[main]]
 #   name = "Publications"
