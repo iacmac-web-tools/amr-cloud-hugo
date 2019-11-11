@@ -15,28 +15,7 @@ height = ""
 
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
-[[item]]
-  title = "Как работает AMRcloud"
-  content = ""
-  align = "center"  # Choose `center`, `left`, or `right`.
 
-  # Overlay a color or image (optional).
-  #   Deactivate an option by commenting out the line, prefixing it with `#`.
-  overlay_color = "#35ffda"  # An HTML color value.
-  title_color = "#000"
-  # overlay_img = "slider/amr-cloud-how-works-1.png"  # Image path relative to your `static/img/` folder.
-  overlay_img = ""
-  overlay_filter = 0  # Darken the image. Value in range 0-1.
-
-  # Call to action button (optional).
-  #   Activate the button by specifying a URL and button label below.
-  #   Deactivate by commenting out parameters, prefixing lines with `#`.
-  cta_label = "Узнать"
-  cta_url = "tutorials"
-  cta_icon_pack = "fas"
-  cta_icon = "graduation-cap"
-  cta_img = "slider/amr-cloud-how-works-1"
-  cta_alt = false
 
 [[item]]
   title = "Как работает AMRcloud"
@@ -48,7 +27,7 @@ height = ""
   overlay_color = "#f7f7f7"  # An HTML color value.
   title_color = "#3f51b5"
   # Image path relative to your `static/img/` folder.
-  overlay_img = "header/paper.jpg"  
+  overlay_img = ""  
   overlay_filter = 0.1  # Darken the image. Value in range 0-1.
 
   # Call to action button (optional).
@@ -61,73 +40,6 @@ height = ""
   cta_img = "slider/amr-cloud-how-works-2"
   cta_alt = true
 
-[[item]]
-  title = "Как работает AMRcloud"
-  content = ""
-  align = "center"  # Choose `center`, `left`, or `right`.
 
-  # Overlay a color or image (optional).
-  #   Deactivate an option by commenting out the line, prefixing it with `#`.
-  overlay_color = "#f7f7f7"  # An HTML color value.
-  title_color = "#3f51b5"
-  # Image path relative to your `static/img/` folder.
-  overlay_img = ""  
-  overlay_filter = 0.1  # Darken the image. Value in range 0-1.
-
-  # Call to action button (optional).
-  #   Activate the button by specifying a URL and button label below.
-  #   Deactivate by commenting out parameters, prefixing lines with `#`.
-  cta_label = "Узнать"
-  cta_url = "tutorials"
-  cta_icon_pack = "fas"
-  cta_icon = "graduation-cap"
-  cta_img = "slider/amr-cloud-how-works-3"
-  cta_alt = true
-
-[[item]]
-  title = "Как работает AMRcloud"
-  content = ""
-  align = "center"  # Choose `center`, `left`, or `right`.
-
-  # Overlay a color or image (optional).
-  #   Deactivate an option by commenting out the line, prefixing it with `#`.
-  overlay_color = "#f7f7f7"  # An HTML color value.
-  title_color = "#3f51b5"
-  # Image path relative to your `static/img/` folder.
-  overlay_img = ""  
-  overlay_filter = 0.1  # Darken the image. Value in range 0-1.
-
-  # Call to action button (optional).
-  #   Activate the button by specifying a URL and button label below.
-  #   Deactivate by commenting out parameters, prefixing lines with `#`.
-  cta_label = "Узнать"
-  cta_url = "tutorials"
-  cta_icon_pack = "fas"
-  cta_icon = "graduation-cap"
-  cta_img = "slider/amr-cloud-how-works-4"
-  cta_alt = true
-
-[[item]]
-  title = "Как работает AMRcloud"
-  content = ""
-  align = "center"  # Choose `center`, `left`, or `right`.
-
-  # Overlay a color or image (optional).
-  #   Deactivate an option by commenting out the line, prefixing it with `#`.
-  overlay_color = "#f7f7f7"  # An HTML color value.
-  title_color = "#3f51b5"
-  # Image path relative to your `static/img/` folder.
-  overlay_img = ""  
-  overlay_filter = 0.1  # Darken the image. Value in range 0-1.
-
-  # Call to action button (optional).
-  #   Activate the button by specifying a URL and button label below.
-  #   Deactivate by commenting out parameters, prefixing lines with `#`.
-  cta_label = "Узнать"
-  cta_url = "tutorials"
-  cta_icon_pack = "fas"
-  cta_icon = "graduation-cap"
-  cta_img = "slider/amr-cloud-how-works-5"
-  cta_alt = true
 
 +++
