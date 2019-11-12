@@ -456,7 +456,7 @@
 &lt;ul&gt;
 &lt;li&gt;Значения должны быть числовыми&lt;/li&gt;
 &lt;li&gt;Нечисловые значения, содержащие выражения, такие как &lt;strong&gt;&lt;code&gt;&amp;lt;= ...&lt;/code&gt;&lt;/strong&gt; или &lt;strong&gt;&lt;code&gt;&amp;gt; ...&lt;/code&gt;&lt;/strong&gt; или &lt;strong&gt;&lt;code&gt;&amp;gt;= ...&lt;/code&gt;&lt;/strong&gt; , будут преобразованы в &lt;strong&gt;числовые&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;*Символы &lt;strong&gt;&lt;code&gt;&amp;lt;=&lt;/code&gt;&lt;/strong&gt; и &lt;strong&gt;&lt;code&gt;&amp;gt;=&lt;/code&gt;&lt;/strong&gt; перед числами - игнорируются; числа после символа &amp;laquo;&amp;gt;&amp;raquo; будут умножены на 2*&lt;/li&gt;
+&lt;li&gt;Символы &lt;strong&gt;&lt;code&gt;&amp;lt;=&lt;/code&gt;&lt;/strong&gt; и &lt;strong&gt;&lt;code&gt;&amp;gt;=&lt;/code&gt;&lt;/strong&gt; перед числами - игнорируются; числа после символа &lt;strong&gt;&lt;code&gt;&amp;gt;&lt;/code&gt;&lt;/strong&gt; будут умножены на 2&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Диаметры зон подавления роста&lt;/strong&gt; - измеряются в мм. Значения - любые целые числа, больше или равные 6.&lt;/p&gt;&lt;/li&gt;
