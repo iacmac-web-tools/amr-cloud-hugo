@@ -13,10 +13,10 @@
 #   url = "#posts"
 #   weight = 20
 
-# [[main]]
-#   name = "Public Datasets"
-#   url = "#projects"
-#   weight = 30
+[[main]]
+  name = "Public Datasets"
+  url = "#projects"
+  weight = 30
 
 # [[main]]
 #   name = "Publications"

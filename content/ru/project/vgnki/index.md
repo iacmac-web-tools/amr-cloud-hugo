@@ -5,7 +5,7 @@ summary: «Всероссийский государственный Центр 
 tags:
 date: "2019-11-08T00:00:00Z"
 
-draft: true
+draft: false
 
 # Optional external URL for project (replaces project detail page).
 external_link: "" 
@@ -14,7 +14,7 @@ main_link:
   icon: play
   icon_pack: fas
   name: Запустить
-  url: "http://public.amrcloud.net/link?id=rqKqa49nl02nl15"
+  url: "https://app.amrcloud.net/rus/?id=vgnki-rus&public=T"
 
 
 abstract: 

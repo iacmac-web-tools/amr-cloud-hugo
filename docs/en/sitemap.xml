@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://amrcloud.net/en/</loc>
-    <lastmod>2019-10-25T10:44:53+03:00</lastmod>
+    <lastmod>2019-11-12T10:51:44+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -29,6 +29,36 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://amrcloud.net/en/talk/example/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/project/</loc>
+    <lastmod>2019-11-12T10:51:44+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/project/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/project/vgnki/</loc>
+    <lastmod>2019-11-12T10:51:44+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/project/vgnki/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/project/vgnki/"
                 />
   </url>
   

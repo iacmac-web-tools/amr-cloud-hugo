@@ -5,7 +5,7 @@ summary: Russian State Center for Quality and Standardization of Veterinary Drug
 tags:
 date: "2019-11-08T00:00:00Z"
 
-draft: true
+draft: false
 
 # Optional external URL for project (replaces project detail page).
 external_link: "" 
@@ -14,7 +14,7 @@ main_link:
   icon: play
   icon_pack: fas
   name: Run
-  url: "http://public.amrcloud.net/link?id=5pk3U49r900r915"
+  url: "https://app.amrcloud.net/eng/?id=vgnki-eng&public=T"
 
 
 abstract: 

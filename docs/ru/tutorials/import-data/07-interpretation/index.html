@@ -314,6 +314,35 @@
         
 
         <li class="nav-item">
+          <a class="nav-link " href="/ru/#projects"><span>Открытые проекты</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
           <a class="nav-link " href="/ru/#people"><span>Команда</span></a>
         </li>
 
@@ -501,7 +530,7 @@
   
   
   <div class="post-nav-item post-nav-item-left float-left" >
-    <div class="meta-nav">Предыдущий</div>
+    <div class="meta-nav">Назад</div>
     <a href="/ru/tutorials/import-data/06-geocode/" rel="next">Шаг 3 - Геокодирование</a>
   </div>
   
@@ -513,7 +542,7 @@
   
   
   <div class="post-nav-item post-nav-item-right float-right" >
-    <div class="meta-nav">Следующий</div>
+    <div class="meta-nav">Далее</div>
     <a href="/ru/tutorials/import-data/08-description/" rel="prev">Шаг 5 - Описание данных</a>
   </div>
   
@@ -650,11 +679,41 @@
     
     <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
 
-    
+    <script>
+    $(document).ready(function () {
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 
-
-
-
+        $('a[class*="btn-project-main"]').click(function (event) {
+            ga('send', 'event', 'goto', 'link', event.target.href);
+        });
+      
+    });
+</script>
 
 
   
