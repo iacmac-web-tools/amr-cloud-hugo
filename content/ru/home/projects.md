@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
 title = "Открытые проекты"
-subtitle = "Наборы данных, предоставленные пользователями платформы AMRcloud для открытого доступа"
+subtitle = ""
 
 [content]
   # Page type to display. E.g. project.
@@ -23,7 +23,7 @@ subtitle = "Наборы данных, предоставленные польз
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
+  columns = "2"
 
   # Toggle between the various page layout types.
   #   1 = List
@@ -32,7 +32,7 @@ subtitle = "Наборы данных, предоставленные польз
   view = 5
 
   # For Showcase view, flip alternate rows?
-  flip_alt_rows = true
+  flip_alt_rows = false
 
 [design.background]
   # Apply a background color, gradient, or image.

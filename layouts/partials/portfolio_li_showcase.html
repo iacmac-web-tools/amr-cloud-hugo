@@ -23,7 +23,8 @@
   {{ $summary = $item.Content }}
 {{ end }}
 
-{{ $order := "" }}
+{{ $order := "order-md-2" }}
+{{/* Make picture always on the right */}}
 {{ if and ($widget.Params.design.flip_alt_rows | default true) (not (modBool .index 2)) }}
   {{ $order = "order-md-2" }}
 {{ end }}
