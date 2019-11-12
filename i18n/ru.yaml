@@ -11,9 +11,9 @@
 - id: minute_read
   translation: min read
 - id: previous
-  translation: Предыдущий
+  translation: Назад
 - id: next
-  translation: Следующий
+  translation: Далее
 - id: figure
   translation: 'Рисунок %d:'
 - id: btn_preprint
