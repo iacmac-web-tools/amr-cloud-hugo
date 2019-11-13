@@ -78,24 +78,25 @@ Whole-genome sequencing (Illumina Miseq).
 
 #### Data:  
 
-- Bogomazova A.N. 
-- Gordeeva V.D. 
-- Grishina Yu.A. 
-- Ivanova O.E. 
-- Karabanov S.Yu. 
-- Komarov A.A.
-- Krylova E.V. 
-- Kulikosky A.V. 
-- Lenev S.V. 
-- Leukhina O.O. 
-- Makarov D.A. 
-- Pleskacheva M.A. 
-- Pobolelova Yu. I.
-- Pomazkova A.V. 
-- Prasolova O.V. 
-- Soltynskaya I.V. 
-- Sukhoedova A.V. 
-- Vetoshnikova B.Yu. 
-- Yatsentuk S.P.
+-	Bogomazova A.N.
+-	Gergel M.A.
+-	Gordeeva V.D.
+-	Gritsyuk V.A.
+-	Ivanova O.E.
+-	Karabanov S.Yu.
+-	Komarov A.A.
+-	Krylova E.V.
+-	Kulikosky A.V.
+-	Lenev S.V.
+-	Lobova P.A.
+-	Makarov D.A.
+-	Pleskacheva M.A.
+-	Pobolelova Yu. I.
+-	Pomazkova A.V.
+-	Prasolova O.V.
+-	Rusakov S.V.
+-	Soltynskaya I.V.
+-	Sukhoedova A.V.
+-	Yatsentuk S.P.
 
 > You can leave you questions and comments by e-mail: [phorez@yandex.ru](mailto:phorez@yandex.ru) (Makarov D.A.)
