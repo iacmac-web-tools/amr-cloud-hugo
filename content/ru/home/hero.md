@@ -35,7 +35,7 @@ hero_media = "amr-cloud-logo.png"
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "https://app.amrcloud.net/app_direct/AMRcloud_ru"
+  url = "https://app.amrcloud.net/"
   label = "Войти"
   icon_pack = "fas"
   icon = "sign-in-alt"

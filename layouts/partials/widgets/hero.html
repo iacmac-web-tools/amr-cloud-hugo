@@ -1,7 +1,6 @@
 {{ $ := .root }}
 {{ $page := .page }}
 {{ $bg := $page.Params.design.background }}
-{{ partial "splash" . }}
 {{ if $page.Params.hero_media }}
 <div class="row">
   <div class="col-md-6 order-md-1 text-center text-md-left">
@@ -32,7 +31,7 @@
       {{ end }}
     <p class="cta-btns">
       <!-- <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} class="btn {{if $bg.text_color_light}}btn-light{{else}}btn-primary{{end}} btn-lg">{{ if $page.Params.cta.icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ $page.Params.cta.icon }} pr-1" aria-hidden="true"></i>{{end}}{{ $page.Params.cta.label | markdownify | emojify | safeHTML }}</a> -->
-      <a href="javascript:void(0)" class="btn btn-cta {{if $bg.text_color_light}}btn-light{{else}}btn-primary{{end}} btn-lg" role="button"  onclick="openSplash()">
+      <a href="{{ $link | safeURL }}" class="btn btn-cta {{if $bg.text_color_light}}btn-light{{else}}btn-primary{{end}} btn-lg" role="button">
         {{ if $page.Params.cta.icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ $page.Params.cta.icon }} pr-1" aria-hidden="true"></i>{{end}}
         {{ $page.Params.cta.label | markdownify | emojify | safeHTML }}
       </a>

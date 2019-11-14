@@ -465,38 +465,6 @@
 
 
 
-<script>
-    function openSplash() {
-        document.getElementById("mySplash").style.width = "100%";
-        $.ajax({
-            url: "https:\/\/app.amrcloud.net\/app_direct\/AMRcloud_en",
-            type: 'GET',
-            crossDomain : true,
-            success: function (data) {
-                setTimeout(goToApp, 2000);
-            },
-            error: function (data) { 
-                setTimeout(goToApp, 2000);
-            }
-        });
-    }
-
-    function goToApp(){
-        window.location = "https:\/\/app.amrcloud.net\/app_direct\/AMRcloud_en"
-    }
-</script>
-
-<div id="mySplash" class="overlay">
-    <div class="overlay-content">
-        <div class="container">
-            <div class="text-center">
-                <div class="loader d-block mx-auto mb-4"></div>
-                <h3> Please, wait, we are preparing a personal workspace for you</h3>
-            </div>
-        </div>
-    </div>
-</div>
-
 <div class="row">
   <div class="col-md-6 order-md-1 text-center text-md-left">
 
@@ -525,7 +493,7 @@
       
     <p class="cta-btns">
       
-      <a href="javascript:void(0)" class="btn btn-cta btn-light btn-lg" role="button"  onclick="openSplash()">
+      <a href="https://app.amrcloud.net/" class="btn btn-cta btn-light btn-lg" role="button">
         <i class="fas fa-sign-in-alt pr-1" aria-hidden="true"></i>
         Log in
       </a>
