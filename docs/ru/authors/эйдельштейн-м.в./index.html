@@ -545,37 +545,25 @@
 
     <script>
     $(document).ready(function () {
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-        
-        
-        
-      
+        if ($('span.project-stat').length) {
+            $.ajax({
+                url: "https:\/\/api.amrcloud.net\/api/ga/page",
+                data: {
+                    path: "\/ru\/authors\/%D1%8D%D0%B9%D0%B4%D0%B5%D0%BB%D1%8C%D1%88%D1%82%D0%B5%D0%B9%D0%BD-%D0%BC.%D0%B2.\/",
+                    link: ""
+                },
+                type: 'GET',
+                cache: true,
+                crossDomain: true,
+                success: function (data) {
+                    $("#publication_statistics_views_value").text(data['views'] || 0);
+                    $("#publication_statistics_goto_value").text(data['Outbound Link'] || 0);
+                },
+                error: function (data) {
+                    console.log(data);
+                }
+            });
+        }     
     });
 </script>
 

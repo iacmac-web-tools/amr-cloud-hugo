@@ -7,6 +7,8 @@ date: "2019-11-08T00:00:00Z"
 
 draft: false
 
+show_statistics: true
+
 # Optional external URL for project (replaces project detail page).
 external_link: "" 
 

@@ -473,6 +473,7 @@
 
 
 
+
 <meta content="2019-11-08 00:00:00 &#43;0000 UTC" itemprop="datePublished">
 <meta content="2019-11-13 13:44:35 &#43;0300 MSK" itemprop="dateModified">
 
@@ -504,6 +505,19 @@
   
 
   
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="project-stat">
+    Просмотров:
+    <span id="publication_statistics_views_value">0</span>
+  </span>
+  <span class="middot-divider"></span>
+  <span class="project-stat">
+    Переходов:
+    <span id="publication_statistics_goto_value">0</span>
+  </span>
   
 
   
@@ -881,37 +895,25 @@
 
     <script>
     $(document).ready(function () {
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-        
-        
-        
-      
+        if ($('span.project-stat').length) {
+            $.ajax({
+                url: "https:\/\/api.amrcloud.net\/api/ga/page",
+                data: {
+                    path: "\/ru\/project\/vgnki\/",
+                    link: "https:\/\/app.amrcloud.net\/rus\/?id=vgnki-rus\x26public=T"
+                },
+                type: 'GET',
+                cache: true,
+                crossDomain: true,
+                success: function (data) {
+                    $("#publication_statistics_views_value").text(data['views'] || 0);
+                    $("#publication_statistics_goto_value").text(data['Outbound Link'] || 0);
+                },
+                error: function (data) {
+                    console.log(data);
+                }
+            });
+        }     
     });
 </script>
 

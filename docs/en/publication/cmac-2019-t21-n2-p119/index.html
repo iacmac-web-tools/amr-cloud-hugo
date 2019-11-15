@@ -449,6 +449,7 @@
 
 
 
+
 <meta content="2019-10-10 00:04:00 &#43;0000 UTC" itemprop="datePublished">
 <meta content="2019-10-22 17:47:35 &#43;0300 MSK" itemprop="dateModified">
 
@@ -518,6 +519,8 @@
   
 
   
+  
+
   
 
   
@@ -860,37 +863,25 @@
 
     <script>
     $(document).ready(function () {
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-        
-        
-        
-      
+        if ($('span.project-stat').length) {
+            $.ajax({
+                url: "https:\/\/api.amrcloud.net\/api/ga/page",
+                data: {
+                    path: "\/en\/publication\/cmac-2019-t21-n2-p119\/",
+                    link: ""
+                },
+                type: 'GET',
+                cache: true,
+                crossDomain: true,
+                success: function (data) {
+                    $("#publication_statistics_views_value").text(data['views'] || 0);
+                    $("#publication_statistics_goto_value").text(data['Outbound Link'] || 0);
+                },
+                error: function (data) {
+                    console.log(data);
+                }
+            });
+        }     
     });
 </script>
 

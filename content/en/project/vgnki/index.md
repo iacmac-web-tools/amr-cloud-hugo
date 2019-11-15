@@ -10,6 +10,8 @@ draft: false
 # Optional external URL for project (replaces project detail page).
 external_link: "" 
 
+show_statistics: true
+
 main_link: 
   icon: play
   icon_pack: fas

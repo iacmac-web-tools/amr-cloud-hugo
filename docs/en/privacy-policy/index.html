@@ -561,37 +561,25 @@ By using AMRcloud your Personal Data is protected and processed in accordance wi
 
     <script>
     $(document).ready(function () {
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-        
-        
-        
-      
+        if ($('span.project-stat').length) {
+            $.ajax({
+                url: "https:\/\/api.amrcloud.net\/api/ga/page",
+                data: {
+                    path: "\/en\/privacy-policy\/",
+                    link: ""
+                },
+                type: 'GET',
+                cache: true,
+                crossDomain: true,
+                success: function (data) {
+                    $("#publication_statistics_views_value").text(data['views'] || 0);
+                    $("#publication_statistics_goto_value").text(data['Outbound Link'] || 0);
+                },
+                error: function (data) {
+                    console.log(data);
+                }
+            });
+        }     
     });
 </script>
 

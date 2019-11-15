@@ -7,6 +7,8 @@ color_theme = "ocean"
 # Enable users to switch between day and night mode?
 day_night = false
 
+GoogleAnalyticsApiUrl = "https://api.amrcloud.net/api"
+
 # Font style.
 #   Choose from `default`, `classic`, or `playfair`.
 font = "default"

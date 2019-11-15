@@ -1,35 +1,23 @@
 <script>
     $(document).ready(function () {
-        // if ($('#publication_statistics').length) {
-        //     $("#publication_statistics_views").hide();
-        //     $.ajax({
-        //         url: "{{ site.Params.GoogleAnalyticsApiUrl }}/ga/page",
-        //         data: {
-        //             pagePath: "{{ .RelPermalink }}"
-        //         },
-        //         type: 'GET',
-        //         cache: true,
-        //         crossDomain: true,
-        //         success: function (data) {
-        //             $("#publication_statistics_views_value").text(data['views'] || 0);
-        //             $("#publication_statistics_pdf_value").text(data['pdf'] || 0);
-        //             $("#publication_statistics_cite_value").text(data['cite'] || 0);
-        //             $("#publication_statistics_twitter_share_value").text(data['twitter'] || 0);
-        //             $("#publication_statistics_facebook_share_value").text(data['facebook'] || 0);
-        //             $("#publication_statistics_vk_share_value").text(data['vk'] || 0);
-        //             $("#publication_statistics_email_share_value").text(data['email'] || 0);
-        //             $("#publication_statistics_linkedin_share_value").text(data['linkedin'] || 0);
-        //             $("#publication_statistics_whatsapp_share_value").text(data['whatsapp'] || 0);
-        //         },
-        //         error: function (data) {
-        //             console.log(data);
-        //         }
-        //     });
-        // } 
-
-        // $('a[class*="btn-project-main"]').click(function (event) {
-        //     ga('send', 'event', 'goto', 'link', event.target.href);
-        // });
-      
+        if ($('span.project-stat').length) {
+            $.ajax({
+                url: "{{ site.Params.GoogleAnalyticsApiUrl }}/ga/page",
+                data: {
+                    path: "{{ .RelPermalink }}",
+                    link: "{{ .Params.main_link.url }}"
+                },
+                type: 'GET',
+                cache: true,
+                crossDomain: true,
+                success: function (data) {
+                    $("#publication_statistics_views_value").text(data['views'] || 0);
+                    $("#publication_statistics_goto_value").text(data['Outbound Link'] || 0);
+                },
+                error: function (data) {
+                    console.log(data);
+                }
+            });
+        }     
     });
 </script>

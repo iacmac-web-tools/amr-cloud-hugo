@@ -467,6 +467,7 @@
 
 
 
+
 <meta content="2019-09-26 00:00:00 &#43;0000 UTC" itemprop="datePublished">
 <meta content="2019-10-22 13:35:18 &#43;0300 MSK" itemprop="dateModified">
 
@@ -498,6 +499,8 @@
   
 
   
+  
+
   
 
   
@@ -773,37 +776,25 @@
 
     <script>
     $(document).ready(function () {
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-        
-        
-        
-      
+        if ($('span.project-stat').length) {
+            $.ajax({
+                url: "https:\/\/api.amrcloud.net\/api/ga/page",
+                data: {
+                    path: "\/ru\/terms-of-use\/20190926\/",
+                    link: ""
+                },
+                type: 'GET',
+                cache: true,
+                crossDomain: true,
+                success: function (data) {
+                    $("#publication_statistics_views_value").text(data['views'] || 0);
+                    $("#publication_statistics_goto_value").text(data['Outbound Link'] || 0);
+                },
+                error: function (data) {
+                    console.log(data);
+                }
+            });
+        }     
     });
 </script>
 

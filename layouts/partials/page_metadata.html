@@ -1,6 +1,7 @@
 {{ $is_list := .is_list }}
 {{ $share := .share | default false }}
 {{ $page := .page }}
+{{ $show_statistics := $page.Params.show_statistics | default false }}
 
 <meta content="{{ $page.Params.Date }}" itemprop="datePublished">
 <meta content="{{ $page.Params.LastMod }}" itemprop="dateModified">
@@ -76,6 +77,19 @@
     {{- end -}}
   </span>
   {{ end }}
+
+  <!-- {{ if $show_statistics }} -->
+  <span class="middot-divider"></span>
+  <span class="project-stat">
+    {{ i18n "views" }}:
+    <span id="publication_statistics_views_value">0</span>
+  </span>
+  <span class="middot-divider"></span>
+  <span class="project-stat">
+    {{ i18n "gotos" }}:
+    <span id="publication_statistics_goto_value">0</span>
+  </span>
+  <!-- {{ end }} -->
 
   {{ if $share }}
     {{ partial "share.html" $page }}

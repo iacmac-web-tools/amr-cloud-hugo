@@ -128,3 +128,7 @@
   translation: Понятно
 - id: cookie_learn
   translation: Узнать больше...
+- id: views
+  translation: Просмотров
+- id: gotos
+  translation: Переходов
