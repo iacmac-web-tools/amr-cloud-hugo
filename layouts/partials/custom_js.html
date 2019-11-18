@@ -11,8 +11,10 @@
     console.log('browserLang:' + browserLang);
 
     if (prefLang !== '' && prefLang != currentLang) {
+
         window.location = "{{ site.BaseURL }}/" + prefLang;
     } else if (prefLang == '' && browserLang != currentLang && browserLang.indexOf('ru') != -1) {
+        localStorage.setItem('amrcloud-pref-lang', 'ru');
         window.location = "{{ site.BaseURL }}/ru";
     }
 

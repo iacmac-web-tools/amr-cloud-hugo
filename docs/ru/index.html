@@ -1606,8 +1606,10 @@
     console.log('browserLang:' + browserLang);
 
     if (prefLang !== '' && prefLang != currentLang) {
+
         window.location = "https:\/\/amrcloud.net/" + prefLang;
     } else if (prefLang == '' && browserLang != currentLang && browserLang.indexOf('ru') != -1) {
+        localStorage.setItem('amrcloud-pref-lang', 'ru');
         window.location = "https:\/\/amrcloud.net/ru";
     }
 
