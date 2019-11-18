@@ -1034,17 +1034,19 @@
 
     <script type="text/javascript">
     
-    var userLang = navigator.language || navigator.userLanguage; 
-    var currentLang = "ru";
-    var isRedirected = localStorage.getItem('amrcloud-redirected-to-russian') || false;
+</script>
+<script>
     
-    if (userLang.indexOf('ru') !== -1  && currentLang != 'ru' && !isRedirected ) {
-        localStorage.setItem('amrcloud-redirected-to-russian', true);
-        window.location = "https:\/\/amrcloud.net/ru";
+    function setPreferredLanguage(lang) {
+        console.log('preferred lang:' + lang);
+        localStorage.setItem('amrcloud-pref-lang', lang);
     }
+
 </script>
 <script>
     $(document).ready(function () {
+
+
         if ($('span.project-stat').length) {
             $.ajax({
                 url: "https:\/\/api.amrcloud.net\/api/ga/page",
@@ -1063,7 +1065,7 @@
                     console.log(data);
                 }
             });
-        }     
+        }
     });
 </script>
 
