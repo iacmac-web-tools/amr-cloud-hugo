@@ -1491,9 +1491,9 @@
     console.log('browserLang:' + browserLang);
 
     if (prefLang !== '' && prefLang != currentLang) {
-        window.location = "https:\/\/amrcloud.net" + prefLang;
+        window.location = "https:\/\/amrcloud.net/" + prefLang;
     } else if (prefLang == '' && browserLang != currentLang && browserLang.indexOf('ru') != -1) {
-        window.location = "https:\/\/amrcloud.netru";
+        window.location = "https:\/\/amrcloud.net/ru";
     }
 
     

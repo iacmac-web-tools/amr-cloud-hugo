@@ -11,9 +11,9 @@
     console.log('browserLang:' + browserLang);
 
     if (prefLang !== '' && prefLang != currentLang) {
-        window.location = "{{ site.BaseURL }}" + prefLang;
+        window.location = "{{ site.BaseURL }}/" + prefLang;
     } else if (prefLang == '' && browserLang != currentLang && browserLang.indexOf('ru') != -1) {
-        window.location = "{{ site.BaseURL }}ru";
+        window.location = "{{ site.BaseURL }}/ru";
     }
 
     {{ end }}
