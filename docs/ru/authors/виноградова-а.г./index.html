@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.5.0">
+  <meta name="generator" content="Source Themes Academic 4.6.0">
 
   
 
@@ -48,8 +48,8 @@
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
     
@@ -60,8 +60,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -81,37 +81,52 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.05b8c769794b39cce847f70d050a339d.css">
+  
+  <link rel="stylesheet" href="/css/academic.css">
 
   
-    
-    
-    
-    
-      
-    
-    
-    
-    <link rel="stylesheet" href="/css/academic.736614e1f7b6a4137d573a546b23752b.css">
-  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-85066436-14"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-85066436-14', { 'anonymize_ip': true });
 
   
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-85066436-14', 'auto');
-      ga('set', 'anonymizeIp', true);
-      ga('require', 'eventTracker');
-      ga('require', 'outboundLinkTracker');
-      ga('require', 'urlChangeTracker');
-      ga('send', 'pageview');
-    </script>
-    <script async src="https://www.google-analytics.com/analytics.js"></script>
-    
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
-    
-  
-  
+
 
   
   <link rel="alternate" href="/ru/authors/%D0%B2%D0%B8%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D0%BE%D0%B2%D0%B0-%D0%B0.%D0%B3./index.xml" type="application/rss+xml" title="AMRcloud">
@@ -223,202 +238,211 @@
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
-  <div class="container">
-
-    
-      <a class="navbar-brand" href="/ru/">AMRcloud</a>
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Переключить навигацию">
-        <span><i class="fas fa-bars"></i></span>
-      </button>
-      
-
-    
-    <div class="collapse navbar-collapse" id="navbar">
-
-      
-      
-      <ul class="navbar-nav mr-auto">
-        
-
-        
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container">
 
         
         
         
-          
+        <a class="navbar-brand" href="/ru/">AMRcloud</a>
+        
+
+        
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-content"
+            aria-controls="navbar" aria-expanded="false" aria-label="Переключить навигацию">
+            <span><i class="fas fa-bars"></i></span>
+        </button>
         
 
         
         
-        
-        
-        
-        
-          
-          
-          
+        <div class="navbar-collapse main-menu-item collapse justify-content-start"
+            id="navbar-content">
+
             
-          
-          
-        
+            <ul class="navbar-nav d-md-inline-flex">
+                
 
-        <li class="nav-item">
-          <a class="nav-link " href="/ru/#hero"><span>Главная</span></a>
-        </li>
+                
 
-        
-        
+                
+                
+                
+                
+                
 
-        
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
 
-        
-        
-        
-          
-        
+                <li class="nav-item">
+                    <a class="nav-link " href="/ru/#hero"
+                        ><span>Главная</span></a>
+                </li>
 
-        
-        
-        
-        
-        
-        
+                
+                
 
-        <li class="nav-item">
-          <a class="nav-link " href="/ru/tutorials/"><span>Начало работы</span></a>
-        </li>
+                
 
-        
-        
+                
+                
+                
+                
+                
 
-        
+                
+                
+                
+                
+                
+                
 
-        
-        
-        
-          
-        
+                <li class="nav-item">
+                    <a class="nav-link " href="/ru/tutorials/"
+                        ><span>Начало работы</span></a>
+                </li>
 
-        
-        
-        
-        
-        
-        
-          
-          
-          
+                
+                
+
+                
+
+                
+                
+                
+                
+                
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+
+                <li class="nav-item">
+                    <a class="nav-link " href="/ru/#projects"
+                        ><span>Открытые проекты</span></a>
+                </li>
+
+                
+                
+
+                
+
+                
+                
+                
+                
+                
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+
+                <li class="nav-item">
+                    <a class="nav-link " href="/ru/#people"
+                        ><span>Команда</span></a>
+                </li>
+
+                
+                
+
+                
+
+                
+                
+                
+                
+                
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+
+                <li class="nav-item">
+                    <a class="nav-link " href="/ru/#contact"
+                        ><span>Контакты</span></a>
+                </li>
+
+                
+                
+
+                
+            </ul>
+            <ul class="navbar-nav ml-md-auto">
+                
+
+                
+
+                
+                
+                
+                
+                
+                
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="http://amrhub.ru"  target="_blank" rel="noopener"><i class='fas fa-external-link-alt'></i>&nbsp;<span>Другие AMR сервисы</span></a>
+                </li>
+
+                
+            </ul>
+        </div>
+
+        <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
             
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/ru/#projects"><span>Открытые проекты</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
+            <li class="nav-item">
+                <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+            </li>
             
-          
-          
-        
 
-        <li class="nav-item">
-          <a class="nav-link " href="/ru/#people"><span>Команда</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
             
-          
-          
-        
+            
 
-        <li class="nav-item">
-          <a class="nav-link " href="/ru/#contact"><span>Контакты</span></a>
-        </li>
-
-        
-        
-
-      
-      </ul>
-      <ul class="navbar-nav ml-auto">
-      
-
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-        <li class="nav-item">
-        
-          <a class="nav-link" href="http://amrhub.ru" target="_blank" rel="noopener"><i class='fas fa-external-link-alt'></i>&nbsp;<span>Другие AMR сервисы</span></a>
-        </li>
-
-        
-
-        
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
-
-        
-
-        
-
-      </ul>
+        </ul>
 
     </div>
-  </div>
 </nav>
-
 
   
 
@@ -435,8 +459,7 @@
     
     
     
-    <div class="article-widget">
-      <div class="hr-light"></div>
+    <div class="article-widget content-widget-hr">
       <h3>Latest</h3>
       <ul>
         
@@ -461,13 +484,13 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
 
       
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
         
       
 
@@ -485,13 +508,13 @@
 
     
     
+    
+    
+    
+    
     <script>
-      const search_index_filename = "/ru/index.json";
-      const i18n = {
-        'placeholder': "Поиск...",
-        'results': "найдено",
-        'no_results': "Ничего не найдено"
-      };
+      const search_config = {"indexURI":"/ru/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"Ничего не найдено","placeholder":"Поиск...","results":"найдено"};
       const content_type = {
         'post': "Статьи",
         'project': "Проекты",
@@ -545,7 +568,7 @@
     
     
     
-    <script src="/js/academic.min.130521ecfc6f534c52c158217bbff718.js"></script>
+    <script src="/js/academic.min.96cf4c3dc37ea60dbbd03c13a455f1f7.js"></script>
 
     <script type="text/javascript">
     
@@ -586,6 +609,7 @@
 
 
   
+  
   <div class="container">
     <footer class="site-footer">
   
@@ -599,7 +623,7 @@
 
     
     <span class="float-right" aria-hidden="true">
-      <a href="#" id="back_to_top">
+      <a href="#" class="back-to-top">
         <span class="button_icon">
           <i class="fas fa-chevron-up fa-2x"></i>
         </span>

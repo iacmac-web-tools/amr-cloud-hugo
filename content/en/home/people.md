@@ -8,8 +8,18 @@ weight = 120  # Order that this section will appear.
 title = "Team"
 subtitle = ""
 
-# List user groups to display.
-#   Edit each user's `user_groups` to add them to one or more of these groups.
-user_groups = ["Developers"]
+
+[content]
+  # Choose which groups/teams of users to display.
+  #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+  user_groups = ["Developers"]
+
+[design]
+  # Show user's social networking links? (true/false)
+  show_social = false
+
+  # Show user's interests? (true/false)
+  show_interests = false
+
 
 +++

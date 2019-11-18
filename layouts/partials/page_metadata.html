@@ -1,10 +1,10 @@
 {{ $is_list := .is_list }}
-{{ $share := .share | default false }}
+<!-- {{ $share := .share | default false }} -->
 {{ $page := .page }}
 {{ $show_statistics := $page.Params.show_statistics | default false }}
 
-<meta content="{{ $page.Params.Date }}" itemprop="datePublished">
-<meta content="{{ $page.Params.LastMod }}" itemprop="dateModified">
+<!-- <meta content="{{ $page.Params.Date }}" itemprop="datePublished">
+<meta content="{{ $page.Params.LastMod }}" itemprop="dateModified"> -->
 
 <div class="article-metadata">
 
@@ -33,6 +33,7 @@
     {{ $date := $page.Lastmod.Format site.Params.date_format }}
     {{ if eq $page.Type "publication" }}
       {{ $date = $page.Date.Format (site.Params.publications.date_format | default "January, 2006") }}
+      {{ i18n "last_updated" }}
     {{ else }}
       {{ if ne $page.Params.Lastmod $page.Params.Date }}
           {{ i18n "last_updated" }}
@@ -90,9 +91,5 @@
     <span id="publication_statistics_goto_value">0</span>
   </span>
   <!-- {{ end }} -->
-
-  {{ if $share }}
-    {{ partial "share.html" $page }}
-  {{ end }}
 
 </div>

@@ -12,22 +12,5 @@
       <link>https://amrcloud.net/ru/tutorials/</link>
     </image>
     
-    <item>
-      <title>AMRcloud. Импорт данных</title>
-      <link>https://amrcloud.net/ru/tutorials/import-data/</link>
-      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://amrcloud.net/ru/tutorials/import-data/</guid>
-      <description>&lt;p&gt;Руководство «AMRcloud. Импорт данных» предназначено для ознакомления с основными этапами загрузки пользовательских таблиц в онлайн-платформу &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; , индивидуальной настройкой рабочей среды и подготовкой системы к непосредственному анализу и визуализации данных.&lt;/p&gt;
-
-&lt;p&gt;Все шаги импорта данных детально описаны с включением практических примеров.&lt;/p&gt;
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Чтобы подробнее рассмотреть необходимый рисунок, следует нажать по нему левой кнопкой мыши (убрать подробный вариант - нажать по увеличенному рисунку левой кнопкой мыши)
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>
