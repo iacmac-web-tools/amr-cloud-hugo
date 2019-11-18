@@ -774,7 +774,18 @@
     
     <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
 
-    <script>
+    <script type="text/javascript">
+    
+    var userLang = navigator.language || navigator.userLanguage; 
+    var currentLang = "ru";
+    var isRedirected = localStorage.getItem('amrcloud-redirected-to-russian') || false;
+    
+    if (userLang.indexOf('ru') !== -1  && currentLang != 'ru' && !isRedirected ) {
+        localStorage.setItem('amrcloud-redirected-to-russian', true);
+        window.location = "https:\/\/amrcloud.net/ru";
+    }
+</script>
+<script>
     $(document).ready(function () {
         if ($('span.project-stat').length) {
             $.ajax({

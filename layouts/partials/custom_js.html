@@ -1,3 +1,14 @@
+<script type="text/javascript">
+    // Redirect to russian
+    var userLang = navigator.language || navigator.userLanguage; 
+    var currentLang = "{{ .Site.Language.Lang}}";
+    var isRedirected = localStorage.getItem('amrcloud-redirected-to-russian') || false;
+    
+    if (userLang.indexOf('ru') !== -1  && currentLang != 'ru' && !isRedirected ) {
+        localStorage.setItem('amrcloud-redirected-to-russian', true);
+        window.location = "{{ site.BaseURL }}/ru";
+    }
+</script>
 <script>
     $(document).ready(function () {
         if ($('span.project-stat').length) {
