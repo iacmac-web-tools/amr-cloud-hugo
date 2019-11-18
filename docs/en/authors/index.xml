@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on AMRcloud</title>
+    <title>Authors | AMRcloud</title>
     <link>https://amrcloud.net/en/authors/</link>
-    <description>Recent content in Authors on AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>AMRcloud</copyright>
-    <lastBuildDate>Thu, 10 Oct 2019 00:04:00 +0000</lastBuildDate>
-    
-	    <atom:link href="https://amrcloud.net/en/authors/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://amrcloud.net/en/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud</copyright><lastBuildDate>Thu, 10 Oct 2019 00:04:00 +0000</lastBuildDate>
+    <image>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <title>Authors</title>
+      <link>https://amrcloud.net/en/authors/</link>
+    </image>
     
     <item>
       <title>Avramenko A.A.</title>
       <link>https://amrcloud.net/en/authors/avramenko-a.a./</link>
       <pubDate>Thu, 10 Oct 2019 00:04:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/en/authors/avramenko-a.a./</guid>
       <description></description>
     </item>
@@ -25,7 +24,6 @@
       <title>Dekhnich A.V.</title>
       <link>https://amrcloud.net/en/authors/dekhnich-a.v./</link>
       <pubDate>Thu, 10 Oct 2019 00:04:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/en/authors/dekhnich-a.v./</guid>
       <description></description>
     </item>
@@ -34,7 +32,6 @@
       <title>Edelstein M.V.</title>
       <link>https://amrcloud.net/en/authors/edelstein-m.v./</link>
       <pubDate>Thu, 10 Oct 2019 00:04:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/en/authors/edelstein-m.v./</guid>
       <description></description>
     </item>
@@ -43,7 +40,6 @@
       <title>Kozlov R.S.</title>
       <link>https://amrcloud.net/en/authors/kozlov-r.s./</link>
       <pubDate>Thu, 10 Oct 2019 00:04:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/en/authors/kozlov-r.s./</guid>
       <description></description>
     </item>
@@ -52,7 +48,6 @@
       <title>Kuzmenkov A.Y.</title>
       <link>https://amrcloud.net/en/authors/kuzmenkov-a.y./</link>
       <pubDate>Thu, 10 Oct 2019 00:04:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/en/authors/kuzmenkov-a.y./</guid>
       <description></description>
     </item>
@@ -61,7 +56,6 @@
       <title>Trushin I.V.</title>
       <link>https://amrcloud.net/en/authors/trushin-i.v./</link>
       <pubDate>Thu, 10 Oct 2019 00:04:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/en/authors/trushin-i.v./</guid>
       <description></description>
     </item>
@@ -70,7 +64,6 @@
       <title>Vinogradova A.G.</title>
       <link>https://amrcloud.net/en/authors/vinogradova-a.g./</link>
       <pubDate>Thu, 10 Oct 2019 00:04:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/en/authors/vinogradova-a.g./</guid>
       <description></description>
     </item>
@@ -79,7 +72,6 @@
       <title></title>
       <link>https://amrcloud.net/en/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/en/authors/admin/</guid>
       <description>&lt;!-- 
 Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
@@ -92,7 +84,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
       <title>Alexey Kuzmenkov</title>
       <link>https://amrcloud.net/en/authors/kuzmenkov-ay/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/en/authors/kuzmenkov-ay/</guid>
       <description>&lt;!-- 
 Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
@@ -105,7 +96,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
       <title>Alina Vinogradova</title>
       <link>https://amrcloud.net/en/authors/vinogradova-ag/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/en/authors/vinogradova-ag/</guid>
       <description>&lt;!-- 
 Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
@@ -118,7 +108,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
       <title>Andrey Avramenko</title>
       <link>https://amrcloud.net/en/authors/avramenko-aa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/en/authors/avramenko-aa/</guid>
       <description>&lt;!-- 
 Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
@@ -131,7 +120,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
       <title>Ivan Trushin</title>
       <link>https://amrcloud.net/en/authors/trushin-iv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/en/authors/trushin-iv/</guid>
       <description>&lt;!-- 
 Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
@@ -144,7 +132,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
       <title>Mikhail Edelstein</title>
       <link>https://amrcloud.net/en/authors/edelstein-mv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/en/authors/edelstein-mv/</guid>
       <description>&lt;!-- 
 Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.

@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Edelstein M.V. on AMRcloud</title>
+    <title>Edelstein M.V. | AMRcloud</title>
     <link>https://amrcloud.net/en/authors/edelstein-m.v./</link>
-    <description>Recent content in Edelstein M.V. on AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>AMRcloud</copyright>
-    <lastBuildDate>Thu, 10 Oct 2019 00:04:00 +0000</lastBuildDate>
-    
-	    <atom:link href="https://amrcloud.net/en/authors/edelstein-m.v./index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://amrcloud.net/en/authors/edelstein-m.v./index.xml" rel="self" type="application/rss+xml" />
+    <description>Edelstein M.V.</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud</copyright><lastBuildDate>Thu, 10 Oct 2019 00:04:00 +0000</lastBuildDate>
+    <image>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <title>Edelstein M.V.</title>
+      <link>https://amrcloud.net/en/authors/edelstein-m.v./</link>
+    </image>
     
     <item>
       <title>AMRcloud: a new paradigm in monitoring of antibiotic resistance</title>
       <link>https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/</link>
       <pubDate>Thu, 10 Oct 2019 00:04:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/</guid>
       <description></description>
     </item>

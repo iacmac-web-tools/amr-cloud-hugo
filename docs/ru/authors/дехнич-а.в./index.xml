@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Дехнич А.В. on AMRcloud</title>
+    <title>Дехнич А.В. | AMRcloud</title>
     <link>https://amrcloud.net/ru/authors/%D0%B4%D0%B5%D1%85%D0%BD%D0%B8%D1%87-%D0%B0.%D0%B2./</link>
-    <description>Recent content in Дехнич А.В. on AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>ru-ru</language>
-    <copyright>AMRcloud</copyright>
-    <lastBuildDate>Thu, 10 Oct 2019 00:04:00 +0000</lastBuildDate>
-    
-	    <atom:link href="https://amrcloud.net/ru/authors/%D0%B4%D0%B5%D1%85%D0%BD%D0%B8%D1%87-%D0%B0.%D0%B2./index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://amrcloud.net/ru/authors/%D0%B4%D0%B5%D1%85%D0%BD%D0%B8%D1%87-%D0%B0.%D0%B2./index.xml" rel="self" type="application/rss+xml" />
+    <description>Дехнич А.В.</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud</copyright><lastBuildDate>Thu, 10 Oct 2019 00:04:00 +0000</lastBuildDate>
+    <image>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <title>Дехнич А.В.</title>
+      <link>https://amrcloud.net/ru/authors/%D0%B4%D0%B5%D1%85%D0%BD%D0%B8%D1%87-%D0%B0.%D0%B2./</link>
+    </image>
     
     <item>
       <title>AMRcloud: новая парадигма мониторинга антибиотикорезистентности</title>
       <link>https://amrcloud.net/ru/publication/cmac-2019-t21-n2-p119/</link>
       <pubDate>Thu, 10 Oct 2019 00:04:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/ru/publication/cmac-2019-t21-n2-p119/</guid>
       <description></description>
     </item>

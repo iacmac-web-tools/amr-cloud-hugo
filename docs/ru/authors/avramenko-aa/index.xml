@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Андрей Авраменко on AMRcloud</title>
+    <title>Андрей Авраменко | AMRcloud</title>
     <link>https://amrcloud.net/ru/authors/avramenko-aa/</link>
-    <description>Recent content in Андрей Авраменко on AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>ru-ru</language>
-    <copyright>AMRcloud</copyright>
-    
-	    <atom:link href="https://amrcloud.net/ru/authors/avramenko-aa/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://amrcloud.net/ru/authors/avramenko-aa/index.xml" rel="self" type="application/rss+xml" />
+    <description>Андрей Авраменко</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud</copyright>
+    <image>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <title>Андрей Авраменко</title>
+      <link>https://amrcloud.net/ru/authors/avramenko-aa/</link>
+    </image>
     
   </channel>
 </rss>

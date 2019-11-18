@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on AMRcloud</title>
+    <title>Projects | AMRcloud</title>
     <link>https://amrcloud.net/ru/project/</link>
-    <description>Recent content in Projects on AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>ru-ru</language>
-    <copyright>AMRcloud</copyright>
-    <lastBuildDate>Fri, 08 Nov 2019 00:00:00 +0000</lastBuildDate>
-    
-	    <atom:link href="https://amrcloud.net/ru/project/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://amrcloud.net/ru/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud</copyright><lastBuildDate>Fri, 08 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <title>Projects</title>
+      <link>https://amrcloud.net/ru/project/</link>
+    </image>
     
     <item>
       <title>Научно-исследовательская работа «Ветеринарный мониторинг и анализ риска антибиотикорезистентности зоонозных бактерий»</title>
       <link>https://amrcloud.net/ru/project/vgnki/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/ru/project/vgnki/</guid>
       <description>
 

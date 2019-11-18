@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Как начать работу с AMRcloud on AMRcloud</title>
+    <title>Как начать работу с AMRcloud | AMRcloud</title>
     <link>https://amrcloud.net/ru/tutorials/</link>
-    <description>Recent content in Как начать работу с AMRcloud on AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>ru-ru</language>
-    <copyright>AMRcloud</copyright>
-    
-	    <atom:link href="https://amrcloud.net/ru/tutorials/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://amrcloud.net/ru/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <description>Как начать работу с AMRcloud</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud</copyright>
+    <image>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <title>Как начать работу с AMRcloud</title>
+      <link>https://amrcloud.net/ru/tutorials/</link>
+    </image>
     
     <item>
       <title>AMRcloud. Импорт данных</title>
       <link>https://amrcloud.net/ru/tutorials/import-data/</link>
       <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/ru/tutorials/import-data/</guid>
       <description>&lt;p&gt;Руководство «AMRcloud. Импорт данных» предназначено для ознакомления с основными этапами загрузки пользовательских таблиц в онлайн-платформу &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; , индивидуальной настройкой рабочей среды и подготовкой системы к непосредственному анализу и визуализации данных.&lt;/p&gt;
 

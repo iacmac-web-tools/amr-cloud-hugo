@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Privacy Policy on AMRcloud</title>
+    <title>Privacy Policy | AMRcloud</title>
     <link>https://amrcloud.net/en/privacy-policy/</link>
-    <description>Recent content in Privacy Policy on AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>AMRcloud</copyright>
-    
-	    <atom:link href="https://amrcloud.net/en/privacy-policy/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://amrcloud.net/en/privacy-policy/index.xml" rel="self" type="application/rss+xml" />
+    <description>Privacy Policy</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud</copyright>
+    <image>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <title>Privacy Policy</title>
+      <link>https://amrcloud.net/en/privacy-policy/</link>
+    </image>
     
     <item>
       <title>Privacy Policy</title>
       <link>https://amrcloud.net/en/privacy-policy/20190926/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/en/privacy-policy/20190926/</guid>
       <description>
 

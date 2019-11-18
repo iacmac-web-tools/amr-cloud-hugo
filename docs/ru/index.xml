@@ -3,20 +3,19 @@
   <channel>
     <title>AMRcloud</title>
     <link>https://amrcloud.net/ru/</link>
-    <description>Recent content on AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>ru-ru</language>
-    <copyright>AMRcloud</copyright>
-    <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
-    
-	    <atom:link href="https://amrcloud.net/ru/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://amrcloud.net/ru/index.xml" rel="self" type="application/rss+xml" />
+    <description>AMRcloud</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <title>AMRcloud</title>
+      <link>https://amrcloud.net/ru/</link>
+    </image>
     
     <item>
       <title>Projects</title>
       <link>https://amrcloud.net/ru/project/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/ru/project/</guid>
       <description></description>
     </item>
@@ -25,7 +24,6 @@
       <title></title>
       <link></link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid></guid>
       <description></description>
     </item>
@@ -34,7 +32,6 @@
       <title>News</title>
       <link>https://amrcloud.net/ru/post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/ru/post/</guid>
       <description></description>
     </item>
@@ -43,7 +40,6 @@
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://amrcloud.net/ru/talk/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/ru/talk/</guid>
       <description></description>
     </item>
@@ -52,7 +48,6 @@
       <title>Slides</title>
       <link></link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid></guid>
       <description></description>
     </item>
@@ -61,7 +56,6 @@
       <title>Как начать работу с AMRcloud</title>
       <link>https://amrcloud.net/ru/tutorials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/ru/tutorials/</guid>
       <description></description>
     </item>
@@ -70,7 +64,6 @@
       <title>Политика конфиденциальности</title>
       <link>https://amrcloud.net/ru/privacy-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/ru/privacy-policy/</guid>
       <description></description>
     </item>
@@ -79,7 +72,6 @@
       <title>Публикации</title>
       <link>https://amrcloud.net/ru/publication/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/ru/publication/</guid>
       <description></description>
     </item>
@@ -88,7 +80,6 @@
       <title>Условия использования</title>
       <link>https://amrcloud.net/ru/terms-of-use/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/ru/terms-of-use/</guid>
       <description></description>
     </item>

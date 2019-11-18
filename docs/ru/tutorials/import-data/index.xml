@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AMRcloud. Импорт данных on AMRcloud</title>
+    <title>AMRcloud. Импорт данных | AMRcloud</title>
     <link>https://amrcloud.net/ru/tutorials/import-data/</link>
-    <description>Recent content in AMRcloud. Импорт данных on AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>ru-ru</language>
-    <copyright>AMRcloud</copyright>
-    <lastBuildDate>Thu, 07 Nov 2019 00:00:00 +0000</lastBuildDate>
-    
-	    <atom:link href="https://amrcloud.net/ru/tutorials/import-data/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://amrcloud.net/ru/tutorials/import-data/index.xml" rel="self" type="application/rss+xml" />
+    <description>AMRcloud. Импорт данных</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud</copyright><lastBuildDate>Thu, 07 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <title>AMRcloud. Импорт данных</title>
+      <link>https://amrcloud.net/ru/tutorials/import-data/</link>
+    </image>
     
     <item>
       <title>Подготовка данных</title>
       <link>https://amrcloud.net/ru/tutorials/import-data/01-prepare/</link>
       <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/ru/tutorials/import-data/01-prepare/</guid>
       <description>
 
@@ -566,7 +565,6 @@
       <title>Шаг 1 - Загрузка файла</title>
       <link>https://amrcloud.net/ru/tutorials/import-data/04-upload-file/</link>
       <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/ru/tutorials/import-data/04-upload-file/</guid>
       <description>
 
@@ -995,7 +993,6 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
       <title>Шаг 2 - Идентификация</title>
       <link>https://amrcloud.net/ru/tutorials/import-data/05-identification/</link>
       <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/ru/tutorials/import-data/05-identification/</guid>
       <description>
 
@@ -1342,7 +1339,6 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
       <title>Шаг 3 - Геокодирование</title>
       <link>https://amrcloud.net/ru/tutorials/import-data/06-geocode/</link>
       <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/ru/tutorials/import-data/06-geocode/</guid>
       <description>
 
@@ -1760,7 +1756,6 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
       <title>Шаг 4 - Интерпретация</title>
       <link>https://amrcloud.net/ru/tutorials/import-data/07-interpretation/</link>
       <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/ru/tutorials/import-data/07-interpretation/</guid>
       <description>&lt;p&gt;Пользователю следует выбрать подходящие критерии интепретации &lt;strong&gt;&amp;rarr;&lt;/strong&gt; нажать кнопку &lt;strong&gt;Интерпретировать МПК и данные диск-диффузии&lt;/strong&gt; &lt;strong&gt;&amp;rarr;&lt;/strong&gt; нажать кнопку &lt;strong&gt;3. Сохранить шаг 4&lt;/strong&gt;&lt;/p&gt;
 
@@ -1788,7 +1783,6 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
       <title>Шаг 5 - Описание данных</title>
       <link>https://amrcloud.net/ru/tutorials/import-data/08-description/</link>
       <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://amrcloud.net/ru/tutorials/import-data/08-description/</guid>
       <description>&lt;p&gt;Пользователь добавляет описание к набору данных.&lt;/p&gt;
 

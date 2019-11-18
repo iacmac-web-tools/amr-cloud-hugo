@@ -3,13 +3,14 @@
   <channel>
     <title>AMRcloud</title>
     <link>https://amrcloud.net/ru/authors/admin/</link>
-    <description>Recent content on AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>ru-ru</language>
-    <copyright>AMRcloud</copyright>
-    
-	    <atom:link href="https://amrcloud.net/ru/authors/admin/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://amrcloud.net/ru/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <description>AMRcloud</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud</copyright>
+    <image>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <title>AMRcloud</title>
+      <link>https://amrcloud.net/ru/authors/admin/</link>
+    </image>
     
   </channel>
 </rss>
