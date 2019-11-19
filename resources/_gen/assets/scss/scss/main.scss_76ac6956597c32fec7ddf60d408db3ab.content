@@ -9197,3 +9197,9 @@ figcaption.numbered::before {
 .btn-cta-slider:hover {
   color: #f8f9fa !important;
   background-color: #3f51b5; }
+
+.emoji-flag-icon {
+  font-size: 1em; }
+
+.emoji-flag-icon img {
+  display: inherit; }

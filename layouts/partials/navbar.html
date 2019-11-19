@@ -124,9 +124,9 @@
             <li class="nav-item dropdown i18n-dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
                     {{ if eq .Lang "ru" }}
-                    <span>&#127479;&#127482;</span>
-                    {{ else }}
-                    <span>&#127468;&#127463;</span>
+                        <span class="emoji-flag-icon"><img src="\img\flag-ru.png" alt="RU"></span>
+                        {{ else }}
+                        <span class="emoji-flag-icon"><img src="\img\flag-uk.png" alt="ENG"></span>
                     {{ end }}
                     <!-- <i class="fas fa-globe mr-1" aria-hidden="true"></i> -->
                     <span class="d-none d-lg-inline">{{ index site.Data.i18n.languages .Lang }}</span>
@@ -134,9 +134,9 @@
                 <div class="dropdown-menu">
                     <div class="dropdown-item active font-weight-bold">
                         {{ if eq .Lang "ru" }}
-                        <span>&#127479;&#127482;</span>
+                        <span class="emoji-flag-icon"><img src="\img\flag-ru.png" alt="RU"></span>
                         {{ else }}
-                        <span>&#127468;&#127463;</span>
+                        <span class="emoji-flag-icon"><img src="\img\flag-uk.png" alt="ENG"></span>
                         {{ end }}
                         <span>{{ index site.Data.i18n.languages .Lang }}</span>
                     </div>
@@ -144,9 +144,9 @@
                     <a class="dropdown-item" href="{{ .RelPermalink }}" {{ if $.IsHome }}
                         data-target="{{ .RelPermalink }}" {{ end }} onclick="setPreferredLanguage({{ .Lang }})">
                         {{ if eq .Lang "ru" }}
-                        <span>&#127479;&#127482;</span>
+                        <span class="emoji-flag-icon"><img src="\img\flag-ru.png" alt="RU"></span>
                         {{ else }}
-                        <span>&#127468;&#127463;</span>
+                        <span class="emoji-flag-icon"><img src="\img\flag-uk.png" alt="ENG"></span>
                         {{ end }}
                         <span>{{ index site.Data.i18n.languages .Lang }}</span>
                     </a>
