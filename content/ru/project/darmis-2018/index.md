@@ -28,6 +28,7 @@ abstract:
 image:
   caption: 
   focal_point: Smart
+  placement: 1
 
 links:
 - icon: file-alt
