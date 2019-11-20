@@ -27,9 +27,7 @@ abstract:
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 image:
   caption: 
-  focal_point: "Smart"
-  placement: 3
-  preview_only: false
+  focal_point: Smart
 
 links:
 - icon: file-alt
