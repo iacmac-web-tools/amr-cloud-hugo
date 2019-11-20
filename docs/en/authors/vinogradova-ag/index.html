@@ -667,7 +667,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
                 crossDomain: true,
                 success: function (data) {
                     $("#publication_statistics_views_value").text(data['views'] || 0);
-                    $("#publication_statistics_goto_value").text(data['Outbound Link'] || 0);
+                    $("#publication_statistics_goto_value").text(data['outbound'] || 0);
                 },
                 error: function (data) {
                     console.log(data);

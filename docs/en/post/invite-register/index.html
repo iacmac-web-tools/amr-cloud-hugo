@@ -879,7 +879,7 @@ The AMRcloud Administration will consider your application and will respond to y
                 crossDomain: true,
                 success: function (data) {
                     $("#publication_statistics_views_value").text(data['views'] || 0);
-                    $("#publication_statistics_goto_value").text(data['Outbound Link'] || 0);
+                    $("#publication_statistics_goto_value").text(data['outbound'] || 0);
                 },
                 error: function (data) {
                     console.log(data);
