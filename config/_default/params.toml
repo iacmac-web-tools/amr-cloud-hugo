@@ -238,6 +238,7 @@ toc_levels = 4
   #   0: Disabled
   #   1: Disqus (https://disqus.com)
   #   2: Commento (https://commento.io)
+  #   3: Remark42 
   engine = 0
 
   # Which page types are commentable?
@@ -247,6 +248,10 @@ toc_levels = 4
   [comments.disqus]
     shortname = ""  # Paste the shortname from your Disqus dashboard.
     show_count = true  # Show comment count in page header? (true/false)
+  # Config Remark
+  [comments.remark]
+    url = ""
+    site_id = ""
 
 ############################
 ## Marketing
