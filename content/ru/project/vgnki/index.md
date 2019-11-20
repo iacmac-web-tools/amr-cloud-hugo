@@ -28,7 +28,7 @@ links:
 - icon: university
   icon_pack: fas
   name: Сайт организации
-  url: http://www.vgnki.ru/
+  url: "http://www.vgnki.ru"
 
 url_code: ""
 url_pdf: ""

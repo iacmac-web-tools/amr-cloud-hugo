@@ -34,15 +34,15 @@ links:
 - icon: file-alt
   icon_pack: fas
   name: Публикация
-  url: https://cmac-journal.ru/publication/2019/2/cmac-2019-t21-n2-p134/
+  url: "https://cmac-journal.ru/publication/2019/2/cmac-2019-t21-n2-p134"
 - icon: university
   icon_pack: fas
   name: МАКМАХ
-  url: http://www.iacmac.ru/iacmac
+  url: "http://www.iacmac.ru/iacmac"
 - icon: university
   icon_pack: fas
   name: Российское общество урологов
-  url: https://www.ooorou.ru/
+  url: "https://www.ooorou.ru"
 
 url_code: ""
 url_pdf: ""
