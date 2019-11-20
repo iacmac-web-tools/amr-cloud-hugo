@@ -17,7 +17,7 @@
   }
   
   .article-container {
-    max-width: 960px;
+    max-width: 1024px;
   }
   
   .docs-article-container {
@@ -34,10 +34,6 @@
   }
   
   /* overlay splash screen  */
-  
-  body {
-    font-family: 'Lato', sans-serif;
-  }
   
   .overlay {
     height: 100%;
@@ -89,36 +85,9 @@
     }
   }
   
+
   
-  /* round loader */
-  .loader {
-    border: 16px solid #f3f3f3;
-    border-radius: 50%;
-    border-top: 16px solid #1995dc;
-    border-right: 16px solid #005a51;
-    border-bottom: 16px solid #dc3546;
-    width: 120px;
-    height: 120px;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
-    horizontal-align: center;
-  }
-  
-  @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
-  }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-  
-  
-  .wg-hero.dark .btn {
-    /* color: #32408f; */
-  }
-  
+
   .wg-hero.dark .btn-cta {
   color: #32408f;
   }
@@ -207,13 +176,7 @@
     content: attr(data-pre) counter(captions) attr(data-post);
   }
   
-  /* SLIDER FIX */
-  /* .hero-lead {
-    max-width: 768px;
-    font-size: 1rem;
-    margin-bottom: 1rem;
-  } */
-  
+
   
   .btn-project-main { 
     font-size: 1.1rem;
@@ -234,7 +197,7 @@
   .project-item .article-style { 
     font-size: 0.8em;
   }
-  
+
   /* SLIDER CSS */
   
   .hero-title-slider {
@@ -264,6 +227,7 @@
     color: #f8f9fa !important;
     background-color: #3f51b5;
     }
+    
   
 // FLAGS
 .emoji-flag-icon {
