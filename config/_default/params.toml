@@ -20,7 +20,7 @@ GoogleAnalyticsApiUrl = "https://api.amrcloud.net/api"
 #   Browse built-in font sets in `themes/academic/data/fonts/`
 #   Browse user installed font sets in `data/fonts/`
 font = ""
-font_size = "M"
+font_size = "L"
 
 ############################
 ## Basic Info
