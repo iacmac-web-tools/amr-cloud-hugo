@@ -45,7 +45,7 @@
 
 [[main_right]]
   name = "More AMR services"
-  url = "http://amrhub.ru"
+  url = "https://amrhub.ru"
   weight = 60
   pre = "<i class='fas fa-external-link-alt'></i>&nbsp;"
 
