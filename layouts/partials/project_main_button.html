@@ -3,7 +3,7 @@
     {{ $pack_prefix := $pack }}
     {{ if in (slice "fab" "fas" "far" "fal") $pack }}
     {{ $pack_prefix = "fa" }}
-        <a href="{{ .Params.main_link.url }}" class="btn btn-outline btn-project-main btn-lg" target="_blank" rel="noopener" >
+        <a href="{{ .Params.main_link.url }}" class="btn btn-outline btn-project-main btn-lg" >
             {{ with .Params.main_link.icon -}}<i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}"
                 style="padding-right: 10px;"></i>
             {{ end }}
