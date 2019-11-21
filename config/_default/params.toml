@@ -31,7 +31,7 @@ font_size = "L"
 #   For personal sites, choose "Person".
 #   For organizations and projects, choose from https://schema.org/Organization#subtypes
 #   E.g. Person, Organization, LocalBusiness, Project, EducationalOrganization
-site_type = "Project"
+site_type = ""
 
 # Local business type (optional)
 # If you entered "LocalBusiness" above, choose the type of business from https://schema.org/LocalBusiness#subtypes
@@ -64,7 +64,7 @@ logo = ""
 
 # Enable global source code highlighting? true/false
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
-highlight = true
+highlight = false
 # highlight_languages = ["r"]  # Add support for highlighting additional languages
 # highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
@@ -118,7 +118,7 @@ appointment_url = ""
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "internet-explorer", icon_pack = "fab", name = "AMRhub.ru", link = "http://amrhub.ru/"},
+  {icon = "internet-explorer", icon_pack = "fab", name = "AMRhub.ru", link = "https://amrhub.ru/"},
   {icon = "twitter", icon_pack = "fab", name = "twitter.com/iacmac1997", link = "https://twitter.com/iacmac1997"},
   {icon = "instagram", icon_pack = "fab", name = "instagram.com/iacmac1997", link = "https://instagram.com/iacmac1997"},
   {icon = "facebook", icon_pack = "fab", name = "facebook.com/iacmac", link = "https://facebook.com/iacmac"},
