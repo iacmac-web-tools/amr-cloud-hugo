@@ -26,9 +26,9 @@
 &lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
@@ -64,7 +64,7 @@
 
 &lt;h4 id=&#34;breakpoints&#34;&gt;Breakpoints:&lt;/h4&gt;
 
-&lt;p&gt;Microbiological end-points – EUCAST ECOFFs (&lt;a href=&#34;https://mic.eucast.org/Eucast2/&#34;&gt;https://mic.eucast.org/Eucast2/&lt;/a&gt;, ver. 5.26), EUCAST Clinical Breakpoints (ver. 2019), CLSI Clinical Breakpoints (Standards M100S28, VET01S 3rd ed.)&lt;/p&gt;
+&lt;p&gt;Microbiological end-points – EUCAST ECOFFs (&lt;a href=&#34;https://mic.eucast.org/Eucast2/&#34; target=&#34;_blank&#34;&gt;https://mic.eucast.org/Eucast2/&lt;/a&gt;, ver. 5.26), EUCAST Clinical Breakpoints (ver. 2019), CLSI Clinical Breakpoints (Standards M100S28, VET01S 3rd ed.)&lt;/p&gt;
 
 &lt;h4 id=&#34;methods-of-gene-analysis&#34;&gt;Methods of gene analysis:&lt;/h4&gt;
 
@@ -96,7 +96,7 @@
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;You can leave you questions and comments by e-mail: &lt;a href=&#34;mailto:phorez@yandex.ru&#34;&gt;phorez@yandex.ru&lt;/a&gt; (Makarov D.A.)&lt;/p&gt;
+&lt;p&gt;You can leave you questions and comments by e-mail: &lt;a href=&#34;mailto:phorez@yandex.ru&#34; target=&#34;_blank&#34;&gt;phorez@yandex.ru&lt;/a&gt; (Makarov D.A.)&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
     </item>
@@ -168,7 +168,7 @@
 
 &lt;p&gt;To improve our services Administration collects anonymous information about the actions you take when using AMRcloud. This may include the number of visits to AMRcloud and access time, interaction with the website (for example, clicks on buttons and links), IP address, device information, operating system, browser type, proxy server, mobile data provider.  A part of the above information may be temporarily stored in cookies. Each time you visit any webpage of AMRcloud, Administration gets the URL of the webpages you came from and the URL you go to next. This Usage Data is collected automatically and is used anonymously.&lt;/p&gt;
 
-&lt;p&gt;To help collect anonymous usage statistics we use Google Analytics. To find out more about its Privacy Policy please visit &lt;a href=&#34;https://policies.google.com/technologies/partner-sites&#34;&gt;https://policies.google.com/technologies/partner-sites&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To help collect anonymous usage statistics we use Google Analytics. To find out more about its Privacy Policy please visit &lt;a href=&#34;https://policies.google.com/technologies/partner-sites&#34; target=&#34;_blank&#34;&gt;https://policies.google.com/technologies/partner-sites&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;how-we-use-your-personal-data&#34;&gt;How We Use Your Personal Data&lt;/h2&gt;
 
@@ -237,7 +237,7 @@
 
 &lt;p&gt;In order to use AMRcloud User will need an Internet connection. User is responsible for providing all equipment required to access the Internet.&lt;/p&gt;
 
-&lt;p&gt;Administration reserves the right to update or modify these Terms at any time and without notice to User. A new version of the Terms will come into force on the date of publication on the Internet at the following link: &lt;a href=&#34;https://amrcloud.net/en/terms-of-use&#34;&gt;https://amrcloud.net/en/terms-of-use&lt;/a&gt;, unless otherwise provided by the new version of the Terms.&lt;/p&gt;
+&lt;p&gt;Administration reserves the right to update or modify these Terms at any time and without notice to User. A new version of the Terms will come into force on the date of publication on the Internet at the following link: &lt;a href=&#34;https://amrcloud.net/en/terms-of-use&#34; target=&#34;_blank&#34;&gt;https://amrcloud.net/en/terms-of-use&lt;/a&gt;, unless otherwise provided by the new version of the Terms.&lt;/p&gt;
 
 &lt;p&gt;In case of disagreement with any new provision of these Terms, User must immediately stop using AMRcloud.&lt;/p&gt;
 
@@ -277,7 +277,7 @@
 &lt;li&gt;User uses AMRcloud in any manner that would subject AMRcloud or other users to the risk of harm or damage;&lt;/li&gt;
 &lt;li&gt;User Account has been inactive for more than 12 months;&lt;/li&gt;
 &lt;li&gt;User doesn’t mention AMRcloud as a system for processing and analyzing data while presenting any content generated with AMRcloud in public (e.g. in journal publications, reports at conferences);&lt;/li&gt;
-&lt;li&gt;The &lt;a href=&#34;https://cmac-journal.ru/en/publication/2019/2/cmac-2019-t21-n2-p119/&#34;&gt;reference&lt;/a&gt; for citing the use of AMRcloud:  Kuzmenkov A.Yu., Vinogradova A.G., Trushin I.V., Avramenko A.A., Edelstein M.V., Dekhnich A.V., Kozlov R.S. AMRcloud: a new paradigm in monitoring of antibiotic resistance. Clinical Microbiology and Antimicrobial Chemotherapy. 2019; Vol. 21 №2. P.119-124.&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://cmac-journal.ru/en/publication/2019/2/cmac-2019-t21-n2-p119/&#34; target=&#34;_blank&#34;&gt;reference&lt;/a&gt; for citing the use of AMRcloud:  Kuzmenkov A.Yu., Vinogradova A.G., Trushin I.V., Avramenko A.A., Edelstein M.V., Dekhnich A.V., Kozlov R.S. AMRcloud: a new paradigm in monitoring of antibiotic resistance. Clinical Microbiology and Antimicrobial Chemotherapy. 2019; Vol. 21 №2. P.119-124.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;In case of one of the above situations, Administration may send a notification to User through the email address specified by User. If the above violations are detected, Administration will have the right to suspend User’s access to AMRcloud. In case User ignores notifications or violates provisions of the Terms systematically, Administration will have the right to delete User Account, including all data uploaded to AMRcloud, results of data processing and created links, without additional notice and consent from User.&lt;/p&gt;
@@ -304,7 +304,7 @@
 
 &lt;p&gt;User retains her/his entire right relating to the materials uploaded by User to AMRcloud, including all copyrights, trademarks and other intellectual property rights.&lt;/p&gt;
 
-&lt;p&gt;User has the right to distribute results of data processing generated with AMRcloud. For citing any content of AMRcloud or reporting the use of AMRcloud for processing and analyzing data in journal publications and conference proceedings, the following &lt;a href=&#34;https://cmac-journal.ru/en/publication/2019/2/cmac-2019-t21-n2-p119/&#34;&gt;reference&lt;/a&gt; is mandatory: Kuzmenkov A.Yu., Vinogradova A.G., Trushin I.V., Avramenko A.A., Edelstein M.V., Dekhnich A.V., Kozlov R.S. AMRcloud: a new paradigm in monitoring of antibiotic resistance. Clinical Microbiology and Antimicrobial Chemotherapy. 2019; Vol. 21 №2. P.119-124.&lt;/p&gt;
+&lt;p&gt;User has the right to distribute results of data processing generated with AMRcloud. For citing any content of AMRcloud or reporting the use of AMRcloud for processing and analyzing data in journal publications and conference proceedings, the following &lt;a href=&#34;https://cmac-journal.ru/en/publication/2019/2/cmac-2019-t21-n2-p119/&#34; target=&#34;_blank&#34;&gt;reference&lt;/a&gt; is mandatory: Kuzmenkov A.Yu., Vinogradova A.G., Trushin I.V., Avramenko A.A., Edelstein M.V., Dekhnich A.V., Kozlov R.S. AMRcloud: a new paradigm in monitoring of antibiotic resistance. Clinical Microbiology and Antimicrobial Chemotherapy. 2019; Vol. 21 №2. P.119-124.&lt;/p&gt;
 
 &lt;h2 id=&#34;limitations&#34;&gt;Limitations&lt;/h2&gt;
 

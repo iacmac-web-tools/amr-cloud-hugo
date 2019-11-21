@@ -767,7 +767,7 @@
 &lt;p&gt;&lt;strong&gt;Алгоритм решения:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Скачать и установить бесплатный текстовый редактор  &lt;a href=&#34;https://www.sublimetext.com/&#34;&gt;Sublime Text&lt;/a&gt;
+&lt;li&gt;&lt;p&gt;Скачать и установить бесплатный текстовый редактор  &lt;a href=&#34;https://www.sublimetext.com/&#34; target=&#34;_blank&#34;&gt;Sublime Text&lt;/a&gt;
 
 
 
@@ -908,7 +908,7 @@ File &lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&a
 &lt;p&gt;&lt;strong&gt;Способ №2&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Скачать и установить бесплатный текстовый редактор &lt;a href=&#34;https://www.sublimetext.com/&#34;&gt;Sublime Text&lt;/a&gt;
+&lt;li&gt;&lt;p&gt;Скачать и установить бесплатный текстовый редактор &lt;a href=&#34;https://www.sublimetext.com/&#34; target=&#34;_blank&#34;&gt;Sublime Text&lt;/a&gt;
 
 
 
@@ -1812,9 +1812,9 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
@@ -1867,7 +1867,7 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 
 &lt;h4 id=&#34;интерпретация-результатов-определения-чувствительности&#34;&gt;Интерпретация результатов определения чувствительности&lt;/h4&gt;
 
-&lt;p&gt;Пограничные значения МПК Европейского комитета по определению чувствительности к антимикробным препаратам (EUCAST) v.9.0, 2019 г. (&lt;a href=&#34;http://www.eucast.org/clinical_breakpoints/&#34;&gt;http://www.eucast.org/clinical_breakpoints/&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Пограничные значения МПК Европейского комитета по определению чувствительности к антимикробным препаратам (EUCAST) v.9.0, 2019 г. (&lt;a href=&#34;http://www.eucast.org/clinical_breakpoints/&#34; target=&#34;_blank&#34;&gt;http://www.eucast.org/clinical_breakpoints/&lt;/a&gt;)&lt;/p&gt;
 
 &lt;h3 id=&#34;исследовательская-группа-дармис-2018&#34;&gt;Исследовательская группа «ДАРМИС-2018»:&lt;/h3&gt;
 
@@ -1949,7 +1949,7 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 
 &lt;h4 id=&#34;критерии-наличия-устойчивости&#34;&gt;Критерии наличия устойчивости:&lt;/h4&gt;
 
-&lt;p&gt;микробиологическую устойчивость определяли по эпидемиологическим точкам отсечения EUCAST (база данных &lt;a href=&#34;https://mic.eucast.org/Eucast2/&#34;&gt;https://mic.eucast.org/Eucast2/&lt;/a&gt;, версия 5.26), клиническую – по точкам отсечения EUCAST (версия 2019) и СLSI (стандарты M100S28, VET01S 3rd ed.)&lt;/p&gt;
+&lt;p&gt;микробиологическую устойчивость определяли по эпидемиологическим точкам отсечения EUCAST (база данных &lt;a href=&#34;https://mic.eucast.org/Eucast2/&#34; target=&#34;_blank&#34;&gt;https://mic.eucast.org/Eucast2/&lt;/a&gt;, версия 5.26), клиническую – по точкам отсечения EUCAST (версия 2019) и СLSI (стандарты M100S28, VET01S 3rd ed.)&lt;/p&gt;
 
 &lt;h4 id=&#34;метод-определения-генов-устойчивости&#34;&gt;Метод определения генов устойчивости:&lt;/h4&gt;
 
@@ -1981,7 +1981,7 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Вопросы и комментарии по проекту пишите на &lt;a href=&#34;mailto:phorez@yandex.ru&#34;&gt;phorez@yandex.ru&lt;/a&gt; (Д.А. Макаров)&lt;/p&gt;
+&lt;p&gt;Вопросы и комментарии по проекту пишите на &lt;a href=&#34;mailto:phorez@yandex.ru&#34; target=&#34;_blank&#34;&gt;phorez@yandex.ru&lt;/a&gt; (Д.А. Макаров)&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
     </item>
@@ -2053,7 +2053,7 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 
 &lt;p&gt;В целях улучшения работы Администрация AMRcloud сохраняет анонимные записи об использовании AMRcloud. Записи включают такие данные, как количество посещений и время, проведенное на страницах, взаимодействия с сайтом (щелчки по кнопкам или ссылкам и т.п.), информация об используемом Вами устройстве, операционной системе и веб-браузере. Часть вышеуказанной информации также временно хранится в файлах cookie. Всякий раз, когда Вы посещаете любую из страниц  AMRcloud, Администрация AMRcloud получает URL-адрес страниц, с которых Вы пришли, и страницу назначения AMRcloud, на которую Вы перешли. В рамках запроса Администрация AMRcloud собирает информацию о Вашем IP-адресе, прокси-сервере, операционной системе, веб-браузере, провайдере мобильных данных. Эти данные собираются анонимно и агрегируются без какой-либо личной информации.&lt;/p&gt;
 
-&lt;p&gt;Для осуществления сбора анонимной статистики используется сторонний сервис Google Analytics, с политикой конфиденциальности которого Вы можете ознакомиться по ссылке &lt;a href=&#34;https://policies.google.com/technologies/partner-sites&#34;&gt;https://policies.google.com/technologies/partner-sites&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Для осуществления сбора анонимной статистики используется сторонний сервис Google Analytics, с политикой конфиденциальности которого Вы можете ознакомиться по ссылке &lt;a href=&#34;https://policies.google.com/technologies/partner-sites&#34; target=&#34;_blank&#34;&gt;https://policies.google.com/technologies/partner-sites&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;как-используется-ваша-персональная-информация&#34;&gt;Как используется Ваша персональная информация&lt;/h2&gt;
 
@@ -2127,7 +2127,7 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
  
 Использование AMRcloud возможно только при наличии доступа к сети Интернет. Пользователь самостоятельно получает и оплачивает доступ к сети Интернет на условиях и по правилам своего оператора связи или провайдера доступа к сети Интернет.&lt;/p&gt;
 
-&lt;p&gt;Администрация AMRcloud может пересмотреть настоящее Пользовательское соглашение в любое время без предварительного уведомления. Любые изменения будут опубликованы на этой странице. Новая редакция Пользовательского соглашения вступает в силу с момента ее размещения в сети Интернет по указанному в настоящем пункте адресу (&lt;a href=&#34;https://amrcloud.net/ru/terms-of-use&#34;&gt;https://amrcloud.net/ru/terms-of-use&lt;/a&gt;), если иное не предусмотрено новой редакцией Пользовательского соглашения.&lt;/p&gt;
+&lt;p&gt;Администрация AMRcloud может пересмотреть настоящее Пользовательское соглашение в любое время без предварительного уведомления. Любые изменения будут опубликованы на этой странице. Новая редакция Пользовательского соглашения вступает в силу с момента ее размещения в сети Интернет по указанному в настоящем пункте адресу (&lt;a href=&#34;https://amrcloud.net/ru/terms-of-use&#34; target=&#34;_blank&#34;&gt;https://amrcloud.net/ru/terms-of-use&lt;/a&gt;), если иное не предусмотрено новой редакцией Пользовательского соглашения.&lt;/p&gt;
 
 &lt;p&gt;В случае если были внесены изменения, с которыми Пользователь не согласен, он обязан прекратить использование AMRcloud.&lt;/p&gt;
 
@@ -2167,7 +2167,7 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;li&gt;Пользователь использует AMRcloud таким образом, что это может привести к риску причинения вреда или убытков AMRcloud или другим Пользователям;&lt;/li&gt;
 &lt;li&gt;Пользователь не входил в учетную запись  AMRcloud в течение 12 месяцев подряд;&lt;/li&gt;
 &lt;li&gt;Пользователь не указывает AMRcloud в качестве системы обработки, анализа и представления данных при публичном представлении результатов, полученных с помощью AMRcloud, в печатных или электронных публикациях, иных печатных материалах, в выступлениях на конференциях и прочих мероприятиях;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cmac-journal.ru/publication/2019/2/cmac-2019-t21-n2-p119/&#34;&gt;Ссылка для цитирования&lt;/a&gt; AMRcloud в публикациях: Кузьменков А.Ю., Виноградова А.Г., Трушин И.В., Авраменко А.А., Эйдельштейн М.В., Дехнич А.В., Козлов Р.С. AMRcloud: новая парадигма мониторинга антибиотикорезистентности. Клиническая микробиология и антимикробная химиотерапия. 2019; Т.21, №2; С.119-124. DOI: 10.36488/cmac.2019.2.119-124.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cmac-journal.ru/publication/2019/2/cmac-2019-t21-n2-p119/&#34; target=&#34;_blank&#34;&gt;Ссылка для цитирования&lt;/a&gt; AMRcloud в публикациях: Кузьменков А.Ю., Виноградова А.Г., Трушин И.В., Авраменко А.А., Эйдельштейн М.В., Дехнич А.В., Козлов Р.С. AMRcloud: новая парадигма мониторинга антибиотикорезистентности. Клиническая микробиология и антимикробная химиотерапия. 2019; Т.21, №2; С.119-124. DOI: 10.36488/cmac.2019.2.119-124.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;При возникновении одной из вышеуказанных ситуаций, Пользователю будет направлено уведомление по адресу электронной почты, указанному во время регистрации, с целью устранения возникших нарушений. С момента выявления вышеуказанных нарушений доступ Пользователя к AMRcloud может быть приостановлен, а в случае сохранения нарушений, игнорирования уведомлений Администрации или повторных нарушений – прекращен без дополнительного уведомления. Прекращение доступа к услугам будет включать удаление учетной записи Пользователя, включая все загруженные данные, результаты их обработки и созданные ссылки.&lt;/p&gt;
@@ -2194,7 +2194,7 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 
 &lt;p&gt;Пользователь сохраняет право собственности и авторские права, право интеллектуальной собственности, применимые ко всем материалам, загруженным в AMRcloud.&lt;/p&gt;
 
-&lt;p&gt;Пользователю дано право свободно распространять результаты обработки данных, полученные с помощью AMRcloud. При публичном использовании и представлении результатов обработки данных в AMRcloud (в печатных или электронных публикациях, иных печатных материалах, в выступлениях на конференциях и прочих мероприятиях) Пользователь обязан указать AMRcloud в качестве системы обработки, анализа и представления данных. &lt;a href=&#34;https://cmac-journal.ru/publication/2019/2/cmac-2019-t21-n2-p119/&#34;&gt;Ссылка для цитирования&lt;/a&gt; AMRcloud в публикациях: Кузьменков А.Ю., Виноградова А.Г., Трушин И.В., Авраменко А.А., Эйдельштейн М.В., Дехнич А.В., Козлов Р.С. AMRcloud: новая парадигма мониторинга антибиотикорезистентности. Клиническая микробиология и антимикробная химиотерапия. 2019; Т.21, №2; С.119-124. DOI: 10.36488/cmac.2019.2.119-124.&lt;/p&gt;
+&lt;p&gt;Пользователю дано право свободно распространять результаты обработки данных, полученные с помощью AMRcloud. При публичном использовании и представлении результатов обработки данных в AMRcloud (в печатных или электронных публикациях, иных печатных материалах, в выступлениях на конференциях и прочих мероприятиях) Пользователь обязан указать AMRcloud в качестве системы обработки, анализа и представления данных. &lt;a href=&#34;https://cmac-journal.ru/publication/2019/2/cmac-2019-t21-n2-p119/&#34; target=&#34;_blank&#34;&gt;Ссылка для цитирования&lt;/a&gt; AMRcloud в публикациях: Кузьменков А.Ю., Виноградова А.Г., Трушин И.В., Авраменко А.А., Эйдельштейн М.В., Дехнич А.В., Козлов Р.С. AMRcloud: новая парадигма мониторинга антибиотикорезистентности. Клиническая микробиология и антимикробная химиотерапия. 2019; Т.21, №2; С.119-124. DOI: 10.36488/cmac.2019.2.119-124.&lt;/p&gt;
 
 &lt;h2 id=&#34;ограничения&#34;&gt;Ограничения&lt;/h2&gt;
 

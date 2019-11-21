@@ -115,7 +115,7 @@
         {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
       {{ end }}
       <li>
-        <i class="fa-li {{ $pack }} {{ $pack_prefix }}-{{ .icon }} fa-2x" aria-hidden="true"></i>
+        <i class="fa-li {{ $pack }} {{ $pack_prefix }}-{{ .icon }} fa-2x" aria-hidden="true" target="self"></i>
         <a href="{{ $link | safeURL }}">{{.name|markdownify|emojify|safeHTML}}</a>
       </li>
       {{ end }}
