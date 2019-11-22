@@ -15,7 +15,7 @@ external_link: ""
 main_link: 
   icon: play
   icon_pack: fas
-  name: Запустить
+  name: Открыть
   url: "https://app.amrcloud.net/rus/?id=darmis-2018&public=T"
 
 

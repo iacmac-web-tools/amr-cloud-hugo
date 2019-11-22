@@ -15,7 +15,7 @@ show_statistics: true
 main_link: 
   icon: play
   icon_pack: fas
-  name: Run
+  name: Open
   url: "https://app.amrcloud.net/eng/?id=vgnki-eng&public=T"
 
 
