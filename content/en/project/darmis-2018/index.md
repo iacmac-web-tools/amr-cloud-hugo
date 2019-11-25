@@ -1,7 +1,7 @@
 ---
 title: DARMIS-2018
-subtitle: International multicenter surveillance study of antimicrobial resistance of community uropathogens in different patient populations
-summary: International multicenter surveillance study of antimicrobial resistance of community uropathogens in different patient populations
+subtitle: International multicenter prospective surveillance study of antimicrobial resistance of uropathogens causing community-acquired UTI in different subsets of patients (“DARMIS-2018”)
+summary: International multicenter prospective surveillance study of antimicrobial resistance of uropathogens causing community-acquired UTI in different subsets of patients (“DARMIS-2018”)
 tags:
 date: "2019-11-20T00:00:00Z"
 
@@ -41,7 +41,7 @@ links:
   url: "http://www.iacmac.ru/iacmac"
 - icon: university
   icon_pack: fas
-  name: Russian Society of Urology
+  name: Russian Society of Urologists
   url: "https://www.ooorou.ru"
 
 url_code: ""
@@ -65,10 +65,10 @@ comments: false
 
 ### Organizers
 - Interregional Association for Clinical Microbiology and Antimicrobial Chemotherapy (IACMAC)
-- Russian Society of Urology
+- Russian Society of Urologists
 
 ### Annotation
-The data on antibiotic resistance of isolates of community-acquired uropathogens recovered from middle urine are presented:
+The data on antibiotic resistance of community-acquired uropathogens isolated from midstream urine samples of:
 - adults with symptomatic UTI (cystitis, pyelonephritis)
 - children and adolescents under 18 years with symptomatic UTI (cystitis, pyelonephritis)
 - pregnant women with symptomatic UTI (cystitis and pyelonephritis) and asymptomatic bacteriuria
@@ -87,14 +87,15 @@ The data on antibiotic resistance of isolates of community-acquired uropathogens
 #### Antibiotic susceptibility testing
 Determination of minimum inhibitory concentrations (MICs) by reference broth microdillution method (BMD) in Mueller-Hinton broth (according to ISO 20776-1:2006) at the central laboratory of the Institute of Antimicrobial Chemotherapy (IAC), Smolensk State Mediacal University (SSMU)  
 
-#### Determinantion of clinical susceptibility categories
+#### Interpretation of MICs 
 European Committee on Antimicrobial Susceptibility Testing (EUCAST) MIC Clinical breakpoints v.9.0 (http://www.eucast.org/clinical_breakpoints/)
 
-### Participants
+### Study Group 
 - *Amineva P.G.* (Yekaterinburg)
 - *Becker G.G.* (Novosibirsk)
 - *Bulkin A.N.* (St. Petersburg)
 - *Bykonya S.A.* (Tomsk)
+- *Chastoedova A.N.* (Kirov)
 - *Domanskaya O.V.* (Novokuznetsk)
 - *Elokhina E.V.* (Omsk)
 - *Ershova M.G.* (Yaroslavl)
@@ -106,13 +107,12 @@ European Committee on Antimicrobial Susceptibility Testing (EUCAST) MIC Clinical
 - *Lavrinenko A.V.* (Kazakhstan)
 - *Lyamin A.V.* (Samara)
 - *Malev I.V.* (Smolensk)
-- *Malyavin A.I., Sidorova R.K.* (Ulyanovsk)
-- *Martyanova N.M.* (Tolyatti),
+- *Malyavin A.I.* (Ulyanovsk)
+- *Martyanova N.M.* (Tolyatti)
 - *Moskvitina E.N.* (Seversk)
 - *Mutin M.Yu.* (Bratsk)
 - *Naboka Yu.L.* (Rostov-on-Don)
 - *Nikiforovskaya N.N.* (Smolensk)
-- *Oftenedova A.N.* (Kirov)
 - *Palagin I.S.* (Smolensk)
 - *Plugin P.S.* (Novosibirsk)
 - *Popova L.D.* (Omsk)
@@ -120,6 +120,7 @@ European Committee on Antimicrobial Susceptibility Testing (EUCAST) MIC Clinical
 - *Shamaeva S.Kh.* (Yakutsk)
 - *Shipitsyna E.V.* (St. Petersburg)
 - *Shirokova T.M.* (Kirov)
+- *Sidorova R.K.* (Ulyanovsk)
 - *Strebkova V.V.* (Voronezh)
 - *Sukhoreva M.V.* (Irkutsk)
 - *Tapalsky D.V.* (Belarus)
@@ -135,7 +136,7 @@ European Committee on Antimicrobial Susceptibility Testing (EUCAST) MIC Clinical
   <div class="media-body">
     <h3 class="mt-0 mb-1">Coordinator</h3>
     <h5>Ivan S. Palagin</h5>
-    <p>Research fellow Institute of Antimicrobial Chemotherapy (IAC)<br>Smolensk State Medical University (SSMU)</p>
+    <p>Research fellow,<br>Institute of Antimicrobial Chemotherapy (IAC), Smolensk State Medical University (SSMU)</p>
     <p><a href="ivan.palagin@gmail.com" target="_blank">ivan.palagin@gmail.com</a></p>
   </div>
   <img class="ml-3" src="iac.png" style="width: 200px" alt="Institute of Antimicrobial Chemotherapy">
