@@ -1,7 +1,7 @@
 ---
 title: DARMIS-2018
-subtitle: International multicenter prospective surveillance study of antimicrobial resistance of uropathogens causing community-acquired UTI in different subsets of patients (“DARMIS-2018”)
-summary: International multicenter prospective surveillance study of antimicrobial resistance of uropathogens causing community-acquired UTI in different subsets of patients (“DARMIS-2018”)
+subtitle: International multicenter prospective surveillance study of antimicrobial resistance of uropathogens causing community-acquired UTI in different subsets of patients (DARMIS-2018)
+summary: International multicenter prospective surveillance study of antimicrobial resistance of uropathogens causing community-acquired UTI in different subsets of patients (DARMIS-2018)
 tags:
 date: "2019-11-20T00:00:00Z"
 
@@ -64,11 +64,12 @@ comments: false
 ---
 
 ### Organizers
+
 - Interregional Association for Clinical Microbiology and Antimicrobial Chemotherapy (IACMAC)
 - Russian Society of Urologists
 
-### Annotation
 The data on antibiotic resistance of community-acquired uropathogens isolated from midstream urine samples of:
+
 - adults with symptomatic UTI (cystitis, pyelonephritis)
 - children and adolescents under 18 years with symptomatic UTI (cystitis, pyelonephritis)
 - pregnant women with symptomatic UTI (cystitis and pyelonephritis) and asymptomatic bacteriuria
@@ -79,7 +80,9 @@ The data on antibiotic resistance of community-acquired uropathogens isolated fr
 01 Jan 2017 - 31 Dec 2018
 
 #### Geographic location of centers
+
 **34 centers, 26 cities**
+
 - **Russia**: Bratsk, Voronezh, Yekaterinburg, Irkutsk, Yoshkar-Ola, Kazan, Kirov, Krasnodar, Nizhnevartovsk, Novokuznetsk, Novosibirsk, Omsk, Rostov-on-Don, Samara, St. Petersburg, Seversk, Smolensk, Surgut, Tolyatti, Tomsk, Ulyanovsk, Chelyabinsk, Yakutsk, Yaroslavl
 - **Belarus**: Gomel
 - **Kazakhstan**: Karaganda
@@ -87,8 +90,8 @@ The data on antibiotic resistance of community-acquired uropathogens isolated fr
 #### Antibiotic susceptibility testing
 Determination of minimum inhibitory concentrations (MICs) by reference broth microdillution method (BMD) in Mueller-Hinton broth (according to ISO 20776-1:2006) at the central laboratory of the Institute of Antimicrobial Chemotherapy (IAC), Smolensk State Mediacal University (SSMU)  
 
-#### Interpretation of MICs 
-European Committee on Antimicrobial Susceptibility Testing (EUCAST) MIC Clinical breakpoints v.9.0 (http://www.eucast.org/clinical_breakpoints/)
+#### Interpretation of MICs
+Clinical susceptibility categories were assigned based on the European Committee on Antimicrobial Susceptibility Testing (EUCAST) MIC Clinical breakpoints v.9.0 (http://www.eucast.org/clinical_breakpoints/)
 
 ### Study Group 
 - *Amineva P.G.* (Yekaterinburg)
@@ -136,8 +139,9 @@ European Committee on Antimicrobial Susceptibility Testing (EUCAST) MIC Clinical
   <div class="media-body">
     <h3 class="mt-0 mb-1">Coordinator</h3>
     <h5>Ivan S. Palagin</h5>
-    <p>Research fellow,<br>Institute of Antimicrobial Chemotherapy (IAC), Smolensk State Medical University (SSMU)</p>
+    <p>Research fellow</p>
+    <p>Institute of Antimicrobial Chemotherapy (IAC),<br>Smolensk State Medical University (SSMU)</p>
     <p><a href="ivan.palagin@gmail.com" target="_blank">ivan.palagin@gmail.com</a></p>
   </div>
-  <img class="ml-3" src="iac.png" style="width: 200px" alt="Institute of Antimicrobial Chemotherapy">
+  <img class="ml-3" src="iac.png" alt="Institute of Antimicrobial Chemotherapy">
 </div>
