@@ -68,7 +68,7 @@ comments: false
 - Interregional Association for Clinical Microbiology and Antimicrobial Chemotherapy (IACMAC)
 - Russian Society of Urologists
 
-The data on antibiotic resistance of community-acquired uropathogens isolated from midstream urine samples of:
+The data are presented on antibiotic resistance of community-acquired uropathogens isolated from midstream urine samples of:
 
 - adults with symptomatic UTI (cystitis, pyelonephritis)
 - children and adolescents under 18 years with symptomatic UTI (cystitis, pyelonephritis)
