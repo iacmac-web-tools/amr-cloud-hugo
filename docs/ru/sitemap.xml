@@ -128,21 +128,6 @@
   </url>
   
   <url>
-    <loc>https://amrcloud.net/ru/talk/example/</loc>
-    <lastmod>2019-06-28T16:17:43+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/talk/example/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/talk/example/"
-                />
-  </url>
-  
-  <url>
     <loc>https://amrcloud.net/ru/post/20191216-amrcloud-skat/</loc>
     <lastmod>2019-12-16T16:49:23+03:00</lastmod>
   </url>
@@ -318,21 +303,6 @@
   </url>
   
   <url>
-    <loc>https://amrcloud.net/ru/post/invite-register/</loc>
-    <lastmod>2019-10-22T17:55:37+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/post/invite-register/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/post/invite-register/"
-                />
-  </url>
-  
-  <url>
     <loc>https://amrcloud.net/ru/authors/admin/</loc>
     <lastmod>2019-07-03T00:44:31+03:00</lastmod>
     <xhtml:link
@@ -358,21 +328,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://amrcloud.net/ru/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/ru/talk/</loc>
-    <lastmod>2019-06-28T16:17:43+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/talk/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/talk/"
                 />
   </url>
   
