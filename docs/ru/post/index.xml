@@ -1,16 +1,105 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>News | AMRcloud</title>
+    <title>Новости | AMRcloud</title>
     <link>https://amrcloud.net/ru/post/</link>
       <atom:link href="https://amrcloud.net/ru/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>News</description>
+    <description>Новости</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud</copyright>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
-      <title>News</title>
+      <title>Новости</title>
       <link>https://amrcloud.net/ru/post/</link>
     </image>
+    
+    <item>
+      <title>Применение AMRcloud в программе СКАТ</title>
+      <link>https://amrcloud.net/ru/post/20191216-amrcloud-skat/</link>
+      <pubDate>Mon, 16 Dec 2019 09:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/post/20191216-amrcloud-skat/</guid>
+      <description>&lt;p&gt;Для формирования локальных протоколов профилактики и терапии инфекционных заболеваний необходимы локальные данные по чувствительности. Однако недостаточно просто собрать информацию о чувствительности в формате «возбудитель-антибиотик». Важно знать дополнительную метаинформацию: тип отделения, особые клинические состояния, локализацию инфекции, клинический материал и другие характеристики. О правильном сборе и структуризации данных рассказал к.б.н., заведующий лабораторией НИИ АХ Эйдельштейн М.В.&lt;/p&gt;
+
+&lt;p&gt;В дальнейшем подготовленные данные должны быть обработаны аналитической системой и представлены в доступной форме. Именно с этой целью и создавалась платформа AMRcloud. Ключевые возможности платформы и ее практическое применение были продемонстрированы ведущим разработчиком, к.м.н. Кузьменковым А.Ю.&lt;/p&gt;
+
+&lt;p&gt;Своим опытом использования AMRcloud в рамках отдельно взятого стационара поделилась Петрова Л.В. — заведующая лабораторией, врач-бактериолог лаборатории службы клинической лабораторной диагностики НМЦХ имени Пирогова. По ее словам, внедрение системы позволило значительно сократить время на подготовку отчетов для бактериологов, автоматизировать визуализацию данных и упростить обмен данными по резистентности среди специалистов стационара.&lt;/p&gt;
+
+&lt;p&gt;Полученные рекомендации по сбору и подготовке данных будут применяться участниками программы СКАТ в своих стационарах.
+Прошедший семинар – это первый шаг к созданию информированного медицинского сообщества, активно использующего современные информационные технологии для контроля и борьбы с антибиотикорезистентностью.&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Благодарим компанию MSD за организацию и помощь в подготовке данного мероприятия.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+    
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-img&#34; href=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_1.jpg&#34; &gt;
+  &lt;img src=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_1_hu1a8fde2d73f0dedcc679b8c1cffe94e9_262120_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-img&#34; href=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_2.jpg&#34; &gt;
+  &lt;img src=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_2_hu9b51c7f0189fc25e0e8abaa6c1cf750a_234539_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-img&#34; href=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_3.JPG&#34; &gt;
+  &lt;img src=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_3_hu7d0d7322722ecab24778c22d136d4df4_272386_0x190_resize_q90_lanczos.JPG&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-img&#34; href=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_5.JPG&#34; &gt;
+  &lt;img src=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_5_hu7d0d7322722ecab24778c22d136d4df4_252151_0x190_resize_q90_lanczos.JPG&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-img&#34; href=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_7.jpg&#34; &gt;
+  &lt;img src=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_7_hue4928482153b0b438279bbf3b6dea6de_288278_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+
+  
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Регистрация в AMRcloud</title>

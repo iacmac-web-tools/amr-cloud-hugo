@@ -51,9 +51,9 @@
 - id: present
   translation: Present
 - id: more_pages
-  translation: See all
+  translation: Смотреть еще
 - id: more_posts
-  translation: Больше статей
+  translation: Больше новостей
 - id: more_talks
   translation: Больше выступлений
 - id: more_publications
