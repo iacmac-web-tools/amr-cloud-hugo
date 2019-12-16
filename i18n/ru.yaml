@@ -132,3 +132,10 @@
   translation: Просмотров
 - id: gotos
   translation: Переходов
+
+- id: tutorials
+  translation: Руководства
+- id: terms_of_use
+  translation: Условия использования
+- id: privacy_policy
+  translation: Политика конфиденциальности

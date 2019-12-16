@@ -226,3 +226,10 @@
   translation: Views
 - id: gotos
   translation: Go to project
+
+- id: tutorials
+  translation: Tutorials
+- id: terms_of_use
+  translation: Terms of use
+- id: privacy_policy
+  translation: Privacy policy
