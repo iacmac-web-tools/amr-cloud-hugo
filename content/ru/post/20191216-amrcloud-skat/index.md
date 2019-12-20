@@ -8,7 +8,6 @@ tags: []
 categories: []
 
 date: "2019-12-16T09:00:00Z"
-lastmod: "2019-12-16T09:00:00Z"
 
 image:
   caption: ""

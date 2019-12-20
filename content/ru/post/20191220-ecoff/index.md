@@ -6,8 +6,7 @@ title: В AMRcloud стали доступны критерии EUCAST ECOFF
 tags: []
 categories: []
 
-date: "2019-12-16T09:00:00Z"
-lastmod: "2019-12-16T09:00:00Z"
+date: "2019-12-20T13:00:00+0300"
 
 image:
   caption: ""
