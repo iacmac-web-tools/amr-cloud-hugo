@@ -36,7 +36,9 @@
       {{ i18n "last_updated" }}
     {{ else }}
       {{ if ne $page.Params.Lastmod $page.Params.Date }}
-          {{ i18n "last_updated" }}
+        {{ i18n "last_updated" }}
+      {{ else }}
+        {{ i18n "posted" }}
       {{ end }}
     {{ end }}
     <time>{{ $date }}</time>

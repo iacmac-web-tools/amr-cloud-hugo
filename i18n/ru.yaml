@@ -141,3 +141,5 @@
   translation: Политика конфиденциальности
 - id: authors
   translation: Команда проекта
+- id: posted
+  translation: Опубликовано

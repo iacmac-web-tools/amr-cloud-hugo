@@ -235,3 +235,6 @@
   translation: Privacy policy
 - id: authors
   translation: Team
+
+- id: posted
+  translation: Posted on 
