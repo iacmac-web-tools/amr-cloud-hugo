@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | AMRcloud</title>
+    <link>https://amrcloud.net/en/publication/</link>
+      <atom:link href="https://amrcloud.net/en/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud</copyright><lastBuildDate>Thu, 10 Oct 2019 00:04:00 +0000</lastBuildDate>
+    <image>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <title>Publications</title>
+      <link>https://amrcloud.net/en/publication/</link>
+    </image>
+    
+    <item>
+      <title>AMRcloud: a new paradigm in monitoring of antibiotic resistance</title>
+      <link>https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/</link>
+      <pubDate>Thu, 10 Oct 2019 00:04:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
