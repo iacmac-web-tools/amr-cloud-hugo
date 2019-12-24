@@ -1,14 +1,888 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=generator content="Source Themes Academic 4.6.3"><meta name=author content="admin"><meta name=description content="Antimicrobial resistance is a growing threat to global public health and requires closer attention from the medical community. Antibiotic resistance monitoring systems play a key role in observing the antimicrobial susceptibility changes for rational prescribing antimicrobial therapy. Most current systems use data on a global scale; however, local data evaluation is more important for practical application. Unique AMRcloud online platform (https://amrcloud.net) was developed to process user data on antimicrobial resistance. Structural modules are modified to address the needs of researchers. The application has powerful graphic capabilities, data analysis system with automated interpretation of the antimicrobial susceptibility testing results. Geocoding is performed in a double way, and information exchange of results is adjusted by user. The use of AMRcloud allows researchers to create their own methodology for organizing primary data and their evaluation."><link rel=alternate hreflang=ru href=https://amrcloud.net/ru/publication/cmac-2019-t21-n2-p119/><link rel=alternate hreflang=en-us href=https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/><meta name=theme-color content="#3f51b5"><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap"><link rel=stylesheet href=/css/academic.css><script async src="https://www.googletagmanager.com/gtag/js?id=UA-85066436-14"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
-function trackOutboundLink(url){gtag('event','click',{'event_category':'outbound','event_label':url,'transport_type':'beacon','event_callback':function(){document.location=url;}});console.debug("Outbound link clicked: "+url);}
-function onClickCallback(event){if((event.target.tagName!=='A')||(event.target.host===window.location.host)){return;}
-trackOutboundLink(event.target);}
-gtag('js',new Date());gtag('config','UA-85066436-14',{'anonymize_ip':true});document.addEventListener('click',onClickCallback,false);</script><link rel=manifest href=/en/index.webmanifest><link rel=icon type=image/png href=/img/icon-32.png><link rel=apple-touch-icon type=image/png href=/img/icon-192.png><link rel=canonical href=https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/><meta property="twitter:card" content="summary_large_image"><meta property="twitter:site" content="@@iacmac1997"><meta property="twitter:creator" content="@@iacmac1997"><meta property="og:site_name" content="AMRcloud"><meta property="og:url" content="https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/"><meta property="og:title" content="AMRcloud: a new paradigm in monitoring of antibiotic resistance | AMRcloud"><meta property="og:description" content="Antimicrobial resistance is a growing threat to global public health and requires closer attention from the medical community. Antibiotic resistance monitoring systems play a key role in observing the antimicrobial susceptibility changes for rational prescribing antimicrobial therapy. Most current systems use data on a global scale; however, local data evaluation is more important for practical application. Unique AMRcloud online platform (https://amrcloud.net) was developed to process user data on antimicrobial resistance. Structural modules are modified to address the needs of researchers. The application has powerful graphic capabilities, data analysis system with automated interpretation of the antimicrobial susceptibility testing results. Geocoding is performed in a double way, and information exchange of results is adjusted by user. The use of AMRcloud allows researchers to create their own methodology for organizing primary data and their evaluation."><meta property="og:image" content="https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/featured.png"><meta property="twitter:image" content="https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/featured.png"><meta property="og:locale" content="en-us"><meta property="article:published_time" content="2019-10-10T00:04:00&#43;00:00"><meta property="article:modified_time" content="2019-10-10T00:04:00&#43;00:00"><script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/"},"headline":"AMRcloud: a new paradigm in monitoring of antibiotic resistance","image":["https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/featured.png"],"datePublished":"2019-10-10T00:04:00Z","dateModified":"2019-10-10T00:04:00Z","author":{"@type":"Person","name":"Kuzmenkov A.Y."},"publisher":{"@type":"Organization","name":"AMRcloud","logo":{"@type":"ImageObject","url":"https://amrcloud.net/img/icon-512.png"}},"description":"Antimicrobial resistance is a growing threat to global public health and requires closer attention from the medical community. Antibiotic resistance monitoring systems play a key role in observing the antimicrobial susceptibility changes for rational prescribing antimicrobial therapy. Most current systems use data on a global scale; however, local data evaluation is more important for practical application. Unique AMRcloud online platform (https://amrcloud.net) was developed to process user data on antimicrobial resistance. Structural modules are modified to address the needs of researchers. The application has powerful graphic capabilities, data analysis system with automated interpretation of the antimicrobial susceptibility testing results. Geocoding is performed in a double way, and information exchange of results is adjusted by user. The use of AMRcloud allows researchers to create their own methodology for organizing primary data and their evaluation."}</script><link rel=stylesheet href=//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css><script src=https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js></script><script>window.addEventListener("load",function(){window.cookieconsent.initialise({"palette":{"popup":{"background":"#3f51b5","text":"#fff"},"button":{"background":"#fff","text":"#3f51b5"}},"theme":"classic","content":{"message":"This website uses cookies to ensure you get the best experience on our website.","dismiss":"Got it!","link":"Learn more","href":"https://cookies.insites.com"}})});</script><title>AMRcloud: a new paradigm in monitoring of antibiotic resistance | AMRcloud</title></head><body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents><aside class=search-results id=search><div class=container><section class=search-header><div class="row no-gutters justify-content-between mb-3"><div class=col-6><h1>Search</h1></div><div class="col-6 col-search-close"><a class=js-search href=#><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a></div></div><div id=search-box><input name=q id=search-query placeholder=Search... autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search></div></section><section class=section-search-results><div id=search-hits></div></section></div></aside><nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main><div class=container><a class=navbar-brand href=/en/>AMRcloud</a>
-<button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar aria-expanded=false aria-label="Toggle navigation">
-<span><i class="fas fa-bars"></i></span></button><div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content><ul class="navbar-nav d-md-inline-flex"><li class=nav-item><a class=nav-link href=/en/#hero><span>Home</span></a></li><li class=nav-item><a class=nav-link href=/en/#projects><span>Public Datasets</span></a></li><li class=nav-item><a class=nav-link href=/en/tutorials/><span>Get started</span></a></li><li class=nav-item><a class=nav-link href=/en/#people><span>Team</span></a></li><li class=nav-item><a class=nav-link href=/en/#contact><span>Contact</span></a></li></ul><ul class="navbar-nav ml-md-auto"><li class=nav-item><a class=nav-link href=https://amrhub.ru target=_blank rel=noopener><i class="fas fa-external-link-alt"></i>&nbsp;<span>More AMR services</span></a></li></ul></div><ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2"><li class=nav-item><a class="nav-link js-search" href=#><i class="fas fa-search" aria-hidden=true></i></a></li><li class="nav-item dropdown i18n-dropdown"><a href=# class="nav-link dropdown-toggle" data-toggle=dropdown aria-haspopup=true><span class=emoji-flag-icon><img src=\img\flag-uk.png alt=ENG></span>
-<span class="d-none d-lg-inline">English</span></a><div class=dropdown-menu><div class="dropdown-item active font-weight-bold"><span class=emoji-flag-icon><img src=\img\flag-uk.png alt=ENG></span>
-<span>English</span></div><a class=dropdown-item href=/ru/publication/cmac-2019-t21-n2-p119/ onclick='setPreferredLanguage("ru")'><span class=emoji-flag-icon><img src=\img\flag-ru.png alt=RU></span>
-<span>Русский</span></a></div></li></ul></div></nav><div class=pub><div class="article-container pt-3"><h1>AMRcloud: a new paradigm in monitoring of antibiotic resistance</h1><div class=article-metadata><div><span><a href=/en/authors/kuzmenkov-a.y./>Kuzmenkov A.Y.</a></span>, <span><a href=/en/authors/vinogradova-a.g./>Vinogradova A.G.</a></span>, <span><a href=/en/authors/trushin-i.v./>Trushin I.V.</a></span>, <span><a href=/en/authors/avramenko-a.a./>Avramenko A.A.</a></span>, <span><a href=/en/authors/edelstein-m.v./>Edelstein M.V.</a></span>, <span><a href=/en/authors/dekhnich-a.v./>Dekhnich A.V.</a></span>, <span><a href=/en/authors/kozlov-r.s./>Kozlov R.S.</a></span></div><div class=doi><i class="ai ai-doi ai-2x"></i><a href=https://doi.org/10.36488/cmac.2019.2.119-124 target=_blank><em>10.36488/cmac.2019.2.119-124</em></a></div><span class=article-date>Last updated on
-<time>2019-10-10</time></span></div><div class="btn-links mb-3"><a class="btn btn-outline-primary my-1 mr-1" href=https://cmac-journal.ru/en/publication/2019/2/cmac-2019-t21-n2-p119/>Read full article</a></div></div><div class="article-header article-container featured-image-wrapper mt-4 mb-4" style=max-width:720px;max-height:462px><div style=position:relative><img src=/en/publication/cmac-2019-t21-n2-p119/featured_huee234e39b79cc3169bb1ee944f3d8f7c_191694_720x0_resize_lanczos_2.png alt class=featured-image></div></div><div class=article-container><h3>Abstract</h3><p class=pub-abstract>Antimicrobial resistance is a growing threat to global public health and requires closer attention from the medical community. Antibiotic resistance monitoring systems play a key role in observing the antimicrobial susceptibility changes for rational prescribing antimicrobial therapy. Most current systems use data on a global scale; however, local data evaluation is more important for practical application. Unique AMRcloud online platform (<a href=https://amrcloud.net>https://amrcloud.net</a>) was developed to process user data on antimicrobial resistance. Structural modules are modified to address the needs of researchers. The application has powerful graphic capabilities, data analysis system with automated interpretation of the antimicrobial susceptibility testing results. Geocoding is performed in a double way, and information exchange of results is adjusted by user. The use of AMRcloud allows researchers to create their own methodology for organizing primary data and their evaluation.</p><div class=row><div class=col-md-1></div><div class=col-md-10><div class=row><div class="col-12 col-md-3 pub-row-heading">Type</div><div class="col-12 col-md-9"><a href=/en/publication/#2>Journal article</a></div></div></div><div class=col-md-1></div></div><div class="d-md-none space-below"></div><div class=row><div class=col-md-1></div><div class=col-md-10><div class=row><div class="col-12 col-md-3 pub-row-heading">Publication</div><div class="col-12 col-md-9">Clinical Microbiology and Antimicrobial Chemotherapy. 2019; 21(2):119-124</div></div></div><div class=col-md-1></div></div><div class="d-md-none space-below"></div><div class=space-below></div><div class=article-style></div><div class=share-box aria-hidden=true><ul class=share><li><a href="https://twitter.com/intent/tweet?url=https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/&amp;text=AMRcloud:%20a%20new%20paradigm%20in%20monitoring%20of%20antibiotic%20resistance" target=_blank rel=noopener class=share-btn-twitter><i class="fab fa-twitter"></i></a></li><li><a href="https://www.facebook.com/sharer.php?u=https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/&amp;t=AMRcloud:%20a%20new%20paradigm%20in%20monitoring%20of%20antibiotic%20resistance" target=_blank rel=noopener class=share-btn-facebook><i class="fab fa-facebook-f"></i></a></li><li><a href="http://vkontakte.ru/share.php?url=https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/&amp;title=AMRcloud:%20a%20new%20paradigm%20in%20monitoring%20of%20antibiotic%20resistance" target=_blank rel=noopener class=share-btn-vk><i class="fab fa-vk"></i></a></li><li><a href="mailto:?subject=AMRcloud:%20a%20new%20paradigm%20in%20monitoring%20of%20antibiotic%20resistance&amp;body=https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/" target=_blank rel=noopener class=share-btn-email><i class="fas fa-envelope"></i></a></li><li><a href="https://www.linkedin.com/shareArticle?url=https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/&amp;title=AMRcloud:%20a%20new%20paradigm%20in%20monitoring%20of%20antibiotic%20resistance" target=_blank rel=noopener class=share-btn-linkedin><i class="fab fa-linkedin-in"></i></a></li><li><a href="https://web.whatsapp.com/send?text=AMRcloud:%20a%20new%20paradigm%20in%20monitoring%20of%20antibiotic%20resistance%20https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/" target=_blank rel=noopener class=share-btn-whatsapp><i class="fab fa-whatsapp"></i></a></li></ul></div><div class=article-widget><div class="post-nav d-flex justify-content-between"></div></div></div></div><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin=anonymous></script><script>const search_config={"indexURI":"/en/index.json","minLength":1,"threshold":0.3};const i18n={"no_results":"No results found","placeholder":"Search...","results":"results found"};const content_type={'post':"Posts",'project':"Projects",'publication':"Publications",'talk':"Talks",'tutorials':"Tutorials",'terms-of-use':"Terms of use",'privacy-policy':"Privacy policy",'authors':"Team"};</script><script id=search-hit-fuse-template type=text/x-template>
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.6.1">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="admin">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Antimicrobial resistance is a growing threat to global public health and requires closer attention from the medical community. Antibiotic resistance monitoring systems play a key role in observing the antimicrobial susceptibility changes for rational prescribing antimicrobial therapy. Most current systems use data on a global scale; however, local data evaluation is more important for practical application. Unique AMRcloud online platform (https://amrcloud.net) was developed to process user data on antimicrobial resistance. Structural modules are modified to address the needs of researchers. The application has powerful graphic capabilities, data analysis system with automated interpretation of the antimicrobial susceptibility testing results. Geocoding is performed in a double way, and information exchange of results is adjusted by user. The use of AMRcloud allows researchers to create their own methodology for organizing primary data and their evaluation.">
+
+  
+  <link rel="alternate" hreflang="ru" href="https://amrcloud.net/ru/publication/cmac-2019-t21-n2-p119/">
+  
+  <link rel="alternate" hreflang="en-us" href="https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-85066436-14"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-85066436-14', { 'anonymize_ip': true });
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/en/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/">
+
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@@iacmac1997">
+  <meta property="twitter:creator" content="@@iacmac1997">
+  
+  <meta property="og:site_name" content="AMRcloud">
+  <meta property="og:url" content="https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/">
+  <meta property="og:title" content="AMRcloud: a new paradigm in monitoring of antibiotic resistance | AMRcloud">
+  <meta property="og:description" content="Antimicrobial resistance is a growing threat to global public health and requires closer attention from the medical community. Antibiotic resistance monitoring systems play a key role in observing the antimicrobial susceptibility changes for rational prescribing antimicrobial therapy. Most current systems use data on a global scale; however, local data evaluation is more important for practical application. Unique AMRcloud online platform (https://amrcloud.net) was developed to process user data on antimicrobial resistance. Structural modules are modified to address the needs of researchers. The application has powerful graphic capabilities, data analysis system with automated interpretation of the antimicrobial susceptibility testing results. Geocoding is performed in a double way, and information exchange of results is adjusted by user. The use of AMRcloud allows researchers to create their own methodology for organizing primary data and their evaluation."><meta property="og:image" content="https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/featured.png">
+  <meta property="twitter:image" content="https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/featured.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2019-10-10T00:04:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2019-10-10T00:04:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/"
+  },
+  "headline": "AMRcloud: a new paradigm in monitoring of antibiotic resistance",
+  
+  "image": [
+    "https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/featured.png"
+  ],
+  
+  "datePublished": "2019-10-10T00:04:00Z",
+  "dateModified": "2019-10-10T00:04:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Kuzmenkov A.Y."
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "AMRcloud",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://amrcloud.net/img/icon-512.png"
+    }
+  },
+  "description": "Antimicrobial resistance is a growing threat to global public health and requires closer attention from the medical community. Antibiotic resistance monitoring systems play a key role in observing the antimicrobial susceptibility changes for rational prescribing antimicrobial therapy. Most current systems use data on a global scale; however, local data evaluation is more important for practical application. Unique AMRcloud online platform (https://amrcloud.net) was developed to process user data on antimicrobial resistance. Structural modules are modified to address the needs of researchers. The application has powerful graphic capabilities, data analysis system with automated interpretation of the antimicrobial susceptibility testing results. Geocoding is performed in a double way, and information exchange of results is adjusted by user. The use of AMRcloud allows researchers to create their own methodology for organizing primary data and their evaluation."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#3f51b5",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#3f51b5"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
+
+
+  
+
+
+
+
+
+  <title>AMRcloud: a new paradigm in monitoring of antibiotic resistance | AMRcloud</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container">
+
+        
+        
+        
+        <a class="navbar-brand" href="/en/">AMRcloud</a>
+        
+
+        
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-content"
+            aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fas fa-bars"></i></span>
+        </button>
+        
+
+        
+        
+        <div class="navbar-collapse main-menu-item collapse justify-content-start"
+            id="navbar-content">
+
+            
+            <ul class="navbar-nav d-md-inline-flex">
+                
+
+                
+
+                
+                
+                
+                
+                
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+
+                <li class="nav-item">
+                    <a class="nav-link " href="/en/#hero"
+                        ><span>Home</span></a>
+                </li>
+
+                
+                
+
+                
+
+                
+                
+                
+                
+                
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+
+                <li class="nav-item">
+                    <a class="nav-link " href="/en/#projects"
+                        ><span>Public Datasets</span></a>
+                </li>
+
+                
+                
+
+                
+
+                
+                
+                
+                
+                
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+
+                <li class="nav-item">
+                    <a class="nav-link " href="/en/#people"
+                        ><span>Team</span></a>
+                </li>
+
+                
+                
+
+                
+
+                
+                
+                
+                
+                
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+
+                <li class="nav-item">
+                    <a class="nav-link " href="/en/#contact"
+                        ><span>Contact</span></a>
+                </li>
+
+                
+                
+
+                
+            </ul>
+            <ul class="navbar-nav ml-md-auto">
+                
+
+                
+
+                
+                
+                
+                
+                
+                
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="https://amrhub.ru"  target="_blank" rel="noopener"><i class='fas fa-external-link-alt'></i>&nbsp;<span>More AMR services</span></a>
+                </li>
+
+                
+            </ul>
+        </div>
+
+        <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+            
+            <li class="nav-item">
+                <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+            </li>
+            
+
+            
+            
+            <li class="nav-item dropdown i18n-dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+                    
+                        <span class="emoji-flag-icon"><img src="\img\flag-uk.png" alt="ENG"></span>
+                    
+                    
+                    <span class="d-none d-lg-inline">English</span>
+                </a>
+                <div class="dropdown-menu">
+                    <div class="dropdown-item active font-weight-bold">
+                        
+                        <span class="emoji-flag-icon"><img src="\img\flag-uk.png" alt="ENG"></span>
+                        
+                        <span>English</span>
+                    </div>
+                    
+                    <a class="dropdown-item" href="/ru/publication/cmac-2019-t21-n2-p119/"  onclick="setPreferredLanguage(&#34;ru&#34;)">
+                        
+                        <span class="emoji-flag-icon"><img src="\img\flag-ru.png" alt="RU"></span>
+                        
+                        <span>Русский</span>
+                    </a>
+                    
+                </div>
+            </li>
+            
+
+        </ul>
+
+    </div>
+</nav>
+
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>AMRcloud: a new paradigm in monitoring of antibiotic resistance</h1>
+
+  
+
+  
+
+
+
+
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span><a href="/en/authors/kuzmenkov-a.y./">Kuzmenkov A.Y.</a></span>, <span><a href="/en/authors/vinogradova-a.g./">Vinogradova A.G.</a></span>, <span><a href="/en/authors/trushin-i.v./">Trushin I.V.</a></span>, <span><a href="/en/authors/avramenko-a.a./">Avramenko A.A.</a></span>, <span><a href="/en/authors/edelstein-m.v./">Edelstein M.V.</a></span>, <span><a href="/en/authors/dekhnich-a.v./">Dekhnich A.V.</a></span>, <span><a href="/en/authors/kozlov-r.s./">Kozlov R.S.</a></span>
+
+  </div>
+  
+  
+
+
+  
+  <div class="doi">
+    <i class="ai ai-doi ai-2x"></i>
+    <a href="https://doi.org/10.36488/cmac.2019.2.119-124" target="_blank">
+      <em>10.36488/cmac.2019.2.119-124</em>
+    </a>
+  </div>
+
+
+  
+  <span class="article-date">
+    
+    
+      
+      Last updated on
+    
+    <time>2019-10-10</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://cmac-journal.ru/en/publication/2019/2/cmac-2019-t21-n2-p119/" >
+    
+    Read full article
+  </a>
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 462px;">
+  <div style="position: relative">
+    <img src="/en/publication/cmac-2019-t21-n2-p119/featured_huee234e39b79cc3169bb1ee944f3d8f7c_191694_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Antimicrobial resistance is a growing threat to global public health and requires closer attention from the medical community. Antibiotic resistance monitoring systems play a key role in observing the antimicrobial susceptibility changes for rational prescribing antimicrobial therapy. Most current systems use data on a global scale; however, local data evaluation is more important for practical application. Unique AMRcloud online platform (<a href="https://amrcloud.net">https://amrcloud.net</a>) was developed to process user data on antimicrobial resistance. Structural modules are modified to address the needs of researchers. The application has powerful graphic capabilities, data analysis system with automated interpretation of the antimicrobial susceptibility testing results. Geocoding is performed in a double way, and information exchange of results is adjusted by user. The use of AMRcloud allows researchers to create their own methodology for organizing primary data and their evaluation.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/en/publication/#2">
+              Journal article
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Clinical Microbiology and Antimicrobial Chemotherapy. 2019; 21(2):119-124</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/&amp;text=AMRcloud:%20a%20new%20paradigm%20in%20monitoring%20of%20antibiotic%20resistance" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/&amp;t=AMRcloud:%20a%20new%20paradigm%20in%20monitoring%20of%20antibiotic%20resistance" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="http://vkontakte.ru/share.php?url=https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/&amp;title=AMRcloud:%20a%20new%20paradigm%20in%20monitoring%20of%20antibiotic%20resistance" target="_blank" rel="noopener" class="share-btn-vk">
+          <i class="fab fa-vk"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=AMRcloud:%20a%20new%20paradigm%20in%20monitoring%20of%20antibiotic%20resistance&amp;body=https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/&amp;title=AMRcloud:%20a%20new%20paradigm%20in%20monitoring%20of%20antibiotic%20resistance" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=AMRcloud:%20a%20new%20paradigm%20in%20monitoring%20of%20antibiotic%20resistance%20https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="article-widget">
+  
+<div class="post-nav d-flex justify-content-between">
+  
+  
+  
+</div>
+
+</div>
+
+
+
+  
+  
+
+
+
+  </div>
+</div>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/en/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'tutorials' : "Tutorials",
+        'terms-of-use' : "Terms of use",
+        'privacy-policy' : "Privacy policy",
+        'authors': "Team"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
       <div class="search-hit" id="summary-{{key}}">
       <div class="search-hit-content">
         <div class="search-hit-name">
@@ -18,10 +892,128 @@ gtag('js',new Date());gtag('config','UA-85066436-14',{'anonymize_ip':true});docu
         </div>
       </div>
       </div>
-    </script><script src=https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin=anonymous></script><script src=/js/academic.min.3227ab49eed49815d1b4ba40154f74e7.js></script><script type=text/javascript></script><script>function setPreferredLanguage(lang){console.log('preferred lang:'+lang);localStorage.setItem('amrcloud-pref-lang',lang);}</script><script>$(document).ready(function(){if($('span.project-stat').length){$.ajax({url:"https:\/\/api.amrcloud.net\/api/ga/page",data:{path:"\/en\/publication\/cmac-2019-t21-n2-p119\/",link:""},type:'GET',cache:true,crossDomain:true,success:function(data){$("#publication_statistics_views_value").text(data['views']||0);$("#publication_statistics_goto_value").text(data['outbound']||0);},error:function(data){console.log(data);}});}});</script><div class=container><footer class=site-footer><p class=powered-by>AMRcloud &middot;
-Powered by the
-<a href=https://sourcethemes.com/academic/>Academic theme</a> for
-<a href=https://gohugo.io>Hugo</a>.
-<span class=float-right aria-hidden=true><a href=# class=back-to-top><span class=button_icon><i class="fas fa-chevron-up fa-2x"></i></span></a></span></p></footer></div><div id=modal class="modal fade" role=dialog><div class=modal-dialog><div class=modal-content><div class=modal-header><h5 class=modal-title>Cite</h5><button type=button class=close data-dismiss=modal aria-label=Close>
-<span aria-hidden=true>&times;</span></button></div><div class=modal-body><pre><code class="tex hljs"></code></pre></div><div class=modal-footer><a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank><i class="fas fa-copy"></i>Copy</a>
-<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank><i class="fas fa-download"></i>Download</a><div id=modal-error></div></div></div></div></div></body></html>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.0e040a4c8b8532fc173c2fe4328906d0.js"></script>
+
+    <script type="text/javascript">
+    
+</script>
+<script>
+    
+    function setPreferredLanguage(lang) {
+        console.log('preferred lang:' + lang);
+        localStorage.setItem('amrcloud-pref-lang', lang);
+    }
+
+</script>
+<script>
+    $(document).ready(function () {
+
+
+        if ($('span.project-stat').length) {
+            $.ajax({
+                url: "https:\/\/api.amrcloud.net\/api/ga/page",
+                data: {
+                    path: "\/en\/publication\/cmac-2019-t21-n2-p119\/",
+                    link: ""
+                },
+                type: 'GET',
+                cache: true,
+                crossDomain: true,
+                success: function (data) {
+                    $("#publication_statistics_views_value").text(data['views'] || 0);
+                    $("#publication_statistics_goto_value").text(data['outbound'] || 0);
+                },
+                error: function (data) {
+                    console.log(data);
+                }
+            });
+        }
+    });
+</script>
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    AMRcloud &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" >Academic theme</a> for
+    <a href="https://gohugo.io" >Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
