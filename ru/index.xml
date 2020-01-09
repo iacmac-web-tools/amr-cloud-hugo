@@ -123,7 +123,7 @@
 &lt;p&gt;В качестве идентификатора изолята допустимо использовать неуникальные номера, они могут быть буквенными или числовыми.&lt;/p&gt;
 &lt;h3 id=&#34;вид-микроорганизма&#34;&gt;Вид микроорганизма&lt;/h3&gt;
 &lt;p&gt;Для автоматической и быстрой интерпретации результатов &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; использует полные названия видов микроорганизмов.&lt;/p&gt;
-&lt;p&gt;Поэтому &lt;strong&gt;Название вида микроорганизма&lt;/strong&gt; должно быть полное, сокращения не допустимы.&lt;/p&gt;
+&lt;p&gt;Поэтому &lt;strong&gt;Название вида микроорганизма&lt;/strong&gt; должно быть полное, сокращения недопустимы.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Правильно:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Staphylococcus aureus, Streptococcus pneumoniae&lt;/p&gt;
@@ -341,7 +341,7 @@
 &lt;/ul&gt;
 &lt;p&gt;Почему пользователю &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; следует ориентироваться в кодировке?&lt;/p&gt;
 &lt;p&gt;Алгоритмы &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; распознают кодировку и настраивают по необходимым требованиям работы платформы.&lt;/p&gt;
-&lt;p&gt;Несмотря на эти меры, пользователь может столкнуться с ситуацией, когда в таблице данные открываются &amp;laquo;непонятными знаками - иероглифами&amp;raquo; вместо текста. Как настроить кодировку и вернуть текст?&lt;/p&gt;
+&lt;p&gt;Несмотря на эти меры пользователь может столкнуться с ситуацией, когда в таблице данные открываются &amp;laquo;непонятными знаками - иероглифами&amp;raquo; вместо текста. Как настроить кодировку и вернуть текст?&lt;/p&gt;
 &lt;figure&gt;
 &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/wrong_letters.png&#34; &gt;
 &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/wrong_letters.png&#34; &gt;
@@ -353,7 +353,7 @@
 &lt;p&gt;Разберем возможные варианты поэтапного процесса &amp;laquo;исправления&amp;raquo; на примерах.&lt;/p&gt;
 &lt;p&gt;Важно отметить, что использование текстового редактора Sublime Text носит рекомендательный характер, не является оплаченной формой неличной передачи информации. Пользователь может использовать любой имеющийся текстовый редактор с настройкой кодинга.&lt;/p&gt;
 &lt;h3 id=&#34;ситуация-1&#34;&gt;Ситуация 1.&lt;/h3&gt;
-&lt;p&gt;При загрузке таблицы в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; на шаге 1, в окне предварительного просмотра появляется надпись &lt;strong&gt;&amp;laquo;Не могу прочитать файл&amp;raquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;При загрузке таблицы в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; на Шаге 1, в окне предварительного просмотра появляется надпись &lt;strong&gt;&amp;laquo;Не могу прочитать файл&amp;raquo;&lt;/strong&gt;&lt;/p&gt;
 &lt;figure&gt;
 &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/unread.png&#34; &gt;
 &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/unread.png&#34; &gt;
@@ -454,7 +454,7 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;/figure&gt;
 &lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Теперь можно просматривать таблицу, которая была скачана из онлайн-платформы &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;, на локальном компьютере.&lt;/p&gt;</description></item><item><title>Шаг 2 - Идентификация</title><link>https://amrcloud.net/ru/tutorials/import-data/05-identification/</link><pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate><guid>https://amrcloud.net/ru/tutorials/import-data/05-identification/</guid><description>
+&lt;p&gt;Теперь можно просматривать таблицу, которая была скачана из онлайн-платформы &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;, на локальном компьютере.&lt;/p&gt;</description></item><item><title>Шаг 2 - Выбор параметров</title><link>https://amrcloud.net/ru/tutorials/import-data/05-identification/</link><pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate><guid>https://amrcloud.net/ru/tutorials/import-data/05-identification/</guid><description>
 &lt;p&gt;Представление онлайн-платформе &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; обязательных и факультативных столбцов.&lt;/p&gt;
 &lt;p&gt;Для правильной работы всех аналитических компонентов, важно правильно соотнести названия 8 категорий со столбцами в загруженной таблице.&lt;/p&gt;
 &lt;h2 id=&#34;обязательные-столбцы&#34;&gt;Обязательные столбцы&lt;/h2&gt;
@@ -475,8 +475,7 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;li&gt;Выберите столбец, содержащий названия видов микроорганизмов&lt;/li&gt;
 &lt;li&gt;Выберите столбец, содержащий информацию о датах выделения изолятов.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- ### Выберите столбец, содержащий названия видов микроорганизмов. --&gt;
-&lt;h3 id=&#34;виды-микроорганизмов&#34;&gt;Виды микроорганизмов&lt;/h3&gt;
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;Виды микроорганизмов&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
 &lt;p&gt;Необходимым условием является: &lt;em&gt;двойные латинские названия видов микроорганизмов&lt;/em&gt;, которые соответствуют &lt;em&gt;официальной номенклатуре&lt;/em&gt;. Правильно записанные названия позволяют системе автоматически применить критерии для интерпретации значений МПК, зон подавления роста и определения категорий чувствительности к АМП.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Правильно:&lt;/strong&gt;&lt;/p&gt;
@@ -505,8 +504,7 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;p&gt;Если критерии интепретации для группы не будут найдены, система не сможет автоматически проставить критерии.&lt;/p&gt;
 &lt;p&gt;Такие микроорганизмы &lt;strong&gt;не исключаются&lt;/strong&gt; из общих данных и для них также будут построены графики, но они не окрашиваются в соответствии с категориями чувствительности, поэтому на графике появится серый цвет.&lt;/p&gt;
 &lt;p&gt;Если пользователь работает только с готовыми &amp;laquo;своими&amp;raquo; категориями чувствительности S/I/R, проблем в идентификации видов микроорганизмов нет.&lt;/p&gt;
-&lt;!-- ### Выберите столбец, содержащий информацию о датах выделения изолятов --&gt;
-&lt;h3 id=&#34;даты-выделения-изолятов&#34;&gt;Даты выделения изолятов&lt;/h3&gt;
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;Даты выделения изолятов&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
 &lt;p&gt;Онлайн-платформа &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; автоматически распознает все возможные варианты написания дат, с условием: единый формат для всех изолятов.&lt;/p&gt;
 &lt;p&gt;&amp;laquo;По умолчанию&amp;raquo; формат записи даты определяется автоматически.
 Если выбран неправильный столбец или формат записи даты неодинаковый для каждого изолята, строчки с такими записями будут удалены.&lt;/p&gt;
@@ -640,10 +638,24 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;Если все данные по географическим объектам правильные, следует переходить к следующему этапу &lt;strong&gt;ШАГ 4&lt;/strong&gt;, нажав кнопку &lt;strong&gt;Сохранить шаг 3&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+&lt;div&gt;
+&lt;p&gt;Важно!&lt;/p&gt;
+&lt;p&gt;Полученные геокординаты можно использовать повторно для других наборов данных при последующей загрузке. Для этого отметить &lt;em&gt;Сохранить координаты для повторного применения&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;figure&gt;
+&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/coordinate_again.png&#34; &gt;
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/coordinate_again.png&#34; &gt;
+&lt;/a&gt;
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+&lt;h6&gt;Повторное применение координат&lt;/h6&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;h2 id=&#34;практические-ситуации&#34;&gt;Практические ситуации&lt;/h2&gt;
 &lt;p&gt;При работе с геокодированием могут возникнуть ситуации, которые потребуют от пользователя ручного ввода более подробной информации или исправления географических координат, которые система не идентифицировала.&lt;/p&gt;
 &lt;p&gt;Рассмотрим несколько практических ситуаций.&lt;/p&gt;
-&lt;h3 id=&#34;ситуация-1-span-style-color-2ba2e6-amrcloud-span-не-распознал-географический-объект&#34;&gt;Ситуация 1. &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; не распознал географический объект.&lt;/h3&gt;
+&lt;h3 id=&#34;ситуация-1-amrcloud-не-распознал-географический-объект&#34;&gt;Ситуация 1. AMRcloud не распознал географический объект.&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;1.Проверить правильность названия географического объекта.&lt;/strong&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -803,19 +815,12 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Шаг 4 - Интерпретация</title><link>https://amrcloud.net/ru/tutorials/import-data/07-interpretation/</link><pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate><guid>https://amrcloud.net/ru/tutorials/import-data/07-interpretation/</guid><description>&lt;p&gt;Пользователю следует выбрать подходящие критерии интепретации &lt;strong&gt;&amp;rarr;&lt;/strong&gt; нажать кнопку &lt;strong&gt;Интерпретировать МПК и данные диск-диффузии&lt;/strong&gt; &lt;strong&gt;&amp;rarr;&lt;/strong&gt; нажать кнопку &lt;strong&gt;3. Сохранить шаг 4&lt;/strong&gt;&lt;/p&gt;
+&lt;/ol&gt;</description></item><item><title>Шаг 4 - Категоризация S/I/R</title><link>https://amrcloud.net/ru/tutorials/import-data/07-interpretation/</link><pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate><guid>https://amrcloud.net/ru/tutorials/import-data/07-interpretation/</guid><description>&lt;p&gt;Пользователю следует выбрать подходящие критерии интепретации &lt;strong&gt;&amp;rarr;&lt;/strong&gt; нажать кнопку &lt;strong&gt;Интерпретировать МПК и данные диск-диффузии&lt;/strong&gt; &lt;strong&gt;&amp;rarr;&lt;/strong&gt; нажать кнопку &lt;strong&gt;Завершить все шаги&lt;/strong&gt;.&lt;/p&gt;
 &lt;figure&gt;
 &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_step4.png&#34; &gt;
 &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_step4.png&#34; &gt;
 &lt;/a&gt;
-&lt;/figure&gt;</description></item><item><title>Шаг 5 - Описание данных</title><link>https://amrcloud.net/ru/tutorials/import-data/08-description/</link><pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate><guid>https://amrcloud.net/ru/tutorials/import-data/08-description/</guid><description>&lt;p&gt;Пользователь добавляет описание к набору данных.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Информация может включать дополнительные характеристики по изолятам или по пациентам и другие обобщенные показатели.&lt;/li&gt;
-&lt;li&gt;Описание позволяет быстро ознакомиться с набором данных любому пользователю, если проект публичный, или участникам командного проекта.&lt;/li&gt;
-&lt;li&gt;Рекомендуется делать структурное описание и избегать сокращений, которые не являются общепринятыми.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;После нажатия кнопки &lt;strong&gt;Обновить информацию для набора данных&lt;/strong&gt; пользователь может просмотреть итоговое описание, и заново обновить его при необходимости, после внесения поправок в окне ввода.&lt;/p&gt;
-&lt;p&gt;Если описание не требует исправлений, то следует нажать кнопку &lt;strong&gt;Завершить все шаги&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>В AMRcloud стали доступны критерии EUCAST ECOFF</title><link>https://amrcloud.net/ru/post/20191220-ecoff/</link><pubDate>Fri, 20 Dec 2019 13:00:00 +0300</pubDate><guid>https://amrcloud.net/ru/post/20191220-ecoff/</guid><description>&lt;p&gt;В AMRcloud стали доступны критерии &lt;a href=&#34;http://www.eucast.org/mic_distributions_and_ecoffs/&#34;&gt;EUCAST ECOFF (epidemiological cut-off values)&lt;/a&gt;. Данные критерии были формализованы коллегами из «Всероссийского государственного Центра качества и стандартизации лекарственных средств для животных и кормов» (&lt;a href=&#34;http://www.vgnki.ru&#34;&gt;ФГБУ “ВГНКИ”&lt;/a&gt;). Благодарим за помощь в развитии ресурса AMRcloud: Бадмаева О.Э., Крылову Е.В., Макарова Д.А.&lt;/p&gt;</description></item><item><title>Применение AMRcloud в программе СКАТ</title><link>https://amrcloud.net/ru/post/20191216-amrcloud-skat/</link><pubDate>Mon, 16 Dec 2019 09:00:00 +0000</pubDate><guid>https://amrcloud.net/ru/post/20191216-amrcloud-skat/</guid><description>&lt;p&gt;Для формирования локальных протоколов профилактики и терапии инфекционных заболеваний необходимы локальные данные по чувствительности. Однако недостаточно просто собрать информацию о чувствительности в формате «возбудитель-антибиотик». Важно знать дополнительную метаинформацию: тип отделения, особые клинические состояния, локализацию инфекции, клинический материал и другие характеристики. О правильном сборе и структуризации данных рассказал к.б.н., заведующий лабораторией НИИ АХ Эйдельштейн М.В.&lt;/p&gt;
+&lt;/figure&gt;</description></item><item><title>В AMRcloud стали доступны критерии EUCAST ECOFF</title><link>https://amrcloud.net/ru/post/20191220-ecoff/</link><pubDate>Fri, 20 Dec 2019 13:00:00 +0300</pubDate><guid>https://amrcloud.net/ru/post/20191220-ecoff/</guid><description>&lt;p&gt;В AMRcloud стали доступны критерии &lt;a href=&#34;http://www.eucast.org/mic_distributions_and_ecoffs/&#34;&gt;EUCAST ECOFF (epidemiological cut-off values)&lt;/a&gt;. Данные критерии были формализованы коллегами из «Всероссийского государственного Центра качества и стандартизации лекарственных средств для животных и кормов» (&lt;a href=&#34;http://www.vgnki.ru&#34;&gt;ФГБУ “ВГНКИ”&lt;/a&gt;). Благодарим за помощь в развитии ресурса AMRcloud: Бадмаева О.Э., Крылову Е.В., Макарова Д.А.&lt;/p&gt;</description></item><item><title>Применение AMRcloud в программе СКАТ</title><link>https://amrcloud.net/ru/post/20191216-amrcloud-skat/</link><pubDate>Mon, 16 Dec 2019 09:00:00 +0000</pubDate><guid>https://amrcloud.net/ru/post/20191216-amrcloud-skat/</guid><description>&lt;p&gt;Для формирования локальных протоколов профилактики и терапии инфекционных заболеваний необходимы локальные данные по чувствительности. Однако недостаточно просто собрать информацию о чувствительности в формате «возбудитель-антибиотик». Важно знать дополнительную метаинформацию: тип отделения, особые клинические состояния, локализацию инфекции, клинический материал и другие характеристики. О правильном сборе и структуризации данных рассказал к.б.н., заведующий лабораторией НИИ АХ Эйдельштейн М.В.&lt;/p&gt;
 &lt;p&gt;В дальнейшем подготовленные данные должны быть обработаны аналитической системой и представлены в доступной форме. Именно с этой целью и создавалась платформа AMRcloud. Ключевые возможности платформы и ее практическое применение были продемонстрированы ведущим разработчиком, к.м.н. Кузьменковым А.Ю.&lt;/p&gt;
 &lt;p&gt;Своим опытом использования AMRcloud в рамках отдельно взятого стационара поделилась Петрова Л.В. — заведующая лабораторией, врач-бактериолог лаборатории службы клинической лабораторной диагностики НМЦХ имени Пирогова. По ее словам, внедрение системы позволило значительно сократить время на подготовку отчетов для бактериологов, автоматизировать визуализацию данных и упростить обмен данными по резистентности среди специалистов стационара.&lt;/p&gt;
 &lt;p&gt;Полученные на собрании рекомендации по сбору и подготовке данных будут применяться участниками программы СКАТ в своих стационарах.
