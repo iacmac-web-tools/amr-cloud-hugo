@@ -13,8 +13,8 @@
 &lt;h6&gt;New project&lt;/h6&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;The modal dialog &amp;laquo;Add new project&amp;raquo; invites user to fill in the &amp;laquo;New project name&amp;raquo; and &amp;laquo;Project subtitle&amp;raquo; fields (with a limit of 255 characters).
-It is strongly recommended to use unique or significantly different names for your projects. Do not limit yourself to the &lt;em&gt;&amp;laquo;test1&amp;raquo;&lt;/em&gt; and &lt;em&gt;&amp;laquo;test2&amp;raquo;&lt;/em&gt; variants. The project subtitle can be represented by keywords that explain the name.&lt;/p&gt;
+&lt;p&gt;The modal dialog &amp;ldquo;Add new project&amp;rdquo; invites user to fill in the &amp;ldquo;New project name&amp;rdquo; and &amp;ldquo;Project subtitle&amp;rdquo; fields (with a limit of 255 characters).
+It is strongly recommended to use unique or significantly different names for your projects. Do not limit yourself to the &lt;em&gt;&amp;ldquo;test1&amp;rdquo;&lt;/em&gt; and &lt;em&gt;&amp;ldquo;test2&amp;rdquo;&lt;/em&gt; variants. The project subtitle can be represented by keywords that explain the name.&lt;/p&gt;
 &lt;figure&gt;
 &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project2.png&#34; &gt;
 &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project2.png&#34; &gt;
@@ -31,9 +31,9 @@ It is strongly recommended to use unique or significantly different names for yo
 Access to the data is granted to the owner alone. The owner can share his project&amp;rsquo;s data with other users by generating external public links.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Team Project&lt;/strong&gt; is a project for working with other users in a team. One of the users becomes a team administrator (i.e. creator), and others become team members (i.e. users who invited by the team administrator).&lt;/p&gt;
 &lt;h2 id=&#34;data-sets&#34;&gt;Data sets&lt;/h2&gt;
-&lt;p&gt;Within the project user creates several data sets. To create a new data set, the user needs to open the project by clicking the &lt;strong&gt;&amp;laquo;Open&amp;raquo;&lt;/strong&gt; button and then click the &lt;strong&gt;&amp;raquo;+ New Set&amp;raquo;&lt;/strong&gt; button.&lt;/p&gt;
-&lt;p&gt;The modal dialog &amp;laquo;Add New Set&amp;raquo; invites user to fill in the &amp;laquo;New set name&amp;raquo; and &amp;laquo;Set subtitle&amp;raquo; fields (with a limit of 255 characters).
-It is strongly recommended to use unique or significantly different names for your sets. Do not limit yourself to the &lt;em&gt;&amp;laquo;test1&amp;raquo;&lt;/em&gt; and &lt;em&gt;&amp;laquo;test2&amp;raquo;&lt;/em&gt; variants. The set subtitle can be represented by keywords that explain the name.&lt;/p&gt;
+&lt;p&gt;Within the project user creates several data sets. To create a new data set, the user needs to open the project by clicking the &lt;strong&gt;&amp;ldquo;Open&amp;rdquo;&lt;/strong&gt; button and then click the &lt;strong&gt;&amp;rdquo;+ New Set&amp;rdquo;&lt;/strong&gt; button.&lt;/p&gt;
+&lt;p&gt;The modal dialog &amp;ldquo;Add New Set&amp;rdquo; invites user to fill in the &amp;ldquo;New set name&amp;rdquo; and &amp;ldquo;Set subtitle&amp;rdquo; fields (with a limit of 255 characters).
+It is strongly recommended to use unique or significantly different names for your sets. Do not limit yourself to the &lt;em&gt;&amp;ldquo;test1&amp;rdquo;&lt;/em&gt; and &lt;em&gt;&amp;ldquo;test2&amp;rdquo;&lt;/em&gt; variants. The set subtitle can be represented by keywords that explain the name.&lt;/p&gt;
 &lt;figure&gt;
 &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project3.png&#34; &gt;
 &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project3.png&#34; &gt;
@@ -42,12 +42,12 @@ It is strongly recommended to use unique or significantly different names for yo
 &lt;h6&gt;Creation of the data set&lt;/h6&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;After creating the project and the data set, user can start uploading the data. To do it, the user needs to open the project, to click the left mouse button on the data set and then to click the &amp;laquo;Edit Set&amp;raquo; button.&lt;/p&gt;</description></item><item><title>Data preparation</title><link>https://amrcloud.net/en/tutorials/import-data/01-prepare/</link><pubDate>Fri, 14 Feb 2020 00:05:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/01-prepare/</guid><description>
-&lt;h2 id=&#34;the-golden-rules-for-the-source-data&#34;&gt;The &amp;laquo;Golden Rules&amp;raquo; for the source data&lt;/h2&gt;
+&lt;p&gt;After creating the project and the data set, user can start uploading the data. To do it, the user needs to open the project, to click the left mouse button on the data set and then to click the &amp;ldquo;Edit Set&amp;rdquo; button.&lt;/p&gt;</description></item><item><title>Data preparation</title><link>https://amrcloud.net/en/tutorials/import-data/01-prepare/</link><pubDate>Fri, 14 Feb 2020 00:05:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/01-prepare/</guid><description>
+&lt;h2 id=&#34;the-golden-rules-for-the-source-data&#34;&gt;The &amp;ldquo;Golden Rules&amp;rdquo; for the source data&lt;/h2&gt;
 &lt;p&gt;One of the key points of working with the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; platform is the structuring of your source data.&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
 &lt;div&gt;
-The main principles of data organization can be formulated as the following &amp;laquo;Golden Rules&amp;raquo;:&lt;/p&gt;
+The main principles of data organization can be formulated as the following &amp;ldquo;Golden Rules&amp;rdquo;:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Each isolate is represented by a separate row in the source datatable.&lt;/li&gt;
 &lt;li&gt;There are five mandatory columns in the source datatable (Isolate ID, Species Name, Organism Group, Date, AST Data).&lt;/li&gt;
@@ -216,7 +216,7 @@ The main principles of data organization can be formulated as the following &amp
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Susceptibility Categories&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Allowed values: &amp;laquo;S&amp;raquo;, &amp;laquo;I&amp;raquo;, &amp;laquo;R&amp;raquo;.&lt;/li&gt;
+&lt;li&gt;Allowed values: &amp;ldquo;S&amp;rdquo;, &amp;ldquo;I&amp;rdquo;, &amp;ldquo;R&amp;rdquo;.&lt;/li&gt;
 &lt;li&gt;Every isolate may have only one susceptibility category.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -243,16 +243,16 @@ The main principles of data organization can be formulated as the following &amp
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Spatial Information&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Geographical objects may include the name of a city, region, country. User can also specify more detailed address (e.g. specific hospital wing). &lt;em&gt;Latitude&lt;/em&gt; and &lt;em&gt;Longitude&lt;/em&gt; can be changed manually if automatic determination of the objects&amp;rsquo; coordinates did not work.&lt;/p&gt;
-&lt;p&gt;The main requirements and recommendations for the geographical data are presented in the &lt;strong&gt;&amp;laquo;Step 3: Geocoding&amp;raquo;&lt;/strong&gt; stage.&lt;/p&gt;
+&lt;p&gt;The main requirements and recommendations for the geographical data are presented in the &lt;strong&gt;&amp;ldquo;Step 3: Geocoding&amp;rdquo;&lt;/strong&gt; stage.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Metadata (textual data)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;User can select a maximum of 10 parameter columns containing textual metadata. For example, &amp;laquo;Clinic Material Localisation&amp;raquo;, &amp;laquo;Hospital department&amp;raquo;, etc.&lt;/p&gt;
-&lt;p&gt;It is recommended to include the column with geographical objects names in here. Individual patient&amp;rsquo; characteristics may also be included in here (e.g. &amp;laquo;Febrilic Fever&amp;raquo; column). Recommended values: &amp;laquo;Yes&amp;raquo;, &amp;laquo;No&amp;raquo;, &amp;laquo;Not applicable&amp;raquo;.&lt;/p&gt;
+&lt;p&gt;User can select a maximum of 10 parameter columns containing textual metadata. For example, &amp;ldquo;Clinic Material Localisation&amp;rdquo;, &amp;ldquo;Hospital department&amp;rdquo;, etc.&lt;/p&gt;
+&lt;p&gt;It is recommended to include the column with geographical objects names in here. Individual patient&amp;rsquo; characteristics may also be included in here (e.g. &amp;ldquo;Febrilic Fever&amp;rdquo; column). Recommended values: &amp;ldquo;Yes&amp;rdquo;, &amp;ldquo;No&amp;rdquo;, &amp;ldquo;Not applicable&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Metadata (numerical data)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;User can select only one continuous numeric variable such as &amp;laquo;Patient&amp;rsquo;s age&amp;raquo;, &amp;laquo;weight&amp;raquo;, etc.&lt;/p&gt;
+&lt;p&gt;User can select only one continuous numeric variable such as &amp;ldquo;Patient&amp;rsquo;s age&amp;rdquo;, &amp;ldquo;weight&amp;rdquo;, etc.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Resistance Markers&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Total number of resistance markers is unlimited.&lt;/li&gt;
-&lt;li&gt;User may create his own &amp;laquo;group of markers&amp;raquo;.&lt;/li&gt;
+&lt;li&gt;User may create his own &amp;ldquo;group of markers&amp;rdquo;.&lt;/li&gt;
 &lt;li&gt;Resistance markers may include resistance mechanisms, genes or mutations, and other data that can be correlated with phenotypic resistance data .&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The following notation system is recommended:
@@ -263,15 +263,15 @@ The main principles of data organization can be formulated as the following &amp
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&amp;hellip;was conducted with positive test result&lt;/td&gt;
-&lt;td&gt;&amp;laquo;OXA-48&amp;raquo;, &amp;laquo;KPC&amp;raquo;, &amp;laquo;MRSA&amp;raquo;, &amp;laquo;CTX-M-15&amp;raquo; etc.&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;OXA-48&amp;rdquo;, &amp;ldquo;KPC&amp;rdquo;, &amp;ldquo;MRSA&amp;rdquo;, &amp;ldquo;CTX-M-15&amp;rdquo; etc.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&amp;hellip;was conducted with negative test result&lt;/td&gt;
-&lt;td&gt;&amp;laquo;Negative&amp;raquo;&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Negative&amp;rdquo;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&amp;hellip;was &lt;strong&gt;not&lt;/strong&gt; conducted&lt;/td&gt;
-&lt;td&gt;&amp;laquo;Not defined&amp;raquo;&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Not defined&amp;rdquo;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -288,7 +288,7 @@ The main principles of data organization can be formulated as the following &amp
 &lt;/figcaption&gt;
 &lt;/figure&gt;</description></item><item><title>Step 1 - Upload Data</title><link>https://amrcloud.net/en/tutorials/import-data/04-upload-file/</link><pubDate>Fri, 14 Feb 2020 00:04:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/04-upload-file/</guid><description>
 &lt;h2 id=&#34;uploading&#34;&gt;Uploading&lt;/h2&gt;
-&lt;p&gt;After inspecting the &lt;strong&gt;Read Me&lt;/strong&gt; tab user can start uploading data into &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;. To do this, go to the &lt;strong&gt;Step One&lt;/strong&gt; tab, press the &lt;strong&gt;&amp;laquo;Browse&amp;hellip;&amp;raquo;&lt;/strong&gt; button and select the file with data for uploading. After successfully uploading the table, you should press the &amp;laquo;Validate and Save Step One&amp;raquo; button.&lt;/p&gt;
+&lt;p&gt;After inspecting the &lt;strong&gt;Read Me&lt;/strong&gt; tab user can start uploading data into &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;. To do this, go to the &lt;strong&gt;Step One&lt;/strong&gt; tab, press the &lt;strong&gt;&amp;ldquo;Browse&amp;hellip;&amp;rdquo;&lt;/strong&gt; button and select the file with data for uploading. After successfully uploading the table, you should press the &amp;ldquo;Validate and Save Step One&amp;rdquo; button.&lt;/p&gt;
 &lt;figure&gt;
 &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_file.png&#34; &gt;
 &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_file.png&#34; &gt;
@@ -303,7 +303,7 @@ The main principles of data organization can be formulated as the following &amp
 &lt;ul&gt;
 &lt;li&gt;&lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; supports uploading of &lt;em&gt;.xlsx&lt;/em&gt; and &lt;em&gt;.csv&lt;/em&gt; data tables.&lt;/li&gt;
 &lt;li&gt;User can customize the data table preview with the special slider (displaying from 5 to 30 rows).&lt;/li&gt;
-&lt;li&gt;At the &lt;strong&gt;&amp;laquo;Options for csv file&amp;raquo;&lt;/strong&gt; panel user can configure the display of the data tables uploaded in &lt;em&gt;.csv&lt;/em&gt; format (such tables have no columns — all information is presented as rows).&lt;/li&gt;
+&lt;li&gt;At the &lt;strong&gt;&amp;ldquo;Options for csv file&amp;rdquo;&lt;/strong&gt; panel user can configure the display of the data tables uploaded in &lt;em&gt;.csv&lt;/em&gt; format (such tables have no columns — all information is presented as rows).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -326,7 +326,7 @@ The main principles of data organization can be formulated as the following &amp
 &lt;/figcaption&gt;
 &lt;/figure&gt;</description></item><item><title>Step 2 - Set Fields</title><link>https://amrcloud.net/en/tutorials/import-data/05-identification/</link><pubDate>Fri, 14 Feb 2020 00:03:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/05-identification/</guid><description>
 &lt;p&gt;At this stage for correct work of all analytical components of the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; platform user should correctly correlate the names of eight standard system categories with the columns from the uploaded data table.&lt;/p&gt;
-&lt;p&gt;On the left side of the screen there are standard categories (for example, &amp;laquo;Isolate ID&amp;raquo;, &amp;laquo;Organism Group(s)&amp;raquo;) with basic information and requirements. On the right side of the screen there are panels with drop-down lists of table column headers, with which the user correlates system categories.&lt;/p&gt;
+&lt;p&gt;On the left side of the screen there are standard categories (for example, &amp;ldquo;Isolate ID&amp;rdquo;, &amp;ldquo;Organism Group(s)&amp;rdquo;) with basic information and requirements. On the right side of the screen there are panels with drop-down lists of table column headers, with which the user correlates system categories.&lt;/p&gt;
 &lt;figure&gt;
 &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_orgroup.png&#34; &gt;
 &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_orgroup.png&#34; &gt;
@@ -358,7 +358,7 @@ The main principles of data organization can be formulated as the following &amp
 &lt;p&gt;&lt;strong&gt;Wrong:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;K. pneumoniae, A. baumannii, P. aeruginosa (reductions are used)&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;After selecting the appropriate column name from the drop-down list, user can press the &lt;strong&gt;&amp;laquo;Check Species Names&amp;raquo;&lt;/strong&gt; button for automatic checking.&lt;/p&gt;
+&lt;p&gt;After selecting the appropriate column name from the drop-down list, user can press the &lt;strong&gt;&amp;ldquo;Check Species Names&amp;rdquo;&lt;/strong&gt; button for automatic checking.&lt;/p&gt;
 &lt;figure&gt;
 &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/change_sp.png&#34; &gt;
 &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/change_sp.png&#34; &gt;
@@ -367,9 +367,9 @@ The main principles of data organization can be formulated as the following &amp
 &lt;h6&gt;Checking species names&lt;/h6&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;After pressing the &lt;strong&gt;&amp;laquo;Check Species Names&amp;raquo;&lt;/strong&gt; button a small table will appear with the names that fails the verification process (i.e. the names of microorganisms which were not recognized by the system). Then user should look through this table carefully:&lt;/p&gt;
+&lt;p&gt;After pressing the &lt;strong&gt;&amp;ldquo;Check Species Names&amp;rdquo;&lt;/strong&gt; button a small table will appear with the names that fails the verification process (i.e. the names of microorganisms which were not recognized by the system). Then user should look through this table carefully:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;If there are errors in some names (for example, a missing letter), user should correct the errors right in the editor window by double-clicking the necessary cell with the left mouse button and pressing the &amp;laquo;&lt;strong&gt;Correct species names&lt;/strong&gt;&amp;raquo; button.&lt;/li&gt;
+&lt;li&gt;If there are errors in some names (for example, a missing letter), user should correct the errors right in the editor window by double-clicking the necessary cell with the left mouse button and pressing the &amp;ldquo;&lt;strong&gt;Correct species names&lt;/strong&gt;&amp;rdquo; button.&lt;/li&gt;
 &lt;li&gt;If there are no spelling errors, it means that there are no microorganisms with such names in the system. Such microorganisms are &lt;strong&gt;not excluded&lt;/strong&gt; from the general data — analysis charts will also be built for them — only they will be colored not according to susceptibility categories, but in a solid gray color. If user works with his own S/I/R susceptibility categories, there will be no problem in identifying microorganism species.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -394,14 +394,14 @@ If Salmonella typhi criterias are not found, then Salmonella spp. criterias woul
 &lt;h6&gt;Wrong date format&lt;/h6&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;If all the dates are arranged correctly and uniformly, user (after selecting the corresponding header from the drop-down list) will see the time scale &lt;strong&gt;&amp;laquo;Date Range Privew&amp;raquo;&lt;/strong&gt;. If the date format is not recognized with the &lt;strong&gt;Auto&lt;/strong&gt; option, user should try to select one of the alternative formats:
+&lt;p&gt;If all the dates are arranged correctly and uniformly, user (after selecting the corresponding header from the drop-down list) will see the time scale &lt;strong&gt;&amp;ldquo;Date Range Privew&amp;rdquo;&lt;/strong&gt;. If the date format is not recognized with the &lt;strong&gt;Auto&lt;/strong&gt; option, user should try to select one of the alternative formats:
 - 2018-12-31 (i.e. year-month-day)
 - 2018-31-12 (i.e. year-day-month)
 - 31-12-2018 (i.e. day-month-year)
 - 12-31-2018 (i.e. month-day-year)&lt;/p&gt;
 &lt;div class=&#34;alert alert-warning&#34;&gt;
 &lt;div&gt;
-Once user has selected the date format, he should check the box &lt;strong&gt;&amp;laquo;Check if you see the time scale?&amp;raquo;&lt;/strong&gt;.
+Once user has selected the date format, he should check the box &lt;strong&gt;&amp;ldquo;Check if you see the time scale?&amp;rdquo;&lt;/strong&gt;.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;figure&gt;
@@ -415,7 +415,7 @@ Once user has selected the date format, he should check the box &lt;strong&gt;&a
 &lt;h2 id=&#34;spatial-information&#34;&gt;Spatial Information&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;This is &lt;strong&gt;not&lt;/strong&gt; a mandatory category.&lt;/li&gt;
-&lt;li&gt;There are two types of spatial information: &amp;laquo;Geolocation&amp;raquo; and &amp;laquo;Longitude/Latitude Coordinates&amp;raquo;.&lt;/li&gt;
+&lt;li&gt;There are two types of spatial information: &amp;ldquo;Geolocation&amp;rdquo; and &amp;ldquo;Longitude/Latitude Coordinates&amp;rdquo;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Geolocations can include regions, such as countries and states, natural areas, cities and smaller locality types. The system will attempt to identify geolocations and find respective geographic coordinates (latitude and longitude) automatically. Optionally, user can check the box and select the columns containg the Longitude and Latitude values.&lt;/p&gt;
 &lt;figure&gt;
@@ -475,16 +475,16 @@ Once user has selected the date format, he should check the box &lt;strong&gt;&a
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;h2 id=&#34;completing-step-two&#34;&gt;Completing Step Two&lt;/h2&gt;
-&lt;p&gt;To go to the next stage of the data import user should press the &lt;strong&gt;&amp;laquo;Validate Step Two&amp;raquo;&lt;/strong&gt; button. It is recommended to review and double-check all the points of the current stage before saving.&lt;/p&gt;
+&lt;p&gt;To go to the next stage of the data import user should press the &lt;strong&gt;&amp;ldquo;Validate Step Two&amp;rdquo;&lt;/strong&gt; button. It is recommended to review and double-check all the points of the current stage before saving.&lt;/p&gt;
 &lt;figure&gt;
 &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/save_step2.png&#34; &gt;
 &lt;/figure&gt;</description></item><item><title>Step 3 - Geocode</title><link>https://amrcloud.net/en/tutorials/import-data/06-geocode/</link><pubDate>Fri, 14 Feb 2020 00:02:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/06-geocode/</guid><description>
 &lt;p&gt;Geocoding is an important step in creating a basis with which &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; builds various maps and pins geographic markers.&lt;/p&gt;
 &lt;p&gt;Regions, cities and even separate hospital departments can be used as geographical objects in &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;general-information&#34;&gt;General Information&lt;/h2&gt;
-&lt;p&gt;In order to start the geocoding process you should press the &lt;strong&gt;&amp;laquo;1.Geocode it&amp;raquo;&lt;/strong&gt; button. This process takes some time, so user should wait for the system to put coordinates in the table below and for markers to appear in the map preview window.&lt;/p&gt;
-&lt;p&gt;In order to open the map preview, user should press the header of the &lt;strong&gt;&amp;laquo;Map: preview&amp;raquo;&lt;/strong&gt; blue panel.&lt;/p&gt;
-&lt;p&gt;After the user is sure that all markers with coordinates are placed correctly, he should press the &lt;strong&gt;&amp;laquo;Validate Step Three&amp;raquo;&lt;/strong&gt; button and proceed to the next import stage.&lt;/p&gt;
+&lt;p&gt;In order to start the geocoding process you should press the &lt;strong&gt;&amp;ldquo;1.Geocode it&amp;rdquo;&lt;/strong&gt; button. This process takes some time, so user should wait for the system to put coordinates in the table below and for markers to appear in the map preview window.&lt;/p&gt;
+&lt;p&gt;In order to open the map preview, user should press the header of the &lt;strong&gt;&amp;ldquo;Map: preview&amp;rdquo;&lt;/strong&gt; blue panel.&lt;/p&gt;
+&lt;p&gt;After the user is sure that all markers with coordinates are placed correctly, he should press the &lt;strong&gt;&amp;ldquo;Validate Step Three&amp;rdquo;&lt;/strong&gt; button and proceed to the next import stage.&lt;/p&gt;
 &lt;figure&gt;
 &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_1.png&#34; &gt;
 &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_1.png&#34; &gt;
@@ -495,7 +495,7 @@ Once user has selected the date format, he should check the box &lt;strong&gt;&a
 &lt;/figure&gt;
 &lt;h2 id=&#34;if-location-s-is-not-found&#34;&gt;If Location(s) Is Not Found&lt;/h2&gt;
 &lt;p&gt;If &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; didn&amp;rsquo;t recognize the geographical object (didn&amp;rsquo;t put coordinates next to its name), user should check the &lt;strong&gt;correctness of the name&lt;/strong&gt; of the geographical object. If there are errors in the name(s), it is necessary to correct the data in the source data table, to reset all import steps, and to upload the newly corrected version.&lt;/p&gt;
-&lt;p&gt;If there are no errors in the names of geographical objects, user should manually set the coordinates. To do it he should enter the corresponding coordinates in the right table (&lt;span style=&#34;color:#FEAB3A&#34;&gt;&lt;strong&gt;orange&lt;/strong&gt;&lt;/span&gt; panel &lt;em&gt;&amp;laquo;Location(s) not found&amp;raquo;&lt;/em&gt;) and press the button &lt;strong&gt;&amp;laquo;Fix Coordinates&amp;raquo;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;If there are no errors in the names of geographical objects, user should manually set the coordinates. To do it he should enter the corresponding coordinates in the right table (&lt;span style=&#34;color:#FEAB3A&#34;&gt;&lt;strong&gt;orange&lt;/strong&gt;&lt;/span&gt; panel &lt;em&gt;&amp;ldquo;Location(s) not found&amp;rdquo;&lt;/em&gt;) and press the button &lt;strong&gt;&amp;ldquo;Fix Coordinates&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;how-to-get-the-coordinates&#34;&gt;How to Get the Coordinates&lt;/h2&gt;
 &lt;p&gt;User can get the coordinates of the required geographical objects using the preview map.
 &lt;figure&gt;
@@ -532,9 +532,9 @@ If user doesn&amp;rsquo;t know the exact location of the geographical object on 
 &lt;p&gt;If user wants to correct the position of the marker on the map, he should:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Click with the left mouse button on the required cell in the &lt;span style=&#34;color:#73A839&#34;&gt;&lt;strong&gt;green table&lt;/strong&gt;&lt;/span&gt;.&lt;/li&gt;
-&lt;li&gt;Press the &lt;strong&gt;&amp;laquo;Edit Coordinates&amp;raquo;&lt;/strong&gt; button.&lt;/li&gt;
+&lt;li&gt;Press the &lt;strong&gt;&amp;ldquo;Edit Coordinates&amp;rdquo;&lt;/strong&gt; button.&lt;/li&gt;
 &lt;li&gt;Edit the coordinates in the &lt;span style=&#34;color:#FEAB3A&#34;&gt;&lt;strong&gt;orange table&lt;/strong&gt;&lt;/span&gt;.&lt;/li&gt;
-&lt;li&gt;Press the &lt;strong&gt;&amp;laquo;Fix Coordinates&amp;raquo;&lt;/strong&gt; button.&lt;/li&gt;
+&lt;li&gt;Press the &lt;strong&gt;&amp;ldquo;Fix Coordinates&amp;rdquo;&lt;/strong&gt; button.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;figure&gt;
 &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_3.png&#34; &gt;
@@ -553,7 +553,7 @@ If user doesn&amp;rsquo;t know the exact location of the geographical object on 
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;h2 id=&#34;local-objects&#34;&gt;Local Objects&lt;/h2&gt;
-&lt;p&gt;If user often works with his specific set of local geographical objects, he can save the coordinates of these local objects for future automatic use. For this purpose after editing coordinates in &lt;span style=&#34;color:#FEAB3A&#34;&gt;&lt;strong&gt;orange table&lt;/strong&gt;&lt;/span&gt;, user should check the box &lt;strong&gt;&amp;laquo;Save coordinates for future usage&amp;raquo;&lt;/strong&gt;. So the geographical coordinates will be permanently assigned to the corresponding name of the geographical object and will be saved in the user account. At subsequent downloads, the coordinates of objects with the same names will be automatically geocoded.&lt;/p&gt;</description></item><item><title>Step 4 - Determine S/I/R</title><link>https://amrcloud.net/en/tutorials/import-data/07-interpretation/</link><pubDate>Fri, 14 Feb 2020 00:01:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/07-interpretation/</guid><description>&lt;p&gt;First of all, at this stage user should choose the interpretation criteria from the drop-down list and press the &lt;strong&gt;&amp;laquo;Interpret MIC and Disk Diffusion data&amp;raquo;&lt;/strong&gt; button. After the table with the interpretation statuses appears below, user can press the button &lt;strong&gt;&amp;laquo;Complete All Steps&amp;raquo;&lt;/strong&gt; and finish the data import process.&lt;/p&gt;
+&lt;p&gt;If user often works with his specific set of local geographical objects, he can save the coordinates of these local objects for future automatic use. For this purpose after editing coordinates in &lt;span style=&#34;color:#FEAB3A&#34;&gt;&lt;strong&gt;orange table&lt;/strong&gt;&lt;/span&gt;, user should check the box &lt;strong&gt;&amp;ldquo;Save coordinates for future usage&amp;rdquo;&lt;/strong&gt;. So the geographical coordinates will be permanently assigned to the corresponding name of the geographical object and will be saved in the user account. At subsequent downloads, the coordinates of objects with the same names will be automatically geocoded.&lt;/p&gt;</description></item><item><title>Step 4 - Determine S/I/R</title><link>https://amrcloud.net/en/tutorials/import-data/07-interpretation/</link><pubDate>Fri, 14 Feb 2020 00:01:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/07-interpretation/</guid><description>&lt;p&gt;First of all, at this stage user should choose the interpretation criteria from the drop-down list and press the &lt;strong&gt;&amp;ldquo;Interpret MIC and Disk Diffusion data&amp;rdquo;&lt;/strong&gt; button. After the table with the interpretation statuses appears below, user can press the button &lt;strong&gt;&amp;ldquo;Complete All Steps&amp;rdquo;&lt;/strong&gt; and finish the data import process.&lt;/p&gt;
 &lt;figure&gt;
 &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/save_step4.png&#34; &gt;
 &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/save_step4.png&#34; &gt;

@@ -44,7 +44,7 @@
 &lt;h6&gt;Создание набора данных&lt;/h6&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;После создания сета система автоматически переведет пользователя на страницу импорта данных. Также на страницу импорта можно попасть, выбрав левой кнопкой мыши необходимый набор данных и нажав кнопку &lt;strong&gt;&amp;laquo;Редактировать набор данных&amp;raquo;&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Подготовка данных</title><link>https://amrcloud.net/ru/tutorials/import-data/01-prepare/</link><pubDate>Fri, 14 Feb 2020 00:05:00 +0000</pubDate><guid>https://amrcloud.net/ru/tutorials/import-data/01-prepare/</guid><description>
+&lt;p&gt;После создания сета система автоматически переведет пользователя на страницу импорта данных. Также на страницу импорта можно попасть, выбрав левой кнопкой мыши необходимый набор данных и нажав кнопку &lt;strong&gt;&amp;ldquo;Редактировать набор данных&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Подготовка данных</title><link>https://amrcloud.net/ru/tutorials/import-data/01-prepare/</link><pubDate>Fri, 14 Feb 2020 00:05:00 +0000</pubDate><guid>https://amrcloud.net/ru/tutorials/import-data/01-prepare/</guid><description>
 &lt;h2 id=&#34;золотые-правила-для-данных&#34;&gt;«Золотые правила» для данных&lt;/h2&gt;
 &lt;p&gt;Одним из ключевых этапов работы с платформой &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; является структурирование исходных данных.&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -194,7 +194,7 @@
 &lt;div class=&#34;alert alert-note&#34;&gt;
 &lt;div&gt;
 &lt;p&gt;&lt;strong&gt;На заметку!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Антибактериальные препараты с оценкой по &amp;laquo;особым&amp;raquo; критериям интерпретации (пользовательские категории S/I/R) и/или со значениями &lt;em&gt;ECOFF&lt;/em&gt; могут быть записаны следующим образом:&lt;/p&gt;
+&lt;p&gt;Антибактериальные препараты с оценкой по &amp;ldquo;особым&amp;rdquo; критериям интерпретации (пользовательские категории S/I/R) и/или со значениями &lt;em&gt;ECOFF&lt;/em&gt; могут быть записаны следующим образом:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;meropenem_ecoff_sir, moxifloxacin_clsi_sir, marbofloxacin_clsi_sir&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -219,7 +219,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Категории чувствительности&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Значения — &amp;laquo;S&amp;raquo;, &amp;laquo;I&amp;raquo;, &amp;laquo;R&amp;raquo;&lt;/li&gt;
+&lt;li&gt;Значения — &amp;ldquo;S&amp;rdquo;, &amp;ldquo;I&amp;rdquo;, &amp;ldquo;R&amp;rdquo;&lt;/li&gt;
 &lt;li&gt;Категория чувствительности может быть только одна&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -246,18 +246,18 @@
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Географические данные&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Географические объекты могут включать название города, области, страны. Также пользователь может укзаать более подробные адресные данные (например, корпус ЛПУ). &lt;em&gt;Широта&lt;/em&gt; и &lt;em&gt;Долгота&lt;/em&gt; может быть изменена вручную, если не сработало автоматическое определение координат объектов.&lt;/p&gt;
-&lt;p&gt;Основные требования и рекомендации к географическуим данным представлены в разделе &amp;laquo;Геокодирование&amp;raquo;.&lt;/p&gt;
+&lt;p&gt;Основные требования и рекомендации к географическуим данным представлены в разделе &amp;ldquo;Геокодирование&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Метаданные (текстовые)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Пользователь может выбрать &lt;strong&gt;до 10&lt;/strong&gt; показателей в формате &amp;laquo;текстовые данные&amp;raquo; (если в таблице есть столбец с названием географических объектов, рекомендуется его также включать).&lt;/p&gt;
-&lt;p&gt;Например &amp;laquo;Локализация инфекции&amp;raquo;, &amp;laquo;Отделение&amp;raquo;, &amp;laquo;Клинический материал&amp;raquo;.&lt;/p&gt;
-&lt;p&gt;Кроме того, среди данных категорий могут быть включены индивидуальные характеристики пациента (например, столбец с категорией &amp;laquo;Фебрильная лихорадка&amp;raquo;). Рекомендованые обозначения: &amp;laquo;Да&amp;raquo;, &amp;laquo;Нет&amp;raquo;, &amp;laquo;Неприменимо&amp;raquo;.&lt;/p&gt;
+&lt;p&gt;Пользователь может выбрать &lt;strong&gt;до 10&lt;/strong&gt; показателей в формате &amp;ldquo;текстовые данные&amp;rdquo; (если в таблице есть столбец с названием географических объектов, рекомендуется его также включать).&lt;/p&gt;
+&lt;p&gt;Например &amp;ldquo;Локализация инфекции&amp;rdquo;, &amp;ldquo;Отделение&amp;rdquo;, &amp;ldquo;Клинический материал&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Кроме того, среди данных категорий могут быть включены индивидуальные характеристики пациента (например, столбец с категорией &amp;ldquo;Фебрильная лихорадка&amp;rdquo;). Рекомендованые обозначения: &amp;ldquo;Да&amp;rdquo;, &amp;ldquo;Нет&amp;rdquo;, &amp;ldquo;Неприменимо&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Метаданные (числовые)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Пользователь может выбрать &lt;strong&gt;1&lt;/strong&gt; показатель в формате &amp;laquo;числовые данные&amp;raquo;.&lt;/p&gt;
-&lt;p&gt;Например, &amp;laquo;Возраст&amp;raquo; или &amp;laquo;Вес пациента&amp;raquo;.&lt;/p&gt;
+&lt;p&gt;Пользователь может выбрать &lt;strong&gt;1&lt;/strong&gt; показатель в формате &amp;ldquo;числовые данные&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Например, &amp;ldquo;Возраст&amp;rdquo; или &amp;ldquo;Вес пациента&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Маркеры&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Общее количество маркеров неограничено&lt;/li&gt;
-&lt;li&gt;Возможно создание пользователем собственной &amp;laquo;группировки маркеров&amp;raquo;&lt;/li&gt;
+&lt;li&gt;Возможно создание пользователем собственной &amp;ldquo;группировки маркеров&amp;rdquo;&lt;/li&gt;
 &lt;li&gt;Указываются генетические маркеры, особые фенотипы, факторы вирулентности&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;При расстановке показателей по генетическим маркерам и особым фенотипам рекомендована следующая система обозначений:
@@ -268,15 +268,15 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&amp;hellip;проводился, результат положительный&lt;/td&gt;
-&lt;td&gt;&amp;laquo;OXA-48&amp;raquo;, &amp;laquo;KPC&amp;raquo;, &amp;laquo;MRSA&amp;raquo;, &amp;laquo;CTX-M-15&amp;raquo; и т.д.&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;OXA-48&amp;rdquo;, &amp;ldquo;KPC&amp;rdquo;, &amp;ldquo;MRSA&amp;rdquo;, &amp;ldquo;CTX-M-15&amp;rdquo; и т.д.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&amp;hellip;проводился, результат отрицательный&lt;/td&gt;
-&lt;td&gt;&amp;laquo;Не обнаружено&amp;raquo;&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Не обнаружено&amp;rdquo;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&amp;hellip;не проводился&lt;/td&gt;
-&lt;td&gt;&amp;laquo;Не определено&amp;raquo;&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Не определено&amp;rdquo;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -293,7 +293,7 @@
 &lt;/figcaption&gt;
 &lt;/figure&gt;</description></item><item><title>Шаг 1 - Загрузка файла</title><link>https://amrcloud.net/ru/tutorials/import-data/04-upload-file/</link><pubDate>Fri, 14 Feb 2020 00:04:00 +0000</pubDate><guid>https://amrcloud.net/ru/tutorials/import-data/04-upload-file/</guid><description>
 &lt;h2 id=&#34;загрузка&#34;&gt;Загрузка&lt;/h2&gt;
-&lt;p&gt;После ознакомления с разделом &lt;strong&gt;Важная информация&lt;/strong&gt; пользователь может приступить к загрузке данных в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;. Для этого необходимо перейти на вкладку &amp;laquo;Шаг 1&amp;raquo;, нажать на кнопку &lt;strong&gt;&amp;laquo;Browse&amp;hellip;&amp;raquo;&lt;/strong&gt; и выбрать файл с данными для загрузки. После успешной загрузки таблицы необходимо нажать кнопку &amp;laquo;Проверить и сохранить шаг 1&amp;raquo;.&lt;/p&gt;
+&lt;p&gt;После ознакомления с разделом &lt;strong&gt;Важная информация&lt;/strong&gt; пользователь может приступить к загрузке данных в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;. Для этого необходимо перейти на вкладку &amp;ldquo;Шаг 1&amp;rdquo;, нажать на кнопку &lt;strong&gt;&amp;ldquo;Browse&amp;hellip;&amp;rdquo;&lt;/strong&gt; и выбрать файл с данными для загрузки. После успешной загрузки таблицы необходимо нажать кнопку &amp;ldquo;Проверить и сохранить шаг 1&amp;rdquo;.&lt;/p&gt;
 &lt;figure&gt;
 &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/choice_file.png&#34; &gt;
 &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/choice_file.png&#34; &gt;
@@ -308,7 +308,7 @@
 &lt;ul&gt;
 &lt;li&gt;AMRcloud поддерживает загрузку таблиц в формате .xlsx и .csv.&lt;/li&gt;
 &lt;li&gt;Предварительный просмотр таблицы настраивается пользователем на отображение от 5 до 30 строк с помощью специального ползунка.&lt;/li&gt;
-&lt;li&gt;В панеле &amp;laquo;Настройки для csv файла&amp;raquo; настраивается отображение таблиц, загруженных в формате .csv (в таких таблицах отсутствуют столбцы, и вся информация представлена в виде строк).&lt;/li&gt;
+&lt;li&gt;В панеле &amp;ldquo;Настройки для csv файла&amp;rdquo; настраивается отображение таблиц, загруженных в формате .csv (в таких таблицах отсутствуют столбцы, и вся информация представлена в виде строк).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -340,7 +340,7 @@
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;проблемы-с-кодировкой-текста&#34;&gt;Проблемы с кодировкой текста&lt;/h2&gt;
-&lt;p&gt;Пользователь может столкнуться с ситуацией, когда в таблице появляются непонятные знаки (т.н. &amp;laquo;иероглифы&amp;raquo;) вместо текста. Разберем решение данной проблемы на конкретных примерах.&lt;/p&gt;
+&lt;p&gt;Пользователь может столкнуться с ситуацией, когда в таблице появляются непонятные знаки (т.н. &amp;ldquo;иероглифы&amp;rdquo;) вместо текста. Разберем решение данной проблемы на конкретных примерах.&lt;/p&gt;
 &lt;figure&gt;
 &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/wrong_letters.png&#34; &gt;
 &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/wrong_letters.png&#34; &gt;
@@ -350,7 +350,7 @@
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;h3 id=&#34;пример-1&#34;&gt;Пример 1&lt;/h3&gt;
-&lt;p&gt;При загрузке таблицы в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; на Шаге 1, в окне предварительного просмотра появляется надпись &lt;strong&gt;&amp;laquo;Не могу прочитать файл&amp;raquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;При загрузке таблицы в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; на Шаге 1, в окне предварительного просмотра появляется надпись &lt;strong&gt;&amp;ldquo;Не могу прочитать файл&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
 &lt;figure&gt;
 &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/unread.png&#34; &gt;
 &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/unread.png&#34; &gt;
@@ -381,7 +381,7 @@
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 Выбрать в появившемся окне таблицу, которую не удалось открыть в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;. Открывшийся документ будет представлен в виде сплошного текста.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Поочередно изменять различные кодировки и ориентироваться на текст (&amp;laquo;иероглифы&amp;raquo; должны исчезнуть). Рекомендуется начинать с &lt;em&gt;UTF-8&lt;/em&gt; и &lt;em&gt;Windows-1251&lt;/em&gt;. Раздел File &lt;strong&gt;&amp;rarr;&lt;/strong&gt; Reopen with Encoding &lt;strong&gt;&amp;rarr;&lt;/strong&gt; необходимая кодировка.
+&lt;li&gt;&lt;p&gt;Поочередно изменять различные кодировки и ориентироваться на текст (&amp;ldquo;иероглифы&amp;rdquo; должны исчезнуть). Рекомендуется начинать с &lt;em&gt;UTF-8&lt;/em&gt; и &lt;em&gt;Windows-1251&lt;/em&gt;. Раздел File &lt;strong&gt;&amp;rarr;&lt;/strong&gt; Reopen with Encoding &lt;strong&gt;&amp;rarr;&lt;/strong&gt; необходимая кодировка.
 &lt;figure&gt;
 &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_reopen.png&#34; &gt;
 &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_reopen.png&#34; &gt;
@@ -390,7 +390,7 @@
 &lt;h6&gt;Кодировка таблицы&lt;/h6&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
-После выполненных действий пользователь сможет прочитать текст. &amp;laquo;Иероглифы&amp;raquo; исчезнут.&lt;/p&gt;&lt;/li&gt;
+После выполненных действий пользователь сможет прочитать текст. &amp;ldquo;Иероглифы&amp;rdquo; исчезнут.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Файл необходимо сохранить.
 File &lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&amp;rarr;&lt;/strong&gt; &lt;em&gt;UTF-8&lt;/em&gt;.
 &lt;figure&gt;
@@ -404,7 +404,7 @@ File &lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&a
 &lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;пример-2&#34;&gt;Пример 2&lt;/h3&gt;
-&lt;p&gt;При загрузке данных в окне предварительного просмотра на Шаге 1, проблем не было. Пользователь провел анализ данных, скачал таблицу из &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;, но Microsoft Excel открывает данные с &amp;laquo;иероглифами&amp;raquo;.&lt;/p&gt;
+&lt;p&gt;При загрузке данных в окне предварительного просмотра на Шаге 1, проблем не было. Пользователь провел анализ данных, скачал таблицу из &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;, но Microsoft Excel открывает данные с &amp;ldquo;иероглифами&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Алгоритм решения №1&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Такая ситуация могла произойти, если пользователь изменил кодировку при сохранении файла. Необходимо ещё раз скачать таблицу с кодировкой по умолчанию, т.е. &lt;em&gt;Windows (кириллица)&lt;/em&gt;.&lt;/p&gt;
 &lt;figure&gt;
@@ -451,7 +451,7 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;/ol&gt;
 &lt;p&gt;Теперь можно просматривать таблицу, которая была скачана из онлайн-платформы &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;, на локальном компьютере.&lt;/p&gt;</description></item><item><title>Шаг 2 - Выбор параметров</title><link>https://amrcloud.net/ru/tutorials/import-data/05-identification/</link><pubDate>Fri, 14 Feb 2020 00:03:00 +0000</pubDate><guid>https://amrcloud.net/ru/tutorials/import-data/05-identification/</guid><description>
 &lt;p&gt;Для правильной работы всех аналитических компонентов платформы &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; пользователю на данном шаге необходимо правильно соотнести названия восьми стандартных системных категорий со столбцами из загруженной таблицы.&lt;/p&gt;
-&lt;p&gt;В левой части экрана расположены стандартные категории (например &amp;laquo;Идентификатор изолята&amp;raquo;, &amp;laquo;Группа микроорганизмов&amp;raquo;) с общей информацией и требованиями. В правой части экрана расположены панели с выпадающим списком названий столбцов таблицы, с помощью которого пользователь сопоставляет системные категории с данными из загруженной таблицы.
+&lt;p&gt;В левой части экрана расположены стандартные категории (например &amp;ldquo;Идентификатор изолята&amp;rdquo;, &amp;ldquo;Группа микроорганизмов&amp;rdquo;) с общей информацией и требованиями. В правой части экрана расположены панели с выпадающим списком названий столбцов таблицы, с помощью которого пользователь сопоставляет системные категории с данными из загруженной таблицы.
 &lt;figure&gt;
 &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/choice_orgroup.png&#34; &gt;
 &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/choice_orgroup.png&#34; &gt;
@@ -495,8 +495,8 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;/figure&gt;
 &lt;p&gt;После нажатия на кнопку &lt;strong&gt;Проверить названия видов&lt;/strong&gt; откроется небольшая таблица с данными не прошедшими проверку (т.е. названиями микроорганизмов, которые система не распознала). Далее пользователю необходимо внимательно просмотреть эту таблицу:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Если в каких-то названиях допущены ошибки (например, пропущена буква или вместо точки стоит запятая), то пользователю необходимо исправить ошибки прямо в окне редактора, дважды щелкнув левой клавишей мыши по нужной ячейке, и нажать кнопку &amp;laquo;&lt;strong&gt;Исправить названия видов&lt;/strong&gt;&amp;raquo;.&lt;/li&gt;
-&lt;li&gt;Если ошибок в написании нет, это значит, что микроорганизмы с такими названиями просто отсутствуют в системе. Такие микроорганизмы &lt;strong&gt;не исключаются&lt;/strong&gt; из общих данных — для них также будут построены графики для анализа, только окрашиваться они будут не в соответствии с категориями чувствительности, а в единый серый цвет. Если пользователь работает со &amp;laquo;своими&amp;raquo; готовыми категориями чувствительности S/I/R, то проблем в идентификации видов микроорганизмов не возникнет.&lt;/li&gt;
+&lt;li&gt;Если в каких-то названиях допущены ошибки (например, пропущена буква или вместо точки стоит запятая), то пользователю необходимо исправить ошибки прямо в окне редактора, дважды щелкнув левой клавишей мыши по нужной ячейке, и нажать кнопку &amp;ldquo;&lt;strong&gt;Исправить названия видов&lt;/strong&gt;&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Если ошибок в написании нет, это значит, что микроорганизмы с такими названиями просто отсутствуют в системе. Такие микроорганизмы &lt;strong&gt;не исключаются&lt;/strong&gt; из общих данных — для них также будут построены графики для анализа, только окрашиваться они будут не в соответствии с категориями чувствительности, а в единый серый цвет. Если пользователь работает со &amp;ldquo;своими&amp;rdquo; готовыми категориями чувствительности S/I/R, то проблем в идентификации видов микроорганизмов не возникнет.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
 &lt;div&gt;
@@ -520,7 +520,7 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;h6&gt;Неправильный формат дат&lt;/h6&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;Если все записи столбца дат оформлены правильно и единообразно, то пользователь (после выбора из соответствующего выпадающего списка названия столбца, содержащего даты выделения изолятов) увидит временную шкалу &lt;strong&gt;&amp;laquo;Диапазон дат (предпросмотр)&amp;raquo;&lt;/strong&gt;. Если система не смогла правильно автоматически распознать пользовательский формат дат, то необходимо самостоятельно выбрать из списка один из подходящих форматов:&lt;/p&gt;
+&lt;p&gt;Если все записи столбца дат оформлены правильно и единообразно, то пользователь (после выбора из соответствующего выпадающего списка названия столбца, содержащего даты выделения изолятов) увидит временную шкалу &lt;strong&gt;&amp;ldquo;Диапазон дат (предпросмотр)&amp;rdquo;&lt;/strong&gt;. Если система не смогла правильно автоматически распознать пользовательский формат дат, то необходимо самостоятельно выбрать из списка один из подходящих форматов:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;2018-12-31 (т.е. год-месяц-день)&lt;/li&gt;
 &lt;li&gt;2018-31-12 (т.е. год-день-месяц)&lt;/li&gt;
@@ -529,7 +529,7 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;/ul&gt;
 &lt;div class=&#34;alert alert-warning&#34;&gt;
 &lt;div&gt;
-После того, как пользователь определился с форматом дат, ему необходимо поставить галочку в поле &lt;strong&gt;&amp;laquo;Отображается ли временная шкала?&amp;raquo;&lt;/strong&gt;.
+После того, как пользователь определился с форматом дат, ему необходимо поставить галочку в поле &lt;strong&gt;&amp;ldquo;Отображается ли временная шкала?&amp;rdquo;&lt;/strong&gt;.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;figure&gt;
@@ -543,11 +543,11 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;h2 id=&#34;географические-данные&#34;&gt;Географические данные&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Эта категория является &lt;strong&gt;НЕобязательной&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Географические данные могут быть двух типов: &amp;laquo;Географические наименования&amp;raquo; и &amp;laquo;Географические координаты&amp;raquo;.&lt;/li&gt;
+&lt;li&gt;Географические данные могут быть двух типов: &amp;ldquo;Географические наименования&amp;rdquo; и &amp;ldquo;Географические координаты&amp;rdquo;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Для загрузки необходимого типа данных пользователю следует поставить галочку (&lt;em&gt;&amp;laquo;чекбокс&amp;raquo;&lt;/em&gt;) в соответствующее поле в правой части экрана и выбрать подходящий столбец данных из выпадающего списка.&lt;/p&gt;
-&lt;p&gt;В качестве &lt;strong&gt;&amp;laquo;Географических наименований&amp;raquo;&lt;/strong&gt; могут быть указаны: страны, административно-территориальные единицы, природные зоны, города, небольшие населенные пункты, а также адреса конкретных зданий и объектов. Система попытается автоматически идентифицировать географические объекты и найти соответствующие им координаты (широту и долготу).&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&amp;laquo;Географические координаты&amp;raquo;&lt;/strong&gt; рекомендуется включать из исходной таблицы только при условии их неоспоримой точности. Если пользователь сомневается в точности географических координат, рекомендуется их не включать (т.е. не отмечать соответствующий чекбокс).&lt;/p&gt;
+&lt;p&gt;Для загрузки необходимого типа данных пользователю следует поставить галочку (&lt;em&gt;&amp;ldquo;чекбокс&amp;rdquo;&lt;/em&gt;) в соответствующее поле в правой части экрана и выбрать подходящий столбец данных из выпадающего списка.&lt;/p&gt;
+&lt;p&gt;В качестве &lt;strong&gt;&amp;ldquo;Географических наименований&amp;rdquo;&lt;/strong&gt; могут быть указаны: страны, административно-территориальные единицы, природные зоны, города, небольшие населенные пункты, а также адреса конкретных зданий и объектов. Система попытается автоматически идентифицировать географические объекты и найти соответствующие им координаты (широту и долготу).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;Географические координаты&amp;rdquo;&lt;/strong&gt; рекомендуется включать из исходной таблицы только при условии их неоспоримой точности. Если пользователь сомневается в точности географических координат, рекомендуется их не включать (т.е. не отмечать соответствующий чекбокс).&lt;/p&gt;
 &lt;figure&gt;
 &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geog_object.png&#34; &gt;
 &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geog_object.png&#34; &gt;
@@ -563,7 +563,7 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;li&gt;Эта категория является &lt;strong&gt;НЕобязательной&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;В качестве числовой переменной может быть загружен один любой количественный показатель, например: Возраст, Вес пациента, Длительность пребывания в стационаре и т.д.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Для загрузки данных пользователю следует поставить галочку (&lt;em&gt;&amp;laquo;чекбокс&amp;raquo;&lt;/em&gt;) в соответствующее поле в правой части экрана и выбрать из выпадающего списка название столбца, содержащего необходимые данные.&lt;/p&gt;
+&lt;p&gt;Для загрузки данных пользователю следует поставить галочку (&lt;em&gt;&amp;ldquo;чекбокс&amp;rdquo;&lt;/em&gt;) в соответствующее поле в правой части экрана и выбрать из выпадающего списка название столбца, содержащего необходимые данные.&lt;/p&gt;
 &lt;figure&gt;
 &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/numeric.png&#34; &gt;
 &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/numeric.png&#34; &gt;
@@ -580,7 +580,7 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;li&gt;Общее количество столбцов такого типа неограничено.&lt;/li&gt;
 &lt;li&gt;В качестве данных для этого столбца может быть загружена информация о генетических маркерах резистентности, особых фенотипах или факторах вирулентности.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Для загрузки данных пользователю следует поставить галочку (&lt;em&gt;&amp;laquo;чекбокс&amp;raquo;&lt;/em&gt;) в соответствующее поле в правой части экрана и выбрать из выпадающего списка название столбцов, содержащих необходимые данные. Заголовки столбцов будут использоваться в качестве названий групп маркеров.&lt;/p&gt;
+&lt;p&gt;Для загрузки данных пользователю следует поставить галочку (&lt;em&gt;&amp;ldquo;чекбокс&amp;rdquo;&lt;/em&gt;) в соответствующее поле в правой части экрана и выбрать из выпадающего списка название столбцов, содержащих необходимые данные. Заголовки столбцов будут использоваться в качестве названий групп маркеров.&lt;/p&gt;
 &lt;figure&gt;
 &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/markers_genetic.png&#34; &gt;
 &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/markers_genetic.png&#34; &gt;
@@ -595,7 +595,7 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;li&gt;Эта категория является &lt;strong&gt;НЕобязательной&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Можно выбрать максимум 10 столбцов с различными параметрами для фильтрации и группировки данных (считая вместе со столбцами географических данных из предыдущего пункта).&lt;/li&gt;
 &lt;li&gt;Названия столбцов используются в качестве названий параметров.&lt;/li&gt;
-&lt;li&gt;Пользователь может отсортировать загруженные параметры в нужном порядке с помощью перетескивания мышью. Порядок будет влиять на последовательность фильтров в поле &amp;laquo;Параметры основные&amp;raquo; на этапе работы с графиками.&lt;/li&gt;
+&lt;li&gt;Пользователь может отсортировать загруженные параметры в нужном порядке с помощью перетескивания мышью. Порядок будет влиять на последовательность фильтров в поле &amp;ldquo;Параметры основные&amp;rdquo; на этапе работы с графиками.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;figure&gt;
 &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/other_filter.png&#34; &gt;
@@ -606,16 +606,16 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;h2 id=&#34;завершение-шага-2&#34;&gt;Завершение Шага 2&lt;/h2&gt;
-&lt;p&gt;Для перехода к следующему этапу импорта данных — &lt;strong&gt;ШАГУ 3&lt;/strong&gt; — пользователю необходимо нажать на кнопку &lt;strong&gt;&amp;laquo;Сохранить шаг 2&amp;raquo;&lt;/strong&gt;. Перед этим рекомендуется еще раз просмотреть и перепроверить все пункты текущего этапа.&lt;/p&gt;
+&lt;p&gt;Для перехода к следующему этапу импорта данных — &lt;strong&gt;ШАГУ 3&lt;/strong&gt; — пользователю необходимо нажать на кнопку &lt;strong&gt;&amp;ldquo;Сохранить шаг 2&amp;rdquo;&lt;/strong&gt;. Перед этим рекомендуется еще раз просмотреть и перепроверить все пункты текущего этапа.&lt;/p&gt;
 &lt;figure&gt;
 &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_step2.png&#34; &gt;
 &lt;/figure&gt;</description></item><item><title>Шаг 3 - Геокодирование</title><link>https://amrcloud.net/ru/tutorials/import-data/06-geocode/</link><pubDate>Fri, 14 Feb 2020 00:02:00 +0000</pubDate><guid>https://amrcloud.net/ru/tutorials/import-data/06-geocode/</guid><description>
 &lt;p&gt;Геокодирование — это важный этап создания основы, с помощью которой &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; строит различные карты и проставляет метки географических объектов.&lt;/p&gt;
 &lt;p&gt;В качестве географических объектов в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; могут выступать регионы, города и даже отдельные корпуса ЛПУ.&lt;/p&gt;
 &lt;h2 id=&#34;общая-информация&#34;&gt;Общая информация&lt;/h2&gt;
-&lt;p&gt;Для запуска процесса геокодирования необходимо нажать кнопку &lt;strong&gt;&amp;laquo;1.Геокодировать&amp;raquo;&lt;/strong&gt;. Данный процесс занимает некоторое время, поэтому пользователю после нажатия следует дождаться, пока система не проставит координаты в таблице географических объектов и в окне предварительного просмотра карты не появятся маркеры.&lt;/p&gt;
-&lt;p&gt;Для того, чтобы открыть предварительный просмотр карты, пользователю необходимо нажать на текст синей панели &lt;strong&gt;&amp;laquo;Карта: предпросмотр&amp;raquo;&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;После того, как пользователь убедится, что все маркеры и координаты проставлены верно, ему необходимо будет нажать на кнопку &lt;strong&gt;&amp;laquo;Сохранить шаг 3&amp;raquo;&lt;/strong&gt; и перейти к следующему этапу импорта.&lt;/p&gt;
+&lt;p&gt;Для запуска процесса геокодирования необходимо нажать кнопку &lt;strong&gt;&amp;ldquo;1.Геокодировать&amp;rdquo;&lt;/strong&gt;. Данный процесс занимает некоторое время, поэтому пользователю после нажатия следует дождаться, пока система не проставит координаты в таблице географических объектов и в окне предварительного просмотра карты не появятся маркеры.&lt;/p&gt;
+&lt;p&gt;Для того, чтобы открыть предварительный просмотр карты, пользователю необходимо нажать на текст синей панели &lt;strong&gt;&amp;ldquo;Карта: предпросмотр&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;После того, как пользователь убедится, что все маркеры и координаты проставлены верно, ему необходимо будет нажать на кнопку &lt;strong&gt;&amp;ldquo;Сохранить шаг 3&amp;rdquo;&lt;/strong&gt; и перейти к следующему этапу импорта.&lt;/p&gt;
 &lt;figure&gt;
 &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_1.png&#34; &gt;
 &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_1.png&#34; &gt;
@@ -626,7 +626,7 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;/figure&gt;
 &lt;h2 id=&#34;amrcloud-не-проставил-координаты&#34;&gt;AMRcloud не проставил координаты&lt;/h2&gt;
 &lt;p&gt;Если &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; не распознал географический объект (не проставил рядом с его названием координаты), то пользователю следует проверить &lt;strong&gt;правильность названия&lt;/strong&gt; географического объекта. Если в названии(-ях) допущены ошибки, то необходимо исправить данные в исходной таблице &lt;strong&gt;&amp;rarr;&lt;/strong&gt; сбросить предыдущие Шаги (1-2) &lt;strong&gt;&amp;rarr;&lt;/strong&gt; загрузить заново исправленный вариант.&lt;/p&gt;
-&lt;p&gt;Если в названиях географических объектов нет ошибок, то пользователю необходимо самому вручную проставить к ним координаты. Для этого требуется в таблице справа (&lt;span style=&#34;color:#FEAB3A&#34;&gt;&lt;strong&gt;оранжевая&lt;/strong&gt;&lt;/span&gt; панель &lt;em&gt;&amp;laquo;Географические локации не найдены.&amp;raquo;&lt;/em&gt;) ввести соответствующие координаты в поля Широты и Долготы и нажать кнопку &lt;strong&gt;&amp;laquo;Применить исправления&amp;raquo;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Если в названиях географических объектов нет ошибок, то пользователю необходимо самому вручную проставить к ним координаты. Для этого требуется в таблице справа (&lt;span style=&#34;color:#FEAB3A&#34;&gt;&lt;strong&gt;оранжевая&lt;/strong&gt;&lt;/span&gt; панель &lt;em&gt;&amp;ldquo;Географические локации не найдены.&amp;rdquo;&lt;/em&gt;) ввести соответствующие координаты в поля Широты и Долготы и нажать кнопку &lt;strong&gt;&amp;ldquo;Применить исправления&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;где-найти-географические-координаты&#34;&gt;Где найти географические координаты&lt;/h2&gt;
 &lt;p&gt;Узнать координаты необходимого географического объекта пользователь может с помощью карты предпросмотра.
 &lt;figure&gt;
@@ -657,13 +657,13 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;неправильное-расположение-маркеров&#34;&gt;Неправильное расположение маркеров&lt;/h2&gt;
-&lt;p&gt;Система &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; может неверно автоматически распознать введенный пользователем географический объект. Например, вместо российского города Санкт-Петербург проставить на карте маркер Санкт-Петербург, Флорида, США. Поэтому пользователю перед сохранением результатов импорта &amp;laquo;Шага 3&amp;raquo; необходимо внимательно изучить карту предварительного просмотра.&lt;/p&gt;
+&lt;p&gt;Система &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; может неверно автоматически распознать введенный пользователем географический объект. Например, вместо российского города Санкт-Петербург проставить на карте маркер Санкт-Петербург, Флорида, США. Поэтому пользователю перед сохранением результатов импорта &amp;ldquo;Шага 3&amp;rdquo; необходимо внимательно изучить карту предварительного просмотра.&lt;/p&gt;
 &lt;p&gt;Если пользователь захочет исправить положение того или иного маркера на карте, ему необходимо:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Кликнуть левой кнопкой мыши по необходимой ячейке в &lt;span style=&#34;color:#73A839&#34;&gt;&lt;strong&gt;зеленой таблице&lt;/strong&gt;&lt;/span&gt;.&lt;/li&gt;
-&lt;li&gt;Нажать кнопку &lt;strong&gt;&amp;laquo;Редактировать координаты&amp;raquo;&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Нажать кнопку &lt;strong&gt;&amp;ldquo;Редактировать координаты&amp;rdquo;&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Внести исправления в координаты в &lt;span style=&#34;color:#FEAB3A&#34;&gt;&lt;strong&gt;оранжевой&lt;/strong&gt;&lt;/span&gt; таблице.&lt;/li&gt;
-&lt;li&gt;Нажать кнопку &lt;strong&gt;&amp;laquo;Применить исправления&amp;raquo;&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Нажать кнопку &lt;strong&gt;&amp;ldquo;Применить исправления&amp;rdquo;&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;figure&gt;
 &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_3.png&#34; &gt;
@@ -686,9 +686,9 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;p&gt;Рассмотрим вариант, когда пользователю необходимо проставить географические координаты в рамках одного ЛПУ. Предположим, что необходимо расставить географические координаты для 1,2,3 корпусов Смоленской областной клинической больницы.&lt;/p&gt;
 &lt;p&gt;Алгоритм работы:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Нажать кнопку &lt;strong&gt;&amp;laquo;1. Геокодировать&amp;raquo;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Нажать кнопку &lt;strong&gt;&amp;ldquo;1. Геокодировать&amp;rdquo;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Выбрать ячейки для исправления&lt;/li&gt;
-&lt;li&gt;Нажать кнопку &lt;strong&gt;&amp;laquo;Редактировать координаты&amp;raquo;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Нажать кнопку &lt;strong&gt;&amp;ldquo;Редактировать координаты&amp;rdquo;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Открыть окно &lt;em&gt;Карта: предпросмотр&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Нажать на строку поиска и напечатать нужное ЛПУ.
 В примере это - Смоленская областная клиническая больница (печатать полностью, не сокращать до СОКБ)&lt;/li&gt;
@@ -704,9 +704,9 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/li&gt;
-&lt;li&gt;Поставить галочку в поле &lt;strong&gt;&amp;laquo;Сохранить координаты для повторного применения&amp;raquo;&lt;/strong&gt;. Таким образом, проставленные географические координаты навсегда будут привязаны к соответствующему имени географического объекта и сохранятся в пользовательской учетной записи. При последующих загрузках координаты объектов с такими же именами определятся автоматически.&lt;/li&gt;
-&lt;li&gt;Нажать кнопку &lt;strong&gt;&amp;laquo;Применить исправления&amp;raquo;&lt;/strong&gt; и проверить результаты.&lt;/li&gt;
-&lt;li&gt;Перейти на следующий этап, нажав кнопку &lt;strong&gt;&amp;laquo;2.Сохранить шаг 3&amp;raquo;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Поставить галочку в поле &lt;strong&gt;&amp;ldquo;Сохранить координаты для повторного применения&amp;rdquo;&lt;/strong&gt;. Таким образом, проставленные географические координаты навсегда будут привязаны к соответствующему имени географического объекта и сохранятся в пользовательской учетной записи. При последующих загрузках координаты объектов с такими же именами определятся автоматически.&lt;/li&gt;
+&lt;li&gt;Нажать кнопку &lt;strong&gt;&amp;ldquo;Применить исправления&amp;rdquo;&lt;/strong&gt; и проверить результаты.&lt;/li&gt;
+&lt;li&gt;Перейти на следующий этап, нажав кнопку &lt;strong&gt;&amp;ldquo;2.Сохранить шаг 3&amp;rdquo;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;пример-работы-с-геоданными&#34;&gt;Пример работы с геоданными&lt;/h2&gt;
 &lt;p&gt;Рассмотрим пример. Представим ситуцию, когда пользователь работает с данными, полученными в городе Смоленске из нескольких ЛПУ.&lt;/p&gt;
@@ -771,7 +771,7 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Точный географический объект&lt;/strong&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Вернуться на &lt;strong&gt;ШАГ 2&lt;/strong&gt; и сбросить его &lt;strong&gt;&amp;rarr;&lt;/strong&gt; заново все заполнить и в пункте &lt;strong&gt;Выберите столбец, содержащий названия географических объектов&lt;/strong&gt; выбрать &amp;laquo;точный&amp;raquo; географический объект&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Вернуться на &lt;strong&gt;ШАГ 2&lt;/strong&gt; и сбросить его &lt;strong&gt;&amp;rarr;&lt;/strong&gt; заново все заполнить и в пункте &lt;strong&gt;Выберите столбец, содержащий названия географических объектов&lt;/strong&gt; выбрать &amp;ldquo;точный&amp;rdquo; географический объект&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Точный географический объект выбран&lt;/strong&gt;&lt;/td&gt;
@@ -783,7 +783,7 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Точный географический объект - это более подробное географическое описание в сравнении с текущим вариантом. Например, был выбран город или область, то точным вариантом может быть конкретный корпус ЛПУ.&lt;/p&gt;</description></item><item><title>Шаг 4 - Категоризация S/I/R</title><link>https://amrcloud.net/ru/tutorials/import-data/07-interpretation/</link><pubDate>Fri, 14 Feb 2020 00:01:00 +0000</pubDate><guid>https://amrcloud.net/ru/tutorials/import-data/07-interpretation/</guid><description>&lt;p&gt;Первым делом на данном этапе пользователю необходимо выбрать критерии интерпретации из выпадающего списка и нажать кнопку &lt;strong&gt;&amp;laquo;Интерпретировать МПК и данные диск-диффузии&amp;raquo;&lt;/strong&gt;. После того, как ниже появится таблица со статусами интерпретации, пользователь сможет нажать кнопку &lt;strong&gt;&amp;laquo;Завершить все шаги&amp;raquo;&lt;/strong&gt; и завершить процесс импорта данных.&lt;/p&gt;
+&lt;p&gt;Точный географический объект - это более подробное географическое описание в сравнении с текущим вариантом. Например, был выбран город или область, то точным вариантом может быть конкретный корпус ЛПУ.&lt;/p&gt;</description></item><item><title>Шаг 4 - Категоризация S/I/R</title><link>https://amrcloud.net/ru/tutorials/import-data/07-interpretation/</link><pubDate>Fri, 14 Feb 2020 00:01:00 +0000</pubDate><guid>https://amrcloud.net/ru/tutorials/import-data/07-interpretation/</guid><description>&lt;p&gt;Первым делом на данном этапе пользователю необходимо выбрать критерии интерпретации из выпадающего списка и нажать кнопку &lt;strong&gt;&amp;ldquo;Интерпретировать МПК и данные диск-диффузии&amp;rdquo;&lt;/strong&gt;. После того, как ниже появится таблица со статусами интерпретации, пользователь сможет нажать кнопку &lt;strong&gt;&amp;ldquo;Завершить все шаги&amp;rdquo;&lt;/strong&gt; и завершить процесс импорта данных.&lt;/p&gt;
 &lt;figure&gt;
 &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_step4.png&#34; &gt;
 &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_step4.png&#34; &gt;
@@ -899,19 +899,19 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 Прошедший семинар – это первый шаг к созданию информированного медицинского сообщества, активно использующего современные информационные технологии для контроля и борьбы с антибиотикорезистентностью.&lt;/p&gt;
 &lt;div class=&#34;gallery&#34;&gt;
 &lt;a data-fancybox=&#34;gallery-img&#34; href=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_1.jpg&#34; &gt;
-&lt;img data-src=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_1_hu1a8fde2d73f0dedcc679b8c1cffe94e9_262120_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+&lt;img data-src=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_1_hu1a8fde2d73f0dedcc679b8c1cffe94e9_262120_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;253&#34; height=&#34;190&#34;&gt;
 &lt;/a&gt;
 &lt;a data-fancybox=&#34;gallery-img&#34; href=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_2.jpg&#34; &gt;
-&lt;img data-src=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_2_hu9b51c7f0189fc25e0e8abaa6c1cf750a_234539_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+&lt;img data-src=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_2_hu9b51c7f0189fc25e0e8abaa6c1cf750a_234539_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;253&#34; height=&#34;190&#34;&gt;
 &lt;/a&gt;
 &lt;a data-fancybox=&#34;gallery-img&#34; href=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_3.JPG&#34; &gt;
-&lt;img data-src=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_3_hu7d0d7322722ecab24778c22d136d4df4_272386_0x190_resize_q90_lanczos.JPG&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+&lt;img data-src=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_3_hu7d0d7322722ecab24778c22d136d4df4_272386_0x190_resize_q90_lanczos.JPG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;253&#34; height=&#34;190&#34;&gt;
 &lt;/a&gt;
 &lt;a data-fancybox=&#34;gallery-img&#34; href=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_5.JPG&#34; &gt;
-&lt;img data-src=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_5_hu7d0d7322722ecab24778c22d136d4df4_252151_0x190_resize_q90_lanczos.JPG&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+&lt;img data-src=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_5_hu7d0d7322722ecab24778c22d136d4df4_252151_0x190_resize_q90_lanczos.JPG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;253&#34; height=&#34;190&#34;&gt;
 &lt;/a&gt;
 &lt;a data-fancybox=&#34;gallery-img&#34; href=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_7.jpg&#34; &gt;
-&lt;img data-src=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_7_hue4928482153b0b438279bbf3b6dea6de_288278_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+&lt;img data-src=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_7_hue4928482153b0b438279bbf3b6dea6de_288278_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;253&#34; height=&#34;190&#34;&gt;
 &lt;/a&gt;
 &lt;/div&gt;</description></item><item><title>Исследование «ДАРМИС-2018»</title><link>https://amrcloud.net/ru/project/darmis-2018/</link><pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate><guid>https://amrcloud.net/ru/project/darmis-2018/</guid><description>
 &lt;h3 id=&#34;организаторы&#34;&gt;Организаторы&lt;/h3&gt;
@@ -983,7 +983,7 @@ File&lt;strong&gt;&amp;rarr;&lt;/strong&gt; Save with Encoding &lt;strong&gt;&am
 &lt;/div&gt;
 &lt;img class=&#34;ml-3&#34; src=&#34;iac.png&#34; style=&#34;width: 200px&#34; alt=&#34;НИИ антимикробной химиотерапии ФГБОУ ВО «СГМУ» Минздрава России&#34;&gt;
 &lt;/div&gt;</description></item><item><title>Научно-исследовательская работа «Ветеринарный мониторинг и анализ риска антибиотикорезистентности зоонозных бактерий»</title><link>https://amrcloud.net/ru/project/vgnki/</link><pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate><guid>https://amrcloud.net/ru/project/vgnki/</guid><description>
-&lt;h3 id=&#34;всероссийский-государственный-центр-качества-и-стандартизации-лекарственных-средств-для-животных-и-кормов-фгбу-вгнки&#34;&gt;«Всероссийский государственный Центр качества и стандартизации лекарственных средств для животных и кормов» (ФГБУ &amp;laquo;ВГНКИ&amp;raquo;)&lt;/h3&gt;
+&lt;h3 id=&#34;всероссийский-государственный-центр-качества-и-стандартизации-лекарственных-средств-для-животных-и-кормов-фгбу-вгнки&#34;&gt;«Всероссийский государственный Центр качества и стандартизации лекарственных средств для животных и кормов» (ФГБУ &amp;ldquo;ВГНКИ&amp;rdquo;)&lt;/h3&gt;
 &lt;p&gt;Научно-иследовательский институт Федеральной службы по ветеринарному и фитосанитарному надзору (Россельхознадзор).&lt;/p&gt;
 &lt;p&gt;Имеет статус Центра МЭБ (Всемирной организации здравоохранения животных) по безопасности пищевой продукции, диагностике и борьбе с болезнями животных для стран Восточной Европы, Центральной Азии и Закавказья.&lt;/p&gt;
 &lt;p&gt;Осуществляет научную и научно-техническую деятельность, направленную на обеспечение качества ветеринарных лекарственных средств, и безопасности в ветеринарно-санитарном отношении продукции животноводства и кормовой продукции, а также стандартизации и обеспечения качества, проведения экспертизы и сертификации лекарственных средств, кормов и кормовых добавок, в том числе содержащих ГМО.&lt;/p&gt;
