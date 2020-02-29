@@ -1,847 +1,853 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AMRcloud</title><link>https://amrcloud.net/en/</link><atom:link href="https://amrcloud.net/en/index.xml" rel="self" type="application/rss+xml"/><description>AMRcloud</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud</copyright><lastBuildDate>Fri, 14 Feb 2020 00:06:00 +0000</lastBuildDate><image><url>https://amrcloud.net/img/amr-cloud-logo-text.png</url><title>AMRcloud</title><link>https://amrcloud.net/en/</link></image><item><title>Projects and Data Sets</title><link>https://amrcloud.net/en/tutorials/import-data/00-project-set/</link><pubDate>Fri, 14 Feb 2020 00:06:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/00-project-set/</guid><description>
-&lt;h2 id=&#34;what-is-a-project-data-set&#34;&gt;What is a Project / Data Set&lt;/h2&gt;
-&lt;p&gt;Within the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; user can create different projects and data sets.&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;Project&lt;/u&gt; is a structural element of the AMRcloud platform that allows to group several data sets at the user&amp;rsquo;s discretion.&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;Data set(s)&lt;/u&gt; is a basic unit within the project that contains information with which &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; works directly.&lt;/p&gt;
-&lt;h2 id=&#34;how-to-create-a-project&#34;&gt;How to create a project&lt;/h2&gt;
-&lt;p&gt;In order to create a project, user should press the &lt;strong&gt;&lt;em&gt;&amp;plus;&amp;nbsp;New Project&lt;/em&gt;&lt;/strong&gt; button in the upper left corner of the screen after entering the personal account.&lt;/p&gt;
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;New project&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;The modal dialog &amp;ldquo;Add new project&amp;rdquo; invites user to fill in the &amp;ldquo;New project name&amp;rdquo; and &amp;ldquo;Project subtitle&amp;rdquo; fields (with a limit of 255 characters).
-It is strongly recommended to use unique or significantly different names for your projects. Do not limit yourself to the &lt;em&gt;&amp;ldquo;test1&amp;rdquo;&lt;/em&gt; and &lt;em&gt;&amp;ldquo;test2&amp;rdquo;&lt;/em&gt; variants. The project subtitle can be represented by keywords that explain the name.&lt;/p&gt;
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project2.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project2.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Creation of the project&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;h2 id=&#34;types-of-projects&#34;&gt;Types of projects&lt;/h2&gt;
-&lt;p&gt;User can work with two types of projects:
-- &lt;strong&gt;My Project&lt;/strong&gt;
-- &lt;strong&gt;Team Project&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;My Project&lt;/strong&gt; is a personal user project.
-Access to the data is granted to the owner alone. The owner can share his project&amp;rsquo;s data with other users by generating external public links.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Team Project&lt;/strong&gt; is a project for working with other users in a team. One of the users becomes a team administrator (i.e. creator), and others become team members (i.e. users who invited by the team administrator).&lt;/p&gt;
-&lt;h2 id=&#34;data-sets&#34;&gt;Data sets&lt;/h2&gt;
-&lt;p&gt;Within the project user creates several data sets. To create a new data set, the user needs to open the project by clicking the &lt;strong&gt;&amp;ldquo;Open&amp;rdquo;&lt;/strong&gt; button and then click the &lt;strong&gt;&amp;rdquo;+ New Set&amp;rdquo;&lt;/strong&gt; button.&lt;/p&gt;
-&lt;p&gt;The modal dialog &amp;ldquo;Add New Set&amp;rdquo; invites user to fill in the &amp;ldquo;New set name&amp;rdquo; and &amp;ldquo;Set subtitle&amp;rdquo; fields (with a limit of 255 characters).
-It is strongly recommended to use unique or significantly different names for your sets. Do not limit yourself to the &lt;em&gt;&amp;ldquo;test1&amp;rdquo;&lt;/em&gt; and &lt;em&gt;&amp;ldquo;test2&amp;rdquo;&lt;/em&gt; variants. The set subtitle can be represented by keywords that explain the name.&lt;/p&gt;
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project3.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project3.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Creation of the data set&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;After creating the project and the data set, user can start uploading the data. To do it, the user needs to open the project, to click the left mouse button on the data set and then to click the &amp;ldquo;Edit Set&amp;rdquo; button.&lt;/p&gt;</description></item><item><title>Data preparation</title><link>https://amrcloud.net/en/tutorials/import-data/01-prepare/</link><pubDate>Fri, 14 Feb 2020 00:05:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/01-prepare/</guid><description>
-&lt;h2 id=&#34;the-golden-rules-for-the-source-data&#34;&gt;The &amp;ldquo;Golden Rules&amp;rdquo; for the source data&lt;/h2&gt;
-&lt;p&gt;One of the key points of working with the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; platform is the structuring of your source data.&lt;/p&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-&lt;div&gt;
-The main principles of data organization can be formulated as the following &amp;ldquo;Golden Rules&amp;rdquo;:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Each isolate is represented by a separate row in the source datatable.&lt;/li&gt;
-&lt;li&gt;There are five mandatory columns in the source datatable (Isolate ID, Species Name, Organism Group, Date, AST Data).&lt;/li&gt;
-&lt;li&gt;There always should be one of the three suffixes after the generic name of antimicrobial drug («_mic», «_dd» or «_sir»).&lt;/li&gt;
-&lt;li&gt;All other additional columns with metadata in the source datatable are NOT mandatory (geographical data, resistance markers, etc.).&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;example-data&#34;&gt;Example Data&lt;/h2&gt;
-&lt;p&gt;The basic requirements for the source data table are listed on the &lt;strong&gt;Read Me&lt;/strong&gt; tab of the data import page. At the bottom of the page there is a link to download an example data table that can be used for the original user&amp;rsquo;s data formatting.&lt;/p&gt;
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/example.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/example.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Data sample downloading&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;h2 id=&#34;basic-requirements&#34;&gt;Basic Requirements&lt;/h2&gt;
-&lt;p&gt;To work with the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; it is necessary to convert the data to a single format.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;The data table should be flat. It means that it consists of columns and rows with &lt;em&gt;no additional separators, no hierarchical structures&lt;/em&gt;.
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/row_column.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/row_column.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Data table structure&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/li&gt;
-&lt;li&gt;The first row of the data table should contain the headings of all columns.
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/name.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/name.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Header row&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;The data table should contain 5 types of mandatory columns:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Isolate Identifier (ID_isolate)&lt;/li&gt;
-&lt;li&gt;Organism/Species Name&lt;/li&gt;
-&lt;li&gt;Organism Group&lt;/li&gt;
-&lt;li&gt;Date&lt;/li&gt;
-&lt;li&gt;AST Data&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/mandatory.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/mandatory.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Mandatory columns&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;h3 id=&#34;isolate-id&#34;&gt;Isolate ID&lt;/h3&gt;
-&lt;p&gt;Non-unique numbers can be used as the isolate ID. The identifier can be either alphabetic or numerical.&lt;/p&gt;
-&lt;h3 id=&#34;organism-species-name&#34;&gt;Organism/Species Name&lt;/h3&gt;
-&lt;p&gt;For the automatic interpretation &lt;strong&gt;Species name&lt;/strong&gt; must be full. Abbreviations in the species name are not allowed.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Right:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Staphylococcus aureus, Streptococcus pneumoniae&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Wrong:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;S. aureus, S. pneumoniae&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;organism-group&#34;&gt;Organism Group&lt;/h3&gt;
-&lt;p&gt;The &lt;strong&gt;Organism Group&lt;/strong&gt; can be shortened, but it should be identical throughout the column.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Right:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Enterobacterales, Staphyl, Enterobacterales, Staphyl (all names are standardized)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Wrong:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Enterobac, Staph, Staphyl, Entbac, Staphylococ (names are not standardized)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;date&#34;&gt;Date&lt;/h3&gt;
-&lt;p&gt;The import system will automatically interpret any standard date format. The main condition is the universality of the date format throughout the column.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Right:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;12.08.2018, 20.05.2017, 16.03.2014 (unified format DD.MM.YYYY)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Wrong:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;13.08.2018, 20/05/19, 03/16/2014 (non-unified format DD.MM.YYYY, DD/MM/YYYY, MM/DD/YYYY)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/data.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/data.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Date format&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;h3 id=&#34;ast-data&#34;&gt;AST Data&lt;/h3&gt;
-&lt;p&gt;Possible AST data formats:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Minimum Inhibitory Concentrations (MICs)&lt;/li&gt;
-&lt;li&gt;Disk Diffusion Inhibition Zone Diameters&lt;/li&gt;
-&lt;li&gt;Susceptibility Categories (S/I/R)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;antimicrobial-suffixes&#34;&gt;Antimicrobial Suffixes&lt;/h3&gt;
-&lt;p&gt;The header of the column with the results of the antibiotic susceptibility testing must comply with the following rules:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;The name of the antimicrobial agent should be full without any reductions, written in English. The list of the legitimate antibiotic names can be downloaded by the link at the bottom of the page.
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/list_antib.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/list_antib.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Legitimate antibiotic names list&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/li&gt;
-&lt;li&gt;Every generic ‘Antibiotic’ name shouled be followed by one of the three suffixes with underline symbol:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Minimum Inhibitory Concentrations&lt;/strong&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;_&lt;strong&gt;mic&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Disk Diffusion Inhibition Zone Diameters&lt;/strong&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;_&lt;strong&gt;dd&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Susceptibility Categories&lt;/strong&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;_&lt;strong&gt;sir&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;tobramycin_sir, tetracycline_sir, amoxicillin-clavulanic acid_mic, daptomycin_dd&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Antimicrobial agents with special interpretation criterias (user&amp;rsquo;s S/I/R categories) and/or &lt;em&gt;ECOFF&lt;/em&gt; criterias can be recorded as follows:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;meropenem_ecoff_sir, moxifloxacin_clsi_sir, marbofloxacin_clsi_sir&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-warning&#34;&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;IMPORTANT!&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Minimum inhibitory concentration values&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;MIC values are measured in mg/l.&lt;/li&gt;
-&lt;li&gt;Values must be numerical.&lt;/li&gt;
-&lt;li&gt;Non-numerical values containing expressions &lt;strong&gt;&lt;code&gt;&amp;lt;= ...&lt;/code&gt;&lt;/strong&gt; or &lt;strong&gt;&lt;code&gt;&amp;gt; ...&lt;/code&gt;&lt;/strong&gt; or &lt;strong&gt;&lt;code&gt;&amp;gt;= ...&lt;/code&gt;&lt;/strong&gt; would be converted into &lt;strong&gt;numerical&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Symbols &lt;strong&gt;&lt;code&gt;&amp;lt;=&lt;/code&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;code&gt;&amp;gt;=&lt;/code&gt;&lt;/strong&gt; standing before the numbers are ignored.&lt;/li&gt;
-&lt;li&gt;Numbers standing after &lt;strong&gt;&lt;code&gt;&amp;gt;&lt;/code&gt;&lt;/strong&gt; symbol would be multiplied by 2.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Disk Diffusion Inhibition Zone Diameters&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Diameter values measured in mm.&lt;/li&gt;
-&lt;li&gt;Values could be integers greater than or equal to 6.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Susceptibility Categories&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Allowed values: &amp;ldquo;S&amp;rdquo;, &amp;ldquo;I&amp;rdquo;, &amp;ldquo;R&amp;rdquo;.&lt;/li&gt;
-&lt;li&gt;Every isolate may have only one susceptibility category.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Right:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;S, S, R (one susceptibility category for every isolate)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Wrong:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;S+I, S+I, I+R (more than one susceptibility category for every isolate)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;additional-columns&#34;&gt;Additional Columns&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Additional Columns&lt;/strong&gt; — filling in such columns is not mandatory.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Spatial Information
-&lt;ul&gt;
-&lt;li&gt;geographical objects (city, region, country, etc.)&lt;/li&gt;
-&lt;li&gt;latitude&lt;/li&gt;
-&lt;li&gt;longitude&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Metadata (textual data)&lt;/li&gt;
-&lt;li&gt;Metadata (numerical data)&lt;/li&gt;
-&lt;li&gt;Resistance Markers (resistance mechanisms, genes or mutations, etc.)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Spatial Information&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Geographical objects may include the name of a city, region, country. User can also specify more detailed address (e.g. specific hospital wing). &lt;em&gt;Latitude&lt;/em&gt; and &lt;em&gt;Longitude&lt;/em&gt; can be changed manually if automatic determination of the objects&amp;rsquo; coordinates did not work.&lt;/p&gt;
-&lt;p&gt;The main requirements and recommendations for the geographical data are presented in the &lt;strong&gt;&amp;ldquo;Step 3: Geocoding&amp;rdquo;&lt;/strong&gt; stage.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Metadata (textual data)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;User can select a maximum of 10 parameter columns containing textual metadata. For example, &amp;ldquo;Clinic Material Localisation&amp;rdquo;, &amp;ldquo;Hospital department&amp;rdquo;, etc.&lt;/p&gt;
-&lt;p&gt;It is recommended to include the column with geographical objects names in here. Individual patient&amp;rsquo; characteristics may also be included in here (e.g. &amp;ldquo;Febrilic Fever&amp;rdquo; column). Recommended values: &amp;ldquo;Yes&amp;rdquo;, &amp;ldquo;No&amp;rdquo;, &amp;ldquo;Not applicable&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Metadata (numerical data)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;User can select only one continuous numeric variable such as &amp;ldquo;Patient&amp;rsquo;s age&amp;rdquo;, &amp;ldquo;weight&amp;rdquo;, etc.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Resistance Markers&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Total number of resistance markers is unlimited.&lt;/li&gt;
-&lt;li&gt;User may create his own &amp;ldquo;group of markers&amp;rdquo;.&lt;/li&gt;
-&lt;li&gt;Resistance markers may include resistance mechanisms, genes or mutations, and other data that can be correlated with phenotypic resistance data .&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The following notation system is recommended:
-&lt;table&gt;
-&lt;tr&gt;
-&lt;th&gt;Investigation of the specific genetic or phenotypic markers&amp;hellip; &lt;/th&gt;
-&lt;th&gt;Value(s)&lt;/th&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&amp;hellip;was conducted with positive test result&lt;/td&gt;
-&lt;td&gt;&amp;ldquo;OXA-48&amp;rdquo;, &amp;ldquo;KPC&amp;rdquo;, &amp;ldquo;MRSA&amp;rdquo;, &amp;ldquo;CTX-M-15&amp;rdquo; etc.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&amp;hellip;was conducted with negative test result&lt;/td&gt;
-&lt;td&gt;&amp;ldquo;Negative&amp;rdquo;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&amp;hellip;was &lt;strong&gt;not&lt;/strong&gt; conducted&lt;/td&gt;
-&lt;td&gt;&amp;ldquo;Not defined&amp;rdquo;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&amp;hellip;is not applicable for the microorganism&lt;/td&gt;
-&lt;td&gt;empty cell&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;&lt;/p&gt;
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Resistance Markers&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;</description></item><item><title>Step 1 - Upload Data</title><link>https://amrcloud.net/en/tutorials/import-data/04-upload-file/</link><pubDate>Fri, 14 Feb 2020 00:04:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/04-upload-file/</guid><description>
-&lt;h2 id=&#34;uploading&#34;&gt;Uploading&lt;/h2&gt;
-&lt;p&gt;After inspecting the &lt;strong&gt;Read Me&lt;/strong&gt; tab user can start uploading data into &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;. To do this, go to the &lt;strong&gt;Step One&lt;/strong&gt; tab, press the &lt;strong&gt;&amp;ldquo;Browse&amp;hellip;&amp;rdquo;&lt;/strong&gt; button and select the file with data for uploading. After successfully uploading the table, you should press the &amp;ldquo;Validate and Save Step One&amp;rdquo; button.&lt;/p&gt;
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_file.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_file.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;File uploading&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-&lt;div&gt;
-&lt;strong&gt;IMPORTANT!&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; supports uploading of &lt;em&gt;.xlsx&lt;/em&gt; and &lt;em&gt;.csv&lt;/em&gt; data tables.&lt;/li&gt;
-&lt;li&gt;User can customize the data table preview with the special slider (displaying from 5 to 30 rows).&lt;/li&gt;
-&lt;li&gt;At the &lt;strong&gt;&amp;ldquo;Options for csv file&amp;rdquo;&lt;/strong&gt; panel user can configure the display of the data tables uploaded in &lt;em&gt;.csv&lt;/em&gt; format (such tables have no columns — all information is presented as rows).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step1.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step1.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Data table preview&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;h2 id=&#34;text-encoding-problems&#34;&gt;Text Encoding Problems&lt;/h2&gt;
-&lt;p&gt;If user has problems with text encoding in the uploaded data table, he needs to open the source file with any suitable text editor and re-save it with the UTF-8 encoding. Then the file will need to be re-uploaded into &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/wrong_letters.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/wrong_letters.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Text encoding problem&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;</description></item><item><title>Step 2 - Set Fields</title><link>https://amrcloud.net/en/tutorials/import-data/05-identification/</link><pubDate>Fri, 14 Feb 2020 00:03:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/05-identification/</guid><description>
-&lt;p&gt;At this stage for correct work of all analytical components of the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; platform user should correctly correlate the names of eight standard system categories with the columns from the uploaded data table.&lt;/p&gt;
-&lt;p&gt;On the left side of the screen there are standard categories (for example, &amp;ldquo;Isolate ID&amp;rdquo;, &amp;ldquo;Organism Group(s)&amp;rdquo;) with basic information and requirements. On the right side of the screen there are panels with drop-down lists of table column headers, with which the user correlates system categories.&lt;/p&gt;
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_orgroup.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_orgroup.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Step Two window structure&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;h2 id=&#34;isolate-id&#34;&gt;Isolate ID&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;This is a mandatory category.&lt;/li&gt;
-&lt;li&gt;Isolate ID can be any unique identifier that doesn&amp;rsquo;t include special characters (?,!,%$#&amp;gt;&amp;lt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;organism-group-s&#34;&gt;Organism Group(s)&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;This is a desirable category.&lt;/li&gt;
-&lt;li&gt;Grouping of organisms (species) is useful for analyzing combined prevalence and AST data of several species.&lt;/li&gt;
-&lt;li&gt;Use any name(s) for organism group(s), taxonomic (e.g. Enterobacterales) or non-taxonomic (e.g. Anaerobes, Gramnegative).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;organism-species-names&#34;&gt;Organism/Species Names&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;This is a mandatory category.&lt;/li&gt;
-&lt;li&gt;Use Latinized binomial names acoording to official nomenclature (e.g. Escherichia coli).&lt;/li&gt;
-&lt;li&gt;Proper genus and species names are automatically recognized to apply specific breakpoints and define susceptibility categories.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Right:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Klebsiella pneumoniae, Acinetobacter baumannii, Pseudomonas aeruginosa (no reductions, corresponds to the official nomenclature)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Wrong:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;K. pneumoniae, A. baumannii, P. aeruginosa (reductions are used)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;After selecting the appropriate column name from the drop-down list, user can press the &lt;strong&gt;&amp;ldquo;Check Species Names&amp;rdquo;&lt;/strong&gt; button for automatic checking.&lt;/p&gt;
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/change_sp.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/change_sp.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Checking species names&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;After pressing the &lt;strong&gt;&amp;ldquo;Check Species Names&amp;rdquo;&lt;/strong&gt; button a small table will appear with the names that fails the verification process (i.e. the names of microorganisms which were not recognized by the system). Then user should look through this table carefully:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;If there are errors in some names (for example, a missing letter), user should correct the errors right in the editor window by double-clicking the necessary cell with the left mouse button and pressing the &amp;ldquo;&lt;strong&gt;Correct species names&lt;/strong&gt;&amp;rdquo; button.&lt;/li&gt;
-&lt;li&gt;If there are no spelling errors, it means that there are no microorganisms with such names in the system. Such microorganisms are &lt;strong&gt;not excluded&lt;/strong&gt; from the general data — analysis charts will also be built for them — only they will be colored not according to susceptibility categories, but in a solid gray color. If user works with his own S/I/R susceptibility categories, there will be no problem in identifying microorganism species.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-&lt;div&gt;
-&lt;p&gt;If interpretation criteria for particular microorganism species have not been found, the system will try to apply criteria for the appropriate microorganism group.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Example.
-If Salmonella typhi criterias are not found, then Salmonella spp. criterias would be applied.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;date&#34;&gt;Date&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;This is a mandatory category.&lt;/li&gt;
-&lt;li&gt;Records without a date or with a varying date format will not be imported.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_wrong.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_wrong.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Wrong date format&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;If all the dates are arranged correctly and uniformly, user (after selecting the corresponding header from the drop-down list) will see the time scale &lt;strong&gt;&amp;ldquo;Date Range Privew&amp;rdquo;&lt;/strong&gt;. If the date format is not recognized with the &lt;strong&gt;Auto&lt;/strong&gt; option, user should try to select one of the alternative formats:
-- 2018-12-31 (i.e. year-month-day)
-- 2018-31-12 (i.e. year-day-month)
-- 31-12-2018 (i.e. day-month-year)
-- 12-31-2018 (i.e. month-day-year)&lt;/p&gt;
-&lt;div class=&#34;alert alert-warning&#34;&gt;
-&lt;div&gt;
-Once user has selected the date format, he should check the box &lt;strong&gt;&amp;ldquo;Check if you see the time scale?&amp;rdquo;&lt;/strong&gt;.
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_right.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_right.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Selecting the Date&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;h2 id=&#34;spatial-information&#34;&gt;Spatial Information&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;This is &lt;strong&gt;not&lt;/strong&gt; a mandatory category.&lt;/li&gt;
-&lt;li&gt;There are two types of spatial information: &amp;ldquo;Geolocation&amp;rdquo; and &amp;ldquo;Longitude/Latitude Coordinates&amp;rdquo;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Geolocations can include regions, such as countries and states, natural areas, cities and smaller locality types. The system will attempt to identify geolocations and find respective geographic coordinates (latitude and longitude) automatically. Optionally, user can check the box and select the columns containg the Longitude and Latitude values.&lt;/p&gt;
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geog_object.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geog_object.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Spatial information&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;Please note that only the first 10 rows of the corresponding column are displayed to the user for preview.&lt;/p&gt;
-&lt;!-- ### Выберите столбец, содержащий любую числовую переменную --&gt;
-&lt;h2 id=&#34;numeric-parameter&#34;&gt;Numeric Parameter&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;This is &lt;strong&gt;not&lt;/strong&gt; a mandatory category.&lt;/li&gt;
-&lt;li&gt;As a numeric parameter, user can upload one of any continuous numeric variable, for example Age, Weight, etc.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;User should check the corresponding box on the right side of the screen and select the table header form the drop-down list.&lt;/p&gt;
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/numeric.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/numeric.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Numeric parameter&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;Please note that only the first 10 rows of the corresponding column are displayed to the user for preview.
-&lt;!-- ### Выберите столбцы, содержащие информацию о маркерах резистентности --&gt;&lt;/p&gt;
-&lt;h2 id=&#34;resistance-markers&#34;&gt;Resistance Markers&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;This is &lt;strong&gt;not&lt;/strong&gt; a mandatory category.&lt;/li&gt;
-&lt;li&gt;The total number of columns of this type is unlimited.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If there are column(s) containing information about Resistance Markers (resistance mechanisms, genes or mutations) that can be correlated with phenotypic resistance data, check the box and then select the respective column(s). Column header(s) will be used as name(s) of the Marker Groups.&lt;/p&gt;
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers_genetic.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers_genetic.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Resistance markers&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;!-- ### Выберите столбцы, содержащие другие параметры для фильтрации и группировки данных --&gt;
-&lt;h2 id=&#34;additional-parameters&#34;&gt;Additional Parameters&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;This is &lt;strong&gt;not&lt;/strong&gt; a mandatory category.&lt;/li&gt;
-&lt;li&gt;A maximum of 10 Parameter Columns can be selected.&lt;/li&gt;
-&lt;li&gt;Column titles will be used as names of the parameters.&lt;/li&gt;
-&lt;li&gt;Drag selected parameters to set their priority from 1 to 10.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/other_filter.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/other_filter.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Additional parameters&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;h2 id=&#34;completing-step-two&#34;&gt;Completing Step Two&lt;/h2&gt;
-&lt;p&gt;To go to the next stage of the data import user should press the &lt;strong&gt;&amp;ldquo;Validate Step Two&amp;rdquo;&lt;/strong&gt; button. It is recommended to review and double-check all the points of the current stage before saving.&lt;/p&gt;
-&lt;figure&gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/save_step2.png&#34; &gt;
-&lt;/figure&gt;</description></item><item><title>Step 3 - Geocode</title><link>https://amrcloud.net/en/tutorials/import-data/06-geocode/</link><pubDate>Fri, 14 Feb 2020 00:02:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/06-geocode/</guid><description>
-&lt;p&gt;Geocoding is an important step in creating a basis with which &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; builds various maps and pins geographic markers.&lt;/p&gt;
-&lt;p&gt;Regions, cities and even separate hospital departments can be used as geographical objects in &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;general-information&#34;&gt;General Information&lt;/h2&gt;
-&lt;p&gt;In order to start the geocoding process you should press the &lt;strong&gt;&amp;ldquo;1.Geocode it&amp;rdquo;&lt;/strong&gt; button. This process takes some time, so user should wait for the system to put coordinates in the table below and for markers to appear in the map preview window.&lt;/p&gt;
-&lt;p&gt;In order to open the map preview, user should press the header of the &lt;strong&gt;&amp;ldquo;Map: preview&amp;rdquo;&lt;/strong&gt; blue panel.&lt;/p&gt;
-&lt;p&gt;After the user is sure that all markers with coordinates are placed correctly, he should press the &lt;strong&gt;&amp;ldquo;Validate Step Three&amp;rdquo;&lt;/strong&gt; button and proceed to the next import stage.&lt;/p&gt;
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_1.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_1.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Geocoding&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;h2 id=&#34;if-location-s-is-not-found&#34;&gt;If Location(s) Is Not Found&lt;/h2&gt;
-&lt;p&gt;If &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; didn&amp;rsquo;t recognize the geographical object (didn&amp;rsquo;t put coordinates next to its name), user should check the &lt;strong&gt;correctness of the name&lt;/strong&gt; of the geographical object. If there are errors in the name(s), it is necessary to correct the data in the source data table, to reset all import steps, and to upload the newly corrected version.&lt;/p&gt;
-&lt;p&gt;If there are no errors in the names of geographical objects, user should manually set the coordinates. To do it he should enter the corresponding coordinates in the right table (&lt;span style=&#34;color:#FEAB3A&#34;&gt;&lt;strong&gt;orange&lt;/strong&gt;&lt;/span&gt; panel &lt;em&gt;&amp;ldquo;Location(s) not found&amp;rdquo;&lt;/em&gt;) and press the button &lt;strong&gt;&amp;ldquo;Fix Coordinates&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;how-to-get-the-coordinates&#34;&gt;How to Get the Coordinates&lt;/h2&gt;
-&lt;p&gt;User can get the coordinates of the required geographical objects using the preview map.
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_2.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_2.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Map preview&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AMRcloud</title><link>https://amrcloud.net/en/</link><atom:link href="https://amrcloud.net/en/index.xml" rel="self" type="application/rss+xml"/><description>AMRcloud</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud</copyright><lastBuildDate>Fri, 14 Feb 2020 00:06:00 +0000</lastBuildDate><image><url>https://amrcloud.net/img/amr-cloud-logo-text.png</url><title>AMRcloud</title><link>https://amrcloud.net/en/</link></image><item><title>Projects and Data Sets</title><link>https://amrcloud.net/en/tutorials/import-data/00-project-set/</link><pubDate>Fri, 14 Feb 2020 00:06:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/00-project-set/</guid><description>&lt;h2 id="what-is-a-project--data-set">What is a Project / Data Set&lt;/h2>
+&lt;p>Within the &lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span> user can create different projects and data sets.&lt;/p>
+&lt;p>&lt;u>Project&lt;/u> is a structural element of the AMRcloud platform that allows to group several data sets at the user's discretion.&lt;/p>
+&lt;p>&lt;u>Data set(s)&lt;/u> is a basic unit within the project that contains information with which &lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span> works directly.&lt;/p>
+&lt;h2 id="how-to-create-a-project">How to create a project&lt;/h2>
+&lt;p>In order to create a project, user should press the &lt;em>&lt;strong>+ New Project&lt;/strong>&lt;/em> button in the upper left corner of the screen after entering the personal account.&lt;/p>
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/new_project.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/new_project.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>New project&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>The modal dialog &amp;ldquo;Add new project&amp;rdquo; invites user to fill in the &amp;ldquo;New project name&amp;rdquo; and &amp;ldquo;Project subtitle&amp;rdquo; fields (with a limit of 255 characters).
+It is strongly recommended to use unique or significantly different names for your projects. Do not limit yourself to the &lt;em>&amp;ldquo;test1&amp;rdquo;&lt;/em> and &lt;em>&amp;ldquo;test2&amp;rdquo;&lt;/em> variants. The project subtitle can be represented by keywords that explain the name.&lt;/p>
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/new_project2.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/new_project2.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Creation of the project&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h2 id="types-of-projects">Types of projects&lt;/h2>
+&lt;p>User can work with two types of projects:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>My Project&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Team Project&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>My Project&lt;/strong> is a personal user project.
+Access to the data is granted to the owner alone. The owner can share his project's data with other users by generating external public links.&lt;/p>
+&lt;p>&lt;strong>Team Project&lt;/strong> is a project for working with other users in a team. One of the users becomes a team administrator (i.e. creator), and others become team members (i.e. users who invited by the team administrator).&lt;/p>
+&lt;h2 id="data-sets">Data sets&lt;/h2>
+&lt;p>Within the project user creates several data sets. To create a new data set, the user needs to open the project by clicking the &lt;strong>&amp;ldquo;Open&amp;rdquo;&lt;/strong> button and then click the &lt;strong>&amp;ldquo;+ New Set&amp;rdquo;&lt;/strong> button.&lt;/p>
+&lt;p>The modal dialog &amp;ldquo;Add New Set&amp;rdquo; invites user to fill in the &amp;ldquo;New set name&amp;rdquo; and &amp;ldquo;Set subtitle&amp;rdquo; fields (with a limit of 255 characters).
+It is strongly recommended to use unique or significantly different names for your sets. Do not limit yourself to the &lt;em>&amp;ldquo;test1&amp;rdquo;&lt;/em> and &lt;em>&amp;ldquo;test2&amp;rdquo;&lt;/em> variants. The set subtitle can be represented by keywords that explain the name.&lt;/p>
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/new_project3.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/new_project3.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Creation of the data set&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>After creating the project and the data set, user can start uploading the data. To do it, the user needs to open the project, to click the left mouse button on the data set and then to click the &amp;ldquo;Edit Set&amp;rdquo; button.&lt;/p></description></item><item><title>Data preparation</title><link>https://amrcloud.net/en/tutorials/import-data/01-prepare/</link><pubDate>Fri, 14 Feb 2020 00:05:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/01-prepare/</guid><description>&lt;h2 id="the-golden-rules-for-the-source-data">The &amp;ldquo;Golden Rules&amp;rdquo; for the source data&lt;/h2>
+&lt;p>One of the key points of working with the &lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span> platform is the structuring of your source data.&lt;/p>
+&lt;div class="alert alert-note">
+&lt;div>
+The main principles of data organization can be formulated as the following &amp;ldquo;Golden Rules&amp;rdquo;:&lt;/p>
+&lt;ol>
+&lt;li>Each isolate is represented by a separate row in the source datatable.&lt;/li>
+&lt;li>There are five mandatory columns in the source datatable (Isolate ID, Species Name, Organism Group, Date, AST Data).&lt;/li>
+&lt;li>There always should be one of the three suffixes after the generic name of antimicrobial drug («_mic», «_dd» or «_sir»).&lt;/li>
+&lt;li>All other additional columns with metadata in the source datatable are NOT mandatory (geographical data, resistance markers, etc.).&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="example-data">Example Data&lt;/h2>
+&lt;p>The basic requirements for the source data table are listed on the &lt;strong>Read Me&lt;/strong> tab of the data import page. At the bottom of the page there is a link to download an example data table that can be used for the original user's data formatting.&lt;/p>
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/example.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/example.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Data sample downloading&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h2 id="basic-requirements">Basic Requirements&lt;/h2>
+&lt;p>To work with the &lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span> it is necessary to convert the data to a single format.&lt;/p>
+&lt;ol>
+&lt;li>The data table should be flat. It means that it consists of columns and rows with &lt;em>no additional separators, no hierarchical structures&lt;/em>.
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/row_column.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/row_column.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Data table structure&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>The first row of the data table should contain the headings of all columns.
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/name.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/name.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Header row&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>The data table should contain 5 types of mandatory columns:&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Isolate Identifier (ID_isolate)&lt;/li>
+&lt;li>Organism/Species Name&lt;/li>
+&lt;li>Organism Group&lt;/li>
+&lt;li>Date&lt;/li>
+&lt;li>AST Data&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/mandatory.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/mandatory.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Mandatory columns&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h3 id="isolate-id">Isolate ID&lt;/h3>
+&lt;p>Non-unique numbers can be used as the isolate ID. The identifier can be either alphabetic or numerical.&lt;/p>
+&lt;h3 id="organismspecies-name">Organism/Species Name&lt;/h3>
+&lt;p>For the automatic interpretation &lt;strong>Species name&lt;/strong> must be full. Abbreviations in the species name are not allowed.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Right:&lt;/strong>&lt;/p>
+&lt;p>Staphylococcus aureus, Streptococcus pneumoniae&lt;/p>
+&lt;p>&lt;strong>Wrong:&lt;/strong>&lt;/p>
+&lt;p>S. aureus, S. pneumoniae&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="organism-group">Organism Group&lt;/h3>
+&lt;p>The &lt;strong>Organism Group&lt;/strong> can be shortened, but it should be identical throughout the column.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Right:&lt;/strong>&lt;/p>
+&lt;p>Enterobacterales, Staphyl, Enterobacterales, Staphyl (all names are standardized)&lt;/p>
+&lt;p>&lt;strong>Wrong:&lt;/strong>&lt;/p>
+&lt;p>Enterobac, Staph, Staphyl, Entbac, Staphylococ (names are not standardized)&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="date">Date&lt;/h3>
+&lt;p>The import system will automatically interpret any standard date format. The main condition is the universality of the date format throughout the column.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Right:&lt;/strong>&lt;/p>
+&lt;p>12.08.2018, 20.05.2017, 16.03.2014 (unified format DD.MM.YYYY)&lt;/p>
+&lt;p>&lt;strong>Wrong:&lt;/strong>&lt;/p>
+&lt;p>13.08.2018, 20/05/19, 03/16/2014 (non-unified format DD.MM.YYYY, DD/MM/YYYY, MM/DD/YYYY)&lt;/p>
+&lt;/blockquote>
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/data.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/data.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Date format&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h3 id="ast-data">AST Data&lt;/h3>
+&lt;p>Possible AST data formats:&lt;/p>
+&lt;ul>
+&lt;li>Minimum Inhibitory Concentrations (MICs)&lt;/li>
+&lt;li>Disk Diffusion Inhibition Zone Diameters&lt;/li>
+&lt;li>Susceptibility Categories (S/I/R)&lt;/li>
+&lt;/ul>
+&lt;h3 id="antimicrobial-suffixes">Antimicrobial Suffixes&lt;/h3>
+&lt;p>The header of the column with the results of the antibiotic susceptibility testing must comply with the following rules:&lt;/p>
+&lt;ol>
+&lt;li>The name of the antimicrobial agent should be full without any reductions, written in English. The list of the legitimate antibiotic names can be downloaded by the link at the bottom of the page.
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/list_antib.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/list_antib.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Legitimate antibiotic names list&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>Every generic ‘Antibiotic’ name shouled be followed by one of the three suffixes with underline symbol:&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th align="left">&lt;/th>
+&lt;th align="center">&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td align="left">&lt;strong>Minimum Inhibitory Concentrations&lt;/strong>&lt;/td>
+&lt;td align="center">_&lt;strong>mic&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td align="left">&lt;strong>Disk Diffusion Inhibition Zone Diameters&lt;/strong>&lt;/td>
+&lt;td align="center">_&lt;strong>dd&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td align="left">&lt;strong>Susceptibility Categories&lt;/strong>&lt;/td>
+&lt;td align="center">_&lt;strong>sir&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;p>tobramycin_sir, tetracycline_sir, amoxicillin-clavulanic acid_mic, daptomycin_dd&lt;/p>
+&lt;/blockquote>
+&lt;div class="alert alert-note">
+&lt;div>
+&lt;p>&lt;strong>Note&lt;/strong>&lt;/p>
+&lt;p>Antimicrobial agents with special interpretation criterias (user's S/I/R categories) and/or &lt;em>ECOFF&lt;/em> criterias can be recorded as follows:&lt;/p>
+&lt;blockquote>
+&lt;p>meropenem_ecoff_sir, moxifloxacin_clsi_sir, marbofloxacin_clsi_sir&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-warning">
+&lt;div>
+&lt;p>&lt;strong>IMPORTANT!&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Minimum inhibitory concentration values&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>MIC values are measured in mg/l.&lt;/li>
+&lt;li>Values must be numerical.&lt;/li>
+&lt;li>Non-numerical values containing expressions &lt;strong>&lt;code>&amp;lt;= ...&lt;/code>&lt;/strong> or &lt;strong>&lt;code>&amp;gt; ...&lt;/code>&lt;/strong> or &lt;strong>&lt;code>&amp;gt;= ...&lt;/code>&lt;/strong> would be converted into &lt;strong>numerical&lt;/strong>.&lt;/li>
+&lt;li>Symbols &lt;strong>&lt;code>&amp;lt;=&lt;/code>&lt;/strong> and &lt;strong>&lt;code>&amp;gt;=&lt;/code>&lt;/strong> standing before the numbers are ignored.&lt;/li>
+&lt;li>Numbers standing after &lt;strong>&lt;code>&amp;gt;&lt;/code>&lt;/strong> symbol would be multiplied by 2.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Disk Diffusion Inhibition Zone Diameters&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Diameter values measured in mm.&lt;/li>
+&lt;li>Values could be integers greater than or equal to 6.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Susceptibility Categories&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Allowed values: &amp;ldquo;S&amp;rdquo;, &amp;ldquo;I&amp;rdquo;, &amp;ldquo;R&amp;rdquo;.&lt;/li>
+&lt;li>Every isolate may have only one susceptibility category.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;/div>
+&lt;blockquote>
+&lt;p>&lt;strong>Right:&lt;/strong>&lt;/p>
+&lt;p>S, S, R (one susceptibility category for every isolate)&lt;/p>
+&lt;p>&lt;strong>Wrong:&lt;/strong>&lt;/p>
+&lt;p>S+I, S+I, I+R (more than one susceptibility category for every isolate)&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="additional-columns">Additional Columns&lt;/h3>
+&lt;p>&lt;strong>Additional Columns&lt;/strong> — filling in such columns is not mandatory.&lt;/p>
+&lt;ol>
+&lt;li>Spatial Information
+&lt;ul>
+&lt;li>geographical objects (city, region, country, etc.)&lt;/li>
+&lt;li>latitude&lt;/li>
+&lt;li>longitude&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Metadata (textual data)&lt;/li>
+&lt;li>Metadata (numerical data)&lt;/li>
+&lt;li>Resistance Markers (resistance mechanisms, genes or mutations, etc.)&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Spatial Information&lt;/strong>&lt;/p>
+&lt;p>Geographical objects may include the name of a city, region, country. User can also specify more detailed address (e.g. specific hospital wing). &lt;em>Latitude&lt;/em> and &lt;em>Longitude&lt;/em> can be changed manually if automatic determination of the objects&amp;rsquo; coordinates did not work.&lt;/p>
+&lt;p>The main requirements and recommendations for the geographical data are presented in the &lt;strong>&amp;ldquo;Step 3: Geocoding&amp;rdquo;&lt;/strong> stage.&lt;/p>
+&lt;p>&lt;strong>Metadata (textual data)&lt;/strong>&lt;/p>
+&lt;p>User can select a maximum of 10 parameter columns containing textual metadata. For example, &amp;ldquo;Clinic Material Localisation&amp;rdquo;, &amp;ldquo;Hospital department&amp;rdquo;, etc.&lt;/p>
+&lt;p>It is recommended to include the column with geographical objects names in here. Individual patient&amp;rsquo; characteristics may also be included in here (e.g. &amp;ldquo;Febrilic Fever&amp;rdquo; column). Recommended values: &amp;ldquo;Yes&amp;rdquo;, &amp;ldquo;No&amp;rdquo;, &amp;ldquo;Not applicable&amp;rdquo;.&lt;/p>
+&lt;p>&lt;strong>Metadata (numerical data)&lt;/strong>&lt;/p>
+&lt;p>User can select only one continuous numeric variable such as &amp;ldquo;Patient's age&amp;rdquo;, &amp;ldquo;weight&amp;rdquo;, etc.&lt;/p>
+&lt;p>&lt;strong>Resistance Markers&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Total number of resistance markers is unlimited.&lt;/li>
+&lt;li>User may create his own &amp;ldquo;group of markers&amp;rdquo;.&lt;/li>
+&lt;li>Resistance markers may include resistance mechanisms, genes or mutations, and other data that can be correlated with phenotypic resistance data .&lt;/li>
+&lt;/ul>
+&lt;p>The following notation system is recommended:&lt;/p>
+&lt;table>
+&lt;tr>
+&lt;th>Investigation of the specific genetic or phenotypic markers... &lt;/th>
+&lt;th>Value(s)&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td>...was conducted with positive test result&lt;/td>
+&lt;td>"OXA-48", "KPC", "MRSA", "CTX-M-15" etc.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>...was conducted with negative test result&lt;/td>
+&lt;td>"Negative"&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>...was **not** conducted&lt;/td>
+&lt;td>"Not defined"&lt;/td>
+&lt;/tr>
+&lt;/tr>
+&lt;tr>
+&lt;td>...is not applicable for the microorganism&lt;/td>
+&lt;td>empty cell&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/markers.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/markers.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Resistance Markers&lt;/h6>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Step 1 - Upload Data</title><link>https://amrcloud.net/en/tutorials/import-data/04-upload-file/</link><pubDate>Fri, 14 Feb 2020 00:04:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/04-upload-file/</guid><description>&lt;h2 id="uploading">Uploading&lt;/h2>
+&lt;p>After inspecting the &lt;strong>Read Me&lt;/strong> tab user can start uploading data into &lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span>. To do this, go to the &lt;strong>Step One&lt;/strong> tab, press the &lt;strong>&amp;ldquo;Browse&amp;hellip;&amp;quot;&lt;/strong> button and select the file with data for uploading. After successfully uploading the table, you should press the &amp;ldquo;Validate and Save Step One&amp;rdquo; button.&lt;/p>
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/choice_file.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/choice_file.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>File uploading&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
+&lt;div class="alert alert-note">
+&lt;div>
+&lt;strong>IMPORTANT!&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span> supports uploading of &lt;em>.xlsx&lt;/em> and &lt;em>.csv&lt;/em> data tables.&lt;/li>
+&lt;li>User can customize the data table preview with the special slider (displaying from 5 to 30 rows).&lt;/li>
+&lt;li>At the &lt;strong>&amp;ldquo;Options for csv file&amp;rdquo;&lt;/strong> panel user can configure the display of the data tables uploaded in &lt;em>.csv&lt;/em> format (such tables have no columns — all information is presented as rows).&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;/div>
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/step1.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/step1.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Data table preview&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h2 id="text-encoding-problems">Text Encoding Problems&lt;/h2>
+&lt;p>If user has problems with text encoding in the uploaded data table, he needs to open the source file with any suitable text editor and re-save it with the UTF-8 encoding. Then the file will need to be re-uploaded into &lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span>.&lt;/p>
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/wrong_letters.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/wrong_letters.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Text encoding problem&lt;/h6>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Step 2 - Set Fields</title><link>https://amrcloud.net/en/tutorials/import-data/05-identification/</link><pubDate>Fri, 14 Feb 2020 00:03:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/05-identification/</guid><description>&lt;p>At this stage for correct work of all analytical components of the &lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span> platform user should correctly correlate the names of eight standard system categories with the columns from the uploaded data table.&lt;/p>
+&lt;p>On the left side of the screen there are standard categories (for example, &amp;ldquo;Isolate ID&amp;rdquo;, &amp;ldquo;Organism Group(s)&amp;quot;) with basic information and requirements. On the right side of the screen there are panels with drop-down lists of table column headers, with which the user correlates system categories.&lt;/p>
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/choice_orgroup.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/choice_orgroup.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Step Two window structure&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h2 id="isolate-id">Isolate ID&lt;/h2>
+&lt;ul>
+&lt;li>This is a mandatory category.&lt;/li>
+&lt;li>Isolate ID can be any unique identifier that doesn't include special characters (?,!,%$#&amp;gt;&amp;lt;)&lt;/li>
+&lt;/ul>
+&lt;h2 id="organism-groups">Organism Group(s)&lt;/h2>
+&lt;ul>
+&lt;li>This is a desirable category.&lt;/li>
+&lt;li>Grouping of organisms (species) is useful for analyzing combined prevalence and AST data of several species.&lt;/li>
+&lt;li>Use any name(s) for organism group(s), taxonomic (e.g. Enterobacterales) or non-taxonomic (e.g. Anaerobes, Gramnegative).&lt;/li>
+&lt;/ul>
+&lt;h2 id="organismspecies-names">Organism/Species Names&lt;/h2>
+&lt;ul>
+&lt;li>This is a mandatory category.&lt;/li>
+&lt;li>Use Latinized binomial names acoording to official nomenclature (e.g. Escherichia coli).&lt;/li>
+&lt;li>Proper genus and species names are automatically recognized to apply specific breakpoints and define susceptibility categories.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>&lt;strong>Right:&lt;/strong>&lt;/p>
+&lt;p>Klebsiella pneumoniae, Acinetobacter baumannii, Pseudomonas aeruginosa (no reductions, corresponds to the official nomenclature)&lt;/p>
+&lt;p>&lt;strong>Wrong:&lt;/strong>&lt;/p>
+&lt;p>K. pneumoniae, A. baumannii, P. aeruginosa (reductions are used)&lt;/p>
+&lt;/blockquote>
+&lt;p>After selecting the appropriate column name from the drop-down list, user can press the &lt;strong>&amp;ldquo;Check Species Names&amp;rdquo;&lt;/strong> button for automatic checking.&lt;/p>
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/change_sp.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/change_sp.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Checking species names&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>After pressing the &lt;strong>&amp;ldquo;Check Species Names&amp;rdquo;&lt;/strong> button a small table will appear with the names that fails the verification process (i.e. the names of microorganisms which were not recognized by the system). Then user should look through this table carefully:&lt;/p>
+&lt;ul>
+&lt;li>If there are errors in some names (for example, a missing letter), user should correct the errors right in the editor window by double-clicking the necessary cell with the left mouse button and pressing the &amp;ldquo;&lt;strong>Correct species names&lt;/strong>&amp;rdquo; button.&lt;/li>
+&lt;li>If there are no spelling errors, it means that there are no microorganisms with such names in the system. Such microorganisms are &lt;strong>not excluded&lt;/strong> from the general data — analysis charts will also be built for them — only they will be colored not according to susceptibility categories, but in a solid gray color. If user works with his own S/I/R susceptibility categories, there will be no problem in identifying microorganism species.&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-note">
+&lt;div>
+&lt;p>If interpretation criteria for particular microorganism species have not been found, the system will try to apply criteria for the appropriate microorganism group.&lt;/p>
+&lt;blockquote>
+&lt;p>Example.
+If Salmonella typhi criterias are not found, then Salmonella spp. criterias would be applied.&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="date">Date&lt;/h2>
+&lt;ul>
+&lt;li>This is a mandatory category.&lt;/li>
+&lt;li>Records without a date or with a varying date format will not be imported.&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/date_wrong.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/date_wrong.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Wrong date format&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>If all the dates are arranged correctly and uniformly, user (after selecting the corresponding header from the drop-down list) will see the time scale &lt;strong>&amp;ldquo;Date Range Privew&amp;rdquo;&lt;/strong>. If the date format is not recognized with the &lt;strong>Auto&lt;/strong> option, user should try to select one of the alternative formats:&lt;/p>
+&lt;ul>
+&lt;li>2018-12-31 (i.e. year-month-day)&lt;/li>
+&lt;li>2018-31-12 (i.e. year-day-month)&lt;/li>
+&lt;li>31-12-2018 (i.e. day-month-year)&lt;/li>
+&lt;li>12-31-2018 (i.e. month-day-year)&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-warning">
+&lt;div>
+Once user has selected the date format, he should check the box &lt;strong>&amp;ldquo;Check if you see the time scale?&amp;quot;&lt;/strong>.
+&lt;/div>
+&lt;/div>
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/date_right.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/date_right.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Selecting the Date&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h2 id="spatial-information">Spatial Information&lt;/h2>
+&lt;ul>
+&lt;li>This is &lt;strong>not&lt;/strong> a mandatory category.&lt;/li>
+&lt;li>There are two types of spatial information: &amp;ldquo;Geolocation&amp;rdquo; and &amp;ldquo;Longitude/Latitude Coordinates&amp;rdquo;.&lt;/li>
+&lt;/ul>
+&lt;p>Geolocations can include regions, such as countries and states, natural areas, cities and smaller locality types. The system will attempt to identify geolocations and find respective geographic coordinates (latitude and longitude) automatically. Optionally, user can check the box and select the columns containg the Longitude and Latitude values.&lt;/p>
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/geog_object.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/geog_object.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Spatial information&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Please note that only the first 10 rows of the corresponding column are displayed to the user for preview.&lt;/p>
+&lt;!-- ### Выберите столбец, содержащий любую числовую переменную -->
+&lt;h2 id="numeric-parameter">Numeric Parameter&lt;/h2>
+&lt;ul>
+&lt;li>This is &lt;strong>not&lt;/strong> a mandatory category.&lt;/li>
+&lt;li>As a numeric parameter, user can upload one of any continuous numeric variable, for example Age, Weight, etc.&lt;/li>
+&lt;/ul>
+&lt;p>User should check the corresponding box on the right side of the screen and select the table header form the drop-down list.&lt;/p>
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/numeric.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/numeric.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Numeric parameter&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Please note that only the first 10 rows of the corresponding column are displayed to the user for preview.&lt;/p>
+&lt;!-- ### Выберите столбцы, содержащие информацию о маркерах резистентности -->
+&lt;h2 id="resistance-markers">Resistance Markers&lt;/h2>
+&lt;ul>
+&lt;li>This is &lt;strong>not&lt;/strong> a mandatory category.&lt;/li>
+&lt;li>The total number of columns of this type is unlimited.&lt;/li>
+&lt;/ul>
+&lt;p>If there are column(s) containing information about Resistance Markers (resistance mechanisms, genes or mutations) that can be correlated with phenotypic resistance data, check the box and then select the respective column(s). Column header(s) will be used as name(s) of the Marker Groups.&lt;/p>
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/markers_genetic.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/markers_genetic.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Resistance markers&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
+&lt;!-- ### Выберите столбцы, содержащие другие параметры для фильтрации и группировки данных -->
+&lt;h2 id="additional-parameters">Additional Parameters&lt;/h2>
+&lt;ul>
+&lt;li>This is &lt;strong>not&lt;/strong> a mandatory category.&lt;/li>
+&lt;li>A maximum of 10 Parameter Columns can be selected.&lt;/li>
+&lt;li>Column titles will be used as names of the parameters.&lt;/li>
+&lt;li>Drag selected parameters to set their priority from 1 to 10.&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/other_filter.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/other_filter.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Additional parameters&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h2 id="completing-step-two">Completing Step Two&lt;/h2>
+&lt;p>To go to the next stage of the data import user should press the &lt;strong>&amp;ldquo;Validate Step Two&amp;rdquo;&lt;/strong> button. It is recommended to review and double-check all the points of the current stage before saving.&lt;/p>
+&lt;figure>
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/save_step2.png" >
+&lt;/figure></description></item><item><title>Step 3 - Geocode</title><link>https://amrcloud.net/en/tutorials/import-data/06-geocode/</link><pubDate>Fri, 14 Feb 2020 00:02:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/06-geocode/</guid><description>&lt;p>Geocoding is an important step in creating a basis with which &lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span> builds various maps and pins geographic markers.&lt;/p>
+&lt;p>Regions, cities and even separate hospital departments can be used as geographical objects in &lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span>.&lt;/p>
+&lt;h2 id="general-information">General Information&lt;/h2>
+&lt;p>In order to start the geocoding process you should press the &lt;strong>&amp;ldquo;1.Geocode it&amp;rdquo;&lt;/strong> button. This process takes some time, so user should wait for the system to put coordinates in the table below and for markers to appear in the map preview window.&lt;/p>
+&lt;p>In order to open the map preview, user should press the header of the &lt;strong>&amp;ldquo;Map: preview&amp;rdquo;&lt;/strong> blue panel.&lt;/p>
+&lt;p>After the user is sure that all markers with coordinates are placed correctly, he should press the &lt;strong>&amp;ldquo;Validate Step Three&amp;rdquo;&lt;/strong> button and proceed to the next import stage.&lt;/p>
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/geoc_1.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/geoc_1.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Geocoding&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h2 id="if-locations-is-not-found">If Location(s) Is Not Found&lt;/h2>
+&lt;p>If &lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span> didn't recognize the geographical object (didn't put coordinates next to its name), user should check the &lt;strong>correctness of the name&lt;/strong> of the geographical object. If there are errors in the name(s), it is necessary to correct the data in the source data table, to reset all import steps, and to upload the newly corrected version.&lt;/p>
+&lt;p>If there are no errors in the names of geographical objects, user should manually set the coordinates. To do it he should enter the corresponding coordinates in the right table (&lt;span style="color:#FEAB3A">&lt;strong>orange&lt;/strong>&lt;/span> panel &lt;em>&amp;ldquo;Location(s) not found&amp;rdquo;&lt;/em>) and press the button &lt;strong>&amp;ldquo;Fix Coordinates&amp;rdquo;&lt;/strong>.&lt;/p>
+&lt;h2 id="how-to-get-the-coordinates">How to Get the Coordinates&lt;/h2>
+&lt;p>User can get the coordinates of the required geographical objects using the preview map.
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/geoc_2.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/geoc_2.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Map preview&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
 .
-To do it, user should &lt;strong&gt;zoom in on a geographical object&lt;/strong&gt; and click on it with the left mouse button. The object&amp;rsquo;s Latitude and Longtitude will be displayed below the map. After determining the object&amp;rsquo;s coordinates, user should copy and paste them into the corresponding fields.
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search2.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search2.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Getting the coordinates&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
+To do it, user should &lt;strong>zoom in on a geographical object&lt;/strong> and click on it with the left mouse button. The object's Latitude and Longtitude will be displayed below the map. After determining the object's coordinates, user should copy and paste them into the corresponding fields.
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/geoc_search2.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/geoc_search2.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Getting the coordinates&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
 .
-If user doesn&amp;rsquo;t know the exact location of the geographical object on the map, he can use &lt;strong&gt;search string&lt;/strong&gt; on the map and then left-click the object.
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Search bar&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-.&lt;/p&gt;
-&lt;h2 id=&#34;incorrect-marker-s-position&#34;&gt;Incorrect Marker&amp;rsquo;s Position&lt;/h2&gt;
-&lt;p&gt;The &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; system may not automatically recognize user&amp;rsquo;s geographical objects. For example, instead of St. Petersburg, Russia, system may pin St. Petersburg, Florida, USA. Therefore, user should carefully check the preview map before saving the results of the geocoding stage.&lt;/p&gt;
-&lt;p&gt;If user wants to correct the position of the marker on the map, he should:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Click with the left mouse button on the required cell in the &lt;span style=&#34;color:#73A839&#34;&gt;&lt;strong&gt;green table&lt;/strong&gt;&lt;/span&gt;.&lt;/li&gt;
-&lt;li&gt;Press the &lt;strong&gt;&amp;ldquo;Edit Coordinates&amp;rdquo;&lt;/strong&gt; button.&lt;/li&gt;
-&lt;li&gt;Edit the coordinates in the &lt;span style=&#34;color:#FEAB3A&#34;&gt;&lt;strong&gt;orange table&lt;/strong&gt;&lt;/span&gt;.&lt;/li&gt;
-&lt;li&gt;Press the &lt;strong&gt;&amp;ldquo;Fix Coordinates&amp;rdquo;&lt;/strong&gt; button.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_3.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_3.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Cell selecting&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_change.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_change.png&#34; &gt;
-&lt;/a&gt;
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-&lt;h6&gt;Coordinates correcting&lt;/h6&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;h2 id=&#34;local-objects&#34;&gt;Local Objects&lt;/h2&gt;
-&lt;p&gt;If user often works with his specific set of local geographical objects, he can save the coordinates of these local objects for future automatic use. For this purpose after editing coordinates in &lt;span style=&#34;color:#FEAB3A&#34;&gt;&lt;strong&gt;orange table&lt;/strong&gt;&lt;/span&gt;, user should check the box &lt;strong&gt;&amp;ldquo;Save coordinates for future usage&amp;rdquo;&lt;/strong&gt;. So the geographical coordinates will be permanently assigned to the corresponding name of the geographical object and will be saved in the user account. At subsequent downloads, the coordinates of objects with the same names will be automatically geocoded.&lt;/p&gt;</description></item><item><title>Step 4 - Determine S/I/R</title><link>https://amrcloud.net/en/tutorials/import-data/07-interpretation/</link><pubDate>Fri, 14 Feb 2020 00:01:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/07-interpretation/</guid><description>&lt;p&gt;First of all, at this stage user should choose the interpretation criteria from the drop-down list and press the &lt;strong&gt;&amp;ldquo;Interpret MIC and Disk Diffusion data&amp;rdquo;&lt;/strong&gt; button. After the table with the interpretation statuses appears below, user can press the button &lt;strong&gt;&amp;ldquo;Complete All Steps&amp;rdquo;&lt;/strong&gt; and finish the data import process.&lt;/p&gt;
-&lt;figure&gt;
-&lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/save_step4.png&#34; &gt;
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/save_step4.png&#34; &gt;
-&lt;/a&gt;
-&lt;/figure&gt;</description></item><item><title>Donate</title><link>https://amrcloud.net/en/post/crowdfunding/</link><pubDate>Tue, 11 Feb 2020 11:00:00 +0300</pubDate><guid>https://amrcloud.net/en/post/crowdfunding/</guid><description>&lt;iframe src=&#34;https://money.yandex.ru/quickpay/shop-widget?writer=seller&amp;targets=%D0%94%D0%BE%D0%B1%D1%80%D0%BE%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%BD%D0%B0%20%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0%20AMRcloud&amp;targets-hint=&amp;default-sum=100&amp;button-text=11&amp;payment-type-choice=on&amp;mobile-payment-type-choice=on&amp;fio=on&amp;hint=&amp;successURL=https%3A%2F%2Famrcloud.net%2F&amp;quickpay=shop&amp;account=410014685201421&#34; width=&#34;640&#34; height=&#34;250&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;</description></item><item><title>&lt;em&gt;Acinetobacter baumannii&lt;/em&gt; genetic diversity, susceptibility to antibiotics and lytic phages</title><link>https://amrcloud.net/en/project/abphage/</link><pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate><guid>https://amrcloud.net/en/project/abphage/</guid><description>
-&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Acinetobacter baumannii&lt;/em&gt;&lt;/strong&gt; is one of the most common and troublesome nosocomial pathogens. This project presents the following data on nosocomial &lt;em&gt;A. baumannii&lt;/em&gt; isolates collected from various regions of Russia:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;isolate source data (geographical, clinical data, and basic patient demographics);&lt;/li&gt;
-&lt;li&gt;molecular-genetic characteristics of isolates (clonal group, SNP type, sequence type, KL type, presence of acquired carbapenemase genes);&lt;/li&gt;
-&lt;li&gt;susceptibility to various antibiotics;&lt;/li&gt;
-&lt;li&gt;susceptibility to certain lytic phages.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;bacterial-isolates&#34;&gt;Bacterial isolates&lt;/h3&gt;
-&lt;p&gt;The study includes a total of &lt;strong&gt;2,535&lt;/strong&gt; consecutive non-duplicate (one per patient/case of infection) clinical isolates collected between &lt;strong&gt;14 January 2013 and 25 December 2018&lt;/strong&gt; as part of the national surveillance studies from &lt;strong&gt;61 hospitals in 32 cities of Russia&lt;/strong&gt;: Arkhangelsk, Blagoveshchensk, Vladivostok, Voronezh, Yekaterinburg, Izhevsk, Kazan, Kislovodsk, Krasnodar, Maykop, Moscow, Murmansk, Naberezhnye Chelny, Novosibirsk, Noyabrsk, Omsk, Penza, Perm, Petrozavodsk, Rostov-on-Don, St. Petersburg, Seversk, Smolensk, Tver, Tolyatti, Tomsk, Tula, Tyumen, Ulan-Ude, Chelyabinsk, Yuzhno-Sakhalinsk, and Yakutsk.&lt;/p&gt;
-&lt;h3 id=&#34;antibiotic-susceptibility-testing-ast&#34;&gt;Antibiotic susceptibility testing (AST)&lt;/h3&gt;
-&lt;p&gt;Minimum inhibitory concentrations (MICs) of antibiotics were determined by reference broth microdilution method according to ISO 20776-1:2006. The susceptibility categories were interpreted according to European Committee on Antimicrobial Susceptibility Testing (EUCAST) MIC Clinical Breakpoints v.9.0, 2019 (&lt;a href=&#34;http://www.eucast.org/clinical_breakpoints/&#34;&gt;http://www.eucast.org/clinical_breakpoints/&lt;/a&gt;)&lt;/p&gt;
-&lt;h3 id=&#34;phage-susceptibility-testing-pst&#34;&gt;Phage susceptibility testing (PST)&lt;/h3&gt;
-&lt;p&gt;Susceptibilities of isolates to selected lytic phages were determined by a modified double-agar-layer method and by spot testing. The results are interpreted as follows: &lt;strong&gt;S&lt;/strong&gt; – lysis by phage; &lt;strong&gt;I&lt;/strong&gt; – partial lysis; &lt;strong&gt;R&lt;/strong&gt; – resistance to phage. PST results are presented together with AST results.&lt;/p&gt;
-&lt;h3 id=&#34;molecular-genetic-subtyping&#34;&gt;Molecular-genetic subtyping&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;All isolates were typed by a single nucleotide polymorphism (SNP)-typing assay based on high-throughput real-time PCR detection of 21informative SNPs in 10 chromosomal loci: &lt;em&gt;gltA, recA, cpn60, gyrB, gdhB, rpoD, fusA, pyrG, rplB,&lt;/em&gt; and &lt;em&gt;rpoB&lt;/em&gt; (&lt;a href=&#34;http://snpt.antibiotic.ru:9002/&#34;&gt;http://snpt.antibiotic.ru:9002/&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Selected isolates were typed by both the Oxford and Pasteur multilocus sequence typing (MLST) schemes using Sanger or whole genome sequencing (&lt;a href=&#34;https://pubmlst.org/abaumannii/&#34;&gt;https://pubmlst.org/abaumannii/&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;identification-of-capsular-polysaccharide-biosynthesis-gene-clusters-k-loci-kl&#34;&gt;Identification of capsular polysaccharide biosynthesis gene clusters (K-loci, KL)&lt;/h3&gt;
-&lt;p&gt;KL types were identified for selected isolates from WGS data using the standard database and nomenclature (&lt;a href=&#34;https://github.com/katholt/Kaptive&#34;&gt;https://github.com/katholt/Kaptive&lt;/a&gt;).&lt;/p&gt;
-&lt;h3 id=&#34;detection-of-acquired-carbapenemase-genes&#34;&gt;Detection of acquired carbapenemase genes&lt;/h3&gt;
-&lt;p&gt;The genes of the most prevalent in &lt;em&gt;Acinetobacter&lt;/em&gt; spp. acquired carbapenemases of molecular class D (OXA-23-, OXA-&lt;sup&gt;24&lt;/sup&gt;&amp;frasl;&lt;sub&gt;40&lt;/sub&gt;- and OXA-58-like), class А (GES-2- or GES-5-like), and class B (VIM, IMP and NDM) were determined by means of real-time PCR.&lt;/p&gt;
-&lt;h3 id=&#34;study-group&#34;&gt;Study group&lt;/h3&gt;
-&lt;p&gt;Roman S. Kozlov, Anastasia V. Popova, Mikhail M. Shneider, Eugene A. Sheck, Mikhail V. Edelstein, Alexey Yu. Kuzmenkov, Andrey V. Romanov, Elvira R. Shaidullina.&lt;/p&gt;
-&lt;h3 id=&#34;funding&#34;&gt;Funding&lt;/h3&gt;
-&lt;p&gt;This work was conducted with the financial support of the Russian Science Foundation (grant no. 18-15-00403).&lt;/p&gt;
-&lt;hr/&gt;
-&lt;div class=&#34;media&#34;&gt;
-&lt;div class=&#34;media-body&#34;&gt;
-&lt;h3 class=&#34;mt-0 mb-1&#34;&gt;Contact&lt;/h3&gt;
-&lt;h5&gt;Evgenii Shek&lt;/h5&gt;
-&lt;p&gt;Research fellow&lt;/p&gt;
-&lt;p&gt;Institute of Antimicrobial Chemotherapy (IAC),&lt;br&gt;Smolensk State Medical University (SSMU)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;evgeniy.sheck@antibiotic.ru&#34; target=&#34;_blank&#34;&gt;evgeniy.sheck@antibiotic.ru&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;img class=&#34;ml-3&#34; src=&#34;iac.png&#34; style=&#34;width: 200px&#34; alt=&#34;Institute of Antimicrobial Chemotherapy (IAC), Smolensk State Medical University (SSMU)&#34;&gt;
-&lt;/div&gt;</description></item><item><title>DARMIS-2018</title><link>https://amrcloud.net/en/project/darmis-2018/</link><pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate><guid>https://amrcloud.net/en/project/darmis-2018/</guid><description>
-&lt;h3 id=&#34;organizers&#34;&gt;Organizers&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Interregional Association for Clinical Microbiology and Antimicrobial Chemotherapy (IACMAC)&lt;/li&gt;
-&lt;li&gt;Russian Society of Urologists&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The data are presented on antibiotic resistance of community-acquired uropathogens isolated from midstream urine samples of:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;adults with symptomatic UTI (cystitis, pyelonephritis)&lt;/li&gt;
-&lt;li&gt;children and adolescents under 18 years with symptomatic UTI (cystitis, pyelonephritis)&lt;/li&gt;
-&lt;li&gt;pregnant women with symptomatic UTI (cystitis and pyelonephritis) and asymptomatic bacteriuria&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;The study design is similar to that of the DARMIS study (2010-2011)&lt;/em&gt;&lt;/p&gt;
-&lt;h4 id=&#34;time-period-of-sample-collection&#34;&gt;Time period of sample collection&lt;/h4&gt;
-&lt;p&gt;01 Jan 2017 - 31 Dec 2018&lt;/p&gt;
-&lt;h4 id=&#34;geographic-location-of-centers&#34;&gt;Geographic location of centers&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;34 centers, 26 cities&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Russia&lt;/strong&gt;: Bratsk, Voronezh, Yekaterinburg, Irkutsk, Yoshkar-Ola, Kazan, Kirov, Krasnodar, Nizhnevartovsk, Novokuznetsk, Novosibirsk, Omsk, Rostov-on-Don, Samara, St. Petersburg, Seversk, Smolensk, Surgut, Tolyatti, Tomsk, Ulyanovsk, Chelyabinsk, Yakutsk, Yaroslavl&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Belarus&lt;/strong&gt;: Gomel&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Kazakhstan&lt;/strong&gt;: Karaganda&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;antibiotic-susceptibility-testing&#34;&gt;Antibiotic susceptibility testing&lt;/h4&gt;
-&lt;p&gt;Determination of minimum inhibitory concentrations (MICs) by reference broth microdillution method (BMD) in Mueller-Hinton broth (according to ISO 20776-1:2006) at the central laboratory of the Institute of Antimicrobial Chemotherapy (IAC), Smolensk State Mediacal University (SSMU)&lt;/p&gt;
-&lt;h4 id=&#34;interpretation-of-mics&#34;&gt;Interpretation of MICs&lt;/h4&gt;
-&lt;p&gt;Clinical susceptibility categories were assigned based on the European Committee on Antimicrobial Susceptibility Testing (EUCAST) MIC Clinical breakpoints v.9.0 (&lt;a href=&#34;http://www.eucast.org/clinical_breakpoints/&#34;&gt;http://www.eucast.org/clinical_breakpoints/&lt;/a&gt;)&lt;/p&gt;
-&lt;h3 id=&#34;study-group&#34;&gt;Study Group&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Amineva P.G.&lt;/em&gt; (Yekaterinburg)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Becker G.G.&lt;/em&gt; (Novosibirsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Bulkin A.N.&lt;/em&gt; (St. Petersburg)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Bykonya S.A.&lt;/em&gt; (Tomsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Chastoedova A.N.&lt;/em&gt; (Kirov)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Domanskaya O.V.&lt;/em&gt; (Novokuznetsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Elokhina E.V.&lt;/em&gt; (Omsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Ershova M.G.&lt;/em&gt; (Yaroslavl)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Ivanova I.A.&lt;/em&gt; (Yoshkar-Ola)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Khaidarshina N.E.&lt;/em&gt; (Chelyabinsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Khusnutdinova T.A.&lt;/em&gt; (St. Petersburg)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Kogan M.I.&lt;/em&gt; (Rostov-on-Don)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Kulchavenya E.V.&lt;/em&gt; (Novosibirsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Lavrinenko A.V.&lt;/em&gt; (Kazakhstan)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Lyamin A.V.&lt;/em&gt; (Samara)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Malev I.V.&lt;/em&gt; (Smolensk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Malyavin A.I.&lt;/em&gt; (Ulyanovsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Martyanova N.M.&lt;/em&gt; (Tolyatti)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Moskvitina E.N.&lt;/em&gt; (Seversk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Mutin M.Yu.&lt;/em&gt; (Bratsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Naboka Yu.L.&lt;/em&gt; (Rostov-on-Don)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Nikiforovskaya N.N.&lt;/em&gt; (Smolensk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Palagin I.S.&lt;/em&gt; (Smolensk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Plugin P.S.&lt;/em&gt; (Novosibirsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Popova L.D.&lt;/em&gt; (Omsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Portnyagina U.S.&lt;/em&gt; (Yakutsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Shamaeva S.Kh.&lt;/em&gt; (Yakutsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Shipitsyna E.V.&lt;/em&gt; (St. Petersburg)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Shirokova T.M.&lt;/em&gt; (Kirov)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Sidorova R.K.&lt;/em&gt; (Ulyanovsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Strebkova V.V.&lt;/em&gt; (Voronezh)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Sukhoreva M.V.&lt;/em&gt; (Irkutsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Tapalsky D.V.&lt;/em&gt; (Belarus)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Valiullina I.R.&lt;/em&gt; (Kazan)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Varganova A.N.&lt;/em&gt; (Surgut)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Varibrus E.V.&lt;/em&gt; (Krasnodar)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Vasilyeva I.R.&lt;/em&gt; (Nizhnevartovsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Vetokhina A.V.&lt;/em&gt; (Irkutsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Volkovskaya I.V.&lt;/em&gt; (Tomsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Zhestkov A.V.&lt;/em&gt; (Samara)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;media&#34;&gt;
-&lt;div class=&#34;media-body&#34;&gt;
-&lt;h3 class=&#34;mt-0 mb-1&#34;&gt;Coordinator&lt;/h3&gt;
-&lt;h5&gt;Ivan S. Palagin&lt;/h5&gt;
-&lt;p&gt;Research fellow&lt;/p&gt;
-&lt;p&gt;Institute of Antimicrobial Chemotherapy (IAC),&lt;br&gt;Smolensk State Medical University (SSMU)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;ivan.palagin@gmail.com&#34; target=&#34;_blank&#34;&gt;ivan.palagin@gmail.com&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;img class=&#34;ml-3&#34; src=&#34;iac.png&#34; alt=&#34;Institute of Antimicrobial Chemotherapy&#34;&gt;
-&lt;/div&gt;</description></item><item><title>Research project: Veterinary monitoring and Risk Analysis of Zoonotic Bacteria Antimicrobial Resistance.</title><link>https://amrcloud.net/en/project/vgnki/</link><pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate><guid>https://amrcloud.net/en/project/vgnki/</guid><description>
-&lt;h3 id=&#34;russian-state-center-for-quality-and-standardization-of-veterinary-drugs-and-feed&#34;&gt;Russian State Center for Quality and Standardization of Veterinary Drugs and Feed&lt;/h3&gt;
-&lt;p&gt;Research Institute of the Federal Service for Veterinary and Phytosanitary Surveillance (ROSSELKHOZNADZOR).&lt;/p&gt;
-&lt;p&gt;OIE collaborating Center on Food Safety, Diagnosis and Control of Animal Diseases in Eastern Europe, Central Asia and Transcaucasia.&lt;/p&gt;
-&lt;p&gt;Main activities of VGNKI are ensuring veterinary drugs quality, food of animal origin and feed safety, certification and registration of veterinary drugs, feed and feed additives, including GMO-containing.&lt;/p&gt;
-&lt;h3 id=&#34;abstract&#34;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;We present the data on antimicrobial resistance of animal zoonotic bacteria isolates from different regions of Russia to over than 50 antimicrobials from 12 different groups.&lt;/p&gt;
-&lt;h4 id=&#34;object&#34;&gt;Object:&lt;/h4&gt;
-&lt;p&gt;Isolates of E.coli, Campylobacter spp., Salmonella spp., Enterococcus spp. taken from biomaterial of farm animals (poultry, cattle, reindeer, swine), food and feed materials.&lt;/p&gt;
-&lt;h4 id=&#34;method-of-ast&#34;&gt;Method of AST:&lt;/h4&gt;
-&lt;p&gt;Broth microdilution (standard EUCAST/ISO/CLSI protocol), Sensititre veterinary custom plates.&lt;/p&gt;
-&lt;h4 id=&#34;breakpoints&#34;&gt;Breakpoints:&lt;/h4&gt;
-&lt;p&gt;Microbiological end-points – EUCAST ECOFFs (&lt;a href=&#34;https://mic.eucast.org/Eucast2/&#34;&gt;https://mic.eucast.org/Eucast2/&lt;/a&gt;, ver. 5.26), EUCAST Clinical Breakpoints (ver. 2019), CLSI Clinical Breakpoints (Standards M100S28, VET01S 3rd ed.)&lt;/p&gt;
-&lt;h4 id=&#34;methods-of-gene-analysis&#34;&gt;Methods of gene analysis:&lt;/h4&gt;
-&lt;p&gt;Whole-genome sequencing (Illumina Miseq).&lt;/p&gt;
-&lt;h4 id=&#34;data&#34;&gt;Data:&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Bogomazova A.N.&lt;/li&gt;
-&lt;li&gt;Gergel M.A.&lt;/li&gt;
-&lt;li&gt;Gordeeva V.D.&lt;/li&gt;
-&lt;li&gt;Gritsyuk V.A.&lt;/li&gt;
-&lt;li&gt;Ivanova O.E.&lt;/li&gt;
-&lt;li&gt;Karabanov S.Yu.&lt;/li&gt;
-&lt;li&gt;Komarov A.A.&lt;/li&gt;
-&lt;li&gt;Krylova E.V.&lt;/li&gt;
-&lt;li&gt;Kulikosky A.V.&lt;/li&gt;
-&lt;li&gt;Lenev S.V.&lt;/li&gt;
-&lt;li&gt;Lobova P.A.&lt;/li&gt;
-&lt;li&gt;Makarov D.A.&lt;/li&gt;
-&lt;li&gt;Pleskacheva M.A.&lt;/li&gt;
-&lt;li&gt;Pobolelova Yu. I.&lt;/li&gt;
-&lt;li&gt;Pomazkova A.V.&lt;/li&gt;
-&lt;li&gt;Prasolova O.V.&lt;/li&gt;
-&lt;li&gt;Rusakov S.V.&lt;/li&gt;
-&lt;li&gt;Soltynskaya I.V.&lt;/li&gt;
-&lt;li&gt;Sukhoedova A.V.&lt;/li&gt;
-&lt;li&gt;Yatsentuk S.P.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;You can leave you questions and comments by e-mail: &lt;a href=&#34;mailto:phorez@yandex.ru&#34;&gt;phorez@yandex.ru&lt;/a&gt; (Makarov D.A.)&lt;/p&gt;
-&lt;/blockquote&gt;</description></item><item><title>AMRcloud: a new paradigm in monitoring of antibiotic resistance</title><link>https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/</link><pubDate>Thu, 10 Oct 2019 00:04:00 +0000</pubDate><guid>https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/</guid><description/></item><item><title>Privacy Policy</title><link>https://amrcloud.net/en/privacy-policy/20190926/</link><pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate><guid>https://amrcloud.net/en/privacy-policy/20190926/</guid><description>
-&lt;div class=&#34;alert alert-note&#34;&gt;
-&lt;div&gt;
-&lt;p&gt;Administration does not check the reliability of any information provided by you except as expressly permitted by the Terms of Use or Additional Terms and cannot consider its credibility as well as your legal capacity to provide it. Nonetheless, Administration relies on you to provide accurate and complete Personal Data and timely update it.&lt;/p&gt;
-&lt;p&gt;By using AMRcloud your Personal Data is protected and processed in accordance with applicable data protection and privacy laws.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;what-is-the-purpose-of-this-policy&#34;&gt;What is the purpose of this Policy&lt;/h2&gt;
-&lt;p&gt;In accordance with the Policy Administration informs you for:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;the information we collect;&lt;/li&gt;
-&lt;li&gt;how we use information about you;&lt;/li&gt;
-&lt;li&gt;your rights and obligations.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;information-we-collect&#34;&gt;Information We Collect&lt;/h2&gt;
-&lt;p&gt;By creating a user account on AMRcloud you provide the following data:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Email address - is required for creating a user account and your access to the application.&lt;/li&gt;
-&lt;li&gt;Username – is used to communicate with you. When you grant access to your results of data processing for third-party users by a link, they will be able to see your username.&lt;/li&gt;
-&lt;li&gt;Password – is required for your authentication and access to AMRcloud.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Please, note that Administration does not store passwords in the public domain and cannot use your user account.&lt;/p&gt;
-&lt;p&gt;We set cookies on each our webpage to collect anonymous analytics data. We use this information to help operate our resource and do not convey or sell it to any third parties. The information gathered may include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;electronic data (HTTP headers, IP address, cookies, web beacons /pixel tags, browser type, operating system, hardware settings, device information);&lt;/li&gt;
-&lt;li&gt;the time (and length of time) a page was viewed;&lt;/li&gt;
-&lt;li&gt;information about the actions you take when using AMRcloud;&lt;/li&gt;
-&lt;li&gt;information about your location.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;creation-and-sharing-information&#34;&gt;Creation and Sharing Information&lt;/h2&gt;
-&lt;p&gt;You have the right to use AMRcloud to get results of data processing strictly in accordance with the Terms of Use. All materials created by you, including all uploaded and downloaded data, will be available only for your user account until you share them (“share the results”).&lt;/p&gt;
-&lt;p&gt;You can share information using two modes: public (access by any user) and protected (access by entering a password). The users you share with can see your results of data processing, as well as your username, but not email address.&lt;/p&gt;
-&lt;p&gt;Administration does not use the content you create and does not grant access to the third parties to it. Administration may gain access to your content with your relevant permission only (for example, to identify and fix service failures).&lt;/p&gt;
-&lt;h2 id=&#34;service-usage-data&#34;&gt;Service Usage Data&lt;/h2&gt;
-&lt;p&gt;To improve our services Administration collects anonymous information about the actions you take when using AMRcloud. This may include the number of visits to AMRcloud and access time, interaction with the website (for example, clicks on buttons and links), IP address, device information, operating system, browser type, proxy server, mobile data provider. A part of the above information may be temporarily stored in cookies. Each time you visit any webpage of AMRcloud, Administration gets the URL of the webpages you came from and the URL you go to next. This Usage Data is collected automatically and is used anonymously.&lt;/p&gt;
-&lt;p&gt;To help collect anonymous usage statistics we use Google Analytics. To find out more about its Privacy Policy please visit &lt;a href=&#34;https://policies.google.com/technologies/partner-sites&#34;&gt;https://policies.google.com/technologies/partner-sites&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;how-we-use-your-personal-data&#34;&gt;How We Use Your Personal Data&lt;/h2&gt;
-&lt;p&gt;Administration uses your Personal Data (email address) to authenticate and provide you the right to use AMRcloud and to access results of data processing.&lt;/p&gt;
-&lt;p&gt;Administration may send you:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;technical notices (information about changes to user account settings including password reset, account deletion and so on);&lt;/li&gt;
-&lt;li&gt;support messages;&lt;/li&gt;
-&lt;li&gt;administrative messages (information about any disruption, interruption and resume after a failure, updates or other information about your use of AMRcloud or the Security Policy).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;You cannot opt-out of receiving some categories of communications from us such as notices of significant changes to technical features or functionality of AMRcloud, the Security Policy or other Services policies or applicable laws. With your consent, Administration may periodically send you other messages about new services, features or functionality of AMRcloud through the email address specified by you.&lt;/p&gt;
-&lt;h2 id=&#34;your-rights-obligations&#34;&gt;Your Rights &amp;amp; Obligations&lt;/h2&gt;
-&lt;p&gt;Administration will store your Personal Data for the period necessary to fulfil the purposes outlined in this Policy unless a longer storage period is required or permitted by law. Administration reserves the right to delete your user account including your Personal Data and created content in case of your violation of Terms of Use. If you would like to delete from our database any Personal Data you previously submitted to AMRcloud, you may submit a deletion request.&lt;/p&gt;
-&lt;p&gt;You may access your Personal Data processed by AMRcloud in accordance with this Policy unless otherwise is provided by law.&lt;/p&gt;
-&lt;p&gt;You may request to correct any incomplete or inaccurate Personal Data we hold about you.&lt;/p&gt;
-&lt;p&gt;You have the right to (If provided by the applicable international law or law of the Russian Federation):&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;request to erasure or remove your Personal Data or any part of it and/or to withdraw your consent to the processing of your Personal Data;&lt;/li&gt;
-&lt;li&gt;request restrictions on the processing of your Personal Data;&lt;/li&gt;
-&lt;li&gt;object to the processing of your Personal Data.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In some cases, you will be provided with other rights not specified above, as required or permitted by international data protection laws or laws of the Russian Federation. If you have any concerns as to how your Personal Data is processed, please submit a support request. If you would like to exercise any right mentioned above, please contact the Administration.&lt;/p&gt;
-&lt;h2 id=&#34;lawful-processing&#34;&gt;Lawful Processing&lt;/h2&gt;
-&lt;p&gt;The collecting and processing of your Personal Data are based on the applicable laws, regulations or legal procedures. You give your explicit consent to the Administration of AMRcloud for collection, storage and processing of Personal Data by accepting the terms of this Policy or any related documentation (for example Additional Terms). You may withdraw your consent at any time. For legitimate business purposes, you may object to the processing of your Personal Data. In this case, Administration reserves the right to delete your user account as required by your objection.&lt;/p&gt;
-&lt;h2 id=&#34;cross-border-transfer-of-data&#34;&gt;Cross-Border Transfer of Data&lt;/h2&gt;
-&lt;p&gt;Your personal data is stored in the Russian Federation.&lt;/p&gt;
-&lt;p&gt;Administration collects, processes, stores, retains, clarifies (update, change) and extracts Personal Data using databases and servers located in the Russian Federation.&lt;/p&gt;
-&lt;h2 id=&#34;updating-this-policy&#34;&gt;Updating this Policy&lt;/h2&gt;
-&lt;p&gt;Administration has the right to update this Privacy Policy from time to time in its discretion including in case of any changes in applicable laws or technical features or functionality of AMRcloud.&lt;/p&gt;
-&lt;p&gt;If we make any significant change, including limitations and restrictions to this Policy, we will provide you with additional notice via email.&lt;/p&gt;</description></item><item><title>Terms of Use</title><link>https://amrcloud.net/en/terms-of-use/20190926/</link><pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate><guid>https://amrcloud.net/en/terms-of-use/20190926/</guid><description>
-&lt;h2 id=&#34;use-of-amrcloud&#34;&gt;Use of AMRcloud&lt;/h2&gt;
-&lt;p&gt;Administration of AMRcloud (&lt;strong&gt;“Administration”&lt;/strong&gt;) grants User а non-transferable right to use AMRcloud. AMRcloud makes it possible to upload files («files» or «data»), process, change, delete and visualize data and results of data processing as well as to provide and manage access to results of data processing to the third parties.&lt;/p&gt;
-&lt;p&gt;In order to upload and process data in AMRcloud, User must create an account. By creating an account, User acknowledges and agrees that AMRcloud displays her/his account name, but not email address, to the third parties with whom User decides to share the results of data processing. &lt;/p&gt;
-&lt;p&gt;Regular functionalities and services of AMRcloud are available free of charge.&lt;/p&gt;
-&lt;p&gt;In order to use AMRcloud User will need an Internet connection. User is responsible for providing all equipment required to access the Internet.&lt;/p&gt;
-&lt;p&gt;Administration reserves the right to update or modify these Terms at any time and without notice to User. A new version of the Terms will come into force on the date of publication on the Internet at the following link: &lt;a href=&#34;https://amrcloud.net/en/terms-of-use&#34;&gt;https://amrcloud.net/en/terms-of-use&lt;/a&gt;, unless otherwise provided by the new version of the Terms.&lt;/p&gt;
-&lt;p&gt;In case of disagreement with any new provision of these Terms, User must immediately stop using AMRcloud.&lt;/p&gt;
-&lt;h2 id=&#34;your-rights-and-obligations&#34;&gt;Your Rights and Obligations&lt;/h2&gt;
-&lt;p&gt;User has the right to use AMRcloud in her/his sole discretion.&lt;/p&gt;
-&lt;p&gt;User acknowledges and agrees that she/he is solely responsible for:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;her/his usage purposes of AMRcloud;&lt;/li&gt;
-&lt;li&gt;any content (data files and materials) uploaded by User to AMRcloud and its compliance with local, regional and international laws and regulations;&lt;/li&gt;
-&lt;li&gt;any actions leading to violation legitimate interests of the third parties including non-property and other intellectual property rights;&lt;/li&gt;
-&lt;li&gt;any attempts on intangible assets of the third parties.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;User is not allowed to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;upload, send, transfer or allocate and/or distribute any material that is illegal, malicious, libelous, violates intellectual property rights, demonstrates discrimination against people racial, ethnic, national, sexual, religious, social characteristics, discloses the third parties&amp;rsquo; personal information or data, including patient identification data, violates the rights of or injurious to the third parties, contains improper advertisement, violates any local, regional and international laws and regulations;&lt;/li&gt;
-&lt;li&gt;upload, send, transfer or allocate and/or distribute any material that Users doesn’t have a right to make available under any law or under contractual or fiduciary relationships/ content that is subject to any third party proprietary rights;&lt;/li&gt;
-&lt;li&gt;impersonate any person or entity, falsely claim an affiliation with any person or entity;&lt;/li&gt;
-&lt;li&gt;taking any action including technically aimed to violate normal functioning of AMRcloud;&lt;/li&gt;
-&lt;li&gt;use AMRcloud for commercial purposes unless User has permission from Administration;&lt;/li&gt;
-&lt;li&gt;use AMRcloud for any kind of illegal activity.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These Terms is governed by and construed in accordance with the internal law of the Russian Federation without giving effect to any choice or conflict of law provision or rule.&lt;/p&gt;
-&lt;h2 id=&#34;removing-and-blocking&#34;&gt;Removing and Blocking&lt;/h2&gt;
-&lt;p&gt;Administration reserves the right to delete User’s files immediately, with or without prior notice from Administration in the event that User fails to comply with any provision of these Terms.&lt;/p&gt;
-&lt;p&gt;Administration reserves the right to suspend or terminate User’s access to AMRcloud &lt;strong&gt;with notice to User&lt;/strong&gt; in the following cases:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;User uses AMRcloud in any manner that would subject AMRcloud or other users to the risk of harm or damage;&lt;/li&gt;
-&lt;li&gt;User Account has been inactive for more than 12 months;&lt;/li&gt;
-&lt;li&gt;User doesn’t mention AMRcloud as a system for processing and analyzing data while presenting any content generated with AMRcloud in public (e.g. in journal publications, reports at conferences);&lt;/li&gt;
-&lt;li&gt;The &lt;a href=&#34;https://cmac-journal.ru/en/publication/2019/2/cmac-2019-t21-n2-p119/&#34;&gt;reference&lt;/a&gt; for citing the use of AMRcloud: Kuzmenkov A.Yu., Vinogradova A.G., Trushin I.V., Avramenko A.A., Edelstein M.V., Dekhnich A.V., Kozlov R.S. AMRcloud: a new paradigm in monitoring of antibiotic resistance. Clinical Microbiology and Antimicrobial Chemotherapy. 2019; Vol. 21 №2. P.119-124.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In case of one of the above situations, Administration may send a notification to User through the email address specified by User. If the above violations are detected, Administration will have the right to suspend User’s access to AMRcloud. In case User ignores notifications or violates provisions of the Terms systematically, Administration will have the right to delete User Account, including all data uploaded to AMRcloud, results of data processing and created links, without additional notice and consent from User.&lt;/p&gt;
-&lt;p&gt;Administration reserves the right to terminate User’s access to AMRcloud or delete User account without notice to User in the following cases:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;User violates any of the provisions of these Terms or related documentation (except all the above situations);&lt;/li&gt;
-&lt;li&gt;User’s actions entail legal or regulatory liability and/or jeopardize the ability of AMRcloud to provide services to other users;&lt;/li&gt;
-&lt;li&gt;There is no technical possibility to contact User and to notify her/him about the above conditions.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In addition, in case of high load on AMRcloud infrastructure caused by sharing results of data processing through generating a link with AMRcloud, this link may be blocked.&lt;/p&gt;
-&lt;h2 id=&#34;amrcloud-changes&#34;&gt;AMRcloud Changes&lt;/h2&gt;
-&lt;p&gt;Administration has the right to change AMRcloud, such as change the existing or add new functionalities and services, at any time without prior notice.&lt;/p&gt;
-&lt;h2 id=&#34;revisions-and-errors&#34;&gt;Revisions and Errors&lt;/h2&gt;
-&lt;p&gt;All information and materials placed on AMRcloud may contain technical, spelling, typographical errors or mistakes in text, graphics and figures. Administration does not guarantee that any information, data and other materials are accurate, complete or correct. Administration reserves the right to change and correct any information or materials contained in AMRcloud without prior notice.&lt;/p&gt;
-&lt;h2 id=&#34;copyrights-and-trademarks&#34;&gt;Copyrights and Trademarks&lt;/h2&gt;
-&lt;p&gt;User retains her/his entire right relating to the materials uploaded by User to AMRcloud, including all copyrights, trademarks and other intellectual property rights.&lt;/p&gt;
-&lt;p&gt;User has the right to distribute results of data processing generated with AMRcloud. For citing any content of AMRcloud or reporting the use of AMRcloud for processing and analyzing data in journal publications and conference proceedings, the following &lt;a href=&#34;https://cmac-journal.ru/en/publication/2019/2/cmac-2019-t21-n2-p119/&#34;&gt;reference&lt;/a&gt; is mandatory: Kuzmenkov A.Yu., Vinogradova A.G., Trushin I.V., Avramenko A.A., Edelstein M.V., Dekhnich A.V., Kozlov R.S. AMRcloud: a new paradigm in monitoring of antibiotic resistance. Clinical Microbiology and Antimicrobial Chemotherapy. 2019; Vol. 21 №2. P.119-124.&lt;/p&gt;
-&lt;h2 id=&#34;limitations&#34;&gt;Limitations&lt;/h2&gt;
-&lt;p&gt;User acknowledges and agrees with the possibility of hardware failures and malfunctions in AMRcloud software including those causing violation of access to data processing results or loss of uploaded data. User agrees that Administration has no capability to predict any technical failures and to inform User in advance about such failures or to eliminate the possibility of the resumption of problems. Such situations cannot be used for bringing a claim against AMRcloud.&lt;/p&gt;
-&lt;p&gt;User acknowledges and agrees that Administration does not verify or endorse and takes no responsibility for any data uploaded by User or results of data processing in AMRcloud (except as expressly permitted by User). Administration does not guarantee that the files placed on AMRcloud are in accordance with applicable local, regional and international laws and subject to all terms, conditions and restrictions, under these Terms.&lt;/p&gt;
-&lt;p&gt;User acknowledges and agrees that she/he uses AMRcloud on her/his own risk and Administration does not assume and will not have any liability to User for any information, data or results of data processing placed on AMRcloud, including their accuracy, completeness, timeliness, validity, copyright compliance, legality, decency, quality or any other aspect thereof.&lt;/p&gt;
-&lt;p&gt;User is responsible for any negative consequences arising from her/his use of any information, data or results of data processing placed on AMRcloud, including damage to computers or devices owned by User or the third parties, loss of data or results of data processing, violation of rights or any other damages.&lt;/p&gt;
-&lt;p&gt;User acknowledges and agrees that personal account on AMRcloud is intended for her/his individual use. User has no right to transfer access to her/his account on AMRcloud to any third party on a paid or unpaid basis. If User account is accessed by more than one User at the same time, technical problems may occur.&lt;/p&gt;
-&lt;p&gt;Administration under no circumstances and without exception is not liable to User for any damages, arising from or relating to User’s use or misuse of AMRcloud or its functionality (services), including lost data caused by any technical failures or problems.&lt;/p&gt;
-&lt;h2 id=&#34;disclaimer&#34;&gt;Disclaimer&lt;/h2&gt;
-&lt;p&gt;User acknowledges and agrees that she/he uses AMRcloud on her/his own risk. AMRcloud and all its functionality (services) are provided ‘as is’. Administration does not take on of any liability related to usage of AMRcloud and does not guarantee that AMRcloud will meet requirements and interests of User.&lt;/p&gt;
-&lt;p&gt;Administration does not guarantee that AMRcloud will function quickly, continuously, reliably and without errors.&lt;/p&gt;
-&lt;p&gt;Administration disclaims all warranties, whether express or implied, of accuracy of results or reliability of information from AMRcloud (including related web resources or services).&lt;/p&gt;
-&lt;p&gt;Administration does not support or control links or materials placed by User through AMRcloud. Administration is not responsible for User’s materials, including their validity, legality or any other aspect thereof. Administration does not guarantee storage of data uploaded by User to AMRcloud.&lt;/p&gt;
-&lt;p&gt;Administration reserves the right to impose any rules, limitations and restrictions (technical, legal, institutional or other) and to change them from time to time in its sole discretion without any notice. Limitations and restrictions may be different for various categories of Users and they are defined by additional terms between User and Administration in full compliance with applicable federal laws, regulations and rules.&lt;/p&gt;
-&lt;p&gt;Reference to any website, product, service, any information of a commercial or non-commercial nature, placed on AMRcloud cannot be considered either as an endorsement or a recommendation of these products (services) by Administration.&lt;/p&gt;</description></item><item><title>Registration</title><link>https://amrcloud.net/en/post/invite-register/</link><pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate><guid>https://amrcloud.net/en/post/invite-register/</guid><description>&lt;div class=&#34;cognito&#34;&gt;
-&lt;script src=&#34;https://services.cognitoforms.com/s/M0a4wlljSUmqA5FZxhXqtA&#34;&gt;&lt;/script&gt;
-&lt;script&gt;Cognito.load(&#34;forms&#34;, { id: &#34;2&#34; });&lt;/script&gt;
-&lt;/div&gt;</description></item></channel></rss>
+If user doesn't know the exact location of the geographical object on the map, he can use &lt;strong>search string&lt;/strong> on the map and then left-click the object.
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/geoc_search.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/geoc_search.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Search bar&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
+.&lt;/p>
+&lt;h2 id="incorrect-markers-position">Incorrect Marker's Position&lt;/h2>
+&lt;p>The &lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span> system may not automatically recognize user's geographical objects. For example, instead of St. Petersburg, Russia, system may pin St. Petersburg, Florida, USA. Therefore, user should carefully check the preview map before saving the results of the geocoding stage.&lt;/p>
+&lt;p>If user wants to correct the position of the marker on the map, he should:&lt;/p>
+&lt;ol>
+&lt;li>Click with the left mouse button on the required cell in the &lt;span style="color:#73A839">&lt;strong>green table&lt;/strong>&lt;/span>.&lt;/li>
+&lt;li>Press the &lt;strong>&amp;ldquo;Edit Coordinates&amp;rdquo;&lt;/strong> button.&lt;/li>
+&lt;li>Edit the coordinates in the &lt;span style="color:#FEAB3A">&lt;strong>orange table&lt;/strong>&lt;/span>.&lt;/li>
+&lt;li>Press the &lt;strong>&amp;ldquo;Fix Coordinates&amp;rdquo;&lt;/strong> button.&lt;/li>
+&lt;/ol>
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/geoc_3.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/geoc_3.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Cell selecting&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/geoc_change.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/geoc_change.png" >
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;h6>Coordinates correcting&lt;/h6>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h2 id="local-objects">Local Objects&lt;/h2>
+&lt;p>If user often works with his specific set of local geographical objects, he can save the coordinates of these local objects for future automatic use. For this purpose after editing coordinates in &lt;span style="color:#FEAB3A">&lt;strong>orange table&lt;/strong>&lt;/span>, user should check the box &lt;strong>&amp;ldquo;Save coordinates for future usage&amp;rdquo;&lt;/strong>. So the geographical coordinates will be permanently assigned to the corresponding name of the geographical object and will be saved in the user account. At subsequent downloads, the coordinates of objects with the same names will be automatically geocoded.&lt;/p></description></item><item><title>Step 4 - Determine S/I/R</title><link>https://amrcloud.net/en/tutorials/import-data/07-interpretation/</link><pubDate>Fri, 14 Feb 2020 00:01:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/07-interpretation/</guid><description>&lt;p>First of all, at this stage user should choose the interpretation criteria from the drop-down list and press the &lt;strong>&amp;ldquo;Interpret MIC and Disk Diffusion data&amp;rdquo;&lt;/strong> button. After the table with the interpretation statuses appears below, user can press the button &lt;strong>&amp;ldquo;Complete All Steps&amp;rdquo;&lt;/strong> and finish the data import process.&lt;/p>
+&lt;figure>
+&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/save_step4.png" >
+&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/save_step4.png" >
+&lt;/a>
+&lt;/figure></description></item><item><title>Donate</title><link>https://amrcloud.net/en/post/crowdfunding/</link><pubDate>Tue, 11 Feb 2020 11:00:00 +0300</pubDate><guid>https://amrcloud.net/en/post/crowdfunding/</guid><description>&lt;iframe src="https://money.yandex.ru/quickpay/shop-widget?writer=seller&amp;targets=%D0%94%D0%BE%D0%B1%D1%80%D0%BE%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%BD%D0%B0%20%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0%20AMRcloud&amp;targets-hint=&amp;default-sum=100&amp;button-text=11&amp;payment-type-choice=on&amp;mobile-payment-type-choice=on&amp;fio=on&amp;hint=&amp;successURL=https%3A%2F%2Famrcloud.net%2F&amp;quickpay=shop&amp;account=410014685201421" width="640" height="250" frameborder="0" allowtransparency="true" scrolling="no">&lt;/iframe></description></item><item><title>&lt;em>Acinetobacter baumannii&lt;/em> genetic diversity, susceptibility to antibiotics and lytic phages</title><link>https://amrcloud.net/en/project/abphage/</link><pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate><guid>https://amrcloud.net/en/project/abphage/</guid><description>&lt;h3 id="abstract">Abstract&lt;/h3>
+&lt;p>&lt;em>&lt;strong>Acinetobacter baumannii&lt;/strong>&lt;/em> is one of the most common and troublesome nosocomial pathogens. This project presents the following data on nosocomial &lt;em>A. baumannii&lt;/em> isolates collected from various regions of Russia:&lt;/p>
+&lt;ul>
+&lt;li>isolate source data (geographical, clinical data, and basic patient demographics);&lt;/li>
+&lt;li>molecular-genetic characteristics of isolates (clonal group, SNP type, sequence type, KL type, presence of acquired carbapenemase genes);&lt;/li>
+&lt;li>susceptibility to various antibiotics;&lt;/li>
+&lt;li>susceptibility to certain lytic phages.&lt;/li>
+&lt;/ul>
+&lt;h3 id="bacterial-isolates">Bacterial isolates&lt;/h3>
+&lt;p>The study includes a total of &lt;strong>2,535&lt;/strong> consecutive non-duplicate (one per patient/case of infection) clinical isolates collected between &lt;strong>14 January 2013 and 25 December 2018&lt;/strong> as part of the national surveillance studies from &lt;strong>61 hospitals in 32 cities of Russia&lt;/strong>: Arkhangelsk, Blagoveshchensk, Vladivostok, Voronezh, Yekaterinburg, Izhevsk, Kazan, Kislovodsk, Krasnodar, Maykop, Moscow, Murmansk, Naberezhnye Chelny, Novosibirsk, Noyabrsk, Omsk, Penza, Perm, Petrozavodsk, Rostov-on-Don, St. Petersburg, Seversk, Smolensk, Tver, Tolyatti, Tomsk, Tula, Tyumen, Ulan-Ude, Chelyabinsk, Yuzhno-Sakhalinsk, and Yakutsk.&lt;/p>
+&lt;h3 id="antibiotic-susceptibility-testing-ast">Antibiotic susceptibility testing (AST)&lt;/h3>
+&lt;p>Minimum inhibitory concentrations (MICs) of antibiotics were determined by reference broth microdilution method according to ISO 20776-1:2006. The susceptibility categories were interpreted according to European Committee on Antimicrobial Susceptibility Testing (EUCAST) MIC Clinical Breakpoints v.9.0, 2019 (&lt;a href="http://www.eucast.org/clinical_breakpoints/">http://www.eucast.org/clinical_breakpoints/&lt;/a>)&lt;/p>
+&lt;h3 id="phage-susceptibility-testing-pst">Phage susceptibility testing (PST)&lt;/h3>
+&lt;p>Susceptibilities of isolates to selected lytic phages were determined by a modified double-agar-layer method and by spot testing. The results are interpreted as follows: &lt;strong>S&lt;/strong> – lysis by phage; &lt;strong>I&lt;/strong> – partial lysis; &lt;strong>R&lt;/strong> – resistance to phage. PST results are presented together with AST results.&lt;/p>
+&lt;h3 id="molecular-genetic-subtyping">Molecular-genetic subtyping&lt;/h3>
+&lt;ul>
+&lt;li>All isolates were typed by a single nucleotide polymorphism (SNP)-typing assay based on high-throughput real-time PCR detection of 21informative SNPs in 10 chromosomal loci: &lt;em>gltA, recA, cpn60, gyrB, gdhB, rpoD, fusA, pyrG, rplB,&lt;/em> and &lt;em>rpoB&lt;/em> (&lt;a href="http://snpt.antibiotic.ru:9002/)">http://snpt.antibiotic.ru:9002/)&lt;/a>.&lt;/li>
+&lt;li>Selected isolates were typed by both the Oxford and Pasteur multilocus sequence typing (MLST) schemes using Sanger or whole genome sequencing (&lt;a href="https://pubmlst.org/abaumannii/)">https://pubmlst.org/abaumannii/)&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h3 id="identification-of-capsular-polysaccharide-biosynthesis-gene-clusters-k-loci-kl">Identification of capsular polysaccharide biosynthesis gene clusters (K-loci, KL)&lt;/h3>
+&lt;p>KL types were identified for selected isolates from WGS data using the standard database and nomenclature (&lt;a href="https://github.com/katholt/Kaptive)">https://github.com/katholt/Kaptive)&lt;/a>.&lt;/p>
+&lt;h3 id="detection-of-acquired-carbapenemase-genes">Detection of acquired carbapenemase genes&lt;/h3>
+&lt;p>The genes of the most prevalent in &lt;em>Acinetobacter&lt;/em> spp. acquired carbapenemases of molecular class D (OXA-23-, OXA-24/40- and OXA-58-like), class А (GES-2- or GES-5-like), and class B (VIM, IMP and NDM) were determined by means of real-time PCR.&lt;/p>
+&lt;h3 id="study-group">Study group&lt;/h3>
+&lt;p>Roman S. Kozlov, Anastasia V. Popova, Mikhail M. Shneider, Eugene A. Sheck, Mikhail V. Edelstein, Alexey Yu. Kuzmenkov, Andrey V. Romanov, Elvira R. Shaidullina.&lt;/p>
+&lt;h3 id="funding">Funding&lt;/h3>
+&lt;p>This work was conducted with the financial support of the Russian Science Foundation (grant no. 18-15-00403).&lt;/p>
+&lt;hr/>
+&lt;div class="media">
+&lt;div class="media-body">
+&lt;h3 class="mt-0 mb-1">Contact&lt;/h3>
+&lt;h5>Evgenii Shek&lt;/h5>
+&lt;p>Research fellow&lt;/p>
+&lt;p>Institute of Antimicrobial Chemotherapy (IAC),&lt;br>Smolensk State Medical University (SSMU)&lt;/p>
+&lt;p>&lt;a href="evgeniy.sheck@antibiotic.ru" target="_blank">evgeniy.sheck@antibiotic.ru&lt;/a>&lt;/p>
+&lt;/div>
+&lt;img class="ml-3" src="iac.png" style="width: 200px" alt="Institute of Antimicrobial Chemotherapy (IAC), Smolensk State Medical University (SSMU)">
+&lt;/div></description></item><item><title>DARMIS-2018</title><link>https://amrcloud.net/en/project/darmis-2018/</link><pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate><guid>https://amrcloud.net/en/project/darmis-2018/</guid><description>&lt;h3 id="organizers">Organizers&lt;/h3>
+&lt;ul>
+&lt;li>Interregional Association for Clinical Microbiology and Antimicrobial Chemotherapy (IACMAC)&lt;/li>
+&lt;li>Russian Society of Urologists&lt;/li>
+&lt;/ul>
+&lt;p>The data are presented on antibiotic resistance of community-acquired uropathogens isolated from midstream urine samples of:&lt;/p>
+&lt;ul>
+&lt;li>adults with symptomatic UTI (cystitis, pyelonephritis)&lt;/li>
+&lt;li>children and adolescents under 18 years with symptomatic UTI (cystitis, pyelonephritis)&lt;/li>
+&lt;li>pregnant women with symptomatic UTI (cystitis and pyelonephritis) and asymptomatic bacteriuria&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>The study design is similar to that of the DARMIS study (2010-2011)&lt;/em>&lt;/p>
+&lt;h4 id="time-period-of-sample-collection">Time period of sample collection&lt;/h4>
+&lt;p>01 Jan 2017 - 31 Dec 2018&lt;/p>
+&lt;h4 id="geographic-location-of-centers">Geographic location of centers&lt;/h4>
+&lt;p>&lt;strong>34 centers, 26 cities&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Russia&lt;/strong>: Bratsk, Voronezh, Yekaterinburg, Irkutsk, Yoshkar-Ola, Kazan, Kirov, Krasnodar, Nizhnevartovsk, Novokuznetsk, Novosibirsk, Omsk, Rostov-on-Don, Samara, St. Petersburg, Seversk, Smolensk, Surgut, Tolyatti, Tomsk, Ulyanovsk, Chelyabinsk, Yakutsk, Yaroslavl&lt;/li>
+&lt;li>&lt;strong>Belarus&lt;/strong>: Gomel&lt;/li>
+&lt;li>&lt;strong>Kazakhstan&lt;/strong>: Karaganda&lt;/li>
+&lt;/ul>
+&lt;h4 id="antibiotic-susceptibility-testing">Antibiotic susceptibility testing&lt;/h4>
+&lt;p>Determination of minimum inhibitory concentrations (MICs) by reference broth microdillution method (BMD) in Mueller-Hinton broth (according to ISO 20776-1:2006) at the central laboratory of the Institute of Antimicrobial Chemotherapy (IAC), Smolensk State Mediacal University (SSMU)&lt;/p>
+&lt;h4 id="interpretation-of-mics">Interpretation of MICs&lt;/h4>
+&lt;p>Clinical susceptibility categories were assigned based on the European Committee on Antimicrobial Susceptibility Testing (EUCAST) MIC Clinical breakpoints v.9.0 (&lt;a href="http://www.eucast.org/clinical_breakpoints/">http://www.eucast.org/clinical_breakpoints/&lt;/a>)&lt;/p>
+&lt;h3 id="study-group">Study Group&lt;/h3>
+&lt;ul>
+&lt;li>&lt;em>Amineva P.G.&lt;/em> (Yekaterinburg)&lt;/li>
+&lt;li>&lt;em>Becker G.G.&lt;/em> (Novosibirsk)&lt;/li>
+&lt;li>&lt;em>Bulkin A.N.&lt;/em> (St. Petersburg)&lt;/li>
+&lt;li>&lt;em>Bykonya S.A.&lt;/em> (Tomsk)&lt;/li>
+&lt;li>&lt;em>Chastoedova A.N.&lt;/em> (Kirov)&lt;/li>
+&lt;li>&lt;em>Domanskaya O.V.&lt;/em> (Novokuznetsk)&lt;/li>
+&lt;li>&lt;em>Elokhina E.V.&lt;/em> (Omsk)&lt;/li>
+&lt;li>&lt;em>Ershova M.G.&lt;/em> (Yaroslavl)&lt;/li>
+&lt;li>&lt;em>Ivanova I.A.&lt;/em> (Yoshkar-Ola)&lt;/li>
+&lt;li>&lt;em>Khaidarshina N.E.&lt;/em> (Chelyabinsk)&lt;/li>
+&lt;li>&lt;em>Khusnutdinova T.A.&lt;/em> (St. Petersburg)&lt;/li>
+&lt;li>&lt;em>Kogan M.I.&lt;/em> (Rostov-on-Don)&lt;/li>
+&lt;li>&lt;em>Kulchavenya E.V.&lt;/em> (Novosibirsk)&lt;/li>
+&lt;li>&lt;em>Lavrinenko A.V.&lt;/em> (Kazakhstan)&lt;/li>
+&lt;li>&lt;em>Lyamin A.V.&lt;/em> (Samara)&lt;/li>
+&lt;li>&lt;em>Malev I.V.&lt;/em> (Smolensk)&lt;/li>
+&lt;li>&lt;em>Malyavin A.I.&lt;/em> (Ulyanovsk)&lt;/li>
+&lt;li>&lt;em>Martyanova N.M.&lt;/em> (Tolyatti)&lt;/li>
+&lt;li>&lt;em>Moskvitina E.N.&lt;/em> (Seversk)&lt;/li>
+&lt;li>&lt;em>Mutin M.Yu.&lt;/em> (Bratsk)&lt;/li>
+&lt;li>&lt;em>Naboka Yu.L.&lt;/em> (Rostov-on-Don)&lt;/li>
+&lt;li>&lt;em>Nikiforovskaya N.N.&lt;/em> (Smolensk)&lt;/li>
+&lt;li>&lt;em>Palagin I.S.&lt;/em> (Smolensk)&lt;/li>
+&lt;li>&lt;em>Plugin P.S.&lt;/em> (Novosibirsk)&lt;/li>
+&lt;li>&lt;em>Popova L.D.&lt;/em> (Omsk)&lt;/li>
+&lt;li>&lt;em>Portnyagina U.S.&lt;/em> (Yakutsk)&lt;/li>
+&lt;li>&lt;em>Shamaeva S.Kh.&lt;/em> (Yakutsk)&lt;/li>
+&lt;li>&lt;em>Shipitsyna E.V.&lt;/em> (St. Petersburg)&lt;/li>
+&lt;li>&lt;em>Shirokova T.M.&lt;/em> (Kirov)&lt;/li>
+&lt;li>&lt;em>Sidorova R.K.&lt;/em> (Ulyanovsk)&lt;/li>
+&lt;li>&lt;em>Strebkova V.V.&lt;/em> (Voronezh)&lt;/li>
+&lt;li>&lt;em>Sukhoreva M.V.&lt;/em> (Irkutsk)&lt;/li>
+&lt;li>&lt;em>Tapalsky D.V.&lt;/em> (Belarus)&lt;/li>
+&lt;li>&lt;em>Valiullina I.R.&lt;/em> (Kazan)&lt;/li>
+&lt;li>&lt;em>Varganova A.N.&lt;/em> (Surgut)&lt;/li>
+&lt;li>&lt;em>Varibrus E.V.&lt;/em> (Krasnodar)&lt;/li>
+&lt;li>&lt;em>Vasilyeva I.R.&lt;/em> (Nizhnevartovsk)&lt;/li>
+&lt;li>&lt;em>Vetokhina A.V.&lt;/em> (Irkutsk)&lt;/li>
+&lt;li>&lt;em>Volkovskaya I.V.&lt;/em> (Tomsk)&lt;/li>
+&lt;li>&lt;em>Zhestkov A.V.&lt;/em> (Samara)&lt;/li>
+&lt;/ul>
+&lt;div class="media">
+&lt;div class="media-body">
+&lt;h3 class="mt-0 mb-1">Coordinator&lt;/h3>
+&lt;h5>Ivan S. Palagin&lt;/h5>
+&lt;p>Research fellow&lt;/p>
+&lt;p>Institute of Antimicrobial Chemotherapy (IAC),&lt;br>Smolensk State Medical University (SSMU)&lt;/p>
+&lt;p>&lt;a href="ivan.palagin@gmail.com" target="_blank">ivan.palagin@gmail.com&lt;/a>&lt;/p>
+&lt;/div>
+&lt;img class="ml-3" src="iac.png" alt="Institute of Antimicrobial Chemotherapy">
+&lt;/div></description></item><item><title>Research project: Veterinary monitoring and Risk Analysis of Zoonotic Bacteria Antimicrobial Resistance.</title><link>https://amrcloud.net/en/project/vgnki/</link><pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate><guid>https://amrcloud.net/en/project/vgnki/</guid><description>&lt;h3 id="russian-state-center-for-quality-and-standardization-of-veterinary-drugs-and-feed">Russian State Center for Quality and Standardization of Veterinary Drugs and Feed&lt;/h3>
+&lt;p>Research Institute of the Federal Service for Veterinary and Phytosanitary Surveillance (ROSSELKHOZNADZOR).&lt;/p>
+&lt;p>OIE collaborating Center on Food Safety, Diagnosis and Control of Animal Diseases in Eastern Europe, Central Asia and Transcaucasia.&lt;/p>
+&lt;p>Main activities of VGNKI are ensuring veterinary drugs quality, food of animal origin and feed safety, certification and registration of veterinary drugs, feed and feed additives, including GMO-containing.&lt;/p>
+&lt;h3 id="abstract">Abstract:&lt;/h3>
+&lt;p>We present the data on antimicrobial resistance of animal zoonotic bacteria isolates from different regions of Russia to over than 50 antimicrobials from 12 different groups.&lt;/p>
+&lt;h4 id="object">Object:&lt;/h4>
+&lt;p>Isolates of E.coli, Campylobacter spp., Salmonella spp., Enterococcus spp. taken from biomaterial of farm animals (poultry, cattle, reindeer, swine), food and feed materials.&lt;/p>
+&lt;h4 id="method-of-ast">Method of AST:&lt;/h4>
+&lt;p>Broth microdilution (standard EUCAST/ISO/CLSI protocol), Sensititre veterinary custom plates.&lt;/p>
+&lt;h4 id="breakpoints">Breakpoints:&lt;/h4>
+&lt;p>Microbiological end-points – EUCAST ECOFFs (&lt;a href="https://mic.eucast.org/Eucast2/,">https://mic.eucast.org/Eucast2/,&lt;/a> ver. 5.26), EUCAST Clinical Breakpoints (ver. 2019), CLSI Clinical Breakpoints (Standards M100S28, VET01S 3rd ed.)&lt;/p>
+&lt;h4 id="methods-of-gene-analysis">Methods of gene analysis:&lt;/h4>
+&lt;p>Whole-genome sequencing (Illumina Miseq).&lt;/p>
+&lt;h4 id="data">Data:&lt;/h4>
+&lt;ul>
+&lt;li>Bogomazova A.N.&lt;/li>
+&lt;li>Gergel M.A.&lt;/li>
+&lt;li>Gordeeva V.D.&lt;/li>
+&lt;li>Gritsyuk V.A.&lt;/li>
+&lt;li>Ivanova O.E.&lt;/li>
+&lt;li>Karabanov S.Yu.&lt;/li>
+&lt;li>Komarov A.A.&lt;/li>
+&lt;li>Krylova E.V.&lt;/li>
+&lt;li>Kulikosky A.V.&lt;/li>
+&lt;li>Lenev S.V.&lt;/li>
+&lt;li>Lobova P.A.&lt;/li>
+&lt;li>Makarov D.A.&lt;/li>
+&lt;li>Pleskacheva M.A.&lt;/li>
+&lt;li>Pobolelova Yu. I.&lt;/li>
+&lt;li>Pomazkova A.V.&lt;/li>
+&lt;li>Prasolova O.V.&lt;/li>
+&lt;li>Rusakov S.V.&lt;/li>
+&lt;li>Soltynskaya I.V.&lt;/li>
+&lt;li>Sukhoedova A.V.&lt;/li>
+&lt;li>Yatsentuk S.P.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>You can leave you questions and comments by e-mail:
+&lt;a href="mailto:phorez@yandex.ru">phorez@yandex.ru&lt;/a> (Makarov D.A.)&lt;/p>
+&lt;/blockquote></description></item><item><title>AMRcloud: a new paradigm in monitoring of antibiotic resistance</title><link>https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/</link><pubDate>Thu, 10 Oct 2019 00:04:00 +0000</pubDate><guid>https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/</guid><description/></item><item><title>Privacy Policy</title><link>https://amrcloud.net/en/privacy-policy/20190926/</link><pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate><guid>https://amrcloud.net/en/privacy-policy/20190926/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+&lt;p>Administration does not check the reliability of any information provided by you except as expressly permitted by the Terms of Use or Additional Terms and cannot consider its credibility as well as your legal capacity to provide it. Nonetheless, Administration relies on you to provide accurate and complete Personal Data and timely update it.&lt;/p>
+&lt;p>By using AMRcloud your Personal Data is protected and processed in accordance with applicable data protection and privacy laws.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="what-is-the-purpose-of-this-policy">What is the purpose of this Policy&lt;/h2>
+&lt;p>In accordance with the Policy Administration informs you for:&lt;/p>
+&lt;ul>
+&lt;li>the information we collect;&lt;/li>
+&lt;li>how we use information about you;&lt;/li>
+&lt;li>your rights and obligations.&lt;/li>
+&lt;/ul>
+&lt;h2 id="information-we-collect">Information We Collect&lt;/h2>
+&lt;p>By creating a user account on AMRcloud you provide the following data:&lt;/p>
+&lt;ol>
+&lt;li>Email address - is required for creating a user account and your access to the application.&lt;/li>
+&lt;li>Username – is used to communicate with you. When you grant access to your results of data processing for third-party users by a link, they will be able to see your username.&lt;/li>
+&lt;li>Password – is required for your authentication and access to AMRcloud.&lt;/li>
+&lt;/ol>
+&lt;p>Please, note that Administration does not store passwords in the public domain and cannot use your user account.&lt;/p>
+&lt;p>We set cookies on each our webpage to collect anonymous analytics data. We use this information to help operate our resource and do not convey or sell it to any third parties. The information gathered may include:&lt;/p>
+&lt;ul>
+&lt;li>electronic data (HTTP headers, IP address, cookies, web beacons /pixel tags, browser type, operating system, hardware settings, device information);&lt;/li>
+&lt;li>the time (and length of time) a page was viewed;&lt;/li>
+&lt;li>information about the actions you take when using AMRcloud;&lt;/li>
+&lt;li>information about your location.&lt;/li>
+&lt;/ul>
+&lt;h2 id="creation-and-sharing-information">Creation and Sharing Information&lt;/h2>
+&lt;p>You have the right to use AMRcloud to get results of data processing strictly in accordance with the Terms of Use. All materials created by you, including all uploaded and downloaded data, will be available only for your user account until you share them (“share the results”).&lt;/p>
+&lt;p>You can share information using two modes: public (access by any user) and protected (access by entering a password). The users you share with can see your results of data processing, as well as your username, but not email address.&lt;/p>
+&lt;p>Administration does not use the content you create and does not grant access to the third parties to it. Administration may gain access to your content with your relevant permission only (for example, to identify and fix service failures).&lt;/p>
+&lt;h2 id="service-usage-data">Service Usage Data&lt;/h2>
+&lt;p>To improve our services Administration collects anonymous information about the actions you take when using AMRcloud. This may include the number of visits to AMRcloud and access time, interaction with the website (for example, clicks on buttons and links), IP address, device information, operating system, browser type, proxy server, mobile data provider. A part of the above information may be temporarily stored in cookies. Each time you visit any webpage of AMRcloud, Administration gets the URL of the webpages you came from and the URL you go to next. This Usage Data is collected automatically and is used anonymously.&lt;/p>
+&lt;p>To help collect anonymous usage statistics we use Google Analytics. To find out more about its Privacy Policy please visit
+&lt;a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">https://policies.google.com/technologies/partner-sites&lt;/a>&lt;/p>
+&lt;h2 id="how-we-use-your-personal-data">How We Use Your Personal Data&lt;/h2>
+&lt;p>Administration uses your Personal Data (email address) to authenticate and provide you the right to use AMRcloud and to access results of data processing.&lt;/p>
+&lt;p>Administration may send you:&lt;/p>
+&lt;ul>
+&lt;li>technical notices (information about changes to user account settings including password reset, account deletion and so on);&lt;/li>
+&lt;li>support messages;&lt;/li>
+&lt;li>administrative messages (information about any disruption, interruption and resume after a failure, updates or other information about your use of AMRcloud or the Security Policy).&lt;/li>
+&lt;/ul>
+&lt;p>You cannot opt-out of receiving some categories of communications from us such as notices of significant changes to technical features or functionality of AMRcloud, the Security Policy or other Services policies or applicable laws. With your consent, Administration may periodically send you other messages about new services, features or functionality of AMRcloud through the email address specified by you.&lt;/p>
+&lt;h2 id="your-rights--obligations">Your Rights &amp;amp; Obligations&lt;/h2>
+&lt;p>Administration will store your Personal Data for the period necessary to fulfil the purposes outlined in this Policy unless a longer storage period is required or permitted by law. Administration reserves the right to delete your user account including your Personal Data and created content in case of your violation of Terms of Use. If you would like to delete from our database any Personal Data you previously submitted to AMRcloud, you may submit a deletion request.&lt;/p>
+&lt;p>You may access your Personal Data processed by AMRcloud in accordance with this Policy unless otherwise is provided by law.&lt;/p>
+&lt;p>You may request to correct any incomplete or inaccurate Personal Data we hold about you.&lt;/p>
+&lt;p>You have the right to (If provided by the applicable international law or law of the Russian Federation):&lt;/p>
+&lt;ul>
+&lt;li>request to erasure or remove your Personal Data or any part of it and/or to withdraw your consent to the processing of your Personal Data;&lt;/li>
+&lt;li>request restrictions on the processing of your Personal Data;&lt;/li>
+&lt;li>object to the processing of your Personal Data.&lt;/li>
+&lt;/ul>
+&lt;p>In some cases, you will be provided with other rights not specified above, as required or permitted by international data protection laws or laws of the Russian Federation. If you have any concerns as to how your Personal Data is processed, please submit a support request. If you would like to exercise any right mentioned above, please contact the Administration.&lt;/p>
+&lt;h2 id="lawful-processing">Lawful Processing&lt;/h2>
+&lt;p>The collecting and processing of your Personal Data are based on the applicable laws, regulations or legal procedures. You give your explicit consent to the Administration of AMRcloud for collection, storage and processing of Personal Data by accepting the terms of this Policy or any related documentation (for example Additional Terms). You may withdraw your consent at any time. For legitimate business purposes, you may object to the processing of your Personal Data. In this case, Administration reserves the right to delete your user account as required by your objection.&lt;/p>
+&lt;h2 id="cross-border-transfer-of-data">Cross-Border Transfer of Data&lt;/h2>
+&lt;p>Your personal data is stored in the Russian Federation.&lt;/p>
+&lt;p>Administration collects, processes, stores, retains, clarifies (update, change) and extracts Personal Data using databases and servers located in the Russian Federation.&lt;/p>
+&lt;h2 id="updating-this-policy">Updating this Policy&lt;/h2>
+&lt;p>Administration has the right to update this Privacy Policy from time to time in its discretion including in case of any changes in applicable laws or technical features or functionality of AMRcloud.&lt;/p>
+&lt;p>If we make any significant change, including limitations and restrictions to this Policy, we will provide you with additional notice via email.&lt;/p></description></item><item><title>Terms of Use</title><link>https://amrcloud.net/en/terms-of-use/20190926/</link><pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate><guid>https://amrcloud.net/en/terms-of-use/20190926/</guid><description>&lt;h2 id="use-of-amrcloud">Use of AMRcloud&lt;/h2>
+&lt;p>Administration of AMRcloud (&lt;strong>“Administration”&lt;/strong>) grants User а non-transferable right to use AMRcloud. AMRcloud makes it possible to upload files («files» or «data»), process, change, delete and visualize data and results of data processing as well as to provide and manage access to results of data processing to the third parties.&lt;/p>
+&lt;p>In order to upload and process data in AMRcloud, User must create an account. By creating an account, User acknowledges and agrees that AMRcloud displays her/his account name, but not email address, to the third parties with whom User decides to share the results of data processing. &lt;/p>
+&lt;p>Regular functionalities and services of AMRcloud are available free of charge.&lt;/p>
+&lt;p>In order to use AMRcloud User will need an Internet connection. User is responsible for providing all equipment required to access the Internet.&lt;/p>
+&lt;p>Administration reserves the right to update or modify these Terms at any time and without notice to User. A new version of the Terms will come into force on the date of publication on the Internet at the following link:
+&lt;a href="https://amrcloud.net/en/terms-of-use" target="_blank" rel="noopener">https://amrcloud.net/en/terms-of-use&lt;/a>, unless otherwise provided by the new version of the Terms.&lt;/p>
+&lt;p>In case of disagreement with any new provision of these Terms, User must immediately stop using AMRcloud.&lt;/p>
+&lt;h2 id="your-rights-and-obligations">Your Rights and Obligations&lt;/h2>
+&lt;p>User has the right to use AMRcloud in her/his sole discretion.&lt;/p>
+&lt;p>User acknowledges and agrees that she/he is solely responsible for:&lt;/p>
+&lt;ul>
+&lt;li>her/his usage purposes of AMRcloud;&lt;/li>
+&lt;li>any content (data files and materials) uploaded by User to AMRcloud and its compliance with local, regional and international laws and regulations;&lt;/li>
+&lt;li>any actions leading to violation legitimate interests of the third parties including non-property and other intellectual property rights;&lt;/li>
+&lt;li>any attempts on intangible assets of the third parties.&lt;/li>
+&lt;/ul>
+&lt;p>User is not allowed to:&lt;/p>
+&lt;ul>
+&lt;li>upload, send, transfer or allocate and/or distribute any material that is illegal, malicious, libelous, violates intellectual property rights, demonstrates discrimination against people racial, ethnic, national, sexual, religious, social characteristics, discloses the third parties&amp;rsquo; personal information or data, including patient identification data, violates the rights of or injurious to the third parties, contains improper advertisement, violates any local, regional and international laws and regulations;&lt;/li>
+&lt;li>upload, send, transfer or allocate and/or distribute any material that Users doesn’t have a right to make available under any law or under contractual or fiduciary relationships/ content that is subject to any third party proprietary rights;&lt;/li>
+&lt;li>impersonate any person or entity, falsely claim an affiliation with any person or entity;&lt;/li>
+&lt;li>taking any action including technically aimed to violate normal functioning of AMRcloud;&lt;/li>
+&lt;li>use AMRcloud for commercial purposes unless User has permission from Administration;&lt;/li>
+&lt;li>use AMRcloud for any kind of illegal activity.&lt;/li>
+&lt;/ul>
+&lt;p>These Terms is governed by and construed in accordance with the internal law of the Russian Federation without giving effect to any choice or conflict of law provision or rule.&lt;/p>
+&lt;h2 id="removing-and-blocking">Removing and Blocking&lt;/h2>
+&lt;p>Administration reserves the right to delete User’s files immediately, with or without prior notice from Administration in the event that User fails to comply with any provision of these Terms.&lt;/p>
+&lt;p>Administration reserves the right to suspend or terminate User’s access to AMRcloud &lt;strong>with notice to User&lt;/strong> in the following cases:&lt;/p>
+&lt;ul>
+&lt;li>User uses AMRcloud in any manner that would subject AMRcloud or other users to the risk of harm or damage;&lt;/li>
+&lt;li>User Account has been inactive for more than 12 months;&lt;/li>
+&lt;li>User doesn’t mention AMRcloud as a system for processing and analyzing data while presenting any content generated with AMRcloud in public (e.g. in journal publications, reports at conferences);&lt;/li>
+&lt;li>The
+&lt;a href="https://cmac-journal.ru/en/publication/2019/2/cmac-2019-t21-n2-p119/" target="_blank" rel="noopener">reference&lt;/a> for citing the use of AMRcloud: Kuzmenkov A.Yu., Vinogradova A.G., Trushin I.V., Avramenko A.A., Edelstein M.V., Dekhnich A.V., Kozlov R.S. AMRcloud: a new paradigm in monitoring of antibiotic resistance. Clinical Microbiology and Antimicrobial Chemotherapy. 2019; Vol. 21 №2. P.119-124.&lt;/li>
+&lt;/ul>
+&lt;p>In case of one of the above situations, Administration may send a notification to User through the email address specified by User. If the above violations are detected, Administration will have the right to suspend User’s access to AMRcloud. In case User ignores notifications or violates provisions of the Terms systematically, Administration will have the right to delete User Account, including all data uploaded to AMRcloud, results of data processing and created links, without additional notice and consent from User.&lt;/p>
+&lt;p>Administration reserves the right to terminate User’s access to AMRcloud or delete User account without notice to User in the following cases:&lt;/p>
+&lt;ul>
+&lt;li>User violates any of the provisions of these Terms or related documentation (except all the above situations);&lt;/li>
+&lt;li>User’s actions entail legal or regulatory liability and/or jeopardize the ability of AMRcloud to provide services to other users;&lt;/li>
+&lt;li>There is no technical possibility to contact User and to notify her/him about the above conditions.&lt;/li>
+&lt;/ul>
+&lt;p>In addition, in case of high load on AMRcloud infrastructure caused by sharing results of data processing through generating a link with AMRcloud, this link may be blocked.&lt;/p>
+&lt;h2 id="amrcloud-changes">AMRcloud Changes&lt;/h2>
+&lt;p>Administration has the right to change AMRcloud, such as change the existing or add new functionalities and services, at any time without prior notice.&lt;/p>
+&lt;h2 id="revisions-and-errors">Revisions and Errors&lt;/h2>
+&lt;p>All information and materials placed on AMRcloud may contain technical, spelling, typographical errors or mistakes in text, graphics and figures. Administration does not guarantee that any information, data and other materials are accurate, complete or correct. Administration reserves the right to change and correct any information or materials contained in AMRcloud without prior notice.&lt;/p>
+&lt;h2 id="copyrights-and-trademarks">Copyrights and Trademarks&lt;/h2>
+&lt;p>User retains her/his entire right relating to the materials uploaded by User to AMRcloud, including all copyrights, trademarks and other intellectual property rights.&lt;/p>
+&lt;p>User has the right to distribute results of data processing generated with AMRcloud. For citing any content of AMRcloud or reporting the use of AMRcloud for processing and analyzing data in journal publications and conference proceedings, the following
+&lt;a href="https://cmac-journal.ru/en/publication/2019/2/cmac-2019-t21-n2-p119/" target="_blank" rel="noopener">reference&lt;/a> is mandatory: Kuzmenkov A.Yu., Vinogradova A.G., Trushin I.V., Avramenko A.A., Edelstein M.V., Dekhnich A.V., Kozlov R.S. AMRcloud: a new paradigm in monitoring of antibiotic resistance. Clinical Microbiology and Antimicrobial Chemotherapy. 2019; Vol. 21 №2. P.119-124.&lt;/p>
+&lt;h2 id="limitations">Limitations&lt;/h2>
+&lt;p>User acknowledges and agrees with the possibility of hardware failures and malfunctions in AMRcloud software including those causing violation of access to data processing results or loss of uploaded data. User agrees that Administration has no capability to predict any technical failures and to inform User in advance about such failures or to eliminate the possibility of the resumption of problems. Such situations cannot be used for bringing a claim against AMRcloud.&lt;/p>
+&lt;p>User acknowledges and agrees that Administration does not verify or endorse and takes no responsibility for any data uploaded by User or results of data processing in AMRcloud (except as expressly permitted by User). Administration does not guarantee that the files placed on AMRcloud are in accordance with applicable local, regional and international laws and subject to all terms, conditions and restrictions, under these Terms.&lt;/p>
+&lt;p>User acknowledges and agrees that she/he uses AMRcloud on her/his own risk and Administration does not assume and will not have any liability to User for any information, data or results of data processing placed on AMRcloud, including their accuracy, completeness, timeliness, validity, copyright compliance, legality, decency, quality or any other aspect thereof.&lt;/p>
+&lt;p>User is responsible for any negative consequences arising from her/his use of any information, data or results of data processing placed on AMRcloud, including damage to computers or devices owned by User or the third parties, loss of data or results of data processing, violation of rights or any other damages.&lt;/p>
+&lt;p>User acknowledges and agrees that personal account on AMRcloud is intended for her/his individual use. User has no right to transfer access to her/his account on AMRcloud to any third party on a paid or unpaid basis. If User account is accessed by more than one User at the same time, technical problems may occur.&lt;/p>
+&lt;p>Administration under no circumstances and without exception is not liable to User for any damages, arising from or relating to User’s use or misuse of AMRcloud or its functionality (services), including lost data caused by any technical failures or problems.&lt;/p>
+&lt;h2 id="disclaimer">Disclaimer&lt;/h2>
+&lt;p>User acknowledges and agrees that she/he uses AMRcloud on her/his own risk. AMRcloud and all its functionality (services) are provided ‘as is’. Administration does not take on of any liability related to usage of AMRcloud and does not guarantee that AMRcloud will meet requirements and interests of User.&lt;/p>
+&lt;p>Administration does not guarantee that AMRcloud will function quickly, continuously, reliably and without errors.&lt;/p>
+&lt;p>Administration disclaims all warranties, whether express or implied, of accuracy of results or reliability of information from AMRcloud (including related web resources or services).&lt;/p>
+&lt;p>Administration does not support or control links or materials placed by User through AMRcloud. Administration is not responsible for User’s materials, including their validity, legality or any other aspect thereof. Administration does not guarantee storage of data uploaded by User to AMRcloud.&lt;/p>
+&lt;p>Administration reserves the right to impose any rules, limitations and restrictions (technical, legal, institutional or other) and to change them from time to time in its sole discretion without any notice. Limitations and restrictions may be different for various categories of Users and they are defined by additional terms between User and Administration in full compliance with applicable federal laws, regulations and rules.&lt;/p>
+&lt;p>Reference to any website, product, service, any information of a commercial or non-commercial nature, placed on AMRcloud cannot be considered either as an endorsement or a recommendation of these products (services) by Administration.&lt;/p></description></item><item><title>Registration</title><link>https://amrcloud.net/en/post/invite-register/</link><pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate><guid>https://amrcloud.net/en/post/invite-register/</guid><description>&lt;div class="cognito">
+&lt;script src="https://services.cognitoforms.com/s/M0a4wlljSUmqA5FZxhXqtA">&lt;/script>
+&lt;script>Cognito.load("forms", { id: "2" });&lt;/script>
+&lt;/div></description></item></channel></rss>

@@ -1,157 +1,155 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | AMRcloud</title><link>https://amrcloud.net/en/project/</link><atom:link href="https://amrcloud.net/en/project/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud</copyright><lastBuildDate>Mon, 10 Feb 2020 00:00:00 +0000</lastBuildDate><image><url>https://amrcloud.net/img/amr-cloud-logo-text.png</url><title>Projects</title><link>https://amrcloud.net/en/project/</link></image><item><title>&lt;em&gt;Acinetobacter baumannii&lt;/em&gt; genetic diversity, susceptibility to antibiotics and lytic phages</title><link>https://amrcloud.net/en/project/abphage/</link><pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate><guid>https://amrcloud.net/en/project/abphage/</guid><description>
-&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Acinetobacter baumannii&lt;/em&gt;&lt;/strong&gt; is one of the most common and troublesome nosocomial pathogens. This project presents the following data on nosocomial &lt;em&gt;A. baumannii&lt;/em&gt; isolates collected from various regions of Russia:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;isolate source data (geographical, clinical data, and basic patient demographics);&lt;/li&gt;
-&lt;li&gt;molecular-genetic characteristics of isolates (clonal group, SNP type, sequence type, KL type, presence of acquired carbapenemase genes);&lt;/li&gt;
-&lt;li&gt;susceptibility to various antibiotics;&lt;/li&gt;
-&lt;li&gt;susceptibility to certain lytic phages.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;bacterial-isolates&#34;&gt;Bacterial isolates&lt;/h3&gt;
-&lt;p&gt;The study includes a total of &lt;strong&gt;2,535&lt;/strong&gt; consecutive non-duplicate (one per patient/case of infection) clinical isolates collected between &lt;strong&gt;14 January 2013 and 25 December 2018&lt;/strong&gt; as part of the national surveillance studies from &lt;strong&gt;61 hospitals in 32 cities of Russia&lt;/strong&gt;: Arkhangelsk, Blagoveshchensk, Vladivostok, Voronezh, Yekaterinburg, Izhevsk, Kazan, Kislovodsk, Krasnodar, Maykop, Moscow, Murmansk, Naberezhnye Chelny, Novosibirsk, Noyabrsk, Omsk, Penza, Perm, Petrozavodsk, Rostov-on-Don, St. Petersburg, Seversk, Smolensk, Tver, Tolyatti, Tomsk, Tula, Tyumen, Ulan-Ude, Chelyabinsk, Yuzhno-Sakhalinsk, and Yakutsk.&lt;/p&gt;
-&lt;h3 id=&#34;antibiotic-susceptibility-testing-ast&#34;&gt;Antibiotic susceptibility testing (AST)&lt;/h3&gt;
-&lt;p&gt;Minimum inhibitory concentrations (MICs) of antibiotics were determined by reference broth microdilution method according to ISO 20776-1:2006. The susceptibility categories were interpreted according to European Committee on Antimicrobial Susceptibility Testing (EUCAST) MIC Clinical Breakpoints v.9.0, 2019 (&lt;a href=&#34;http://www.eucast.org/clinical_breakpoints/&#34;&gt;http://www.eucast.org/clinical_breakpoints/&lt;/a&gt;)&lt;/p&gt;
-&lt;h3 id=&#34;phage-susceptibility-testing-pst&#34;&gt;Phage susceptibility testing (PST)&lt;/h3&gt;
-&lt;p&gt;Susceptibilities of isolates to selected lytic phages were determined by a modified double-agar-layer method and by spot testing. The results are interpreted as follows: &lt;strong&gt;S&lt;/strong&gt; – lysis by phage; &lt;strong&gt;I&lt;/strong&gt; – partial lysis; &lt;strong&gt;R&lt;/strong&gt; – resistance to phage. PST results are presented together with AST results.&lt;/p&gt;
-&lt;h3 id=&#34;molecular-genetic-subtyping&#34;&gt;Molecular-genetic subtyping&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;All isolates were typed by a single nucleotide polymorphism (SNP)-typing assay based on high-throughput real-time PCR detection of 21informative SNPs in 10 chromosomal loci: &lt;em&gt;gltA, recA, cpn60, gyrB, gdhB, rpoD, fusA, pyrG, rplB,&lt;/em&gt; and &lt;em&gt;rpoB&lt;/em&gt; (&lt;a href=&#34;http://snpt.antibiotic.ru:9002/&#34;&gt;http://snpt.antibiotic.ru:9002/&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Selected isolates were typed by both the Oxford and Pasteur multilocus sequence typing (MLST) schemes using Sanger or whole genome sequencing (&lt;a href=&#34;https://pubmlst.org/abaumannii/&#34;&gt;https://pubmlst.org/abaumannii/&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;identification-of-capsular-polysaccharide-biosynthesis-gene-clusters-k-loci-kl&#34;&gt;Identification of capsular polysaccharide biosynthesis gene clusters (K-loci, KL)&lt;/h3&gt;
-&lt;p&gt;KL types were identified for selected isolates from WGS data using the standard database and nomenclature (&lt;a href=&#34;https://github.com/katholt/Kaptive&#34;&gt;https://github.com/katholt/Kaptive&lt;/a&gt;).&lt;/p&gt;
-&lt;h3 id=&#34;detection-of-acquired-carbapenemase-genes&#34;&gt;Detection of acquired carbapenemase genes&lt;/h3&gt;
-&lt;p&gt;The genes of the most prevalent in &lt;em&gt;Acinetobacter&lt;/em&gt; spp. acquired carbapenemases of molecular class D (OXA-23-, OXA-&lt;sup&gt;24&lt;/sup&gt;&amp;frasl;&lt;sub&gt;40&lt;/sub&gt;- and OXA-58-like), class А (GES-2- or GES-5-like), and class B (VIM, IMP and NDM) were determined by means of real-time PCR.&lt;/p&gt;
-&lt;h3 id=&#34;study-group&#34;&gt;Study group&lt;/h3&gt;
-&lt;p&gt;Roman S. Kozlov, Anastasia V. Popova, Mikhail M. Shneider, Eugene A. Sheck, Mikhail V. Edelstein, Alexey Yu. Kuzmenkov, Andrey V. Romanov, Elvira R. Shaidullina.&lt;/p&gt;
-&lt;h3 id=&#34;funding&#34;&gt;Funding&lt;/h3&gt;
-&lt;p&gt;This work was conducted with the financial support of the Russian Science Foundation (grant no. 18-15-00403).&lt;/p&gt;
-&lt;hr/&gt;
-&lt;div class=&#34;media&#34;&gt;
-&lt;div class=&#34;media-body&#34;&gt;
-&lt;h3 class=&#34;mt-0 mb-1&#34;&gt;Contact&lt;/h3&gt;
-&lt;h5&gt;Evgenii Shek&lt;/h5&gt;
-&lt;p&gt;Research fellow&lt;/p&gt;
-&lt;p&gt;Institute of Antimicrobial Chemotherapy (IAC),&lt;br&gt;Smolensk State Medical University (SSMU)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;evgeniy.sheck@antibiotic.ru&#34; target=&#34;_blank&#34;&gt;evgeniy.sheck@antibiotic.ru&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;img class=&#34;ml-3&#34; src=&#34;iac.png&#34; style=&#34;width: 200px&#34; alt=&#34;Institute of Antimicrobial Chemotherapy (IAC), Smolensk State Medical University (SSMU)&#34;&gt;
-&lt;/div&gt;</description></item><item><title>DARMIS-2018</title><link>https://amrcloud.net/en/project/darmis-2018/</link><pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate><guid>https://amrcloud.net/en/project/darmis-2018/</guid><description>
-&lt;h3 id=&#34;organizers&#34;&gt;Organizers&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Interregional Association for Clinical Microbiology and Antimicrobial Chemotherapy (IACMAC)&lt;/li&gt;
-&lt;li&gt;Russian Society of Urologists&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The data are presented on antibiotic resistance of community-acquired uropathogens isolated from midstream urine samples of:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;adults with symptomatic UTI (cystitis, pyelonephritis)&lt;/li&gt;
-&lt;li&gt;children and adolescents under 18 years with symptomatic UTI (cystitis, pyelonephritis)&lt;/li&gt;
-&lt;li&gt;pregnant women with symptomatic UTI (cystitis and pyelonephritis) and asymptomatic bacteriuria&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;The study design is similar to that of the DARMIS study (2010-2011)&lt;/em&gt;&lt;/p&gt;
-&lt;h4 id=&#34;time-period-of-sample-collection&#34;&gt;Time period of sample collection&lt;/h4&gt;
-&lt;p&gt;01 Jan 2017 - 31 Dec 2018&lt;/p&gt;
-&lt;h4 id=&#34;geographic-location-of-centers&#34;&gt;Geographic location of centers&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;34 centers, 26 cities&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Russia&lt;/strong&gt;: Bratsk, Voronezh, Yekaterinburg, Irkutsk, Yoshkar-Ola, Kazan, Kirov, Krasnodar, Nizhnevartovsk, Novokuznetsk, Novosibirsk, Omsk, Rostov-on-Don, Samara, St. Petersburg, Seversk, Smolensk, Surgut, Tolyatti, Tomsk, Ulyanovsk, Chelyabinsk, Yakutsk, Yaroslavl&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Belarus&lt;/strong&gt;: Gomel&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Kazakhstan&lt;/strong&gt;: Karaganda&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;antibiotic-susceptibility-testing&#34;&gt;Antibiotic susceptibility testing&lt;/h4&gt;
-&lt;p&gt;Determination of minimum inhibitory concentrations (MICs) by reference broth microdillution method (BMD) in Mueller-Hinton broth (according to ISO 20776-1:2006) at the central laboratory of the Institute of Antimicrobial Chemotherapy (IAC), Smolensk State Mediacal University (SSMU)&lt;/p&gt;
-&lt;h4 id=&#34;interpretation-of-mics&#34;&gt;Interpretation of MICs&lt;/h4&gt;
-&lt;p&gt;Clinical susceptibility categories were assigned based on the European Committee on Antimicrobial Susceptibility Testing (EUCAST) MIC Clinical breakpoints v.9.0 (&lt;a href=&#34;http://www.eucast.org/clinical_breakpoints/&#34;&gt;http://www.eucast.org/clinical_breakpoints/&lt;/a&gt;)&lt;/p&gt;
-&lt;h3 id=&#34;study-group&#34;&gt;Study Group&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Amineva P.G.&lt;/em&gt; (Yekaterinburg)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Becker G.G.&lt;/em&gt; (Novosibirsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Bulkin A.N.&lt;/em&gt; (St. Petersburg)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Bykonya S.A.&lt;/em&gt; (Tomsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Chastoedova A.N.&lt;/em&gt; (Kirov)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Domanskaya O.V.&lt;/em&gt; (Novokuznetsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Elokhina E.V.&lt;/em&gt; (Omsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Ershova M.G.&lt;/em&gt; (Yaroslavl)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Ivanova I.A.&lt;/em&gt; (Yoshkar-Ola)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Khaidarshina N.E.&lt;/em&gt; (Chelyabinsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Khusnutdinova T.A.&lt;/em&gt; (St. Petersburg)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Kogan M.I.&lt;/em&gt; (Rostov-on-Don)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Kulchavenya E.V.&lt;/em&gt; (Novosibirsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Lavrinenko A.V.&lt;/em&gt; (Kazakhstan)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Lyamin A.V.&lt;/em&gt; (Samara)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Malev I.V.&lt;/em&gt; (Smolensk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Malyavin A.I.&lt;/em&gt; (Ulyanovsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Martyanova N.M.&lt;/em&gt; (Tolyatti)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Moskvitina E.N.&lt;/em&gt; (Seversk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Mutin M.Yu.&lt;/em&gt; (Bratsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Naboka Yu.L.&lt;/em&gt; (Rostov-on-Don)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Nikiforovskaya N.N.&lt;/em&gt; (Smolensk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Palagin I.S.&lt;/em&gt; (Smolensk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Plugin P.S.&lt;/em&gt; (Novosibirsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Popova L.D.&lt;/em&gt; (Omsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Portnyagina U.S.&lt;/em&gt; (Yakutsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Shamaeva S.Kh.&lt;/em&gt; (Yakutsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Shipitsyna E.V.&lt;/em&gt; (St. Petersburg)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Shirokova T.M.&lt;/em&gt; (Kirov)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Sidorova R.K.&lt;/em&gt; (Ulyanovsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Strebkova V.V.&lt;/em&gt; (Voronezh)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Sukhoreva M.V.&lt;/em&gt; (Irkutsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Tapalsky D.V.&lt;/em&gt; (Belarus)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Valiullina I.R.&lt;/em&gt; (Kazan)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Varganova A.N.&lt;/em&gt; (Surgut)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Varibrus E.V.&lt;/em&gt; (Krasnodar)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Vasilyeva I.R.&lt;/em&gt; (Nizhnevartovsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Vetokhina A.V.&lt;/em&gt; (Irkutsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Volkovskaya I.V.&lt;/em&gt; (Tomsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Zhestkov A.V.&lt;/em&gt; (Samara)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;media&#34;&gt;
-&lt;div class=&#34;media-body&#34;&gt;
-&lt;h3 class=&#34;mt-0 mb-1&#34;&gt;Coordinator&lt;/h3&gt;
-&lt;h5&gt;Ivan S. Palagin&lt;/h5&gt;
-&lt;p&gt;Research fellow&lt;/p&gt;
-&lt;p&gt;Institute of Antimicrobial Chemotherapy (IAC),&lt;br&gt;Smolensk State Medical University (SSMU)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;ivan.palagin@gmail.com&#34; target=&#34;_blank&#34;&gt;ivan.palagin@gmail.com&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;img class=&#34;ml-3&#34; src=&#34;iac.png&#34; alt=&#34;Institute of Antimicrobial Chemotherapy&#34;&gt;
-&lt;/div&gt;</description></item><item><title>Research project: Veterinary monitoring and Risk Analysis of Zoonotic Bacteria Antimicrobial Resistance.</title><link>https://amrcloud.net/en/project/vgnki/</link><pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate><guid>https://amrcloud.net/en/project/vgnki/</guid><description>
-&lt;h3 id=&#34;russian-state-center-for-quality-and-standardization-of-veterinary-drugs-and-feed&#34;&gt;Russian State Center for Quality and Standardization of Veterinary Drugs and Feed&lt;/h3&gt;
-&lt;p&gt;Research Institute of the Federal Service for Veterinary and Phytosanitary Surveillance (ROSSELKHOZNADZOR).&lt;/p&gt;
-&lt;p&gt;OIE collaborating Center on Food Safety, Diagnosis and Control of Animal Diseases in Eastern Europe, Central Asia and Transcaucasia.&lt;/p&gt;
-&lt;p&gt;Main activities of VGNKI are ensuring veterinary drugs quality, food of animal origin and feed safety, certification and registration of veterinary drugs, feed and feed additives, including GMO-containing.&lt;/p&gt;
-&lt;h3 id=&#34;abstract&#34;&gt;Abstract:&lt;/h3&gt;
-&lt;p&gt;We present the data on antimicrobial resistance of animal zoonotic bacteria isolates from different regions of Russia to over than 50 antimicrobials from 12 different groups.&lt;/p&gt;
-&lt;h4 id=&#34;object&#34;&gt;Object:&lt;/h4&gt;
-&lt;p&gt;Isolates of E.coli, Campylobacter spp., Salmonella spp., Enterococcus spp. taken from biomaterial of farm animals (poultry, cattle, reindeer, swine), food and feed materials.&lt;/p&gt;
-&lt;h4 id=&#34;method-of-ast&#34;&gt;Method of AST:&lt;/h4&gt;
-&lt;p&gt;Broth microdilution (standard EUCAST/ISO/CLSI protocol), Sensititre veterinary custom plates.&lt;/p&gt;
-&lt;h4 id=&#34;breakpoints&#34;&gt;Breakpoints:&lt;/h4&gt;
-&lt;p&gt;Microbiological end-points – EUCAST ECOFFs (&lt;a href=&#34;https://mic.eucast.org/Eucast2/&#34;&gt;https://mic.eucast.org/Eucast2/&lt;/a&gt;, ver. 5.26), EUCAST Clinical Breakpoints (ver. 2019), CLSI Clinical Breakpoints (Standards M100S28, VET01S 3rd ed.)&lt;/p&gt;
-&lt;h4 id=&#34;methods-of-gene-analysis&#34;&gt;Methods of gene analysis:&lt;/h4&gt;
-&lt;p&gt;Whole-genome sequencing (Illumina Miseq).&lt;/p&gt;
-&lt;h4 id=&#34;data&#34;&gt;Data:&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Bogomazova A.N.&lt;/li&gt;
-&lt;li&gt;Gergel M.A.&lt;/li&gt;
-&lt;li&gt;Gordeeva V.D.&lt;/li&gt;
-&lt;li&gt;Gritsyuk V.A.&lt;/li&gt;
-&lt;li&gt;Ivanova O.E.&lt;/li&gt;
-&lt;li&gt;Karabanov S.Yu.&lt;/li&gt;
-&lt;li&gt;Komarov A.A.&lt;/li&gt;
-&lt;li&gt;Krylova E.V.&lt;/li&gt;
-&lt;li&gt;Kulikosky A.V.&lt;/li&gt;
-&lt;li&gt;Lenev S.V.&lt;/li&gt;
-&lt;li&gt;Lobova P.A.&lt;/li&gt;
-&lt;li&gt;Makarov D.A.&lt;/li&gt;
-&lt;li&gt;Pleskacheva M.A.&lt;/li&gt;
-&lt;li&gt;Pobolelova Yu. I.&lt;/li&gt;
-&lt;li&gt;Pomazkova A.V.&lt;/li&gt;
-&lt;li&gt;Prasolova O.V.&lt;/li&gt;
-&lt;li&gt;Rusakov S.V.&lt;/li&gt;
-&lt;li&gt;Soltynskaya I.V.&lt;/li&gt;
-&lt;li&gt;Sukhoedova A.V.&lt;/li&gt;
-&lt;li&gt;Yatsentuk S.P.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;You can leave you questions and comments by e-mail: &lt;a href=&#34;mailto:phorez@yandex.ru&#34;&gt;phorez@yandex.ru&lt;/a&gt; (Makarov D.A.)&lt;/p&gt;
-&lt;/blockquote&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | AMRcloud</title><link>https://amrcloud.net/en/project/</link><atom:link href="https://amrcloud.net/en/project/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud</copyright><lastBuildDate>Mon, 10 Feb 2020 00:00:00 +0000</lastBuildDate><image><url>https://amrcloud.net/img/amr-cloud-logo-text.png</url><title>Projects</title><link>https://amrcloud.net/en/project/</link></image><item><title>&lt;em>Acinetobacter baumannii&lt;/em> genetic diversity, susceptibility to antibiotics and lytic phages</title><link>https://amrcloud.net/en/project/abphage/</link><pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate><guid>https://amrcloud.net/en/project/abphage/</guid><description>&lt;h3 id="abstract">Abstract&lt;/h3>
+&lt;p>&lt;em>&lt;strong>Acinetobacter baumannii&lt;/strong>&lt;/em> is one of the most common and troublesome nosocomial pathogens. This project presents the following data on nosocomial &lt;em>A. baumannii&lt;/em> isolates collected from various regions of Russia:&lt;/p>
+&lt;ul>
+&lt;li>isolate source data (geographical, clinical data, and basic patient demographics);&lt;/li>
+&lt;li>molecular-genetic characteristics of isolates (clonal group, SNP type, sequence type, KL type, presence of acquired carbapenemase genes);&lt;/li>
+&lt;li>susceptibility to various antibiotics;&lt;/li>
+&lt;li>susceptibility to certain lytic phages.&lt;/li>
+&lt;/ul>
+&lt;h3 id="bacterial-isolates">Bacterial isolates&lt;/h3>
+&lt;p>The study includes a total of &lt;strong>2,535&lt;/strong> consecutive non-duplicate (one per patient/case of infection) clinical isolates collected between &lt;strong>14 January 2013 and 25 December 2018&lt;/strong> as part of the national surveillance studies from &lt;strong>61 hospitals in 32 cities of Russia&lt;/strong>: Arkhangelsk, Blagoveshchensk, Vladivostok, Voronezh, Yekaterinburg, Izhevsk, Kazan, Kislovodsk, Krasnodar, Maykop, Moscow, Murmansk, Naberezhnye Chelny, Novosibirsk, Noyabrsk, Omsk, Penza, Perm, Petrozavodsk, Rostov-on-Don, St. Petersburg, Seversk, Smolensk, Tver, Tolyatti, Tomsk, Tula, Tyumen, Ulan-Ude, Chelyabinsk, Yuzhno-Sakhalinsk, and Yakutsk.&lt;/p>
+&lt;h3 id="antibiotic-susceptibility-testing-ast">Antibiotic susceptibility testing (AST)&lt;/h3>
+&lt;p>Minimum inhibitory concentrations (MICs) of antibiotics were determined by reference broth microdilution method according to ISO 20776-1:2006. The susceptibility categories were interpreted according to European Committee on Antimicrobial Susceptibility Testing (EUCAST) MIC Clinical Breakpoints v.9.0, 2019 (&lt;a href="http://www.eucast.org/clinical_breakpoints/">http://www.eucast.org/clinical_breakpoints/&lt;/a>)&lt;/p>
+&lt;h3 id="phage-susceptibility-testing-pst">Phage susceptibility testing (PST)&lt;/h3>
+&lt;p>Susceptibilities of isolates to selected lytic phages were determined by a modified double-agar-layer method and by spot testing. The results are interpreted as follows: &lt;strong>S&lt;/strong> – lysis by phage; &lt;strong>I&lt;/strong> – partial lysis; &lt;strong>R&lt;/strong> – resistance to phage. PST results are presented together with AST results.&lt;/p>
+&lt;h3 id="molecular-genetic-subtyping">Molecular-genetic subtyping&lt;/h3>
+&lt;ul>
+&lt;li>All isolates were typed by a single nucleotide polymorphism (SNP)-typing assay based on high-throughput real-time PCR detection of 21informative SNPs in 10 chromosomal loci: &lt;em>gltA, recA, cpn60, gyrB, gdhB, rpoD, fusA, pyrG, rplB,&lt;/em> and &lt;em>rpoB&lt;/em> (&lt;a href="http://snpt.antibiotic.ru:9002/)">http://snpt.antibiotic.ru:9002/)&lt;/a>.&lt;/li>
+&lt;li>Selected isolates were typed by both the Oxford and Pasteur multilocus sequence typing (MLST) schemes using Sanger or whole genome sequencing (&lt;a href="https://pubmlst.org/abaumannii/)">https://pubmlst.org/abaumannii/)&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h3 id="identification-of-capsular-polysaccharide-biosynthesis-gene-clusters-k-loci-kl">Identification of capsular polysaccharide biosynthesis gene clusters (K-loci, KL)&lt;/h3>
+&lt;p>KL types were identified for selected isolates from WGS data using the standard database and nomenclature (&lt;a href="https://github.com/katholt/Kaptive)">https://github.com/katholt/Kaptive)&lt;/a>.&lt;/p>
+&lt;h3 id="detection-of-acquired-carbapenemase-genes">Detection of acquired carbapenemase genes&lt;/h3>
+&lt;p>The genes of the most prevalent in &lt;em>Acinetobacter&lt;/em> spp. acquired carbapenemases of molecular class D (OXA-23-, OXA-24/40- and OXA-58-like), class А (GES-2- or GES-5-like), and class B (VIM, IMP and NDM) were determined by means of real-time PCR.&lt;/p>
+&lt;h3 id="study-group">Study group&lt;/h3>
+&lt;p>Roman S. Kozlov, Anastasia V. Popova, Mikhail M. Shneider, Eugene A. Sheck, Mikhail V. Edelstein, Alexey Yu. Kuzmenkov, Andrey V. Romanov, Elvira R. Shaidullina.&lt;/p>
+&lt;h3 id="funding">Funding&lt;/h3>
+&lt;p>This work was conducted with the financial support of the Russian Science Foundation (grant no. 18-15-00403).&lt;/p>
+&lt;hr/>
+&lt;div class="media">
+&lt;div class="media-body">
+&lt;h3 class="mt-0 mb-1">Contact&lt;/h3>
+&lt;h5>Evgenii Shek&lt;/h5>
+&lt;p>Research fellow&lt;/p>
+&lt;p>Institute of Antimicrobial Chemotherapy (IAC),&lt;br>Smolensk State Medical University (SSMU)&lt;/p>
+&lt;p>&lt;a href="evgeniy.sheck@antibiotic.ru" target="_blank">evgeniy.sheck@antibiotic.ru&lt;/a>&lt;/p>
+&lt;/div>
+&lt;img class="ml-3" src="iac.png" style="width: 200px" alt="Institute of Antimicrobial Chemotherapy (IAC), Smolensk State Medical University (SSMU)">
+&lt;/div></description></item><item><title>DARMIS-2018</title><link>https://amrcloud.net/en/project/darmis-2018/</link><pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate><guid>https://amrcloud.net/en/project/darmis-2018/</guid><description>&lt;h3 id="organizers">Organizers&lt;/h3>
+&lt;ul>
+&lt;li>Interregional Association for Clinical Microbiology and Antimicrobial Chemotherapy (IACMAC)&lt;/li>
+&lt;li>Russian Society of Urologists&lt;/li>
+&lt;/ul>
+&lt;p>The data are presented on antibiotic resistance of community-acquired uropathogens isolated from midstream urine samples of:&lt;/p>
+&lt;ul>
+&lt;li>adults with symptomatic UTI (cystitis, pyelonephritis)&lt;/li>
+&lt;li>children and adolescents under 18 years with symptomatic UTI (cystitis, pyelonephritis)&lt;/li>
+&lt;li>pregnant women with symptomatic UTI (cystitis and pyelonephritis) and asymptomatic bacteriuria&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>The study design is similar to that of the DARMIS study (2010-2011)&lt;/em>&lt;/p>
+&lt;h4 id="time-period-of-sample-collection">Time period of sample collection&lt;/h4>
+&lt;p>01 Jan 2017 - 31 Dec 2018&lt;/p>
+&lt;h4 id="geographic-location-of-centers">Geographic location of centers&lt;/h4>
+&lt;p>&lt;strong>34 centers, 26 cities&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Russia&lt;/strong>: Bratsk, Voronezh, Yekaterinburg, Irkutsk, Yoshkar-Ola, Kazan, Kirov, Krasnodar, Nizhnevartovsk, Novokuznetsk, Novosibirsk, Omsk, Rostov-on-Don, Samara, St. Petersburg, Seversk, Smolensk, Surgut, Tolyatti, Tomsk, Ulyanovsk, Chelyabinsk, Yakutsk, Yaroslavl&lt;/li>
+&lt;li>&lt;strong>Belarus&lt;/strong>: Gomel&lt;/li>
+&lt;li>&lt;strong>Kazakhstan&lt;/strong>: Karaganda&lt;/li>
+&lt;/ul>
+&lt;h4 id="antibiotic-susceptibility-testing">Antibiotic susceptibility testing&lt;/h4>
+&lt;p>Determination of minimum inhibitory concentrations (MICs) by reference broth microdillution method (BMD) in Mueller-Hinton broth (according to ISO 20776-1:2006) at the central laboratory of the Institute of Antimicrobial Chemotherapy (IAC), Smolensk State Mediacal University (SSMU)&lt;/p>
+&lt;h4 id="interpretation-of-mics">Interpretation of MICs&lt;/h4>
+&lt;p>Clinical susceptibility categories were assigned based on the European Committee on Antimicrobial Susceptibility Testing (EUCAST) MIC Clinical breakpoints v.9.0 (&lt;a href="http://www.eucast.org/clinical_breakpoints/">http://www.eucast.org/clinical_breakpoints/&lt;/a>)&lt;/p>
+&lt;h3 id="study-group">Study Group&lt;/h3>
+&lt;ul>
+&lt;li>&lt;em>Amineva P.G.&lt;/em> (Yekaterinburg)&lt;/li>
+&lt;li>&lt;em>Becker G.G.&lt;/em> (Novosibirsk)&lt;/li>
+&lt;li>&lt;em>Bulkin A.N.&lt;/em> (St. Petersburg)&lt;/li>
+&lt;li>&lt;em>Bykonya S.A.&lt;/em> (Tomsk)&lt;/li>
+&lt;li>&lt;em>Chastoedova A.N.&lt;/em> (Kirov)&lt;/li>
+&lt;li>&lt;em>Domanskaya O.V.&lt;/em> (Novokuznetsk)&lt;/li>
+&lt;li>&lt;em>Elokhina E.V.&lt;/em> (Omsk)&lt;/li>
+&lt;li>&lt;em>Ershova M.G.&lt;/em> (Yaroslavl)&lt;/li>
+&lt;li>&lt;em>Ivanova I.A.&lt;/em> (Yoshkar-Ola)&lt;/li>
+&lt;li>&lt;em>Khaidarshina N.E.&lt;/em> (Chelyabinsk)&lt;/li>
+&lt;li>&lt;em>Khusnutdinova T.A.&lt;/em> (St. Petersburg)&lt;/li>
+&lt;li>&lt;em>Kogan M.I.&lt;/em> (Rostov-on-Don)&lt;/li>
+&lt;li>&lt;em>Kulchavenya E.V.&lt;/em> (Novosibirsk)&lt;/li>
+&lt;li>&lt;em>Lavrinenko A.V.&lt;/em> (Kazakhstan)&lt;/li>
+&lt;li>&lt;em>Lyamin A.V.&lt;/em> (Samara)&lt;/li>
+&lt;li>&lt;em>Malev I.V.&lt;/em> (Smolensk)&lt;/li>
+&lt;li>&lt;em>Malyavin A.I.&lt;/em> (Ulyanovsk)&lt;/li>
+&lt;li>&lt;em>Martyanova N.M.&lt;/em> (Tolyatti)&lt;/li>
+&lt;li>&lt;em>Moskvitina E.N.&lt;/em> (Seversk)&lt;/li>
+&lt;li>&lt;em>Mutin M.Yu.&lt;/em> (Bratsk)&lt;/li>
+&lt;li>&lt;em>Naboka Yu.L.&lt;/em> (Rostov-on-Don)&lt;/li>
+&lt;li>&lt;em>Nikiforovskaya N.N.&lt;/em> (Smolensk)&lt;/li>
+&lt;li>&lt;em>Palagin I.S.&lt;/em> (Smolensk)&lt;/li>
+&lt;li>&lt;em>Plugin P.S.&lt;/em> (Novosibirsk)&lt;/li>
+&lt;li>&lt;em>Popova L.D.&lt;/em> (Omsk)&lt;/li>
+&lt;li>&lt;em>Portnyagina U.S.&lt;/em> (Yakutsk)&lt;/li>
+&lt;li>&lt;em>Shamaeva S.Kh.&lt;/em> (Yakutsk)&lt;/li>
+&lt;li>&lt;em>Shipitsyna E.V.&lt;/em> (St. Petersburg)&lt;/li>
+&lt;li>&lt;em>Shirokova T.M.&lt;/em> (Kirov)&lt;/li>
+&lt;li>&lt;em>Sidorova R.K.&lt;/em> (Ulyanovsk)&lt;/li>
+&lt;li>&lt;em>Strebkova V.V.&lt;/em> (Voronezh)&lt;/li>
+&lt;li>&lt;em>Sukhoreva M.V.&lt;/em> (Irkutsk)&lt;/li>
+&lt;li>&lt;em>Tapalsky D.V.&lt;/em> (Belarus)&lt;/li>
+&lt;li>&lt;em>Valiullina I.R.&lt;/em> (Kazan)&lt;/li>
+&lt;li>&lt;em>Varganova A.N.&lt;/em> (Surgut)&lt;/li>
+&lt;li>&lt;em>Varibrus E.V.&lt;/em> (Krasnodar)&lt;/li>
+&lt;li>&lt;em>Vasilyeva I.R.&lt;/em> (Nizhnevartovsk)&lt;/li>
+&lt;li>&lt;em>Vetokhina A.V.&lt;/em> (Irkutsk)&lt;/li>
+&lt;li>&lt;em>Volkovskaya I.V.&lt;/em> (Tomsk)&lt;/li>
+&lt;li>&lt;em>Zhestkov A.V.&lt;/em> (Samara)&lt;/li>
+&lt;/ul>
+&lt;div class="media">
+&lt;div class="media-body">
+&lt;h3 class="mt-0 mb-1">Coordinator&lt;/h3>
+&lt;h5>Ivan S. Palagin&lt;/h5>
+&lt;p>Research fellow&lt;/p>
+&lt;p>Institute of Antimicrobial Chemotherapy (IAC),&lt;br>Smolensk State Medical University (SSMU)&lt;/p>
+&lt;p>&lt;a href="ivan.palagin@gmail.com" target="_blank">ivan.palagin@gmail.com&lt;/a>&lt;/p>
+&lt;/div>
+&lt;img class="ml-3" src="iac.png" alt="Institute of Antimicrobial Chemotherapy">
+&lt;/div></description></item><item><title>Research project: Veterinary monitoring and Risk Analysis of Zoonotic Bacteria Antimicrobial Resistance.</title><link>https://amrcloud.net/en/project/vgnki/</link><pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate><guid>https://amrcloud.net/en/project/vgnki/</guid><description>&lt;h3 id="russian-state-center-for-quality-and-standardization-of-veterinary-drugs-and-feed">Russian State Center for Quality and Standardization of Veterinary Drugs and Feed&lt;/h3>
+&lt;p>Research Institute of the Federal Service for Veterinary and Phytosanitary Surveillance (ROSSELKHOZNADZOR).&lt;/p>
+&lt;p>OIE collaborating Center on Food Safety, Diagnosis and Control of Animal Diseases in Eastern Europe, Central Asia and Transcaucasia.&lt;/p>
+&lt;p>Main activities of VGNKI are ensuring veterinary drugs quality, food of animal origin and feed safety, certification and registration of veterinary drugs, feed and feed additives, including GMO-containing.&lt;/p>
+&lt;h3 id="abstract">Abstract:&lt;/h3>
+&lt;p>We present the data on antimicrobial resistance of animal zoonotic bacteria isolates from different regions of Russia to over than 50 antimicrobials from 12 different groups.&lt;/p>
+&lt;h4 id="object">Object:&lt;/h4>
+&lt;p>Isolates of E.coli, Campylobacter spp., Salmonella spp., Enterococcus spp. taken from biomaterial of farm animals (poultry, cattle, reindeer, swine), food and feed materials.&lt;/p>
+&lt;h4 id="method-of-ast">Method of AST:&lt;/h4>
+&lt;p>Broth microdilution (standard EUCAST/ISO/CLSI protocol), Sensititre veterinary custom plates.&lt;/p>
+&lt;h4 id="breakpoints">Breakpoints:&lt;/h4>
+&lt;p>Microbiological end-points – EUCAST ECOFFs (&lt;a href="https://mic.eucast.org/Eucast2/,">https://mic.eucast.org/Eucast2/,&lt;/a> ver. 5.26), EUCAST Clinical Breakpoints (ver. 2019), CLSI Clinical Breakpoints (Standards M100S28, VET01S 3rd ed.)&lt;/p>
+&lt;h4 id="methods-of-gene-analysis">Methods of gene analysis:&lt;/h4>
+&lt;p>Whole-genome sequencing (Illumina Miseq).&lt;/p>
+&lt;h4 id="data">Data:&lt;/h4>
+&lt;ul>
+&lt;li>Bogomazova A.N.&lt;/li>
+&lt;li>Gergel M.A.&lt;/li>
+&lt;li>Gordeeva V.D.&lt;/li>
+&lt;li>Gritsyuk V.A.&lt;/li>
+&lt;li>Ivanova O.E.&lt;/li>
+&lt;li>Karabanov S.Yu.&lt;/li>
+&lt;li>Komarov A.A.&lt;/li>
+&lt;li>Krylova E.V.&lt;/li>
+&lt;li>Kulikosky A.V.&lt;/li>
+&lt;li>Lenev S.V.&lt;/li>
+&lt;li>Lobova P.A.&lt;/li>
+&lt;li>Makarov D.A.&lt;/li>
+&lt;li>Pleskacheva M.A.&lt;/li>
+&lt;li>Pobolelova Yu. I.&lt;/li>
+&lt;li>Pomazkova A.V.&lt;/li>
+&lt;li>Prasolova O.V.&lt;/li>
+&lt;li>Rusakov S.V.&lt;/li>
+&lt;li>Soltynskaya I.V.&lt;/li>
+&lt;li>Sukhoedova A.V.&lt;/li>
+&lt;li>Yatsentuk S.P.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>You can leave you questions and comments by e-mail:
+&lt;a href="mailto:phorez@yandex.ru">phorez@yandex.ru&lt;/a> (Makarov D.A.)&lt;/p>
+&lt;/blockquote></description></item></channel></rss>
