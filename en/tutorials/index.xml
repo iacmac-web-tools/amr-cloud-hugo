@@ -1,1 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AMRcloud. How to start | AMRcloud</title><link>https://amrcloud.net/en/tutorials/</link><atom:link href="https://amrcloud.net/en/tutorials/index.xml" rel="self" type="application/rss+xml"/><description>AMRcloud. How to start</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud</copyright><image><url>https://amrcloud.net/img/amr-cloud-logo-text.png</url><title>AMRcloud. How to start</title><link>https://amrcloud.net/en/tutorials/</link></image></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AMRcloud. How to start | AMRcloud</title>
+    <link>https://amrcloud.net/en/tutorials/</link>
+      <atom:link href="https://amrcloud.net/en/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <description>AMRcloud. How to start</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud</copyright>
+    <image>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <title>AMRcloud. How to start</title>
+      <link>https://amrcloud.net/en/tutorials/</link>
+    </image>
+    
+  </channel>
+</rss>

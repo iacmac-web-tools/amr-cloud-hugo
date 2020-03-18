@@ -1,590 +1,1085 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AMRcloud. Data Import | AMRcloud</title><link>https://amrcloud.net/en/tutorials/import-data/</link><atom:link href="https://amrcloud.net/en/tutorials/import-data/index.xml" rel="self" type="application/rss+xml"/><description>AMRcloud. Data Import</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud</copyright><lastBuildDate>Wed, 18 Mar 2020 00:00:00 +0000</lastBuildDate><image><url>https://amrcloud.net/img/amr-cloud-logo-text.png</url><title>AMRcloud. Data Import</title><link>https://amrcloud.net/en/tutorials/import-data/</link></image><item><title>Projects and Data Sets</title><link>https://amrcloud.net/en/tutorials/import-data/00-project-set/</link><pubDate>Wed, 18 Mar 2020 00:06:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/00-project-set/</guid><description>&lt;h2 id="what-is-a-project--data-set">What is a Project / Data Set&lt;/h2>
-&lt;p>&lt;strong>Project&lt;/strong> is a structural element of the AMRcloud platform used to group several Data Sets at the user&amp;rsquo;s discretion (you may view it as a folder).&lt;/p>
-&lt;p>&lt;strong>Data Set&lt;/strong> is a basic unit within the Project that contains a discrete set of information that can be visualized and analyzed with the &lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span> (you may view it as a separate file).&lt;/p>
-&lt;p>You can create multiple Projects and Data Sets within the &lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span>.&lt;/p>
-&lt;h2 id="how-to-create-a-project">How to create a Project&lt;/h2>
-&lt;p>To create a new Project in your account, press the &lt;strong>&amp;quot;+ New Project&amp;rdquo;&lt;/strong> button in the upper left corner of the screen.&lt;/p>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/new_project.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/new_project.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>New project&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>Fill in the &lt;strong>&amp;ldquo;New project name&amp;rdquo;&lt;/strong> and &lt;strong>&amp;ldquo;Project subtitle&amp;rdquo;&lt;/strong> fields in the opening modal dialog (the limit is 255 characters).&lt;/p>
-&lt;p>It is recommended to use unique and distinguishing names for your Projects (do not limit yourself to the names like &lt;em>&amp;ldquo;project1&amp;rdquo;&lt;/em> or &lt;em>&amp;ldquo;project2&amp;rdquo;&lt;/em>). Project subtitle may include the keywords that further specify its content.&lt;/p>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/new_project2.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/new_project2.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Creating a new Project&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h2 id="types-of-projects">Types of Projects&lt;/h2>
-&lt;p>There are two types of Projects you can work with:&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>My Project&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>Team Project&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>My Project&lt;/strong> is a personal project.
-Access to such a project is granted only to you, its creator and owner. However, you can share the results of the analysis of project data with other users by generating external web links.&lt;/p>
-&lt;p>&lt;strong>Team Project&lt;/strong> is a collective project.
-Access to Team Project is granted to several users appointed as members of a team. The user who has created a Team Project becomes its administrator and has the right to manage it (i.e. add, modify or remove Data Sets) and to invite other users registered in AMRcloud to become team members. The invited users can view shared projects under the &lt;strong>&amp;ldquo;Team Projects&amp;rdquo;&lt;/strong> tab but can&amp;rsquo;t manage them.&lt;/p>
-&lt;h2 id="data-sets">Data Sets&lt;/h2>
-&lt;p>Within a Project, you can create several Data Sets. To create a new Data Set, open the Project by clicking the &lt;strong>&amp;ldquo;Open&amp;rdquo;&lt;/strong> button and then click the &lt;strong>&amp;ldquo;+ New Set&amp;rdquo;&lt;/strong> button.&lt;/p>
-&lt;p>Fill in the &lt;strong>&amp;ldquo;New set name&amp;rdquo;&lt;/strong> and &lt;strong>&amp;ldquo;Set subtitle&amp;rdquo;&lt;/strong> fields in the opening &lt;strong>&amp;ldquo;Add New Set&amp;rdquo;&lt;/strong> modal dialog (the limit is 255 characters).
-It is recommended to use unique and distinguishing names for your Data Sets (do not limit yourself to the names like &lt;em>&amp;ldquo;set1&amp;rdquo;&lt;/em> or &lt;em>&amp;ldquo;set2&amp;rdquo;&lt;/em>). The Data Set subtitle may include the keywords that further specify its content.&lt;/p>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/new_project3.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/new_project3.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Creating a new Data Set&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>After creating a new Data Set, you can start uploading data by using the auto-opening wizard tool. Wizard can also be started at any time to modify the content of the existing Data Set by selecting it with a left-mouse click and then clicking the &lt;strong>&amp;ldquo;Edit Set&amp;rdquo;&lt;/strong> button.&lt;/p></description></item><item><title>Data preparation</title><link>https://amrcloud.net/en/tutorials/import-data/01-prepare/</link><pubDate>Wed, 18 Mar 2020 00:05:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/01-prepare/</guid><description>&lt;h2 id="the-rules-of-thumb-for-data-preparation">The &amp;ldquo;Rules of Thumb&amp;rdquo; for Data Preparation&lt;/h2>
-&lt;p>Accurate, well-formated and structured source data is essential for successful analysis using the &lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span> platform.&lt;/p>
-&lt;div class="alert alert-note">
-&lt;div>
-The following &amp;ldquo;rules of thumb&amp;rdquo; should be followed to prepare the data:&lt;/p>
-&lt;ol>
-&lt;li>The source data table should include individual isolate records and NOT aggregated statistics. Each isolate record should be represented by a separate row in the table.&lt;/li>
-&lt;li>All &lt;strong>AST Data&lt;/strong> and &lt;strong>Metadata&lt;/strong> should be organized in columns with each column representing only a single type of data (number, date, character string).&lt;/li>
-&lt;li>The &lt;strong>Metadata&lt;/strong> must include four &lt;strong>mandatory columns&lt;/strong>: Isolate Identifier, Organism/Species Name, Organism Group, and Date. All other metadata (e.g. geographical data, resistance markers, etc.) is optional.&lt;/li>
-&lt;li>The &lt;strong>AST Data&lt;/strong> may be of three different types: minimum inhibitory concentrations (MICs), inhibition zone diameters, and susceptibility categories (S/I/R). Headers of the columns representing AST Data should contain a generic name of antimicrobial agent and one of the three suffixes (&amp;quot;_mic&amp;rdquo;, &amp;ldquo;_dd&amp;rdquo; or &amp;ldquo;_sir&amp;rdquo;) denoting each type of data.&lt;/li>
-&lt;/ol>
-&lt;/div>
-&lt;/div>
-&lt;h2 id="example-data">Example Data&lt;/h2>
-&lt;p>The basic requirements for the source data table are listed in the &lt;strong>&amp;ldquo;Read Me&amp;rdquo;&lt;/strong> tab of the data import wizard. An &lt;strong>example data file&lt;/strong> for use as a reference for data formatting can be downloaded from a link at the bottom of the &lt;strong>&amp;ldquo;Read Me&amp;rdquo;&lt;/strong> tab.&lt;/p>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/example.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/example.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Downloading a sample data&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h2 id="basic-requirements">Basic Requirements&lt;/h2>
-&lt;p>The data should be in the required format to be handled by &lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span>.&lt;/p>
-&lt;ol>
-&lt;li>The data table should be flat (i.e. it should contain columns and rows with &lt;em>no additional separators, no hierarchical structures&lt;/em>).
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/row_column.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/row_column.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Data table structure&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;li>The first row of the table must be a header row with column names.
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/name.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/name.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Header row&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;li>The table should contain &lt;strong>four mandatory metadata columns&lt;/strong> (although the column names may be different):&lt;/li>
-&lt;/ol>
-&lt;ul>
-&lt;li>Isolate Identifier (ID)&lt;/li>
-&lt;li>Organism/Species Name&lt;/li>
-&lt;li>Organism Group&lt;/li>
-&lt;li>Date&lt;/li>
-&lt;/ul>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/mandatory.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/mandatory.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Mandatory columns&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h3 id="isolate-id">Isolate ID&lt;/h3>
-&lt;p>Isolate ID can be any combination of alphanumeric characters, except special symbols (?,!,%$#&amp;gt;&amp;lt;), and can be non-unique. Records (rows) with empty ID fields are not imported.&lt;/p>
-&lt;h3 id="organismspecies-name">Organism/Species Name&lt;/h3>
-&lt;p>Only the Latin binomial names should be used for microbial species (see the official nomenclature &lt;a href="https://lpsn.dsmz.de/)">https://lpsn.dsmz.de/)&lt;/a>. Abbreviations in the species names are not allowed. Proper genus and species names are automatically recognized to determine susceptibility categories to antimicrobial agents using specific breakpoints.&lt;/p>
-&lt;blockquote>
-&lt;p>&lt;strong>Right:&lt;/strong>&lt;/p>
-&lt;p>&lt;em>Staphylococcus aureus&lt;/em>, &lt;em>Streptococcus pneumoniae&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Wrong:&lt;/strong>&lt;/p>
-&lt;p>&lt;em>S. aureus&lt;/em>, &lt;em>S. pneumoniae&lt;/em>&lt;/p>
-&lt;/blockquote>
-&lt;h3 id="organism-group">Organism Group&lt;/h3>
-&lt;p>Any taxonomic or non-taxonomic, full or abbreviated names can be used to define Organism Groups, however, the names should be consistent throughout the column. Grouping of organisms (species) is used for analyzing combined statistics (e.g. resistance prevalence) of several species.&lt;/p>
-&lt;blockquote>
-&lt;p>&lt;strong>Right:&lt;/strong>&lt;/p>
-&lt;p>Enterobacterales, Staphylococci, GN anaerobes, Enterobacterales, Staphylococci, GN anaerobes (all names are standardized)&lt;/p>
-&lt;p>&lt;strong>Wrong:&lt;/strong>&lt;/p>
-&lt;p>Enterobact, Staph, Entbact, Staphylococci, GN anaerobes, Gram-neg anaerobes (names are not standardized)&lt;/p>
-&lt;/blockquote>
-&lt;h3 id="date">Date&lt;/h3>
-&lt;p>The import wizard can automatically detect and interpret various Date formats, however, the Date format must be consistent throughout the column. Records without a Date are not imported.&lt;/p>
-&lt;blockquote>
-&lt;p>&lt;strong>Right:&lt;/strong>&lt;/p>
-&lt;p>12.08.2018, 20.05.2017, 16.03.2014 (same format DD.MM.YYYY)&lt;/p>
-&lt;p>&lt;strong>Wrong:&lt;/strong>&lt;/p>
-&lt;p>13.08.2018, 20/05/19, 03/16/2014 (inconsistent format DD.MM.YYYY, DD/MM/YYYY, MM/DD/YYYY)&lt;/p>
-&lt;/blockquote>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/data.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/data.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Date format&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h3 id="ast-data">AST Data&lt;/h3>
-&lt;p>The following types of AST Data can be handled by &lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span>:&lt;/p>
-&lt;ul>
-&lt;li>Minimum Inhibitory Concentrations (MICs)&lt;/li>
-&lt;li>Disk Diffusion Inhibition Zone Diameters&lt;/li>
-&lt;li>Susceptibility Categories (S/I/R)&lt;/li>
-&lt;/ul>
-&lt;p>You can provide an unlimited number of columns with AST Data for various antibiotics and can include data of different types for the same antibiotic in different columns.&lt;/p>
-&lt;p>Please strictly follow the rules below for naming the columns and choosing the format of AST Data entries.&lt;/p>
-&lt;p>The header of the columns containing AST Data must start with &lt;strong>full generic name of antibiotic in English&lt;/strong> followed by the underscore symbol and must end with one of the three &lt;strong>suffixes&lt;/strong> denoting the type of data:&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th align="left">&lt;/th>
-&lt;th align="center">&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td align="left">&lt;strong>Minimum Inhibitory Concentrations&lt;/strong>&lt;/td>
-&lt;td align="center">_&lt;strong>mic&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td align="left">&lt;strong>Disk Diffusion Inhibition Zone Diameters&lt;/strong>&lt;/td>
-&lt;td align="center">_&lt;strong>dd&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td align="left">&lt;strong>Susceptibility Categories&lt;/strong>&lt;/td>
-&lt;td align="center">_&lt;strong>sir&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;blockquote>
-&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
-&lt;p>tobramycin_sir, tetracycline_sir, amoxicillin-clavulanic acid_dd, vancomycin_mic&lt;/p>
-&lt;/blockquote>
-&lt;p>The list of legitimate antibiotic names can be downloaded from the link at the &lt;strong>&amp;ldquo;Read Me&amp;rdquo;&lt;/strong> tab of the data import wizard. The quantitative AST Data (MIC and inhibition zone values) for the known antibiotics are automatically interpreted into susceptibility categories using selected criteria (breakpoints).
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/list_antib.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/list_antib.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>List of legitimate antibiotic names&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;div class="alert alert-note">
-&lt;div>
-&lt;p>Other (arbitrary) names of antimicrobial agents can be used in the column headers, however, quantitative AST Data for such agents are not translated into susceptibility categories. If you want to use alternative criteria (breakpoints) for certain antimicrobial agents, you can modify their names as shown in the examples below:&lt;/p>
-&lt;blockquote>
-&lt;p>amoxicillin-clavulanic acid_clsi_mic, moxifloxacin_clsi_sir, marbofloxacin_veterinary_sir&lt;/p>
-&lt;/blockquote>
-&lt;/div>
-&lt;/div>
-&lt;p>The requirements for the &lt;strong>format of AST Data entries&lt;/strong> are as follows:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;strong>Minimum Inhibitory Concentration Values&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>MIC values are measured in mg/L.&lt;/li>
-&lt;li>Values must be &lt;strong>numeric&lt;/strong>.&lt;/li>
-&lt;li>Non-numeric values containing expressions &lt;strong>&amp;ldquo;&amp;lt;=&amp;rdquo;&lt;/strong>, &lt;strong>&amp;ldquo;&amp;gt;&amp;rdquo;&lt;/strong> or &lt;strong>&amp;ldquo;&amp;gt;=&amp;rdquo;&lt;/strong> are automatically converted into numeric.&lt;/li>
-&lt;li>Symbols &lt;strong>&amp;ldquo;&amp;lt;=&amp;rdquo;&lt;/strong> and &lt;strong>&amp;ldquo;&amp;gt;=&amp;rdquo;&lt;/strong> preceding the numbers are removed.&lt;/li>
-&lt;li>Numbers preceded by &lt;strong>&amp;ldquo;&amp;gt;&amp;rdquo;&lt;/strong> symbol are multiplied by two.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Disk Diffusion Inhibition Zone Diameter Values&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>Inhibition Zone Diameter values are measured in mm.&lt;/li>
-&lt;li>Values must be integers greater than or equal to six.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Susceptibility Category Values&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>The only allowed values are &lt;strong>&amp;ldquo;S&amp;rdquo;&lt;/strong>, &lt;strong>&amp;ldquo;I&amp;rdquo;&lt;/strong>, and &lt;strong>&amp;ldquo;R&amp;rdquo;&lt;/strong>.&lt;/li>
-&lt;li>Values such as &lt;strong>&amp;ldquo;S/I&amp;rdquo;&lt;/strong> or &lt;strong>&amp;ldquo;I/R&amp;rdquo;&lt;/strong> are not allowed.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="additional-matadata">Additional Matadata&lt;/h3>
-&lt;p>In addition to Mandatory Columns and AST Data, your table may include other optional columns with information about sources of isolates (including &lt;strong>geospatial data&lt;/strong>), patient clinical and demographic data, specific characteristics of isolates (including phenotypic and genotypic &lt;strong>resistance markers&lt;/strong>), etc. These columns will be used as parameters for data selection, filtration, and categorization.&lt;/p>
-&lt;p>&lt;strong>Spatial Information Column(s)&lt;/strong>&lt;/p>
-&lt;p>Spatial Information includes geographic objects (&lt;strong>geolocations&lt;/strong>) and, optionally, their coordinates (&lt;strong>latitude&lt;/strong> and &lt;strong>longitude&lt;/strong>). You may provide various types of objects as geolocations: countries, regions, states, natural areas, cities, smaller locality types or even detailed addresses (e.g. hospital buildings). At &lt;strong>Step Three&lt;/strong> of the data import wizard, an automatic geocoding is performed to assign geographic coordinates to the known geolocations. You can also do it manually if automatic geocoding did not work.&lt;/p>
-&lt;p>If your data table already contains the two columns with &lt;strong>latitude&lt;/strong> and &lt;strong>longitude&lt;/strong> coordinates, you can check the box and then select these columns at &lt;strong>Step One&lt;/strong> of the data import wizard.&lt;/p>
-&lt;p>&lt;strong>Text (String) Metadata Columns&lt;/strong>&lt;/p>
-&lt;p>You can import a &lt;strong>maximum of ten&lt;/strong> parameters (columns) containing &lt;strong>text metadata&lt;/strong> (including the column with geographic names) to a single Data Set.&lt;/p>
-&lt;p>&lt;strong>Numeric Metadata Column&lt;/strong>&lt;/p>
-&lt;p>You can import &lt;strong>one&lt;/strong> parameter (column) containing &lt;strong>continuous numeric variable&lt;/strong> such as &lt;em>&amp;ldquo;age&amp;rdquo;&lt;/em>, &lt;em>&amp;ldquo;weight&amp;rdquo;&lt;/em>, etc. Please note that if you use a numeric parameter, all cells in the column must be filled in with the number, records (rows) with empty numeric fields are not imported.&lt;/p>
-&lt;p>&lt;strong>Resistance Markers Columns&lt;/strong>&lt;/p>
-&lt;p>Resistance Markers may represent any isolate characteristics (phenotypes, complex genotypes, genes or mutations) that are relevant to antibiotic resistance. Markers can be assigned to groups with each &lt;strong>Group of Markers&lt;/strong> set in a separate column. For example, the column with the header &lt;em>&amp;ldquo;ESBL&amp;rdquo;&lt;/em> may contain the entries like: &lt;em>&amp;ldquo;CTX-M-15&amp;rdquo;&lt;/em>, &lt;em>&amp;ldquo;TEM-3&amp;rdquo;&lt;/em>, &lt;em>&amp;ldquo;SHV-2&amp;rdquo;&lt;/em>, &lt;em>&amp;ldquo;SHV-2+CTX-M-15&amp;rdquo;&lt;/em>, &lt;em>&amp;ldquo;ESBL-negative&amp;rdquo;&lt;/em>, etc. You can provide an unlimited number of columns with Resistance Markers.
-To ensure consistency, the data on Resistance Markers can be presented as follows:&lt;/p>
-&lt;table>
-&lt;tr>
-&lt;th>Results of testing for specific markers&lt;/th>
-&lt;th>Entries&lt;/th>
-&lt;/tr>
-&lt;tr>
-&lt;td>Positive results&lt;/td>
-&lt;td>"OXA-48", "KPC", "CTX-M-15", "MRSA", "VRE" etc.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Negative result(s)&lt;/td>
-&lt;td>"Negative"&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Not tested&lt;/td>
-&lt;td>"No data"&lt;/td>
-&lt;/tr>
-&lt;/tr>
-&lt;tr>
-&lt;td>Not applicable for a particular organism/species&lt;/td>
-&lt;td>empty cell&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/markers.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/markers.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Resistance Markers&lt;/h6>
-&lt;/figcaption>
-&lt;/figure></description></item><item><title>Step 1 - Upload Data</title><link>https://amrcloud.net/en/tutorials/import-data/04-upload-file/</link><pubDate>Wed, 18 Mar 2020 00:04:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/04-upload-file/</guid><description>&lt;h2 id="uploading-a-data-file">Uploading a Data File&lt;/h2>
-&lt;p>Please learn the content of the &lt;strong>&amp;ldquo;Read Me&amp;rdquo;&lt;/strong> tab of the data import wizard first. To upload your data file to &lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span>, go to the &lt;strong>&amp;ldquo;Step One&amp;rdquo;&lt;/strong> tab, press the &lt;strong>&amp;ldquo;Browse&amp;hellip;&amp;quot;&lt;/strong> button and select the file. If the file content appears correctly in the preview pane, press the &lt;strong>&amp;ldquo;Validate and Save Step One&amp;rdquo;&lt;/strong> button to complete the current step.&lt;/p>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/choice_file.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/choice_file.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Uploading a file&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;div class="alert alert-note">
-&lt;div>
-&lt;strong>IMPORTANT!&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span> supports &lt;em>.xlsx&lt;/em> and &lt;em>.csv&lt;/em> data files.&lt;/li>
-&lt;li>When uploading a &lt;em>.csv&lt;/em> file, choose the format options from the &lt;strong>&amp;ldquo;Options for csv file&amp;rdquo;&lt;/strong> panel to see the file content properly in the prevew pane.&lt;/li>
-&lt;li>Use the slider above the preview pane to customize the number of rows (from 5 to 30) you want to preview.&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;/div>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/step1.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/step1.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Data table preview&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h2 id="text-encoding-problems">Text Encoding Problems&lt;/h2>
-&lt;p>If you notice character encoding problems in the uploaded data, open the source file with any suitable text editor and re-save it with the UTF-8 encoding, then re-upload the file to &lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span>.&lt;/p>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/wrong_letters.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/wrong_letters.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Text encoding problem&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;div class="alert alert-note">
-&lt;div>
-After completing each step of the data import wizard your progress will be saved. You can close the wizard by pressing the &lt;strong>&amp;ldquo;&amp;lt;Back&amp;rdquo;&lt;/strong> button at the top left corner of the screen and continue the import process from the saved step at any time by selecting the required data set and pressing the &lt;strong>&amp;ldquo;Edit Set&amp;rdquo;&lt;/strong> button.
-&lt;/div>
-&lt;/div></description></item><item><title>Step 2 - Set Fields</title><link>https://amrcloud.net/en/tutorials/import-data/05-identification/</link><pubDate>Wed, 18 Mar 2020 00:03:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/05-identification/</guid><description>&lt;p>This step allows you to select the &lt;strong>Column Headers&lt;/strong> from the imported data table to be used as &lt;strong>Fields&lt;/strong> (or parameters) for data filtration and categorization. To do so, you need to associate the column headers with the standard categories (Isolate ID, Organism Group, Organism Name, and Date) required by &lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span>. You can also select additional columns with &lt;strong>spatial data&lt;/strong>, other &lt;strong>metadata&lt;/strong> and &lt;strong>resistance markers&lt;/strong> to be used as &lt;strong>Fields&lt;/strong>.&lt;/p>
-&lt;p>The required categories (with brief accompanying instructions) are listed on the left side of the screen. On the right side of the screen, you should choose the corresponding column headers from the drop-down lists. As you proceed with selection, you will be able to preview the content of the first ten rows of each selected column.&lt;/p>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/choice_orgroup.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/choice_orgroup.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Linking the columns to categories&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h2 id="isolate-id">Isolate ID&lt;/h2>
-&lt;ul>
-&lt;li>This is a mandatory category.&lt;/li>
-&lt;li>Isolate ID can be any combination of alphanumeric characters, except special symbols (?,.!%$#&amp;gt;&amp;lt;).&lt;/li>
-&lt;/ul>
-&lt;h2 id="organism-group">Organism Group&lt;/h2>
-&lt;ul>
-&lt;li>This is a desirable category.&lt;/li>
-&lt;li>You can use any names for organism groups, full taxonomic (e.g. &lt;em>&amp;ldquo;Staphylococcus&amp;rdquo;&lt;/em>), non-taxonomic (e.g. &lt;em>&amp;ldquo;Staphylococci&amp;rdquo;&lt;/em>) or abbreviated (e.g. &lt;em>&amp;ldquo;Staph&amp;rdquo;&lt;/em>), however, the names should be consistent throughout the column.&lt;/li>
-&lt;li>Grouping of organisms (species) is useful for analyzing combined prevalence and AST data of several species.&lt;/li>
-&lt;/ul>
-&lt;h2 id="organismspecies-name">Organism/Species Name&lt;/h2>
-&lt;ul>
-&lt;li>This is a mandatory category.&lt;/li>
-&lt;li>Use Latin binomial names according to official nomenclature (&lt;a href="https://lpsn.dsmz.de/)">https://lpsn.dsmz.de/)&lt;/a>.&lt;/li>
-&lt;li>Proper genus and species names are automatically recognized to apply specific breakpoints and to determine susceptibility categories.&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>&lt;strong>Right:&lt;/strong>&lt;/p>
-&lt;p>&lt;em>Klebsiella pneumoniae&lt;/em>, &lt;em>Acinetobacter baumannii&lt;/em>, &lt;em>Pseudomonas aeruginosa&lt;/em> (full binomial names)&lt;/p>
-&lt;p>&lt;strong>Wrong:&lt;/strong>&lt;/p>
-&lt;p>&lt;em>K. pneumoniae&lt;/em>, &lt;em>A. baumannii&lt;/em>, &lt;em>P. aeruginosa&lt;/em> (abbreviated names)&lt;/p>
-&lt;/blockquote>
-&lt;p>Select the Species name column from the drop-down list, and press the &lt;strong>&amp;ldquo;Check Species Names&amp;rdquo;&lt;/strong> button to verify the names.&lt;/p>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/change_sp.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/change_sp.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Checking species names&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>A list of species names that are not recognized may appear below the button. There may be two reasons for the name(s) to fail the verification process:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>There are spelling errors (e.g. missing, incorrect letters, etc.). Spell-check the name(s) carefully, correct the error(s) by double-clicking and editing the name(s) directly in the list, then press the &lt;strong>&amp;ldquo;Correct species names&amp;rdquo;&lt;/strong> button.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>The outdated or invalid species name is used. Try searching the name at &lt;a href="https://lpsn.dsmz.de/">https://lpsn.dsmz.de/&lt;/a> or &lt;a href="https://www.ncbi.nlm.nih.gov/taxonomy/">https://www.ncbi.nlm.nih.gov/taxonomy/&lt;/a> and replace it with the correct one.&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>Example #1.
-&amp;ldquo;&lt;em>Enterobacter aerogenes&lt;/em>&amp;rdquo; is the old name for &amp;ldquo;&lt;em>Klebsiella aerogenes&lt;/em>&amp;quot;.&lt;/p>
-&lt;/blockquote>
-&lt;ul>
-&lt;li>Interpretive criteria (S/I/R breakpoints) are missing for a particular organism/species in the &lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span> database. In this case, no correction is needed; species name will be imported &amp;ldquo;as is&amp;rdquo;.&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>Example #2.
-The species name &amp;ldquo;&lt;em>Burkholderia cepacia&lt;/em>&amp;rdquo; is correct but is not recognized because EUCAST breakpoints are missing for this species.&lt;/p>
-&lt;/blockquote>
-&lt;div class="alert alert-note">
-&lt;div>
-&lt;p>If the full species name is not recognized, the data import wizard will attempt to determine the genus part of the name and, where possible, will apply the corresponding genus-specific breakpoints to the isolates&amp;rsquo; quantitative AST data. If neither a species nor a genus name is found in the &lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span> susceptibility breakpoint database, the corresponding isolate record(s) will be imported, but quantitative susceptibility data will not be translated to S/I/R categories.&lt;/p>
-&lt;blockquote>
-&lt;p>Example #3.
-If &amp;ldquo;&lt;em>Salmonella&lt;/em> Typhimurium&amp;rdquo; is used as species name (for &amp;ldquo;&lt;em>Salmonella enterica&lt;/em> ser. Typhimurium&amp;rdquo;), the genus-specific breakpoints of &lt;em>Salmonella&lt;/em> will be applied.&lt;/p>
-&lt;/blockquote>
-&lt;/div>
-&lt;/div>
-&lt;h2 id="date">Date&lt;/h2>
-&lt;ul>
-&lt;li>This is a mandatory category.&lt;/li>
-&lt;li>The date format must be consistent throughout the column.&lt;/li>
-&lt;li>Records without a date or with a different date format will not be imported.&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>&lt;strong>Right:&lt;/strong>&lt;/p>
-&lt;p>12.08.2018, 20.05.2017, 16.03.2014 (same format DD.MM.YYYY)&lt;/p>
-&lt;p>&lt;strong>Wrong:&lt;/strong>&lt;/p>
-&lt;p>13.08.2018, 20/05/19, 03/16/2014 (inconsistent format DD.MM.YYYY, DD/MM/YYYY, MM/DD/YYYY)&lt;/p>
-&lt;/blockquote>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/date_wrong.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/date_wrong.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Incorrect date format&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>After selecting the Date column from the drop-down list, you should see the &lt;strong>time scale&lt;/strong> under the &lt;strong>&amp;ldquo;Date Range Preview&amp;rdquo;&lt;/strong>. If the date format is not recognized with the &lt;strong>Auto&lt;/strong> option, try selecting alternative date formats. Be sure to &lt;strong>check the box&lt;/strong> when you see the &lt;strong>time scale&lt;/strong>.&lt;/p>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/date_right.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/date_right.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Confirming the date column selection&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h2 id="spatial-information">Spatial Information&lt;/h2>
-&lt;ul>
-&lt;li>This is &lt;strong>not&lt;/strong> a mandatory category.&lt;/li>
-&lt;li>Spatial information includes &lt;strong>geographic locations&lt;/strong> and, optionally, their &lt;strong>latitude/longitude coordinates&lt;/strong>.&lt;/li>
-&lt;li>You may provide various types of objects as geolocations: countries, regions, states, natural areas, cities, smaller locality types or even detailed addresses (e.g. hospital buildings).&lt;/li>
-&lt;/ul>
-&lt;p>Check the box if your data set contains spatial information and select the header of the column with geographic locations from the drop-down list.&lt;/p>
-&lt;p>The coordinates of geolocations can be set automatically or manually at &lt;strong>Step Three&lt;/strong> of the data import wizard. However, if your data table already contains the two columns with &lt;strong>latitude&lt;/strong> and &lt;strong>longitude&lt;/strong> coordinates, check the corresponding box and then select these columns.&lt;/p>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/geog_object.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/geog_object.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Spatial information&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;!-- ### Выберите столбец, содержащий любую числовую переменную -->
-&lt;h2 id="numeric-parameter">Numeric Parameter&lt;/h2>
-&lt;ul>
-&lt;li>This is &lt;strong>not&lt;/strong> a mandatory category.&lt;/li>
-&lt;li>Only &lt;strong>one&lt;/strong> column containing &lt;strong>continuous numeric variable&lt;/strong> such as &lt;em>&amp;ldquo;age&amp;rdquo;&lt;/em>, &lt;em>&amp;ldquo;weight&amp;rdquo;&lt;/em>, etc. can be selected.&lt;/li>
-&lt;li>If you use a numeric parameter, all cells in the column must be filled in with the number, isolate records (rows) with empty numeric fields are not imported.&lt;/li>
-&lt;/ul>
-&lt;p>Check the box if your data set contains a numeric parameter and select the corresponding column header from the drop-down list.&lt;/p>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/numeric.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/numeric.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Numeric parameter&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;!-- ### Выберите столбцы, содержащие информацию о маркерах резистентности -->
-&lt;h2 id="resistance-markers">Resistance Markers&lt;/h2>
-&lt;ul>
-&lt;li>This is &lt;strong>not&lt;/strong> a mandatory category.&lt;/li>
-&lt;li>Resistance Markers may represent any isolate characteristics (phenotypes, complex genotypes, genes or mutations) that are relevant to antibiotic resistance.&lt;/li>
-&lt;li>Markers can be assigned to &lt;strong>groups&lt;/strong> with each group of Markers set in a &lt;strong>separate column&lt;/strong>.&lt;/li>
-&lt;li>The total number of columns of this type is unlimited.&lt;/li>
-&lt;/ul>
-&lt;p>Check the box if your data set contains resistance markers data and select the corresponding column header(s) from the drop-down list.&lt;/p>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/markers_genetic.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/markers_genetic.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Resistance markers&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;!-- ### Выберите столбцы, содержащие другие параметры для фильтрации и группировки данных -->
-&lt;h2 id="additional-parameters">Additional Parameters&lt;/h2>
-&lt;ul>
-&lt;li>This is &lt;strong>not&lt;/strong> a mandatory category.&lt;/li>
-&lt;li>A maximum of &lt;strong>ten&lt;/strong> columns with text variables (including the one with geolocations) can be selected as parameters for data filtration and categorization.&lt;/li>
-&lt;/ul>
-&lt;p>Select the corresponding column headers from the drop-down list, drag and sort them with the mouse in the desired order.&lt;/p>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/other_filter.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/other_filter.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Additional parameters&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h2 id="completing-step-two">Completing Step Two&lt;/h2>
-&lt;p>Review all the selections made at this step and complete it by pressing the &lt;strong>&amp;ldquo;Validate Step Two&amp;rdquo;&lt;/strong> button.&lt;/p>
-&lt;figure>
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/save_step2.png" >
-&lt;/figure>
-&lt;div class="alert alert-note">
-&lt;div>
-&lt;p>You can reset any saved step and all subsequent steps of the data import wizard by pressing the &lt;strong>Reset current and all following steps&lt;/strong> button.&lt;/p>
-&lt;p>&lt;strong>Tip:&lt;/strong> There is no need to reset all steps if you only want to apply different interpretive criteria (susceptibility breakpoints) to the existing data set; this can be done by resetting only the Step Four.&lt;/p>
-&lt;/div>
-&lt;/div></description></item><item><title>Step 3 - Geocode</title><link>https://amrcloud.net/en/tutorials/import-data/06-geocode/</link><pubDate>Wed, 18 Mar 2020 00:02:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/06-geocode/</guid><description>&lt;p>&lt;strong>Geocoding&lt;/strong> is the process of transforming a description of a location to a location on the Earth&amp;rsquo;s surface. At this step, the data import wizard processes the names of the geographic objects (geolocations) and assigns them latitude and longitude coordinates. In this way, the geolocations&amp;rsquo; related statistics can be shown on the interactive maps in &lt;span style="color:#2BA2E6">&lt;strong>AMRcloud&lt;/strong>&lt;/span>.&lt;/p>
-&lt;h2 id="automatic-geocoding">Automatic Geocoding&lt;/h2>
-&lt;p>Press the &lt;strong>&amp;ldquo;1. Geocode it&amp;rdquo;&lt;/strong> button to start the geocoding process. Please be patient, as it may take some time depending on the number and type of locations. When coordinates appear in the table on the right side of the screen under the &lt;strong>&amp;ldquo;Valid coordinates&amp;hellip;&amp;quot;&lt;/strong> &lt;span style="color:#44C932">&lt;strong>green panel&lt;/strong>&lt;/span>, open the map preview by left-mouse clicking on the header of the &lt;strong>&amp;ldquo;Map: preview&amp;rdquo;&lt;/strong> &lt;span style="color:#2BA2E6">&lt;strong>blue panel&lt;/strong>&lt;/span>.&lt;/p>
-&lt;p>You can zoom and pan the map to check the positions of the markers. Inspect all the marker positions carefully, as the automatic geocoding may sometimes fail to identify or misidentify the geolocations (for example, it may confuse the names of &lt;em>St. Petersburg, Russia&lt;/em>, and &lt;em>St. Petersburg, Florida, USA&lt;/em>).&lt;/p>
-&lt;p>When you make sure all coordinates are assigned correctly, complete the step by pressing the &lt;strong>&amp;ldquo;Validate Step Three&amp;rdquo;&lt;/strong> button. Alternatively, proceed to the following instructions for assigning the coordinates manually.&lt;/p>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/geoc_1.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/geoc_1.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Geocoding&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h2 id="setting-the-coordinates-manually">Setting the Coordinates Manually&lt;/h2>
-&lt;p>If any coordinates are not found or found incorrectly, check the spelling of the names of geolocations with missing/wrong coordinates. If there are errors, correct them in the source data table, reset all import steps from Step One, re-upload the data table and repeat all steps including the Geocoding.&lt;/p>
-&lt;p>If the names of geolocations with missing/wrong coordinates are correct, you can assign the coordinates manually.&lt;/p>
-&lt;p>To add missing coordinates, left-mouse double-click on the required cells of the right side table under the &lt;strong>&amp;ldquo;Location(s) not found&amp;rdquo;&lt;/strong> &lt;span style="color:#FEAB3A">&lt;strong>orange panel&lt;/strong>&lt;/span>, enter the &lt;strong>Latitude&lt;/strong> and &lt;strong>Longitude&lt;/strong> values, and then press the &lt;strong>&amp;ldquo;Fix Coordinates&amp;rdquo;&lt;/strong> button.&lt;/p>
-&lt;p>To correct wrong coordinates, select the correspoding row (name of geolocation) from the left side table under the &lt;span style="color:#44C932">&lt;strong>green panel&lt;/strong>&lt;/span> with the mouse and press the &lt;strong>&amp;ldquo;Edit coordinates&amp;rdquo;&lt;/strong> button above the table. The selected row will be moved to the right side table under the &lt;span style="color:#FEAB3A">&lt;strong>orange panel&lt;/strong>&lt;/span>. Left-mouse double-click on the required cells, enter the new coordinates and press the &lt;strong>&amp;ldquo;Fix Coordinates&amp;rdquo;&lt;/strong> button.&lt;/p>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/geoc_3.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/geoc_3.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Cell selecting&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/geoc_change.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/geoc_change.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Coordinates correcting&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h2 id="how-to-get-the-latitudelongitude-coordinates-from-the-map">How to Get the Latitude/Longitude Coordinates from the Map&lt;/h2>
-&lt;p>You can use the &lt;strong>Preview Map&lt;/strong> to find the location (object) of interest and to determine its coordinates.&lt;/p>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/geoc_2.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/geoc_2.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Map preview&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>&lt;strong>Zoom and pan the map&lt;/strong> to find the location of interest.&lt;/p>
-&lt;div class="alert alert-note">
-&lt;div>
-&lt;strong>Tip:&lt;/strong> You can use the &lt;strong>&amp;ldquo;Search using OSM Geocoder&amp;rdquo;&lt;/strong> button on the left side of the map to search for an object or any location nearest to it.
-&lt;/div>
-&lt;/div>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/geoc_search.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/geoc_search.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Search bar&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>Left-mouse click on the desired location on the map. The location&amp;rsquo;s Latitude and Longitude will be displayed below the map. Copy and paste these values into the corresponding сells of the right side table under the &lt;span style="color:#FEAB3A">&lt;strong>orange panel&lt;/strong>&lt;/span>. When done, remember to press the &lt;strong>&amp;ldquo;Fix Coordinates&amp;rdquo;&lt;/strong> button.&lt;/p>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/geoc_search2.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/geoc_search2.png" >
-&lt;/a>
-&lt;figcaption data-pre="Figure &amp;nbsp;" data-post=":&amp;nbsp;"
-class="numbered">
-&lt;h6>Getting the coordinates&lt;/h6>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h2 id="saving-your-geolocations-for-future-usage">Saving Your Geolocations for Future Usage&lt;/h2>
-&lt;p>If you are going to process the same geolocations again (e.g. in the subsequently uploaded data sets), you can save their coordinates in your personal list. (This list is accessible and can be modified under the &lt;strong>&amp;ldquo;My Geopints&amp;rdquo;&lt;/strong> tab of &lt;strong>&amp;ldquo;My Profile&amp;rdquo;&lt;/strong> menu.) Select and move the names of such locations to the right side table under the &lt;span style="color:#FEAB3A">&lt;strong>orange panel&lt;/strong>&lt;/span>, enter the coordinates as described above, check the box &lt;strong>&amp;ldquo;Save coordinates for future usage&amp;rdquo;&lt;/strong> and press the &lt;strong>&amp;ldquo;Fix Coordinates&amp;rdquo;&lt;/strong> button. Your stored locations will be instantly identified the next time you perform the geocoding process.&lt;/p></description></item><item><title>Step 4 - Determine S/I/R</title><link>https://amrcloud.net/en/tutorials/import-data/07-interpretation/</link><pubDate>Wed, 18 Mar 2020 00:01:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/07-interpretation/</guid><description>&lt;p>This step is used to validate the AST data contained in your data set. The data import wizard interprets the quantitative AST data (MIC and inhibition zone values) and translates them to the S/I/R categories using the selected criteria (breakpoints).&lt;/p>
-&lt;p>Choose the &lt;strong>AST Interpretive Criteria&lt;/strong> from the drop-down list and press the &lt;strong>&amp;ldquo;Interpret MIC and Disk Diffusion data&amp;rdquo;&lt;/strong> button.
-Check the data import statuses in the list that appears below and press the &lt;strong>&amp;ldquo;Complete All Steps&amp;rdquo;&lt;/strong> button to finish the data import process.&lt;/p>
-&lt;figure>
-&lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/save_step4.png" >
-&lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/save_step4.png" >
-&lt;/a>
-&lt;/figure>
-&lt;div class="alert alert-note">
-&lt;div>
-&lt;p>You can reopen and edit the imported data set using the wizard at a later time.&lt;/p>
-&lt;p>If you only want to apply different (newer) AST interpretive criteria, you will need to reset and work through the Step Four only.&lt;/p>
-&lt;/div>
-&lt;/div></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AMRcloud. Data Import | AMRcloud</title>
+    <link>https://amrcloud.net/en/tutorials/import-data/</link>
+      <atom:link href="https://amrcloud.net/en/tutorials/import-data/index.xml" rel="self" type="application/rss+xml" />
+    <description>AMRcloud. Data Import</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud</copyright><lastBuildDate>Wed, 18 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <title>AMRcloud. Data Import</title>
+      <link>https://amrcloud.net/en/tutorials/import-data/</link>
+    </image>
+    
+    <item>
+      <title>Projects and Data Sets</title>
+      <link>https://amrcloud.net/en/tutorials/import-data/00-project-set/</link>
+      <pubDate>Wed, 18 Mar 2020 00:06:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/tutorials/import-data/00-project-set/</guid>
+      <description>&lt;h2 id=&#34;what-is-a-project--data-set&#34;&gt;What is a Project / Data Set&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Project&lt;/strong&gt; is a structural element of the AMRcloud platform used to group several Data Sets at the user&amp;rsquo;s discretion (you may view it as a folder).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Data Set&lt;/strong&gt; is a basic unit within the Project that contains a discrete set of information that can be visualized and analyzed with the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; (you may view it as a separate file).&lt;/p&gt;
+&lt;p&gt;You can create multiple Projects and Data Sets within the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-create-a-project&#34;&gt;How to create a Project&lt;/h2&gt;
+&lt;p&gt;To create a new Project in your account, press the &lt;strong&gt;&amp;quot;+ New Project&amp;rdquo;&lt;/strong&gt; button in the upper left corner of the screen.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;New project&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;Fill in the &lt;strong&gt;&amp;ldquo;New project name&amp;rdquo;&lt;/strong&gt; and &lt;strong&gt;&amp;ldquo;Project subtitle&amp;rdquo;&lt;/strong&gt; fields in the opening modal dialog (the limit is 255 characters).&lt;/p&gt;
+&lt;p&gt;It is recommended to use unique and distinguishing names for your Projects (do not limit yourself to the names like &lt;em&gt;&amp;ldquo;project1&amp;rdquo;&lt;/em&gt; or &lt;em&gt;&amp;ldquo;project2&amp;rdquo;&lt;/em&gt;). Project subtitle may include the keywords that further specify its content.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project2.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project2.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Creating a new Project&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;types-of-projects&#34;&gt;Types of Projects&lt;/h2&gt;
+&lt;p&gt;There are two types of Projects you can work with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;My Project&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Team Project&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;My Project&lt;/strong&gt; is a personal project.
+Access to such a project is granted only to you, its creator and owner. However, you can share the results of the analysis of project data with other users by generating external web links.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Team Project&lt;/strong&gt; is a collective project.
+Access to Team Project is granted to several users appointed as members of a team. The user who has created a Team Project becomes its administrator and has the right to manage it (i.e. add, modify or remove Data Sets) and to invite other users registered in AMRcloud to become team members. The invited users can view shared projects under the &lt;strong&gt;&amp;ldquo;Team Projects&amp;rdquo;&lt;/strong&gt; tab but can&amp;rsquo;t manage them.&lt;/p&gt;
+&lt;h2 id=&#34;data-sets&#34;&gt;Data Sets&lt;/h2&gt;
+&lt;p&gt;Within a Project, you can create several Data Sets. To create a new Data Set, open the Project by clicking the &lt;strong&gt;&amp;ldquo;Open&amp;rdquo;&lt;/strong&gt; button and then click the &lt;strong&gt;&amp;ldquo;+ New Set&amp;rdquo;&lt;/strong&gt; button.&lt;/p&gt;
+&lt;p&gt;Fill in the &lt;strong&gt;&amp;ldquo;New set name&amp;rdquo;&lt;/strong&gt; and &lt;strong&gt;&amp;ldquo;Set subtitle&amp;rdquo;&lt;/strong&gt; fields in the opening &lt;strong&gt;&amp;ldquo;Add New Set&amp;rdquo;&lt;/strong&gt; modal dialog (the limit is 255 characters).
+It is recommended to use unique and distinguishing names for your Data Sets (do not limit yourself to the names like &lt;em&gt;&amp;ldquo;set1&amp;rdquo;&lt;/em&gt; or &lt;em&gt;&amp;ldquo;set2&amp;rdquo;&lt;/em&gt;). The Data Set subtitle may include the keywords that further specify its content.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project3.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project3.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Creating a new Data Set&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;After creating a new Data Set, you can start uploading data by using the auto-opening wizard tool. Wizard can also be started at any time to modify the content of the existing Data Set by selecting it with a left-mouse click and then clicking the &lt;strong&gt;&amp;ldquo;Edit Set&amp;rdquo;&lt;/strong&gt; button.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data preparation</title>
+      <link>https://amrcloud.net/en/tutorials/import-data/01-prepare/</link>
+      <pubDate>Wed, 18 Mar 2020 00:05:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/tutorials/import-data/01-prepare/</guid>
+      <description>&lt;h2 id=&#34;the-rules-of-thumb-for-data-preparation&#34;&gt;The &amp;ldquo;Rules of Thumb&amp;rdquo; for Data Preparation&lt;/h2&gt;
+&lt;p&gt;Accurate, well-formated and structured source data is essential for successful analysis using the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; platform.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    The following &amp;ldquo;rules of thumb&amp;rdquo; should be followed to prepare the data:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The source data table should include individual isolate records and NOT aggregated statistics. Each isolate record should be represented by a separate row in the table.&lt;/li&gt;
+&lt;li&gt;All &lt;strong&gt;AST Data&lt;/strong&gt; and &lt;strong&gt;Metadata&lt;/strong&gt; should be organized in columns with each column representing only a single type of data (number, date, character string).&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;Metadata&lt;/strong&gt; must include four &lt;strong&gt;mandatory columns&lt;/strong&gt;: Isolate Identifier, Organism/Species Name, Organism Group, and Date. All other metadata (e.g. geographical data, resistance markers, etc.) is optional.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;AST Data&lt;/strong&gt; may be of three different types: minimum inhibitory concentrations (MICs), inhibition zone diameters, and susceptibility categories (S/I/R). Headers of the columns representing AST Data should contain a generic name of antimicrobial agent and one of the three suffixes (&amp;quot;_mic&amp;rdquo;, &amp;ldquo;_dd&amp;rdquo; or &amp;ldquo;_sir&amp;rdquo;) denoting each type of data.&lt;/li&gt;
+&lt;/ol&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;example-data&#34;&gt;Example Data&lt;/h2&gt;
+&lt;p&gt;The basic requirements for the source data table are listed in the &lt;strong&gt;&amp;ldquo;Read Me&amp;rdquo;&lt;/strong&gt; tab of the data import wizard. An &lt;strong&gt;example data file&lt;/strong&gt; for use as a reference for data formatting can be downloaded from a link at the bottom of the &lt;strong&gt;&amp;ldquo;Read Me&amp;rdquo;&lt;/strong&gt; tab.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/example.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/example.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Downloading a sample data&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;basic-requirements&#34;&gt;Basic Requirements&lt;/h2&gt;
+&lt;p&gt;The data should be in the required format to be handled by &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The data table should be flat (i.e. it should contain columns and rows with &lt;em&gt;no additional separators, no hierarchical structures&lt;/em&gt;).
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/row_column.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/row_column.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Data table structure&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;The first row of the table must be a header row with column names.
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/name.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/name.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Header row&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;The table should contain &lt;strong&gt;four mandatory metadata columns&lt;/strong&gt; (although the column names may be different):&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Isolate Identifier (ID)&lt;/li&gt;
+&lt;li&gt;Organism/Species Name&lt;/li&gt;
+&lt;li&gt;Organism Group&lt;/li&gt;
+&lt;li&gt;Date&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/mandatory.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/mandatory.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Mandatory columns&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;isolate-id&#34;&gt;Isolate ID&lt;/h3&gt;
+&lt;p&gt;Isolate ID can be any combination of alphanumeric characters, except special symbols (?,!,%$#&amp;gt;&amp;lt;), and can be non-unique. Records (rows) with empty ID fields are not imported.&lt;/p&gt;
+&lt;h3 id=&#34;organismspecies-name&#34;&gt;Organism/Species Name&lt;/h3&gt;
+&lt;p&gt;Only the Latin binomial names should be used for microbial species (see the official nomenclature &lt;a href=&#34;https://lpsn.dsmz.de/)&#34;&gt;https://lpsn.dsmz.de/)&lt;/a&gt;. Abbreviations in the species names are not allowed. Proper genus and species names are automatically recognized to determine susceptibility categories to antimicrobial agents using specific breakpoints.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Right:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Staphylococcus aureus&lt;/em&gt;, &lt;em&gt;Streptococcus pneumoniae&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wrong:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;S. aureus&lt;/em&gt;, &lt;em&gt;S. pneumoniae&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;organism-group&#34;&gt;Organism Group&lt;/h3&gt;
+&lt;p&gt;Any taxonomic or non-taxonomic, full or abbreviated names can be used to define Organism Groups, however, the names should be consistent throughout the column. Grouping of organisms (species) is used for analyzing combined statistics (e.g. resistance prevalence) of several species.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Right:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Enterobacterales, Staphylococci, GN anaerobes, Enterobacterales, Staphylococci, GN anaerobes (all names are standardized)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wrong:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Enterobact, Staph, Entbact, Staphylococci, GN anaerobes, Gram-neg anaerobes (names are not standardized)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;date&#34;&gt;Date&lt;/h3&gt;
+&lt;p&gt;The import wizard can automatically detect and interpret various Date formats, however, the Date format must be consistent throughout the column. Records without a Date are not imported.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Right:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;12.08.2018, 20.05.2017, 16.03.2014 (same format DD.MM.YYYY)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wrong:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;13.08.2018, 20/05/19, 03/16/2014 (inconsistent format DD.MM.YYYY, DD/MM/YYYY,  MM/DD/YYYY)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/data.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/data.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Date format&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;ast-data&#34;&gt;AST Data&lt;/h3&gt;
+&lt;p&gt;The following types of AST Data can be handled by &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Minimum Inhibitory Concentrations (MICs)&lt;/li&gt;
+&lt;li&gt;Disk Diffusion Inhibition Zone Diameters&lt;/li&gt;
+&lt;li&gt;Susceptibility Categories (S/I/R)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can provide an unlimited number of columns with AST Data for various antibiotics and can include data of different types for the same antibiotic in different columns.&lt;/p&gt;
+&lt;p&gt;Please strictly follow the rules below for naming the columns and choosing the format of AST Data entries.&lt;/p&gt;
+&lt;p&gt;The header of the columns containing AST Data must start with &lt;strong&gt;full generic name of antibiotic in English&lt;/strong&gt; followed by the underscore symbol and must end with one of the three &lt;strong&gt;suffixes&lt;/strong&gt; denoting the type of data:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Minimum Inhibitory Concentrations&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;_&lt;strong&gt;mic&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Disk Diffusion Inhibition Zone Diameters&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;_&lt;strong&gt;dd&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Susceptibility Categories&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;_&lt;strong&gt;sir&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;tobramycin_sir, tetracycline_sir, amoxicillin-clavulanic acid_dd, vancomycin_mic&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The list of legitimate antibiotic names can be downloaded from the link at the &lt;strong&gt;&amp;ldquo;Read Me&amp;rdquo;&lt;/strong&gt; tab of the data import wizard. The quantitative AST Data (MIC and inhibition zone values) for the known antibiotics are automatically interpreted into susceptibility categories using selected criteria (breakpoints).
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/list_antib.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/list_antib.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;List of legitimate antibiotic names&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;Other (arbitrary) names of antimicrobial agents can be used in the column headers, however, quantitative AST Data for such agents are not translated into susceptibility categories. If you want to use alternative criteria (breakpoints) for certain antimicrobial agents, you can modify their names as shown in the examples below:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;amoxicillin-clavulanic acid_clsi_mic, moxifloxacin_clsi_sir, marbofloxacin_veterinary_sir&lt;/p&gt;
+&lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The requirements for the &lt;strong&gt;format of AST Data entries&lt;/strong&gt; are as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Minimum Inhibitory Concentration Values&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MIC values are measured in mg/L.&lt;/li&gt;
+&lt;li&gt;Values must be &lt;strong&gt;numeric&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Non-numeric values containing expressions &lt;strong&gt;&amp;ldquo;&amp;lt;=&amp;rdquo;&lt;/strong&gt;, &lt;strong&gt;&amp;ldquo;&amp;gt;&amp;rdquo;&lt;/strong&gt; or &lt;strong&gt;&amp;ldquo;&amp;gt;=&amp;rdquo;&lt;/strong&gt; are automatically converted into numeric.&lt;/li&gt;
+&lt;li&gt;Symbols &lt;strong&gt;&amp;ldquo;&amp;lt;=&amp;rdquo;&lt;/strong&gt; and &lt;strong&gt;&amp;ldquo;&amp;gt;=&amp;rdquo;&lt;/strong&gt; preceding the numbers are removed.&lt;/li&gt;
+&lt;li&gt;Numbers preceded by &lt;strong&gt;&amp;ldquo;&amp;gt;&amp;rdquo;&lt;/strong&gt; symbol are multiplied by two.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Disk Diffusion Inhibition Zone Diameter Values&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Inhibition Zone Diameter values are measured in mm.&lt;/li&gt;
+&lt;li&gt;Values must be integers greater than or equal to six.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Susceptibility Category Values&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The only allowed values are &lt;strong&gt;&amp;ldquo;S&amp;rdquo;&lt;/strong&gt;, &lt;strong&gt;&amp;ldquo;I&amp;rdquo;&lt;/strong&gt;, and &lt;strong&gt;&amp;ldquo;R&amp;rdquo;&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Values such as &lt;strong&gt;&amp;ldquo;S/I&amp;rdquo;&lt;/strong&gt; or &lt;strong&gt;&amp;ldquo;I/R&amp;rdquo;&lt;/strong&gt; are not allowed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;additional-matadata&#34;&gt;Additional Matadata&lt;/h3&gt;
+&lt;p&gt;In addition to Mandatory Columns and AST Data, your table may include other optional columns with information about sources of isolates (including &lt;strong&gt;geospatial data&lt;/strong&gt;), patient clinical and demographic data, specific characteristics of isolates (including phenotypic and genotypic &lt;strong&gt;resistance markers&lt;/strong&gt;), etc. These columns will be used as parameters for data selection, filtration, and categorization.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Spatial Information Column(s)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Spatial Information includes geographic objects (&lt;strong&gt;geolocations&lt;/strong&gt;) and, optionally, their coordinates (&lt;strong&gt;latitude&lt;/strong&gt; and &lt;strong&gt;longitude&lt;/strong&gt;). You may provide various types of objects as geolocations: countries, regions, states, natural areas, cities, smaller locality types or even detailed addresses (e.g. hospital buildings). At &lt;strong&gt;Step Three&lt;/strong&gt; of the data import wizard, an automatic geocoding is performed to assign geographic coordinates to the known geolocations. You can also do it manually if automatic geocoding did not work.&lt;/p&gt;
+&lt;p&gt;If your data table already contains the two columns with &lt;strong&gt;latitude&lt;/strong&gt; and &lt;strong&gt;longitude&lt;/strong&gt; coordinates, you can check the box and then select these columns at &lt;strong&gt;Step One&lt;/strong&gt; of the data import wizard.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text (String) Metadata Columns&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You can import a &lt;strong&gt;maximum of ten&lt;/strong&gt; parameters (columns) containing &lt;strong&gt;text metadata&lt;/strong&gt; (including the column with geographic names) to a single Data Set.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Numeric Metadata Column&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You can import &lt;strong&gt;one&lt;/strong&gt; parameter (column) containing &lt;strong&gt;continuous numeric variable&lt;/strong&gt; such as &lt;em&gt;&amp;ldquo;age&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;weight&amp;rdquo;&lt;/em&gt;, etc.  Please note that if you use a numeric parameter, all cells in the column must be filled in with the number, records (rows) with empty numeric fields are not imported.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resistance Markers Columns&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Resistance Markers may represent any isolate characteristics (phenotypes, complex genotypes, genes or mutations) that are relevant to antibiotic resistance. Markers can be assigned to groups with each &lt;strong&gt;Group of Markers&lt;/strong&gt; set in a separate column. For example, the column with the header &lt;em&gt;&amp;ldquo;ESBL&amp;rdquo;&lt;/em&gt; may contain the entries like: &lt;em&gt;&amp;ldquo;CTX-M-15&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;TEM-3&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;SHV-2&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;SHV-2+CTX-M-15&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;ESBL-negative&amp;rdquo;&lt;/em&gt;, etc. You can provide an unlimited number of columns with Resistance Markers.
+To ensure consistency, the data on Resistance Markers can be presented as follows:&lt;/p&gt;
+&lt;table&gt;
+   &lt;tr&gt;
+    &lt;th&gt;Results of testing for specific markers&lt;/th&gt;
+    &lt;th&gt;Entries&lt;/th&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;Positive results&lt;/td&gt;
+    &lt;td&gt;&#34;OXA-48&#34;, &#34;KPC&#34;, &#34;CTX-M-15&#34;, &#34;MRSA&#34;, &#34;VRE&#34; etc.&lt;/td&gt;
+  &lt;/tr&gt;
+     &lt;tr&gt;
+    &lt;td&gt;Negative result(s)&lt;/td&gt;
+    &lt;td&gt;&#34;Negative&#34;&lt;/td&gt;
+  &lt;/tr&gt;
+       &lt;tr&gt;
+    &lt;td&gt;Not tested&lt;/td&gt;
+    &lt;td&gt;&#34;No data&#34;&lt;/td&gt;
+  &lt;/tr&gt;
+    &lt;/tr&gt;
+       &lt;tr&gt;
+    &lt;td&gt;Not applicable for a particular organism/species&lt;/td&gt;
+    &lt;td&gt;empty cell&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Resistance Markers&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Step 1 - Upload Data</title>
+      <link>https://amrcloud.net/en/tutorials/import-data/04-upload-file/</link>
+      <pubDate>Wed, 18 Mar 2020 00:04:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/tutorials/import-data/04-upload-file/</guid>
+      <description>&lt;h2 id=&#34;uploading-a-data-file&#34;&gt;Uploading a Data File&lt;/h2&gt;
+&lt;p&gt;Please learn the content of the &lt;strong&gt;&amp;ldquo;Read Me&amp;rdquo;&lt;/strong&gt; tab of the data import wizard first. To upload your data file to &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;, go to the &lt;strong&gt;&amp;ldquo;Step One&amp;rdquo;&lt;/strong&gt; tab, press the &lt;strong&gt;&amp;ldquo;Browse&amp;hellip;&amp;quot;&lt;/strong&gt; button and select the file. If the file content appears correctly in the preview pane, press the &lt;strong&gt;&amp;ldquo;Validate and Save Step One&amp;rdquo;&lt;/strong&gt; button to complete the current step.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_file.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_file.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Uploading a file&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;strong&gt;IMPORTANT!&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; supports &lt;em&gt;.xlsx&lt;/em&gt; and &lt;em&gt;.csv&lt;/em&gt; data files.&lt;/li&gt;
+&lt;li&gt;When uploading a &lt;em&gt;.csv&lt;/em&gt; file, choose the format options from the &lt;strong&gt;&amp;ldquo;Options for csv file&amp;rdquo;&lt;/strong&gt; panel to see the file content properly in the prevew pane.&lt;/li&gt;
+&lt;li&gt;Use the slider above the preview pane to customize the number of rows (from 5 to 30) you want to preview.&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step1.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step1.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Data table preview&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;text-encoding-problems&#34;&gt;Text Encoding Problems&lt;/h2&gt;
+&lt;p&gt;If you notice character encoding problems in the uploaded data, open the source file with any suitable text editor and re-save it with the UTF-8 encoding, then re-upload the file to &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/wrong_letters.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/wrong_letters.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Text encoding problem&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    After completing each step of the data import wizard your progress will be saved. You can close the wizard by pressing the &lt;strong&gt;&amp;ldquo;&amp;lt;Back&amp;rdquo;&lt;/strong&gt; button at the top left corner of the screen and continue the import process from the saved step at any time by selecting the required data set and pressing the &lt;strong&gt;&amp;ldquo;Edit Set&amp;rdquo;&lt;/strong&gt; button.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Step 2 - Set Fields</title>
+      <link>https://amrcloud.net/en/tutorials/import-data/05-identification/</link>
+      <pubDate>Wed, 18 Mar 2020 00:03:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/tutorials/import-data/05-identification/</guid>
+      <description>&lt;p&gt;This step allows you to select the &lt;strong&gt;Column Headers&lt;/strong&gt; from the imported data table to be used as &lt;strong&gt;Fields&lt;/strong&gt; (or parameters) for data filtration and categorization. To do so, you need to associate the column headers with the standard categories (Isolate ID, Organism Group, Organism Name, and Date) required by  &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;. You can also select additional columns with &lt;strong&gt;spatial data&lt;/strong&gt;, other &lt;strong&gt;metadata&lt;/strong&gt; and &lt;strong&gt;resistance markers&lt;/strong&gt; to be used as &lt;strong&gt;Fields&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The required categories (with brief accompanying instructions) are listed on the left side of the screen. On the right side of the screen, you should choose the corresponding column headers from the drop-down lists. As you proceed with selection, you will be able to preview the content of the first ten rows of each selected column.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_orgroup.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_orgroup.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Linking the columns to categories&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;isolate-id&#34;&gt;Isolate ID&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This is a mandatory category.&lt;/li&gt;
+&lt;li&gt;Isolate ID can be any combination of alphanumeric characters, except special symbols (?,.!%$#&amp;gt;&amp;lt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;organism-group&#34;&gt;Organism Group&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This is a desirable category.&lt;/li&gt;
+&lt;li&gt;You can use any names for organism groups, full taxonomic (e.g. &lt;em&gt;&amp;ldquo;Staphylococcus&amp;rdquo;&lt;/em&gt;), non-taxonomic (e.g. &lt;em&gt;&amp;ldquo;Staphylococci&amp;rdquo;&lt;/em&gt;) or abbreviated (e.g. &lt;em&gt;&amp;ldquo;Staph&amp;rdquo;&lt;/em&gt;), however, the names should be consistent throughout the column.&lt;/li&gt;
+&lt;li&gt;Grouping of organisms (species) is useful for analyzing combined prevalence and AST data of several species.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;organismspecies-name&#34;&gt;Organism/Species Name&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This is a mandatory category.&lt;/li&gt;
+&lt;li&gt;Use Latin binomial names according to official nomenclature (&lt;a href=&#34;https://lpsn.dsmz.de/)&#34;&gt;https://lpsn.dsmz.de/)&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Proper genus and species names are automatically recognized to apply specific breakpoints and to determine susceptibility categories.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Right:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Klebsiella pneumoniae&lt;/em&gt;, &lt;em&gt;Acinetobacter baumannii&lt;/em&gt;, &lt;em&gt;Pseudomonas aeruginosa&lt;/em&gt; (full binomial names)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wrong:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;K. pneumoniae&lt;/em&gt;, &lt;em&gt;A. baumannii&lt;/em&gt;, &lt;em&gt;P. aeruginosa&lt;/em&gt; (abbreviated names)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Select the Species name column from the drop-down list, and press the &lt;strong&gt;&amp;ldquo;Check Species Names&amp;rdquo;&lt;/strong&gt; button to verify the names.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/change_sp.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/change_sp.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Checking species names&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;A list of species names that are not recognized may appear below the button. There may be two reasons for the name(s) to fail the verification process:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;There are spelling errors (e.g. missing, incorrect letters, etc.). Spell-check the name(s) carefully, correct the error(s) by double-clicking and editing the name(s) directly in the list, then press the &lt;strong&gt;&amp;ldquo;Correct species names&amp;rdquo;&lt;/strong&gt; button.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The outdated or invalid species name is used. Try searching the name at &lt;a href=&#34;https://lpsn.dsmz.de/&#34;&gt;https://lpsn.dsmz.de/&lt;/a&gt; or &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/taxonomy/&#34;&gt;https://www.ncbi.nlm.nih.gov/taxonomy/&lt;/a&gt; and replace it with the correct one.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Example #1.
+&amp;ldquo;&lt;em&gt;Enterobacter aerogenes&lt;/em&gt;&amp;rdquo; is the old name for &amp;ldquo;&lt;em&gt;Klebsiella aerogenes&lt;/em&gt;&amp;quot;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Interpretive criteria (S/I/R breakpoints) are missing for a particular organism/species in the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; database. In this case, no correction is needed; species name will be imported &amp;ldquo;as is&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Example #2.
+The species name &amp;ldquo;&lt;em&gt;Burkholderia cepacia&lt;/em&gt;&amp;rdquo; is correct but is not recognized because EUCAST breakpoints are missing for this species.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;If the full species name is not recognized, the data import wizard will attempt to determine the genus part of the name and, where possible, will apply the corresponding genus-specific breakpoints to the isolates&amp;rsquo; quantitative AST data. If neither a species nor a genus name is found in the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; susceptibility breakpoint database, the corresponding isolate record(s) will be imported, but quantitative susceptibility data will not be translated to S/I/R categories.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Example #3.
+If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as species name (for &amp;ldquo;&lt;em&gt;Salmonella enterica&lt;/em&gt; ser. Typhimurium&amp;rdquo;), the genus-specific breakpoints of &lt;em&gt;Salmonella&lt;/em&gt; will be applied.&lt;/p&gt;
+&lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;date&#34;&gt;Date&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This is a mandatory category.&lt;/li&gt;
+&lt;li&gt;The date format must be consistent throughout the column.&lt;/li&gt;
+&lt;li&gt;Records without a date or with a different date format will not be imported.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Right:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;12.08.2018, 20.05.2017, 16.03.2014 (same format DD.MM.YYYY)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wrong:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;13.08.2018, 20/05/19, 03/16/2014 (inconsistent format DD.MM.YYYY, DD/MM/YYYY,  MM/DD/YYYY)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_wrong.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_wrong.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Incorrect date format&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;After selecting the Date column from the drop-down list, you should see the &lt;strong&gt;time scale&lt;/strong&gt; under the &lt;strong&gt;&amp;ldquo;Date Range Preview&amp;rdquo;&lt;/strong&gt;. If the date format is not recognized with the &lt;strong&gt;Auto&lt;/strong&gt; option, try selecting alternative date formats. Be sure to &lt;strong&gt;check the box&lt;/strong&gt; when you see the &lt;strong&gt;time scale&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_right.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_right.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Confirming the date column selection&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;spatial-information&#34;&gt;Spatial Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This is &lt;strong&gt;not&lt;/strong&gt; a mandatory category.&lt;/li&gt;
+&lt;li&gt;Spatial information includes &lt;strong&gt;geographic locations&lt;/strong&gt; and, optionally, their &lt;strong&gt;latitude/longitude coordinates&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;You may provide various types of objects as geolocations: countries, regions, states, natural areas, cities, smaller locality types or even detailed addresses (e.g. hospital buildings).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Check the box if your data set contains spatial information and select the header of the column with geographic locations from the drop-down list.&lt;/p&gt;
+&lt;p&gt;The coordinates of geolocations can be set automatically or manually at &lt;strong&gt;Step Three&lt;/strong&gt; of the data import wizard. However, if your data table already contains the two columns with &lt;strong&gt;latitude&lt;/strong&gt; and &lt;strong&gt;longitude&lt;/strong&gt; coordinates, check the corresponding box and then select these columns.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geog_object.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geog_object.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Spatial information&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;!-- ### Выберите столбец, содержащий любую числовую переменную --&gt;
+&lt;h2 id=&#34;numeric-parameter&#34;&gt;Numeric Parameter&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This is &lt;strong&gt;not&lt;/strong&gt; a mandatory category.&lt;/li&gt;
+&lt;li&gt;Only &lt;strong&gt;one&lt;/strong&gt; column containing &lt;strong&gt;continuous numeric variable&lt;/strong&gt; such as &lt;em&gt;&amp;ldquo;age&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;weight&amp;rdquo;&lt;/em&gt;, etc. can be selected.&lt;/li&gt;
+&lt;li&gt;If you use a numeric parameter, all cells in the column must be filled in with the number, isolate records (rows) with empty numeric fields are not imported.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Check the box if your data set contains a numeric parameter and select the corresponding column header from the drop-down list.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/numeric.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/numeric.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Numeric parameter&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;!-- ### Выберите столбцы, содержащие информацию о маркерах резистентности --&gt;
+&lt;h2 id=&#34;resistance-markers&#34;&gt;Resistance Markers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This is &lt;strong&gt;not&lt;/strong&gt; a mandatory category.&lt;/li&gt;
+&lt;li&gt;Resistance Markers may represent any isolate characteristics (phenotypes, complex genotypes, genes or mutations) that are relevant to antibiotic resistance.&lt;/li&gt;
+&lt;li&gt;Markers can be assigned to &lt;strong&gt;groups&lt;/strong&gt; with each group of Markers set in a &lt;strong&gt;separate column&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;The total number of columns of this type is unlimited.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Check the box if your data set contains resistance markers data and select the corresponding column header(s) from the drop-down list.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers_genetic.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers_genetic.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Resistance markers&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;!-- ### Выберите столбцы, содержащие другие параметры для фильтрации и группировки данных --&gt;
+&lt;h2 id=&#34;additional-parameters&#34;&gt;Additional Parameters&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This is &lt;strong&gt;not&lt;/strong&gt; a mandatory category.&lt;/li&gt;
+&lt;li&gt;A maximum of &lt;strong&gt;ten&lt;/strong&gt; columns with text variables (including the one with geolocations) can be selected as parameters for data filtration and categorization.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Select the corresponding column headers from the drop-down list, drag and sort them with the mouse in the desired order.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/other_filter.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/other_filter.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Additional parameters&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;completing-step-two&#34;&gt;Completing Step Two&lt;/h2&gt;
+&lt;p&gt;Review all the selections made at this step and complete it by pressing the &lt;strong&gt;&amp;ldquo;Validate Step Two&amp;rdquo;&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/save_step2.png&#34; &gt;
+
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;You can reset any saved step and all subsequent steps of the data import wizard by pressing the &lt;strong&gt;Reset current and all following steps&lt;/strong&gt; button.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tip:&lt;/strong&gt; There is no need to reset all steps if you only want to apply different interpretive criteria (susceptibility breakpoints) to the existing data set; this can be done by resetting only the Step Four.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Step 3 - Geocode</title>
+      <link>https://amrcloud.net/en/tutorials/import-data/06-geocode/</link>
+      <pubDate>Wed, 18 Mar 2020 00:02:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/tutorials/import-data/06-geocode/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Geocoding&lt;/strong&gt; is the process of transforming a description of a location to a location on the Earth&amp;rsquo;s surface. At this step, the data import wizard processes the names of the geographic objects (geolocations) and assigns them latitude and longitude coordinates. In this way, the geolocations&amp;rsquo; related statistics can be shown on the interactive maps in &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;automatic-geocoding&#34;&gt;Automatic Geocoding&lt;/h2&gt;
+&lt;p&gt;Press the &lt;strong&gt;&amp;ldquo;1. Geocode it&amp;rdquo;&lt;/strong&gt; button to start the geocoding process. Please be patient, as it may take some time depending on the number and type of locations. When coordinates appear in the table on the right side of the screen under the &lt;strong&gt;&amp;ldquo;Valid coordinates&amp;hellip;&amp;quot;&lt;/strong&gt; &lt;span style=&#34;color:#44C932&#34;&gt;&lt;strong&gt;green panel&lt;/strong&gt;&lt;/span&gt;, open the map preview by left-mouse clicking on the header of the &lt;strong&gt;&amp;ldquo;Map: preview&amp;rdquo;&lt;/strong&gt; &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;blue panel&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;You can zoom and pan the map to check the positions of the markers. Inspect all the marker positions carefully, as the automatic geocoding may sometimes fail to identify or misidentify the geolocations (for example, it may confuse the names of &lt;em&gt;St. Petersburg, Russia&lt;/em&gt;, and &lt;em&gt;St. Petersburg, Florida, USA&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;When you make sure all coordinates are assigned correctly, complete the step by pressing the &lt;strong&gt;&amp;ldquo;Validate Step Three&amp;rdquo;&lt;/strong&gt; button. Alternatively, proceed to the following instructions for assigning the coordinates manually.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_1.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_1.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Geocoding&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;setting-the-coordinates-manually&#34;&gt;Setting the Coordinates Manually&lt;/h2&gt;
+&lt;p&gt;If any coordinates are not found or found incorrectly, check the spelling of the names of geolocations with missing/wrong coordinates. If there are errors, correct them in the source data table, reset all import steps from Step One, re-upload the data table and repeat all steps including the Geocoding.&lt;/p&gt;
+&lt;p&gt;If the names of geolocations with missing/wrong coordinates are correct, you can assign the coordinates manually.&lt;/p&gt;
+&lt;p&gt;To add missing coordinates, left-mouse double-click on the required cells of the right side table under the &lt;strong&gt;&amp;ldquo;Location(s) not found&amp;rdquo;&lt;/strong&gt; &lt;span style=&#34;color:#FEAB3A&#34;&gt;&lt;strong&gt;orange panel&lt;/strong&gt;&lt;/span&gt;, enter the &lt;strong&gt;Latitude&lt;/strong&gt; and &lt;strong&gt;Longitude&lt;/strong&gt; values, and then press the &lt;strong&gt;&amp;ldquo;Fix Coordinates&amp;rdquo;&lt;/strong&gt; button.&lt;/p&gt;
+&lt;p&gt;To correct wrong coordinates, select the correspoding row (name of geolocation) from the left side table under the &lt;span style=&#34;color:#44C932&#34;&gt;&lt;strong&gt;green panel&lt;/strong&gt;&lt;/span&gt; with the mouse and press the &lt;strong&gt;&amp;ldquo;Edit coordinates&amp;rdquo;&lt;/strong&gt; button above the table. The selected row will be moved to the right side table under the &lt;span style=&#34;color:#FEAB3A&#34;&gt;&lt;strong&gt;orange panel&lt;/strong&gt;&lt;/span&gt;. Left-mouse double-click on the required cells, enter the new coordinates and press the &lt;strong&gt;&amp;ldquo;Fix Coordinates&amp;rdquo;&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_3.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_3.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Cell selecting&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_change.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_change.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Coordinates correcting&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;how-to-get-the-latitudelongitude-coordinates-from-the-map&#34;&gt;How to Get the Latitude/Longitude Coordinates from the Map&lt;/h2&gt;
+&lt;p&gt;You can use the &lt;strong&gt;Preview Map&lt;/strong&gt; to find the location (object) of interest and to determine its coordinates.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_2.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_2.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Map preview&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Zoom and pan the map&lt;/strong&gt; to find the location of interest.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;strong&gt;Tip:&lt;/strong&gt; You can use the &lt;strong&gt;&amp;ldquo;Search using OSM Geocoder&amp;rdquo;&lt;/strong&gt; button on the left side of the map to search for an object or any location nearest to it.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Search bar&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;Left-mouse click on the desired location on the map. The location&amp;rsquo;s Latitude and Longitude will be displayed below the map. Copy and paste these values into the corresponding сells of the right side table under the &lt;span style=&#34;color:#FEAB3A&#34;&gt;&lt;strong&gt;orange panel&lt;/strong&gt;&lt;/span&gt;. When done, remember to press the &lt;strong&gt;&amp;ldquo;Fix Coordinates&amp;rdquo;&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search2.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search2.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+class=&#34;numbered&#34;&gt;
+  &lt;h6&gt;Getting the coordinates&lt;/h6&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;saving-your-geolocations-for-future-usage&#34;&gt;Saving Your Geolocations for Future Usage&lt;/h2&gt;
+&lt;p&gt;If you are going to process the same geolocations again (e.g. in the subsequently uploaded data sets), you can save their coordinates in your personal list. (This list is accessible and can be modified under the &lt;strong&gt;&amp;ldquo;My Geopints&amp;rdquo;&lt;/strong&gt; tab of &lt;strong&gt;&amp;ldquo;My Profile&amp;rdquo;&lt;/strong&gt; menu.) Select and move the names of such locations to the right side table under the &lt;span style=&#34;color:#FEAB3A&#34;&gt;&lt;strong&gt;orange panel&lt;/strong&gt;&lt;/span&gt;, enter the coordinates as described above, check the box &lt;strong&gt;&amp;ldquo;Save coordinates for future usage&amp;rdquo;&lt;/strong&gt; and press the &lt;strong&gt;&amp;ldquo;Fix Coordinates&amp;rdquo;&lt;/strong&gt; button. Your stored locations will be instantly identified the next time you perform the geocoding process.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Step 4 - Determine S/I/R</title>
+      <link>https://amrcloud.net/en/tutorials/import-data/07-interpretation/</link>
+      <pubDate>Wed, 18 Mar 2020 00:01:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/tutorials/import-data/07-interpretation/</guid>
+      <description>&lt;p&gt;This step is used to validate the AST data contained in your data set. The data import wizard interprets the quantitative AST data (MIC and inhibition zone values) and translates them to the S/I/R categories using the selected criteria (breakpoints).&lt;/p&gt;
+&lt;p&gt;Choose the &lt;strong&gt;AST Interpretive Criteria&lt;/strong&gt; from the drop-down list and press the &lt;strong&gt;&amp;ldquo;Interpret MIC and Disk Diffusion data&amp;rdquo;&lt;/strong&gt; button.
+Check the data import statuses in the list that appears below and press the &lt;strong&gt;&amp;ldquo;Complete All Steps&amp;rdquo;&lt;/strong&gt; button to finish the data import process.&lt;/p&gt;
+
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/save_step4.png&#34; &gt;
+
+&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/save_step4.png&#34; &gt;
+&lt;/a&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;You can reopen and edit the imported data set using the wizard at a later time.&lt;/p&gt;
+&lt;p&gt;If you only want to apply different (newer) AST interpretive criteria, you will need to reset and work through the Step Four only.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
