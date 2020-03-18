@@ -8,7 +8,8 @@
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/new_project.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/new_project.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>New project&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -18,7 +19,8 @@
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/new_project2.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/new_project2.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Creating a new Project&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -40,7 +42,8 @@ It is recommended to use unique and distinguishing names for your Data Sets (do 
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/new_project3.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/new_project3.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Creating a new Data Set&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -63,7 +66,8 @@ The following &amp;ldquo;rules of thumb&amp;rdquo; should be followed to prepare
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/example.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/example.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Downloading a sample data&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -75,7 +79,8 @@ The following &amp;ldquo;rules of thumb&amp;rdquo; should be followed to prepare
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/row_column.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/row_column.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Data table structure&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -85,7 +90,8 @@ The following &amp;ldquo;rules of thumb&amp;rdquo; should be followed to prepare
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/name.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/name.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Header row&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -102,7 +108,8 @@ The following &amp;ldquo;rules of thumb&amp;rdquo; should be followed to prepare
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/mandatory.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/mandatory.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Mandatory columns&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -136,7 +143,8 @@ The following &amp;ldquo;rules of thumb&amp;rdquo; should be followed to prepare
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/data.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/data.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Date format&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -181,7 +189,8 @@ The following &amp;ldquo;rules of thumb&amp;rdquo; should be followed to prepare
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/list_antib.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/list_antib.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>List of legitimate antibiotic names&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -260,7 +269,8 @@ To ensure consistency, the data on Resistance Markers can be presented as follow
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/markers.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/markers.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Resistance Markers&lt;/h6>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Step 1 - Upload Data</title><link>https://amrcloud.net/en/tutorials/import-data/04-upload-file/</link><pubDate>Wed, 18 Mar 2020 00:04:00 +0000</pubDate><guid>https://amrcloud.net/en/tutorials/import-data/04-upload-file/</guid><description>&lt;h2 id="uploading-a-data-file">Uploading a Data File&lt;/h2>
@@ -269,7 +279,8 @@ To ensure consistency, the data on Resistance Markers can be presented as follow
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/choice_file.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/choice_file.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Uploading a file&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -287,7 +298,8 @@ To ensure consistency, the data on Resistance Markers can be presented as follow
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/step1.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/step1.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Data table preview&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -297,7 +309,8 @@ To ensure consistency, the data on Resistance Markers can be presented as follow
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/wrong_letters.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/wrong_letters.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Text encoding problem&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -311,7 +324,8 @@ After completing each step of the data import wizard your progress will be saved
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/choice_orgroup.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/choice_orgroup.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Linking the columns to categories&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -343,7 +357,8 @@ After completing each step of the data import wizard your progress will be saved
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/change_sp.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/change_sp.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Checking species names&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -392,7 +407,8 @@ If &amp;ldquo;&lt;em>Salmonella&lt;/em> Typhimurium&amp;rdquo; is used as specie
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/date_wrong.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/date_wrong.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Incorrect date format&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -401,7 +417,8 @@ If &amp;ldquo;&lt;em>Salmonella&lt;/em> Typhimurium&amp;rdquo; is used as specie
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/date_right.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/date_right.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Confirming the date column selection&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -417,7 +434,8 @@ If &amp;ldquo;&lt;em>Salmonella&lt;/em> Typhimurium&amp;rdquo; is used as specie
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/geog_object.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/geog_object.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Spatial information&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -433,7 +451,8 @@ If &amp;ldquo;&lt;em>Salmonella&lt;/em> Typhimurium&amp;rdquo; is used as specie
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/numeric.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/numeric.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Numeric parameter&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -450,7 +469,8 @@ If &amp;ldquo;&lt;em>Salmonella&lt;/em> Typhimurium&amp;rdquo; is used as specie
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/markers_genetic.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/markers_genetic.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Resistance markers&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -465,7 +485,8 @@ If &amp;ldquo;&lt;em>Salmonella&lt;/em> Typhimurium&amp;rdquo; is used as specie
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/other_filter.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/other_filter.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Additional parameters&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -488,7 +509,8 @@ If &amp;ldquo;&lt;em>Salmonella&lt;/em> Typhimurium&amp;rdquo; is used as specie
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/geoc_1.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/geoc_1.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Geocoding&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -501,7 +523,8 @@ If &amp;ldquo;&lt;em>Salmonella&lt;/em> Typhimurium&amp;rdquo; is used as specie
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/geoc_3.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/geoc_3.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Cell selecting&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -509,7 +532,8 @@ If &amp;ldquo;&lt;em>Salmonella&lt;/em> Typhimurium&amp;rdquo; is used as specie
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/geoc_change.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/geoc_change.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Coordinates correcting&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -519,7 +543,8 @@ If &amp;ldquo;&lt;em>Salmonella&lt;/em> Typhimurium&amp;rdquo; is used as specie
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/geoc_2.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/geoc_2.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Map preview&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -533,7 +558,8 @@ If &amp;ldquo;&lt;em>Salmonella&lt;/em> Typhimurium&amp;rdquo; is used as specie
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/geoc_search.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/geoc_search.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Search bar&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -542,7 +568,8 @@ If &amp;ldquo;&lt;em>Salmonella&lt;/em> Typhimurium&amp;rdquo; is used as specie
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/eng/geoc_search2.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/eng/geoc_search2.png" >
 &lt;/a>
-&lt;figcaption data-pre="Figure " data-post=" : " class="numbered">
+&lt;figcaption data-pre="Figure &amp;nbsp;" data-post="&amp;nbsp;:&amp;nbsp;"
+class="numbered">
 &lt;h6>Getting the coordinates&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
