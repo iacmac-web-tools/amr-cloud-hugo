@@ -39,7 +39,7 @@
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Новый проект&lt;/h6&gt;
   
@@ -64,7 +64,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Создание проекта&lt;/h6&gt;
   
@@ -102,7 +102,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Создание набора данных&lt;/h6&gt;
   
@@ -150,7 +150,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Скачивание образца данных&lt;/h6&gt;
   
@@ -179,7 +179,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Структура таблицы&lt;/h6&gt;
   
@@ -206,7 +206,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Заголовочная строка таблицы&lt;/h6&gt;
   
@@ -242,7 +242,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Обязательные столбцы таблицы&lt;/h6&gt;
   
@@ -292,7 +292,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Формат дат&lt;/h6&gt;
   
@@ -328,7 +328,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Список допустимых антибиотиков&lt;/h6&gt;
   
@@ -480,7 +480,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Генетические маркеры&lt;/h6&gt;
   
@@ -514,7 +514,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Загрузка файла&lt;/h6&gt;
   
@@ -548,7 +548,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Предварительный просмотр таблицы&lt;/h6&gt;
   
@@ -574,7 +574,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Переход во вкладку &lt;em&gt;Файл&lt;/em&gt;&lt;/h6&gt;
   
@@ -598,7 +598,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Сохранение в формате csv&lt;/h6&gt;
   
@@ -624,7 +624,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Запись по типу &lt;em&gt;иероглифы&lt;/em&gt;&lt;/h6&gt;
   
@@ -650,7 +650,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Ошибка прочтения файла&lt;/h6&gt;
   
@@ -679,7 +679,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Загрузка текстового редактора&lt;/h6&gt;
   
@@ -706,7 +706,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Выбор файла для исправления&lt;/h6&gt;
   
@@ -734,7 +734,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Кодировка таблицы&lt;/h6&gt;
   
@@ -763,7 +763,7 @@ File &lt;strong&gt;→&lt;/strong&gt; Save with Encoding &lt;strong&gt;→&lt;/s
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Сохранение файла с UTF-8&lt;/h6&gt;
   
@@ -793,7 +793,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Скачивание файла из AMRcloud с настройками по умолчанию&lt;/h6&gt;
   
@@ -821,7 +821,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Загрузка текстового редактора&lt;/h6&gt;
   
@@ -846,7 +846,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Выбор файла для исправления&lt;/h6&gt;
   
@@ -872,7 +872,7 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Сохранение файла с кодировкой Windows-1251&lt;/h6&gt;
   
@@ -908,7 +908,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Структура пунктов шага 2&lt;/h6&gt;
   
@@ -956,7 +956,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Проверка названия видов&lt;/h6&gt;
   
@@ -999,7 +999,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Неправильный формат дат&lt;/h6&gt;
   
@@ -1035,7 +1035,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Последовательность работы с датами&lt;/h6&gt;
   
@@ -1067,7 +1067,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Географический объект&lt;/h6&gt;
   
@@ -1099,7 +1099,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Выбор количественного показателя&lt;/h6&gt;
   
@@ -1132,7 +1132,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Выбор маркеров резистентности&lt;/h6&gt;
   
@@ -1164,7 +1164,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Выбор дополнительных параметров&lt;/h6&gt;
   
@@ -1219,7 +1219,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Геокодирование. Структура первого подпункта&lt;/h6&gt;
   
@@ -1248,7 +1248,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Карта: предпросмотр&lt;/h6&gt;
   
@@ -1273,7 +1273,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Исправление с использованием приближения карты&lt;/h6&gt;
   
@@ -1298,7 +1298,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Исправление с использованием строки поиска&lt;/h6&gt;
   
@@ -1331,7 +1331,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Выбор ячеек&lt;/h6&gt;
   
@@ -1355,7 +1355,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Корректировка данных&lt;/h6&gt;
   
@@ -1393,7 +1393,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Алгоритм работы с локальными данными&lt;/h6&gt;
   
@@ -1481,7 +1481,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Оповещение по нескольким координатам для одной точки&lt;/h6&gt;
   

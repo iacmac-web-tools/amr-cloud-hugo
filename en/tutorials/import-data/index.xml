@@ -39,7 +39,7 @@
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;New project&lt;/h6&gt;
   
@@ -65,7 +65,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Creating a new Project&lt;/h6&gt;
   
@@ -103,7 +103,7 @@ It is recommended to use unique and distinguishing names for your Data Sets (do 
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Creating a new Data Set&lt;/h6&gt;
   
@@ -151,7 +151,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Downloading a sample data&lt;/h6&gt;
   
@@ -179,7 +179,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Data table structure&lt;/h6&gt;
   
@@ -204,7 +204,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Header row&lt;/h6&gt;
   
@@ -236,7 +236,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Mandatory columns&lt;/h6&gt;
   
@@ -286,7 +286,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Date format&lt;/h6&gt;
   
@@ -347,7 +347,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;List of legitimate antibiotic names&lt;/h6&gt;
   
@@ -441,7 +441,7 @@ To ensure consistency, the data on Resistance Markers can be presented as follow
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Resistance Markers&lt;/h6&gt;
   
@@ -475,7 +475,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Uploading a file&lt;/h6&gt;
   
@@ -509,7 +509,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Data table preview&lt;/h6&gt;
   
@@ -535,7 +535,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Text encoding problem&lt;/h6&gt;
   
@@ -574,7 +574,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Linking the columns to categories&lt;/h6&gt;
   
@@ -622,7 +622,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Checking species names&lt;/h6&gt;
   
@@ -687,7 +687,7 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Incorrect date format&lt;/h6&gt;
   
@@ -712,7 +712,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Confirming the date column selection&lt;/h6&gt;
   
@@ -744,7 +744,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Spatial information&lt;/h6&gt;
   
@@ -776,7 +776,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Numeric parameter&lt;/h6&gt;
   
@@ -809,7 +809,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Resistance markers&lt;/h6&gt;
   
@@ -840,7 +840,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Additional parameters&lt;/h6&gt;
   
@@ -900,7 +900,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Geocoding&lt;/h6&gt;
   
@@ -929,7 +929,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Cell selecting&lt;/h6&gt;
   
@@ -953,7 +953,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Coordinates correcting&lt;/h6&gt;
   
@@ -979,7 +979,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Map preview&lt;/h6&gt;
   
@@ -1009,7 +1009,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Search bar&lt;/h6&gt;
   
@@ -1034,7 +1034,7 @@ class=&#34;numbered&#34;&gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&amp;nbsp;&#34; 
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
 class=&#34;numbered&#34;&gt;
   &lt;h6&gt;Getting the coordinates&lt;/h6&gt;
   
