@@ -8,7 +8,7 @@
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/new_project.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/new_project.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Новый проект&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -17,7 +17,7 @@
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/new_project2.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/new_project2.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Создание проекта&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -39,7 +39,7 @@
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/new_project3.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/new_project3.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Создание набора данных&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -62,7 +62,7 @@
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/example.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/example.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Скачивание образца данных&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -75,7 +75,7 @@
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/row_column.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/row_column.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Структура таблицы&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -87,7 +87,7 @@
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/name.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/name.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Заголовочная строка таблицы&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -108,7 +108,7 @@
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/mandatory.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/mandatory.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Обязательные столбцы таблицы&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -142,7 +142,7 @@
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/data.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/data.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Формат дат&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -162,7 +162,7 @@
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/list_antib.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/list_antib.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Список допустимых антибиотиков&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -299,7 +299,7 @@
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/markers.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/markers.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Генетические маркеры&lt;/h6>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Шаг 1 - Загрузка файла</title><link>https://amrcloud.net/ru/tutorials/import-data/04-upload-file/</link><pubDate>Fri, 14 Feb 2020 00:04:00 +0000</pubDate><guid>https://amrcloud.net/ru/tutorials/import-data/04-upload-file/</guid><description>&lt;h2 id="загрузка">Загрузка&lt;/h2>
@@ -308,7 +308,7 @@
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/choice_file.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/choice_file.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Загрузка файла&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -326,7 +326,7 @@
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/step1.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/step1.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Предварительный просмотр таблицы&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -336,7 +336,7 @@
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/file_for_export.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/file_for_export.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Переход во вкладку &lt;em>Файл&lt;/em>&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -344,7 +344,7 @@
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/export_csv.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/export_csv.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Сохранение в формате csv&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -355,7 +355,7 @@
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/wrong_letters.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/wrong_letters.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Запись по типу &lt;em>иероглифы&lt;/em>&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -365,7 +365,7 @@
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/unread.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/unread.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Ошибка прочтения файла&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -378,7 +378,7 @@
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/sublime_download.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/sublime_download.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Загрузка текстового редактора&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -390,7 +390,7 @@
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/sublime_open.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/sublime_open.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Выбор файла для исправления&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -402,7 +402,7 @@
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/sublime_reopen.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/sublime_reopen.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Кодировка таблицы&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -415,7 +415,7 @@ File &lt;strong>→&lt;/strong> Save with Encoding &lt;strong>→&lt;/strong> &l
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/save_utf8.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/save_utf8.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Сохранение файла с UTF-8&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -430,7 +430,7 @@ File &lt;strong>→&lt;/strong> Save with Encoding &lt;strong>→&lt;/strong> &l
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/change_code.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/change_code.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Скачивание файла из AMRcloud с настройками по умолчанию&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -442,7 +442,7 @@ File &lt;strong>→&lt;/strong> Save with Encoding &lt;strong>→&lt;/strong> &l
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/sublime_download.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/sublime_download.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Загрузка текстового редактора&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -452,7 +452,7 @@ File &lt;strong>→&lt;/strong> Save with Encoding &lt;strong>→&lt;/strong> &l
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/sublime_open.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/sublime_open.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Выбор файла для исправления&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -463,7 +463,7 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/save_1251.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/save_1251.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Сохранение файла с кодировкой Windows-1251&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -475,7 +475,7 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/choice_orgroup.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/choice_orgroup.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Структура пунктов шага 2&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -508,7 +508,7 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/change_sp.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/change_sp.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Проверка названия видов&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -535,7 +535,7 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/date_wrong.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/date_wrong.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Неправильный формат дат&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -555,7 +555,7 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/date_right.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/date_right.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Последовательность работы с датами&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -571,7 +571,7 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/geog_object.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/geog_object.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Географический объект&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -587,7 +587,7 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/numeric.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/numeric.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Выбор количественного показателя&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -604,7 +604,7 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/markers_genetic.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/markers_genetic.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Выбор маркеров резистентности&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -620,7 +620,7 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/other_filter.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/other_filter.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Выбор дополнительных параметров&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -638,7 +638,7 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/geoc_1.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/geoc_1.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Геокодирование. Структура первого подпункта&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -651,7 +651,7 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/geoc_2.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/geoc_2.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Карта: предпросмотр&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -660,7 +660,7 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/geoc_search2.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/geoc_search2.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Исправление с использованием приближения карты&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -669,7 +669,7 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/geoc_search.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/geoc_search.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Исправление с использованием строки поиска&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -687,7 +687,7 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/geoc_3.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/geoc_3.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Выбор ячеек&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -695,7 +695,7 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/geoc_change.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/geoc_change.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Корректировка данных&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -717,7 +717,7 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/built.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/built.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Алгоритм работы с локальными данными&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
@@ -778,7 +778,7 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;a data-fancybox="" href="https://amrcloud.net/img/tutorials/import-data/ru/alarm.png" >
 &lt;img src="https://amrcloud.net/img/tutorials/import-data/ru/alarm.png" >
 &lt;/a>
-&lt;figcaption data-pre="Рисунок " data-post=":" class="numbered">
+&lt;figcaption data-pre="Рисунок " data-post=" : " class="numbered">
 &lt;h6>Оповещение по нескольким координатам для одной точки&lt;/h6>
 &lt;/figcaption>
 &lt;/figure>
