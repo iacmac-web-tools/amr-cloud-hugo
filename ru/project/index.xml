@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | AMRcloud</title>
+    <title>Открытые проекты | AMRcloud</title>
     <link>https://amrcloud.net/ru/project/</link>
       <atom:link href="https://amrcloud.net/ru/project/index.xml" rel="self" type="application/rss+xml" />
-    <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud</copyright><lastBuildDate>Mon, 10 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <description>Открытые проекты</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud</copyright>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
-      <title>Projects</title>
+      <title>Открытые проекты</title>
       <link>https://amrcloud.net/ru/project/</link>
     </image>
     
