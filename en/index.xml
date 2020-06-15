@@ -26,24 +26,36 @@
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-new-project&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project.png&#34; data-caption=&#34;New project&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;New project&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    New project
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -52,24 +64,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project2.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project2.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-creating-a-new-project&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project2.png&#34; data-caption=&#34;Creating a new Project&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project2.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Creating a new Project&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Creating a new Project
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -90,24 +114,36 @@ It is recommended to use unique and distinguishing names for your Data Sets (do 
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project3.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project3.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-creating-a-new-data-set&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project3.png&#34; data-caption=&#34;Creating a new Data Set&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project3.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Creating a new Data Set&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Creating a new Data Set
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -138,24 +174,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/example.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/example.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-downloading-a-sample-data&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/example.png&#34; data-caption=&#34;Downloading a sample data&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/example.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Downloading a sample data&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Downloading a sample data
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -166,24 +214,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/row_column.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/row_column.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-data-table-structure&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/row_column.png&#34; data-caption=&#34;Data table structure&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/row_column.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Data table structure&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Data table structure
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/li&gt;
@@ -191,24 +251,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/name.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/name.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-header-row&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/name.png&#34; data-caption=&#34;Header row&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/name.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Header row&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Header row
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/li&gt;
@@ -223,24 +295,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/mandatory.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/mandatory.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-mandatory-columns&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/mandatory.png&#34; data-caption=&#34;Mandatory columns&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/mandatory.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Mandatory columns&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Mandatory columns
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -273,24 +357,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/data.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/data.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-date-format&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/data.png&#34; data-caption=&#34;Date format&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/data.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Date format&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Date format
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -335,24 +431,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/list_antib.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/list_antib.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-list-of-legitimate-antibiotic-names&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/list_antib.png&#34; data-caption=&#34;List of legitimate antibiotic names&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/list_antib.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;List of legitimate antibiotic names&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    List of legitimate antibiotic names
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/p&gt;
@@ -429,24 +537,36 @@ To ensure consistency, the data on Resistance Markers can be presented as follow
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-resistance-markers&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers.png&#34; data-caption=&#34;Resistance Markers&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Resistance Markers&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Resistance Markers
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -463,24 +583,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_file.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_file.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-uploading-a-file&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_file.png&#34; data-caption=&#34;Uploading a file&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_file.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Uploading a file&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Uploading a file
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -497,24 +629,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step1.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step1.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-data-table-preview&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step1.png&#34; data-caption=&#34;Data table preview&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step1.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Data table preview&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Data table preview
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -523,24 +667,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/wrong_letters.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/wrong_letters.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-text-encoding-problem&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/wrong_letters.png&#34; data-caption=&#34;Text encoding problem&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/wrong_letters.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Text encoding problem&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Text encoding problem
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -562,24 +718,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_orgroup.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_orgroup.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-linking-the-columns-to-categories&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_orgroup.png&#34; data-caption=&#34;Linking the columns to categories&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_orgroup.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Linking the columns to categories&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Linking the columns to categories
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -610,24 +778,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/change_sp.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/change_sp.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-checking-species-names&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/change_sp.png&#34; data-caption=&#34;Checking species names&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/change_sp.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Checking species names&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Checking species names
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -675,24 +855,36 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_wrong.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_wrong.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-incorrect-date-format&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_wrong.png&#34; data-caption=&#34;Incorrect date format&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_wrong.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Incorrect date format&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Incorrect date format
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -700,24 +892,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_right.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_right.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-confirming-the-date-column-selection&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_right.png&#34; data-caption=&#34;Confirming the date column selection&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_right.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Confirming the date column selection&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Confirming the date column selection
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -732,24 +936,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geog_object.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geog_object.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-spatial-information&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geog_object.png&#34; data-caption=&#34;Spatial information&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geog_object.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Spatial information&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Spatial information
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -764,24 +980,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/numeric.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/numeric.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-numeric-parameter&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/numeric.png&#34; data-caption=&#34;Numeric parameter&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/numeric.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Numeric parameter&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Numeric parameter
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -797,24 +1025,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers_genetic.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers_genetic.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-resistance-markers&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers_genetic.png&#34; data-caption=&#34;Resistance markers&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers_genetic.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Resistance markers&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Resistance markers
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -828,24 +1068,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/other_filter.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/other_filter.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-additional-parameters&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/other_filter.png&#34; data-caption=&#34;Additional parameters&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/other_filter.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Additional parameters&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Additional parameters
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -854,14 +1106,29 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/save_step2.png&#34; &gt;
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/save_step2.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/save_step2.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
 
 
 &lt;/figure&gt;
@@ -888,24 +1155,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_1.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_1.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-geocoding&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_1.png&#34; data-caption=&#34;Geocoding&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_1.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Geocoding&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Geocoding
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -917,48 +1196,72 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_3.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_3.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-cell-selecting&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_3.png&#34; data-caption=&#34;Cell selecting&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_3.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Cell selecting&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Cell selecting
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_change.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_change.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-coordinates-correcting&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_change.png&#34; data-caption=&#34;Coordinates correcting&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_change.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Coordinates correcting&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Coordinates correcting
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -967,24 +1270,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_2.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_2.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-map-preview&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_2.png&#34; data-caption=&#34;Map preview&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_2.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Map preview&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Map preview
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -997,24 +1312,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-search-bar&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search.png&#34; data-caption=&#34;Search bar&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Search bar&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Search bar
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -1022,24 +1349,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search2.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search2.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-getting-the-coordinates&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search2.png&#34; data-caption=&#34;Getting the coordinates&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search2.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Getting the coordinates&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Getting the coordinates
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -1059,17 +1398,30 @@ Check the data import statuses in the list that appears below and press the &lt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
+
+
+
+
+
+
+
+&lt;figure &gt;
+
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/save_step4.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/save_step4.png&#34; &gt;
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/save_step4.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
+
+
 
 &lt;/figure&gt;
 
@@ -1079,6 +1431,150 @@ Check the data import statuses in the list that appears below and press the &lt;
 &lt;p&gt;If you only want to apply different (newer) AST interpretive criteria, you will need to reset and work through the Step Four only.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DARMIS 2009-2011 &amp; 2017-2018</title>
+      <link>https://amrcloud.net/en/project/darmis/</link>
+      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/project/darmis/</guid>
+      <description>&lt;h3 id=&#34;organisers&#34;&gt;Organisers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Interregional Association for Clinical Microbiology and Antimicrobial Chemotherapy (IACMAC)&lt;/li&gt;
+&lt;li&gt;Russian Society of Urologists&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;annotation&#34;&gt;Annotation&lt;/h3&gt;
+&lt;p&gt;This dataset presents the data on antibiotic resistance of community-acquired uropathogens isolated from midstream urine samples of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;adults with symptomatic UTI (cystitis, pyelonephritis);&lt;/li&gt;
+&lt;li&gt;children and adolescents under 18 years with symptomatic UTI (cystitis, pyelonephritis);&lt;/li&gt;
+&lt;li&gt;pregnant women with symptomatic UTI (cystitis and pyelonephritis) and asymptomatic bacteriuria.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;the-study-was-conducted-in-two-periods&#34;&gt;The study was conducted in two periods:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;DARMIS 2009-2011: &lt;strong&gt;28 centers, 20 cities&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Russia&lt;/strong&gt;: Voronezh, Yekaterinburg, Irkutsk, Kazan, Krasnodar, Moscow, Omsk, Rostov-on-Don, Samara, St. Petersburg, Seversk, Smolensk, Surgut, Tomsk, Tyumen, Ufa, Chelyabinsk, Yakutsk;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Belarus&lt;/strong&gt;: Gomel;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kazakhstan&lt;/strong&gt;: Karaganda.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DARMIS 2017-2018: &lt;strong&gt;34 centers, 26 cities&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Russia&lt;/strong&gt;: Bratsk, Voronezh, Yekaterinburg, Irkutsk, Yoshkar-Ola, Kazan, Kirov, Krasnodar, Nizhnevartovsk, Novokuznetsk, Novosibirsk, Omsk, Rostov-on-Don, Samara, St. Petersburg, Seversk, Smolensk, Surgut, Tolyatti, Tomsk, Ulyanovsk, Chelyabinsk, Yakutsk, Yaroslavl;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Belarus&lt;/strong&gt;: Gomel;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kazakhstan&lt;/strong&gt;: Karaganda.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;antibiotic-susceptibility-testing&#34;&gt;Antibiotic Susceptibility Testing&lt;/h4&gt;
+&lt;p&gt;Minimum inhibitory concentrations (MICs) of antibiotics were determined by reference broth microdilution method (BMD) in Mueller-Hinton broth according to ISO 20776-1:2006 at the Central Laboratory of the Institute of Antimicrobial Chemotherapy (IAC), Smolensk State Medical University (SSMU)&lt;/p&gt;
+&lt;h4 id=&#34;interpretation-of-mics&#34;&gt;Interpretation of MICs&lt;/h4&gt;
+&lt;p&gt;Clinical susceptibility categories were assigned according to the European Committee on Antimicrobial Susceptibility Testing (EUCAST) MIC Clinical breakpoints v.10.0 (&lt;a href=&#34;http://www.eucast.org/clinical_breakpoints/&#34;&gt;http://www.eucast.org/clinical_breakpoints/&lt;/a&gt;)&lt;/p&gt;
+&lt;h3 id=&#34;darmis-2009-2011-study-group&#34;&gt;DARMIS 2009-2011 Study Group&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Agapova E.D. (Irkutsk)&lt;/li&gt;
+&lt;li&gt;Ankirskaya A.S. (Moscow)&lt;/li&gt;
+&lt;li&gt;Elokhina E.V. (Omsk)&lt;/li&gt;
+&lt;li&gt;Galeeva O.P. (Kazan)&lt;/li&gt;
+&lt;li&gt;Gudkova L.V. (Tomsk)&lt;/li&gt;
+&lt;li&gt;Gumenetskiy D.V. (Chelyabinsk)&lt;/li&gt;
+&lt;li&gt;Khasanova S.G. (Ufa)&lt;/li&gt;
+&lt;li&gt;Khokhlyavina R.M. (Tyumen)&lt;/li&gt;
+&lt;li&gt;Kogan M.I. (Rostov-on-Don)&lt;/li&gt;
+&lt;li&gt;Kozlova L.V. (Smolensk)&lt;/li&gt;
+&lt;li&gt;Lavrinenko A.V. (Karaganda, Kazakhstan)&lt;/li&gt;
+&lt;li&gt;Loginov Yu.A. (Smolensk)&lt;/li&gt;
+&lt;li&gt;Malev I.V. (Smolensk)&lt;/li&gt;
+&lt;li&gt;Morozov M.V. (Smolensk)&lt;/li&gt;
+&lt;li&gt;Moskvitina E.N. (Seversk)&lt;/li&gt;
+&lt;li&gt;Multykh I.G. (Krasnodar)&lt;/li&gt;
+&lt;li&gt;Naboka Yu.L. (Rostov-on-Don)&lt;/li&gt;
+&lt;li&gt;Nastausheva T.L. (Voronezh)&lt;/li&gt;
+&lt;li&gt;Nikolskaya I.G. (Moscow)&lt;/li&gt;
+&lt;li&gt;Ortenberg E.A. (Tyumen)&lt;/li&gt;
+&lt;li&gt;Oskina E.A. (Samara)&lt;/li&gt;
+&lt;li&gt;Palagin I.S. (Smolensk)&lt;/li&gt;
+&lt;li&gt;Perevalova E.Yu. (Yekaterinburg)&lt;/li&gt;
+&lt;li&gt;Polukhina O.V. (St. Petersburg)&lt;/li&gt;
+&lt;li&gt;Rozanova S.M. (Yekaterinburg)&lt;/li&gt;
+&lt;li&gt;Safina A.I. (Kazan)&lt;/li&gt;
+&lt;li&gt;Savicheva A.M. (St. Petersburg)&lt;/li&gt;
+&lt;li&gt;Sekhin S.V. (Smolensk)&lt;/li&gt;
+&lt;li&gt;Skalskiy S.V. (Omsk)&lt;/li&gt;
+&lt;li&gt;Tapalskiy D.V. (Gomel, Belarus)&lt;/li&gt;
+&lt;li&gt;Tatarinova O.V. (Yakutsk)&lt;/li&gt;
+&lt;li&gt;Trapeznikova B.V. (Surgut)&lt;/li&gt;
+&lt;li&gt;Valiullina I.R. (Kazan)&lt;/li&gt;
+&lt;li&gt;Zhestkov A.V. (Samara- Zulkarneev R.Kh. (Ufa)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;darmis-2017-2018-study-group&#34;&gt;DARMIS 2017-2018 Study Group&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Amineva P.G. (Yekaterinburg)&lt;/li&gt;
+&lt;li&gt;Becker G.G. (Novosibirsk)&lt;/li&gt;
+&lt;li&gt;Bulkin A.N. (St. Petersburg)&lt;/li&gt;
+&lt;li&gt;Bykonya S.A. (Tomsk)&lt;/li&gt;
+&lt;li&gt;Chastoedova A.N. (Kirov)&lt;/li&gt;
+&lt;li&gt;Domanskaya O.V. (Novokuznetsk)&lt;/li&gt;
+&lt;li&gt;Elokhina E.V. (Omsk)&lt;/li&gt;
+&lt;li&gt;Ershova M.G. (Yaroslavl)&lt;/li&gt;
+&lt;li&gt;Ivanova I.A. (Yoshkar-Ola)&lt;/li&gt;
+&lt;li&gt;Khaidarshina N.E. (Chelyabinsk)&lt;/li&gt;
+&lt;li&gt;Khusnutdinova T.A. (St. Petersburg)&lt;/li&gt;
+&lt;li&gt;Kogan M.I. (Rostov-on-Don)&lt;/li&gt;
+&lt;li&gt;Kulchavenya E.V. (Novosibirsk)&lt;/li&gt;
+&lt;li&gt;Lavrinenko A.V. (Karaganda, Kazakhstan)&lt;/li&gt;
+&lt;li&gt;Lyamin A.V. (Samara)&lt;/li&gt;
+&lt;li&gt;Malev I.V. (Smolensk)&lt;/li&gt;
+&lt;li&gt;Malyavin A.I. (Ulyanovsk)&lt;/li&gt;
+&lt;li&gt;Martyanova N.M. (Tolyatti)&lt;/li&gt;
+&lt;li&gt;Moskvitina E.N. (Seversk)&lt;/li&gt;
+&lt;li&gt;Mutin M.Yu. (Bratsk)&lt;/li&gt;
+&lt;li&gt;Naboka Yu.L. (Rostov-on-Don)&lt;/li&gt;
+&lt;li&gt;Nikiforovskaya N.N. (Smolensk)&lt;/li&gt;
+&lt;li&gt;Palagin I.S. (Smolensk)&lt;/li&gt;
+&lt;li&gt;Plugin P.S. (Novosibirsk)&lt;/li&gt;
+&lt;li&gt;Popova L.D. (Omsk)&lt;/li&gt;
+&lt;li&gt;Portnyagina U.S. (Yakutsk)&lt;/li&gt;
+&lt;li&gt;Shamaeva S.Kh. (Yakutsk)&lt;/li&gt;
+&lt;li&gt;Shipitsyna E.V. (St. Petersburg)&lt;/li&gt;
+&lt;li&gt;Shirokova T.M. (Kirov)&lt;/li&gt;
+&lt;li&gt;Sidorova R.K. (Ulyanovsk)&lt;/li&gt;
+&lt;li&gt;Strebkova V.V. (Voronezh)&lt;/li&gt;
+&lt;li&gt;Sukhoreva M.V. (Irkutsk)&lt;/li&gt;
+&lt;li&gt;Tapalsky D.V. (Gomel, Belarus)&lt;/li&gt;
+&lt;li&gt;Valiullina I.R. (Kazan)&lt;/li&gt;
+&lt;li&gt;Varganova A.N. (Surgut)&lt;/li&gt;
+&lt;li&gt;Varibrus E.V. (Krasnodar)&lt;/li&gt;
+&lt;li&gt;Vasilyeva I.R. (Nizhnevartovsk)&lt;/li&gt;
+&lt;li&gt;Vetokhina A.V. (Irkutsk)&lt;/li&gt;
+&lt;li&gt;Volkovskaya I.V. (Tomsk)&lt;/li&gt;
+&lt;li&gt;Zhestkov A.V. (Samara)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;media&#34;&gt;
+  &lt;div class=&#34;media-body&#34;&gt;
+    &lt;h3 class=&#34;mt-0 mb-1&#34;&gt;Coordinator&lt;/h3&gt;
+    &lt;h5&gt;Ivan S. Palagin&lt;/h5&gt;
+    &lt;p&gt;Research fellow&lt;/p&gt;
+    &lt;p&gt;Institute of Antimicrobial Chemotherapy (IAC),&lt;br&gt;Smolensk State Medical University (SSMU)&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&#34;ivan.palagin@gmail.com&#34; target=&#34;_blank&#34;&gt;ivan.palagin@gmail.com&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;img class=&#34;ml-3&#34; src=&#34;iac.png&#34; alt=&#34;Institute of Antimicrobial Chemotherapy&#34;&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;publications&#34;&gt;Publications&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;I.S. Palagin, M.V. Sukhorukova, A.V. Dekhnich, M.V. Edelstein, T.S. Perepanova, R.S. Kozlov, “DARMIS-2018” Study Group. Current state of antibiotic resistance of pathogens causing community-acquired urinary tract infections in Russia, Belarus and Kazakhstan: results of the international multicenter study “DARMIS-2018”. Urology 2020; 1: 19-31.&lt;br/&gt;
+&lt;a href=&#34;https://dx.doi.org/10.18565/urology.2020.1.19-31&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;i class=&#34;ai ai-doi&#34;&gt;&lt;/i&gt; 10.18565/urology.2020.1.19-31&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;I.S. Palagin, M.V. Sukhorukova, A.V. Dekhnich, M.V. Edelstein, T.S. Perepanova, R.S. Kozlov, “DARMIS-2018” Study Group. Antimicrobial resistance of pathogens causing community-acquired urinary tract infections in Russia: results of the multicenter study “DARMIS-2018”. KMAKH 2019; 21 (2): 134-46.&lt;br/&gt;
+&lt;a href=&#34;https://doi.org/10.36488/cmac.2019.2.134-146&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;i class=&#34;ai ai-doi&#34;&gt;&lt;/i&gt; 10.36488/cmac.2019.2.134-146&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;I.S. Palagin, M.V. Sukhorukova, A.V. Dekhnich, M.V. Edelstein, A.V. Grinev, T.S. Perepanova, R.S. Kozlov, DARMIS Study Group. Complicated community-acquired urinary tract infections in adult patients in Russia. KMAKH 2014; 16 (1): 39-56. &lt;br/&gt;
+&lt;a href=&#34;https://cmac-journal.ru/en/publication/2014/1/cmac-2014-t16-n1-p039/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;i class=&#34;fas fa-book-open&#34;&gt;&lt;/i&gt; cmac-journal.ru&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;I.S. Palagin, M.V. Sukhorukova, A.V. Dekhnich, M.V. Edelstein, A.N. Shevelev, A.V. Grinev, T.S. Perepanova, R.S. Kozlov, “DARMIS” Study Group. Current state of antibiotic resistance of pathogens causing community-acquired urinary tract infections in Russia: DARMIS Study (2010-2011). KMAKH 2012; 14 (4): 280-302.&lt;br/&gt;
+&lt;a href=&#34;https://cmac-journal.ru/en/publication/2012/4/cmac-2012-t14-n4-p280/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;i class=&#34;fas fa-book-open&#34;&gt;&lt;/i&gt; cmac-journal.ru&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;T.S. Perepanova, R.S. Kozlov, A.V. Dekhnich, I.S. Palagin, A.N. Shevelev, E.M. Volkova, D.K. Egamberdiev. Choice of antimicrobial drugs in urinary infections. Urology 2012; 2: 4-8.&lt;br/&gt;
+&lt;a href=&#34;https://cyberleninka.ru/article/n/empiricheskiy-vybor-antimikrobnyh-preparatov-pri-neoslozhnennoy-infektsii-nizhnih-mochevyh-putey-issledovanie-rezistentnosti&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;i class=&#34;fas fa-book-open&#34;&gt;&lt;/i&gt; cyberleninka.ru&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
@@ -1132,92 +1628,6 @@ Check the data import statuses in the list that appears below and press the &lt;
     &lt;p&gt;&lt;a href=&#34;evgeniy.sheck@antibiotic.ru&#34; target=&#34;_blank&#34;&gt;evgeniy.sheck@antibiotic.ru&lt;/a&gt;&lt;/p&gt;
   &lt;/div&gt;
   &lt;img class=&#34;ml-3&#34; src=&#34;iac.png&#34; style=&#34;width: 200px&#34; alt=&#34;Institute of Antimicrobial Chemotherapy (IAC), Smolensk State Medical University (SSMU)&#34;&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>DARMIS-2018</title>
-      <link>https://amrcloud.net/en/project/darmis-2018/</link>
-      <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://amrcloud.net/en/project/darmis-2018/</guid>
-      <description>&lt;h3 id=&#34;organizers&#34;&gt;Organizers&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Interregional Association for Clinical Microbiology and Antimicrobial Chemotherapy (IACMAC)&lt;/li&gt;
-&lt;li&gt;Russian Society of Urologists&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The data are presented on antibiotic resistance of community-acquired uropathogens isolated from midstream urine samples of:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;adults with symptomatic UTI (cystitis, pyelonephritis)&lt;/li&gt;
-&lt;li&gt;children and adolescents under 18 years with symptomatic UTI (cystitis, pyelonephritis)&lt;/li&gt;
-&lt;li&gt;pregnant women with symptomatic UTI (cystitis and pyelonephritis) and asymptomatic bacteriuria&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;The study design is similar to that of the DARMIS study (2010-2011)&lt;/em&gt;&lt;/p&gt;
-&lt;h4 id=&#34;time-period-of-sample-collection&#34;&gt;Time period of sample collection&lt;/h4&gt;
-&lt;p&gt;01 Jan 2017 - 31 Dec 2018&lt;/p&gt;
-&lt;h4 id=&#34;geographic-location-of-centers&#34;&gt;Geographic location of centers&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;34 centers, 26 cities&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Russia&lt;/strong&gt;: Bratsk, Voronezh, Yekaterinburg, Irkutsk, Yoshkar-Ola, Kazan, Kirov, Krasnodar, Nizhnevartovsk, Novokuznetsk, Novosibirsk, Omsk, Rostov-on-Don, Samara, St. Petersburg, Seversk, Smolensk, Surgut, Tolyatti, Tomsk, Ulyanovsk, Chelyabinsk, Yakutsk, Yaroslavl&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Belarus&lt;/strong&gt;: Gomel&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Kazakhstan&lt;/strong&gt;: Karaganda&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;antibiotic-susceptibility-testing&#34;&gt;Antibiotic susceptibility testing&lt;/h4&gt;
-&lt;p&gt;Determination of minimum inhibitory concentrations (MICs) by reference broth microdillution method (BMD) in Mueller-Hinton broth (according to ISO 20776-1:2006) at the central laboratory of the Institute of Antimicrobial Chemotherapy (IAC), Smolensk State Mediacal University (SSMU)&lt;/p&gt;
-&lt;h4 id=&#34;interpretation-of-mics&#34;&gt;Interpretation of MICs&lt;/h4&gt;
-&lt;p&gt;Clinical susceptibility categories were assigned based on the European Committee on Antimicrobial Susceptibility Testing (EUCAST) MIC Clinical breakpoints v.10.0 (&lt;a href=&#34;http://www.eucast.org/clinical_breakpoints/&#34;&gt;http://www.eucast.org/clinical_breakpoints/&lt;/a&gt;)&lt;/p&gt;
-&lt;h3 id=&#34;study-group&#34;&gt;Study Group&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Amineva P.G.&lt;/em&gt; (Yekaterinburg)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Becker G.G.&lt;/em&gt; (Novosibirsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Bulkin A.N.&lt;/em&gt; (St. Petersburg)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Bykonya S.A.&lt;/em&gt; (Tomsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Chastoedova A.N.&lt;/em&gt; (Kirov)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Domanskaya O.V.&lt;/em&gt; (Novokuznetsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Elokhina E.V.&lt;/em&gt; (Omsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Ershova M.G.&lt;/em&gt; (Yaroslavl)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Ivanova I.A.&lt;/em&gt; (Yoshkar-Ola)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Khaidarshina N.E.&lt;/em&gt; (Chelyabinsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Khusnutdinova T.A.&lt;/em&gt; (St. Petersburg)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Kogan M.I.&lt;/em&gt; (Rostov-on-Don)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Kulchavenya E.V.&lt;/em&gt; (Novosibirsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Lavrinenko A.V.&lt;/em&gt; (Kazakhstan)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Lyamin A.V.&lt;/em&gt; (Samara)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Malev I.V.&lt;/em&gt; (Smolensk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Malyavin A.I.&lt;/em&gt; (Ulyanovsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Martyanova N.M.&lt;/em&gt; (Tolyatti)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Moskvitina E.N.&lt;/em&gt; (Seversk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Mutin M.Yu.&lt;/em&gt; (Bratsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Naboka Yu.L.&lt;/em&gt; (Rostov-on-Don)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Nikiforovskaya N.N.&lt;/em&gt; (Smolensk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Palagin I.S.&lt;/em&gt; (Smolensk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Plugin P.S.&lt;/em&gt; (Novosibirsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Popova L.D.&lt;/em&gt; (Omsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Portnyagina U.S.&lt;/em&gt; (Yakutsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Shamaeva S.Kh.&lt;/em&gt; (Yakutsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Shipitsyna E.V.&lt;/em&gt; (St. Petersburg)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Shirokova T.M.&lt;/em&gt; (Kirov)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Sidorova R.K.&lt;/em&gt; (Ulyanovsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Strebkova V.V.&lt;/em&gt; (Voronezh)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Sukhoreva M.V.&lt;/em&gt; (Irkutsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Tapalsky D.V.&lt;/em&gt; (Belarus)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Valiullina I.R.&lt;/em&gt; (Kazan)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Varganova A.N.&lt;/em&gt; (Surgut)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Varibrus E.V.&lt;/em&gt; (Krasnodar)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Vasilyeva I.R.&lt;/em&gt; (Nizhnevartovsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Vetokhina A.V.&lt;/em&gt; (Irkutsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Volkovskaya I.V.&lt;/em&gt; (Tomsk)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Zhestkov A.V.&lt;/em&gt; (Samara)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;media&#34;&gt;
-  &lt;div class=&#34;media-body&#34;&gt;
-    &lt;h3 class=&#34;mt-0 mb-1&#34;&gt;Coordinator&lt;/h3&gt;
-    &lt;h5&gt;Ivan S. Palagin&lt;/h5&gt;
-    &lt;p&gt;Research fellow&lt;/p&gt;
-    &lt;p&gt;Institute of Antimicrobial Chemotherapy (IAC),&lt;br&gt;Smolensk State Medical University (SSMU)&lt;/p&gt;
-    &lt;p&gt;&lt;a href=&#34;ivan.palagin@gmail.com&#34; target=&#34;_blank&#34;&gt;ivan.palagin@gmail.com&lt;/a&gt;&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;img class=&#34;ml-3&#34; src=&#34;iac.png&#34; alt=&#34;Institute of Antimicrobial Chemotherapy&#34;&gt;
 &lt;/div&gt;
 </description>
     </item>

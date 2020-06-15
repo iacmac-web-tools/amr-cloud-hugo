@@ -26,24 +26,36 @@
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-new-project&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project.png&#34; data-caption=&#34;New project&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;New project&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    New project
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -52,24 +64,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project2.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project2.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-creating-a-new-project&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project2.png&#34; data-caption=&#34;Creating a new Project&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project2.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Creating a new Project&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Creating a new Project
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -90,24 +114,36 @@ It is recommended to use unique and distinguishing names for your Data Sets (do 
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project3.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project3.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-creating-a-new-data-set&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project3.png&#34; data-caption=&#34;Creating a new Data Set&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project3.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Creating a new Data Set&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Creating a new Data Set
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -138,24 +174,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/example.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/example.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-downloading-a-sample-data&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/example.png&#34; data-caption=&#34;Downloading a sample data&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/example.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Downloading a sample data&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Downloading a sample data
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -166,24 +214,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/row_column.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/row_column.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-data-table-structure&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/row_column.png&#34; data-caption=&#34;Data table structure&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/row_column.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Data table structure&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Data table structure
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/li&gt;
@@ -191,24 +251,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/name.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/name.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-header-row&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/name.png&#34; data-caption=&#34;Header row&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/name.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Header row&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Header row
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/li&gt;
@@ -223,24 +295,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/mandatory.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/mandatory.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-mandatory-columns&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/mandatory.png&#34; data-caption=&#34;Mandatory columns&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/mandatory.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Mandatory columns&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Mandatory columns
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -273,24 +357,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/data.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/data.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-date-format&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/data.png&#34; data-caption=&#34;Date format&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/data.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Date format&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Date format
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -335,24 +431,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/list_antib.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/list_antib.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-list-of-legitimate-antibiotic-names&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/list_antib.png&#34; data-caption=&#34;List of legitimate antibiotic names&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/list_antib.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;List of legitimate antibiotic names&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    List of legitimate antibiotic names
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/p&gt;
@@ -429,24 +537,36 @@ To ensure consistency, the data on Resistance Markers can be presented as follow
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-resistance-markers&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers.png&#34; data-caption=&#34;Resistance Markers&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Resistance Markers&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Resistance Markers
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -463,24 +583,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_file.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_file.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-uploading-a-file&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_file.png&#34; data-caption=&#34;Uploading a file&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_file.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Uploading a file&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Uploading a file
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -497,24 +629,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step1.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step1.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-data-table-preview&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step1.png&#34; data-caption=&#34;Data table preview&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step1.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Data table preview&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Data table preview
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -523,24 +667,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/wrong_letters.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/wrong_letters.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-text-encoding-problem&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/wrong_letters.png&#34; data-caption=&#34;Text encoding problem&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/wrong_letters.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Text encoding problem&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Text encoding problem
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -562,24 +718,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_orgroup.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_orgroup.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-linking-the-columns-to-categories&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_orgroup.png&#34; data-caption=&#34;Linking the columns to categories&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_orgroup.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Linking the columns to categories&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Linking the columns to categories
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -610,24 +778,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/change_sp.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/change_sp.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-checking-species-names&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/change_sp.png&#34; data-caption=&#34;Checking species names&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/change_sp.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Checking species names&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Checking species names
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -675,24 +855,36 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_wrong.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_wrong.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-incorrect-date-format&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_wrong.png&#34; data-caption=&#34;Incorrect date format&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_wrong.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Incorrect date format&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Incorrect date format
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -700,24 +892,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_right.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_right.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-confirming-the-date-column-selection&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_right.png&#34; data-caption=&#34;Confirming the date column selection&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_right.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Confirming the date column selection&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Confirming the date column selection
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -732,24 +936,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geog_object.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geog_object.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-spatial-information&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geog_object.png&#34; data-caption=&#34;Spatial information&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geog_object.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Spatial information&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Spatial information
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -764,24 +980,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/numeric.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/numeric.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-numeric-parameter&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/numeric.png&#34; data-caption=&#34;Numeric parameter&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/numeric.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Numeric parameter&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Numeric parameter
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -797,24 +1025,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers_genetic.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers_genetic.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-resistance-markers&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers_genetic.png&#34; data-caption=&#34;Resistance markers&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers_genetic.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Resistance markers&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Resistance markers
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -828,24 +1068,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/other_filter.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/other_filter.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-additional-parameters&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/other_filter.png&#34; data-caption=&#34;Additional parameters&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/other_filter.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Additional parameters&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Additional parameters
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -854,14 +1106,29 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/save_step2.png&#34; &gt;
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/save_step2.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/save_step2.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
 
 
 &lt;/figure&gt;
@@ -888,24 +1155,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_1.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_1.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-geocoding&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_1.png&#34; data-caption=&#34;Geocoding&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_1.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Geocoding&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Geocoding
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -917,48 +1196,72 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_3.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_3.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-cell-selecting&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_3.png&#34; data-caption=&#34;Cell selecting&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_3.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Cell selecting&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Cell selecting
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_change.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_change.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-coordinates-correcting&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_change.png&#34; data-caption=&#34;Coordinates correcting&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_change.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Coordinates correcting&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Coordinates correcting
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -967,24 +1270,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_2.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_2.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-map-preview&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_2.png&#34; data-caption=&#34;Map preview&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_2.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Map preview&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Map preview
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -997,24 +1312,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-search-bar&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search.png&#34; data-caption=&#34;Search bar&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Search bar&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Search bar
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -1022,24 +1349,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search2.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search2.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-getting-the-coordinates&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search2.png&#34; data-caption=&#34;Getting the coordinates&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search2.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Getting the coordinates&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Getting the coordinates
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -1059,17 +1398,30 @@ Check the data import statuses in the list that appears below and press the &lt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
+
+
+
+
+
+
+
+&lt;figure &gt;
+
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/save_step4.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/save_step4.png&#34; &gt;
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/save_step4.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
+
+
 
 &lt;/figure&gt;
 

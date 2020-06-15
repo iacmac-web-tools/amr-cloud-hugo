@@ -26,24 +26,36 @@
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/new_project.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/new_project.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-новый-проект&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/new_project.png&#34; data-caption=&#34;Новый проект&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/new_project.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Новый проект&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Новый проект
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -51,24 +63,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/new_project2.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/new_project2.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-создание-проекта&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/new_project2.png&#34; data-caption=&#34;Создание проекта&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/new_project2.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Создание проекта&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Создание проекта
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -89,24 +113,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/new_project3.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/new_project3.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-создание-набора-данных&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/new_project3.png&#34; data-caption=&#34;Создание набора данных&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/new_project3.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Создание набора данных&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Создание набора данных
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -137,24 +173,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/example.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/example.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-скачивание-образца-данных&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/example.png&#34; data-caption=&#34;Скачивание образца данных&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/example.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Скачивание образца данных&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Скачивание образца данных
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -166,24 +214,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/row_column.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/row_column.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-структура-таблицы&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/row_column.png&#34; data-caption=&#34;Структура таблицы&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/row_column.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Структура таблицы&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Структура таблицы
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/p&gt;
@@ -193,24 +253,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/name.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/name.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-заголовочная-строка-таблицы&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/name.png&#34; data-caption=&#34;Заголовочная строка таблицы&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/name.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Заголовочная строка таблицы&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Заголовочная строка таблицы
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/p&gt;
@@ -229,24 +301,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/mandatory.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/mandatory.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-обязательные-столбцы-таблицы&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/mandatory.png&#34; data-caption=&#34;Обязательные столбцы таблицы&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/mandatory.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Обязательные столбцы таблицы&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Обязательные столбцы таблицы
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -279,24 +363,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/data.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/data.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-формат-дат&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/data.png&#34; data-caption=&#34;Формат дат&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/data.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Формат дат&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Формат дат
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -316,24 +412,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/list_antib.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/list_antib.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-список-допустимых-антибиотиков&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/list_antib.png&#34; data-caption=&#34;Список допустимых антибиотиков&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/list_antib.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Список допустимых антибиотиков&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Список допустимых антибиотиков
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/li&gt;
@@ -468,24 +576,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/markers.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/markers.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-генетические-маркеры&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/markers.png&#34; data-caption=&#34;Генетические маркеры&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/markers.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Генетические маркеры&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Генетические маркеры
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -502,24 +622,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/choice_file.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/choice_file.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-загрузка-файла&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/choice_file.png&#34; data-caption=&#34;Загрузка файла&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/choice_file.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Загрузка файла&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Загрузка файла
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -536,24 +668,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/step1.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/step1.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-предварительный-просмотр-таблицы&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/step1.png&#34; data-caption=&#34;Предварительный просмотр таблицы&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/step1.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Предварительный просмотр таблицы&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Предварительный просмотр таблицы
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -562,48 +706,72 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/file_for_export.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/file_for_export.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-переход-во-вкладку-файл&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/file_for_export.png&#34; data-caption=&#34;Переход во вкладку &amp;lt;em&amp;gt;Файл&amp;lt;/em&amp;gt;&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/file_for_export.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Переход во вкладку &lt;em&gt;Файл&lt;/em&gt;&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Переход во вкладку &lt;em&gt;Файл&lt;/em&gt;
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/export_csv.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/export_csv.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-сохранение-в-формате-csv&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/export_csv.png&#34; data-caption=&#34;Сохранение в формате csv&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/export_csv.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Сохранение в формате csv&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Сохранение в формате csv
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/p&gt;
@@ -612,24 +780,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/wrong_letters.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/wrong_letters.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-запись-по-типу-иероглифы&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/wrong_letters.png&#34; data-caption=&#34;Запись по типу &amp;lt;em&amp;gt;иероглифы&amp;lt;/em&amp;gt;&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/wrong_letters.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Запись по типу &lt;em&gt;иероглифы&lt;/em&gt;&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Запись по типу &lt;em&gt;иероглифы&lt;/em&gt;
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -638,24 +818,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/unread.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/unread.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-ошибка-прочтения-файла&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/unread.png&#34; data-caption=&#34;Ошибка прочтения файла&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/unread.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Ошибка прочтения файла&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Ошибка прочтения файла
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -667,24 +859,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_download.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_download.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-загрузка-текстового-редактора&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_download.png&#34; data-caption=&#34;Загрузка текстового редактора&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_download.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Загрузка текстового редактора&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Загрузка текстового редактора
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/p&gt;
@@ -694,24 +898,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_open.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_open.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-выбор-файла-для-исправления&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_open.png&#34; data-caption=&#34;Выбор файла для исправления&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_open.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Выбор файла для исправления&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выбор файла для исправления
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -722,24 +938,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_reopen.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_reopen.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-кодировка-таблицы&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_reopen.png&#34; data-caption=&#34;Кодировка таблицы&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_reopen.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Кодировка таблицы&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Кодировка таблицы
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -751,24 +979,36 @@ File &lt;strong&gt;→&lt;/strong&gt; Save with Encoding &lt;strong&gt;→&lt;/s
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_utf8.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_utf8.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-сохранение-файла-с-utf-8&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_utf8.png&#34; data-caption=&#34;Сохранение файла с UTF-8&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_utf8.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Сохранение файла с UTF-8&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Сохранение файла с UTF-8
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/p&gt;
@@ -781,24 +1021,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/change_code.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/change_code.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-скачивание-файла-из-amrcloud-с-настройками-по-умолчанию&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/change_code.png&#34; data-caption=&#34;Скачивание файла из AMRcloud с настройками по умолчанию&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/change_code.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Скачивание файла из AMRcloud с настройками по умолчанию&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Скачивание файла из AMRcloud с настройками по умолчанию
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -809,24 +1061,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_download.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_download.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-загрузка-текстового-редактора&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_download.png&#34; data-caption=&#34;Загрузка текстового редактора&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_download.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Загрузка текстового редактора&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Загрузка текстового редактора
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/li&gt;
@@ -834,24 +1098,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_open.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_open.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-выбор-файла-для-исправления&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_open.png&#34; data-caption=&#34;Выбор файла для исправления&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_open.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Выбор файла для исправления&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выбор файла для исправления
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/li&gt;
@@ -860,24 +1136,36 @@ File**→** Save with Encoding **→** Windows-1251.
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_1251.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_1251.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-сохранение-файла-с-кодировкой-windows-1251&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_1251.png&#34; data-caption=&#34;Сохранение файла с кодировкой Windows-1251&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_1251.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Сохранение файла с кодировкой Windows-1251&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Сохранение файла с кодировкой Windows-1251
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/li&gt;
@@ -896,24 +1184,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/choice_orgroup.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/choice_orgroup.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-структура-пунктов-шага-2&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/choice_orgroup.png&#34; data-caption=&#34;Структура пунктов шага 2&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/choice_orgroup.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Структура пунктов шага 2&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Структура пунктов шага 2
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/p&gt;
@@ -944,24 +1244,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/change_sp.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/change_sp.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-проверка-названия-видов&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/change_sp.png&#34; data-caption=&#34;Проверка названия видов&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/change_sp.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Проверка названия видов&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Проверка названия видов
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -987,24 +1299,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/date_wrong.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/date_wrong.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-неправильный-формат-дат&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/date_wrong.png&#34; data-caption=&#34;Неправильный формат дат&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/date_wrong.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Неправильный формат дат&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Неправильный формат дат
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -1023,24 +1347,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/date_right.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/date_right.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-последовательность-работы-с-датами&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/date_right.png&#34; data-caption=&#34;Последовательность работы с датами&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/date_right.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Последовательность работы с датами&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Последовательность работы с датами
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -1055,24 +1391,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geog_object.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geog_object.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-географический-объект&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geog_object.png&#34; data-caption=&#34;Географический объект&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geog_object.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Географический объект&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Географический объект
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -1087,24 +1435,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/numeric.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/numeric.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-выбор-количественного-показателя&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/numeric.png&#34; data-caption=&#34;Выбор количественного показателя&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/numeric.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Выбор количественного показателя&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выбор количественного показателя
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -1120,24 +1480,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/markers_genetic.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/markers_genetic.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-выбор-маркеров-резистентности&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/markers_genetic.png&#34; data-caption=&#34;Выбор маркеров резистентности&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/markers_genetic.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Выбор маркеров резистентности&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выбор маркеров резистентности
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -1152,24 +1524,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/other_filter.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/other_filter.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-выбор-дополнительных-параметров&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/other_filter.png&#34; data-caption=&#34;Выбор дополнительных параметров&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/other_filter.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Выбор дополнительных параметров&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выбор дополнительных параметров
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -1178,14 +1562,29 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_step2.png&#34; &gt;
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_step2.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_step2.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
 
 
 &lt;/figure&gt;
@@ -1207,24 +1606,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_1.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_1.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-геокодирование-структура-первого-подпункта&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_1.png&#34; data-caption=&#34;Геокодирование. Структура первого подпункта&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_1.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Геокодирование. Структура первого подпункта&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Геокодирование. Структура первого подпункта
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -1236,24 +1647,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_2.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_2.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-карта-предпросмотр&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_2.png&#34; data-caption=&#34;Карта: предпросмотр&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_2.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Карта: предпросмотр&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Карта: предпросмотр
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -1261,24 +1684,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_search2.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_search2.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-исправление-с-использованием-приближения-карты&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_search2.png&#34; data-caption=&#34;Исправление с использованием приближения карты&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_search2.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Исправление с использованием приближения карты&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Исправление с использованием приближения карты
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -1286,24 +1721,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_search.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_search.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-исправление-с-использованием-строки-поиска&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_search.png&#34; data-caption=&#34;Исправление с использованием строки поиска&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_search.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Исправление с использованием строки поиска&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Исправление с использованием строки поиска
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/p&gt;
@@ -1319,48 +1766,72 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_3.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_3.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-выбор-ячеек&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_3.png&#34; data-caption=&#34;Выбор ячеек&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_3.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Выбор ячеек&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выбор ячеек
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_change.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_change.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-корректировка-данных&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_change.png&#34; data-caption=&#34;Корректировка данных&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_change.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Корректировка данных&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Корректировка данных
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -1381,24 +1852,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/built.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/built.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-алгоритм-работы-с-локальными-данными&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/built.png&#34; data-caption=&#34;Алгоритм работы с локальными данными&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/built.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Алгоритм работы с локальными данными&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Алгоритм работы с локальными данными
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/li&gt;
@@ -1448,14 +1931,29 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_step3.png&#34; &gt;
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_step3.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_step3.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
 
 
 &lt;/figure&gt;
@@ -1469,24 +1967,36 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/alarm.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/alarm.png&#34; &gt;
+
+
+
+
+
+&lt;figure id=&#34;figure-оповещение-по-нескольким-координатам-для-одной-точки&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/alarm.png&#34; data-caption=&#34;Оповещение по нескольким координатам для одной точки&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/alarm.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
-&lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; 
-class=&#34;numbered&#34;&gt;
-  &lt;h6&gt;Оповещение по нескольким координатам для одной точки&lt;/h6&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Оповещение по нескольким координатам для одной точки
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -1526,20 +2036,163 @@ class=&#34;numbered&#34;&gt;
 
 
 
+
+
   
 
 
 
 
-&lt;figure&gt;
+
+
+
+
+
+
+
+&lt;figure &gt;
+
 
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_step4.png&#34; &gt;
 
-&lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_step4.png&#34; &gt;
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_step4.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
+
+
 
 &lt;/figure&gt;
 
+</description>
+    </item>
+    
+    <item>
+      <title>Исследование «ДАРМИС»</title>
+      <link>https://amrcloud.net/ru/project/darmis/</link>
+      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/project/darmis/</guid>
+      <description>&lt;h3 id=&#34;организаторы&#34;&gt;Организаторы&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Межрегиональная ассоциация по клинической микробиологии и антимикробной химиотерапии&lt;/li&gt;
+&lt;li&gt;Российское общество урологов&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;аннотация&#34;&gt;Аннотация&lt;/h3&gt;
+&lt;p&gt;Представлены данные по устойчивости к антибиотикам изолятов внебольничных уропатогенов, выделенных из средней порции мочи:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;взрослых с симптоматическими ИМП (цистит, пиелонефрит)&lt;/li&gt;
+&lt;li&gt;детей и подростков до 18 лет с симптоматическими ИМП (цистит, пиелонефрит)&lt;/li&gt;
+&lt;li&gt;беременных с симптоматическими ИМП (цистит и пиелонефрит) и бессимптомной бактериурией&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;исследование-проводилось-в-два-этапа&#34;&gt;Исследование проводилось в два этапа:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;«ДАРМИС» (2009-2011 гг.): &lt;strong&gt;28 центров, 20 городов&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Россия&lt;/strong&gt;: Воронеж, Екатеринбург, Иркутск, Казань, Краснодар, Москва, Омск, Ростов-на-Дону, Самара, Санкт- Петербург, Северск, Смоленск, Сургут, Томск, Тюмень, Уфа, Челябинск, Якутск;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Беларусь&lt;/strong&gt;: Гомель;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Казахстан&lt;/strong&gt;: Караганда.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;«ДАРМИС-2018» (2017-2018 гг.): &lt;strong&gt;34 центра, 26 городов&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Россия&lt;/strong&gt;: Братск, Воронеж, Екатеринбург, Иркутск, Йошкар-Ола, Казань, Киров, Краснодар, Нижневартовск, Новокузнецк, Новосибирск, Омск, Ростов-на-Дону, Самара, Санкт- Петербург, Северск, Смоленск, Сургут, Тольятти, Томск, Ульяновск, Челябинск, Якутск, Ярославль;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Беларусь&lt;/strong&gt;: Гомель;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Казахстан&lt;/strong&gt;: Караганда.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;определение-чувствительности-к-антибактериальным-средствам&#34;&gt;Определение чувствительности к антибактериальным средствам&lt;/h4&gt;
+&lt;p&gt;Определение минимальных подавляющих концентраций (МПК) методом последовательных двукратных разведений в бульоне Мюллера–Хинтон (по стандарту ISO 20776-1:2006 / ГОСТ Р ИСО 20776-1-2010) проводилось в центральной лаборатории НИИ антимикробной химиотерапии (НИИАХ) Смоленского государственного медицинского университета (СГМУ).&lt;/p&gt;
+&lt;h4 id=&#34;интерпретация-результатов-определения-чувствительности&#34;&gt;Интерпретация результатов определения чувствительности&lt;/h4&gt;
+&lt;p&gt;Клинические категории чувствительности определены на основании Пограничных значений МПК Европейского комитета по определению чувствительности к антимикробным препаратам EUCAST v10.0, 2020 г. (&lt;a href=&#34;http://www.eucast.org/clinical_breakpoints/&#34;&gt;http://www.eucast.org/clinical_breakpoints/&lt;/a&gt;)&lt;/p&gt;
+&lt;h3 id=&#34;исследовательская-группа-дармис&#34;&gt;Исследовательская группа «ДАРМИС»&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Настаушева Т.Л. (ФГБОУ ВО «ВГМУ им. Н.Н. Бурденко» Минздрава России, Воронеж),&lt;/li&gt;
+&lt;li&gt;Тапальский Д.В. (УО «ГГМУ», Гомель, Беларусь),&lt;/li&gt;
+&lt;li&gt;Розанова С.М., Перевалова Е.Ю. (МАУ «КДЦ», Екатеринбург),&lt;/li&gt;
+&lt;li&gt;Агапова Е.Д. (ГБУЗ «ИГОДКБ», Иркутск),&lt;/li&gt;
+&lt;li&gt;Галеева О.П. (ГАУЗ «РКБ МЗ РТ», Казань),&lt;/li&gt;
+&lt;li&gt;Валиуллина И.Р. (ГАУЗ «ДРКБ МЗ РТ», Казань),&lt;/li&gt;
+&lt;li&gt;Сафина А.И. (ФГБОУ ВО «КГМУ» Минздрава России, Казань),&lt;/li&gt;
+&lt;li&gt;Лавриненко А.В. (НАО «МУК», Караганда, Казахстан),&lt;/li&gt;
+&lt;li&gt;Мултых И.Г. (ГБУЗ «ДККБ» МЗ КК, Краснодар),&lt;/li&gt;
+&lt;li&gt;Анкирская А.С. (ФГБУ «НМИЦАГиП им. ак. В.И. Кулакова» Минздрава России, Москва),&lt;/li&gt;
+&lt;li&gt;Никольская И.Г. (ГБУЗ МО «МОНИИАГ», Москва),&lt;/li&gt;
+&lt;li&gt;Скальский С.В., Елохина Е.В. (ФГБОУ ВО «ОмГМУ» Минздрава России, Омск),&lt;/li&gt;
+&lt;li&gt;Коган М.И., Набока Ю.Л. (ФГБОУ ВО «РостГМУ» Минздрава России, Ростов-на-Дону),&lt;/li&gt;
+&lt;li&gt;Жестков А.В., Оськина Е.А. (ФГБОУ ВО «СамГМУ» Минздрава России, Самара),&lt;/li&gt;
+&lt;li&gt;Савичева А.М. (ФГБУ «НИИ АГиР им. Д.О. Отта», ФГБОУ ВО «СПбГПМУ» Минздрава России, Санкт-Петербург),&lt;/li&gt;
+&lt;li&gt;Полухина О.В. (ФГБУ «РНЦРиХТ им. ак. А.М. Гранова» Минздрава России, Санкт-Петербург),&lt;/li&gt;
+&lt;li&gt;Москвитина Е.Н. (ФГБУ СибФНКЦ ФМБА России, Северск),&lt;/li&gt;
+&lt;li&gt;Морозов М.В. (ЧУЗ «КБ «РЖД-Медицина», Смоленск),&lt;/li&gt;
+&lt;li&gt;Малев И.В. (ОБГУЗ «Поликлиника №3», Смоленск),&lt;/li&gt;
+&lt;li&gt;Козлова Л.В., Палагин И.С., Сехин С.В. (ФГБОУ ВО «СГМУ» Минздрава России, Смоленск),&lt;/li&gt;
+&lt;li&gt;Логинов Ю.А. (ООО «Уромед», Смоленск),&lt;/li&gt;
+&lt;li&gt;Трапезникова Б.В. (БУ «СОКБ», Сургут),&lt;/li&gt;
+&lt;li&gt;Гудкова Л.В. (ОГАУЗ «ТОКБ», Томск),&lt;/li&gt;
+&lt;li&gt;Ортенберг Э.А., Хохлявина Р.М. (ФГБОУ ВО «ТГМУ» Минздрава России, Тюмень),&lt;/li&gt;
+&lt;li&gt;Хасанова С.Г., Зулкарнеев Р.Х. (ГБУЗ РБ «ГКБ №21», Уфа),&lt;/li&gt;
+&lt;li&gt;Гуменецкий Д.В. (МАУЗ «ГКБ №6», Челябинск),&lt;/li&gt;
+&lt;li&gt;Татаринова О.В. (ГБУ РС(Я) «РБ№2-ЦЭМП», Якутск).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;исследовательская-группа-дармис-2018&#34;&gt;Исследовательская группа «ДАРМИС-2018»&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Мутин М.Ю. (ОГАУЗ «БГБ№1», Братск),&lt;/li&gt;
+&lt;li&gt;Стребкова В.В. (БУЗ ВО «ВГКБСМТП №10», Воронеж),&lt;/li&gt;
+&lt;li&gt;Тапальский Д.В. (УО «ГГМУ», Гомель, Беларусь)&lt;/li&gt;
+&lt;li&gt;Аминева П.Г. (ООО «Кволити Мед», Екатеринбург),&lt;/li&gt;
+&lt;li&gt;Ветохина А.В. (ГБУЗ «ИОКБ», Иркутск),&lt;/li&gt;
+&lt;li&gt;Сухорева М.В. (ОГАУЗ «ГИМДКБ», Иркутск),&lt;/li&gt;
+&lt;li&gt;Иванова И.А. (ГБУ РМЭ «РЦПБ СПИД и ИЗ», Йошкар-Ола),&lt;/li&gt;
+&lt;li&gt;Валиуллина И.Р. (ГАУЗ «РКБ МЗ РТ», Казань),&lt;/li&gt;
+&lt;li&gt;Лавриненко А.В. (НАО «МУК», Караганда, Казахстан),&lt;/li&gt;
+&lt;li&gt;Частоедова А.Н. (КОГБУЗ «КОКБ», Киров),&lt;/li&gt;
+&lt;li&gt;Широкова Т.М. (КОГБУЗ «КОКПЦ», Киров),&lt;/li&gt;
+&lt;li&gt;Варибрус Е.В. (ГБУЗ «ККБ№2» МЗ КК, Краснодар),&lt;/li&gt;
+&lt;li&gt;Васильева И.Р. (БУ ХМАО-Югры «НОКДБ», Нижневартовск),&lt;/li&gt;
+&lt;li&gt;Доманская О.В. (ГБУЗ КО «НГДКБ№4», Новокузнецк),&lt;/li&gt;
+&lt;li&gt;Беккер Г.Г. (НУЗ «ДКБ на ст. Новосибирск-Гл.» ОАО «РЖД», Новосибирск),&lt;/li&gt;
+&lt;li&gt;Кульчавеня Е.В. (ФГБУ «ННИИТ» Минздрава России, ФГБОУ ВО «НГМУ» Минздрава России, Новосибирск),&lt;/li&gt;
+&lt;li&gt;Плугин П.С. (ГБУЗ НО «ГКБСМП№2», Новосибирск),&lt;/li&gt;
+&lt;li&gt;Попова Л.Д. (БУЗ ОО «ОКБ», Омск),&lt;/li&gt;
+&lt;li&gt;Елохина Е.В. (БУЗ ОО «ОКБ», ФГБОУ ВО «ОмГМУ» Минздрава России, Омск),&lt;/li&gt;
+&lt;li&gt;Коган М.И., Набока Ю.Л. (ФГБОУ ВО «РостГМУ» Минздрава России, Ростов-на-Дону),&lt;/li&gt;
+&lt;li&gt;Жестков А.В., Лямин А.В. (ФГБОУ ВО «СамГМУ» Минздрава России, Самара),&lt;/li&gt;
+&lt;li&gt;Хуснутдинова Т.А., Шипицына Е.В. (ФГБУ «НИИ АГиР им. Д.О. Отта», ФГБОУ ВО «СПбГПМУ» Минздрава России, Санкт-Петербург),&lt;/li&gt;
+&lt;li&gt;Булкин А.Н. (СПбГБУЗ «ГБ Святого Великомученика Георгия», Санкт-Петербург),&lt;/li&gt;
+&lt;li&gt;Москвитина Е.Н. (ФГБУ СибФНКЦ ФМБА России, Северск),&lt;/li&gt;
+&lt;li&gt;Никифоровская Н.Н. (НУЗ ОБ на ст. Смоленск ОАО «РЖД», Смоленск),&lt;/li&gt;
+&lt;li&gt;Малев И.В. (ОБГУЗ «Поликлиника №3», Смоленск),&lt;/li&gt;
+&lt;li&gt;Палагин И.С. (ФГБОУ ВО «СГМУ» Минздрава России, Смоленск),&lt;/li&gt;
+&lt;li&gt;Варганова А.Н. (БУ «СОКБ», Сургут),&lt;/li&gt;
+&lt;li&gt;Мартьянова Н.М. (ГБУЗ СО «ТГКБ№5», Тольятти),&lt;/li&gt;
+&lt;li&gt;Быконя С.А., Волковская И.В. (ОГАУЗ «ТОКБ», Томск),&lt;/li&gt;
+&lt;li&gt;Малявин А.И., Сидорова Р.К. (ГУЗ «ГП№4», Ульяновск),&lt;/li&gt;
+&lt;li&gt;Хайдаршина Н.Э. (ФГБОУ ВО «ЧелГУ», Челябинск),&lt;/li&gt;
+&lt;li&gt;Шамаева С.Х., Портнягина У.С. (ГБУ РС(Я) «РБ№2-ЦЭМП», Якутск),&lt;/li&gt;
+&lt;li&gt;Ершова М.Г. (ГБУЗ ЯО «ИКБ», Ярославль).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;media&#34;&gt;
+  &lt;div class=&#34;media-body&#34;&gt;
+    &lt;h3 class=&#34;mt-0 mb-1&#34;&gt;Координатор проекта&lt;/h3&gt;
+    &lt;h5&gt;Палагин Иван Сергеевич&lt;/h5&gt;
+    &lt;p&gt;Научный сотрудник НИИ антимикробной химиотерапии&lt;br&gt;ФГБОУ ВО «СГМУ» Минздрава России&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&#34;ivan.palagin@gmail.com&#34; target=&#34;_blank&#34;&gt;ivan.palagin@gmail.com&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;img class=&#34;ml-3&#34; src=&#34;iac.png&#34; style=&#34;width: 200px&#34; alt=&#34;НИИ антимикробной химиотерапии ФГБОУ ВО «СГМУ» Минздрава России&#34;&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;основные-публикации&#34;&gt;Основные публикации&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;И.С. Палагин, М.В. Сухорукова, А.В. Дехнич, М.В. Эйдельштейн, Т.С. Перепанова, Р.С. Козлов, Исследовательская группа «ДАРМИС-2018». Состояние антибиотикорезистентности возбудителей внебольничных инфекций мочевыводящих путей в России, Беларуси и Казахстане: результаты многоцентрового международного исследования «ДАРМИС-2018». Урология 2020; 1: 19-31.&lt;br/&gt;
+&lt;a href=&#34;https://dx.doi.org/10.18565/urology.2020.1.19-31&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;i class=&#34;ai ai-doi&#34;&gt;&lt;/i&gt; 10.18565/urology.2020.1.19-31&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;И.С. Палагин, М.В. Сухорукова, А.В. Дехнич, М.В. Эйдельштейн, Т.С. Перепанова, Р.С. Козлов, Исследовательская группа «ДАРМИС-2018». Антибиотикорезистентность возбудителей внебольничных инфекций мочевых путей в России: результаты многоцентрового исследования «ДАРМИС-2018». Клин микробиол антимикроб химиотер 2019; 21(2): 134-46.&lt;br/&gt;
+&lt;a href=&#34;https://doi.org/10.36488/cmac.2019.2.134-146&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;i class=&#34;ai ai-doi&#34;&gt;&lt;/i&gt; 10.36488/cmac.2019.2.134-146&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;И.С. Палагин, М.В. Сухорукова, А.В. Дехнич, М.В. Эйдельштейн, А.В. Гринев, Т.С. Перепанова, Р.С. Козлов, Исследовательская группа «ДАРМИС». Осложненные внебольничные инфекции мочевых путей у взрослых пациентов в России. Клин микробиол антимикроб химиотер 2014; 16(1): 39-56. &lt;br/&gt;
+&lt;a href=&#34;https://cmac-journal.ru/publication/2014/1/cmac-2014-t16-n1-p039/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;i class=&#34;fas fa-book-open&#34;&gt;&lt;/i&gt; cmac-journal.ru&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;И.С. Палагин, М.В. Сухорукова, А.В. Дехнич, М.В. Эйдельштейн, А.Н. Шевелев, А.В. Гринев, Т.С. Перепанова, Р.С. Козлов, Исследовательская группа «ДАРМИС». Современное состояние антибиотикорезистентности возбудителей внебольничных инфекций мочевых путей в России: результаты исследования «ДАРМИС» (2010-2011). Клин микробиол антимикроб химиотер 2012; 14(4): 280-302.&lt;br/&gt;
+&lt;a href=&#34;https://cmac-journal.ru/publication/2012/4/cmac-2012-t14-n4-p280/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;i class=&#34;fas fa-book-open&#34;&gt;&lt;/i&gt; cmac-journal.ru&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Т.С. Перепанова, Р.С. Козлов, А.В. Дехнич, И.С. Палагин, А.Н. Шевелев, Е.М. Волкова, Д.К. Эгамбердиев. Выбор антимикробных препаратов при инфекции мочевыводящих путей. Урология 2012; 2: 4-8.&lt;br/&gt;
+&lt;a href=&#34;https://cyberleninka.ru/article/n/empiricheskiy-vybor-antimikrobnyh-preparatov-pri-neoslozhnennoy-infektsii-nizhnih-mochevyh-putey-issledovanie-rezistentnosti&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;i class=&#34;fas fa-book-open&#34;&gt;&lt;/i&gt; cyberleninka.ru&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
@@ -1797,83 +2450,6 @@ class=&#34;numbered&#34;&gt;
   
 
   
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Исследование «ДАРМИС-2018»</title>
-      <link>https://amrcloud.net/ru/project/darmis-2018/</link>
-      <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://amrcloud.net/ru/project/darmis-2018/</guid>
-      <description>&lt;h3 id=&#34;организаторы&#34;&gt;Организаторы&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Межрегиональная ассоциация по клинической микробиологии и антимикробной химиотерапии&lt;/li&gt;
-&lt;li&gt;Российское общество урологов&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Представлены данные по устойчивости к антибиотикам изолятов внебольничных уропатогенов, выделенных из средней порции мочи:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;взрослых с симптоматическими ИМП (цистит, пиелонефрит)&lt;/li&gt;
-&lt;li&gt;детей и подростков до 18 лет с симптоматическими ИМП (цистит, пиелонефрит)&lt;/li&gt;
-&lt;li&gt;беременных с симптоматическими ИМП (цистит и пиелонефрит) и бессимптомной бактериурией&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;Дизайн исследования аналогичен исследованию «ДАРМИС» (2010-2011 гг.).&lt;/em&gt;&lt;/p&gt;
-&lt;h4 id=&#34;период-сбора-изолятов&#34;&gt;Период сбора изолятов:&lt;/h4&gt;
-&lt;p&gt;2017-2018 гг.&lt;/p&gt;
-&lt;h4 id=&#34;география-сбора-изолятов&#34;&gt;География сбора изолятов&lt;/h4&gt;
-&lt;p&gt;34 центра, 26 городов&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Россия:&lt;/strong&gt; Братск, Воронеж, Екатеринбург, Иркутск, Йошкар-Ола, Казань, Киров, Краснодар, Нижневартовск, Новокузнецк, Новосибирск, Омск, Ростов-на-Дону, Самара, Санкт- Петербург, Северск, Смоленск, Сургут, Тольятти, Томск, Ульяновск, Челябинск, Якутск, Ярославль;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Беларусь&lt;/strong&gt;: Гомель;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Казахстан&lt;/strong&gt;: Караганда.&lt;/p&gt;
-&lt;h4 id=&#34;определение-чувствительности-к-антибактериальным-средствам&#34;&gt;Определение чувствительности к антибактериальным средствам&lt;/h4&gt;
-&lt;p&gt;Определение минимальных подавляющих концентраций (МПК) метод последовательных двукратных разведений в бульоне Мюллера–Хинтон (по стандарту ISO 20776-1:2006 / ГОСТ Р ИСО 20776-1-2010)&lt;/p&gt;
-&lt;h4 id=&#34;интерпретация-результатов-определения-чувствительности&#34;&gt;Интерпретация результатов определения чувствительности&lt;/h4&gt;
-&lt;p&gt;Пограничные значения МПК Европейского комитета по определению чувствительности к антимикробным препаратам (EUCAST) v.10.0, 2020 г. (&lt;a href=&#34;http://www.eucast.org/clinical_breakpoints/&#34;&gt;http://www.eucast.org/clinical_breakpoints/&lt;/a&gt;)&lt;/p&gt;
-&lt;h3 id=&#34;исследовательская-группа-дармис-2018&#34;&gt;Исследовательская группа «ДАРМИС-2018»:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Мутин М.Ю. (ОГАУЗ «БГБ№1», Братск),&lt;/li&gt;
-&lt;li&gt;Стребкова В.В. (БУЗ ВО «ВГКБСМТП №10», Воронеж),&lt;/li&gt;
-&lt;li&gt;Тапальский Д.В. (УО «ГГМУ», Гомель, Беларусь)&lt;/li&gt;
-&lt;li&gt;Аминева П.Г. (ООО «Кволити Мед», Екатеринбург),&lt;/li&gt;
-&lt;li&gt;Ветохина А.В. (ГБУЗ «ИОКБ», Иркутск),&lt;/li&gt;
-&lt;li&gt;Сухорева М.В. (ОГАУЗ «ГИМДКБ», Иркутск),&lt;/li&gt;
-&lt;li&gt;Иванова И.А. (ГБУ РМЭ «РЦПБ СПИД и ИЗ», Йошкар-Ола),&lt;/li&gt;
-&lt;li&gt;Валиуллина И.Р. (ГАУЗ «РКБ МЗ РТ», Казань),&lt;/li&gt;
-&lt;li&gt;Лавриненко А.В. (НАО «МУК», Караганда, Казахстан),&lt;/li&gt;
-&lt;li&gt;Частоедова А.Н. (КОГБУЗ «КОКБ», Киров),&lt;/li&gt;
-&lt;li&gt;Широкова Т.М. (КОГБУЗ «КОКПЦ», Киров),&lt;/li&gt;
-&lt;li&gt;Варибрус Е.В. (ГБУЗ «ККБ№2» МЗ КК, Краснодар),&lt;/li&gt;
-&lt;li&gt;Васильева И.Р. (БУ ХМАО-Югры «НОКДБ», Нижневартовск),&lt;/li&gt;
-&lt;li&gt;Доманская О.В. (ГБУЗ КО «НГДКБ№4», Новокузнецк),&lt;/li&gt;
-&lt;li&gt;Беккер Г.Г. (НУЗ «ДКБ на ст. Новосибирск-Гл.» ОАО «РЖД», Новосибирск),&lt;/li&gt;
-&lt;li&gt;Кульчавеня Е.В. (ФГБУ «ННИИТ» Минздрава России, ФГБОУ ВО «НГМУ» Минздрава России, Новосибирск),&lt;/li&gt;
-&lt;li&gt;Плугин П.С. (ГБУЗ НО «ГКБСМП№2», Новосибирск),&lt;/li&gt;
-&lt;li&gt;Попова Л.Д. (БУЗ ОО «ОКБ», Омск),&lt;/li&gt;
-&lt;li&gt;Елохина Е.В. (БУЗ ОО «ОКБ», ФГБОУ ВО «ОмГМУ» Минздрава России, Омск),&lt;/li&gt;
-&lt;li&gt;Коган М.И., Набока Ю.Л. (ФГБОУ ВО «РостГМУ» Минздрава России, Ростов-на-Дону),&lt;/li&gt;
-&lt;li&gt;Жестков А.В., Лямин А.В. (ФГБОУ ВО «СамГМУ» Минздрава России, Самара),&lt;/li&gt;
-&lt;li&gt;Хуснутдинова Т.А., Шипицына Е.В. (ФГБУ «НИИ АГиР им. Д.О. Отта», ФГБОУ ВО «СПбГПМУ» Минздрава России, Санкт-Петербург),&lt;/li&gt;
-&lt;li&gt;Булкин А.Н. (СПбГБУЗ «ГБ Святого Великомученика Георгия», Санкт-Петербург),&lt;/li&gt;
-&lt;li&gt;Москвитина Е.Н. (ФГБУ СибФНКЦ ФМБА России, Северск),&lt;/li&gt;
-&lt;li&gt;Никифоровская Н.Н. (НУЗ ОБ на ст. Смоленск ОАО «РЖД», Смоленск),&lt;/li&gt;
-&lt;li&gt;Малев И.В. (ОБГУЗ «Поликлиника №3», Смоленск),&lt;/li&gt;
-&lt;li&gt;Палагин И.С. (ФГБОУ ВО «СГМУ» Минздрава России, Смоленск),&lt;/li&gt;
-&lt;li&gt;Варганова А.Н. (БУ «СОКБ», Сургут),&lt;/li&gt;
-&lt;li&gt;Мартьянова Н.М. (ГБУЗ СО «ТГКБ№5», Тольятти),&lt;/li&gt;
-&lt;li&gt;Быконя С.А., Волковская И.В. (ОГАУЗ «ТОКБ», Томск),&lt;/li&gt;
-&lt;li&gt;Малявин А.И., Сидорова Р.К. (ГУЗ «ГП№4», Ульяновск),&lt;/li&gt;
-&lt;li&gt;Хайдаршина Н.Э. (ФГБОУ ВО «ЧелГУ», Челябинск),&lt;/li&gt;
-&lt;li&gt;Шамаева С.Х., Портнягина У.С. (ГБУ РС(Я) «РБ№2-ЦЭМП», Якутск),&lt;/li&gt;
-&lt;li&gt;Ершова М.Г. (ГБУЗ ЯО «ИКБ», Ярославль).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;media&#34;&gt;
-  &lt;div class=&#34;media-body&#34;&gt;
-    &lt;h3 class=&#34;mt-0 mb-1&#34;&gt;Координатор проекта&lt;/h3&gt;
-    &lt;h5&gt;Палагин Иван Сергеевич&lt;/h5&gt;
-    &lt;p&gt;Научный сотрудник НИИ антимикробной химиотерапии&lt;br&gt;ФГБОУ ВО «СГМУ» Минздрава России&lt;/p&gt;
-    &lt;p&gt;&lt;a href=&#34;ivan.palagin@gmail.com&#34; target=&#34;_blank&#34;&gt;ivan.palagin@gmail.com&lt;/a&gt;&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;img class=&#34;ml-3&#34; src=&#34;iac.png&#34; style=&#34;width: 200px&#34; alt=&#34;НИИ антимикробной химиотерапии ФГБОУ ВО «СГМУ» Минздрава России&#34;&gt;
 &lt;/div&gt;
 </description>
     </item>
