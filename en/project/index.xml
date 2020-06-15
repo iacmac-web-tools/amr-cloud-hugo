@@ -5,7 +5,7 @@
     <link>https://amrcloud.net/en/project/</link>
       <atom:link href="https://amrcloud.net/en/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Public Datasets</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2020</copyright>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>Public Datasets</title>
