@@ -471,14 +471,14 @@
 &lt;/table&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Пример:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;tobramycin_sir, tetracycline_sir, amoxicillin-clavulanic acid_mic, daptomycin_dd&lt;/p&gt;
+&lt;p&gt;tobramycin_sir, tetracycline_sir, amoxicillin-clavulanic acid_dd, vancomycin_mic&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;&lt;strong&gt;На заметку!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Антибактериальные препараты с оценкой по &amp;ldquo;особым&amp;rdquo; критериям интерпретации (пользовательские категории S/I/R) и/или со значениями &lt;em&gt;ECOFF&lt;/em&gt; могут быть записаны следующим образом:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;meropenem_ecoff_sir, moxifloxacin_clsi_sir, marbofloxacin_clsi_sir&lt;/p&gt;
+&lt;p&gt;amoxicillin-clavulanic acid_clsi_mic, moxifloxacin_clsi_sir, marbofloxacin_veterinary_sir&lt;/p&gt;
 &lt;/blockquote&gt;
   &lt;/div&gt;
 &lt;/div&gt;
