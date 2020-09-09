@@ -13,6 +13,26 @@
     </image>
     
     <item>
+      <title>AMRcloud september update</title>
+      <link>https://amrcloud.net/en/post/20200909-september-update/</link>
+      <pubDate>Wed, 02 Sep 2020 21:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/en/post/20200909-september-update/</guid>
+      <description>&lt;p&gt;AMRcloud has been updated with the following features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;added automated interpretation of MIC and DD data using 
+&lt;a href=&#34;http://em100.edaptivedocs.net/GetDoc.aspx?doc=CLSI%20M100%20ED30:2020&amp;amp;scope=user&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CLSI M100-ED30, 2020&lt;/a&gt; breakpoints. You can find available antibiotic list 
+&lt;a href=&#34;amrcloud_clsi_antibiotics.xlsx&#34;&gt;here&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;added ability to create custom interpretive criteria and breakpoints;&lt;/li&gt;
+&lt;li&gt;added ability to automatically combine AST results from different sources (MIC, DD, and S/I/R data);&lt;/li&gt;
+&lt;li&gt;faster processing of imported files;&lt;/li&gt;
+&lt;li&gt;improved support for .XLS files;&lt;/li&gt;
+&lt;li&gt;changed animation style;&lt;/li&gt;
+&lt;li&gt;fixed re-scaling of bar charts.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Donate</title>
       <link>https://amrcloud.net/en/post/crowdfunding/</link>
       <pubDate>Tue, 11 Feb 2020 11:00:00 +0300</pubDate>
