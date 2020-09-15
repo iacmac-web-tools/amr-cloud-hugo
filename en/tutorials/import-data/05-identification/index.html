@@ -27,7 +27,8 @@
   
     
   
-  <meta name="description" content="This step allows you to select the Column Headers from the imported data table to be used as Fields (or parameters) for data filtration and categorization. To do so, you need to associate the column headers with the standard categories (Isolate ID, Organism Group, Organism Name, and Date) required by AMRcloud. You can also select additional columns with spatial data, other metadata and resistance markers to be used as Fields.">
+  <meta name="description" content="This step allows you to select the Column Headers from the imported data table to be used as Fields (or parameters) for data filtration and categorization. To do so, you need to associate the column headers with the standard categories (Isolate ID, Organism Group, Organism Name, and Date) required by AMRcloud. You can also select additional columns with spatial data, other metadata and markers to be used as Fields.
+The required categories (with brief accompanying instructions) are listed on the left side of the screen.">
 
   
   <link rel="alternate" hreflang="ru" href="https://amrcloud.net/ru/tutorials/import-data/05-identification/">
@@ -267,13 +268,14 @@
   <meta property="og:site_name" content="AMRcloud">
   <meta property="og:url" content="https://amrcloud.net/en/tutorials/import-data/05-identification/">
   <meta property="og:title" content="Step 2 - Set Fields | AMRcloud">
-  <meta property="og:description" content="This step allows you to select the Column Headers from the imported data table to be used as Fields (or parameters) for data filtration and categorization. To do so, you need to associate the column headers with the standard categories (Isolate ID, Organism Group, Organism Name, and Date) required by AMRcloud. You can also select additional columns with spatial data, other metadata and resistance markers to be used as Fields."><meta property="og:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png">
+  <meta property="og:description" content="This step allows you to select the Column Headers from the imported data table to be used as Fields (or parameters) for data filtration and categorization. To do so, you need to associate the column headers with the standard categories (Isolate ID, Organism Group, Organism Name, and Date) required by AMRcloud. You can also select additional columns with spatial data, other metadata and markers to be used as Fields.
+The required categories (with brief accompanying instructions) are listed on the left side of the screen."><meta property="og:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png">
   <meta property="twitter:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-03-18T00:03:00&#43;00:00">
+      <meta property="article:published_time" content="2020-09-11T00:03:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-03-18T17:21:44&#43;03:00">
+    <meta property="article:modified_time" content="2020-09-15T23:47:06&#43;03:00">
   
 
   
@@ -690,7 +692,7 @@
     <li><a href="#date">Date</a></li>
     <li><a href="#spatial-information">Spatial Information</a></li>
     <li><a href="#numeric-parameter">Numeric Parameter</a></li>
-    <li><a href="#resistance-markers">Resistance Markers</a></li>
+    <li><a href="#markers">Markers</a></li>
     <li><a href="#additional-parameters">Additional Parameters</a></li>
     <li><a href="#completing-step-two">Completing Step Two</a></li>
   </ul>
@@ -708,7 +710,7 @@
           <h1>Step 2 - Set Fields</h1>
 
           <div class="article-style">
-            <p>This step allows you to select the <strong>Column Headers</strong> from the imported data table to be used as <strong>Fields</strong> (or parameters) for data filtration and categorization. To do so, you need to associate the column headers with the standard categories (Isolate ID, Organism Group, Organism Name, and Date) required by  <span style="color:#2BA2E6"><strong>AMRcloud</strong></span>. You can also select additional columns with <strong>spatial data</strong>, other <strong>metadata</strong> and <strong>resistance markers</strong> to be used as <strong>Fields</strong>.</p>
+            <p>This step allows you to select the <strong>Column Headers</strong> from the imported data table to be used as <strong>Fields</strong> (or parameters) for data filtration and categorization. To do so, you need to associate the column headers with the standard categories (Isolate ID, Organism Group, Organism Name, and Date) required by  <span style="color:#2BA2E6"><strong>AMRcloud</strong></span>. You can also select additional columns with <strong>spatial data</strong>, other <strong>metadata</strong> and <strong>markers</strong> to be used as <strong>Fields</strong>.</p>
 <p>The required categories (with brief accompanying instructions) are listed on the left side of the screen. On the right side of the screen, you should choose the corresponding column headers from the drop-down lists. As you proceed with selection, you will be able to preview the content of the first ten rows of each selected column.</p>
 
 
@@ -824,7 +826,7 @@
 </ul>
 <blockquote>
 <p>Example #2.
-The species name &ldquo;<em>Burkholderia cepacia</em>&rdquo; is correct but is not recognized because EUCAST breakpoints are missing for this species.</p>
+The species name &ldquo;<em>Shewanella putrefaciens</em>&rdquo; is correct but is not recognized because breakpoints are currently missing for this species.</p>
 </blockquote>
 <div class="alert alert-note">
   <div>
@@ -1009,10 +1011,10 @@ If &ldquo;<em>Salmonella</em> Typhimurium&rdquo; is used as species name (for &l
 </figure>
 
 <!-- ### Выберите столбцы, содержащие информацию о маркерах резистентности -->
-<h2 id="resistance-markers">Resistance Markers</h2>
+<h2 id="markers">Markers</h2>
 <ul>
 <li>This is <strong>not</strong> a mandatory category.</li>
-<li>Resistance Markers may represent any isolate characteristics (phenotypes, complex genotypes, genes or mutations) that are relevant to antibiotic resistance.</li>
+<li>Markers may represent any isolate characteristics (phenotypes, complex genotypes, genes or mutations) that are relevant to antibiotic resistance.</li>
 <li>Markers can be assigned to <strong>groups</strong> with each group of Markers set in a <strong>separate column</strong>.</li>
 <li>The total number of columns of this type is unlimited.</li>
 </ul>
@@ -1057,7 +1059,7 @@ If &ldquo;<em>Salmonella</em> Typhimurium&rdquo; is used as species name (for &l
 <h2 id="additional-parameters">Additional Parameters</h2>
 <ul>
 <li>This is <strong>not</strong> a mandatory category.</li>
-<li>A maximum of <strong>ten</strong> columns with text variables (including the one with geolocations) can be selected as parameters for data filtration and categorization.</li>
+<li>A maximum of <strong>twelve</strong> columns with text variables (including the one with geolocations) can be selected as parameters for data filtration and categorization.</li>
 </ul>
 <p>Select the corresponding column headers from the drop-down list, drag and sort them with the mouse in the desired order.</p>
 
@@ -1149,7 +1151,7 @@ If &ldquo;<em>Salmonella</em> Typhimurium&rdquo; is used as species name (for &l
             Last updated on 
             
             
-              18 March 2020
+              15 September 2020
             
           </p>
 

@@ -27,8 +27,9 @@
   
     
   
-  <meta name="description" content="This step is used to validate the AST data contained in your data set. The data import wizard interprets the quantitative AST data (MIC and inhibition zone values) and translates them to the S/I/R categories using the selected criteria (breakpoints).
-Choose the AST Interpretive Criteria from the drop-down list and press the &ldquo;Interpret MIC and Disk Diffusion data&rdquo; button. Check the data import statuses in the list that appears below and press the &ldquo;Complete All Steps&rdquo; button to finish the data import process.">
+  <meta name="description" content="This step is used to assign susceptibility categories (S/I/R) from quantitative AST data (MICs, disk diffusion (DD) inhibition zones) using the selected interpretive criteria and breakpoints.
+Selecting Basic AST Interpretive Criteria Choose the basic AST Interpretive Criteria from the drop-down list. If you do not need to further customize interpretive criteria, skip the following steps and finalise interpretation.
+  Adding Custom Interpretive Rules If required, you can add Custom AST Interpretive Rules for any organism-antibiotic combination.">
 
   
   <link rel="alternate" hreflang="ru" href="https://amrcloud.net/ru/tutorials/import-data/07-interpretation/">
@@ -268,14 +269,15 @@ Choose the AST Interpretive Criteria from the drop-down list and press the &ldqu
   <meta property="og:site_name" content="AMRcloud">
   <meta property="og:url" content="https://amrcloud.net/en/tutorials/import-data/07-interpretation/">
   <meta property="og:title" content="Step 4 - Determine S/I/R | AMRcloud">
-  <meta property="og:description" content="This step is used to validate the AST data contained in your data set. The data import wizard interprets the quantitative AST data (MIC and inhibition zone values) and translates them to the S/I/R categories using the selected criteria (breakpoints).
-Choose the AST Interpretive Criteria from the drop-down list and press the &ldquo;Interpret MIC and Disk Diffusion data&rdquo; button. Check the data import statuses in the list that appears below and press the &ldquo;Complete All Steps&rdquo; button to finish the data import process."><meta property="og:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png">
+  <meta property="og:description" content="This step is used to assign susceptibility categories (S/I/R) from quantitative AST data (MICs, disk diffusion (DD) inhibition zones) using the selected interpretive criteria and breakpoints.
+Selecting Basic AST Interpretive Criteria Choose the basic AST Interpretive Criteria from the drop-down list. If you do not need to further customize interpretive criteria, skip the following steps and finalise interpretation.
+  Adding Custom Interpretive Rules If required, you can add Custom AST Interpretive Rules for any organism-antibiotic combination."><meta property="og:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png">
   <meta property="twitter:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-03-18T00:01:00&#43;00:00">
+      <meta property="article:published_time" content="2020-09-11T00:01:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-03-18T17:21:44&#43;03:00">
+    <meta property="article:modified_time" content="2020-09-15T23:47:06&#43;03:00">
   
 
   
@@ -688,9 +690,9 @@ Choose the AST Interpretive Criteria from the drop-down list and press the &ldqu
           <h1>Step 4 - Determine S/I/R</h1>
 
           <div class="article-style">
-            <p>This step is used to validate the AST data contained in your data set. The data import wizard interprets the quantitative AST data (MIC and inhibition zone values) and translates them to the S/I/R categories using the selected criteria (breakpoints).</p>
-<p>Choose the <strong>AST Interpretive Criteria</strong> from the drop-down list and press the <strong>&ldquo;Interpret MIC and Disk Diffusion data&rdquo;</strong> button.
-Check the data import statuses in the list that appears below and press the <strong>&ldquo;Complete All Steps&rdquo;</strong> button to finish the data import process.</p>
+            <p>This step is used to assign susceptibility categories (S/I/R) from quantitative AST data (MICs, disk diffusion (DD) inhibition zones) using the selected interpretive criteria and breakpoints.</p>
+<h2 id="selecting-basic-ast-interpretive-criteria">Selecting Basic AST Interpretive Criteria</h2>
+<p>Choose the basic <strong>AST Interpretive Criteria</strong> from the drop-down list. If you do not need to further customize interpretive criteria, skip the following steps and <strong>finalise interpretation</strong>.</p>
 
 
 
@@ -711,12 +713,200 @@ Check the data import statuses in the list that appears below and press the <str
 <figure >
 
 
-  <a data-fancybox="" href="/img/tutorials/import-data/eng/save_step4.png" >
+  <a data-fancybox="" href="/img/tutorials/import-data/eng/step_4_01.png" >
 
 
-  <img src="/img/tutorials/import-data/eng/save_step4.png" alt=""  >
+  <img src="/img/tutorials/import-data/eng/step_4_01.png" alt=""  >
 </a>
 
+
+
+</figure>
+
+<h2 id="adding-custom-interpretive-rules">Adding Custom Interpretive Rules</h2>
+<p>If required, you can add <strong>Custom AST Interpretive Rules</strong> for any organism-antibiotic combination. Left-mouse click on the <strong>&ldquo;Custom Interpretive Rules&rdquo;</strong> panel to open it. Press the <strong>&ldquo;+ Add New Rule&rdquo;</strong> button. In the opened pop-up window, enter the name of the rule, select the type of AST data you want to apply the rule to, select the target antibiotic from the drop-down list, select the S/I/R category or enter the breakpoints, select the target organism species or organism group, optionally, select other parameters from the drop-down lists to set the rule conditions, finally press the <strong>&ldquo;Create&rdquo;</strong> button. Repeat the above steps to create more rules, when done, press the <strong>&ldquo;Close&rdquo;</strong> button.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-creating-a-custom-rule">
+
+
+  <a data-fancybox="" href="/img/tutorials/import-data/eng/step_4_02.png" data-caption="Creating a custom rule">
+
+
+  <img src="/img/tutorials/import-data/eng/step_4_02.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Creating a custom rule
+  </figcaption>
+
+
+</figure>
+
+<p>The list of newly created custom rules appears in the left-hand side of the panel. You can <strong>&ldquo;Edit&rdquo;</strong> or <strong>&ldquo;Remove&rdquo;</strong> the rules by selecting them and pressing the corresponding buttons. If you want to save the rules for future usage, check the box <strong>&ldquo;Save rules to My Interpretive Rules&rdquo;</strong> (Saved rules will appear and can be modified in the “My Interpretive Rules” tab of the “My Profile” menu). You can also apply the previously saved rules by pressing the <strong>&ldquo;Get Rules from My Interpretive Rules&rdquo;</strong> button in the right-hand side of the panel and selecting the ones you want to use with the check-boxes. Press the <strong>&ldquo;Validate Rules&rdquo;</strong> button to apply the newly created custom rules and/or selected saved rules.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-applying-custom-rules">
+
+
+  <a data-fancybox="" href="/img/tutorials/import-data/eng/step_4_03.png" data-caption="Applying custom rules">
+
+
+  <img src="/img/tutorials/import-data/eng/step_4_03.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Applying custom rules
+  </figcaption>
+
+
+</figure>
+
+<h2 id="defining-priority-of-ast-data-types">Defining Priority of AST Data Types</h2>
+<p>Note that, if your datatable contains AST data of different types (MICs, DD inhibition zones, and predefined S/I/R categories), AMRcloud can automatically merge them and assign resulting S/I/R categories. In order to resolve potential conflicts in the S/I/R categorization when different types of data exist for the same isolates and antibiotics, you might have to select the priority order of data types as shown in the example figure below.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-influence-of-data-priority-order-selection-on-the-interpretation-result-of-combined-data">
+
+
+  <a data-fancybox="" href="/img/tutorials/import-data/eng/step_4_04.png" data-caption="Influence of data priority order selection on the interpretation result of combined data">
+
+
+  <img src="/img/tutorials/import-data/eng/step_4_04.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Influence of data priority order selection on the interpretation result of combined data
+  </figcaption>
+
+
+</figure>
+
+<p>To set priority of _mic, _dd, and _sir data, left-mouse click on the <strong>&ldquo;Combining AST results&rdquo;</strong> panel, and select the priority order for all antibiotics or each individual antibiotic from the drop-down list(s). The <strong>default priority order</strong> for all antibiotics is <strong>sir &gt; mic &gt; dd</strong>. You can re-set the default priority of data types for all antibiotics at once by selecting the desired order in the top drop-down list and clicking the <strong>&ldquo;Re-Set to All &ldquo;</strong> button next to it.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-combining-ast-data">
+
+
+  <a data-fancybox="" href="/img/tutorials/import-data/eng/step_4_05.png" data-caption="Combining AST data">
+
+
+  <img src="/img/tutorials/import-data/eng/step_4_05.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Combining AST data
+  </figcaption>
+
+
+</figure>
+
+<h2 id="finalising-interpretation">Finalising Interpretation</h2>
+<p>When you have set up interpretive criteria as required, press the <strong>&ldquo;Interpret MIC and Disk Diffusion data&rdquo;</strong> button. Check the data import statuses in the list that appears below and press the <strong>&ldquo;Complete All Steps&rdquo;</strong> button to finish the data import process.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-finalising-interpretation">
+
+
+  <a data-fancybox="" href="/img/tutorials/import-data/eng/step_4_06.png" data-caption="Finalising interpretation">
+
+
+  <img src="/img/tutorials/import-data/eng/step_4_06.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Finalising interpretation
+  </figcaption>
 
 
 </figure>
@@ -724,7 +914,7 @@ Check the data import statuses in the list that appears below and press the <str
 <div class="alert alert-note">
   <div>
     <p>You can reopen and edit the imported data set using the wizard at a later time.</p>
-<p>If you only want to apply different (newer) AST interpretive criteria, you will need to reset and work through the Step Four only.</p>
+<p>If you only want to apply different (newer) AST interpretive criteria, you can reset and work through the Step Four only. There is no need to re-upload the data or re-set the previous steps.</p>
   </div>
 </div>
 
@@ -742,7 +932,7 @@ Check the data import statuses in the list that appears below and press the <str
             Last updated on 
             
             
-              18 March 2020
+              15 September 2020
             
           </p>
 
