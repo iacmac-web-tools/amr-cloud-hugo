@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Иван Трушин | AMRcloud</title>
-    <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/authors/trushin-iv/</link>
-      <atom:link href="https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/authors/trushin-iv/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://amrcloud.net/ru/authors/trushin-iv/</link>
+      <atom:link href="https://amrcloud.net/ru/authors/trushin-iv/index.xml" rel="self" type="application/rss+xml" />
     <description>Иван Трушин</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2020</copyright>
     <image>
-      <url>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/authors/trushin-iv/avatar_huf8407fd8a71d7cd06c14ee8f1c0d7ee7_98376_270x270_fill_q90_lanczos_center.jpg</url>
+      <url>https://amrcloud.net/ru/authors/trushin-iv/avatar_huf8407fd8a71d7cd06c14ee8f1c0d7ee7_98376_270x270_fill_q90_lanczos_center.jpg</url>
       <title>Иван Трушин</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/authors/trushin-iv/</link>
+      <link>https://amrcloud.net/ru/authors/trushin-iv/</link>
     </image>
     
   </channel>

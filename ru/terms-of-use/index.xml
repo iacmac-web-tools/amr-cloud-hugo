@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Условия использования | AMRcloud</title>
-    <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/terms-of-use/</link>
-      <atom:link href="https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/terms-of-use/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://amrcloud.net/ru/terms-of-use/</link>
+      <atom:link href="https://amrcloud.net/ru/terms-of-use/index.xml" rel="self" type="application/rss+xml" />
     <description>Условия использования</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2020</copyright>
     <image>
-      <url>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/img/amr-cloud-logo-text.png</url>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>Условия использования</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/terms-of-use/</link>
+      <link>https://amrcloud.net/ru/terms-of-use/</link>
     </image>
     
     <item>
       <title>Условия использования</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/terms-of-use/20190926/</link>
+      <link>https://amrcloud.net/ru/terms-of-use/20190926/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/terms-of-use/20190926/</guid>
+      <guid>https://amrcloud.net/ru/terms-of-use/20190926/</guid>
       <description>&lt;h2 id=&#34;условия-использования&#34;&gt;Условия использования&lt;/h2&gt;
 &lt;p&gt;AMRcloud предоставляет Пользователю право использовать AMRcloud для размещения файлов (далее - «файлы» либо «данные») на дисковом пространстве серверов AMRcloud, с целью последующей обработки размещенных файлов, их изменения, удаления, обработки, визуализации результатов анализа, предоставления и управления доступом третьих лиц к результатам обработки. Такие права неотчуждаемы и непередаваемы третьим лицам. Взаимодействие Пользователя с AMRcloud осуществляется с использованием веб-интерфейса.&lt;/p&gt;
 &lt;p&gt;Использование AMRcloud для размещения файлов и анализа данных Пользователя невозможно без создания учетной записи в AMRcloud. При создании учетной записи Пользователь предупрежден и согласен с тем, что имя его учетной записи может быть отображено и доступно для ознакомления третьим лицам, при предоставлении Пользователем доступа к результатам обработки данных.

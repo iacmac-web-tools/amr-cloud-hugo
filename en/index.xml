@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AMRcloud</title>
-    <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/</link>
-      <atom:link href="https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://amrcloud.net/en/</link>
+      <atom:link href="https://amrcloud.net/en/index.xml" rel="self" type="application/rss+xml" />
     <description>AMRcloud</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2020</copyright>
     <image>
-      <url>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/img/amr-cloud-logo-text.png</url>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>AMRcloud</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/</link>
+      <link>https://amrcloud.net/en/</link>
     </image>
     
     <item>
       <title>Step 2 - Set Fields</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/import-data/05-identification/</link>
+      <link>https://amrcloud.net/en/tutorials/import-data/05-identification/</link>
       <pubDate>Fri, 11 Sep 2020 00:03:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/import-data/05-identification/</guid>
+      <guid>https://amrcloud.net/en/tutorials/import-data/05-identification/</guid>
       <description>&lt;p&gt;This step allows you to select the &lt;strong&gt;Column Headers&lt;/strong&gt; from the imported data table to be used as &lt;strong&gt;Fields&lt;/strong&gt; (or parameters) for data filtration and categorization. To do so, you need to associate the column headers with the standard categories (Isolate ID, Organism Group, Organism Name, and Date) required by  &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;. You can also select additional columns with &lt;strong&gt;spatial data&lt;/strong&gt;, other &lt;strong&gt;metadata&lt;/strong&gt; and &lt;strong&gt;markers&lt;/strong&gt; to be used as &lt;strong&gt;Fields&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;The required categories (with brief accompanying instructions) are listed on the left side of the screen. On the right side of the screen, you should choose the corresponding column headers from the drop-down lists. As you proceed with selection, you will be able to preview the content of the first ten rows of each selected column.&lt;/p&gt;
 
@@ -39,10 +39,10 @@
 &lt;figure id=&#34;figure-linking-the-columns-to-categories&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/choice_orgroup.png&#34; data-caption=&#34;Linking the columns to categories&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_orgroup.png&#34; data-caption=&#34;Linking the columns to categories&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/choice_orgroup.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_orgroup.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -99,10 +99,10 @@
 &lt;figure id=&#34;figure-checking-species-names&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/change_sp.png&#34; data-caption=&#34;Checking species names&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/change_sp.png&#34; data-caption=&#34;Checking species names&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/change_sp.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/change_sp.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -176,10 +176,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure id=&#34;figure-incorrect-date-format&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/date_wrong.png&#34; data-caption=&#34;Incorrect date format&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_wrong.png&#34; data-caption=&#34;Incorrect date format&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/date_wrong.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_wrong.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -213,10 +213,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure id=&#34;figure-confirming-the-date-column-selection&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/date_right.png&#34; data-caption=&#34;Confirming the date column selection&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_right.png&#34; data-caption=&#34;Confirming the date column selection&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/date_right.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/date_right.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -257,10 +257,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure id=&#34;figure-spatial-information&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/geog_object.png&#34; data-caption=&#34;Spatial information&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geog_object.png&#34; data-caption=&#34;Spatial information&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/geog_object.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geog_object.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -301,10 +301,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure id=&#34;figure-numeric-parameter&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/numeric.png&#34; data-caption=&#34;Numeric parameter&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/numeric.png&#34; data-caption=&#34;Numeric parameter&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/numeric.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/numeric.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -346,10 +346,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure id=&#34;figure-resistance-markers&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/markers_genetic.png&#34; data-caption=&#34;Resistance markers&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers_genetic.png&#34; data-caption=&#34;Resistance markers&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/markers_genetic.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers_genetic.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -389,10 +389,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure id=&#34;figure-additional-parameters&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/other_filter.png&#34; data-caption=&#34;Additional parameters&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/other_filter.png&#34; data-caption=&#34;Additional parameters&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/other_filter.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/other_filter.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -427,10 +427,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/save_step2.png&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/save_step2.png&#34; &gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/save_step2.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/save_step2.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -448,9 +448,9 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
     
     <item>
       <title>Step 3 - Geocode</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/import-data/06-geocode/</link>
+      <link>https://amrcloud.net/en/tutorials/import-data/06-geocode/</link>
       <pubDate>Fri, 11 Sep 2020 00:02:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/import-data/06-geocode/</guid>
+      <guid>https://amrcloud.net/en/tutorials/import-data/06-geocode/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Geocoding&lt;/strong&gt; is the process of transforming a description of a location to a location on the Earth&amp;rsquo;s surface. At this step, the data import wizard processes the names of the geographic objects (geolocations) and assigns them latitude and longitude coordinates. In this way, the geolocations&amp;rsquo; related statistics can be shown on the interactive maps in &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;automatic-geocoding&#34;&gt;Automatic Geocoding&lt;/h2&gt;
 &lt;p&gt;Press the &lt;strong&gt;&amp;ldquo;1. Geocode it&amp;rdquo;&lt;/strong&gt; button to start the geocoding process. Please be patient, as it may take some time depending on the number and type of locations. When coordinates appear in the table on the right side of the screen under the &lt;strong&gt;&amp;ldquo;Valid coordinates&amp;hellip;&amp;quot;&lt;/strong&gt; &lt;span style=&#34;color:#44C932&#34;&gt;&lt;strong&gt;green panel&lt;/strong&gt;&lt;/span&gt;, open the map preview by left-mouse clicking on the header of the &lt;strong&gt;&amp;ldquo;Map: preview&amp;rdquo;&lt;/strong&gt; &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;blue panel&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
@@ -476,10 +476,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure id=&#34;figure-geocoding&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/geoc_1.png&#34; data-caption=&#34;Geocoding&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_1.png&#34; data-caption=&#34;Geocoding&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/geoc_1.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_1.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -517,10 +517,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure id=&#34;figure-cell-selecting&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/geoc_3.png&#34; data-caption=&#34;Cell selecting&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_3.png&#34; data-caption=&#34;Cell selecting&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/geoc_3.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_3.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -553,10 +553,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure id=&#34;figure-coordinates-correcting&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/geoc_change.png&#34; data-caption=&#34;Coordinates correcting&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_change.png&#34; data-caption=&#34;Coordinates correcting&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/geoc_change.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_change.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -591,10 +591,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure id=&#34;figure-map-preview&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/geoc_2.png&#34; data-caption=&#34;Map preview&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_2.png&#34; data-caption=&#34;Map preview&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/geoc_2.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_2.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -633,10 +633,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure id=&#34;figure-search-bar&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/geoc_search.png&#34; data-caption=&#34;Search bar&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search.png&#34; data-caption=&#34;Search bar&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/geoc_search.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -670,10 +670,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure id=&#34;figure-getting-the-coordinates&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/geoc_search2.png&#34; data-caption=&#34;Getting the coordinates&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search2.png&#34; data-caption=&#34;Getting the coordinates&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/geoc_search2.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/geoc_search2.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -693,9 +693,9 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
     
     <item>
       <title>Step 4 - Determine S/I/R</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/import-data/07-interpretation/</link>
+      <link>https://amrcloud.net/en/tutorials/import-data/07-interpretation/</link>
       <pubDate>Fri, 11 Sep 2020 00:01:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/import-data/07-interpretation/</guid>
+      <guid>https://amrcloud.net/en/tutorials/import-data/07-interpretation/</guid>
       <description>&lt;p&gt;This step is used to assign susceptibility categories (S/I/R) from quantitative AST data (MICs, disk diffusion (DD) inhibition zones) using the selected interpretive criteria and breakpoints.&lt;/p&gt;
 &lt;h2 id=&#34;selecting-basic-ast-interpretive-criteria&#34;&gt;Selecting Basic AST Interpretive Criteria&lt;/h2&gt;
 &lt;p&gt;Choose the basic &lt;strong&gt;AST Interpretive Criteria&lt;/strong&gt; from the drop-down list. If you do not need to further customize interpretive criteria, skip the following steps and &lt;strong&gt;finalise interpretation&lt;/strong&gt;.&lt;/p&gt;
@@ -719,10 +719,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/step_4_01.png&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step_4_01.png&#34; &gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/step_4_01.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step_4_01.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -751,10 +751,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure id=&#34;figure-creating-a-custom-rule&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/step_4_02.png&#34; data-caption=&#34;Creating a custom rule&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step_4_02.png&#34; data-caption=&#34;Creating a custom rule&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/step_4_02.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step_4_02.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -788,10 +788,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure id=&#34;figure-applying-custom-rules&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/step_4_03.png&#34; data-caption=&#34;Applying custom rules&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step_4_03.png&#34; data-caption=&#34;Applying custom rules&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/step_4_03.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step_4_03.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -826,10 +826,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure id=&#34;figure-influence-of-data-priority-order-selection-on-the-interpretation-result-of-combined-data&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/step_4_04.png&#34; data-caption=&#34;Influence of data priority order selection on the interpretation result of combined data&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step_4_04.png&#34; data-caption=&#34;Influence of data priority order selection on the interpretation result of combined data&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/step_4_04.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step_4_04.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -863,10 +863,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure id=&#34;figure-combining-ast-data&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/step_4_05.png&#34; data-caption=&#34;Combining AST data&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step_4_05.png&#34; data-caption=&#34;Combining AST data&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/step_4_05.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step_4_05.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -901,10 +901,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure id=&#34;figure-finalising-interpretation&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/step_4_06.png&#34; data-caption=&#34;Finalising interpretation&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step_4_06.png&#34; data-caption=&#34;Finalising interpretation&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/step_4_06.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step_4_06.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -928,9 +928,9 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
     
     <item>
       <title>Data preparation</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/import-data/01-prepare/</link>
+      <link>https://amrcloud.net/en/tutorials/import-data/01-prepare/</link>
       <pubDate>Thu, 10 Sep 2020 00:05:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/import-data/01-prepare/</guid>
+      <guid>https://amrcloud.net/en/tutorials/import-data/01-prepare/</guid>
       <description>&lt;h2 id=&#34;the-rules-of-thumb-for-data-preparation&#34;&gt;The &amp;ldquo;Rules of Thumb&amp;rdquo; for Data Preparation&lt;/h2&gt;
 &lt;p&gt;Accurate, well-formated and structured source data is essential for successful analysis using the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; platform.&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -966,10 +966,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure id=&#34;figure-downloading-a-sample-data&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/example.png&#34; data-caption=&#34;Downloading a sample data&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/example.png&#34; data-caption=&#34;Downloading a sample data&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/example.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/example.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1006,10 +1006,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure id=&#34;figure-data-table-structure&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/row_column.png&#34; data-caption=&#34;Data table structure&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/row_column.png&#34; data-caption=&#34;Data table structure&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/row_column.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/row_column.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1043,10 +1043,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure id=&#34;figure-header-row&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/name.png&#34; data-caption=&#34;Header row&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/name.png&#34; data-caption=&#34;Header row&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/name.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/name.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1087,10 +1087,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure id=&#34;figure-mandatory-columns&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/mandatory.png&#34; data-caption=&#34;Mandatory columns&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/mandatory.png&#34; data-caption=&#34;Mandatory columns&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/mandatory.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/mandatory.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1149,10 +1149,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure id=&#34;figure-date-format&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/data.png&#34; data-caption=&#34;Date format&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/data.png&#34; data-caption=&#34;Date format&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/data.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/data.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1202,7 +1202,7 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;p&gt;tobramycin_sir, tetracycline_sir, amoxicillin-clavulanic acid_dd, vancomycin_mic&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/files/amrcloud-eucast-2020-ab.xlsx&#34;&gt;The list of legitimate antibiotic names&lt;/a&gt; can be downloaded from the link at the &lt;strong&gt;&amp;ldquo;Read Me&amp;rdquo;&lt;/strong&gt; tab of the data import wizard. The quantitative AST Data (MIC and inhibition zone values) for the known antibiotics are automatically interpreted into susceptibility categories using selected criteria (breakpoints).
+&lt;a href=&#34;https://amrcloud.net/files/amrcloud-eucast-2020-ab.xlsx&#34;&gt;The list of legitimate antibiotic names&lt;/a&gt; can be downloaded from the link at the &lt;strong&gt;&amp;ldquo;Read Me&amp;rdquo;&lt;/strong&gt; tab of the data import wizard. The quantitative AST Data (MIC and inhibition zone values) for the known antibiotics are automatically interpreted into susceptibility categories using selected criteria (breakpoints).
 
 
 
@@ -1223,10 +1223,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;figure id=&#34;figure-list-of-legitimate-antibiotic-names&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/list_antib.png&#34; data-caption=&#34;List of legitimate antibiotic names&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/list_antib.png&#34; data-caption=&#34;List of legitimate antibiotic names&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/list_antib.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/list_antib.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1329,10 +1329,10 @@ To ensure consistency, the data on Resistance Markers can be presented as follow
 &lt;figure id=&#34;figure-resistance-markers&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/markers.png&#34; data-caption=&#34;Resistance Markers&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers.png&#34; data-caption=&#34;Resistance Markers&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/markers.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/markers.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1350,9 +1350,9 @@ To ensure consistency, the data on Resistance Markers can be presented as follow
     
     <item>
       <title>Step 1 - Upload Data</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/import-data/04-upload-file/</link>
+      <link>https://amrcloud.net/en/tutorials/import-data/04-upload-file/</link>
       <pubDate>Thu, 10 Sep 2020 00:04:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/import-data/04-upload-file/</guid>
+      <guid>https://amrcloud.net/en/tutorials/import-data/04-upload-file/</guid>
       <description>&lt;h2 id=&#34;uploading-a-data-file&#34;&gt;Uploading a Data File&lt;/h2&gt;
 &lt;p&gt;Please learn the content of the &lt;strong&gt;&amp;ldquo;Read Me&amp;rdquo;&lt;/strong&gt; tab of the data import wizard first. To upload your data file to &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;, go to the &lt;strong&gt;&amp;ldquo;Step One&amp;rdquo;&lt;/strong&gt; tab, press the &lt;strong&gt;&amp;ldquo;Browse&amp;hellip;&amp;quot;&lt;/strong&gt; button and select the file. If the file content appears correctly in the preview pane, press the &lt;strong&gt;&amp;ldquo;Validate and Save Step One&amp;rdquo;&lt;/strong&gt; button to complete the current step.&lt;/p&gt;
 
@@ -1375,10 +1375,10 @@ To ensure consistency, the data on Resistance Markers can be presented as follow
 &lt;figure id=&#34;figure-uploading-a-file&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/choice_file.png&#34; data-caption=&#34;Uploading a file&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_file.png&#34; data-caption=&#34;Uploading a file&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/choice_file.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/choice_file.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1421,10 +1421,10 @@ To ensure consistency, the data on Resistance Markers can be presented as follow
 &lt;figure id=&#34;figure-data-table-preview&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/step1.png&#34; data-caption=&#34;Data table preview&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step1.png&#34; data-caption=&#34;Data table preview&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/step1.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/step1.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1459,10 +1459,10 @@ To ensure consistency, the data on Resistance Markers can be presented as follow
 &lt;figure id=&#34;figure-text-encoding-problem&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/wrong_letters.png&#34; data-caption=&#34;Text encoding problem&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/wrong_letters.png&#34; data-caption=&#34;Text encoding problem&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/wrong_letters.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/wrong_letters.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1485,9 +1485,9 @@ To ensure consistency, the data on Resistance Markers can be presented as follow
     
     <item>
       <title>Projects and Data Sets</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/import-data/00-project-set/</link>
+      <link>https://amrcloud.net/en/tutorials/import-data/00-project-set/</link>
       <pubDate>Wed, 18 Mar 2020 00:06:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/import-data/00-project-set/</guid>
+      <guid>https://amrcloud.net/en/tutorials/import-data/00-project-set/</guid>
       <description>&lt;h2 id=&#34;what-is-a-project--data-set&#34;&gt;What is a Project / Data Set&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Project&lt;/strong&gt; is a structural element of the AMRcloud platform used to group several Data Sets at the user&amp;rsquo;s discretion (you may view it as a folder).&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Data Set&lt;/strong&gt; is a basic unit within the Project that contains a discrete set of information that can be visualized and analyzed with the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; (you may view it as a separate file).&lt;/p&gt;
@@ -1514,10 +1514,10 @@ To ensure consistency, the data on Resistance Markers can be presented as follow
 &lt;figure id=&#34;figure-new-project&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/new_project.png&#34; data-caption=&#34;New project&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project.png&#34; data-caption=&#34;New project&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/new_project.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1552,10 +1552,10 @@ To ensure consistency, the data on Resistance Markers can be presented as follow
 &lt;figure id=&#34;figure-creating-a-new-project&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/new_project2.png&#34; data-caption=&#34;Creating a new Project&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project2.png&#34; data-caption=&#34;Creating a new Project&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/new_project2.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project2.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1602,10 +1602,10 @@ It is recommended to use unique and distinguishing names for your Data Sets (do 
 &lt;figure id=&#34;figure-creating-a-new-data-set&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/new_project3.png&#34; data-caption=&#34;Creating a new Data Set&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project3.png&#34; data-caption=&#34;Creating a new Data Set&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/eng/new_project3.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/new_project3.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1624,9 +1624,9 @@ It is recommended to use unique and distinguishing names for your Data Sets (do 
     
     <item>
       <title>1. WHONET export</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/whonet-converter/01/</link>
+      <link>https://amrcloud.net/en/tutorials/whonet-converter/01/</link>
       <pubDate>Fri, 14 Feb 2020 00:05:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/whonet-converter/01/</guid>
+      <guid>https://amrcloud.net/en/tutorials/whonet-converter/01/</guid>
       <description>&lt;h2 id=&#34;running-whonet-program&#34;&gt;Running WHONET Program&lt;/h2&gt;
 &lt;p&gt;Run WHONET program and select the name of your laboratory.&lt;/p&gt;
 
@@ -1649,10 +1649,10 @@ It is recommended to use unique and distinguishing names for your Data Sets (do 
 &lt;figure id=&#34;figure-choose-your-laboratory&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/open-lab.png&#34; data-caption=&#34;Choose your laboratory&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/open-lab.png&#34; data-caption=&#34;Choose your laboratory&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/open-lab.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/open-lab.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1686,10 +1686,10 @@ It is recommended to use unique and distinguishing names for your Data Sets (do 
 &lt;figure id=&#34;figure-data-analysis-menu&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-menu.png&#34; data-caption=&#34;Data analysis menu&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-menu.png&#34; data-caption=&#34;Data analysis menu&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-menu.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-menu.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1724,10 +1724,10 @@ It is recommended to use unique and distinguishing names for your Data Sets (do 
 &lt;figure id=&#34;figure-data-analysis-window&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-01.png&#34; data-caption=&#34;Data analysis window&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-01.png&#34; data-caption=&#34;Data analysis window&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-01.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-01.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1761,10 +1761,10 @@ It is recommended to use unique and distinguishing names for your Data Sets (do 
 &lt;figure id=&#34;figure-analysis-selection-window&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-02.png&#34; data-caption=&#34;Analysis selection window&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-02.png&#34; data-caption=&#34;Analysis selection window&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-02.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-02.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1801,10 +1801,10 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;figure id=&#34;figure-analysis-options-window&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-03.png&#34; data-caption=&#34;Analysis options window&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-03.png&#34; data-caption=&#34;Analysis options window&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-03.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-03.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1838,10 +1838,10 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;figure id=&#34;figure-one-isolate-of-species-by-patient-window&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-04.png&#34; data-caption=&#34;One isolate of species by patient window&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-04.png&#34; data-caption=&#34;One isolate of species by patient window&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-04.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-04.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1876,10 +1876,10 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;figure id=&#34;figure-organisms-window&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-05.png&#34; data-caption=&#34;Organisms window&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-05.png&#34; data-caption=&#34;Organisms window&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-05.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-05.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1915,10 +1915,10 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;figure id=&#34;figure-isolates-window&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-06.png&#34; data-caption=&#34;Isolates window&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-06.png&#34; data-caption=&#34;Isolates window&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-06.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-06.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1953,10 +1953,10 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;figure id=&#34;figure-setting-criteria-for-sex&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-06-01.png&#34; data-caption=&#34;Setting criteria for sex&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-06-01.png&#34; data-caption=&#34;Setting criteria for sex&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-06-01.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-06-01.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1990,10 +1990,10 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;figure id=&#34;figure-setting-criteria-for-age&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-06-02.png&#34; data-caption=&#34;Setting criteria for age&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-06-02.png&#34; data-caption=&#34;Setting criteria for age&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-06-02.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-06-02.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -2027,10 +2027,10 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;figure id=&#34;figure-setting-criteria-for-department&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-06-03.png&#34; data-caption=&#34;Setting criteria for department&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-06-03.png&#34; data-caption=&#34;Setting criteria for department&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-06-03.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-06-03.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -2064,10 +2064,10 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;figure id=&#34;figure-isolates-window-with-criterias&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-06-04.png&#34; data-caption=&#34;Isolates window with criterias&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-06-04.png&#34; data-caption=&#34;Isolates window with criterias&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-06-04.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-06-04.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -2102,10 +2102,10 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;figure id=&#34;figure-select-data-files-window&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-07.png&#34; data-caption=&#34;Select data files window&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-07.png&#34; data-caption=&#34;Select data files window&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-07.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-07.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -2140,10 +2140,10 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;figure id=&#34;figure-data-analysis-window-after-setting-filters-and-criterias&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-08.png&#34; data-caption=&#34;Data analysis window after setting filters and criterias&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-08.png&#34; data-caption=&#34;Data analysis window after setting filters and criterias&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-08.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-08.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -2177,10 +2177,10 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;figure id=&#34;figure-preview&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-preview.png&#34; data-caption=&#34;Preview&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-preview.png&#34; data-caption=&#34;Preview&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-preview.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-preview.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -2216,10 +2216,10 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;figure id=&#34;figure-data-analysis-window-ready-for-export&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-09.png&#34; data-caption=&#34;Data analysis window ready for export&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-09.png&#34; data-caption=&#34;Data analysis window ready for export&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-09.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-09.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -2233,7 +2233,7 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;/figure&gt;
 
 &lt;p&gt;Press the &lt;strong&gt;&amp;lsquo;Begin analysis&amp;rsquo;&lt;/strong&gt; button to create a text export file. This file can be converted into AMRcloud readable format as described in the 
-&lt;a href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/whonet-converter/02/&#34;&gt;next chapter&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/whonet-converter/02/&#34;&gt;next chapter&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;An example of WHONET export file is shown in Figure 17.&lt;/p&gt;
 
 
@@ -2255,10 +2255,10 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;figure id=&#34;figure-exported-file&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/whonet-text-export.png&#34; data-caption=&#34;Exported file&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/whonet-text-export.png&#34; data-caption=&#34;Exported file&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/whonet-text-export.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/whonet-text-export.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -2276,11 +2276,11 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
     
     <item>
       <title>2. AMRcloud convert</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/whonet-converter/02/</link>
+      <link>https://amrcloud.net/en/tutorials/whonet-converter/02/</link>
       <pubDate>Fri, 14 Feb 2020 00:05:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/whonet-converter/02/</guid>
+      <guid>https://amrcloud.net/en/tutorials/whonet-converter/02/</guid>
       <description>&lt;p&gt;To convert file from 
-&lt;a href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/whonet-converter/01/&#34;&gt;step 1&lt;/a&gt; of this tutorial,  follow the link 
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/whonet-converter/01/&#34;&gt;step 1&lt;/a&gt; of this tutorial,  follow the link 
 &lt;a href=&#34;https://public.amrcloud.net/whonet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://public.amrcloud.net/whonet&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;upload-file&#34;&gt;Upload file&lt;/h2&gt;
 &lt;p&gt;Press the &lt;strong&gt;Choose file&lt;/strong&gt; button and select your export file from step 1.&lt;/p&gt;
@@ -2304,10 +2304,10 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;figure id=&#34;figure-загрузка-файла&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file.png&#34; data-caption=&#34;Загрузка файла&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file.png&#34; data-caption=&#34;Загрузка файла&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -2328,7 +2328,7 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;li&gt;All column names must be unique.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The standard file from 
-&lt;a href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/whonet-converter/01/&#34;&gt;step 1&lt;/a&gt; meets these requirements. If the upload is successful, you will see the following.&lt;/p&gt;
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/whonet-converter/01/&#34;&gt;step 1&lt;/a&gt; meets these requirements. If the upload is successful, you will see the following.&lt;/p&gt;
 
 
 
@@ -2349,10 +2349,10 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;figure id=&#34;figure-upload-is-successful&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file-success.png&#34; data-caption=&#34;Upload is successful&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file-success.png&#34; data-caption=&#34;Upload is successful&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file-success.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file-success.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -2386,10 +2386,10 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;figure id=&#34;figure-file-has-errors&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file-error.png&#34; data-caption=&#34;File has errors&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file-error.png&#34; data-caption=&#34;File has errors&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file-error.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file-error.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -2433,10 +2433,10 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;figure id=&#34;figure-conversion-report&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/convert-01.png&#34; data-caption=&#34;Conversion report&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/convert-01.png&#34; data-caption=&#34;Conversion report&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/convert-01.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/convert-01.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -2493,10 +2493,10 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;figure id=&#34;figure-warning-messages&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/convert-02.png&#34; data-caption=&#34;Warning messages&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/convert-02.png&#34; data-caption=&#34;Warning messages&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/convert-02.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/convert-02.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -2527,15 +2527,15 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;h2 id=&#34;download-file&#34;&gt;Download file&lt;/h2&gt;
 &lt;p&gt;To download converted file, press the &lt;strong&gt;Download&lt;/strong&gt; button. It is assumed that the file is already ready for uploading to &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; and does not require additional editing (except for the situation with Warning: Table doesn&amp;rsquo;t has ORGANISM column).&lt;/p&gt;
 &lt;p&gt;How to upload the file to &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;, you can found in the 
-&lt;a href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/import-data/&#34;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/import-data/&#34;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>AMRcloud September update</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/post/20200909-september-update/</link>
+      <link>https://amrcloud.net/en/post/20200909-september-update/</link>
       <pubDate>Wed, 02 Sep 2020 21:00:00 +0300</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/post/20200909-september-update/</guid>
+      <guid>https://amrcloud.net/en/post/20200909-september-update/</guid>
       <description>&lt;p&gt;AMRcloud has been updated with the following features:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;added automated interpretation of MIC and DD data using 
@@ -2553,9 +2553,9 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
     
     <item>
       <title>DARMIS 2009-2011 &amp; 2017-2018</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/project/darmis/</link>
+      <link>https://amrcloud.net/en/project/darmis/</link>
       <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/project/darmis/</guid>
+      <guid>https://amrcloud.net/en/project/darmis/</guid>
       <description>&lt;h3 id=&#34;organisers&#34;&gt;Organisers&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Interregional Association for Clinical Microbiology and Antimicrobial Chemotherapy (IACMAC)&lt;/li&gt;
@@ -2698,25 +2698,25 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
     
     <item>
       <title>Data handling as a basis for local antimicrobial resistance surveillance</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/publication/cmac-2020-t22-n2-p137/</link>
+      <link>https://amrcloud.net/en/publication/cmac-2020-t22-n2-p137/</link>
       <pubDate>Thu, 28 May 2020 10:06:14 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/publication/cmac-2020-t22-n2-p137/</guid>
+      <guid>https://amrcloud.net/en/publication/cmac-2020-t22-n2-p137/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Donate</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/pages/crowdfunding/</link>
+      <link>https://amrcloud.net/en/pages/crowdfunding/</link>
       <pubDate>Tue, 11 Feb 2020 11:00:00 +0300</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/pages/crowdfunding/</guid>
+      <guid>https://amrcloud.net/en/pages/crowdfunding/</guid>
       <description>&lt;iframe src=&#34;https://money.yandex.ru/quickpay/shop-widget?writer=seller&amp;targets=%D0%94%D0%BE%D0%B1%D1%80%D0%BE%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%B7%D0%BD%D0%BE%D1%81%20%D0%BD%D0%B0%20%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0%20AMRcloud&amp;targets-hint=&amp;default-sum=100&amp;button-text=11&amp;payment-type-choice=on&amp;mobile-payment-type-choice=on&amp;fio=on&amp;hint=&amp;successURL=https%3A%2F%2Famrcloud.net%2F&amp;quickpay=shop&amp;account=410014685201421&#34; width=&#34;640&#34; height=&#34;250&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;</description>
     </item>
     
     <item>
       <title>&lt;em&gt;Acinetobacter baumannii&lt;/em&gt; genetic diversity, susceptibility to antibiotics and lytic phages</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/project/abphage/</link>
+      <link>https://amrcloud.net/en/project/abphage/</link>
       <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/project/abphage/</guid>
+      <guid>https://amrcloud.net/en/project/abphage/</guid>
       <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Acinetobacter baumannii&lt;/strong&gt;&lt;/em&gt; is one of the most common and troublesome nosocomial pathogens. This project presents the following data on nosocomial &lt;em&gt;A. baumannii&lt;/em&gt; isolates collected from various regions of Russia:&lt;/p&gt;
 &lt;ul&gt;
@@ -2760,9 +2760,9 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
     
     <item>
       <title>Research project: Veterinary monitoring and Risk Analysis of Zoonotic Bacteria Antimicrobial Resistance.</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/project/vgnki/</link>
+      <link>https://amrcloud.net/en/project/vgnki/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/project/vgnki/</guid>
+      <guid>https://amrcloud.net/en/project/vgnki/</guid>
       <description>&lt;h3 id=&#34;russian-state-center-for-quality-and-standardization-of-veterinary-drugs-and-feed&#34;&gt;Russian State Center for Quality and Standardization of Veterinary Drugs and Feed&lt;/h3&gt;
 &lt;p&gt;Research Institute of the Federal Service for Veterinary and Phytosanitary Surveillance (ROSSELKHOZNADZOR).&lt;/p&gt;
 &lt;p&gt;OIE collaborating Center on Food Safety, Diagnosis and Control of Animal Diseases in Eastern Europe, Central Asia and Transcaucasia.&lt;/p&gt;
@@ -2809,17 +2809,17 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
     
     <item>
       <title>AMRcloud: a new paradigm in monitoring of antibiotic resistance</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/publication/cmac-2019-t21-n2-p119/</link>
+      <link>https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/</link>
       <pubDate>Thu, 10 Oct 2019 00:04:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/publication/cmac-2019-t21-n2-p119/</guid>
+      <guid>https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Privacy Policy</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/privacy-policy/20190926/</link>
+      <link>https://amrcloud.net/en/privacy-policy/20190926/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/privacy-policy/20190926/</guid>
+      <guid>https://amrcloud.net/en/privacy-policy/20190926/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;Administration does not check the reliability of any information provided by you except as expressly permitted by the Terms of Use or Additional Terms and cannot consider its credibility as well as your legal capacity to provide it. Nonetheless, Administration relies on you to provide accurate and complete Personal Data and timely update it.&lt;/p&gt;
@@ -2889,9 +2889,9 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
     
     <item>
       <title>Terms of Use</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/terms-of-use/20190926/</link>
+      <link>https://amrcloud.net/en/terms-of-use/20190926/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/terms-of-use/20190926/</guid>
+      <guid>https://amrcloud.net/en/terms-of-use/20190926/</guid>
       <description>&lt;h2 id=&#34;use-of-amrcloud&#34;&gt;Use of AMRcloud&lt;/h2&gt;
 &lt;p&gt;Administration of AMRcloud (&lt;strong&gt;“Administration”&lt;/strong&gt;) grants User а non-transferable right to use AMRcloud. AMRcloud makes it possible to upload files («files» or «data»), process, change, delete and visualize data and results of data processing as well as to provide and manage access to results of data processing to the third parties.&lt;/p&gt;
 &lt;p&gt;In order to upload and process data in AMRcloud, User must create an account. By creating an account, User acknowledges and agrees that AMRcloud displays her/his account name, but not email address, to the third parties with whom User decides to share the results of data processing. &lt;/p&gt;
@@ -2964,9 +2964,9 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
     
     <item>
       <title>Registration</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/pages/invite-register/</link>
+      <link>https://amrcloud.net/en/pages/invite-register/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/pages/invite-register/</guid>
+      <guid>https://amrcloud.net/en/pages/invite-register/</guid>
       <description>&lt;div class=&#34;cognito&#34;&gt;
 &lt;script src=&#34;https://services.cognitoforms.com/s/M0a4wlljSUmqA5FZxhXqtA&#34;&gt;&lt;/script&gt;
 &lt;script&gt;Cognito.load(&#34;forms&#34;, { id: &#34;2&#34; });&lt;/script&gt;

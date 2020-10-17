@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Открытые проекты | AMRcloud</title>
-    <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/project/</link>
-      <atom:link href="https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://amrcloud.net/ru/project/</link>
+      <atom:link href="https://amrcloud.net/ru/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Открытые проекты</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2020</copyright>
     <image>
-      <url>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/img/amr-cloud-logo-text.png</url>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>Открытые проекты</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/project/</link>
+      <link>https://amrcloud.net/ru/project/</link>
     </image>
     
     <item>
       <title>Исследование «ДАРМИС»</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/project/darmis/</link>
+      <link>https://amrcloud.net/ru/project/darmis/</link>
       <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/project/darmis/</guid>
+      <guid>https://amrcloud.net/ru/project/darmis/</guid>
       <description>&lt;h3 id=&#34;организаторы&#34;&gt;Организаторы&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Межрегиональная ассоциация по клинической микробиологии и антимикробной химиотерапии&lt;/li&gt;
@@ -144,9 +144,9 @@
     
     <item>
       <title>&lt;em&gt;Acinetobacter baumannii&lt;/em&gt; генетическое разнообразие, чувствительность к антибиотикам и литическим бактериофагам</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/project/abphage/</link>
+      <link>https://amrcloud.net/ru/project/abphage/</link>
       <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/project/abphage/</guid>
+      <guid>https://amrcloud.net/ru/project/abphage/</guid>
       <description>&lt;h3 id=&#34;аннотация&#34;&gt;Аннотация&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Acinetobacter baumannii&lt;/strong&gt;&lt;/em&gt; – один из наиболее частых и проблемных возбудителей нозокомиальных инфекций. В данном проекте представлены результаты исследования циркулирующих в стационарах РФ клинических штаммов &lt;em&gt;A. baumannii&lt;/em&gt;, включающие:&lt;/p&gt;
 &lt;ul&gt;
@@ -191,9 +191,9 @@
     
     <item>
       <title>Исследование &#34;CAZ-AVI&#34;</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/project/cazavi/</link>
+      <link>https://amrcloud.net/ru/project/cazavi/</link>
       <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/project/cazavi/</guid>
+      <guid>https://amrcloud.net/ru/project/cazavi/</guid>
       <description>&lt;h3 id=&#34;цель-исследования&#34;&gt;Цель исследования:&lt;/h3&gt;
 &lt;p&gt;Оценить in vitro активность комбинации авибактама с цефтазидимом в отношении клинических изолятов Enterobacterales и &lt;em&gt;Pseudomonas aeruginosa&lt;/em&gt;, выделенных в стационарах различных регионов России&lt;/p&gt;
 &lt;h3 id=&#34;данные&#34;&gt;Данные:&lt;/h3&gt;
@@ -256,9 +256,9 @@
     
     <item>
       <title>Научно-исследовательская работа «Ветеринарный мониторинг и анализ риска антибиотикорезистентности зоонозных бактерий»</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/project/vgnki/</link>
+      <link>https://amrcloud.net/ru/project/vgnki/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/project/vgnki/</guid>
+      <guid>https://amrcloud.net/ru/project/vgnki/</guid>
       <description>&lt;h3 id=&#34;всероссийский-государственный-центр-качества-и-стандартизации-лекарственных-средств-для-животныхи-кормов-фгбу-вгнки&#34;&gt;«Всероссийский государственный Центр качества и стандартизации лекарственных средств для животных и кормов» (ФГБУ &amp;ldquo;ВГНКИ&amp;rdquo;)&lt;/h3&gt;
 &lt;p&gt;Научно-иследовательский институт Федеральной службы по ветеринарному и фитосанитарному надзору (Россельхознадзор).&lt;/p&gt;
 &lt;p&gt;Имеет статус Центра МЭБ (Всемирной организации здравоохранения животных) по безопасности пищевой продукции, диагностике и борьбе с болезнями животных для стран Восточной Европы, Центральной Азии и Закавказья.&lt;/p&gt;

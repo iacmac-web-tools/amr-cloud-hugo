@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Конвертация из WHONET в AMRcloud | AMRcloud</title>
-    <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/whonet-converter/</link>
-      <atom:link href="https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/whonet-converter/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://amrcloud.net/ru/tutorials/whonet-converter/</link>
+      <atom:link href="https://amrcloud.net/ru/tutorials/whonet-converter/index.xml" rel="self" type="application/rss+xml" />
     <description>Конвертация из WHONET в AMRcloud</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2020</copyright><lastBuildDate>Thu, 07 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/img/amr-cloud-logo-text.png</url>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>Конвертация из WHONET в AMRcloud</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/whonet-converter/</link>
+      <link>https://amrcloud.net/ru/tutorials/whonet-converter/</link>
     </image>
     
     <item>
       <title>1. Экспорт из WHONET</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/whonet-converter/01/</link>
+      <link>https://amrcloud.net/ru/tutorials/whonet-converter/01/</link>
       <pubDate>Fri, 14 Feb 2020 00:05:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/whonet-converter/01/</guid>
+      <guid>https://amrcloud.net/ru/tutorials/whonet-converter/01/</guid>
       <description>&lt;h2 id=&#34;запуск-программы&#34;&gt;Запуск программы&lt;/h2&gt;
 &lt;p&gt;Запустите программу WHONET и выберите вашу лабораторию.&lt;/p&gt;
 
@@ -39,10 +39,10 @@
 &lt;figure id=&#34;figure-выбор-лаборатории&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/open-lab.png&#34; data-caption=&#34;Выбор лаборатории&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/open-lab.png&#34; data-caption=&#34;Выбор лаборатории&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/open-lab.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/open-lab.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -76,10 +76,10 @@
 &lt;figure id=&#34;figure-меню-анализ-данных&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-menu.png&#34; data-caption=&#34;Меню Анализ Данных&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-menu.png&#34; data-caption=&#34;Меню Анализ Данных&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-menu.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-menu.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -114,10 +114,10 @@
 &lt;figure id=&#34;figure-окно-анализ-данных&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-01.png&#34; data-caption=&#34;Окно Анализ Данных&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-01.png&#34; data-caption=&#34;Окно Анализ Данных&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-01.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-01.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -151,10 +151,10 @@
 &lt;figure id=&#34;figure-окно-выбор-анализа&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-02.png&#34; data-caption=&#34;Окно Выбор анализа&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-02.png&#34; data-caption=&#34;Окно Выбор анализа&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-02.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-02.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -189,10 +189,10 @@
 &lt;figure id=&#34;figure-окно-опции-анализа&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-03.png&#34; data-caption=&#34;Окно Опции анализа&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-03.png&#34; data-caption=&#34;Окно Опции анализа&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-03.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-03.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -226,10 +226,10 @@
 &lt;figure id=&#34;figure-окно-опции-анализа-выбора-результатов-для-микроорганизма&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-04.png&#34; data-caption=&#34;Окно Опции анализа выбора результатов для микроорганизма&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-04.png&#34; data-caption=&#34;Окно Опции анализа выбора результатов для микроорганизма&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-04.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-04.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -264,10 +264,10 @@
 &lt;figure id=&#34;figure-окно-выбор-микроорганизма&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-05.png&#34; data-caption=&#34;Окно Выбор микроорганизма&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-05.png&#34; data-caption=&#34;Окно Выбор микроорганизма&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-05.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-05.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -303,10 +303,10 @@
 &lt;figure id=&#34;figure-окно-изоляты&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-06.png&#34; data-caption=&#34;Окно Изоляты&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-06.png&#34; data-caption=&#34;Окно Изоляты&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-06.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-06.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -343,10 +343,10 @@
 &lt;figure id=&#34;figure-установка-критерия-отбора-для-пола&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-06-01.png&#34; data-caption=&#34;Установка критерия отбора для пола&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-06-01.png&#34; data-caption=&#34;Установка критерия отбора для пола&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-06-01.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-06-01.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -382,10 +382,10 @@
 &lt;figure id=&#34;figure-установка-критерия-отбора-для-возраста&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-06-02.png&#34; data-caption=&#34;Установка критерия отбора для возраста&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-06-02.png&#34; data-caption=&#34;Установка критерия отбора для возраста&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-06-02.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-06-02.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -421,10 +421,10 @@
 &lt;figure id=&#34;figure-установка-критерия-отбора-для-типа-отделения&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-06-03.png&#34; data-caption=&#34;Установка критерия отбора для типа отделения&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-06-03.png&#34; data-caption=&#34;Установка критерия отбора для типа отделения&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-06-03.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-06-03.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -458,10 +458,10 @@
 &lt;figure id=&#34;figure-окно-изоляты-с-установленными-критериями&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-06-04.png&#34; data-caption=&#34;Окно Изоляты с установленными критериями&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-06-04.png&#34; data-caption=&#34;Окно Изоляты с установленными критериями&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-06-04.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-06-04.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -496,10 +496,10 @@
 &lt;figure id=&#34;figure-окно-выбрать-файлы-данных&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-07.png&#34; data-caption=&#34;Окно Выбрать файлы данных&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-07.png&#34; data-caption=&#34;Окно Выбрать файлы данных&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-07.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-07.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -534,10 +534,10 @@
 &lt;figure id=&#34;figure-окно-анализ-данных-после-установки-всех-фильтров-и-критериев&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-08.png&#34; data-caption=&#34;Окно Анализ данных после установки всех фильтров и критериев&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-08.png&#34; data-caption=&#34;Окно Анализ данных после установки всех фильтров и критериев&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-08.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-08.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -571,10 +571,10 @@
 &lt;figure id=&#34;figure-предпросмотр&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-preview.png&#34; data-caption=&#34;Предпросмотр&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-preview.png&#34; data-caption=&#34;Предпросмотр&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-preview.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-preview.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -610,10 +610,10 @@
 &lt;figure id=&#34;figure-окно-анализ-для-экспорта&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-09.png&#34; data-caption=&#34;Окно Анализ для экспорта&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-09.png&#34; data-caption=&#34;Окно Анализ для экспорта&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-09.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/analysis-window-09.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -627,7 +627,7 @@
 &lt;/figure&gt;
 
 &lt;p&gt;Нажмите кнопку &lt;strong&gt;Начать анализ&lt;/strong&gt; и по указанному пути создастся файл, который будем загружать в конвертер. Этот процесс описан в 
-&lt;a href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/whonet-converter/02/&#34;&gt;следующем разделе&lt;/a&gt; данного руководства. Если открыть файл в Блокноте, то выглядит он примерно следующим образом.&lt;/p&gt;
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/whonet-converter/02/&#34;&gt;следующем разделе&lt;/a&gt; данного руководства. Если открыть файл в Блокноте, то выглядит он примерно следующим образом.&lt;/p&gt;
 
 
 
@@ -648,10 +648,10 @@
 &lt;figure id=&#34;figure-файл-экспорта&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/whonet-text-export.png&#34; data-caption=&#34;Файл экспорта&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/whonet-text-export.png&#34; data-caption=&#34;Файл экспорта&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/whonet-text-export.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/whonet-text-export.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -669,11 +669,11 @@
     
     <item>
       <title>2. Конвертация в AMRcloud</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/whonet-converter/02/</link>
+      <link>https://amrcloud.net/ru/tutorials/whonet-converter/02/</link>
       <pubDate>Fri, 14 Feb 2020 00:05:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/whonet-converter/02/</guid>
+      <guid>https://amrcloud.net/ru/tutorials/whonet-converter/02/</guid>
       <description>&lt;p&gt;Для конвертации файла, полученного на 
-&lt;a href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/whonet-converter/01/&#34;&gt;шаге 1&lt;/a&gt; перейдите по ссылке 
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/whonet-converter/01/&#34;&gt;шаге 1&lt;/a&gt; перейдите по ссылке 
 &lt;a href=&#34;https://public.amrcloud.net/whonet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://public.amrcloud.net/whonet&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;загрузка-файла&#34;&gt;Загрузка файла&lt;/h2&gt;
 &lt;p&gt;Для загрузки файла нажмите на кнопку &lt;strong&gt;Choose file&lt;/strong&gt; и выберите ваш файл экспорта из WHONET.&lt;/p&gt;
@@ -697,10 +697,10 @@
 &lt;figure id=&#34;figure-загрузка-файла&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file.png&#34; data-caption=&#34;Загрузка файла&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file.png&#34; data-caption=&#34;Загрузка файла&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -721,7 +721,7 @@
 &lt;li&gt;Все имена столбцов уникальные.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Стандартный файл, полученный на 
-&lt;a href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/whonet-converter/01/&#34;&gt;шаге 1&lt;/a&gt; должен удовлетворять этим требованиям. В случае успешной загрузки вы увидите следующее.&lt;/p&gt;
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/whonet-converter/01/&#34;&gt;шаге 1&lt;/a&gt; должен удовлетворять этим требованиям. В случае успешной загрузки вы увидите следующее.&lt;/p&gt;
 
 
 
@@ -742,10 +742,10 @@
 &lt;figure id=&#34;figure-файл-успешно-загружен&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file-success.png&#34; data-caption=&#34;Файл успешно загружен&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file-success.png&#34; data-caption=&#34;Файл успешно загружен&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file-success.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file-success.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -779,10 +779,10 @@
 &lt;figure id=&#34;figure-файл-содержит-ошибки&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file-error.png&#34; data-caption=&#34;Файл содержит ошибки&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file-error.png&#34; data-caption=&#34;Файл содержит ошибки&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file-error.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file-error.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -825,10 +825,10 @@
 &lt;figure id=&#34;figure-отчет-о-конвертации&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/convert-01.png&#34; data-caption=&#34;Отчет о конвертации&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/convert-01.png&#34; data-caption=&#34;Отчет о конвертации&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/convert-01.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/convert-01.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -885,10 +885,10 @@
 &lt;figure id=&#34;figure-warning-сообщения&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/convert-02.png&#34; data-caption=&#34;Warning сообщения&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/convert-02.png&#34; data-caption=&#34;Warning сообщения&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/convert-02.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/convert-02.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -919,7 +919,7 @@
 &lt;h2 id=&#34;скачивание-файла&#34;&gt;Скачивание файла&lt;/h2&gt;
 &lt;p&gt;Чтобы скачать сконвертированный файл, нажмите кнопку &lt;strong&gt;Download&lt;/strong&gt;. Предполагается, что файл уже готов для загрузки в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; и не требует дополнительного редактирования (за исключением ситуации с Warning: Table doesn&amp;rsquo;t has ORGANISM column, описанной выше).&lt;/p&gt;
 &lt;p&gt;Как происходит процесс загрузки файла в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;, можно прочитать в соответствующем 
-&lt;a href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/import-data/&#34;&gt;руководстве&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/import-data/&#34;&gt;руководстве&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Public Datasets | AMRcloud</title>
-    <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/project/</link>
-      <atom:link href="https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://amrcloud.net/en/project/</link>
+      <atom:link href="https://amrcloud.net/en/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Public Datasets</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2020</copyright>
     <image>
-      <url>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/img/amr-cloud-logo-text.png</url>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>Public Datasets</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/project/</link>
+      <link>https://amrcloud.net/en/project/</link>
     </image>
     
     <item>
       <title>DARMIS 2009-2011 &amp; 2017-2018</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/project/darmis/</link>
+      <link>https://amrcloud.net/en/project/darmis/</link>
       <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/project/darmis/</guid>
+      <guid>https://amrcloud.net/en/project/darmis/</guid>
       <description>&lt;h3 id=&#34;organisers&#34;&gt;Organisers&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Interregional Association for Clinical Microbiology and Antimicrobial Chemotherapy (IACMAC)&lt;/li&gt;
@@ -159,9 +159,9 @@
     
     <item>
       <title>&lt;em&gt;Acinetobacter baumannii&lt;/em&gt; genetic diversity, susceptibility to antibiotics and lytic phages</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/project/abphage/</link>
+      <link>https://amrcloud.net/en/project/abphage/</link>
       <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/project/abphage/</guid>
+      <guid>https://amrcloud.net/en/project/abphage/</guid>
       <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Acinetobacter baumannii&lt;/strong&gt;&lt;/em&gt; is one of the most common and troublesome nosocomial pathogens. This project presents the following data on nosocomial &lt;em&gt;A. baumannii&lt;/em&gt; isolates collected from various regions of Russia:&lt;/p&gt;
 &lt;ul&gt;
@@ -205,9 +205,9 @@
     
     <item>
       <title>Research project: Veterinary monitoring and Risk Analysis of Zoonotic Bacteria Antimicrobial Resistance.</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/project/vgnki/</link>
+      <link>https://amrcloud.net/en/project/vgnki/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/project/vgnki/</guid>
+      <guid>https://amrcloud.net/en/project/vgnki/</guid>
       <description>&lt;h3 id=&#34;russian-state-center-for-quality-and-standardization-of-veterinary-drugs-and-feed&#34;&gt;Russian State Center for Quality and Standardization of Veterinary Drugs and Feed&lt;/h3&gt;
 &lt;p&gt;Research Institute of the Federal Service for Veterinary and Phytosanitary Surveillance (ROSSELKHOZNADZOR).&lt;/p&gt;
 &lt;p&gt;OIE collaborating Center on Food Safety, Diagnosis and Control of Animal Diseases in Eastern Europe, Central Asia and Transcaucasia.&lt;/p&gt;

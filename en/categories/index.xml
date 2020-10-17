@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | AMRcloud</title>
-    <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/categories/</link>
-      <atom:link href="https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://amrcloud.net/en/categories/</link>
+      <atom:link href="https://amrcloud.net/en/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2020</copyright>
     <image>
-      <url>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/img/amr-cloud-logo-text.png</url>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>Categories</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/categories/</link>
+      <link>https://amrcloud.net/en/categories/</link>
     </image>
     
   </channel>

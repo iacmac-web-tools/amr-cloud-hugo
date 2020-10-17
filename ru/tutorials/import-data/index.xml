@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AMRcloud. Импорт данных | AMRcloud</title>
-    <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/import-data/</link>
-      <atom:link href="https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/import-data/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://amrcloud.net/ru/tutorials/import-data/</link>
+      <atom:link href="https://amrcloud.net/ru/tutorials/import-data/index.xml" rel="self" type="application/rss+xml" />
     <description>AMRcloud. Импорт данных</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2020</copyright><lastBuildDate>Thu, 07 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/img/amr-cloud-logo-text.png</url>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>AMRcloud. Импорт данных</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/import-data/</link>
+      <link>https://amrcloud.net/ru/tutorials/import-data/</link>
     </image>
     
     <item>
       <title>Проекты и наборы данных</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/import-data/00-project-set/</link>
+      <link>https://amrcloud.net/ru/tutorials/import-data/00-project-set/</link>
       <pubDate>Fri, 14 Feb 2020 00:06:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/import-data/00-project-set/</guid>
+      <guid>https://amrcloud.net/ru/tutorials/import-data/00-project-set/</guid>
       <description>&lt;h2 id=&#34;что-такое-проект-и-набор-данных&#34;&gt;Что такое проект и набор данных&lt;/h2&gt;
 &lt;p&gt;В рамках онлайн-платформы &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; пользователь может создавать различные проекты и наборы данных.&lt;/p&gt;
 &lt;p&gt;&lt;u&gt;Проект&lt;/u&gt; — это структурный элемент приложения, который позволяет группировать несколько наборов с данными по усмотрению пользователя.&lt;/p&gt;
@@ -43,10 +43,10 @@
 &lt;figure id=&#34;figure-новый-проект&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/new_project.png&#34; data-caption=&#34;Новый проект&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/new_project.png&#34; data-caption=&#34;Новый проект&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/new_project.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/new_project.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -80,10 +80,10 @@
 &lt;figure id=&#34;figure-создание-проекта&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/new_project2.png&#34; data-caption=&#34;Создание проекта&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/new_project2.png&#34; data-caption=&#34;Создание проекта&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/new_project2.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/new_project2.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -130,10 +130,10 @@
 &lt;figure id=&#34;figure-создание-набора-данных&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/new_project3.png&#34; data-caption=&#34;Создание набора данных&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/new_project3.png&#34; data-caption=&#34;Создание набора данных&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/new_project3.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/new_project3.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -152,9 +152,9 @@
     
     <item>
       <title>Подготовка данных</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/import-data/01-prepare/</link>
+      <link>https://amrcloud.net/ru/tutorials/import-data/01-prepare/</link>
       <pubDate>Fri, 14 Feb 2020 00:05:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/import-data/01-prepare/</guid>
+      <guid>https://amrcloud.net/ru/tutorials/import-data/01-prepare/</guid>
       <description>&lt;h2 id=&#34;золотые-правила-для-данных&#34;&gt;«Золотые правила» для данных&lt;/h2&gt;
 &lt;p&gt;Одним из ключевых этапов работы с платформой &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; является структурирование исходных данных.&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -190,10 +190,10 @@
 &lt;figure id=&#34;figure-скачивание-образца-данных&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/example.png&#34; data-caption=&#34;Скачивание образца данных&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/example.png&#34; data-caption=&#34;Скачивание образца данных&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/example.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/example.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -231,10 +231,10 @@
 &lt;figure id=&#34;figure-структура-таблицы&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/row_column.png&#34; data-caption=&#34;Структура таблицы&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/row_column.png&#34; data-caption=&#34;Структура таблицы&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/row_column.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/row_column.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -270,10 +270,10 @@
 &lt;figure id=&#34;figure-заголовочная-строка-таблицы&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/name.png&#34; data-caption=&#34;Заголовочная строка таблицы&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/name.png&#34; data-caption=&#34;Заголовочная строка таблицы&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/name.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/name.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -318,10 +318,10 @@
 &lt;figure id=&#34;figure-обязательные-столбцы-таблицы&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/mandatory.png&#34; data-caption=&#34;Обязательные столбцы таблицы&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/mandatory.png&#34; data-caption=&#34;Обязательные столбцы таблицы&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/mandatory.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/mandatory.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -380,10 +380,10 @@
 &lt;figure id=&#34;figure-формат-дат&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/data.png&#34; data-caption=&#34;Формат дат&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/data.png&#34; data-caption=&#34;Формат дат&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/data.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/data.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -408,7 +408,7 @@
 &lt;ol&gt;
 &lt;li&gt;Название антимикробного препарата должно быть написано &lt;em&gt;полностью, без сокращений, на английском языке&lt;/em&gt;.
 
-&lt;a href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/files/amrcloud-eucast-2020-ab.xlsx&#34;&gt;Список допустимых названий АМП&lt;/a&gt; можно скачать по ссылке внизу страницы.
+&lt;a href=&#34;https://amrcloud.net/files/amrcloud-eucast-2020-ab.xlsx&#34;&gt;Список допустимых названий АМП&lt;/a&gt; можно скачать по ссылке внизу страницы.
 
 
 
@@ -429,10 +429,10 @@
 &lt;figure id=&#34;figure-список-допустимых-антибиотиков&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/list_antib.png&#34; data-caption=&#34;Список допустимых антибиотиков&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/list_antib.png&#34; data-caption=&#34;Список допустимых антибиотиков&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/list_antib.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/list_antib.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -593,10 +593,10 @@
 &lt;figure id=&#34;figure-генетические-маркеры&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/markers.png&#34; data-caption=&#34;Генетические маркеры&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/markers.png&#34; data-caption=&#34;Генетические маркеры&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/markers.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/markers.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -614,9 +614,9 @@
     
     <item>
       <title>Шаг 1 - Загрузка файла</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/import-data/04-upload-file/</link>
+      <link>https://amrcloud.net/ru/tutorials/import-data/04-upload-file/</link>
       <pubDate>Fri, 14 Feb 2020 00:04:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/import-data/04-upload-file/</guid>
+      <guid>https://amrcloud.net/ru/tutorials/import-data/04-upload-file/</guid>
       <description>&lt;h2 id=&#34;загрузка&#34;&gt;Загрузка&lt;/h2&gt;
 &lt;p&gt;После ознакомления с разделом &lt;strong&gt;Важная информация&lt;/strong&gt; пользователь может приступить к загрузке данных в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;. Для этого необходимо перейти на вкладку &amp;ldquo;Шаг 1&amp;rdquo;, нажать на кнопку &lt;strong&gt;&amp;ldquo;Browse&amp;hellip;&amp;quot;&lt;/strong&gt; и выбрать файл с данными для загрузки. После успешной загрузки таблицы необходимо нажать кнопку &amp;ldquo;Проверить и сохранить шаг 1&amp;rdquo;.&lt;/p&gt;
 
@@ -639,10 +639,10 @@
 &lt;figure id=&#34;figure-загрузка-файла&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/choice_file.png&#34; data-caption=&#34;Загрузка файла&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/choice_file.png&#34; data-caption=&#34;Загрузка файла&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/choice_file.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/choice_file.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -685,10 +685,10 @@
 &lt;figure id=&#34;figure-предварительный-просмотр-таблицы&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/step1.png&#34; data-caption=&#34;Предварительный просмотр таблицы&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/step1.png&#34; data-caption=&#34;Предварительный просмотр таблицы&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/step1.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/step1.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -723,10 +723,10 @@
 &lt;figure id=&#34;figure-переход-во-вкладку-файл&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/file_for_export.png&#34; data-caption=&#34;Переход во вкладку &amp;lt;em&amp;gt;Файл&amp;lt;/em&amp;gt;&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/file_for_export.png&#34; data-caption=&#34;Переход во вкладку &amp;lt;em&amp;gt;Файл&amp;lt;/em&amp;gt;&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/file_for_export.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/file_for_export.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -759,10 +759,10 @@
 &lt;figure id=&#34;figure-сохранение-в-формате-csv&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/export_csv.png&#34; data-caption=&#34;Сохранение в формате csv&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/export_csv.png&#34; data-caption=&#34;Сохранение в формате csv&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/export_csv.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/export_csv.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -797,10 +797,10 @@
 &lt;figure id=&#34;figure-запись-по-типу-иероглифы&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/wrong_letters.png&#34; data-caption=&#34;Запись по типу &amp;lt;em&amp;gt;иероглифы&amp;lt;/em&amp;gt;&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/wrong_letters.png&#34; data-caption=&#34;Запись по типу &amp;lt;em&amp;gt;иероглифы&amp;lt;/em&amp;gt;&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/wrong_letters.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/wrong_letters.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -835,10 +835,10 @@
 &lt;figure id=&#34;figure-ошибка-прочтения-файла&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/unread.png&#34; data-caption=&#34;Ошибка прочтения файла&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/unread.png&#34; data-caption=&#34;Ошибка прочтения файла&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/unread.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/unread.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -876,10 +876,10 @@
 &lt;figure id=&#34;figure-загрузка-текстового-редактора&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/sublime_download.png&#34; data-caption=&#34;Загрузка текстового редактора&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_download.png&#34; data-caption=&#34;Загрузка текстового редактора&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/sublime_download.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_download.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -915,10 +915,10 @@
 &lt;figure id=&#34;figure-выбор-файла-для-исправления&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/sublime_open.png&#34; data-caption=&#34;Выбор файла для исправления&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_open.png&#34; data-caption=&#34;Выбор файла для исправления&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/sublime_open.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_open.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -955,10 +955,10 @@
 &lt;figure id=&#34;figure-кодировка-таблицы&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/sublime_reopen.png&#34; data-caption=&#34;Кодировка таблицы&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_reopen.png&#34; data-caption=&#34;Кодировка таблицы&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/sublime_reopen.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_reopen.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -996,10 +996,10 @@ File &lt;strong&gt;→&lt;/strong&gt; Save with Encoding &lt;strong&gt;→&lt;/s
 &lt;figure id=&#34;figure-сохранение-файла-с-utf-8&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/save_utf8.png&#34; data-caption=&#34;Сохранение файла с UTF-8&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_utf8.png&#34; data-caption=&#34;Сохранение файла с UTF-8&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/save_utf8.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_utf8.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1038,10 +1038,10 @@ File &lt;strong&gt;→&lt;/strong&gt; Save with Encoding &lt;strong&gt;→&lt;/s
 &lt;figure id=&#34;figure-скачивание-файла-из-amrcloud-с-настройками-по-умолчанию&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/change_code.png&#34; data-caption=&#34;Скачивание файла из AMRcloud с настройками по умолчанию&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/change_code.png&#34; data-caption=&#34;Скачивание файла из AMRcloud с настройками по умолчанию&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/change_code.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/change_code.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1078,10 +1078,10 @@ File &lt;strong&gt;→&lt;/strong&gt; Save with Encoding &lt;strong&gt;→&lt;/s
 &lt;figure id=&#34;figure-загрузка-текстового-редактора&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/sublime_download.png&#34; data-caption=&#34;Загрузка текстового редактора&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_download.png&#34; data-caption=&#34;Загрузка текстового редактора&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/sublime_download.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_download.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1115,10 +1115,10 @@ File &lt;strong&gt;→&lt;/strong&gt; Save with Encoding &lt;strong&gt;→&lt;/s
 &lt;figure id=&#34;figure-выбор-файла-для-исправления&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/sublime_open.png&#34; data-caption=&#34;Выбор файла для исправления&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_open.png&#34; data-caption=&#34;Выбор файла для исправления&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/sublime_open.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/sublime_open.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1153,10 +1153,10 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;figure id=&#34;figure-сохранение-файла-с-кодировкой-windows-1251&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/save_1251.png&#34; data-caption=&#34;Сохранение файла с кодировкой Windows-1251&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_1251.png&#34; data-caption=&#34;Сохранение файла с кодировкой Windows-1251&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/save_1251.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_1251.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1176,9 +1176,9 @@ File**→** Save with Encoding **→** Windows-1251.
     
     <item>
       <title>Шаг 2 - Выбор параметров</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/import-data/05-identification/</link>
+      <link>https://amrcloud.net/ru/tutorials/import-data/05-identification/</link>
       <pubDate>Fri, 14 Feb 2020 00:03:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/import-data/05-identification/</guid>
+      <guid>https://amrcloud.net/ru/tutorials/import-data/05-identification/</guid>
       <description>&lt;p&gt;Для правильной работы всех аналитических компонентов платформы &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; пользователю на данном шаге необходимо правильно соотнести названия восьми стандартных системных категорий со столбцами из загруженной таблицы.&lt;/p&gt;
 &lt;p&gt;В левой части экрана расположены стандартные категории (например &amp;ldquo;Идентификатор изолята&amp;rdquo;, &amp;ldquo;Группа микроорганизмов&amp;rdquo;) с общей информацией и требованиями. В правой части экрана расположены панели с выпадающим списком названий столбцов таблицы, с помощью которого пользователь сопоставляет системные категории с данными из загруженной таблицы.
 
@@ -1201,10 +1201,10 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;figure id=&#34;figure-структура-пунктов-шага-2&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/choice_orgroup.png&#34; data-caption=&#34;Структура пунктов шага 2&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/choice_orgroup.png&#34; data-caption=&#34;Структура пунктов шага 2&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/choice_orgroup.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/choice_orgroup.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1261,10 +1261,10 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;figure id=&#34;figure-проверка-названия-видов&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/change_sp.png&#34; data-caption=&#34;Проверка названия видов&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/change_sp.png&#34; data-caption=&#34;Проверка названия видов&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/change_sp.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/change_sp.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1316,10 +1316,10 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;figure id=&#34;figure-неправильный-формат-дат&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/date_wrong.png&#34; data-caption=&#34;Неправильный формат дат&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/date_wrong.png&#34; data-caption=&#34;Неправильный формат дат&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/date_wrong.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/date_wrong.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1364,10 +1364,10 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;figure id=&#34;figure-последовательность-работы-с-датами&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/date_right.png&#34; data-caption=&#34;Последовательность работы с датами&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/date_right.png&#34; data-caption=&#34;Последовательность работы с датами&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/date_right.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/date_right.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1408,10 +1408,10 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;figure id=&#34;figure-географический-объект&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/geog_object.png&#34; data-caption=&#34;Географический объект&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geog_object.png&#34; data-caption=&#34;Географический объект&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/geog_object.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geog_object.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1452,10 +1452,10 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;figure id=&#34;figure-выбор-количественного-показателя&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/numeric.png&#34; data-caption=&#34;Выбор количественного показателя&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/numeric.png&#34; data-caption=&#34;Выбор количественного показателя&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/numeric.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/numeric.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1497,10 +1497,10 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;figure id=&#34;figure-выбор-маркеров-резистентности&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/markers_genetic.png&#34; data-caption=&#34;Выбор маркеров резистентности&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/markers_genetic.png&#34; data-caption=&#34;Выбор маркеров резистентности&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/markers_genetic.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/markers_genetic.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1541,10 +1541,10 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;figure id=&#34;figure-выбор-дополнительных-параметров&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/other_filter.png&#34; data-caption=&#34;Выбор дополнительных параметров&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/other_filter.png&#34; data-caption=&#34;Выбор дополнительных параметров&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/other_filter.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/other_filter.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1579,10 +1579,10 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/save_step2.png&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_step2.png&#34; &gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/save_step2.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_step2.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1594,9 +1594,9 @@ File**→** Save with Encoding **→** Windows-1251.
     
     <item>
       <title>Шаг 3 - Геокодирование</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/import-data/06-geocode/</link>
+      <link>https://amrcloud.net/ru/tutorials/import-data/06-geocode/</link>
       <pubDate>Fri, 14 Feb 2020 00:02:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/import-data/06-geocode/</guid>
+      <guid>https://amrcloud.net/ru/tutorials/import-data/06-geocode/</guid>
       <description>&lt;p&gt;Геокодирование — это важный этап создания основы, с помощью которой &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; строит различные карты и проставляет метки географических объектов.&lt;/p&gt;
 &lt;p&gt;В качестве географических объектов в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; могут выступать регионы, города и даже отдельные корпуса ЛПУ.&lt;/p&gt;
 &lt;h2 id=&#34;общая-информация&#34;&gt;Общая информация&lt;/h2&gt;
@@ -1623,10 +1623,10 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;figure id=&#34;figure-геокодирование-структура-первого-подпункта&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/geoc_1.png&#34; data-caption=&#34;Геокодирование. Структура первого подпункта&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_1.png&#34; data-caption=&#34;Геокодирование. Структура первого подпункта&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/geoc_1.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_1.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1664,10 +1664,10 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;figure id=&#34;figure-карта-предпросмотр&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/geoc_2.png&#34; data-caption=&#34;Карта: предпросмотр&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_2.png&#34; data-caption=&#34;Карта: предпросмотр&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/geoc_2.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_2.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1701,10 +1701,10 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;figure id=&#34;figure-исправление-с-использованием-приближения-карты&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/geoc_search2.png&#34; data-caption=&#34;Исправление с использованием приближения карты&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_search2.png&#34; data-caption=&#34;Исправление с использованием приближения карты&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/geoc_search2.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_search2.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1738,10 +1738,10 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;figure id=&#34;figure-исправление-с-использованием-строки-поиска&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/geoc_search.png&#34; data-caption=&#34;Исправление с использованием строки поиска&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_search.png&#34; data-caption=&#34;Исправление с использованием строки поиска&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/geoc_search.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_search.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1783,10 +1783,10 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;figure id=&#34;figure-выбор-ячеек&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/geoc_3.png&#34; data-caption=&#34;Выбор ячеек&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_3.png&#34; data-caption=&#34;Выбор ячеек&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/geoc_3.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_3.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1819,10 +1819,10 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;figure id=&#34;figure-корректировка-данных&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/geoc_change.png&#34; data-caption=&#34;Корректировка данных&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_change.png&#34; data-caption=&#34;Корректировка данных&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/geoc_change.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/geoc_change.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1869,10 +1869,10 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;figure id=&#34;figure-алгоритм-работы-с-локальными-данными&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/built.png&#34; data-caption=&#34;Алгоритм работы с локальными данными&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/built.png&#34; data-caption=&#34;Алгоритм работы с локальными данными&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/built.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/built.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1948,10 +1948,10 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/save_step3.png&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_step3.png&#34; &gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/save_step3.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_step3.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -1984,10 +1984,10 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;figure id=&#34;figure-оповещение-по-нескольким-координатам-для-одной-точки&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/alarm.png&#34; data-caption=&#34;Оповещение по нескольким координатам для одной точки&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/alarm.png&#34; data-caption=&#34;Оповещение по нескольким координатам для одной точки&#34;&gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/alarm.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/alarm.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -2029,9 +2029,9 @@ File**→** Save with Encoding **→** Windows-1251.
     
     <item>
       <title>Шаг 4 - Категоризация S/I/R</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/import-data/07-interpretation/</link>
+      <link>https://amrcloud.net/ru/tutorials/import-data/07-interpretation/</link>
       <pubDate>Fri, 14 Feb 2020 00:01:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/import-data/07-interpretation/</guid>
+      <guid>https://amrcloud.net/ru/tutorials/import-data/07-interpretation/</guid>
       <description>&lt;p&gt;Первым делом на данном этапе пользователю необходимо выбрать критерии интерпретации из выпадающего списка и нажать кнопку &lt;strong&gt;&amp;ldquo;Интерпретировать МПК и данные диск-диффузии&amp;rdquo;&lt;/strong&gt;. После того, как ниже появится таблица со статусами интерпретации, пользователь сможет нажать кнопку &lt;strong&gt;&amp;ldquo;Завершить все шаги&amp;rdquo;&lt;/strong&gt; и завершить процесс импорта данных.&lt;/p&gt;
 
 
@@ -2053,10 +2053,10 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/save_step4.png&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_step4.png&#34; &gt;
 
 
-  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/import-data/ru/save_step4.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/save_step4.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 

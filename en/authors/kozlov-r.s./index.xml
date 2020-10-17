@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kozlov R.S. | AMRcloud</title>
-    <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/authors/kozlov-r.s./</link>
-      <atom:link href="https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/authors/kozlov-r.s./index.xml" rel="self" type="application/rss+xml" />
+    <link>https://amrcloud.net/en/authors/kozlov-r.s./</link>
+      <atom:link href="https://amrcloud.net/en/authors/kozlov-r.s./index.xml" rel="self" type="application/rss+xml" />
     <description>Kozlov R.S.</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2020</copyright><lastBuildDate>Thu, 10 Oct 2019 00:04:00 +0000</lastBuildDate>
     <image>
-      <url>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/img/amr-cloud-logo-text.png</url>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>Kozlov R.S.</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/authors/kozlov-r.s./</link>
+      <link>https://amrcloud.net/en/authors/kozlov-r.s./</link>
     </image>
     
     <item>
       <title>AMRcloud: a new paradigm in monitoring of antibiotic resistance</title>
-      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/publication/cmac-2019-t21-n2-p119/</link>
+      <link>https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/</link>
       <pubDate>Thu, 10 Oct 2019 00:04:00 +0000</pubDate>
-      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/publication/cmac-2019-t21-n2-p119/</guid>
+      <guid>https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/</guid>
       <description></description>
     </item>
     
