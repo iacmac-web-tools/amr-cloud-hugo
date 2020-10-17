@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News | AMRcloud</title>
-    <link>https://amrcloud.net/en/post/</link>
-      <atom:link href="https://amrcloud.net/en/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/post/</link>
+      <atom:link href="https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/post/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2020</copyright>
     <image>
-      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <url>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/img/amr-cloud-logo-text.png</url>
       <title>News</title>
-      <link>https://amrcloud.net/en/post/</link>
+      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/post/</link>
     </image>
     
     <item>
       <title>AMRcloud September update</title>
-      <link>https://amrcloud.net/en/post/20200909-september-update/</link>
+      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/post/20200909-september-update/</link>
       <pubDate>Wed, 02 Sep 2020 21:00:00 +0300</pubDate>
-      <guid>https://amrcloud.net/en/post/20200909-september-update/</guid>
+      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/post/20200909-september-update/</guid>
       <description>&lt;p&gt;AMRcloud has been updated with the following features:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;added automated interpretation of MIC and DD data using 

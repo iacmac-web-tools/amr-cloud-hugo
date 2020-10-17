@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transform WHONET to AMRcloud | AMRcloud</title>
+    <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/whonet-converter/</link>
+      <atom:link href="https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/whonet-converter/index.xml" rel="self" type="application/rss+xml" />
+    <description>Transform WHONET to AMRcloud</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2020</copyright><lastBuildDate>Thu, 07 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/img/amr-cloud-logo-text.png</url>
+      <title>Transform WHONET to AMRcloud</title>
+      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/whonet-converter/</link>
+    </image>
+    
+    <item>
+      <title>1. WHONET export</title>
+      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/whonet-converter/01/</link>
+      <pubDate>Fri, 14 Feb 2020 00:05:00 +0000</pubDate>
+      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/whonet-converter/01/</guid>
+      <description>&lt;h2 id=&#34;running-whonet-program&#34;&gt;Running WHONET Program&lt;/h2&gt;
+&lt;p&gt;Run WHONET program and select the name of your laboratory.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-choose-your-laboratory&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/open-lab.png&#34; data-caption=&#34;Choose your laboratory&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/open-lab.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Choose your laboratory
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Choose &lt;strong&gt;&amp;lsquo;Data analysis&amp;rsquo;&lt;/strong&gt; from the &lt;strong&gt;&amp;lsquo;Data analysis&amp;rsquo;&lt;/strong&gt; menu.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-data-analysis-menu&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-menu.png&#34; data-caption=&#34;Data analysis menu&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-menu.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Data analysis menu
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;analysis-type&#34;&gt;Analysis Type&lt;/h2&gt;
+&lt;p&gt;In the opened window, press the &lt;strong&gt;&amp;lsquo;Analysis type&amp;rsquo;&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-data-analysis-window&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-01.png&#34; data-caption=&#34;Data analysis window&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Data analysis window
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;In the &lt;strong&gt;&amp;lsquo;Isolate listing and summary&amp;rsquo;&lt;/strong&gt; tab, select &lt;strong&gt;&amp;lsquo;Listing&amp;rsquo;&lt;/strong&gt; for report format and press the &lt;strong&gt;&amp;lsquo;OK&amp;rsquo;&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-analysis-selection-window&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-02.png&#34; data-caption=&#34;Analysis selection window&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Analysis selection window
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;analysis-options&#34;&gt;Analysis Options&lt;/h2&gt;
+&lt;p&gt;Press the &lt;strong&gt;&amp;lsquo;Options&amp;rsquo;&lt;/strong&gt; button to set additional options for data export and conversion. This step is is not mandatory but may be be useful in certain scenarios.
+For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and Etest results&amp;rsquo;&lt;/strong&gt; in the &lt;strong&gt;&amp;lsquo;Test interpretations&amp;rsquo;&lt;/strong&gt; panel; or remove patients&amp;rsquo; personal data by selecting the &lt;strong&gt;&amp;lsquo;Encrypt patient information&amp;rsquo;&lt;/strong&gt; checkbox in the &lt;strong&gt;&amp;lsquo;Isolate listing and summary&amp;rsquo;&lt;/strong&gt; panel.&lt;/p&gt;
+&lt;p&gt;The default state of the &lt;strong&gt;&amp;lsquo;Analysis options&amp;rsquo;&lt;/strong&gt; window is shown in Figure 5.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-analysis-options-window&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-03.png&#34; data-caption=&#34;Analysis options window&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Analysis options window
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;You can choose whether to include in the report all isolates or one isolate per species by patient. The &lt;strong&gt;&amp;lsquo;By isolate&amp;rsquo;&lt;/strong&gt; mode is used by default. Check the &lt;strong&gt;&amp;lsquo;One per patient&amp;rsquo;&lt;/strong&gt; radio button to change it.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-one-isolate-of-species-by-patient-window&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-04.png&#34; data-caption=&#34;One isolate of species by patient window&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    One isolate of species by patient window
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;organisms&#34;&gt;Organisms&lt;/h2&gt;
+&lt;p&gt;Press the &lt;strong&gt;&amp;lsquo;Organisms&amp;rsquo;&lt;/strong&gt; button to select the organisms you would like to include in analysis. This step is mandatory.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-organisms-window&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-05.png&#34; data-caption=&#34;Organisms window&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-05.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Organisms window
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;From the left-side list, select the organisms to be included in the report by clicking on them. Use &lt;strong&gt;Ctrl&lt;/strong&gt; or &lt;strong&gt;Shift&lt;/strong&gt; keys to select multiple entries. Press the &lt;strong&gt;&#39;&amp;ndash;&amp;gt;&amp;rsquo;&lt;/strong&gt; button to add selection to the right-side list; press the &lt;strong&gt;&amp;lsquo;&amp;lt;&amp;ndash;&#39;&lt;/strong&gt; button to remove selected organisms.&lt;/p&gt;
+&lt;h2 id=&#34;isolates&#34;&gt;Isolates&lt;/h2&gt;
+&lt;p&gt;You can define additional criteria for selecting the isolates to be included in the report by clicking the &lt;strong&gt;&amp;lsquo;Isolates&amp;rsquo;&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-isolates-window&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-06.png&#34; data-caption=&#34;Isolates window&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-06.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Isolates window
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Choose a data field and click on the &lt;strong&gt;&amp;lsquo;Define criteria&amp;rsquo;&lt;/strong&gt; button. For example, to select the isolates collected in ICU from male patients over 30 years old, you need to set three selection criteria as follows:&lt;/p&gt;
+&lt;p&gt;First, double click on the &lt;strong&gt;&amp;lsquo;Sex&amp;rsquo;&lt;/strong&gt; item in the list to open the dialog, double click on &lt;strong&gt;&amp;lsquo;m - Male&amp;rsquo;&lt;/strong&gt; and press the &lt;strong&gt;&amp;lsquo;OK&amp;rsquo;&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-setting-criteria-for-sex&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-06-01.png&#34; data-caption=&#34;Setting criteria for sex&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-06-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Setting criteria for sex
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Second, double click on the &lt;strong&gt;&amp;lsquo;Age&amp;rsquo;&lt;/strong&gt; item in the list to open the dialog, type &amp;lsquo;30&amp;rsquo; in the  &lt;strong&gt;&amp;lsquo;Greater than or equal&amp;rsquo;&lt;/strong&gt; field and press the &lt;strong&gt;&amp;lsquo;OK&amp;rsquo;&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-setting-criteria-for-age&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-06-02.png&#34; data-caption=&#34;Setting criteria for age&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-06-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Setting criteria for age
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Finally, double click on the &lt;strong&gt;&amp;lsquo;Department&amp;rsquo;&lt;/strong&gt; item in the list to open the dialog, double click on &lt;strong&gt;&amp;lsquo;icu - Intensive care unit&amp;rsquo;&lt;/strong&gt; and press the &lt;strong&gt;&amp;lsquo;OK&amp;rsquo;&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-setting-criteria-for-department&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-06-03.png&#34; data-caption=&#34;Setting criteria for department&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-06-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Setting criteria for department
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Choose the &lt;strong&gt;&amp;lsquo;Include isolates that satisfy all of the selection criteria&amp;rsquo;&lt;/strong&gt; radio button to apply all three selected criteria together. The &lt;strong&gt;&amp;lsquo;Isolates&amp;rsquo;&lt;/strong&gt; window with selected criteria is shown in Figure 12.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-isolates-window-with-criterias&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-06-04.png&#34; data-caption=&#34;Isolates window with criterias&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-06-04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Isolates window with criterias
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;data-files&#34;&gt;Data Files&lt;/h2&gt;
+&lt;p&gt;After setting the options, you should specify the WHONET datafaile to analize. Press the &lt;strong&gt;&amp;lsquo;Data files&amp;rsquo;&lt;/strong&gt; button and select your laboratory datafile.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-select-data-files-window&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-07.png&#34; data-caption=&#34;Select data files window&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-07.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Select data files window
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;preview&#34;&gt;Preview&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;&amp;lsquo;Data analysis&amp;rsquo;&lt;/strong&gt; window with selected options is shown in Figure 13.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-data-analysis-window-after-setting-filters-and-criterias&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-08.png&#34; data-caption=&#34;Data analysis window after setting filters and criterias&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-08.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Data analysis window after setting filters and criterias
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;To preview the output, select the &lt;strong&gt;&amp;lsquo;Screen&amp;rsquo;&lt;/strong&gt; option in the &lt;strong&gt;&amp;lsquo;Output&amp;rsquo;&lt;/strong&gt; list and press the &lt;strong&gt;&amp;lsquo;Begin analysis&amp;rsquo;&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-preview&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-preview.png&#34; data-caption=&#34;Preview&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-preview.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Preview
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;If the resulting list of isolates differs from what your expect, adjust the options as needed and repeat the procedure.&lt;/p&gt;
+&lt;h2 id=&#34;export&#34;&gt;Export&lt;/h2&gt;
+&lt;p&gt;To export the list of isolates to a file, select the &lt;strong&gt;&amp;lsquo;Text (WHONET)&#39;&lt;/strong&gt; option in the &lt;strong&gt;&amp;lsquo;Output&amp;rsquo;&lt;/strong&gt; list, enter a path for saving a file as shown in example in Figure 16.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-data-analysis-window-ready-for-export&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-09.png&#34; data-caption=&#34;Data analysis window ready for export&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/analysis-window-09.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Data analysis window ready for export
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Press the &lt;strong&gt;&amp;lsquo;Begin analysis&amp;rsquo;&lt;/strong&gt; button to create a text export file. This file can be converted into AMRcloud readable format as described in the 
+&lt;a href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/whonet-converter/02/&#34;&gt;next chapter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;An example of WHONET export file is shown in Figure 17.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-exported-file&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/whonet-text-export.png&#34; data-caption=&#34;Exported file&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/en/whonet-text-export.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Exported file
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>2. AMRcloud convert</title>
+      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/whonet-converter/02/</link>
+      <pubDate>Fri, 14 Feb 2020 00:05:00 +0000</pubDate>
+      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/whonet-converter/02/</guid>
+      <description>&lt;p&gt;To convert file from 
+&lt;a href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/whonet-converter/01/&#34;&gt;step 1&lt;/a&gt; of this tutorial,  follow the link 
+&lt;a href=&#34;https://public.amrcloud.net/whonet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://public.amrcloud.net/whonet&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;upload-file&#34;&gt;Upload file&lt;/h2&gt;
+&lt;p&gt;Press the &lt;strong&gt;Choose file&lt;/strong&gt; button and select your export file from step 1.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-загрузка-файла&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file.png&#34; data-caption=&#34;Загрузка файла&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Загрузка файла
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The file upload will start automatically. When the upload is complete, the converter will check the contents of the file, try to read it, and display a preview on the screen.&lt;/p&gt;
+&lt;p&gt;The export file must meet the following requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Maximum file size 10 MB;&lt;/li&gt;
+&lt;li&gt;Separator Tab;&lt;/li&gt;
+&lt;li&gt;All column names must be unique.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The standard file from 
+&lt;a href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/whonet-converter/01/&#34;&gt;step 1&lt;/a&gt; meets these requirements. If the upload is successful, you will see the following.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-upload-is-successful&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file-success.png&#34; data-caption=&#34;Upload is successful&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file-success.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Upload is successful
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;If the file was not read correctly, you will see the error message:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-file-has-errors&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file-error.png&#34; data-caption=&#34;File has errors&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file-error.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    File has errors
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;In this case, the error is that the column named FOX_ND30 occurs more than once in the table.&lt;/p&gt;
+&lt;p&gt;If you see any errors after file upload, it means that further conversion is impossible.&lt;/p&gt;
+&lt;h2 id=&#34;convert-file&#34;&gt;Convert file&lt;/h2&gt;
+&lt;p&gt;The main idea of the transformation process is to replace WHONET codes with another codes that the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; understands.&lt;/p&gt;
+&lt;p&gt;Replacements are made for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Antibiotis (columns like CZX_ND30, VAN_NM, VAN_NE, where the first part is recognized as an antibiotic, the second as a testing method)&lt;/li&gt;
+&lt;li&gt;Microorganisms (replacing ORGANISM column values, and adding ORGANISM_GROUP column)&lt;/li&gt;
+&lt;li&gt;Clinic materials (replacing SPEC_TYPE column values)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To convert uploaded file press the &lt;strong&gt;Convert&lt;/strong&gt; button. At the end of the transformation process, a report on the performed manipulations will appear on the page. The example of such a report is shown on figure 4.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-conversion-report&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/convert-01.png&#34; data-caption=&#34;Conversion report&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/convert-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Conversion report
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;First, warnings are displayed - these are some features identified during the conversion process that you should pay attention to. In this case, there is only one warning and it says that a new column ORGANISM_GROUP has been added and automatically filled in the original table.&lt;/p&gt;
+&lt;p&gt;This is requirement field, because &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; uses two-level hierarchy for microorganisms.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Message&lt;/th&gt;
+&lt;th&gt;Comment&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Converted table has multiple columns with antibiotic. Columns will be enumerated&lt;/td&gt;
+&lt;td&gt;This message is displayed when two or more antibiotics receives identical replacements as a result of recoding. For example, in our case, the file had two columns AMK_ND30 and AMK_ND20. Each of them should be replaced with amikacin_dd, but to preserve the test data and the uniqueness of the column names, a number is appended to the new names. So AMK_ND30 becomes amikacin_dd, and AMK_ND20 becomes amikacin_dd_1.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;No replacement found for …&lt;/td&gt;
+&lt;td&gt;This message is displayed when any value to be replaced was not found in the dictionary. In this case, the original value is preserved. You should pay attention to this value and, if necessary, make a replacement yourself. For example, in our case, no substitutions were found for the antibiotic code AMM_NE and material tt.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Table doesn’t has ORGANISM column&lt;/td&gt;
+&lt;td&gt;This message is displayed when the ORGANISM column was not found in the table. This situation is not a critical error, but it is a signal that the converted file cannot be uploaded to &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; without information about microorganisms.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-warning-messages&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/convert-02.png&#34; data-caption=&#34;Warning messages&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/convert-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Warning messages
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;After the warnings, there are replacement tables. You can evaluate the correctness of the replacements made and, if necessary, correct the incorrect ones yourself.&lt;/p&gt;
+&lt;p&gt;Attention! How the name of the replacement antibiotic is formed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Column title is split before and after the underscore;&lt;/li&gt;
+&lt;li&gt;The first part is replaced according to the dictionary;&lt;/li&gt;
+&lt;li&gt;The content of the antibiotic column is analyzed. If at least one value of S, I or R is found, the code &lt;strong&gt;_sir&lt;/strong&gt; is appended;&lt;/li&gt;
+&lt;li&gt;If the antibiotic column does not contain S, I or R values, the second part of the name of the original antibiotic column is used and the following codes are appended:
+&lt;ul&gt;
+&lt;li&gt;ND – &lt;strong&gt;_dd&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;NM – &lt;strong&gt;_mic&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;NE – &lt;strong&gt;_etest_mic&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;If it was not possible to determine the test method by analyzing the second part of the original name of the antibiotic column, then the code &lt;strong&gt;_mic&lt;/strong&gt; is added.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;download-file&#34;&gt;Download file&lt;/h2&gt;
+&lt;p&gt;To download converted file, press the &lt;strong&gt;Download&lt;/strong&gt; button. It is assumed that the file is already ready for uploading to &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; and does not require additional editing (except for the situation with Warning: Table doesn&amp;rsquo;t has ORGANISM column).&lt;/p&gt;
+&lt;p&gt;How to upload the file to &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;, you can found in the 
+&lt;a href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/tutorials/import-data/&#34;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

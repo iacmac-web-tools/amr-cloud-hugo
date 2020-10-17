@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Новости | AMRcloud</title>
-    <link>https://amrcloud.net/ru/post/</link>
-      <atom:link href="https://amrcloud.net/ru/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/post/</link>
+      <atom:link href="https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Новости</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2020</copyright>
     <image>
-      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <url>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/img/amr-cloud-logo-text.png</url>
       <title>Новости</title>
-      <link>https://amrcloud.net/ru/post/</link>
+      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/post/</link>
     </image>
     
     <item>
       <title>Сентябрьское обновление AMRcloud</title>
-      <link>https://amrcloud.net/ru/post/20200909-september-update/</link>
+      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/post/20200909-september-update/</link>
       <pubDate>Wed, 02 Sep 2020 21:00:00 +0300</pubDate>
-      <guid>https://amrcloud.net/ru/post/20200909-september-update/</guid>
+      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/post/20200909-september-update/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;В AMRcloud стали доступны критерии 
 &lt;a href=&#34;http://em100.edaptivedocs.net/GetDoc.aspx?doc=CLSI%20M100%20ED30:2020&amp;amp;scope=user&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CLSI M100-ED30, 2020&lt;/a&gt;. Полный список доступных антимикробных препаратов для автоматической интерпретации в AMRcloud представлен в 
@@ -29,9 +29,9 @@
     
     <item>
       <title>В AMRcloud стали доступны критерии EUCAST 2020</title>
-      <link>https://amrcloud.net/ru/post/20200311-eucast-2020/</link>
+      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/post/20200311-eucast-2020/</link>
       <pubDate>Wed, 11 Mar 2020 09:00:00 +0300</pubDate>
-      <guid>https://amrcloud.net/ru/post/20200311-eucast-2020/</guid>
+      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/post/20200311-eucast-2020/</guid>
       <description>&lt;p&gt;В AMRcloud стали доступны критерии 
 &lt;a href=&#34;http://www.eucast.org/clinical_breakpoints/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EUCAST v.10.0 (2020)&lt;/a&gt;.
 Полный список доступных антимикробных препаратов для автоматической интерпретации в AMRcloud представлен в 
@@ -41,9 +41,9 @@
     
     <item>
       <title>26 января состоится онлайн трансляция «Как начать работу с платформой AMRcloud»</title>
-      <link>https://amrcloud.net/ru/post/20200120-webinar/</link>
+      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/post/20200120-webinar/</link>
       <pubDate>Mon, 20 Jan 2020 11:00:00 +0300</pubDate>
-      <guid>https://amrcloud.net/ru/post/20200120-webinar/</guid>
+      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/post/20200120-webinar/</guid>
       <description>&lt;p&gt;26 января 2020 (воскресенье) в 11:00 часов по московскому времени на 
 &lt;a href=&#34;https://www.youtube.com/channel/UCkQnQDWeTvuvXFDOdZXmr-Q&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;YouTube-канале МАКМАХ&lt;/a&gt; начнётся онлайн трансляция «Как начать работу с платформой AMRcloud». В прямом эфире один из авторов платформы проведёт демонстрацию работы и ответит на ваши вопросы.&lt;/p&gt;
 &lt;p&gt;
@@ -60,9 +60,9 @@
     
     <item>
       <title>Платформа AMRcloud запущена в тестовом режиме</title>
-      <link>https://amrcloud.net/ru/post/20200114-public-test/</link>
+      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/post/20200114-public-test/</link>
       <pubDate>Mon, 13 Jan 2020 13:00:00 +0300</pubDate>
-      <guid>https://amrcloud.net/ru/post/20200114-public-test/</guid>
+      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/post/20200114-public-test/</guid>
       <description>&lt;p&gt;Год начинается с хороших новостей: онлайн платформа для анализа и обмена данными антибиотикорезистентности — AMRcloud — запущена в тестовом режиме.&lt;/p&gt;
 &lt;p&gt;Для получения доступа к платформе вам необходимо отправить запрос на адрес &lt;a href=&#34;mailto:support@antibiotic.ru&#34;&gt;&lt;a href=&#34;mailto:support@antibiotic.ru&#34;&gt;support@antibiotic.ru&lt;/a&gt;&lt;/a&gt;, указав в письме ваш род деятельности и специальность, а также организацию, которую вы представляете.&lt;/p&gt;
 &lt;p&gt;Подробнее узнать о проекте AMRcloud вы можете, прочитав 
@@ -77,9 +77,9 @@
     
     <item>
       <title>В AMRcloud стали доступны критерии EUCAST ECOFF</title>
-      <link>https://amrcloud.net/ru/post/20191220-ecoff/</link>
+      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/post/20191220-ecoff/</link>
       <pubDate>Fri, 20 Dec 2019 13:00:00 +0300</pubDate>
-      <guid>https://amrcloud.net/ru/post/20191220-ecoff/</guid>
+      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/post/20191220-ecoff/</guid>
       <description>&lt;p&gt;В AMRcloud стали доступны критерии 
 &lt;a href=&#34;http://www.eucast.org/mic_distributions_and_ecoffs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EUCAST ECOFF (epidemiological cut-off values)&lt;/a&gt;. Данные критерии были формализованы коллегами из «Всероссийского государственного Центра качества и стандартизации лекарственных средств для животных и кормов» (
 &lt;a href=&#34;http://www.vgnki.ru&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ФГБУ “ВГНКИ”&lt;/a&gt;). Благодарим за помощь в развитии ресурса AMRcloud:  Бадмаева О.Э., Крылову Е.В., Макарова Д.А.&lt;/p&gt;
@@ -88,9 +88,9 @@
     
     <item>
       <title>Применение AMRcloud в программе СКАТ</title>
-      <link>https://amrcloud.net/ru/post/20191216-amrcloud-skat/</link>
+      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/post/20191216-amrcloud-skat/</link>
       <pubDate>Mon, 16 Dec 2019 09:00:00 +0000</pubDate>
-      <guid>https://amrcloud.net/ru/post/20191216-amrcloud-skat/</guid>
+      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/post/20191216-amrcloud-skat/</guid>
       <description>&lt;p&gt;Для формирования локальных протоколов профилактики и терапии инфекционных заболеваний необходимы локальные данные по чувствительности. Однако недостаточно просто собрать информацию о чувствительности в формате «возбудитель-антибиотик». Важно знать дополнительную метаинформацию: тип отделения, особые клинические состояния, локализацию инфекции, клинический материал и другие характеристики. О правильном сборе и структуризации данных рассказал к.б.н., заведующий лабораторией НИИ АХ Эйдельштейн М.В.&lt;/p&gt;
 &lt;p&gt;В дальнейшем подготовленные данные должны быть обработаны аналитической системой и представлены в доступной форме. Именно с этой целью и создавалась платформа AMRcloud. Ключевые возможности платформы и ее практическое применение были продемонстрированы ведущим разработчиком, к.м.н. Кузьменковым А.Ю.&lt;/p&gt;
 &lt;p&gt;Своим опытом использования AMRcloud в рамках отдельно взятого стационара поделилась Петрова Л.В. — заведующая лабораторией, врач-бактериолог лаборатории службы клинической лабораторной диагностики НМЦХ имени Пирогова. По ее словам, внедрение системы позволило значительно сократить время на подготовку отчетов для бактериологов, автоматизировать визуализацию данных и упростить обмен данными по резистентности среди специалистов стационара.&lt;/p&gt;
@@ -119,8 +119,8 @@
     
     
     
-  &lt;a data-fancybox=&#34;gallery-img&#34; href=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_1.jpg&#34; &gt;
-  &lt;img data-src=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_1_hu1a8fde2d73f0dedcc679b8c1cffe94e9_262120_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;253&#34; height=&#34;190&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-img&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/ru/post/20191216-amrcloud-skat/img/img_1.jpg&#34; &gt;
+  &lt;img data-src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/ru/post/20191216-amrcloud-skat/img/img_1_hu1a8fde2d73f0dedcc679b8c1cffe94e9_262120_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;253&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
     
@@ -128,8 +128,8 @@
     
     
     
-  &lt;a data-fancybox=&#34;gallery-img&#34; href=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_2.jpg&#34; &gt;
-  &lt;img data-src=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_2_hu9b51c7f0189fc25e0e8abaa6c1cf750a_234539_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;253&#34; height=&#34;190&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-img&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/ru/post/20191216-amrcloud-skat/img/img_2.jpg&#34; &gt;
+  &lt;img data-src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/ru/post/20191216-amrcloud-skat/img/img_2_hu9b51c7f0189fc25e0e8abaa6c1cf750a_234539_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;253&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
     
@@ -137,8 +137,8 @@
     
     
     
-  &lt;a data-fancybox=&#34;gallery-img&#34; href=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_3.JPG&#34; &gt;
-  &lt;img data-src=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_3_hu7d0d7322722ecab24778c22d136d4df4_272386_0x190_resize_q90_lanczos.JPG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;253&#34; height=&#34;190&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-img&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/ru/post/20191216-amrcloud-skat/img/img_3.JPG&#34; &gt;
+  &lt;img data-src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/ru/post/20191216-amrcloud-skat/img/img_3_hu7d0d7322722ecab24778c22d136d4df4_272386_0x190_resize_q90_lanczos.JPG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;253&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
     
@@ -146,8 +146,8 @@
     
     
     
-  &lt;a data-fancybox=&#34;gallery-img&#34; href=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_5.JPG&#34; &gt;
-  &lt;img data-src=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_5_hu7d0d7322722ecab24778c22d136d4df4_252151_0x190_resize_q90_lanczos.JPG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;253&#34; height=&#34;190&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-img&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/ru/post/20191216-amrcloud-skat/img/img_5.JPG&#34; &gt;
+  &lt;img data-src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/ru/post/20191216-amrcloud-skat/img/img_5_hu7d0d7322722ecab24778c22d136d4df4_252151_0x190_resize_q90_lanczos.JPG&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;253&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
     
@@ -155,8 +155,8 @@
     
     
     
-  &lt;a data-fancybox=&#34;gallery-img&#34; href=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_7.jpg&#34; &gt;
-  &lt;img data-src=&#34;https://amrcloud.net/ru/post/20191216-amrcloud-skat/img/img_7_hue4928482153b0b438279bbf3b6dea6de_288278_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;253&#34; height=&#34;190&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-img&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/ru/post/20191216-amrcloud-skat/img/img_7.jpg&#34; &gt;
+  &lt;img data-src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/ru/post/20191216-amrcloud-skat/img/img_7_hue4928482153b0b438279bbf3b6dea6de_288278_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;253&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
 

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | AMRcloud</title>
-    <link>https://amrcloud.net/ru/authors/</link>
-      <atom:link href="https://amrcloud.net/ru/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/authors/</link>
+      <atom:link href="https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2020</copyright><lastBuildDate>Thu, 28 May 2020 10:06:14 +0000</lastBuildDate>
     <image>
-      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <url>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/img/amr-cloud-logo-text.png</url>
       <title>Authors</title>
-      <link>https://amrcloud.net/ru/authors/</link>
+      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/authors/</link>
     </image>
     
   </channel>

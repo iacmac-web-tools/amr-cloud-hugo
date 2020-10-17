@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Terms of use | AMRcloud</title>
-    <link>https://amrcloud.net/en/terms-of-use/</link>
-      <atom:link href="https://amrcloud.net/en/terms-of-use/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/terms-of-use/</link>
+      <atom:link href="https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/terms-of-use/index.xml" rel="self" type="application/rss+xml" />
     <description>Terms of use</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2020</copyright>
     <image>
-      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <url>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/img/amr-cloud-logo-text.png</url>
       <title>Terms of use</title>
-      <link>https://amrcloud.net/en/terms-of-use/</link>
+      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/terms-of-use/</link>
     </image>
     
     <item>
       <title>Terms of Use</title>
-      <link>https://amrcloud.net/en/terms-of-use/20190926/</link>
+      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/terms-of-use/20190926/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://amrcloud.net/en/terms-of-use/20190926/</guid>
+      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/terms-of-use/20190926/</guid>
       <description>&lt;h2 id=&#34;use-of-amrcloud&#34;&gt;Use of AMRcloud&lt;/h2&gt;
 &lt;p&gt;Administration of AMRcloud (&lt;strong&gt;“Administration”&lt;/strong&gt;) grants User а non-transferable right to use AMRcloud. AMRcloud makes it possible to upload files («files» or «data»), process, change, delete and visualize data and results of data processing as well as to provide and manage access to results of data processing to the third parties.&lt;/p&gt;
 &lt;p&gt;In order to upload and process data in AMRcloud, User must create an account. By creating an account, User acknowledges and agrees that AMRcloud displays her/his account name, but not email address, to the third parties with whom User decides to share the results of data processing. &lt;/p&gt;

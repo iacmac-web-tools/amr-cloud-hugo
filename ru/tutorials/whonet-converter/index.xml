@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Конвертация из WHONET в AMRcloud | AMRcloud</title>
+    <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/whonet-converter/</link>
+      <atom:link href="https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/whonet-converter/index.xml" rel="self" type="application/rss+xml" />
+    <description>Конвертация из WHONET в AMRcloud</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2020</copyright><lastBuildDate>Thu, 07 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/img/amr-cloud-logo-text.png</url>
+      <title>Конвертация из WHONET в AMRcloud</title>
+      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/whonet-converter/</link>
+    </image>
+    
+    <item>
+      <title>1. Экспорт из WHONET</title>
+      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/whonet-converter/01/</link>
+      <pubDate>Fri, 14 Feb 2020 00:05:00 +0000</pubDate>
+      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/whonet-converter/01/</guid>
+      <description>&lt;h2 id=&#34;запуск-программы&#34;&gt;Запуск программы&lt;/h2&gt;
+&lt;p&gt;Запустите программу WHONET и выберите вашу лабораторию.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-выбор-лаборатории&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/open-lab.png&#34; data-caption=&#34;Выбор лаборатории&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/open-lab.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выбор лаборатории
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;В меню &lt;strong&gt;Анализ Данных&lt;/strong&gt; выберите пункт &lt;strong&gt;Анализ Данных&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-меню-анализ-данных&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-menu.png&#34; data-caption=&#34;Меню Анализ Данных&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-menu.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Меню Анализ Данных
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;тип-анализа&#34;&gt;Тип анализа&lt;/h2&gt;
+&lt;p&gt;Откроется окно подготовки отчета по анализу данных. Подготовка отчета заключается в последовательном задании необходимых условий и опций для создания нужного нам файла.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-окно-анализ-данных&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-01.png&#34; data-caption=&#34;Окно Анализ Данных&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Окно Анализ Данных
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;По нажатии кнопки &lt;strong&gt;Тип анализа&lt;/strong&gt; откроется окно выбора анализа. Переходим на вкладку &lt;strong&gt;Список изолята и сводка&lt;/strong&gt;, в разделе &lt;strong&gt;Форматы отчетов&lt;/strong&gt; выбираем &lt;strong&gt;1.Результат загрузки&lt;/strong&gt;. Нажимаем кнопку &lt;strong&gt;ОК&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-окно-выбор-анализа&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-02.png&#34; data-caption=&#34;Окно Выбор анализа&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Окно Выбор анализа
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;дополнительные-опции&#34;&gt;Дополнительные опции&lt;/h2&gt;
+&lt;p&gt;При необходимости можно нажать кнопку &lt;strong&gt;Опции&lt;/strong&gt; и задать некоторые особенности выгрузки результатов. По умолчанию окно &lt;strong&gt;Опции анализа&lt;/strong&gt; выглядит так, как показано на рисунке 5. Таким образом, например, можно объединить результаты тестирования, отметив соответствующую галочку в разделе &lt;strong&gt;Интерпретации тестов&lt;/strong&gt;. Если данные содержат персональную информацию, то полезно будет отметить пункт &lt;strong&gt;Зашифровать информацию о пациентах&lt;/strong&gt; в разделе &lt;strong&gt;Список изолята и сводка&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-окно-опции-анализа&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-03.png&#34; data-caption=&#34;Окно Опции анализа&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Окно Опции анализа
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;При необходимости, можно изменить условия отбора изолятов в отчет. По умолчанию установлен режим &lt;em&gt;Один изолят каждого вида по пациенту&lt;/em&gt;. Чтобы его изменить, нажмите кнопку &lt;strong&gt;Один на каждого пациента&lt;/strong&gt; и отметьте соответствующий режим.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-окно-опции-анализа-выбора-результатов-для-микроорганизма&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-04.png&#34; data-caption=&#34;Окно Опции анализа выбора результатов для микроорганизма&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Окно Опции анализа выбора результатов для микроорганизма
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;микроорганизмы&#34;&gt;Микроорганизмы&lt;/h2&gt;
+&lt;p&gt;Обязательным пунктом в подготовке файла экспорта является выбор видов микроорганизмов, которые должны попасть в отчет. При нажатии кнопки &lt;strong&gt;Микроорганизмы&lt;/strong&gt; откроется окно &lt;strong&gt;Выбор микроорганизма&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-окно-выбор-микроорганизма&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-05.png&#34; data-caption=&#34;Окно Выбор микроорганизма&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-05.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Окно Выбор микроорганизма
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Последовательно кликая по названиям микроорганизмов в левой части окна, соберите необходимый перечень микроорганизмов для включения в отчет. Микроорганизмы можно также выбирать с использованием клавиш &lt;strong&gt;Ctrl&lt;/strong&gt; или &lt;strong&gt;Shift&lt;/strong&gt;. Выделенные микроорганизмы можно добавить в правую часть списка по кнопке &lt;strong&gt;&amp;ndash;&amp;gt;&lt;/strong&gt;. Удалить выбранные микроорганизмы можно с помощью кнопки &lt;strong&gt;&amp;lt;&amp;ndash;&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;изоляты&#34;&gt;Изоляты&lt;/h2&gt;
+&lt;p&gt;Дополнительные условия отбора штаммов для включения в отчет можно добавить, нажав кнопку &lt;strong&gt;Изоляты&lt;/strong&gt;. Откроется окно, где можно для каждого из параметров установить критерии выборки.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-окно-изоляты&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-06.png&#34; data-caption=&#34;Окно Изоляты&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-06.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Окно Изоляты
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Например, чтобы выбрать изоляты, выделенные только у мужчин старше 30 лет из отделения реанимации, нужно задать три условия:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Сначала создадим критерии отбора по полу. Дважды щелкните по полю &lt;strong&gt;Пол&lt;/strong&gt;, в открывшемся окне выберите &lt;strong&gt;m - Мужской пол&lt;/strong&gt;, нажмите кнопку &lt;strong&gt;&amp;ndash;&amp;gt;&lt;/strong&gt; и &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-установка-критерия-отбора-для-пола&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-06-01.png&#34; data-caption=&#34;Установка критерия отбора для пола&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-06-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Установка критерия отбора для пола
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Затем установим критерий для возраста. Дважды щелкните по полю &lt;strong&gt;Возраст&lt;/strong&gt;, в открывшемся окне в поле &lt;strong&gt;Greater than or equal&lt;/strong&gt; введите значение 30 и нажмите &lt;strong&gt;ОК&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-установка-критерия-отбора-для-возраста&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-06-02.png&#34; data-caption=&#34;Установка критерия отбора для возраста&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-06-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Установка критерия отбора для возраста
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;В качестве финального условия создадим критерий отбора по отделению. Дважды щелкните по полю &lt;strong&gt;Тип отделения&lt;/strong&gt;, в открывшемся окне дважды щелкните по &lt;strong&gt;icu - Отделение реанимации и интенсивной терапии&lt;/strong&gt; и нажмите &lt;strong&gt;ОК&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-установка-критерия-отбора-для-типа-отделения&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-06-03.png&#34; data-caption=&#34;Установка критерия отбора для типа отделения&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-06-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Установка критерия отбора для типа отделения
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Чтобы все наши три критерия работали вместе, установите переключатель &lt;strong&gt;Включить все изоляты, удовлетворяющие всем критериям&lt;/strong&gt;. Таким образом, окно критериев будет выглядеть следующим образом:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-окно-изоляты-с-установленными-критериями&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-06-04.png&#34; data-caption=&#34;Окно Изоляты с установленными критериями&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-06-04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Окно Изоляты с установленными критериями
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;файл-данных&#34;&gt;Файл данных&lt;/h2&gt;
+&lt;p&gt;Поскольку все условия отбора и форматирования данных заданы, необходимо указать файл с данными вашей лаборатории. Для этого нажмите кнопку &lt;strong&gt;Файлы данных&lt;/strong&gt; и укажите файл.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-окно-выбрать-файлы-данных&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-07.png&#34; data-caption=&#34;Окно Выбрать файлы данных&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-07.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Окно Выбрать файлы данных
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;предпросмотр&#34;&gt;Предпросмотр&lt;/h2&gt;
+&lt;p&gt;В результате всех этапов окно &lt;strong&gt;Анализ данных&lt;/strong&gt; примет вид, примерно как на рисунке.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-окно-анализ-данных-после-установки-всех-фильтров-и-критериев&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-08.png&#34; data-caption=&#34;Окно Анализ данных после установки всех фильтров и критериев&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-08.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Окно Анализ данных после установки всех фильтров и критериев
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Чтобы предварительно просмотреть, какие изоляты попадут в файл экспорта, выберите в пункте &lt;strong&gt;Результат&lt;/strong&gt; значение &lt;strong&gt;Экран&lt;/strong&gt; и нажмите &lt;strong&gt;Начать анализ&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-предпросмотр&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-preview.png&#34; data-caption=&#34;Предпросмотр&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-preview.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Предпросмотр
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Программа WHONET применит все критерии и условия анализа к вашему файлу данных лаборатории и выведет на экран изоляты, которые удовлетворяют этим условиям. Если результат отличен от ваших ожиданий, то можно изменить условия фильтрации и критерии отбора и повторить вывод на экран.&lt;/p&gt;
+&lt;h2 id=&#34;экспорт&#34;&gt;Экспорт&lt;/h2&gt;
+&lt;p&gt;Для того, чтобы экспортировать изоляты в файл, пригодный для конвертера, необходимо выбрать в пункте &lt;strong&gt;Результат&lt;/strong&gt; значение &lt;strong&gt;Текст (WHONET)&lt;/strong&gt; и задать путь, по которому файл будет сохранен. Окно &lt;strong&gt;Анализ данных&lt;/strong&gt; примет примерно следующий вид.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-окно-анализ-для-экспорта&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-09.png&#34; data-caption=&#34;Окно Анализ для экспорта&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/analysis-window-09.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Окно Анализ для экспорта
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Нажмите кнопку &lt;strong&gt;Начать анализ&lt;/strong&gt; и по указанному пути создастся файл, который будем загружать в конвертер. Этот процесс описан в 
+&lt;a href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/whonet-converter/02/&#34;&gt;следующем разделе&lt;/a&gt; данного руководства. Если открыть файл в Блокноте, то выглядит он примерно следующим образом.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-файл-экспорта&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/whonet-text-export.png&#34; data-caption=&#34;Файл экспорта&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/whonet-text-export.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Файл экспорта
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>2. Конвертация в AMRcloud</title>
+      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/whonet-converter/02/</link>
+      <pubDate>Fri, 14 Feb 2020 00:05:00 +0000</pubDate>
+      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/whonet-converter/02/</guid>
+      <description>&lt;p&gt;Для конвертации файла, полученного на 
+&lt;a href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/whonet-converter/01/&#34;&gt;шаге 1&lt;/a&gt; перейдите по ссылке 
+&lt;a href=&#34;https://public.amrcloud.net/whonet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://public.amrcloud.net/whonet&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;загрузка-файла&#34;&gt;Загрузка файла&lt;/h2&gt;
+&lt;p&gt;Для загрузки файла нажмите на кнопку &lt;strong&gt;Choose file&lt;/strong&gt; и выберите ваш файл экспорта из WHONET.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-загрузка-файла&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file.png&#34; data-caption=&#34;Загрузка файла&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Загрузка файла
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Загрузка файла начнется автоматически. По окончании загрузки система проверит содержимое файла, попытается его прочитать и выведет предпросмотр на экран.&lt;/p&gt;
+&lt;p&gt;Корректный файл должен удовлетворять следующим требованиям:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Размер файла не превышает 10 МБ;&lt;/li&gt;
+&lt;li&gt;Разделитель полей - табуляция;&lt;/li&gt;
+&lt;li&gt;Все имена столбцов уникальные.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Стандартный файл, полученный на 
+&lt;a href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/whonet-converter/01/&#34;&gt;шаге 1&lt;/a&gt; должен удовлетворять этим требованиям. В случае успешной загрузки вы увидите следующее.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-файл-успешно-загружен&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file-success.png&#34; data-caption=&#34;Файл успешно загружен&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file-success.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Файл успешно загружен
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Если же файл прочитался некорректно, вы увидите следующее сообщение:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-файл-содержит-ошибки&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file-error.png&#34; data-caption=&#34;Файл содержит ошибки&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/upload-file-error.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Файл содержит ошибки
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;В данном случае ошибка состоит в том, что столбец с именем FOX_ND30 встречается более одного раза в таблице. В случае таких ошибок дальнейшая конвертация невозможна.&lt;/p&gt;
+&lt;h2 id=&#34;конвертация-файла&#34;&gt;Конвертация файла&lt;/h2&gt;
+&lt;p&gt;Процесс конвертации файла заключается в замене кодов WHONET на обозначения, понятные &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.
+Такие замены производятся для:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Антибиотиков (столбцы вида CZX_ND30, VAN_NM, VAN_NE, где первая часть распознается как антибиотик, вторая как метод тестирования)&lt;/li&gt;
+&lt;li&gt;Организмов (замена значений столбца ORGANISM/МИКРООРГАНИЗМ, дополнительно добавляется столбец ORGANISM_GROUP)&lt;/li&gt;
+&lt;li&gt;Клинических материалов (замена значений столбца SPEC_TYPE)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;После успешной загрузки файла, нажмите кнопку &lt;strong&gt;Convert&lt;/strong&gt;. По окончании процесса конвертации на странице появится отчет о проделанных манипуляциях. Рассмотрим пример такого отчета.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-отчет-о-конвертации&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/convert-01.png&#34; data-caption=&#34;Отчет о конвертации&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/convert-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Отчет о конвертации
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Сначала выводятся предупреждения — это некоторые особенности, выявленные в процессе конвертации, на которые стоит обратить внимание. В данном случае такое предупреждение одно, и оно говорит нам о том, что в исходную таблицу был добавлен и автоматически заполнен новый столбец ORGANISM_GROUP. Это связано с тем, что при загрузке файла в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; требуется двухуровневая организация микроорганизмов.&lt;/p&gt;
+&lt;p&gt;Также возможно появление следующих сообщений в разделе Warnings:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Сообщение&lt;/th&gt;
+&lt;th&gt;Комментарий&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Converted table has multiple columns with antibiotic. Columns will be enumerated&lt;/td&gt;
+&lt;td&gt;Данное сообщение выводится когда при анализе столбцов с антибиотиками два и более антибиотика в результате перекодировки получают одинаковые замены. Например, в нашем случае в файле было два столбца AMK_ND30 и AMK_ND20. Каждый из них должен заменяться на amikacin_dd, но, чтобы сохранить данные тестирования и уникальность наименования столбцов, к новым именам дописывается цифра. Так AMK_ND30 становится amikacin_dd, а AMK_ND20 – amikacin_dd_1.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;No replacement found for …&lt;/td&gt;
+&lt;td&gt;Данное сообщение выводится, когда какое-либо значение, подлежащее замене, не было найдено в словаре. В таком случае сохраняется оригинальное написание. Сообщение выводится для того, чтобы Вы обратили внимание на данное значение и в случае необходимости произвели замену самостоятельно. Например, в нашем случае замены не были найдены для кода антибиотика AMM_NE и материала tt.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Table doesn’t has ORGANISM column&lt;/td&gt;
+&lt;td&gt;Данное сообщение выводится, когда при анализе таблицы, не было найдено столбца ORGANISM/МИКРООРГАНИЗМ. Данная ситуация не является критической ошибкой, а служит сигналом, что конвертированный файл не получится загрузить в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;  без информации о микроорганизмах.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-warning-сообщения&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/convert-02.png&#34; data-caption=&#34;Warning сообщения&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/amr-cloud-landing-hugo/img/tutorials/whonet-converter/ru/convert-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Warning сообщения
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;После предупреждений идут таблицы произведенных замен. Они приводятся для того, чтобы вы могли оценить правильность произведенных замен и, в случае необходимости, исправили некорректные замены самостоятельно.&lt;/p&gt;
+&lt;p&gt;Отдельно стоит обратить внимание на то, как формируется имя антибиотика на замену:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Название столбца разбивается на части до и после символа подчеркивания;&lt;/li&gt;
+&lt;li&gt;Первая часть заменяется согласно словарю;&lt;/li&gt;
+&lt;li&gt;Анализируется содержимое столбца антибиотика. Если находится хотя бы одно значение S, I или R, что дописывается код &lt;strong&gt;_sir&lt;/strong&gt;;&lt;/li&gt;
+&lt;li&gt;Если содержимое столбца антибиотика не содержит значений S, I или R, используется вторая часть названия оригинального столбца антибиотика и дописываются коды:
+&lt;ul&gt;
+&lt;li&gt;ND – &lt;strong&gt;_dd&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;NM – &lt;strong&gt;_mic&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;NE – &lt;strong&gt;_etest_mic&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Если и по анализу второй части оригинального названия столбца антибиотика не удалось определить метод тестирования, то дописывается код &lt;strong&gt;_mic&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;скачивание-файла&#34;&gt;Скачивание файла&lt;/h2&gt;
+&lt;p&gt;Чтобы скачать сконвертированный файл, нажмите кнопку &lt;strong&gt;Download&lt;/strong&gt;. Предполагается, что файл уже готов для загрузки в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; и не требует дополнительного редактирования (за исключением ситуации с Warning: Table doesn&amp;rsquo;t has ORGANISM column, описанной выше).&lt;/p&gt;
+&lt;p&gt;Как происходит процесс загрузки файла в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;, можно прочитать в соответствующем 
+&lt;a href=&#34;https://amrcloud.gitlab.io/amr-cloud-landing-hugo/ru/tutorials/import-data/&#34;&gt;руководстве&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

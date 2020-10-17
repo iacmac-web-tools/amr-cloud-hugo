@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Privacy Policy | AMRcloud</title>
-    <link>https://amrcloud.net/en/privacy-policy/</link>
-      <atom:link href="https://amrcloud.net/en/privacy-policy/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/privacy-policy/</link>
+      <atom:link href="https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/privacy-policy/index.xml" rel="self" type="application/rss+xml" />
     <description>Privacy Policy</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2020</copyright>
     <image>
-      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <url>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/img/amr-cloud-logo-text.png</url>
       <title>Privacy Policy</title>
-      <link>https://amrcloud.net/en/privacy-policy/</link>
+      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/privacy-policy/</link>
     </image>
     
     <item>
       <title>Privacy Policy</title>
-      <link>https://amrcloud.net/en/privacy-policy/20190926/</link>
+      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/privacy-policy/20190926/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://amrcloud.net/en/privacy-policy/20190926/</guid>
+      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/privacy-policy/20190926/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;Administration does not check the reliability of any information provided by you except as expressly permitted by the Terms of Use or Additional Terms and cannot consider its credibility as well as your legal capacity to provide it. Nonetheless, Administration relies on you to provide accurate and complete Personal Data and timely update it.&lt;/p&gt;

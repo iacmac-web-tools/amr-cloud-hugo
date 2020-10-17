@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | AMRcloud</title>
-    <link>https://amrcloud.net/en/publication/</link>
-      <atom:link href="https://amrcloud.net/en/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/publication/</link>
+      <atom:link href="https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2020</copyright>
     <image>
-      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <url>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/img/amr-cloud-logo-text.png</url>
       <title>Publications</title>
-      <link>https://amrcloud.net/en/publication/</link>
+      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/publication/</link>
     </image>
     
     <item>
       <title>Data handling as a basis for local antimicrobial resistance surveillance</title>
-      <link>https://amrcloud.net/en/publication/cmac-2020-t22-n2-p137/</link>
+      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/publication/cmac-2020-t22-n2-p137/</link>
       <pubDate>Thu, 28 May 2020 10:06:14 +0000</pubDate>
-      <guid>https://amrcloud.net/en/publication/cmac-2020-t22-n2-p137/</guid>
+      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/publication/cmac-2020-t22-n2-p137/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AMRcloud: a new paradigm in monitoring of antibiotic resistance</title>
-      <link>https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/</link>
+      <link>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/publication/cmac-2019-t21-n2-p119/</link>
       <pubDate>Thu, 10 Oct 2019 00:04:00 +0000</pubDate>
-      <guid>https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/</guid>
+      <guid>https://amrcloud.gitlab.io/amr-cloud-landing-hugo/en/publication/cmac-2019-t21-n2-p119/</guid>
       <description></description>
     </item>
     
