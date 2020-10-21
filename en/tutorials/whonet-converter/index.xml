@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Transform WHONET to AMRcloud | AMRcloud</title>
+    <title>Link WHONET to AMRcloud | AMRcloud</title>
     <link>https://amrcloud.net/en/tutorials/whonet-converter/</link>
       <atom:link href="https://amrcloud.net/en/tutorials/whonet-converter/index.xml" rel="self" type="application/rss+xml" />
-    <description>Transform WHONET to AMRcloud</description>
+    <description>Link WHONET to AMRcloud</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2020</copyright><lastBuildDate>Thu, 07 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
-      <title>Transform WHONET to AMRcloud</title>
+      <title>Link WHONET to AMRcloud</title>
       <link>https://amrcloud.net/en/tutorials/whonet-converter/</link>
     </image>
     
@@ -471,7 +471,7 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;data-files&#34;&gt;Data Files&lt;/h2&gt;
-&lt;p&gt;After setting the options, you should specify the WHONET datafaile to analize. Press the &lt;strong&gt;&amp;lsquo;Data files&amp;rsquo;&lt;/strong&gt; button and select your laboratory datafile.&lt;/p&gt;
+&lt;p&gt;After setting the options, you should specify the WHONET data file to analize. Press the &lt;strong&gt;&amp;lsquo;Data files&amp;rsquo;&lt;/strong&gt; button and select your laboratory data file.&lt;/p&gt;
 
 
 
@@ -669,11 +669,12 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
       <link>https://amrcloud.net/en/tutorials/whonet-converter/02/</link>
       <pubDate>Fri, 14 Feb 2020 00:05:00 +0000</pubDate>
       <guid>https://amrcloud.net/en/tutorials/whonet-converter/02/</guid>
-      <description>&lt;p&gt;To convert file from 
-&lt;a href=&#34;https://amrcloud.net/en/tutorials/whonet-converter/01/&#34;&gt;step 1&lt;/a&gt; of this tutorial,  follow the link 
+      <description>&lt;p&gt;The conversion of WHONET output file is needed in order to bring it to AMRcloud readable format. To convert the file from 
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/whonet-converter/01/&#34;&gt;step 1&lt;/a&gt;, use the following link: 
 &lt;a href=&#34;https://public.amrcloud.net/whonet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://public.amrcloud.net/whonet&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;upload-file&#34;&gt;Upload file&lt;/h2&gt;
-&lt;p&gt;Press the &lt;strong&gt;Choose file&lt;/strong&gt; button and select your export file from step 1.&lt;/p&gt;
+&lt;h2 id=&#34;uploading-a-file&#34;&gt;Uploading a File&lt;/h2&gt;
+&lt;p&gt;Press the &lt;strong&gt;&amp;lsquo;Choose file&amp;rsquo;&lt;/strong&gt; button and select the WHONET export file from 
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/whonet-converter/01/&#34;&gt;step 1&lt;/a&gt;.&lt;/p&gt;
 
 
 
@@ -691,10 +692,10 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 
 
 
-&lt;figure id=&#34;figure-загрузка-файла&#34;&gt;
+&lt;figure id=&#34;figure-file-upload&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file.png&#34; data-caption=&#34;Загрузка файла&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file.png&#34; data-caption=&#34;File upload&#34;&gt;
 
 
   &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file.png&#34; alt=&#34;&#34;  &gt;
@@ -704,21 +705,20 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
   
   
   &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-    Загрузка файла
+    File upload
   &lt;/figcaption&gt;
 
 
 &lt;/figure&gt;
 
-&lt;p&gt;The file upload will start automatically. When the upload is complete, the converter will check the contents of the file, try to read it, and display a preview on the screen.&lt;/p&gt;
+&lt;p&gt;The upload will start automatically. When the upload is complete, the converter checks the file content and previews it on screen.&lt;/p&gt;
 &lt;p&gt;The export file must meet the following requirements:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Maximum file size 10 MB;&lt;/li&gt;
-&lt;li&gt;Separator Tab;&lt;/li&gt;
+&lt;li&gt;Maximum size: 10 MB;&lt;/li&gt;
+&lt;li&gt;Column separator: Tab;&lt;/li&gt;
 &lt;li&gt;All column names must be unique.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The standard file from 
-&lt;a href=&#34;https://amrcloud.net/en/tutorials/whonet-converter/01/&#34;&gt;step 1&lt;/a&gt; meets these requirements. If the upload is successful, you will see the following.&lt;/p&gt;
+&lt;p&gt;If the upload is successful, you will see the following:&lt;/p&gt;
 
 
 
@@ -736,10 +736,10 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 
 
 
-&lt;figure id=&#34;figure-upload-is-successful&#34;&gt;
+&lt;figure id=&#34;figure-an-example-of-successful-file-upload&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file-success.png&#34; data-caption=&#34;Upload is successful&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file-success.png&#34; data-caption=&#34;An example of successful file upload&#34;&gt;
 
 
   &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file-success.png&#34; alt=&#34;&#34;  &gt;
@@ -749,13 +749,13 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
   
   
   &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-    Upload is successful
+    An example of successful file upload
   &lt;/figcaption&gt;
 
 
 &lt;/figure&gt;
 
-&lt;p&gt;If the file was not read correctly, you will see the error message:&lt;/p&gt;
+&lt;p&gt;If you see an error message, further file processing is not possible. In an example shown below, an error message is caused by the presence of duplicate column named &amp;lsquo;FOX_ND30&amp;rsquo;.&lt;/p&gt;
 
 
 
@@ -773,10 +773,10 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 
 
 
-&lt;figure id=&#34;figure-file-has-errors&#34;&gt;
+&lt;figure id=&#34;figure-an-example-of-error-file&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file-error.png&#34; data-caption=&#34;File has errors&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file-error.png&#34; data-caption=&#34;An example of error file&#34;&gt;
 
 
   &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file-error.png&#34; alt=&#34;&#34;  &gt;
@@ -786,23 +786,16 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
   
   
   &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-    File has errors
+    An example of error file
   &lt;/figcaption&gt;
 
 
 &lt;/figure&gt;
 
-&lt;p&gt;In this case, the error is that the column named FOX_ND30 occurs more than once in the table.&lt;/p&gt;
-&lt;p&gt;If you see any errors after file upload, it means that further conversion is impossible.&lt;/p&gt;
-&lt;h2 id=&#34;convert-file&#34;&gt;Convert file&lt;/h2&gt;
-&lt;p&gt;The main idea of the transformation process is to replace WHONET codes with another codes that the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; understands.&lt;/p&gt;
-&lt;p&gt;Replacements are made for:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Antibiotis (columns like CZX_ND30, VAN_NM, VAN_NE, where the first part is recognized as an antibiotic, the second as a testing method)&lt;/li&gt;
-&lt;li&gt;Microorganisms (replacing ORGANISM column values, and adding ORGANISM_GROUP column)&lt;/li&gt;
-&lt;li&gt;Clinic materials (replacing SPEC_TYPE column values)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;To convert uploaded file press the &lt;strong&gt;Convert&lt;/strong&gt; button. At the end of the transformation process, a report on the performed manipulations will appear on the page. The example of such a report is shown on figure 4.&lt;/p&gt;
+&lt;p&gt;Correct any errors and re-upload the file.&lt;/p&gt;
+&lt;h2 id=&#34;converting-a-file&#34;&gt;Converting a File&lt;/h2&gt;
+&lt;p&gt;To convert the uploaded file press the &lt;strong&gt;&amp;lsquo;Convert&amp;rsquo;&lt;/strong&gt; button.&lt;/p&gt;
+&lt;p&gt;During a conversion process, the WHONET abbreviated codes for antibiotics, microorganisms, and clinical materials are being replaced by the corresponding full names and &amp;lsquo;suffix codes&amp;rsquo; that can be read by the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;. In addition, the column named &amp;lsquo;ORGANISM_GROUP&amp;rsquo; is automatically added and filled in. This column is mandatory for the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; that uses a two-level hierarchy of organisms to allow reporting the combined susceptibilities for any organism group. Once the conversion is complete, a report is displayed, as shown in example in Figure 4.&lt;/p&gt;
 
 
 
@@ -839,27 +832,26 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 
 &lt;/figure&gt;
 
-&lt;p&gt;First, warnings are displayed - these are some features identified during the conversion process that you should pay attention to. In this case, there is only one warning and it says that a new column ORGANISM_GROUP has been added and automatically filled in the original table.&lt;/p&gt;
-&lt;p&gt;This is requirement field, because &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; uses two-level hierarchy for microorganisms.&lt;/p&gt;
+&lt;p&gt;On the top of the report, there are warnings from the conversion process that provide important information you should pay attention to. In the example above, the only warning message informs that the &amp;lsquo;ORGANISM_GROUP&amp;rsquo; column has been created. This is a standard warning that does not require any action, however, you may wish to change the organism groups manually at your discretion. Other warning messages you may see are explained below.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th&gt;Message&lt;/th&gt;
-&lt;th&gt;Comment&lt;/th&gt;
+&lt;th&gt;Warning message&lt;/th&gt;
+&lt;th&gt;Explanation&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;Converted table has multiple columns with antibiotic. Columns will be enumerated&lt;/td&gt;
-&lt;td&gt;This message is displayed when two or more antibiotics receives identical replacements as a result of recoding. For example, in our case, the file had two columns AMK_ND30 and AMK_ND20. Each of them should be replaced with amikacin_dd, but to preserve the test data and the uniqueness of the column names, a number is appended to the new names. So AMK_ND30 becomes amikacin_dd, and AMK_ND20 becomes amikacin_dd_1.&lt;/td&gt;
+&lt;td&gt;Columns with identical names have been enumerated&lt;/td&gt;
+&lt;td&gt;This message is displayed when two or more columns are translated with identical antibiotic names and suffixes. In the example shown below, the WHONET file contained two columns &amp;lsquo;AMK_ND30&amp;rsquo; and &amp;lsquo;AMK_ND20&amp;rsquo; that should have received the same name &amp;lsquo;amikacin_dd&amp;rsquo; upon convesion. To avoid duplication of column names, a number has been added to the name of the second column: &amp;lsquo;amikacin_1_dd&amp;rsquo;.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;No replacement found for …&lt;/td&gt;
-&lt;td&gt;This message is displayed when any value to be replaced was not found in the dictionary. In this case, the original value is preserved. You should pay attention to this value and, if necessary, make a replacement yourself. For example, in our case, no substitutions were found for the antibiotic code AMM_NE and material tt.&lt;/td&gt;
+&lt;td&gt;No translation has been found for…&lt;/td&gt;
+&lt;td&gt;This message is displayed when a name is not found in the translation table. In such case, the original name is preserved. If necessary, change the name(s) manually as required after finishing the conversion. In the example shown below, no translation has been found for the antibiotic code &amp;lsquo;AMM_NE&amp;rsquo; and the clinical material code &amp;lsquo;tt&amp;rsquo;.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;Table doesn’t has ORGANISM column&lt;/td&gt;
-&lt;td&gt;This message is displayed when the ORGANISM column was not found in the table. This situation is not a critical error, but it is a signal that the converted file cannot be uploaded to &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; without information about microorganisms.&lt;/td&gt;
+&lt;td&gt;The &amp;lsquo;ORGANISM&amp;rsquo; column is missing&lt;/td&gt;
+&lt;td&gt;This message is displayed when the &amp;lsquo;ORGANISM&amp;rsquo; column is missing in the uploaded file. This column is mandatory for the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -899,24 +891,22 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 
 &lt;/figure&gt;
 
-&lt;p&gt;After the warnings, there are replacement tables. You can evaluate the correctness of the replacements made and, if necessary, correct the incorrect ones yourself.&lt;/p&gt;
-&lt;p&gt;Attention! How the name of the replacement antibiotic is formed:&lt;/p&gt;
+&lt;p&gt;A list of translated codes appears below the warnings. Inspect the translations and, if necessary, correct them manually.&lt;/p&gt;
+&lt;p&gt;FYI: The following algorithm is used for the translation of antibiotic column names:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Column title is split before and after the underscore;&lt;/li&gt;
-&lt;li&gt;The first part is replaced according to the dictionary;&lt;/li&gt;
-&lt;li&gt;The content of the antibiotic column is analyzed. If at least one value of S, I or R is found, the code &lt;strong&gt;_sir&lt;/strong&gt; is appended;&lt;/li&gt;
-&lt;li&gt;If the antibiotic column does not contain S, I or R values, the second part of the name of the original antibiotic column is used and the following codes are appended:
+&lt;li&gt;The text string preceding the underscore (_) is translated into full antibiotic name using a &amp;lsquo;dictionary&amp;rsquo;;&lt;/li&gt;
+&lt;li&gt;If the column contains any &amp;lsquo;S&amp;rsquo;, &amp;lsquo;I&amp;rsquo;, or &amp;lsquo;R&amp;rsquo; values, the suffix &lt;strong&gt;&#39;_sir&amp;rsquo;&lt;/strong&gt; is appended to the end of antibiotic name;&lt;/li&gt;
+&lt;li&gt;In other cases, the suffix following the underscore (_) is translated and appended as follows:
 &lt;ul&gt;
-&lt;li&gt;ND – &lt;strong&gt;_dd&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;NM – &lt;strong&gt;_mic&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;NE – &lt;strong&gt;_etest_mic&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&amp;lsquo;ND&amp;rsquo; – &lt;strong&gt;&#39;_dd&amp;rsquo;&lt;/strong&gt;;&lt;/li&gt;
+&lt;li&gt;&amp;lsquo;NE&amp;rsquo; – &lt;strong&gt;&#39;_etest_mic&amp;rsquo;&lt;/strong&gt;;&lt;/li&gt;
+&lt;li&gt;&amp;lsquo;NM&amp;rsquo; (or any other suffix) – &lt;strong&gt;&#39;_mic&amp;rsquo;&lt;/strong&gt;;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;If it was not possible to determine the test method by analyzing the second part of the original name of the antibiotic column, then the code &lt;strong&gt;_mic&lt;/strong&gt; is added.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;download-file&#34;&gt;Download file&lt;/h2&gt;
-&lt;p&gt;To download converted file, press the &lt;strong&gt;Download&lt;/strong&gt; button. It is assumed that the file is already ready for uploading to &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; and does not require additional editing (except for the situation with Warning: Table doesn&amp;rsquo;t has ORGANISM column).&lt;/p&gt;
-&lt;p&gt;How to upload the file to &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;, you can found in the 
+&lt;h2 id=&#34;downloading-a-file&#34;&gt;Downloading a File&lt;/h2&gt;
+&lt;p&gt;To download the converted file, press the &lt;strong&gt;&amp;lsquo;Download&amp;rsquo;&lt;/strong&gt; button. The file should be ready to upload to the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; without additional modifications, except when you see critical warnings described above.&lt;/p&gt;
+&lt;p&gt;The import of data files using the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; Import Wizard is described in the 
 &lt;a href=&#34;https://amrcloud.net/en/tutorials/import-data/&#34;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>

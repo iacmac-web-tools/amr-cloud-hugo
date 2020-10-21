@@ -109,7 +109,7 @@
   
   <url>
     <loc>https://amrcloud.net/en/tutorials/whonet-converter/01/</loc>
-    <lastmod>2020-10-17T11:47:07+00:00</lastmod>
+    <lastmod>2020-10-18T09:09:54+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -124,7 +124,7 @@
   
   <url>
     <loc>https://amrcloud.net/en/tutorials/whonet-converter/</loc>
-    <lastmod>2020-10-17T11:47:07+00:00</lastmod>
+    <lastmod>2020-10-18T08:57:01+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -139,7 +139,7 @@
   
   <url>
     <loc>https://amrcloud.net/en/tutorials/whonet-converter/02/</loc>
-    <lastmod>2020-10-17T11:47:07+00:00</lastmod>
+    <lastmod>2020-10-18T18:28:58+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -149,6 +149,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://amrcloud.net/en/tutorials/whonet-converter/02/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/post/20201017-october-update/</loc>
+    <lastmod>2020-10-21T12:05:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/post/20201017-october-update/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/post/20201017-october-update/"
                 />
   </url>
   
@@ -259,7 +274,7 @@
   
   <url>
     <loc>https://amrcloud.net/en/pages/crowdfunding/</loc>
-    <lastmod>2020-10-17T14:38:44+03:00</lastmod>
+    <lastmod>2020-10-19T08:58:50+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -274,7 +289,7 @@
   
   <url>
     <loc>https://amrcloud.net/en/pages/</loc>
-    <lastmod>2020-10-17T14:38:44+03:00</lastmod>
+    <lastmod>2020-10-19T08:58:50+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -289,7 +304,7 @@
   
   <url>
     <loc>https://amrcloud.net/en/project/abphage/</loc>
-    <lastmod>2020-02-25T14:39:41+03:00</lastmod>
+    <lastmod>2020-03-18T17:21:44+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -319,7 +334,7 @@
   
   <url>
     <loc>https://amrcloud.net/en/publication/cmac-2019-t21-n2-p119/</loc>
-    <lastmod>2020-02-25T14:39:41+03:00</lastmod>
+    <lastmod>2020-03-18T17:21:44+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -334,32 +349,32 @@
   
   <url>
     <loc>https://amrcloud.net/en/authors/avramenko-a.a./</loc>
-    <lastmod>2020-02-25T14:39:41+03:00</lastmod>
+    <lastmod>2020-03-18T17:21:44+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://amrcloud.net/en/authors/dekhnich-a.v./</loc>
-    <lastmod>2020-02-25T14:39:41+03:00</lastmod>
+    <lastmod>2020-03-18T17:21:44+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://amrcloud.net/en/authors/edelstein-m.v./</loc>
-    <lastmod>2020-02-25T14:39:41+03:00</lastmod>
+    <lastmod>2020-03-18T17:21:44+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://amrcloud.net/en/authors/kozlov-r.s./</loc>
-    <lastmod>2020-02-25T14:39:41+03:00</lastmod>
+    <lastmod>2020-03-18T17:21:44+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://amrcloud.net/en/authors/trushin-i.v./</loc>
-    <lastmod>2020-02-25T14:39:41+03:00</lastmod>
+    <lastmod>2020-03-18T17:21:44+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://amrcloud.net/en/privacy-policy/20190926/</loc>
-    <lastmod>2020-02-25T14:39:41+03:00</lastmod>
+    <lastmod>2020-03-18T17:21:44+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -374,7 +389,7 @@
   
   <url>
     <loc>https://amrcloud.net/en/terms-of-use/20190926/</loc>
-    <lastmod>2020-02-25T14:39:41+03:00</lastmod>
+    <lastmod>2020-03-18T17:21:44+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -404,7 +419,7 @@
   
   <url>
     <loc>https://amrcloud.net/en/authors/admin/</loc>
-    <lastmod>2020-02-25T14:39:41+03:00</lastmod>
+    <lastmod>2020-03-18T17:21:44+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -419,7 +434,7 @@
   
   <url>
     <loc>https://amrcloud.net/en/authors/kuzmenkov-ay/</loc>
-    <lastmod>2020-02-25T14:39:41+03:00</lastmod>
+    <lastmod>2020-03-18T17:21:44+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -434,7 +449,7 @@
   
   <url>
     <loc>https://amrcloud.net/en/authors/vinogradova-ag/</loc>
-    <lastmod>2020-02-25T14:39:41+03:00</lastmod>
+    <lastmod>2020-03-18T17:21:44+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -449,7 +464,7 @@
   
   <url>
     <loc>https://amrcloud.net/en/</loc>
-    <lastmod>2020-02-25T14:39:41+03:00</lastmod>
+    <lastmod>2020-03-18T17:21:44+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -464,7 +479,7 @@
   
   <url>
     <loc>https://amrcloud.net/en/tutorials/</loc>
-    <lastmod>2020-02-25T14:39:41+03:00</lastmod>
+    <lastmod>2020-03-18T17:21:44+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -479,7 +494,7 @@
   
   <url>
     <loc>https://amrcloud.net/en/authors/avramenko-aa/</loc>
-    <lastmod>2020-02-25T14:39:41+03:00</lastmod>
+    <lastmod>2020-03-18T17:21:44+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -508,7 +523,7 @@
   
   <url>
     <loc>https://amrcloud.net/en/authors/trushin-iv/</loc>
-    <lastmod>2020-02-25T14:39:41+03:00</lastmod>
+    <lastmod>2020-03-18T17:21:44+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -523,7 +538,7 @@
   
   <url>
     <loc>https://amrcloud.net/en/authors/edelstein-mv/</loc>
-    <lastmod>2020-02-25T14:39:41+03:00</lastmod>
+    <lastmod>2020-03-18T17:21:44+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -538,7 +553,7 @@
   
   <url>
     <loc>https://amrcloud.net/en/post/</loc>
-    <lastmod>2020-02-25T14:39:41+03:00</lastmod>
+    <lastmod>2020-03-18T17:21:44+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -553,7 +568,7 @@
   
   <url>
     <loc>https://amrcloud.net/en/privacy-policy/</loc>
-    <lastmod>2020-02-25T14:39:41+03:00</lastmod>
+    <lastmod>2020-03-18T17:21:44+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -612,7 +627,7 @@
   
   <url>
     <loc>https://amrcloud.net/en/terms-of-use/</loc>
-    <lastmod>2020-02-25T14:39:41+03:00</lastmod>
+    <lastmod>2020-03-18T17:21:44+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"

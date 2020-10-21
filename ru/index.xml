@@ -2978,6 +2978,21 @@ File**→** Save with Encoding **→** Windows-1251.
     </item>
     
     <item>
+      <title>Октябрьское обновление AMRcloud</title>
+      <link>https://amrcloud.net/ru/post/20201017-october-update/</link>
+      <pubDate>Sat, 17 Oct 2020 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/ru/post/20201017-october-update/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;добавлена возможность импорта данных из WHONET;&lt;/li&gt;
+&lt;li&gt;добавлен 
+&lt;a href=&#34;https://public.amrcloud.net/whonet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;онлайн конвертер&lt;/a&gt; для текстовых файлов экспорта WHONET;&lt;/li&gt;
+&lt;li&gt;добавлено 
+&lt;a href=&#34;https://amrcloud.net/tutorials/whonet-converter&#34;&gt;руководство&lt;/a&gt; по экспорту/конвертации данных из WHONET.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Сентябрьское обновление AMRcloud</title>
       <link>https://amrcloud.net/ru/post/20200909-september-update/</link>
       <pubDate>Wed, 02 Sep 2020 21:00:00 +0300</pubDate>
