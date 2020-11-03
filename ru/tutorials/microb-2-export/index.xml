@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Экспорт из Микроб-2 в AMRcloud | AMRcloud</title>
+    <link>https://amrcloud.net/ru/tutorials/microb-2-export/</link>
+      <atom:link href="https://amrcloud.net/ru/tutorials/microb-2-export/index.xml" rel="self" type="application/rss+xml" />
+    <description>Экспорт из Микроб-2 в AMRcloud</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2020</copyright><lastBuildDate>Tue, 03 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <title>Экспорт из Микроб-2 в AMRcloud</title>
+      <link>https://amrcloud.net/ru/tutorials/microb-2-export/</link>
+    </image>
+    
+    <item>
+      <title>Создание файла</title>
+      <link>https://amrcloud.net/ru/tutorials/microb-2-export/01/</link>
+      <pubDate>Tue, 03 Nov 2020 00:01:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/microb-2-export/01/</guid>
+      <description>&lt;p&gt;Файл экспорта представляет собой текстовый файл, использующий в качестве разделителя полей символ табуляции и имеющий кодировку WIN1251. Формирование файла выполняется на основании данных, входящих в предварительно созданный список отобранных анализов.&lt;/p&gt;
+&lt;p&gt;Для создания списка отобранных анализов вызовите команду меню &lt;strong&gt;Журнал&lt;/strong&gt; , &lt;strong&gt;Параметры отбора&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;В появившемся окне задайте параметры отбора. Как минимум, следует задать название журнала и период выдачи.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-окно-параметры-отбора&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/microb-2-export/microb-2-01.png&#34; data-caption=&#34;Окно Параметры отбора&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/microb-2-export/microb-2-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Окно Параметры отбора
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Следует задавать именно периоды выдачи, тем самым отбирая выданные (готовые) анализы для экспорта.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-окно-параметры-отбора-период-выдачи&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/microb-2-export/microb-2-02.png&#34; data-caption=&#34;Окно Параметры отбора. Период выдачи&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/microb-2-export/microb-2-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Окно Параметры отбора. Период выдачи
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;После завершения установки параметров нажмите &lt;strong&gt;Да&lt;/strong&gt; для формирования &lt;strong&gt;Списка отобранных анализов&lt;/strong&gt;:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-журнал-список-отобранных-анализов&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/microb-2-export/microb-2-03.png&#34; data-caption=&#34;Журнал. Список отобранных анализов&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/microb-2-export/microb-2-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Журнал. Список отобранных анализов
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Для формирования файла вызовите контекстное меню кликнув правой клавишей мыши по списку отобранных анализов и выберите &lt;strong&gt;Экспорт данных для мониторинга&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-меню-списка-отобранных-анализов&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/microb-2-export/microb-2-04.png&#34; data-caption=&#34;Меню списка отобранных анализов&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/microb-2-export/microb-2-04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Меню списка отобранных анализов
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Задайте имя файла и нажмите кнопку &lt;strong&gt;Сохранить&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-сохранение-файла&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/microb-2-export/microb-2-05.png&#34; data-caption=&#34;Сохранение файла&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/microb-2-export/microb-2-05.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Сохранение файла
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Начнется процесс экспорта данных, по окончании которого появится сообщение о его завершении. Пример такого сообщения показан на рисунке.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-сообщение-о-завершении-экспорта&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/microb-2-export/microb-2-06.png&#34; data-caption=&#34;Сообщение о завершении экспорта&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/microb-2-export/microb-2-06.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Сообщение о завершении экспорта
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    В файл экспортируются данные о выделенных микроорганизмах и их чувствительности к антибиотикам. Поэтому указанное количество анализов в сообщении о завершении может отличаться от количества анализов в отобранном списке, куда могут входить отрицательные анализы (анализы без выделенных микроорганизмов).
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Пример созданного файла, загруженного в программу MS Excel, показан на рисунке.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-файл-открытый-в-ms-excel&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/microb-2-export/microb-2-07.png&#34; data-caption=&#34;Файл, открытый в MS Excel&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/microb-2-export/microb-2-07.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Файл, открытый в MS Excel
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Файл содержит анонимизированные данные названий отделений: названия отделений трансформируются в название типа «Отделение#062», где «062» генерируемый код.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Для импорта файла в MS Excel воспользуйтесь меню &lt;strong&gt;Данные&lt;/strong&gt;, разделом &lt;strong&gt;Получение внешних данных&lt;/strong&gt; и кнопкой &lt;strong&gt;Из текста&lt;/strong&gt;. Выберите созданный файл и при импорте укажите формат файла: «1251 : Кириллица (Windows)», символ-разделитель: «Знак табуляции». Формат данных столбцов следует указывать как «текстовый», иначе некоторые значения могут быть автоматически преобразованы, например, значение МПК «4/4» может быть преобразовано в дату «04-апр».&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Созданный файл может быть загружен в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; для анализа. Как загрузить полученный файл подробно описано в &lt;a href=&#34;https://amrcloud.net/ru/tutorials/import-data/&#34;&gt;Руководстве «AMRcloud. Импорт данных»&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

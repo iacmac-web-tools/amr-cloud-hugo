@@ -13,6 +13,24 @@
     </image>
     
     <item>
+      <title>Интеграция с Микроб-2</title>
+      <link>https://amrcloud.net/ru/post/20201103-microb-2/</link>
+      <pubDate>Tue, 03 Nov 2020 15:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/ru/post/20201103-microb-2/</guid>
+      <description>&lt;p&gt;Мы рады сообщить, что для пользователей МИКРОБ-2 доступно бесплатное обновление, позволяющее формировать файлы для передачи в AMRcloud. Теперь не нужно самим собирать таблицы и можно значительно сэкономить время.&lt;/p&gt;
+&lt;p&gt;Скачать обновление можно по ссылкам:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.medproject-3.com/project/downloads/updates/20201027/SetupMicrobe2Guard7.erba.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Для Микроб-2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.medproject-3.com/project/downloads/updates/20201027/SetupMicrobeAutomatGuard7.erba.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Для Микроб-Автомат&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Также доступно руководство 
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/microb-2-export/&#34;&gt;Экспорт из Микроб-2 в AMRcloud&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Октябрьское обновление AMRcloud</title>
       <link>https://amrcloud.net/ru/post/20201017-october-update/</link>
       <pubDate>Sat, 17 Oct 2020 09:00:00 +0300</pubDate>
