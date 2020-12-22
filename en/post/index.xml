@@ -13,6 +13,20 @@
     </image>
     
     <item>
+      <title>AMRcloud December update</title>
+      <link>https://amrcloud.net/en/post/20201222-december-update/</link>
+      <pubDate>Tue, 22 Dec 2020 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/en/post/20201222-december-update/</guid>
+      <description>&lt;p&gt;AMRcloud has been updated to version 0.3 with the following features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;added buttons for changing steps when importing data;&lt;/li&gt;
+&lt;li&gt;added button for creating full-page screenshots;&lt;/li&gt;
+&lt;li&gt;added ability to replace missing quantitative values when importing data.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>AMRcloud October update</title>
       <link>https://amrcloud.net/en/post/20201017-october-update/</link>
       <pubDate>Sat, 17 Oct 2020 09:00:00 +0300</pubDate>

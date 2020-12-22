@@ -13,6 +13,21 @@
     </image>
     
     <item>
+      <title>Декабрьское обновление AMRcloud</title>
+      <link>https://amrcloud.net/ru/post/20201222-december-update/</link>
+      <pubDate>Tue, 22 Dec 2020 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/ru/post/20201222-december-update/</guid>
+      <description>&lt;p&gt;Уважаемые коллеги, платформа для анализа пользовательских данных антибиотикорезистентности AMRcloud обновлена до версии 0.3.&lt;/p&gt;
+&lt;p&gt;В обновлении:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;добавлены кнопки переключения шагов при импорте данных&lt;/li&gt;
+&lt;li&gt;добавлена возможность создания скриншотов страницы&lt;/li&gt;
+&lt;li&gt;добавлена возможность замены пропущенных количественных значений при импорте данных.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Использование IT-платформы AMRcloud для формирования локальной системы мониторинга антибиотикорезистентности</title>
       <link>https://amrcloud.net/ru/post/20201125-amrcloud-monitoring/</link>
       <pubDate>Wed, 25 Nov 2020 15:00:00 +0300</pubDate>
