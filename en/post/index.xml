@@ -19,9 +19,9 @@
       <guid>https://amrcloud.net/en/post/20201222-december-update/</guid>
       <description>&lt;p&gt;AMRcloud has been updated to version 0.3 with the following features:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;added buttons for changing steps when importing data;&lt;/li&gt;
-&lt;li&gt;added button for creating full-page screenshots;&lt;/li&gt;
-&lt;li&gt;added ability to replace missing quantitative values when importing data.&lt;/li&gt;
+&lt;li&gt;added wizard steps navigation buttons;&lt;/li&gt;
+&lt;li&gt;added full page screenshot button;&lt;/li&gt;
+&lt;li&gt;added ability to auto-fill missing values for a quantitative variable.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
