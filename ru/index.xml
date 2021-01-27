@@ -5,7 +5,7 @@
     <link>https://amrcloud.net/ru/</link>
       <atom:link href="https://amrcloud.net/ru/index.xml" rel="self" type="application/rss+xml" />
     <description>AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2020</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2021</copyright>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>AMRcloud</title>
@@ -3468,6 +3468,26 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;p&gt;Чтобы скачать сконвертированный файл, нажмите кнопку &lt;strong&gt;Download&lt;/strong&gt;. Предполагается, что файл уже готов для загрузки в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; и не требует дополнительного редактирования (за исключением ситуации с Warning: Table doesn&amp;rsquo;t has ORGANISM column, описанной выше).&lt;/p&gt;
 &lt;p&gt;Как происходит процесс загрузки файла в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;, можно прочитать в соответствующем 
 &lt;a href=&#34;https://amrcloud.net/ru/tutorials/import-data/&#34;&gt;руководстве&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Январское обновление AMRcloud</title>
+      <link>https://amrcloud.net/ru/post/20210127-january-update/</link>
+      <pubDate>Wed, 27 Jan 2021 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/ru/post/20210127-january-update/</guid>
+      <description>&lt;p&gt;Уважаемые коллеги, платформа для анализа пользовательских данных антибиотикорезистентности AMRcloud обновлена до версии 0.4.&lt;/p&gt;
+&lt;p&gt;В обновлении:&lt;/p&gt;
+&lt;p&gt;добавлены краткие отчеты о результатах импорта данных на первом и втором шаге&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;добавлено формирование отчета о видах микроорганизмов, для которых не найдены критерии интерпретации&lt;/li&gt;
+&lt;li&gt;добавлена анимация при обработке данных на четвертом шаге&lt;/li&gt;
+&lt;li&gt;добавлена возможность создания сценария импорта данных&lt;/li&gt;
+&lt;li&gt;добавлена возможность смены цветовых схем графиков&lt;/li&gt;
+&lt;li&gt;улучшена стаблильность загрузки .xlsx и .xls файлов&lt;/li&gt;
+&lt;li&gt;при анализе данных на интерфейсе сохраняется исходное пользовательское название столбца с датой&lt;/li&gt;
+&lt;li&gt;улучшения стабильности работы&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

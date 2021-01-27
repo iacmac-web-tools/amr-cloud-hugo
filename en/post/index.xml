@@ -5,12 +5,31 @@
     <link>https://amrcloud.net/en/post/</link>
       <atom:link href="https://amrcloud.net/en/post/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2020</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2021</copyright>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>News</title>
       <link>https://amrcloud.net/en/post/</link>
     </image>
+    
+    <item>
+      <title>AMRcloud January update</title>
+      <link>https://amrcloud.net/en/post/20210127-january-update/</link>
+      <pubDate>Wed, 27 Jan 2021 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/en/post/20210127-january-update/</guid>
+      <description>&lt;p&gt;AMRcloud has been updated to version 0.4 with the following features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;added summary reports on data import at Step 1 and Step 2 of Data Import Wizard&lt;/li&gt;
+&lt;li&gt;added report on microorganism species for which interpretive criteria are not available&lt;/li&gt;
+&lt;li&gt;added data processing animation at Step 4 of Data Import Wizard&lt;/li&gt;
+&lt;li&gt;added ability to save scripts for repeated data import&lt;/li&gt;
+&lt;li&gt;added ability to change color schemes of graphs&lt;/li&gt;
+&lt;li&gt;improved stability of loading .xlsx and .xls files&lt;/li&gt;
+&lt;li&gt;user-defined name of the Date column is retained in the interface&lt;/li&gt;
+&lt;li&gt;other stability improvements&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>AMRcloud December update</title>

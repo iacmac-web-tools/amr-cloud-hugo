@@ -5,7 +5,7 @@
     <link>https://amrcloud.net/en/</link>
       <atom:link href="https://amrcloud.net/en/index.xml" rel="self" type="application/rss+xml" />
     <description>AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2020</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2021</copyright>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>AMRcloud</title>
@@ -2518,6 +2518,25 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;p&gt;To download the converted file, press the &lt;strong&gt;&amp;lsquo;Download&amp;rsquo;&lt;/strong&gt; button. The file should be ready to upload to the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; without additional modifications, except when you see critical warnings described above.&lt;/p&gt;
 &lt;p&gt;The import of data files using the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; Import Wizard is described in the 
 &lt;a href=&#34;https://amrcloud.net/en/tutorials/import-data/&#34;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AMRcloud January update</title>
+      <link>https://amrcloud.net/en/post/20210127-january-update/</link>
+      <pubDate>Wed, 27 Jan 2021 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/en/post/20210127-january-update/</guid>
+      <description>&lt;p&gt;AMRcloud has been updated to version 0.4 with the following features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;added summary reports on data import at Step 1 and Step 2 of Data Import Wizard&lt;/li&gt;
+&lt;li&gt;added report on microorganism species for which interpretive criteria are not available&lt;/li&gt;
+&lt;li&gt;added data processing animation at Step 4 of Data Import Wizard&lt;/li&gt;
+&lt;li&gt;added ability to save scripts for repeated data import&lt;/li&gt;
+&lt;li&gt;added ability to change color schemes of graphs&lt;/li&gt;
+&lt;li&gt;improved stability of loading .xlsx and .xls files&lt;/li&gt;
+&lt;li&gt;user-defined name of the Date column is retained in the interface&lt;/li&gt;
+&lt;li&gt;other stability improvements&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
