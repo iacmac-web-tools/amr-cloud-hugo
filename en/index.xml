@@ -2522,6 +2522,23 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
     </item>
     
     <item>
+      <title>AMRcloud February update</title>
+      <link>https://amrcloud.net/en/post/20210212-february-update/</link>
+      <pubDate>Fri, 12 Feb 2021 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/en/post/20210212-february-update/</guid>
+      <description>&lt;h3 id=&#34;amrcloud-february-update&#34;&gt;AMRcloud February update:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;added automated interpretation of MIC and DD data using 
+&lt;a href=&#34;https://www.eucast.org/clinical_breakpoints/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EUCAST v11.0 (2021)&lt;/a&gt; breakpoints;&lt;/li&gt;
+&lt;li&gt;EUCAST ECOFFs have been updated to the latest state.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;caz-avi-disk-a-new-public-dataset-hosted-on-amrcloud&#34;&gt;CAZ-AVI Disk: a new public dataset hosted on AMRcloud&lt;/h3&gt;
+&lt;p&gt;New 
+&lt;a href=&#34;../../project/cazavi-1-2/&#34;&gt;public dataset&lt;/a&gt; has been hosted on the AMRcloud platform which presents the data on in vitro activity of ceftazidime-avibactam, cephalosporins, and carbapenems against clinical isolates of Enterobacterales and &lt;em&gt;Pseudomonas aeruginosa&lt;/em&gt; collected in 160 hospitals, 61 cities in Russia.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>CAZ-AVI Disk Study</title>
       <link>https://amrcloud.net/en/project/cazavi-1-2/</link>
       <pubDate>Tue, 09 Feb 2021 15:00:00 +0000</pubDate>

@@ -3472,6 +3472,26 @@ File**→** Save with Encoding **→** Windows-1251.
     </item>
     
     <item>
+      <title>Февральское обновление AMRcloud</title>
+      <link>https://amrcloud.net/ru/post/20210212-february-update/</link>
+      <pubDate>Fri, 12 Feb 2021 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/ru/post/20210212-february-update/</guid>
+      <description>&lt;h3 id=&#34;февральское-обновление-amrcloud&#34;&gt;Февральское обновление AMRcloud:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Добавлены критерии 
+&lt;a href=&#34;https://www.eucast.org/clinical_breakpoints/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EUCAST v11.0 (2021)&lt;/a&gt;. Полный список доступных антимикробных препаратов для автоматической интерпретации в AMRcloud представлен в 
+&lt;a href=&#34;eucast2021_ab_list.xlsx&#34;&gt;таблице&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Критерии 
+&lt;a href=&#34;http://www.eucast.org/mic_distributions_and_ecoffs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EUCAST ECOFF (epidemiological cut-off values)&lt;/a&gt; были актуализированы.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;исследование-caz-avi&#34;&gt;Исследование “CAZ-AVI”&lt;/h3&gt;
+&lt;p&gt;Обновлены данные открытого проекта: 
+&lt;a href=&#34;../../project/cazavi-1-2/&#34;&gt;Исследование «CAZ-AVI»&lt;/a&gt; — Оценка чувствительности клинических изолятов Enterobacterales и &lt;em&gt;Pseudomonas aeruginosa&lt;/em&gt; к цефтазидиму/авибактаму в России с помощью диско-диффузионного метода.&lt;/p&gt;
+&lt;p&gt;Теперь проект включает данные второго этапа исследования: 22 тыс. бактериальных изолятов из 61 города РФ.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Исследование &#34;CAZ-AVI&#34;</title>
       <link>https://amrcloud.net/ru/project/cazavi-1-2/</link>
       <pubDate>Tue, 09 Feb 2021 15:00:00 +0000</pubDate>
