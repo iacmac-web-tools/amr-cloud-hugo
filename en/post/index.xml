@@ -13,6 +13,28 @@
     </image>
     
     <item>
+      <title>AMRcloud March update</title>
+      <link>https://amrcloud.net/en/post/20210331-march-update/</link>
+      <pubDate>Wed, 31 Mar 2021 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/en/post/20210331-march-update/</guid>
+      <description>&lt;h3 id=&#34;amrcloud-march-update&#34;&gt;AMRcloud March update:&lt;/h3&gt;
+&lt;p&gt;AMRcloud has been updated to version 0.5:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;added option of indicating antibiotic disk content in column headings containing disk diffusion (_dd) test results. Column headings such as &lt;code&gt;cefotaxime_5_dd&lt;/code&gt; or &lt;code&gt;piperacillin-tazobactam_30-6_dd&lt;/code&gt; are processed automatically using the appropriate interpretive criteria;&lt;/li&gt;
+&lt;li&gt;added ability to automatically create organism groups from species names;&lt;/li&gt;
+&lt;li&gt;improved recognition of organism species and sub-species names;&lt;/li&gt;
+&lt;li&gt;implemented new graphing system;&lt;/li&gt;
+&lt;li&gt;added ability to display charts using graphical patterns;&lt;/li&gt;
+&lt;li&gt;improved color and readability of charts’ X-axis labels;&lt;/li&gt;
+&lt;li&gt;added ability of X-axis zooming and panning to improve readability of charts with multiple X-axis values;&lt;/li&gt;
+&lt;li&gt;added global setting of graphic export format (.svg or .png);&lt;/li&gt;
+&lt;li&gt;added display of selected interpretive criteria in dataset view opened from a web link;&lt;/li&gt;
+&lt;li&gt;improved stability of file uploads.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>AMRcloud February update</title>
       <link>https://amrcloud.net/en/post/20210212-february-update/</link>
       <pubDate>Fri, 12 Feb 2021 09:00:00 +0300</pubDate>
