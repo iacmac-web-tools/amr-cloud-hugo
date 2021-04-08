@@ -2522,6 +2522,90 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
     </item>
     
     <item>
+      <title>DeMaRes Study</title>
+      <link>https://amrcloud.net/en/project/demares/</link>
+      <pubDate>Thu, 08 Apr 2021 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/en/project/demares/</guid>
+      <description>&lt;h3 id=&#34;organizers&#34;&gt;Organizers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Interregional Association for Clinical Microbiology and Antimicrobial Chemotherapy (IACMAC)&lt;/li&gt;
+&lt;li&gt;Institute of Antimicrobial Chemotherapy (IAC), Smolensk State Medical University&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;annotation&#34;&gt;Annotation&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Mycoplasma genitalium&lt;/em&gt; is a common sexually transmitted pathogen in men and women.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Mycoplasma pneumoniae&lt;/em&gt; is an ‘atypical’ bacterial pathogen that causes lower respiratory infections, including pneumonia and tracheobronchitis, and less commonly, upper respiratory tract infections.&lt;/p&gt;
+&lt;p&gt;This dataset presents the results of longitudinal surveillance study of mutational resistance to macrolides (mutations in domain V of the 23S rRNA gene) and fluoroquinolones (mutations in quinolone resistance-determining regions (QRDRs) of &lt;em&gt;gyrA&lt;/em&gt; and &lt;em&gt;parC&lt;/em&gt; genes) of &lt;em&gt;M. genitalium&lt;/em&gt; and &lt;em&gt;M. pneumoniae&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;sources-of-clinical-samples&#34;&gt;Sources of clinical samples&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;M. genitalium&lt;/em&gt; PCR-positive urogenital samples (n=873) were collected in four regions of Russia: Moscow, Nizhny Novgorod, Saratov, Smolensk, and Tula, in 2009-2019.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;M. pneumoniae&lt;/em&gt; PCR-positive samples (n=1480) were collected in twelve regions of Russia: Bryansk, Khabarovsk, Krasnoyarsk, Mari El Republic, Moscow, Moscow Region, Nizhny Novgorod, Penza, Smolensk, Sverdlovsk, Tula, and Yaroslavl, in 2006-2020.&lt;/p&gt;
+&lt;p&gt;All samples were collected as part of routine diagnostics for genitourinary and respiratory infections and were non-duplicate (represented individual patients/cases of infection). PCR-positive samples were referred to the IAC central laboratory for analysis of antibiotic resistance-associated mutations&lt;/p&gt;
+&lt;h3 id=&#34;detection-of-macrolide-and-fluoroquinolone-resistance-associated-mutations&#34;&gt;Detection of macrolide and fluoroquinolone resistance-associated mutations&lt;/h3&gt;
+&lt;p&gt;Single nucleotide substitutions at positions 2058-2062 and 2611 of domain V of the 23S rRNA and mutations conferring amino acid (aa) changes at QRDR regions of ParC (aa positions 79-84) and GyrA (aa positions 83-87) were detected by means of probe-based real-time PCR assays  and were confirmed by independent PCR amplification and Sanger sequencing of the corresponding gene fragments [2-4].&lt;/p&gt;
+&lt;p&gt;The data on the types of mutations detected is presented under the ‘Markers’ section of the website.&lt;/p&gt;
+&lt;h3 id=&#34;study-group&#34;&gt;Study group:&lt;/h3&gt;
+&lt;h4 id=&#34;iac-laboratory&#34;&gt;IAC laboratory:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Edelstein I.A.,&lt;/li&gt;
+&lt;li&gt;Romanov A.V.,&lt;/li&gt;
+&lt;li&gt;Edelstein M.V.,&lt;/li&gt;
+&lt;li&gt;Kuzmenkov A.Yu.,&lt;/li&gt;
+&lt;li&gt;Kozlov R.S.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;participating-centers&#34;&gt;Participating centers:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Aksyutina G.V. (Bryansk)&lt;/li&gt;
+&lt;li&gt;Alyabyeva N.A. (Moscow)&lt;/li&gt;
+&lt;li&gt;Borisov I.V. (Saratov)&lt;/li&gt;
+&lt;li&gt;Groshenkova E.V. (Yaroslavl)&lt;/li&gt;
+&lt;li&gt;Ershova M.G. (Yaroslavl)&lt;/li&gt;
+&lt;li&gt;Enikeeva F.S. (Penza)&lt;/li&gt;
+&lt;li&gt;Zaitsev A.A. (Moscow)&lt;/li&gt;
+&lt;li&gt;Zubareva L.M. (Smolensk)&lt;/li&gt;
+&lt;li&gt;Ignatkova A.S. (Tula)&lt;/li&gt;
+&lt;li&gt;Ivanova O.V. (Smolensk)&lt;/li&gt;
+&lt;li&gt;Ivanova I.A. (Yoshkar-Ola)&lt;/li&gt;
+&lt;li&gt;Kolesnikova E.A. (Nizhny Novgorod)&lt;/li&gt;
+&lt;li&gt;Nagovitsyna E.B. (Khabarovsk)&lt;/li&gt;
+&lt;li&gt;Novikova O.P. (Tula)&lt;/li&gt;
+&lt;li&gt;Pleskachevskaya T.A. (Smolensk)&lt;/li&gt;
+&lt;li&gt;Protasova I.N. (Krasnoyarsk)&lt;/li&gt;
+&lt;li&gt;Rakovskaya I.V. (Moscow)&lt;/li&gt;
+&lt;li&gt;Rudneva N.S. (Tula)&lt;/li&gt;
+&lt;li&gt;Romashov O.I. (Smolensk)&lt;/li&gt;
+&lt;li&gt;Semenova O.L. (Bryansk)&lt;/li&gt;
+&lt;li&gt;Starodubova I.G. (Yekaterinburg)&lt;/li&gt;
+&lt;li&gt;Yatsyshina S.B. (Moscow)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;media&#34;&gt;
+  &lt;div class=&#34;media-body&#34;&gt;
+    &lt;h3 class=&#34;mt-0 mb-1&#34;&gt;Coordinator&lt;/h3&gt;
+    &lt;h5&gt;Inna Edelstein, PhD&lt;/h5&gt;
+    &lt;p&gt;Head, Laboratory of Molecular Diagnostics, IAC&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&#34;inna.edelstein@antibiotic.ru &#34; target=&#34;_blank&#34;&gt;inna.edelstein@antibiotic.ru&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;img class=&#34;ml-3&#34; src=&#34;iac.png&#34; style=&#34;width: 200px&#34; alt=&#34;НИИ антимикробной химиотерапии ФГБОУ ВО «СГМУ» Минздрава России&#34;&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;publications&#34;&gt;Publications&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Ivanova O.V., Edelstein I.A., Romashov O.I., Kozlov R.S. Effect of 23S rRNA gene mutations in Mycoplasma pneumoniae on severity of community acquired pneumonia in young adult patients treated at the Smolensk military hospital. Clinical Microbiology and Antimicrobial Chemotherapy. 2020; 22(4):306-312. 
+&lt;a href=&#34;https://cmac-journal.ru/en/publication/2020/4/cmac-2020-t22-n4-p306/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DOI: 10.36488/cmac.2020.4.306-312&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Zubareva L.M., Edelstein I.A., Rudneva N.S., Romanov A.V., Vlasova T.A., Lavrinenkova Yu.V., Sukhanova L.N., Ahmedova A.M., Kuzmenkov A.Yu., Trushin I.V., Evstafev V.V. The rates of mutations associated with macrolide resistance in Mycoplasma genitalium among patients with non-gonococcal sexually transmitted infections in Smolensk and Tula. Clinical Microbiology and Antimicrobial Chemotherapy. 2019; 21(4):330-339. 
+&lt;a href=&#34;https://cmac-journal.ru/en/publication/2019/4/cmac-2019-t21-n4-p330/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DOI: 10.36488/cmac.2019.4.330-339&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;​Edelstein I.A., Edelstein M.V., Romanov A.V., Zaitsev A.A., Rakovskaya I.V., Barkhatova O.I., Antipushina D.N., Kozlov R.S. Four cases of resistance mutations in 23S rRNA gene in Mycoplasma pneumoniae isolated from the hospitalized military personnel. Clinical Microbiology and Antimicrobial Chemotherapy. 2017; 19(3):248-253. 
+&lt;a href=&#34;https://cmac-journal.ru/en/publication/2017/3/cmac-2017-t19-n3-p248/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ref&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Romanov A.V., Kozlov R.S., Edelstein I.A., Edelstein M.V. Method of detection of macrolide resistance-associated mutations in Mycoplasma genitalium and Mycoplasma pneumoniae. Patent # RU 2646123 C1, 01.03.2018. 
+&lt;a href=&#34;https://i.moscow/patents/RU2646123C1_20180301&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ref&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Edelstein I.A., Edelstein M.V., Romanov A.V., Ratchina S.A., Yatsyshina S.B., Rakovskaja I.V., Kozlov R.S. Detection of macrolide-resistance mutations in 23S rRNA gene of Mycoplasma pneumoniae using a novel real-time PCR assay. Pacific Medical Journal. 2015; (1):63-66. 
+&lt;a href=&#34;https://www.tmj-vgmu.ru/jour/article/view/606?locale=en_US&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ref&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Shipitsyna E, Rumyantseva T, Golparian D, Khayrullina G, Lagos AC, Edelstein I, Joers K, Jensen JS, Savicheva A, Rudneva N, Sukhanova L, Kozlov R, Guschin A, Unemo M. Prevalence of macrolide and fluoroquinolone resistance-mediating mutations in Mycoplasma genitalium in five cities in Russia and Estonia. PLoS One. 2017. Apr 13; 12(4). 
+&lt;a href=&#34;https://doi.org/10.1371/journal.pone.0175763&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DOI: 1371/journal.pone.0175763&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Edelstein I., Rachina S., Touati A., Kozlov R., Henin N., Bébéar C., Pereyre S. Mycoplasma pneumoniae Monoclonal P1 Type 2c, Outbreak, Russia, 2013. Emerging Infectious Diseases. Vol. 22, No. 2, February 2016. 
+&lt;a href=&#34;https://doi.org/10.3201/eid2202.151349&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DOI: 10.3201/eid2202.151349&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
       <title>AMRcloud March update</title>
       <link>https://amrcloud.net/en/post/20210331-march-update/</link>
       <pubDate>Wed, 31 Mar 2021 09:00:00 +0300</pubDate>
