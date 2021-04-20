@@ -1274,7 +1274,7 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;additional-matadata&#34;&gt;Additional Matadata&lt;/h3&gt;
+&lt;h3 id=&#34;additional-metadata&#34;&gt;Additional Metadata&lt;/h3&gt;
 &lt;p&gt;In addition to Mandatory Columns and AST Data, your table may include other optional columns with information about sources of isolates (including &lt;strong&gt;geospatial data&lt;/strong&gt;), patient clinical and demographic data, specific characteristics of isolates (including phenotypic and genotypic &lt;strong&gt;resistance markers&lt;/strong&gt;), etc. These columns will be used as parameters for data selection, filtration, and categorization.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Spatial Information Column(s)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Spatial Information includes geographic objects (&lt;strong&gt;geolocations&lt;/strong&gt;) and, optionally, their coordinates (&lt;strong&gt;latitude&lt;/strong&gt; and &lt;strong&gt;longitude&lt;/strong&gt;). You may provide various types of objects as geolocations: countries, regions, states, natural areas, cities, smaller locality types or even detailed addresses (e.g. hospital buildings). At &lt;strong&gt;Step Three&lt;/strong&gt; of the data import wizard, an automatic geocoding is performed to assign geographic coordinates to the known geolocations. You can also do it manually if automatic geocoding did not work.&lt;/p&gt;
