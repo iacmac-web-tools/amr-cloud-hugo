@@ -13,6 +13,138 @@
     </image>
     
     <item>
+      <title>AMRcloud April update</title>
+      <link>https://amrcloud.net/en/post/20210427-april-update/</link>
+      <pubDate>Tue, 27 Apr 2021 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/en/post/20210427-april-update/</guid>
+      <description>&lt;h3 id=&#34;amrcloud-april-update&#34;&gt;AMRcloud April update:&lt;/h3&gt;
+&lt;p&gt;AMRcloud has been updated to version 0.6:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;added the function of automated check of the correct spelling of species names when loading data&lt;/li&gt;
+&lt;li&gt;accelerated multiple resistance calculations&lt;/li&gt;
+&lt;li&gt;added the ability to create permanent links to datasets (menu &amp;ldquo;Edit Set&amp;rdquo;, tab &amp;ldquo;Links&amp;rdquo;)&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-direct-link-example&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/en/post/20210427-april-update/direct-link-eng_huf047e5d123f4b70c96f0a585183b4fd8_27963_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Direct link example&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/en/post/20210427-april-update/direct-link-eng_huf047e5d123f4b70c96f0a585183b4fd8_27963_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1233&#34; height=&#34;260&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Direct link example
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;ul&gt;
+&lt;li&gt;on interactive maps the option of permanently displaying the geopoint names&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-activated-geopoint-names&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/en/post/20210427-april-update/april-map-label_hu9771ea3c01c0a476ea8c79e2691b657b_574787_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Activated geopoint names&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/en/post/20210427-april-update/april-map-label_hu9771ea3c01c0a476ea8c79e2691b657b_574787_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1232&#34; height=&#34;547&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Activated geopoint names
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;ul&gt;
+&lt;li&gt;improved visualization of distributions of MIC and diameters of growth inhibition zones when displayed for species with different values of interpretation criteria&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-distribution-of-mics-of-imipenem-for-enterobacterales&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/en/post/20210427-april-update/diagram_hu701315f36074179292ca7de351064350_31761_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Distribution of MICs of Imipenem for Enterobacterales&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/en/post/20210427-april-update/diagram_hu701315f36074179292ca7de351064350_31761_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1230&#34; height=&#34;653&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Distribution of MICs of Imipenem for Enterobacterales
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>AMRcloud March update</title>
       <link>https://amrcloud.net/en/post/20210331-march-update/</link>
       <pubDate>Wed, 31 Mar 2021 09:00:00 +0300</pubDate>

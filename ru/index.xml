@@ -3472,6 +3472,138 @@ File**→** Save with Encoding **→** Windows-1251.
     </item>
     
     <item>
+      <title>Апрельское обновление AMRcloud</title>
+      <link>https://amrcloud.net/ru/post/20210427-april-update/</link>
+      <pubDate>Tue, 27 Apr 2021 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/ru/post/20210427-april-update/</guid>
+      <description>&lt;h3 id=&#34;апрельское-обновление-amrcloud&#34;&gt;Апрельское обновление AMRcloud:&lt;/h3&gt;
+&lt;p&gt;AMRcloud обновлен до версии 0.6:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;добавлена функция автоматизированной проверки правильности написания наименований видов при загрузке данных&lt;/li&gt;
+&lt;li&gt;ускорены расчеты множественной устойчивости&lt;/li&gt;
+&lt;li&gt;добавлена возможность создания постоянных ссылок на наборы данных (меню редактирования набора данных, вкладка «Ссылки»)&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-пример-постоянной-ссылки&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/ru/post/20210427-april-update/direct-link-rus_huee8845e1bd43679360d9af5e0362b056_33163_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Пример постоянной ссылки&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/ru/post/20210427-april-update/direct-link-rus_huee8845e1bd43679360d9af5e0362b056_33163_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1106&#34; height=&#34;313&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Пример постоянной ссылки
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;ul&gt;
+&lt;li&gt;на интерактивных картах доступна опция постоянного отображения подписи геоточек&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-пример-активированных-подписей-геоточек&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/ru/post/20210427-april-update/april-map-label_hu9771ea3c01c0a476ea8c79e2691b657b_574787_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Пример активированных подписей геоточек&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/ru/post/20210427-april-update/april-map-label_hu9771ea3c01c0a476ea8c79e2691b657b_574787_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1232&#34; height=&#34;547&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Пример активированных подписей геоточек
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;ul&gt;
+&lt;li&gt;улучшена визуализация распределений МПК и диметров зон подавления роста в случае отображения для видов с разными значениями интерпретационных критериев&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-отображение-мпк-imipenem-для-enterobacterales&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/ru/post/20210427-april-update/diagram_hu701315f36074179292ca7de351064350_31761_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Отображение МПК imipenem для Enterobacterales&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/ru/post/20210427-april-update/diagram_hu701315f36074179292ca7de351064350_31761_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1230&#34; height=&#34;653&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Отображение МПК imipenem для Enterobacterales
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>Исследование «DeMaRes»</title>
       <link>https://amrcloud.net/ru/project/demares/</link>
       <pubDate>Thu, 08 Apr 2021 09:00:00 +0300</pubDate>
