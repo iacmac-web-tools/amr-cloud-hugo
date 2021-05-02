@@ -20,9 +20,9 @@
       <description>&lt;h3 id=&#34;amrcloud-april-update&#34;&gt;AMRcloud April update:&lt;/h3&gt;
 &lt;p&gt;AMRcloud has been updated to version 0.6:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;added the function of automated check of the correct spelling of species names when loading data&lt;/li&gt;
-&lt;li&gt;accelerated multiple resistance calculations&lt;/li&gt;
-&lt;li&gt;added the ability to create permanent links to datasets (menu &amp;ldquo;Edit Set&amp;rdquo;, tab &amp;ldquo;Links&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;added automatic spell checking and suggestion for correct species names when loading data;&lt;/li&gt;
+&lt;li&gt;accelerated calculation of multiple resistances;&lt;/li&gt;
+&lt;li&gt;added ability to create permanent link to dataset (Menu &amp;ldquo;Edit Set&amp;rdquo;, Tab &amp;ldquo;Links&amp;rdquo;);&lt;/li&gt;
 &lt;/ul&gt;
 
 
@@ -62,7 +62,7 @@
 &lt;/figure&gt;
 
 &lt;ul&gt;
-&lt;li&gt;on interactive maps the option of permanently displaying the geopoint names&lt;/li&gt;
+&lt;li&gt;added option to permanently display the names of geopoints on interactive maps;&lt;/li&gt;
 &lt;/ul&gt;
 
 
@@ -102,7 +102,7 @@
 &lt;/figure&gt;
 
 &lt;ul&gt;
-&lt;li&gt;improved visualization of distributions of MIC and diameters of growth inhibition zones when displayed for species with different values of interpretation criteria&lt;/li&gt;
+&lt;li&gt;improved visualization of MIC and inhibition zone diameter distributions for aggeregated data of species with different breakpoints.&lt;/li&gt;
 &lt;/ul&gt;
 
 
