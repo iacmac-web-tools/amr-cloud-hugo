@@ -664,6 +664,82 @@
 
 &lt;/figure&gt;
 
+&lt;h2 id=&#34;сохранение-настроек-экспорта&#34;&gt;Сохранение настроек экспорта&lt;/h2&gt;
+&lt;p&gt;Вполне вероятно, что подобную процедуру придется повторять с некоторой периодичностью. Чтобы каждый раз не выставлять одни и те же значения фильтров, можно сохранить настройки экспорта в специальный макрос. Для этого в окне &lt;strong&gt;Анализ данных&lt;/strong&gt; нажмите кнопку &lt;strong&gt;Макрос&lt;/strong&gt;. В открывшемся окне &lt;strong&gt;Определение макроса&lt;/strong&gt; нажмите кнопку &lt;strong&gt;Новый&lt;/strong&gt; и введите имя файла, в котором будут сохранены настройки экспорта. Дополнительно вы можете отметить галочками, настройки каких разделов требуется сохранить. После этого нажмите кнопку &lt;strong&gt;Сохранить&lt;/strong&gt; и укажите куда сохранить файл макроса.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-сохранение-настроек-экспорта-с-помощью-макросов&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/macros-window-00.png&#34; data-caption=&#34;Сохранение настроек экспорта с помощью макросов&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/macros-window-00.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Сохранение настроек экспорта с помощью макросов
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Чтобы воспользоваться сохраненным макросом, откройте окно &lt;strong&gt;Анализ данных&lt;/strong&gt;, нажмите кнопку &lt;strong&gt;Макрос&lt;/strong&gt;, выберите сохраненный макрос и нажмите кнопку &lt;strong&gt;Нагрузка&lt;/strong&gt;/&lt;strong&gt;Load&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-загрузка-настроек-экспорта-из-макроса&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/macros-window-01.png&#34; data-caption=&#34;Загрузка настроек экспорта из макроса&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/macros-window-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Загрузка настроек экспорта из макроса
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Значения фильтров заполнятся автоматически и после этого достататочно нажать кнопку &lt;strong&gt;Начать анализ&lt;/strong&gt;.&lt;/p&gt;
 </description>
     </item>
     

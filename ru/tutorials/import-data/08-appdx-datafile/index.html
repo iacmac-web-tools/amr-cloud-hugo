@@ -1,0 +1,1379 @@
+<!DOCTYPE html><html lang="ru-ru" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Андрей Авраменко">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Формат файла Платформа AMRcloud поддерживает загрузку как Excel-файлов (XLS, XLSX), так и обычных текстовых файлов (TSV, TXT, CSV и т.д.).
+Для текстового файла предпочтительна кодировка UTF-8.   При импорте текстового файла (TSV,TXT,CSV) предоставляется возможность задать следующие настройки:
+Разделитель столбцов  Запятая Точка с запятой Знак табуляции   Кавычки  Авто Двойные кавычки Одинарные кавычки   Десятичный разделитель  Точка Запятая     Окно загрузки файла в AMRcloud   Файл должен содержать таблицу, сформирированную определеным образом.">
+
+  
+  <link rel="alternate" hreflang="ru-ru" href="https://amrcloud.net/ru/tutorials/import-data/08-appdx-datafile/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-85066436-14"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-85066436-14', { 'anonymize_ip': true });
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/ru/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu1e3f9432ea43508a577ec9e03ae2f676_16946_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu1e3f9432ea43508a577ec9e03ae2f676_16946_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://amrcloud.net/ru/tutorials/import-data/08-appdx-datafile/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@@iacmac1997">
+  <meta property="twitter:creator" content="@@iacmac1997">
+  
+  <meta property="og:site_name" content="AMRcloud">
+  <meta property="og:url" content="https://amrcloud.net/ru/tutorials/import-data/08-appdx-datafile/">
+  <meta property="og:title" content="Описание файла для загрузки в AMRcloud | AMRcloud">
+  <meta property="og:description" content="Формат файла Платформа AMRcloud поддерживает загрузку как Excel-файлов (XLS, XLSX), так и обычных текстовых файлов (TSV, TXT, CSV и т.д.).
+Для текстового файла предпочтительна кодировка UTF-8.   При импорте текстового файла (TSV,TXT,CSV) предоставляется возможность задать следующие настройки:
+Разделитель столбцов  Запятая Точка с запятой Знак табуляции   Кавычки  Авто Двойные кавычки Одинарные кавычки   Десятичный разделитель  Точка Запятая     Окно загрузки файла в AMRcloud   Файл должен содержать таблицу, сформирированную определеным образом."><meta property="og:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png">
+  <meta property="twitter:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png"><meta property="og:locale" content="ru-ru">
+  
+    
+      <meta property="article:published_time" content="2021-05-08T00:01:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2021-05-11T14:52:04&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#3f51b5",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#3f51b5"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "На нашем сайте включены cookies, потому что мы используем услуги Google Analytics.",
+        "dismiss": "Понятно",
+        "link": "Узнать больше...",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
+
+
+  
+
+
+
+
+
+  <title>Описание файла для загрузки в AMRcloud | AMRcloud</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Поиск</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Поиск..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/ru/">AMRcloud</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Переключить навигацию">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/ru/">AMRcloud</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/ru/#hero"><span>Главная</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/ru/tutorials"><span>Начало работы</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/ru/#projects"><span>Открытые проекты</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/ru/#people"><span>Команда</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/ru/#contact"><span>Контакты</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-md-auto">
+      
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://amrhub.ru" target="_blank" rel="noopener"><i class='fas fa-external-link-alt'></i>&nbsp;<span>Другие AMR сервисы</span></a>
+        </li>
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+  
+    
+  
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Поиск..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+
+  
+  
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/ru/tutorials/import-data/00-project-set/">Импорт данных</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/ru/tutorials/import-data/00-project-set/">Проекты и наборы данных</a>
+      </li>
+      
+      <li >
+        <a href="/ru/tutorials/import-data/01-prepare/">Подготовка данных</a>
+      </li>
+      
+      <li >
+        <a href="/ru/tutorials/import-data/04-upload-file/">Шаг 1 - Загрузка файла</a>
+      </li>
+      
+      <li >
+        <a href="/ru/tutorials/import-data/05-identification/">Шаг 2 - Выбор параметров</a>
+      </li>
+      
+      <li >
+        <a href="/ru/tutorials/import-data/06-geocode/">Шаг 3 - Геокодирование</a>
+      </li>
+      
+      <li >
+        <a href="/ru/tutorials/import-data/07-interpretation/">Шаг 4 - Категоризация S/I/R</a>
+      </li>
+      
+      <li class="active">
+        <a href="/ru/tutorials/import-data/08-appdx-datafile/">Приложение. Описание файла</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Содержание</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#формат-файла">Формат файла</a></li>
+    <li><a href="#структура-таблицы">Структура таблицы</a></li>
+    <li><a href="#обязательные-столбцы">Обязательные столбцы</a>
+      <ul>
+        <li><a href="#идентификатор-изолята">Идентификатор изолята</a></li>
+        <li><a href="#название-вида-микроорганизма">Название вида микроорганизма</a></li>
+        <li><a href="#название-группы-микроорганизмов">Название группы микроорганизмов</a></li>
+        <li><a href="#дата">Дата</a></li>
+      </ul>
+    </li>
+    <li><a href="#дополнительные-столбцы">Дополнительные столбцы</a>
+      <ul>
+        <li><a href="#географический-объект">Географический объект</a></li>
+        <li><a href="#числовая-переменная">Числовая переменная</a></li>
+      </ul>
+    </li>
+    <li><a href="#столбцы-с-данными-о-чувствительности-к-антибиотикам">Столбцы с данными о чувствительности к антибиотикам</a>
+      <ul>
+        <li><a href="#_mic--для-мпк">_mic – для МПК</a></li>
+        <li><a href="#_dd--для-диаметров-зон-подавления-роста">_dd – для диаметров зон подавления роста</a></li>
+        <li><a href="#_sir--для-категорий-чувствительности">_sir – для категорий чувствительности</a></li>
+      </ul>
+    </li>
+    <li><a href="#столбцы-с-данными-о-маркерах">Столбцы с данными о маркерах</a></li>
+    <li><a href="#столбцы-фильтров">Столбцы фильтров</a></li>
+  </ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          <h1>Описание файла для загрузки в AMRcloud</h1>
+
+          <div class="article-style">
+            <h2 id="формат-файла">Формат файла</h2>
+<p>Платформа AMRcloud поддерживает загрузку как Excel-файлов (XLS, XLSX), так и обычных текстовых файлов (TSV, TXT, CSV и т.д.).</p>
+<div class="alert alert-note">
+  <div>
+    Для текстового файла предпочтительна кодировка UTF-8.
+  </div>
+</div>
+<p>При импорте текстового файла (TSV,TXT,CSV) предоставляется возможность задать следующие настройки:</p>
+<ul>
+<li>Разделитель столбцов
+<ul>
+<li>Запятая</li>
+<li>Точка с запятой</li>
+<li>Знак табуляции</li>
+</ul>
+</li>
+<li>Кавычки
+<ul>
+<li>Авто</li>
+<li>Двойные кавычки</li>
+<li>Одинарные кавычки</li>
+</ul>
+</li>
+<li>Десятичный разделитель
+<ul>
+<li>Точка</li>
+<li>Запятая</li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-окно-загрузки-файла-в-amrcloud">
+
+
+  <a data-fancybox="" href="/img/tutorials/amrcloud-datafile/ru/upload-step-1.png" data-caption="Окно загрузки файла в AMRcloud">
+
+
+  <img src="/img/tutorials/amrcloud-datafile/ru/upload-step-1.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Рисунок " data-post=":" class="numbered">
+    Окно загрузки файла в AMRcloud
+  </figcaption>
+
+
+</figure>
+
+<p>Файл должен содержать таблицу, сформирированную определеным образом. </p>
+<h2 id="структура-таблицы">Структура таблицы</h2>
+<p>Таблица должна быть «плоской», без объединенных ячеек, столбцов, строк, активных фильтров.</p>
+<p>Первая строка таблицы должна содержать имена столбцов (параметров). Строки, содержат данные по микробным изолятам (отдельная строка с записью на каждый изолят). </p>
+<p>Данные по чувствительности к антимикробным препаратам располагаются в столбцах (для каждого антибиотика - отдельный столбец).</p>
+<p>Для файла в формате Excel рекомендуется, чтобы файл содержал только один лист с данными.</p>
+<p>
+<a href="/files/rus-amrcloud-example-dataset-with-comments.xlsx">Пример файла такого файла c описанием столбцов</a></p>
+<div class="alert alert-note">
+  <div>
+    Файл выше содержит дополнительные комментарии для понимания структуры таблицы. Его не рекомендуется загружать в AMRcloud. Файлы, пригодные для загрузки можно скачать ниже.
+  </div>
+</div>
+<p>
+<a href="/files/rus-amrcloud-example-dataset.xlsx">Пример файла для загрузки в формате Excel</a></p>
+<p>
+<a href="/files/rus-amrcloud-example-dataset.csv">Пример файла для загрузки в формате CSV (разделитель точка с запятой)</a></p>
+<p>В общем виде в таблице можно выделить 5 групп столбцов:</p>
+<ul>
+<li>Обязательные столбцы;</li>
+<li>Дополнительные столбцы;</li>
+<li>Столбцы с данными о чувствительности к антибиотикам;</li>
+<li>Столбцы с данными о маркерах;</li>
+<li>Столбцы фильтров.</li>
+</ul>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-пример-файла">
+
+
+  <a data-fancybox="" href="/img/tutorials/amrcloud-datafile/ru/table-example-with-comments.png" data-caption="Пример файла">
+
+
+  <img src="/img/tutorials/amrcloud-datafile/ru/table-example-with-comments.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Рисунок " data-post=":" class="numbered">
+    Пример файла
+  </figcaption>
+
+
+</figure>
+
+<p>Особенности каждой из групп рассмотрены далее.</p>
+<h2 id="обязательные-столбцы">Обязательные столбцы</h2>
+<p>Данные столбцы должны обязательно присутствовать в файле. Без них импорт файла и дальнейшая работа невозможна.</p>
+<h3 id="идентификатор-изолята">Идентификатор изолята</h3>
+<p>В качестве идентификатора может быть использована любая запись, содержащая буквенно-цифровые символы, за исключением специальных (?,!%$#&gt;&lt;). Служит для уникальной идентификации изолята в рамках таблицы.</p>
+<h3 id="название-вида-микроорганизма">Название вида микроорганизма</h3>
+<p>Используйте двойные латинские названия видов микроорганизмов в соответствии с официальной номенклатурой <a href="http://www.bacterio.net/,">http://www.bacterio.net/,</a> в противном случае он не интерпретируется системой и функционал автоматической интерпретации результатов чувствительности может стать недоступен. Система автоматически распознает известные родовые и видовые названия микроорганизмов и применяет соотвествующие критерии для интерпретации значений МПК, зон подавления роста и определения категорий чувствительности к АМП.</p>
+<div class="alert alert-note">
+  <div>
+    Пример корректного написания:</p>
+<ul>
+<li>Acinetobacter baumannii</li>
+<li>Staphylococcus sp.</li>
+<li>Salmonella spp.</li>
+</ul>
+  </div>
+</div>
+<div class="alert alert-warning">
+  <div>
+    Пример некорректного написания:</p>
+<ul>
+<li>A.baumannii</li>
+<li>Ralstonia pickettii biovar 2</li>
+<li>Стрептококк группы Viridans</li>
+</ul>
+  </div>
+</div>
+<h3 id="название-группы-микроорганизмов">Название группы микроорганизмов</h3>
+<p>Объединение микроорганизмов в группы позволяет представлять в обобщенном виде результаты оценки чувствительности к АМП разных (нескольких) видов микроорганизмов.
+В случае отсутствия такого столбца может быть автоматически создан на основе встроенного справочника соответствия организмов их родовой принадлежности.</p>
+<p>Группировка может быть основана как на родовой принадлежности, например</p>
+<table>
+<thead>
+<tr>
+<th>Вид микроорганизма</th>
+<th>Группа</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Acinetobacter baumannii</td>
+<td>Acinetobacter spp.</td>
+</tr>
+<tr>
+<td>Enterococcus ureasiticus</td>
+<td>Enterococcus spp.</td>
+</tr>
+<tr>
+<td>Escherichia coli</td>
+<td>Enterobacterales</td>
+</tr>
+</tbody>
+</table>
+<p>так и по любому другому внетаксономическому принципу (территориальному, виду диагноза, локализации инфекции и т.д.).</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-отображение-вида-и-группы-организма-в-интерфейсе-amrcloud">
+
+
+  <a data-fancybox="" href="/img/tutorials/amrcloud-datafile/ru/organism-group.png" data-caption="Отображение вида и группы организма в интерфейсе AMRcloud">
+
+
+  <img src="/img/tutorials/amrcloud-datafile/ru/organism-group.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Рисунок " data-post=":" class="numbered">
+    Отображение вида и группы организма в интерфейсе AMRcloud
+  </figcaption>
+
+
+</figure>
+
+<h3 id="дата">Дата</h3>
+<p>Cлужит для фильтрации выделенных образцов в рамках временного диапазона. Может быть как датой реидентификации изолята, датой выделения материала у пациента, датой госпитализации пациента и т.д. Рекомендуется использовать дату выделения материала у пациента. Записи без даты не будут импортированы.</p>
+<div class="alert alert-note">
+  <div>
+    Рекомендуемый формат записи даты:</p>
+<ul>
+<li><code>ГГГГ-ММ-ДД (2018-12-31)</code></li>
+<li><code>ГГГГ-ДД-ММ (2018-31-12)</code></li>
+<li><code>ДД-ММ-ГГГГ (31-12-2018)</code></li>
+<li><code>ММ-ДД-ГГГГ (12-31-2018)</code></li>
+</ul>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-отображение-даты-в-интерфейсе-amrcloud">
+
+
+  <a data-fancybox="" href="/img/tutorials/amrcloud-datafile/ru/date-field.png" data-caption="Отображение даты в интерфейсе AMRcloud">
+
+
+  <img src="/img/tutorials/amrcloud-datafile/ru/date-field.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Рисунок " data-post=":" class="numbered">
+    Отображение даты в интерфейсе AMRcloud
+  </figcaption>
+
+
+</figure>
+
+<h2 id="дополнительные-столбцы">Дополнительные столбцы</h2>
+<p>Данные столбцы не обязательно должны присутствовать в файле для загрузки в AMRcloud, однако они обеспечивают большую наглядость и дополнительные возможности анализа.</p>
+<h3 id="географический-объект">Географический объект</h3>
+<p>В качестве географических объектов могут быть указаны: страны, административно-территориальные единицы, природные зоны, города, небольшие населенные пункты, а также адреса конкретных зданий и объектов. Система попытается автоматически идентифицировать географические объекты и найти соответствующие координаты (широту и долготу). Если в загружаемой таблице есть дополнительные столбцы, содержащие значения долготы и широты, они также могут быть обработаны. Таким образом вы сможете самостоятельно определить геопривязку изолятов, что позволит отображать их на географической карте.</p>
+<h3 id="числовая-переменная">Числовая переменная</h3>
+<p>Служит для реализации фильтрации набора данных по непрерывной числовой переменной. Такими данными могут быть: рост, вес, и т.д. Обычно такой переменной выступает возраст пациента на момент взятия образца. В случае необходимости система способна заменить пропущенные значения в данном столбце на значение «по умолчанию».</p>
+<div class="alert alert-note">
+  <div>
+    На данный момент для отображения на интерфейсе можно выбрать только одну такую переменную, но сам файл может содержать неограниченное их количество.
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-отображение-числовой-переменной-в-интерфейсе-amrcloud">
+
+
+  <a data-fancybox="" href="/img/tutorials/amrcloud-datafile/ru/numeric-field.png" data-caption="Отображение числовой переменной в интерфейсе AMRcloud">
+
+
+  <img src="/img/tutorials/amrcloud-datafile/ru/numeric-field.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Рисунок " data-post=":" class="numbered">
+    Отображение числовой переменной в интерфейсе AMRcloud
+  </figcaption>
+
+
+</figure>
+
+<h2 id="столбцы-с-данными-о-чувствительности-к-антибиотикам">Столбцы с данными о чувствительности к антибиотикам</h2>
+<p>Результаты определения чувствительности к антимикробным препаратам (АМП):</p>
+<ul>
+<li>значения минимальных подавляющих концентраций (МПК)</li>
+<li>и/или диаметров зон подавления роста</li>
+<li>и/или категории чувствительности (S/I/R)</li>
+</ul>
+<p>Имена столбцов, содержащих данные определения чувствительности к АМП, должны начинаться с генерического названия АМП на английском языке и заканчиваться определяющим суффиксом. Количество таких столбцов не ограничено.</p>
+<h3 id="_mic--для-мпк">_mic – для МПК</h3>
+<blockquote>
+<p>например: <em>ampicillin_mic</em></p>
+</blockquote>
+<p>Рекомендуется указывать значения МПК по основному действующему веществу (например, триметоприм/сульфаметоксазол – МПК триметоприма). Согласно международному соглашению рекомендуется использовать значения, соответствующие двукратным разведениям начиная с 1 мг/л.
+Для значений менее 0,25 мг/л рекомендуется использовать следующие значения:</p>
+<ul>
+<li>0.125→ 0.125,</li>
+<li>0.0625→0.06,</li>
+<li>0.03125→0.03,</li>
+<li>0.015625→0.016,</li>
+<li>0.0078125→0.008,</li>
+<li>0.00390625→0.004</li>
+<li>0.001953125→0.002</li>
+</ul>
+<h3 id="_dd--для-диаметров-зон-подавления-роста">_dd – для диаметров зон подавления роста</h3>
+<blockquote>
+<p>например: <em>ampicillin_dd</em></p>
+</blockquote>
+<p>Рекомендуется указывать диаметр зоны задержки роста по данным ДДМ. Целые числа, диапазон от 6 до 50 мм.
+Если необходимо указать нагрузку для двух компонентов – в качестве разделителя стоит использовать символ дефиса (например: <em>meropenem_10_dd</em>, <em>trimethoprim-sulfamethoxazole_1-2_dd</em>).</p>
+<h3 id="_sir--для-категорий-чувствительности">_sir – для категорий чувствительности</h3>
+<blockquote>
+<p>например: <em>ampicillin_sir</em></p>
+</blockquote>
+<p>Рекомендуется указать один вариант:</p>
+<ul>
+<li>S – чувствительный</li>
+<li>I –чувствительный при увеличенной экспозиции</li>
+<li>R – устойчивый</li>
+</ul>
+<p>Система автоматически распознает известные генерические названия АМП и осуществляет интерпретацию значений МПК и диаметров зон подавления роста для известных микроорганизмов в соответствии с выбранными критериями.</p>
+<p>При необходимости одновременной выгрузки значений МПК, полученных двумя раличными методами, допускается добавлять дополнительные суффиксы. Например, если нам необходимо выгрузить данные МПК, полученные методами разведения в бульоне и Е-тестов одновременно в рамках одного файла, можно воспользоваться следующими правилами:</p>
+<ul>
+<li>Для метода разведения в бульоне закодировать антибиотики с суффиксом <strong>_mic</strong></li>
+<li>Для метода E-тестов закодировать антибиотики с суффиксом <strong>_etest_mic</strong></li>
+</ul>
+<p>Таким образом удастся загрузить в систему оба вида антибиотиков, хотя интерпретироваться будет антибиотик с суффиксом <strong>_mic</strong>.</p>
+<p>В рамках каждого из руководств (CLSI, EUCAST, и т.д.) перечень интерпретируемых антибиотиков может отличаться.</p>
+<p>
+<a href="/files/amrcloud-antibiotics.xlsx">Общий список автоматически распознаваемых антибиотиков</a></p>
+<p>Однако можно загружать любые названия антибиотиков, просто категории чувствительности для них автоматически интерпретироваться не будут. С предзабитыми значениями S/I/R также можно работать.</p>
+<h2 id="столбцы-с-данными-о-маркерах">Столбцы с данными о маркерах</h2>
+<p>Эти столбцы позволяют проводить более глубокий анализ информации и отдельных параметров изолята. В качестве таких параметров имеет смысл выбирать механизмы устойчивости, гены, мутации, и.д. Рекомендуется указывать как наличие/отсутсвие признака, так и отсутствие точной информации о факте проведения исследования на признак. Заголовок такого столбца будет выступать названием группы маркеров. Количество таких столбцов не ограничено.</p>
+<p>В системе можно анализировать структуру распределения значений маркеров в рамках группы, географическое распределение, распределение маркеров относительно данных чувствительности к антибиотикам.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-отображение-маркеров-в-интерфейсе-amrcloud">
+
+
+  <a data-fancybox="" href="/img/tutorials/amrcloud-datafile/ru/marker-column.png" data-caption="Отображение маркеров в интерфейсе AMRcloud">
+
+
+  <img src="/img/tutorials/amrcloud-datafile/ru/marker-column.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Рисунок " data-post=":" class="numbered">
+    Отображение маркеров в интерфейсе AMRcloud
+  </figcaption>
+
+
+</figure>
+
+<h2 id="столбцы-фильтров">Столбцы фильтров</h2>
+<p>Эти столбцы служат для отбора изолятов в рамках всего набора данных, еще до фильтрации по конкретным группам организмов/видов организмов/макреров. Эти столбцы содержат категориальные (текстовые) признаки.</p>
+<div class="alert alert-note">
+  <div>
+    На данный момент для отображения на интерфейсе можно выбрать максимум 12 таких столбцов, но сам файл может содержать неограниченное их количество.
+  </div>
+</div>
+<p>Названия столбцов будут использоваться в качестве названий параметров.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-отображение-столбцов-фильтров-в-интерфейсе-amrcloud">
+
+
+  <a data-fancybox="" href="/img/tutorials/amrcloud-datafile/ru/filter-column.png" data-caption="Отображение столбцов фильтров в интерфейсе AMRcloud">
+
+
+  <img src="/img/tutorials/amrcloud-datafile/ru/filter-column.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Рисунок " data-post=":" class="numbered">
+    Отображение столбцов фильтров в интерфейсе AMRcloud
+  </figcaption>
+
+
+</figure>
+
+
+          </div>
+
+          
+
+
+
+          
+        </div>
+
+        <div class="body-footer">
+          <p>
+            Обновлено 
+            
+            
+              11 мая 2021
+            
+          </p>
+
+          
+
+
+
+          
+
+
+          
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    AMRcloud © 2021 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" >Academic theme</a> for
+    <a href="https://gohugo.io" >Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+  
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+  
+
+  
+
+
+
+
+
+
+
+
+<script>const code_highlighting = false;</script>
+
+
+
+
+<script>const isSiteThemeDark = false;</script>
+
+
+
+
+
+
+
+
+
+<script>
+  const search_config = {"indexURI":"/ru/index.json","minLength":1,"threshold":0.3};
+  const i18n = {"no_results":"Ничего не найдено","placeholder":"Поиск...","results":"найдено"};
+  const content_type = {
+        'post': "Статьи",
+        'project': "Проекты",
+        'publication' : "Публикации",
+        'talk' : "Выступления",
+        'tutorials' : "Руководства",
+        'terms-of-use' : "Условия использования",
+        'privacy-policy' : "Политика конфиденциальности",
+        'slides' : "Slides",
+        'authors': "Команда проекта"
+        };
+</script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+<script>
+  anchors.add();
+</script>
+
+
+
+
+<script id="search-hit-fuse-template" type="text/x-template">
+  <div class="search-hit" id="summary-{{key}}">
+  <div class="search-hit-content">
+    <div class="search-hit-name">
+      <a href="{{relpermalink}}">{{title}}</a>
+      <div class="article-metadata search-hit-type">{{type}}</div>
+      <p class="search-hit-description">{{snippet}}</p>
+    </div>
+  </div>
+  </div>
+</script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<script src="/js/academic.min.841694c7f175002e4b487c622da41168.js"></script>
+
+<script type="text/javascript">
+    
+</script>
+<script>
+    
+    function setPreferredLanguage(lang) {
+        console.log('preferred lang:' + lang);
+        localStorage.setItem('amrcloud-pref-lang', lang);
+    }
+
+</script>
+<script>
+    $(document).ready(function () {
+
+
+        if ($('span.project-stat').length) {
+            $.ajax({
+                url: "https:\/\/api.amrcloud.net\/api/ga/page",
+                data: {
+                    path: "\/ru\/tutorials\/import-data\/08-appdx-datafile\/",
+                    link: ""
+                },
+                type: 'GET',
+                cache: true,
+                crossDomain: true,
+                success: function (data) {
+                    $("#publication_statistics_views_value").text(data['views'] || 0);
+                    $("#publication_statistics_goto_value").text(data['outbound'] || 0);
+                },
+                error: function (data) {
+                    console.log(data);
+                }
+            });
+        }
+    });
+</script>
+
+
+
+  
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

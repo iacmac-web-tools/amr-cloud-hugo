@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Конвертация CAESAR &lt;=&gt; AMRcloud | AMRcloud</title>
+    <link>https://amrcloud.net/ru/tutorials/caesar-converter/</link>
+      <atom:link href="https://amrcloud.net/ru/tutorials/caesar-converter/index.xml" rel="self" type="application/rss+xml" />
+    <description>Конвертация CAESAR &lt;=&gt; AMRcloud</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2021</copyright><lastBuildDate>Thu, 07 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <title>Конвертация CAESAR &lt;=&gt; AMRcloud</title>
+      <link>https://amrcloud.net/ru/tutorials/caesar-converter/</link>
+    </image>
+    
+    <item>
+      <title>Из CAESAR в AMRcloud</title>
+      <link>https://amrcloud.net/ru/tutorials/caesar-converter/01/</link>
+      <pubDate>Tue, 27 Apr 2021 00:05:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/caesar-converter/01/</guid>
+      <description>&lt;h2 id=&#34;подготовка&#34;&gt;Подготовка&lt;/h2&gt;
+&lt;p&gt;Таблица в формате CAESAR представляет собой CSV файл (разделитель - точка с запятой), в котором информация по одному изоляту содержится в в нескольких строках.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-пример-файла-в-формате-caesar&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/caesar-example-file.png&#34; data-caption=&#34;Пример файла в формате CAESAR&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/caesar-example-file.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Пример файла в формате CAESAR
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Для формата AMRcloud необходимо преобразовать таблицу таким образом, чтобы в одной строке содержалась информация по одному изоляту.&lt;/p&gt;
+&lt;p&gt;Для конвертации файла, перейдите по ссылке 
+&lt;a href=&#34;https://public.amrcloud.net/caesar&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://public.amrcloud.net/caesar&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;загрузка-файла&#34;&gt;Загрузка файла&lt;/h2&gt;
+&lt;p&gt;Для загрузки файла нажмите на кнопку &lt;strong&gt;Choose file&lt;/strong&gt; и выберите ваш файл CAESAR.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-загрузка-файла&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/upload-file.png&#34; data-caption=&#34;Загрузка файла&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/upload-file.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Загрузка файла
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Загрузка файла начнется автоматически. По окончании загрузки система проверит содержимое файла, попытается его прочитать и выведет предпросмотр на экран. В случае успешной загрузки вы увидите следующее.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-файл-успешно-загружен&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/upload-file-success.png&#34; data-caption=&#34;Файл успешно загружен&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/upload-file-success.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Файл успешно загружен
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Если вы видите таблицу и кнопку &lt;strong&gt;Convert Caesar to AMRcloud&lt;/strong&gt;, значит файл распознался системой.&lt;/p&gt;
+&lt;p&gt;Если же кнопки нет и таблица представляет собой список строк, значит файл не соответствует заданному формату. Попробуйте пересохранить его в формате CSV, разделитель точка с запятой, кодировка UTF-8. Еще одной причиной ошибки может быть отсутствие обязательных столбцов в файле формата CAESAR — если хотя бы один столбец отсутствует, файл считается некорректным.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-некорректный-файл&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/upload-file-error.png&#34; data-caption=&#34;Некорректный файл&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/upload-file-error.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Некорректный файл
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;конвертация&#34;&gt;Конвертация&lt;/h2&gt;
+&lt;p&gt;Процесс конвертации файла заключается в &amp;ldquo;разворачивании&amp;rdquo; таблицы и замене кодов CAESAR на обозначения, понятные &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.
+Такие замены производятся для:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Антибиотиков (столбец &lt;strong&gt;Antibiotic&lt;/strong&gt;);&lt;/li&gt;
+&lt;li&gt;Организмов (столбец &lt;strong&gt;Pathogen&lt;/strong&gt;);&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Замены производятся согласно 
+&lt;a href=&#34;https://www.euro.who.int/en/health-topics/disease-prevention/antimicrobial-resistance/surveillance/central-asian-and-european-surveillance-of-antimicrobial-resistance-caesar&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;официальному протоколу исследования CAESAR&lt;/a&gt;. Остальные столбцы остаются без изменений.&lt;/p&gt;
+&lt;p&gt;После успешной загрузки файла, нажмите кнопку &lt;strong&gt;Convert Caesar to AMRcloud&lt;/strong&gt;. По окончании процесса конвертации на странице появится отчет о проделанных манипуляциях. Отчет содержит перечень кодов антибиотиков и организмов, которые были перекодированы, а также сообщения-предупреждения на которые стоит обратить внимание.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-перекодировка-антибиотиков&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/ab-coded.png&#34; data-caption=&#34;Перекодировка антибиотиков&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/ab-coded.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Перекодировка антибиотиков
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-перекодировка-организмов&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/pathogen-coded.png&#34; data-caption=&#34;Перекодировка организмов&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/pathogen-coded.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Перекодировка организмов
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-предупреждения&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/warning-messages.png&#34; data-caption=&#34;Предупреждения&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/warning-messages.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Предупреждения
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Существует три типа предупреждений:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Предупреждение &lt;em&gt;No translation has been found for antibiotic []&lt;/em&gt; выводится в том случае, когда конвертеру не удалось сопоставить код антибиотика со словарем. Если код не сопоставлен, используется оригинальное написание. В данном примере код антибиотика пропущен, так как в конце файла присутствует пустая строка.&lt;/li&gt;
+&lt;li&gt;Предупреждение &lt;em&gt;No translation has been found for pathogen []&lt;/em&gt; выводится в том случае, когда конвертеру не удалось сопоставить код организма со словарем. Если код не сопоставлен, используется оригинальное написание. В данном примере код антибиотика пропущен, так как в конце файла присутствует пустая строка.&lt;/li&gt;
+&lt;li&gt;Предупреждение &lt;em&gt;Isolate has doubles for antibiotic&lt;/em&gt; выводится в случае, когда для одного изолята присутствует больше одной строки со значением антибиотика одного кода. В качестве идентификатора изолята используется объединение полей &lt;em&gt;HospitalID_LaboratoryCode_IsolateID_PatientID&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;скачивание-файла&#34;&gt;Скачивание файла&lt;/h2&gt;
+&lt;p&gt;Для получения сконвертированного файла, готового к загрузке в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;, нажмите кнопку &lt;strong&gt;Download&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Данный файл может быть использован Вами для создания проектов и наборов данных в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;. Руководство по загрузке файлов в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; доступно по 
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/import-data/&#34;&gt;ссылке&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Из AMRcloud в CAESAR</title>
+      <link>https://amrcloud.net/ru/tutorials/caesar-converter/02/</link>
+      <pubDate>Tue, 27 Apr 2021 00:05:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/caesar-converter/02/</guid>
+      <description>&lt;h2 id=&#34;подготовка&#34;&gt;Подготовка&lt;/h2&gt;
+&lt;p&gt;Чтобы получить файл из AMRcloud нужно:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Выбрать набор данных, который вы хотите выгрузить и нажать кнопку &lt;strong&gt;Редактировать набор данных&lt;/strong&gt;;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-выбор-набора-данных&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/edit-dataset.png&#34; data-caption=&#34;Выбор набора данных&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/edit-dataset.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выбор набора данных
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Перейти на вкладку &lt;strong&gt;Скачать&lt;/strong&gt;, установить кодировку &lt;strong&gt;UTF-8&lt;/strong&gt; и скачать нужные вам данные.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-скачивание-набора-данных&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/amrcloud-download.png&#34; data-caption=&#34;Скачивание набора данных&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/amrcloud-download.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Скачивание набора данных
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Для получения таблицы в формате CAESAR необходимо &amp;ldquo;свернуть&amp;rdquo; таблицу AMRcloud таким образом, чтобы в одной строке содержалась информация по одному антибиотику. Пример такой таблицы приводится ниже.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-пример-файла-в-формате-caesar&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/caesar-example-file.png&#34; data-caption=&#34;Пример файла в формате CAESAR&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/caesar-example-file.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Пример файла в формате CAESAR
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Для конвертации файла, перейдите по ссылке 
+&lt;a href=&#34;https://public.amrcloud.net/caesar&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://public.amrcloud.net/caesar&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;загрузка-файла&#34;&gt;Загрузка файла&lt;/h2&gt;
+&lt;p&gt;Для загрузки файла нажмите на кнопку &lt;strong&gt;Choose file&lt;/strong&gt; и выберите ваш файл AMRcloud.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-загрузка-файла&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/upload-file.png&#34; data-caption=&#34;Загрузка файла&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/upload-file.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Загрузка файла
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Загрузка файла начнется автоматически. По окончании загрузки система проверит содержимое файла, попытается его прочитать и выведет предпросмотр на экран. В случае успешной загрузки вы увидите следующее.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-файл-успешно-загружен&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/upload-file-success-2.png&#34; data-caption=&#34;Файл успешно загружен&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/upload-file-success-2.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Файл успешно загружен
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Если вы видите таблицу и кнопку &lt;strong&gt;Convert AMRcloud to Caesar. Step 1&lt;/strong&gt;, значит файл распознался системой.&lt;/p&gt;
+&lt;p&gt;Если же кнопки нет и таблица представляет собой список строк, значит файл не соответствует заданному формату. Попробуйте пересохранить его в формате CSV, разделитель точка с запятой, кодировка UTF-8. Еще одной причиной ошибки может быть отсутствие обязательных столбцов в файле формата AMRcloud — столбцов с антибиотиками с суффиксами &lt;strong&gt;_dd&lt;/strong&gt;, &lt;strong&gt;_mic&lt;/strong&gt;, &lt;strong&gt;_etest_mic&lt;/strong&gt;, &lt;strong&gt;_sir&lt;/strong&gt;. Если нет ни одного такого столбца — файл считается некорректным.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-некорректный-файл&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/upload-file-error.png&#34; data-caption=&#34;Некорректный файл&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/upload-file-error.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Некорректный файл
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;конвертация-файла-часть-1&#34;&gt;Конвертация файла. Часть 1&lt;/h2&gt;
+&lt;p&gt;Чтобы приступить к конвертации нажмите кнопку &lt;strong&gt;Convert AMRcloud to Caesar. Step 1&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-конвертация-шаг-1&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/amrcloud-to-caesar-convert-step-1.png&#34; data-caption=&#34;Конвертация. Шаг 1&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/amrcloud-to-caesar-convert-step-1.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Конвертация. Шаг 1
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;На первом этапе необходимо сопоставить поля оригинального файла AMRcloud с полями файла в формате CAESAR. Полное описание полей можно найти в 
+&lt;a href=&#34;https://www.euro.who.int/en/health-topics/disease-prevention/antimicrobial-resistance/surveillance/central-asian-and-european-surveillance-of-antimicrobial-resistance-caesar&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;официальном протоколе исследования CAESAR&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Для нас наиболее важно указать какой столбец собержит имена организмов. В нашем случае, это &lt;strong&gt;MICROORGANISM&lt;/strong&gt;. Остальные поля сопоставляем по своему усмотрению. Если поле сопоставлять не требуется, можно оставить выпадающий список пустым.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-сопоставление-полей-amrcloud-и-caesar&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/amrcloud-to-caesar-convert-step-1-filled.png&#34; data-caption=&#34;Сопоставление полей AMRcloud и CAESAR&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/amrcloud-to-caesar-convert-step-1-filled.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Сопоставление полей AMRcloud и CAESAR
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;После того, как поля сопоставлены, можно переходить непосредственно к конвертации файла.&lt;/p&gt;
+&lt;h2 id=&#34;конвертация-файла-часть-2&#34;&gt;Конвертация файла. Часть 2&lt;/h2&gt;
+&lt;p&gt;Для преобразования файла нажмите кнопку &lt;strong&gt;Convert AMRcloud to Caesar. Step 2&lt;/strong&gt;. По окончании процесса конвертации на странице появится отчет о проделанных манипуляциях. Отчет содержит перечень кодов антибиотиков, организмов и материалов, которые были перекодированы, а также сообщения-предупреждения на которые стоит обратить внимание.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-перекодировка-антибиотиков&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/amrcloud-recode-ab.png&#34; data-caption=&#34;Перекодировка антибиотиков&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/amrcloud-recode-ab.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Перекодировка антибиотиков
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-перекодировка-организмов&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/amrcloud-recode-pat.png&#34; data-caption=&#34;Перекодировка организмов&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/amrcloud-recode-pat.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Перекодировка организмов
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-перекодировка-материалов&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/amrcloud-recode-spec.png&#34; data-caption=&#34;Перекодировка материалов&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/amrcloud-recode-spec.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Перекодировка материалов
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-предупреждения&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/amrcloud-recode-warnings.png&#34; data-caption=&#34;Предупреждения&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/amrcloud-recode-warnings.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Предупреждения
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Существует три типа предупреждений:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Предупреждение &lt;em&gt;No Antibiotic code found for []&lt;/em&gt; выводится в том случае, когда конвертеру не удалось сопоставить код антибиотика со словарем. Если код не сопоставлен, используется оригинальное написание.&lt;/li&gt;
+&lt;li&gt;Предупреждение &lt;em&gt;No Specimen code found for []&lt;/em&gt; выводится в том случае, когда конвертеру не удалось сопоставить код материала со словарем. Если код не сопоставлен, используется оригинальное написание.&lt;/li&gt;
+&lt;li&gt;Предупреждение &lt;em&gt;No Pathogen code found for []&lt;/em&gt; выводится в том случае, когда конвертеру не удалось сопоставить код организма со словарем. Если код не сопоставлен, используется оригинальное написание.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;скачивание-файла&#34;&gt;Скачивание файла&lt;/h2&gt;
+&lt;p&gt;Для получения сконвертированного файла нажмите кнопку &lt;strong&gt;Download&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

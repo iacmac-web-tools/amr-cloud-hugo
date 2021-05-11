@@ -661,6 +661,83 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 
 &lt;/figure&gt;
 
+&lt;h2 id=&#34;save-export-settings&#34;&gt;Save export settings&lt;/h2&gt;
+&lt;p&gt;Usually, export procedure has to be repeated at regular intervals. To save your time and not to set the same values in filters every time, you can save export settings and parameters to special file called macro. To show the &lt;strong&gt;Macro definitions&lt;/strong&gt; window press the &lt;strong&gt;Macros&lt;/strong&gt; button in the &lt;strong&gt;Analysis data&lt;/strong&gt; window. Here you can see list of previosly saved macros. To add new macro press the &lt;strong&gt;New&lt;/strong&gt; button, type the macro name, check settings you want to save and press the &lt;strong&gt;Save&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-save-analysis-settings-to-macro&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/macros-window-00.png&#34; data-caption=&#34;Save analysis settings to macro&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/macros-window-00.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Save analysis settings to macro
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Чтобы воспользоваться сохраненным макросом, откройте окно &lt;strong&gt;Анализ данных&lt;/strong&gt;, нажмите кнопку &lt;strong&gt;Макрос&lt;/strong&gt;, выберите сохраненный макрос и нажмите кнопку &lt;strong&gt;Нагрузка&lt;/strong&gt;/&lt;strong&gt;Load&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;To use saved macro open the &lt;strong&gt;Analysis data&lt;/strong&gt; window, press the button &lt;strong&gt;Macros&lt;/strong&gt;, choose necessary macro and press the &lt;strong&gt;Load&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-load-export-settings-from-macro&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/macros-window-01.png&#34; data-caption=&#34;Load export settings from macro&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/macros-window-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Load export settings from macro
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The filter values will be filled in automatically and after that you can press the &lt;strong&gt;Begin analysis&lt;/strong&gt; button.&lt;/p&gt;
 </description>
     </item>
     

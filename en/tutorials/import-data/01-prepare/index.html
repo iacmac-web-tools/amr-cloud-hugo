@@ -277,7 +277,7 @@ The source data table should include individual isolate records and NOT aggregat
     
       <meta property="article:published_time" content="2020-09-10T00:05:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2021-04-20T23:17:08&#43;03:00">
+    <meta property="article:modified_time" content="2021-05-11T14:52:04&#43;00:00">
   
 
   
@@ -988,7 +988,7 @@ The source data table should include individual isolate records and NOT aggregat
 <p>tobramycin_sir, tetracycline_sir, amoxicillin-clavulanic acid_dd, vancomycin_mic</p>
 </blockquote>
 <p>
-<a href="/files/amrcloud-eucast-2020-ab.xlsx">The list of legitimate antibiotic names</a> can be downloaded from the link at the <strong>&ldquo;Read Me&rdquo;</strong> tab of the data import wizard. The quantitative AST Data (MIC and inhibition zone values) for the known antibiotics are automatically interpreted into susceptibility categories using selected criteria (breakpoints).
+<a href="/files/amrcloud-antibiotics.xlsx">The list of legitimate antibiotic names</a> can be downloaded from the link at the <strong>&ldquo;Read Me&rdquo;</strong> tab of the data import wizard. The quantitative AST Data (MIC and inhibition zone values) for the known antibiotics are automatically interpreted into susceptibility categories using selected criteria (breakpoints).
 
 
 
@@ -1030,6 +1030,10 @@ The source data table should include individual isolate records and NOT aggregat
     <p>Other (arbitrary) names of antimicrobial agents can be used in the column headers, however, for such agents, quantitative AST Data are not translated into susceptibility categories unless you define custom criteria (breacpoints) as explained in Step 4. If you want to use alternative breakpoints for certain antimicrobial agents, you can modify their names as shown in the example below:</p>
 <blockquote>
 <p>florfenicol_veterinary_mic, marbofloxacin_veterinary_dd</p>
+</blockquote>
+<p>It is allowed to indicate the load of the disk between the name of the antibiotic and the suffix _<strong>dd</strong>:</p>
+<blockquote>
+<p>amoxicillin-clavulanic acid_2-1_dd, moxifloxacin_5_dd</p>
 </blockquote>
   </div>
 </div>
@@ -1146,7 +1150,7 @@ To ensure consistency, the data on Resistance Markers can be presented as follow
             Last updated on 
             
             
-              20 April 2021
+              11 May 2021
             
           </p>
 

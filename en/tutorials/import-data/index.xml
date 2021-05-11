@@ -1202,7 +1202,7 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
 &lt;p&gt;tobramycin_sir, tetracycline_sir, amoxicillin-clavulanic acid_dd, vancomycin_mic&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://amrcloud.net/files/amrcloud-eucast-2020-ab.xlsx&#34;&gt;The list of legitimate antibiotic names&lt;/a&gt; can be downloaded from the link at the &lt;strong&gt;&amp;ldquo;Read Me&amp;rdquo;&lt;/strong&gt; tab of the data import wizard. The quantitative AST Data (MIC and inhibition zone values) for the known antibiotics are automatically interpreted into susceptibility categories using selected criteria (breakpoints).
+&lt;a href=&#34;https://amrcloud.net/files/amrcloud-antibiotics.xlsx&#34;&gt;The list of legitimate antibiotic names&lt;/a&gt; can be downloaded from the link at the &lt;strong&gt;&amp;ldquo;Read Me&amp;rdquo;&lt;/strong&gt; tab of the data import wizard. The quantitative AST Data (MIC and inhibition zone values) for the known antibiotics are automatically interpreted into susceptibility categories using selected criteria (breakpoints).
 
 
 
@@ -1244,6 +1244,10 @@ If &amp;ldquo;&lt;em&gt;Salmonella&lt;/em&gt; Typhimurium&amp;rdquo; is used as 
     &lt;p&gt;Other (arbitrary) names of antimicrobial agents can be used in the column headers, however, for such agents, quantitative AST Data are not translated into susceptibility categories unless you define custom criteria (breacpoints) as explained in Step 4. If you want to use alternative breakpoints for certain antimicrobial agents, you can modify their names as shown in the example below:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;florfenicol_veterinary_mic, marbofloxacin_veterinary_dd&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It is allowed to indicate the load of the disk between the name of the antibiotic and the suffix _&lt;strong&gt;dd&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;amoxicillin-clavulanic acid_2-1_dd, moxifloxacin_5_dd&lt;/p&gt;
 &lt;/blockquote&gt;
   &lt;/div&gt;
 &lt;/div&gt;
