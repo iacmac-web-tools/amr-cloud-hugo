@@ -13,6 +13,25 @@
     </image>
     
     <item>
+      <title>Обновление программы Микроб-2</title>
+      <link>https://amrcloud.net/ru/post/20210512-microb-2-update/</link>
+      <pubDate>Wed, 12 May 2021 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/ru/post/20210512-microb-2-update/</guid>
+      <description>&lt;p&gt;Мы рады сообщить, что для пользователей МИКРОБ-2 доступно бесплатное обновление. В новой версии добавлены дополнительные возможности настройки экспорта файла для загрузки в AMRcloud:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Формирование файла прямо из списка отобранных анализов;&lt;/li&gt;
+&lt;li&gt;Анонимизация и деанонимизация названий отделений;&lt;/li&gt;
+&lt;li&gt;Возможность использования диагноза для поля локализации инфекции;&lt;/li&gt;
+&lt;li&gt;Редактирование справочников Микроорганизмов и Антибиотиков;&lt;/li&gt;
+&lt;li&gt;Настройка преобразования тестов на фенотип и маркеров резистентности в категории AMRcloud.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Руководство 
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/microb-2-export/&#34;&gt;Экспорт из Микроб-2 в AMRcloud&lt;/a&gt; также обновлено в соответствии с новыми возможностями программы.&lt;/p&gt;
+&lt;p&gt;Скачать обновление можно по ссылке &lt;a href=&#34;https://erbarus.com/news/432/&#34;&gt;https://erbarus.com/news/432/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Апрельское обновление AMRcloud</title>
       <link>https://amrcloud.net/ru/post/20210427-april-update/</link>
       <pubDate>Tue, 27 Apr 2021 09:00:00 +0300</pubDate>
