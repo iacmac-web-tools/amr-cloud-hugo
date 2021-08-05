@@ -2356,7 +2356,7 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;p&gt;Данные по чувствительности к антимикробным препаратам располагаются в столбцах (для каждого антибиотика - отдельный столбец).&lt;/p&gt;
 &lt;p&gt;Для файла в формате Excel рекомендуется, чтобы файл содержал только один лист с данными.&lt;/p&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://amrcloud.net/files/rus-amrcloud-example-dataset-with-comments.xlsx&#34;&gt;Пример файла такого файла c описанием столбцов&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://amrcloud.net/files/rus-amrcloud-example-dataset-with-comments.xlsx&#34;&gt;Пример файла c описанием столбцов&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Файл выше содержит дополнительные комментарии для понимания структуры таблицы. Его не рекомендуется загружать в AMRcloud. Файлы, пригодные для загрузки можно скачать ниже.
