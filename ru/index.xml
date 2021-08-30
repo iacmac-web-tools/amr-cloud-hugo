@@ -1461,6 +1461,121 @@
 &lt;/figure&gt;
 
 &lt;p&gt;Значения фильтров заполнятся автоматически и после этого достататочно нажать кнопку &lt;strong&gt;Начать анализ&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;объединение-и-экспорт-нескольких-файлов&#34;&gt;Объединение и экспорт нескольких файлов&lt;/h2&gt;
+&lt;p&gt;В некоторых случаях может возникнуть необходимость экспорта нескольких файлов с данными, например, в разных файлах может храниться информация от разных лабораторий или от одной лаборатории, но за разные года. WHONET позволяет объединить данные из этих файлов и экспортировать их как одно целое.&lt;/p&gt;
+&lt;p&gt;Для этого в меню &lt;strong&gt;Ввод Данных&lt;/strong&gt; выберите пункт &lt;strong&gt;Объединять, экспортировать или шифровать файлы данных&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-меню-объединения-файлов&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/whonet-combine-menu.png&#34; data-caption=&#34;Меню объединения файлов&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/whonet-combine-menu.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Меню объединения файлов
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;В открывшемся окне выберите файлы, которые необходимо объединить с помощью кнопки &lt;strong&gt;Файлы данных&lt;/strong&gt;. После этого в выпадающем списке &lt;strong&gt;Сохранить как&lt;/strong&gt; выберите формат экспорта &lt;strong&gt;WHONET&lt;/strong&gt; и укажите, куда сохранить новый объединенный файл данных. Для последующей обработки рекомендуется выбрать формат .txt. Если данные содержат персональную информацию, то полезно будет отметить пункт &lt;strong&gt;Зашифровать информацию о пациентах&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-окно-объединения-файлов&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/combine-window-01.png&#34; data-caption=&#34;Окно объединения файлов&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/combine-window-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Окно объединения файлов
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;После выполнения всех действий нажмите кнопку &lt;strong&gt;Совместить&lt;/strong&gt;. В результате получится файл, аналогичный полученному с использованием окна &lt;strong&gt;Анализ&lt;/strong&gt;, с той лишь разницей, что разделителем полей является символ вертикальной черты |. Однако все равно данный файл можно загружать в конвертер, описанный в 
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/whonet-converter/02/&#34;&gt;следующем разделе&lt;/a&gt; данного руководства.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-пример-результата-объединения-файлов&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/combine-export-result.png&#34; data-caption=&#34;Пример результата объединения файлов&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/combine-export-result.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Пример результата объединения файлов
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Необходимо отметить, что данное окно можно использовать и для экспорта одного файла — такой способ может оказаться проще и удобнее, если не требуется дополнительных условий отбора изолятов.&lt;/p&gt;
 </description>
     </item>
     

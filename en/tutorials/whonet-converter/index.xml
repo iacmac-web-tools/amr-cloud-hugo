@@ -738,6 +738,123 @@ For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and E
 &lt;/figure&gt;
 
 &lt;p&gt;The filter values will be filled in automatically and after that you can press the &lt;strong&gt;Begin analysis&lt;/strong&gt; button.&lt;/p&gt;
+&lt;h2 id=&#34;combine-and-export-multiple-files&#34;&gt;Combine and Export multiple files&lt;/h2&gt;
+&lt;p&gt;In some cases, it may be necessary to export multiple data files.
+For example, laboratories can store their data in different files, or files from one laboratory can be separated by years.&lt;/p&gt;
+&lt;p&gt;WHONET allows you to combine data from these files and export them as one file.&lt;/p&gt;
+&lt;p&gt;Choose &lt;strong&gt;Combine, export, or encrypt data files&lt;/strong&gt; from &lt;strong&gt;Data entry&lt;/strong&gt; menu.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-data-entry-menu&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/whonet-combine-menu.png&#34; data-caption=&#34;Data entry menu&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/whonet-combine-menu.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Data entry menu
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;In the opened window, press the &lt;strong&gt;Data files&lt;/strong&gt; button and select files you need to combine. In the &lt;strong&gt;Save as type&lt;/strong&gt; list select &lt;strong&gt;WHONET&lt;/strong&gt; for report format. Enter a path for saving export file. It is recommended to select the .txt format for further processing or converting. If the data contains personal information, it will be useful to check the box &lt;strong&gt;Encrypt patient information&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-combine-export-or-encrypt-data-files-window&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/combine-window-01.png&#34; data-caption=&#34;Combine, export, or encrypt data files window&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/combine-window-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Combine, export, or encrypt data files window
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Press the &lt;strong&gt;Combine&lt;/strong&gt; button to create a text export file. This file can be converted into AMRcloud readable format as described in the 
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/whonet-converter/02/&#34;&gt;next chapter&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-exported-file&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/combine-export-result.png&#34; data-caption=&#34;Exported file&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/combine-export-result.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Exported file
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;This window can also be used to export a single file — this method may be easier and more convenient if no additional conditions for filtering isolates are required.&lt;/p&gt;
 </description>
     </item>
     
