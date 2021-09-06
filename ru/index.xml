@@ -13,6 +13,1238 @@
     </image>
     
     <item>
+      <title>Анализ данных</title>
+      <link>https://amrcloud.net/ru/tutorials/analysis-examples/01/</link>
+      <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/analysis-examples/01/</guid>
+      <description>&lt;h2 id=&#34;интерфейс-модуля-анализ-и-визуализация-данных&#34;&gt;Интерфейс модуля «Анализ и визуализация данных»&lt;/h2&gt;
+&lt;p&gt;Интерфейс модуля анализа данных условно можно разбить на два больших раздела: &lt;strong&gt;Параметры основные&lt;/strong&gt; (вверху) и &lt;strong&gt;Инфографика&lt;/strong&gt; (внизу). С помощью фильтров в верхней части экрана (&lt;strong&gt;Параметры основные&lt;/strong&gt;) можно выбрать нужное подмножество из набора данных для визуализации его в виде графиков в нижней части экрана (&lt;strong&gt;Инфографика&lt;/strong&gt;). Основные разделы модуля &lt;strong&gt;Анализ и визуализация данных&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;раздел-параметры-основные&#34;&gt;Раздел «Параметры основные»&lt;/h3&gt;
+&lt;p&gt;В верхней части экрана отображается вся метаинформация из набора данных в виде фильтров с выпадающими списками. Названия фильтров соответствуют названиям столбцов, а значения в выпадающих списках – значениям в ячейках исходной таблицы. При этом фильтры с названиями &lt;strong&gt;Группа микроорганизмов&lt;/strong&gt; и &lt;strong&gt;Микроорганизмы&lt;/strong&gt; всегда расположены внизу раздела &lt;strong&gt;Параметры основные&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;В разделе &lt;strong&gt;Параметры основные&lt;/strong&gt; существует два типа фильтров:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Фильтры для категориальных данных&lt;/em&gt;, у которых есть выпадающий список категорий/значений для выбора (например, вирулентность, геолокация и т.п.)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Фильтры для непрерывных данных&lt;/em&gt; (например, возраст, дата), которые задаются с помощью специального слайдера&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;При использовании фильтров для категориальных данных можно воспользоваться функцией поиска. В текстовом поле фильтра можно вводить нужное значение, и в списке  категорий останутся те значения, в которых содержится введенный текст:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-фильтры-категориальных-данных&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/filters-with-text.png&#34; data-caption=&#34;Фильтры категориальных данных&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/filters-with-text.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Фильтры категориальных данных
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;иерархический-принцип-фильтрации&#34;&gt;Иерархический принцип фильтрации&lt;/h4&gt;
+&lt;p&gt;При применении какого-либо фильтра окно будет обведено синей рамкой.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-рамка-вокруг-фильтров&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/filter-blue.png&#34; data-caption=&#34;Рамка вокруг фильтров&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/filter-blue.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Рамка вокруг фильтров
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Все фильтры пронумерованы согласно их иерархии (от 1 до 12: чем меньше число, тем выше иерархия). При изменении значений фильтра высокой иерархии могут быть сокращены доступные для выбора категории в фильтрах более низкой иерархии (такие фильтры также будут обведены синей рамкой).&lt;/p&gt;
+&lt;h6 id=&#34;пример&#34;&gt;Пример&lt;/h6&gt;
+&lt;ol&gt;
+&lt;li&gt;Внести изменения фильтра 1 &lt;em&gt;Lineage&lt;/em&gt; с помощью выбора категории I и III.
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/filter-example-01.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/filter-example-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;В фильтрах 2, 3 и 5 сократилось количество категорий для выбора, и они обведены синей рамкой (например, в фильтре 3 &lt;em&gt;Geographical_location_of_isolation&lt;/em&gt; вместо 17 осталось 7 категорий):
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/filter-example-02.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/filter-example-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;Если снова изменить значение фильтра 1 &lt;em&gt;Lineage&lt;/em&gt;, выбрав все категории:
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/filter-example-03.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/filter-example-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;…то, все значения фильтров более низкой иерархии также изменятся (возвращение к исходным наборам категорий):
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/filter-example-04.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/filter-example-04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Таким образом, при работе с фильтрами лучше всего изменять их значения последовательно в том порядке, в каком они пронумерованы. Однако это правило не касается непрерывных данных, таких как возраст, дата и т.п.&lt;/p&gt;
+&lt;p&gt;Для того чтобы значения фильтров низкой иерархии не сбрасывались каждый раз при переключении вышестоящих фильтров – необходимо использовать функцию &lt;strong&gt;Удерживать фильтры&lt;/strong&gt;:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-удержание-фильтров&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/filter-hold.png&#34; data-caption=&#34;Удержание фильтров&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/filter-hold.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Удержание фильтров
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Следует отметить, что функция «Удерживать фильтры» применима только к фильтрам для категориальных данных.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;раздел-инфографика&#34;&gt;Раздел «Инфографика»&lt;/h3&gt;
+&lt;p&gt;Вкладки &lt;strong&gt;«Инфографики»&lt;/strong&gt; позволяют методично изучать все аспекты данных, начиная с обобщенных данных во вкладке &lt;strong&gt;Структура данных&lt;/strong&gt; до исследования частных вопросов во вкладке &lt;strong&gt;Сравнения&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;7 вкладок раздела &lt;strong&gt;«Инфографика»&lt;/strong&gt; предоставляют собой различные инструменты визуализации:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Вкладка &lt;strong&gt;Структура данных&lt;/strong&gt; позволяет просмотреть общую структуру метаданных (распределение данных по различным категориям, взаимосвязь различных категорий данных, географическое распределение данных).&lt;/li&gt;
+&lt;li&gt;Вкладка &lt;strong&gt;Микроорганизмы&lt;/strong&gt; отображает общую информацию о распределении различных штаммов или групп микроорганизмов в наборе данных. Вкладка может быть полезна для первоначального анализа набора данных и определения стратегии дальнейшего анализа.&lt;/li&gt;
+&lt;li&gt;Во вкладках &lt;strong&gt;Антибиотики (все)&lt;/strong&gt;, &lt;strong&gt;Выбранный антибиотик&lt;/strong&gt; и &lt;strong&gt;Ассоциированная устойчивость&lt;/strong&gt; можно просмотреть и проанализировать информацию о резистентности. Вкладки упорядочены по уровню детализации данных: от общего анализа к более глубокому. Использование вкладок в таком порядке поможет рассмотреть сначала «общую картину» – проблемные/интересующие области (устойчивость выбранных групп микроорганизмов к различным антимикробным препаратам, распределение МПК и т.д.), а затем перейти к детализации: рассмотрению взаимосвязей между резистентностью и метаданными (данные о пациенте, география, тип инфекции и т.д.), а также рассмотрению ассоциированной устойчивости (множественная устойчивость и т.д.)&lt;/li&gt;
+&lt;li&gt;Вкладка &lt;strong&gt;Маркеры&lt;/strong&gt; позволяет исследовать взаимосвязь резистентности и генетических детерминант, а также установить корреляцию между всеми видами генетических маркеров и метаданными.&lt;/li&gt;
+&lt;li&gt;Вкладка &lt;strong&gt;Сравнения&lt;/strong&gt; позволяет выделить на основе разных параметров две группы из исходного набора данных и сравнивать их между собой. Например, можно создать две группы: нозокомиальные и внебольничные инфекций, и сравнить в них распространенность резистентных изолятов, наличие различных маркеров или распределение метаданных.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;Важно отметить, что для корректной визуализации данных, после изменения значений в разделе &lt;strong&gt;Параметры основные&lt;/strong&gt;, необходимо нажать на кнопку &lt;strong&gt;Отобразить&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;При этом выпадающие списки во вкладках раздела &lt;strong&gt;«Инфографика»&lt;/strong&gt; меняют представление только одного конкретного графика/диаграммы, расположенного на этой же вкладке. После изменения значений фильтров внутри вкладок &lt;strong&gt;«Инфографики»&lt;/strong&gt;, необходимо нажать на кнопку &lt;strong&gt;Отобразить&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Все гистограммы, круговые диаграммы и графики в разделе &lt;strong&gt;«Инфографика»&lt;/strong&gt; являются интерактивными. При наведении курсора на график, появляется всплывающее сообщение с информацией о названии категории данных и численном значении параметра. Отображаемые на графиках категории можно изменить, нажав на значок нужной категории в легенде (при этом численные значения категорий не изменятся).&lt;/p&gt;
+&lt;h6 id=&#34;пример-1&#34;&gt;Пример&lt;/h6&gt;
+&lt;p&gt;При нажатии на соответствующий значок в легенде, категория &lt;em&gt;Нет данных&lt;/em&gt; будет скрыта с гистограммы &lt;strong&gt;Процент изолятов&lt;/strong&gt;:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/graph-01.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/graph-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Как упоминалось ранее, названия столбцов в импортированной таблице используются в качестве имен фильтров раздела &lt;strong&gt;Параметры основные&lt;/strong&gt;. На этапе импорта система попросит отметить некоторые столбцы загружаемой таблицы, такие как &lt;strong&gt;Параметры&lt;/strong&gt; или &lt;strong&gt;Маркеры&lt;/strong&gt;: и те, и другие будут отображаться в разделе фильтров &lt;strong&gt;Параметры основные&lt;/strong&gt;. Маркеры также будут отображаться во вкладке &lt;strong&gt;Маркеры&lt;/strong&gt; раздела &lt;strong&gt;«Инфографика»&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Также важно отметить, что если есть данные о нескольких генетических детерминантах, которые вызывают устойчивость к определенному классу антимикробных препаратов, то может быть полезно сгруппировать их в одну единую категорию (ознакомиться подробнее можно в &lt;a href=&#34;https://amrcloud.net/ru/tutorials/import-data/05-identification/&#34;&gt;Руководстве «AMRcloud. Импорт данных»&lt;/a&gt;).
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Примеры задач и способы их решения</title>
+      <link>https://amrcloud.net/ru/tutorials/analysis-examples/02/</link>
+      <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/analysis-examples/02/</guid>
+      <description>&lt;p&gt;Конкретный опыт использования платформы AMRcloud целиком зависит от данных в загружаемой таблице. Тем не менее,  можно привести несколько типовых примеров, когда различные функции AMRcloud могут помочь в решении общих задач, которые возникают в процессе рутинной работы у клиницистов, микробиологов или эпидемиологов, занимающихся надзором за устойчивостью к антимикробным препаратам. Важно подчеркнуть, что расположение фильтров, а также типы данных в фильтрах, в приведенных ниже примерах могут отличаться от фактических данных пользователя, однако общая структура сохранится.&lt;/p&gt;
+&lt;p&gt;Если ни один из приведенных ниже примеров не соответствует конкретной ситуации, то систематическое и подробное описание всех функций, включенных в платформу AMRcloud, можно найти в 
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/analysis-examples/03/&#34;&gt;Разделе 3&lt;/a&gt; данного руководства.&lt;/p&gt;
+&lt;h2 id=&#34;профиль-чувствительности-микроорганизмов-связанный-с-конкретной-патологией&#34;&gt;Профиль чувствительности микроорганизмов, связанный с конкретной патологией&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;В разделе &lt;strong&gt;Параметры основные&lt;/strong&gt; для анализа необходимо установить значения параметров &lt;strong&gt;Группа микроорганизмов&lt;/strong&gt; и &lt;strong&gt;Микроорганизмы&lt;/strong&gt; (например, Enterobacterales).&lt;/li&gt;
+&lt;li&gt;В разделе &lt;strong&gt;«Инфографика»&lt;/strong&gt; следует перейти во вкладку &lt;strong&gt;Выбранный антибиотик&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Из выпадающего списка выбрать антибиотик, информацию об активности которого необходимо узнать.&lt;/li&gt;
+&lt;li&gt;Перейти в подвкладку &lt;strong&gt;S/I/R графики&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Перейти в подвкладку &lt;strong&gt;Группировать по&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;В появившемся выпадающем списке &lt;strong&gt;Группировать по&lt;/strong&gt; выбрать категорию &lt;em&gt;Локализация_инфекции&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Нажать на кнопку &lt;strong&gt;Отобразить&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-профиль-чувствительности-микроорганизмов-связанный-с-конкретной-патологией-фильтры&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-01.png&#34; data-caption=&#34;Профиль чувствительности микроорганизмов, связанный с конкретной патологией. Фильтры&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Профиль чувствительности микроорганизмов, связанный с конкретной патологией. Фильтры
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;На экране отобразится следующий график:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-профиль-чувствительности-микроорганизмов-связанный-с-конкретной-патологией-график&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-01-graph.png&#34; data-caption=&#34;Профиль чувствительности микроорганизмов, связанный с конкретной патологией. График&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-01-graph.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Профиль чувствительности микроорганизмов, связанный с конкретной патологией. График
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Для использования функции &lt;strong&gt;Группировать по&lt;/strong&gt; важно, чтобы в разделе &lt;strong&gt;Параметры основные&lt;/strong&gt; были выбраны все значения для параметра, выбранного в качестве категории &lt;strong&gt;Группировать по&lt;/strong&gt;. В данном примере для категории &lt;em&gt;Локализация_инфекции&lt;/em&gt; в разделе &lt;strong&gt;Параметры основные&lt;/strong&gt; выбраны все доступные значения.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-профиль-чувствительности-микроорганизмов-связанный-с-конкретной-патологией-функция-группировать-по&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-01-groupby.png&#34; data-caption=&#34;Профиль чувствительности микроорганизмов, связанный с конкретной патологией. Функция Группировать по&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-01-groupby.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Профиль чувствительности микроорганизмов, связанный с конкретной патологией. Функция Группировать по
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;оценка-уровня-резистентности-в-различных-возрастных-группах&#34;&gt;Оценка уровня резистентности в различных возрастных группах&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Выбрать с помощью фильтров раздела &lt;strong&gt;Параметры основные&lt;/strong&gt; необходимое подмножество данных для анализа (например, &lt;strong&gt;Группу микроорганизмов&lt;/strong&gt; – Enterobacterales).&lt;/li&gt;
+&lt;li&gt;В разделе &lt;strong&gt;«Инфографика»&lt;/strong&gt; перейти на вкладку &lt;strong&gt;Выбранный антибиотик&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Из выпадающего списка выбрать антибиотик, информацию об устойчивости к которому необходимо узнать.&lt;/li&gt;
+&lt;li&gt;Перейти в подвкладку &lt;strong&gt;S/I/R графики&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Перейти в подвкладку &lt;strong&gt;Группировать по&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;В появившемся выпадающем списке &lt;strong&gt;Группировать по&lt;/strong&gt; выбрать категорию &lt;em&gt;Возрастная_группа&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Нажать на кнопку &lt;strong&gt;Отобразить&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Для того чтобы значения в гистограмме были отсортированы вдоль X-оси по убыванию возраста, необходимо выбрать категорию &lt;em&gt;Сортировка → Наименование&lt;/em&gt;, &lt;em&gt;Тип сортировки → Нисходящая&lt;/em&gt; и снова нажать на кнопку &lt;strong&gt;Отобразить&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-оценка-уровня-резистентности-в-различных-возрастных-группах-фильтры&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-02.png&#34; data-caption=&#34;Оценка уровня резистентности в различных возрастных группах. Фильтры&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Оценка уровня резистентности в различных возрастных группах. Фильтры
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;На экране отобразится следующий график:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-оценка-уровня-резистентности-в-различных-возрастных-группах-график&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-02-graph.png&#34; data-caption=&#34;Оценка уровня резистентности в различных возрастных группах. График&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-02-graph.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Оценка уровня резистентности в различных возрастных группах. График
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;оценка-активности-антимикробных-препаратов-за-определенный-временной-интервал-для-выбранной-группы-микроорганизмов&#34;&gt;Оценка активности антимикробных препаратов за определенный временной интервал для выбранной группы микроорганизмов&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;С помощью фильтра &lt;strong&gt;Дата&lt;/strong&gt; в разделе &lt;strong&gt;Параметры основные&lt;/strong&gt; следует установить необходимый временной интервал.&lt;/li&gt;
+&lt;li&gt;Выбрать с помощью фильтров раздела &lt;strong&gt;Параметры основные&lt;/strong&gt; определенную группу микроорганизмов (например, &lt;strong&gt;Группу микроорганизмов&lt;/strong&gt; – Enterobacterales).&lt;/li&gt;
+&lt;li&gt;В разделе &lt;strong&gt;«Инфографика»&lt;/strong&gt; перейти во вкладку &lt;strong&gt;Антибиотики (все)&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Перейти в подвкладку &lt;strong&gt;График&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Нажать на кнопку &lt;strong&gt;Отобразить&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;В появившемся выпадающем списке &lt;strong&gt;Антибиотики&lt;/strong&gt; выбрать интересующие категории.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-оценка-активности-антимикробных-препаратов-за-определенный-временной-интервал-для-выбранной-группы-микроорганизмов-фильтры&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-03.png&#34; data-caption=&#34;Оценка активности антимикробных препаратов за определенный временной интервал для выбранной группы микроорганизмов. Фильтры&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Оценка активности антимикробных препаратов за определенный временной интервал для выбранной группы микроорганизмов. Фильтры
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;На экране отобразится следующий график:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-оценка-активности-антимикробных-препаратов-за-определенный-временной-интервал-для-выбранной-группы-микроорганизмов-график&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-03-graph.png&#34; data-caption=&#34;Оценка активности антимикробных препаратов за определенный временной интервал для выбранной группы микроорганизмов. График&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-03-graph.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Оценка активности антимикробных препаратов за определенный временной интервал для выбранной группы микроорганизмов. График
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;тренд-резистентности-к-антимикробным-препаратам-по-годам&#34;&gt;Тренд резистентности к антимикробным препаратам по годам&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;В разделе &lt;strong&gt;Параметры основные&lt;/strong&gt; установить необходимые для анализа значения параметров &lt;strong&gt;Группа микроорганизмов&lt;/strong&gt; и &lt;strong&gt;Микроорганизмы&lt;/strong&gt; (например, выбрать Enterobacterales).&lt;/li&gt;
+&lt;li&gt;В разделе &lt;strong&gt;«Инфографика»&lt;/strong&gt; перейти во вкладку &lt;strong&gt;Выбранный антибиотик&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Из выпадающего списка выбрать антибиотик, информацию об устойчивости к которому необходимо узнать.&lt;/li&gt;
+&lt;li&gt;Перейти в подвкладку &lt;strong&gt;S/I/R графики&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Перейти в подвкладку &lt;strong&gt;Группировать по&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;В появившемся выпадающем списке &lt;strong&gt;Группировать по&lt;/strong&gt; выбрать категорию &lt;em&gt;Дата: год&lt;/em&gt; (встроенные в AMRcloud алгоритмы позволяют разбивать загруженную дату на год, квартал, месяц и день). Следует отметить, что даты в AMRcloud всегда автоматически отсортированы в хронологическом порядке.&lt;/li&gt;
+&lt;li&gt;Для отображения данных в виде тренда необходимо выбрать в выпадающем списке &lt;strong&gt;Тип графика&lt;/strong&gt; значение &lt;em&gt;Тренд&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Нажать на кнопку &lt;strong&gt;Отобразить&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-тренд-резистентности-к-антимикробным-препаратам-по-годам-фильтры&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-04.png&#34; data-caption=&#34;Тренд резистентности к антимикробным препаратам по годам. Фильтры&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Тренд резистентности к антимикробным препаратам по годам. Фильтры
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;На экране отобразится следующий график:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-тренд-резистентности-к-антимикробным-препаратам-по-годам-график&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-04-graph.png&#34; data-caption=&#34;Тренд резистентности к антимикробным препаратам по годам. График&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-04-graph.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Тренд резистентности к антимикробным препаратам по годам. График
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;географическое-распределение-профилей-чувствительности&#34;&gt;Географическое распределение профилей чувствительности&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;В разделе &lt;strong&gt;Параметры основные&lt;/strong&gt; установить необходимые для анализа значения параметров &lt;strong&gt;Группа микроорганизмов&lt;/strong&gt; и &lt;strong&gt;Микроорганизмы&lt;/strong&gt; (например, выбрать Enterobacterales).&lt;/li&gt;
+&lt;li&gt;В разделе &lt;strong&gt;«Инфографика»&lt;/strong&gt; перейти во вкладку &lt;strong&gt;Выбранный антибиотик&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Из выпадающего списка выбрать антибиотик, информацию об устойчивости к которому необходимо узнать.&lt;/li&gt;
+&lt;li&gt;Перейти в подвкладку &lt;strong&gt;Карта&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Нажать на кнопку &lt;strong&gt;Отобразить&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-географическое-распределение-профилей-чувствительности-фильтры&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-05.png&#34; data-caption=&#34;Географическое распределение профилей чувствительности. Фильтры&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-05.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Географическое распределение профилей чувствительности. Фильтры
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;На экране отобразится географическая карта с S/I/R маркерами:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-географическое-распределение-профилей-чувствительности-график&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-05-graph.png&#34; data-caption=&#34;Географическое распределение профилей чувствительности. График&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-05-graph.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Географическое распределение профилей чувствительности. График
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Для получения альтернативного отображения относительного распределения изолятов, резистентных к выбранному антибиотику, следует перейти в подвкладку &lt;strong&gt;Рейтинг&lt;/strong&gt;. На приведенном ниже графике все географические регионы отсортированы по возрастанию доли резистентных изолятов (вертикальной пунктирной линией изображена медиана относительного количества устойчивых изолятов).&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-географическое-распределение-профилей-чувствительности-рейтинг&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-05-rating.png&#34; data-caption=&#34;Географическое распределение профилей чувствительности. Рейтинг&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-05-rating.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Географическое распределение профилей чувствительности. Рейтинг
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;связь-фенотипа-устойчивости-и-генотипа&#34;&gt;Связь фенотипа устойчивости и генотипа&lt;/h2&gt;
+&lt;p&gt;Данный тип анализа возможен при загрузке в систему соответствующего набора данных и позволяет отобразить распределение МПК для изолятов с различными генетическими детерминантами.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Выполнить переход на вкладку &lt;strong&gt;Маркеры&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Из выпадающих списков &lt;strong&gt;Группа маркеров&lt;/strong&gt;, &lt;strong&gt;Маркер&lt;/strong&gt; выбрать интересующие значения.&lt;/li&gt;
+&lt;li&gt;Перейти на подвкладку &lt;strong&gt;МПК&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Выбрать антибиотик, для которого необходимо установить связь между генотипом и фенотипом.&lt;/li&gt;
+&lt;li&gt;Нажать на кнопку &lt;strong&gt;Отобразить&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-связь-фенотипа-устойчивости-и-генотипа-фильтры&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-06.png&#34; data-caption=&#34;Связь фенотипа устойчивости и генотипа. Фильтры&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-06.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Связь фенотипа устойчивости и генотипа. Фильтры
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;На экране отобразится следующий график:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-связь-фенотипа-устойчивости-и-генотипа-график&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-06-graph.png&#34; data-caption=&#34;Связь фенотипа устойчивости и генотипа. График&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-06-graph.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Связь фенотипа устойчивости и генотипа. График
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;ассоциированная-устойчивость&#34;&gt;Ассоциированная устойчивость&lt;/h2&gt;
+&lt;p&gt;AMRcloud позволяет пользователям анализировать ассоциированную устойчивость к антибиотикам, т.е. определять вероятность наличия устойчивости при различных комбинациях антибактериальных препаратов.&lt;/p&gt;
+&lt;h3 id=&#34;подвкладка-матрица&#34;&gt;Подвкладка «Матрица»&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;В разделе &lt;strong&gt;Параметры основные&lt;/strong&gt; установить необходимые для анализа значения параметров &lt;strong&gt;Группа микроорганизмов&lt;/strong&gt; и &lt;strong&gt;Микроорганизмы&lt;/strong&gt; (например, выбрать Enterobacterales).&lt;/li&gt;
+&lt;li&gt;Перейти во вкладку &lt;strong&gt;Ассоциированная устойчивость&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Перейти в подвкладку &lt;strong&gt;Матрица&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Нажать на кнопку &lt;strong&gt;Отобразить&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-ассоциированная-устойчивость-подвкладка-матрица-фильтры&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-07-01.png&#34; data-caption=&#34;Ассоциированная устойчивость. Подвкладка «Матрица». Фильтры&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-07-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Ассоциированная устойчивость. Подвкладка «Матрица». Фильтры
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;На экране отобразится матрица ассоциированной устойчивости:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-ассоциированная-устойчивость-подвкладка-матрица-график&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-07-01-graph.png&#34; data-caption=&#34;Ассоциированная устойчивость. Подвкладка «Матрица». График&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-07-01-graph.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Ассоциированная устойчивость. Подвкладка «Матрица». График
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;В приведенной матрице можно выбрать строку с препаратом, резистентность к которому изучена в загруженном наборе данных, и просмотреть вероятность устойчивости изолятов к другому препарату, расположенному в столбце. Например, вероятность того, что изолят резистентный к меропенему будет резистентен и к гентамицину составляет 81.49%.&lt;/p&gt;
+&lt;p&gt;Основной целью данного анализа является выявление антибактериальных препаратов, обладающих наименьшей активностью в отношении выбранных микроорганизмов (высокие значения в ячейке). Альтернативной целью для данного вида анализа является поиск необычных паттернов резистентности: например, в случае резистентности Acinetobacter к меропенему, у тобрамицина наблюдается наименьший уровень ассоциированной устойчивости среди остальных аминогликозидов.&lt;/p&gt;
+&lt;h3 id=&#34;подвкладка-множественная-устойчивость&#34;&gt;Подвкладка «Множественная устойчивость»&lt;/h3&gt;
+&lt;p&gt;Для определения доли мульти-/пан-/экстремально-резистентных изолятов в наборе данных, воспользуйтесь подвкладкой &lt;strong&gt;Множественная устойчивость&lt;/strong&gt;. Здесь можно установить процент изолятов, резистентных к одному, двум … N антибиотикам одновременно.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;В разделе &lt;strong&gt;Параметры основные&lt;/strong&gt; следует установить необходимые для анализа значения параметров &lt;strong&gt;Группа микроорганизмов&lt;/strong&gt; и &lt;strong&gt;Микроорганизмы&lt;/strong&gt; (например, выбрать Enterobacterales).&lt;/li&gt;
+&lt;li&gt;Перейти во вкладку &lt;strong&gt;Ассоциированная устойчивость&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Перейти в подвкладку &lt;strong&gt;Множественная устойчивость&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Выбрать антибиотики, к которым необходимо обнаружить множественную устойчивость (следует выбрать больше одного антибиотика).&lt;/li&gt;
+&lt;li&gt;Ввести количество антибиотиков, к которым должен быть резистентен изолят.
+В приведенном примере была выбрана группа из 8 антибиотиков и введено значение «R как минимум к N антибиотикам» равное 8, т.е. осуществляется поиск доли панрезистентных изолятов в выборке.&lt;/li&gt;
+&lt;li&gt;Нажать на кнопку &lt;strong&gt;Отобразить&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-ассоциированная-устойчивость-подвкладка-множественная-устойчивость-фильтры&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-07-02.png&#34; data-caption=&#34;Ассоциированная устойчивость. Подвкладка «Множественная устойчивость». Фильтры&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-07-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Ассоциированная устойчивость. Подвкладка «Множественная устойчивость». Фильтры
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Появляется информация о количестве найденных изолятов, проценте от общего числа изолятов, а также 95%-ый доверительный интервал (ДИ).&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-ассоциированная-устойчивость-подвкладка-множественная-устойчивость-информация&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-07-02-graph.png&#34; data-caption=&#34;Ассоциированная устойчивость. Подвкладка «Множественная устойчивость». Информация&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-07-02-graph.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Ассоциированная устойчивость. Подвкладка «Множественная устойчивость». Информация
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;визуализация-мпк50-и-мпк90&#34;&gt;Визуализация МПК50 и МПК90&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;В разделе &lt;strong&gt;Параметры основные&lt;/strong&gt; установить необходимые для анализа значения параметров &lt;strong&gt;Группа микроорганизмов&lt;/strong&gt; и &lt;strong&gt;Микроорганизмы&lt;/strong&gt; (например, выбрать Enterobacterales).&lt;/li&gt;
+&lt;li&gt;В разделе &lt;strong&gt;«Инфографика»&lt;/strong&gt; перейти во вкладку &lt;strong&gt;Выбранный антибиотик&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Из выпадающего списка выбрать антибиотик, информацию об устойчивости к которому необходимо узнать.&lt;/li&gt;
+&lt;li&gt;Перейти в подвкладку &lt;strong&gt;МПК&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Нажать на кнопку &lt;strong&gt;Отобразить&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-визуализация-мпк50-и-мпк90-фильтры&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-08.png&#34; data-caption=&#34;Визуализация МПК50 и МПК90. Фильтры&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-08.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Визуализация МПК50 и МПК90. Фильтры
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;На появившемся графике значения МПК50 и МПК90 отображаются в виде вертикальных пунктирных линий над соответствующими столбцами. При наведении курсора на пунктирную линию всплывает текстовое окно с обозначением &lt;em&gt;МПК 90&lt;/em&gt; или &lt;em&gt;МПК 50&lt;/em&gt;:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-визуализация-мпк50-и-мпк90-график&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-08-graph.png&#34; data-caption=&#34;Визуализация МПК50 и МПК90. График&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-08-graph.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Визуализация МПК50 и МПК90. График
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;время-первого-обнаружения-для-определенного-маркера-в-зависимости-от-геолокации&#34;&gt;Время первого обнаружения для определенного маркера в зависимости от геолокации&lt;/h2&gt;
+&lt;p&gt;Иногда бывает полезным визуализировать информацию из набора данных, касающуюся маркеров вирулентности или детерминант резистентности или генетических линий, на временной шкале с привязкой к географическим данным. Для этого необходимо выполнить следующие шаги:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;В разделе &lt;strong&gt;Параметры основные&lt;/strong&gt; установить необходимые для анализа значения параметров &lt;strong&gt;Группа микроорганизмов&lt;/strong&gt; и &lt;strong&gt;Микроорганизмы&lt;/strong&gt; (например, выбрать Enterobacterales).&lt;/li&gt;
+&lt;li&gt;В разделе &lt;strong&gt;«Инфографика»&lt;/strong&gt; перейти во вкладку &lt;strong&gt;Маркеры&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Выбрать из выпадающего списка &lt;strong&gt;Группа маркеров&lt;/strong&gt; необходимую для анализа группу. Выбирать конкретный маркер на данном шаге необязательно, т.к. он будет выбран позже во время визуализации.&lt;/li&gt;
+&lt;li&gt;Перейти в подвкладку &lt;strong&gt;Время первого обнаружения&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Из выпадающего списка &lt;strong&gt;Генетический маркер&lt;/strong&gt; выбрать интересующий маркер.&lt;/li&gt;
+&lt;li&gt;Из выпадающего списка &lt;strong&gt;Группировать по&lt;/strong&gt; выбрать категорию &lt;em&gt;Федеральный_округ&lt;/em&gt; (или город, страна, в зависимости от набора данных).&lt;/li&gt;
+&lt;li&gt;Нажать на кнопку &lt;strong&gt;Отобразить&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-время-первого-обнаружения-для-определенного-маркера-в-зависимости-от-геолокации-фильтры&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-09.png&#34; data-caption=&#34;Время первого обнаружения для определенного маркера в зависимости от геолокации. Фильтры&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-09.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Время первого обнаружения для определенного маркера в зависимости от геолокации. Фильтры
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;На полученном графике с временной шкалой, можно увидеть, когда и в каких федеральных округах впервые были выделены карбапенемазы NDM для группы энтеробактерий:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-время-первого-обнаружения-для-определенного-маркера-в-зависимости-от-геолокации-график&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-09-graph.png&#34; data-caption=&#34;Время первого обнаружения для определенного маркера в зависимости от геолокации. График&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-09-graph.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Время первого обнаружения для определенного маркера в зависимости от геолокации. График
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>Из CAESAR в AMRcloud</title>
       <link>https://amrcloud.net/ru/tutorials/caesar-converter/01/</link>
       <pubDate>Tue, 27 Apr 2021 00:05:00 +0000</pubDate>
@@ -4713,6 +5945,1968 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;p&gt;Чтобы скачать сконвертированный файл, нажмите кнопку &lt;strong&gt;Download&lt;/strong&gt;. Предполагается, что файл уже готов для загрузки в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; и не требует дополнительного редактирования (за исключением ситуации с Warning: Table doesn&amp;rsquo;t has ORGANISM column, описанной выше).&lt;/p&gt;
 &lt;p&gt;Как происходит процесс загрузки файла в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;, можно прочитать в соответствующем 
 &lt;a href=&#34;https://amrcloud.net/ru/tutorials/import-data/&#34;&gt;руководстве&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Подробное описание различных видов анализа данных</title>
+      <link>https://amrcloud.net/ru/tutorials/analysis-examples/03/</link>
+      <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/analysis-examples/03/</guid>
+      <description>&lt;h2 id=&#34;структура-данных&#34;&gt;Структура данных&lt;/h2&gt;
+&lt;p&gt;Вкладка &lt;strong&gt;Структура данных&lt;/strong&gt; дает общий обзор структуры метаданных. Графики на этой вкладке позволяют всесторонне рассмотреть и сравнить метаданные, однако  здесь не отображаются данные о чувствительности к антимикробным препаратам.&lt;/p&gt;
+&lt;p&gt;Доступные инструменты визуализации (подвкладки):&lt;/p&gt;
+&lt;h3 id=&#34;круговая-диаграмма&#34;&gt;Круговая диаграмма&lt;/h3&gt;
+&lt;p&gt;Отображает распределение данных в одной категории, которую можно выбрать из выпадающего списка. В таблице под графиком отображаются данные, которые можно экспортировать в форматах CSV, Excel, PDF и др.&lt;/p&gt;
+&lt;h3 id=&#34;группировать-по&#34;&gt;Группировать по&lt;/h3&gt;
+&lt;p&gt;Представлено распределение данных согласно различным критериям, установленным с помощью контроллеров:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Поле &lt;strong&gt;График&lt;/strong&gt; — категория данных для отображения&lt;/li&gt;
+&lt;li&gt;Поле &lt;strong&gt;Группировать по&lt;/strong&gt; — критерий, по которому данные будут сгруппированы&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h6 id=&#34;пример-распределения-типов-инфекций-по-месяцам&#34;&gt;Пример. Распределения типов инфекций по месяцам&lt;/h6&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-распределения-типов-инфекций-по-месяцам&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-01.png&#34; data-caption=&#34;Распределения типов инфекций по месяцам&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Распределения типов инфекций по месяцам
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;В таблице под графиком отображаются данные, которые можно экспортировать в форматах CSV, Excel, PDF и др.&lt;/p&gt;
+&lt;h3 id=&#34;карта&#34;&gt;Карта&lt;/h3&gt;
+&lt;p&gt;Отображается географическое распределение данных в одной категории, которую можно выбрать из выпадающего списка.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Для возврата к исходному отображению карты (в случае если был изменен масштаб или выполнялось перемещение по карте) следует нажать на кнопку &lt;i class=&#34;fas fa-compress-arrows-alt&#34;&gt;&lt;/i&gt;&lt;/li&gt;
+&lt;li&gt;Для поиска геолокации на карте можно воспользуйться кнопкой &lt;i class=&#34;fas fa-search&#34;&gt;&lt;/i&gt;&lt;/li&gt;
+&lt;li&gt;Рисовать и проставлять маркеры на карте можно с помощью панели &lt;img src=&#34;https://amrcloud.net/css/spritesheet-short.svg&#34; style=&#34;margin: 0&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;Настроить различные элементы карты можно, нажав кнопку кнопку &lt;strong&gt;Style Editor&lt;/strong&gt;  &lt;i class=&#34;leaflet-button-control&#34; style=&#34;margin: 0&#34; alt=&#34;&#34;&gt;&lt;/i&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-настройка-стилей&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/style-editor.png&#34; data-caption=&#34;Настройка стилей&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/style-editor.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Настройка стилей
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;микроорганизмы&#34;&gt;Микроорганизмы&lt;/h2&gt;
+&lt;p&gt;На вкладке &lt;strong&gt;Микроорганизмы&lt;/strong&gt; отображается сводная информация о различных видах или группах организмов, представленных в загруженном наборе данных (или части данных, на основании фильтров в разделе «Параметры основные»)&lt;/p&gt;
+&lt;h2 id=&#34;антибиотики-все&#34;&gt;Антибиотики (все)&lt;/h2&gt;
+&lt;p&gt;На вкладке &lt;strong&gt;Антибиотики (все)&lt;/strong&gt; отображается общее распределение изолятов по категориям чувствительности S/I/R, которые либо загружаются пользователем, либо рассчитываются автоматически по введенным значениям МПК или диаметрам зон.&lt;/p&gt;
+&lt;p&gt;Одновременно здесь можно анализировать только одну группу или вид микроорганизмов, которые выбираются в разделе &lt;strong&gt;Параметры основные&lt;/strong&gt; в соответствующих полях &lt;strong&gt;Группа микроорганизмов&lt;/strong&gt; и &lt;strong&gt;Микроорганизмы&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;При этом по умолчанию результаты отображаются для всех протестированных антибиотиков (для которых применимы категории чувствительности). В дальнейшем можно выбрать несколько антибиотиков (или один), используя выпадающий список &lt;strong&gt;Антибиотики&lt;/strong&gt; в подвкладке &lt;strong&gt;График&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Доступные настройки (контроллеры):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Источник данных S/I/R&lt;/strong&gt; ­- оценка объединенных данных, отдельно данных автоинтерпретации МПК или диаметров зон;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Отобразить&lt;/strong&gt; - настройка отображения категорий S/I/R по отдельности или совместно (S/I+R или S+I/R).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;выбранный-антибиотик&#34;&gt;Выбранный антибиотик&lt;/h2&gt;
+&lt;p&gt;На вкладке &lt;strong&gt;Выбранный антибиотик&lt;/strong&gt; для каждого отдельного антибиотика отображается связь категорий S/I/R с метаданными (дата, геолокация, генетическая линия, диагноз и т.д.). Основная цель аналитических инструментов данной вкладки: выявить скрытые взаимосвязи между фенотипами антимикробной резистентности и метаданными. Также на этой вкладке доступна визуализация распределения чувствительности антибиотиков по значениям МПК или диаметров зон.&lt;/p&gt;
+&lt;p&gt;Доступные настройки (контроллеры):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Источник данных S/I/R&lt;/strong&gt; - оценка объединенных данных, отдельно данных автоинтерпретации МПК или диаметров зон;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Антибиотик&lt;/strong&gt; - выбор антибиотика, для которого будет проведен анализ (на этой вкладке можно анализировать только один антибиотик за раз); по умолчанию, выбран первый по алфавиту антибиотик.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Доступные инструменты визуализации (подвкладки).&lt;/p&gt;
+&lt;h3 id=&#34;sir-графики&#34;&gt;S/I/R графики&lt;/h3&gt;
+&lt;p&gt;Базовые настройки:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Отобразить&lt;/strong&gt; - представление категорий S/I/R по отдельности или совместно (S/I+R или S+I/R);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Отобразить результаты с 95% ДИ до&amp;hellip;&lt;/strong&gt; – установление максимального порога ширины 95% доверительного интервала (ДИ).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Подвкладка &lt;strong&gt;Суммарная информация&lt;/strong&gt; отображает общее S/I/R распределение для выбранного антибиотика.&lt;/p&gt;
+&lt;h6 id=&#34;пример-оценка-распределения-категорий-чувствительности-к-ципрофлоксацину-среди-изолятов-enterobacterales&#34;&gt;Пример: Оценка распределения категорий чувствительности к ципрофлоксацину среди изолятов Enterobacterales&lt;/h6&gt;
+&lt;ol&gt;
+&lt;li&gt;Выбрать с помощью фильтров раздела &lt;strong&gt;Параметры основные&lt;/strong&gt; необходимое подмножество данных для анализа &lt;strong&gt;Группа микроорганизмов&lt;/strong&gt; → Enterobacterales.&lt;/li&gt;
+&lt;li&gt;Из выпадающего списка &lt;strong&gt;Антибиотик&lt;/strong&gt; выбрать &lt;em&gt;ciprofloxacin_sir&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Перейти в подвкладку &lt;strong&gt;S/I/R графики&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Перейти в подвкладку &lt;strong&gt;Суммарная информация&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Нажать на кнопку &lt;strong&gt;Отобразить&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-оценка-распределения-категорий-чувствительности-к-ципрофлоксацину-среди-изолятов-enterobacterales-фильтры&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04.png&#34; data-caption=&#34;Оценка распределения категорий чувствительности к ципрофлоксацину среди изолятов Enterobacterales. Фильтры&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Оценка распределения категорий чувствительности к ципрофлоксацину среди изолятов Enterobacterales. Фильтры
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;На экране отобразится круговая диаграмма:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-оценка-распределения-категорий-чувствительности-к-ципрофлоксацину-среди-изолятов-enterobacterales-график&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04-graph.png&#34; data-caption=&#34;Оценка распределения категорий чувствительности к ципрофлоксацину среди изолятов Enterobacterales. График&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04-graph.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Оценка распределения категорий чувствительности к ципрофлоксацину среди изолятов Enterobacterales. График
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Для представления категорий чувствительности (S/I/R) на основе специфических групп данных, следует перейти в подвкладку &lt;strong&gt;Группировать по&lt;/strong&gt;. В появившемся выпадающем списке &lt;strong&gt;Группировать по&lt;/strong&gt; можно выбрать метаданные для группировки.&lt;/p&gt;
+&lt;h6 id=&#34;пример-оценка-распределения-категорий-чувствительности-к-ципрофлоксацину-при-различных-диагнозах-среди-изолятов-enterobacterales&#34;&gt;Пример: Оценка распределения категорий чувствительности к ципрофлоксацину при различных диагнозах среди изолятов Enterobacterales&lt;/h6&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-оценка-распределения-категорий-чувствительности-к-ципрофлоксацину-при-различных-диагнозах-среди-изолятов-enterobacterales-фильтры&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04-01.png&#34; data-caption=&#34;Оценка распределения категорий чувствительности к ципрофлоксацину при различных диагнозах среди изолятов Enterobacterales. Фильтры&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Оценка распределения категорий чувствительности к ципрофлоксацину при различных диагнозах среди изолятов Enterobacterales. Фильтры
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;На экране отобразится гистограмма:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-оценка-распределения-категорий-чувствительности-к-ципрофлоксацину-при-различных-диагнозах-среди-изолятов-enterobacterales-график&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04-01-graph.png&#34; data-caption=&#34;Оценка распределения категорий чувствительности к ципрофлоксацину при различных диагнозах среди изолятов Enterobacterales. График&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04-01-graph.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Оценка распределения категорий чувствительности к ципрофлоксацину при различных диагнозах среди изолятов Enterobacterales. График
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;В разделе &lt;strong&gt;Таблица&lt;/strong&gt; представлена сводная информация в виде таблицы подвкладки &lt;strong&gt;Группировать по&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;карта-1&#34;&gt;Карта&lt;/h3&gt;
+&lt;p&gt;На подвкладке &lt;strong&gt;Карта&lt;/strong&gt; информация о распределении категорий чувствительности (S/I/R) к выбранному антибиотику в разных городах отображается в виде круговых диаграмм на географической карте:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-выбранный-антибиотик-карта&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04-02.png&#34; data-caption=&#34;Выбранный антибиотик. Карта&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выбранный антибиотик. Карта
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Диаметр каждой круговой диаграммы пропорционален количеству изолятов. При нажатии левой кнопкой мыши по круговой диаграмме появляется всплывающее окно с детальной информацией о географической точке, относительном и абсолютном количестве изолятов и др.&lt;/p&gt;
+&lt;p&gt;При работе с картой доступна возможность размещения дополнительных маркеров – &lt;strong&gt;Оповещение&lt;/strong&gt; для тех локаций, где превышено уставленное значение доли резистентных изолятов. Порог оповещения задается с помощью шкалы &lt;strong&gt;Порог оповещения %R&lt;/strong&gt;.&lt;/p&gt;
+&lt;h6 id=&#34;пример&#34;&gt;Пример.&lt;/h6&gt;
+&lt;p&gt;Отметим на карте города, в которых превышен порог 50-типроцентной резистентности к ципрофлоксацину. На экране отобразится следующая картина:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-выбранный-антибиотик-карта-оповещения&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04-02-01.png&#34; data-caption=&#34;Выбранный антибиотик. Карта. Оповещения&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04-02-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выбранный антибиотик. Карта. Оповещения
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;В подвкладке &lt;strong&gt;Рейтинг&lt;/strong&gt; отображается распространенность выбранного типа резистентности для всех географических локаций из набора данных, упорядоченных в соответствии с их уровнем. Вертикальной линией на графике отображается медиана доли резистентных изолятов.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-выбранный-антибиотик-рейтинг&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04-02-02.png&#34; data-caption=&#34;Выбранный антибиотик. Рейтинг&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04-02-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выбранный антибиотик. Рейтинг
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;В подвкладке &lt;strong&gt;Регрессия&lt;/strong&gt; доступен регрессионный анализ трендов резистентности для различных географических локаций. На оси X графика регрессии отображается дата, на оси Y – процент изолятов для выбранного типа тренда.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-выбранный-антибиотик-регрессия&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04-02-03.png&#34; data-caption=&#34;Выбранный антибиотик. Регрессия&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04-02-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выбранный антибиотик. Регрессия
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;В настройках подвкладки доступно:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;изменение типа тренда (S, S+I, R, I+R);&lt;/li&gt;
+&lt;li&gt;включение/выключение подписи геолокаций на графике;&lt;/li&gt;
+&lt;li&gt;диаметр точек;&lt;/li&gt;
+&lt;li&gt;сглаживание.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Для того чтобы увидеть детальную информацию о конкретной геолокации  необходимо, зажав левую кнопку мыши, нарисовать прямоугольник вокруг интересующей области: под графиком отобразится таблица с необходимой информацией.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-выбранный-антибиотик-регрессия-детальная-информация&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04-02-03-01.png&#34; data-caption=&#34;Выбранный антибиотик. Регрессия. Детальная информация&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04-02-03-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выбранный антибиотик. Регрессия. Детальная информация
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;мпк&#34;&gt;МПК&lt;/h3&gt;
+&lt;p&gt;В подвкладке &lt;strong&gt;МПК&lt;/strong&gt; отображается распределение изолятов по значениям МПК, с отмеченными значениями МПК50 и МПК90.&lt;/p&gt;
+&lt;p&gt;Критерии интерпретации (CLSI или EUCAST), выбранные на этапе импорта данных, применяются для цветовой идентификации столбцов на графике: красный (резистентные), желтый (чувствительные при увеличенной экспозиции), зеленый (чувствительные), серый (критерии интерпретации для конкретной пары «антибиотик-микроорганизм» не установлены).  Также серым цветом могут выделяться столбцы при условии, если в разделе &lt;strong&gt;Параметры основные&lt;/strong&gt; был выбран не конкретный вид микроорганизма, а целая группа, или если критерии интерпретации разнятся для отдельных типов локализаций инфекций и т.п.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-выбранный-антибиотик-мпк&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04-03.png&#34; data-caption=&#34;Выбранный антибиотик. МПК&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выбранный антибиотик. МПК
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;В подвкладке &lt;strong&gt;МПК тренд&lt;/strong&gt; отображается изменение значений МПК для выбранного антибиотика во времени.&lt;/p&gt;
+&lt;p&gt;На оси X отображается время, на оси Y отображаются значения МПК. Размер кругов соотносится с количеством изолятов. Цветовая идентификация такая же, как и на вкладке &lt;strong&gt;МПК&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Для отображения линии тренда, необходимо поставить галочку в поле &lt;strong&gt;МПК&lt;/strong&gt; и установить необходимое значение на шкале &lt;strong&gt;МПК xx%&lt;/strong&gt;:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-выбранный-антибиотик-мпк-тренд&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04-03-01.png&#34; data-caption=&#34;Выбранный антибиотик. МПК тренд&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04-03-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выбранный антибиотик. МПК тренд
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Для того чтобы увидеть детальную информацию о конкретном значении МПК на графике, необходимо обвести его, зажав левую кнопку мыши, и нажать кнопку &lt;strong&gt;Получить информацию&lt;/strong&gt;, расположенную под графиком. В появившейся под гистограммой таблице будет отображена информация о конкретных изолятах, о распределении S/I/R и пр. В заголовках таблицы есть возможность фильтровать и сортировать данные.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-выбранный-антибиотик-мпк-тренд-таблица&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04-03-02.png&#34; data-caption=&#34;Выбранный антибиотик. МПК тренд. Таблица&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-04-03-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выбранный антибиотик. МПК тренд. Таблица
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;диаметры-зон&#34;&gt;Диаметры зон&lt;/h3&gt;
+&lt;p&gt;В подвкладке &lt;strong&gt;Диаметры зон&lt;/strong&gt; присутствует весь функционал подвкладки &lt;strong&gt;МПК&lt;/strong&gt; (рассмотренной ранее) за тем исключением, что вместо значений МПК здесь учитываются диаметры зон подавления роста.&lt;/p&gt;
+&lt;h2 id=&#34;ассоциированная-устойчивость&#34;&gt;Ассоциированная устойчивость&lt;/h2&gt;
+&lt;p&gt;Во вкладке &lt;strong&gt;Ассоциированная устойчивость&lt;/strong&gt; отображается ассоциированная устойчивость между различными типами антимикробных препаратов.&lt;/p&gt;
+&lt;p&gt;Доступные инструменты визуализации вкладки &lt;strong&gt;Ассоциированная устойчивость&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;матрица&#34;&gt;Матрица&lt;/h3&gt;
+&lt;p&gt;Представление данных по ассоциированной устойчивости в подвкладке &lt;strong&gt;Матрица&lt;/strong&gt; позволяет пользователю определить процент, при котором устойчивость к первому препарату (строке) свидетельствует о наличии устойчивости к другому антибиотику (столбцу). В расчет включаются резистентные изоляты. Интенсивность окрашивания ячеек зависит от величины процента: чем выше процент, тем интенсивнее цвет ячейки.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-ассоциированная-устойчивость-матрица&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-05-01.png&#34; data-caption=&#34;Ассоциированная устойчивость. Матрица&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-05-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Ассоциированная устойчивость. Матрица
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;По умолчанию в матрице отображаются все доступные антибиотики, однако можно исключить из этого списка отдельные препараты с помощью выпадающего меню &lt;strong&gt;Антибиотик&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Данные в табличной форме доступны в подвкладке &lt;strong&gt;Таблица&lt;/strong&gt;:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-ассоциированная-устойчивость-таблица&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-05-01-01.png&#34; data-caption=&#34;Ассоциированная устойчивость. Таблица&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-05-01-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Ассоциированная устойчивость. Таблица
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;множественная-устойчивость&#34;&gt;Множественная устойчивость&lt;/h3&gt;
+&lt;p&gt;В подвкладке &lt;strong&gt;Множественная устойчивость&lt;/strong&gt; отображается число изолятов, одновременно устойчивых (R) к выбранным антибиотикам.&lt;/p&gt;
+&lt;p&gt;Для оценки множественной устойчивости необходимо выбрать  два или более антимикробных препарата из выпадающего списка &lt;strong&gt;Антибиотик&lt;/strong&gt;. Ввести в поле &lt;strong&gt;R как минимум к N антибиотикам&lt;/strong&gt; значение (N), характеризующее к скольким антибиотикам из выбранного списка должны быть резистентны изоляты.&lt;/p&gt;
+&lt;h6 id=&#34;пример-1&#34;&gt;Пример&lt;/h6&gt;
+&lt;p&gt;Если выбрать три антибиотика: &lt;em&gt;cefepime&lt;/em&gt;, &lt;em&gt;ciprofloxacin&lt;/em&gt; и &lt;em&gt;imipenem&lt;/em&gt;, и установить значение &lt;em&gt;N = 3&lt;/em&gt;, то можно выявить изоляты, резистентные одновременно ко всем выбранным антибиотикам. В приведенном ниже примере, было обнаружено 5 таких изолятов:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-множественная-устойчивость-пример-для-n--3&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-05-02.png&#34; data-caption=&#34;Множественная устойчивость. Пример для N = 3&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-05-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Множественная устойчивость. Пример для N = 3
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;В случае если значение &lt;strong&gt;R как минимум к N антибиотикам&lt;/strong&gt; изменить на &lt;em&gt;N = 2&lt;/em&gt;, то можно увидеть большее количество изолятов, одновременно резистентных к какой-либо паре антибиотиков из выбранных &lt;em&gt;cefepime&lt;/em&gt;, &lt;em&gt;ciprofloxacin&lt;/em&gt; и &lt;em&gt;imipenem&lt;/em&gt;:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-множественная-устойчивость-пример-для-n--2&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-05-02-01.png&#34; data-caption=&#34;Множественная устойчивость. Пример для N = 2&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-05-02-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Множественная устойчивость. Пример для N = 2
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Важно отметить, что при установлении значения &lt;em&gt;0&lt;/em&gt; в графе &lt;strong&gt;R как минимум к N антибиотикам&lt;/strong&gt;, можно определить количество изолятов, которые одновременно чувствительны ко всем выбранным антибиотикам.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Результаты анализа:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Значение N&lt;/strong&gt;: сколько найдено изолятов с множественной устойчивостью к общему количеству изолятов.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Значение R&lt;/strong&gt;: сколько процентов составляют изоляты с множественной устойчивостью от общего количества изолятов.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Значение 95% ДИ&lt;/strong&gt;: 95-процентный доверительный интервал для относительного числа изолятов с множественной устойчивостью.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;диаграмма-рассеяния&#34;&gt;Диаграмма рассеяния&lt;/h3&gt;
+&lt;p&gt;Подвкладка &lt;strong&gt;Диаграмма рассеяния&lt;/strong&gt; служит для сопоставления фенотипических данных антибиотикорезистентности для двух выбранных антибиотиков как в категориальном выражении (S/I/R), так и в количественном (МПК или диаметр зон).&lt;/p&gt;
+&lt;p&gt;Числа, расположенные на пересечении значений МПК для двух антибиотиков, соответствуют количеству изолятов с таким значением МПК для каждого из антибиотиков. Размер кругов пропорционален количеству изолятов и может быть изменен с помощью шкалы &lt;strong&gt;Размер точек (от/до)&lt;/strong&gt;.&lt;/p&gt;
+&lt;h6 id=&#34;пример-2&#34;&gt;Пример&lt;/h6&gt;
+&lt;p&gt;Согласно полученному графику можно определить, что в наборе данных присутствует 45 изолятов со значением МПК 256 мг/л для цефепима и значением 16 мг/л для цефиксима.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-диаграмма-рассеяния&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-05-03.png&#34; data-caption=&#34;Диаграмма рассеяния&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-05-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Диаграмма рассеяния
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;маркеры&#34;&gt;Маркеры&lt;/h2&gt;
+&lt;p&gt;Вкладка &lt;strong&gt;Маркеры&lt;/strong&gt; используется для поиска взаимосвязей между любыми видами маркеров и метаданными или данными о чувствительности антибиотиков (для поиска корреляции между фенотипом и детерминантами резистентности).&lt;/p&gt;
+&lt;p&gt;Используя выпадающий список &lt;strong&gt;Группа маркеров&lt;/strong&gt;, можно выбрать необходимую для исследования группу маркеров. Группой маркеров может стать любой столбец в наборе данных, который при импорте был отмечен как маркер (пункт &lt;strong&gt;Выберите столбцы, содержащие информацию о маркерах&lt;/strong&gt;).&lt;/p&gt;
+&lt;p&gt;По умолчанию, выбираются все значения группы маркеров. Выбрать определенные значения можно с помощью выпадающего списка &lt;strong&gt;Маркер&lt;/strong&gt;.&lt;/p&gt;
+&lt;h6 id=&#34;пример-3&#34;&gt;Пример&lt;/h6&gt;
+&lt;p&gt;В качестве &lt;strong&gt;Группы маркеров&lt;/strong&gt; установим &lt;em&gt;ESBL&lt;/em&gt;. В списке &lt;strong&gt;Маркер&lt;/strong&gt; отобразятся все доступные варианты для данной группы: &lt;em&gt;Отрицательный&lt;/em&gt;, &lt;em&gt;Положительный&lt;/em&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-маркеры&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06.png&#34; data-caption=&#34;Маркеры&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Маркеры
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Доступные инструменты визуализации вкладки &lt;strong&gt;Маркеры&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;маркеры-1&#34;&gt;Маркеры&lt;/h3&gt;
+&lt;p&gt;В подвкладке &lt;strong&gt;Маркеры&lt;/strong&gt; отображается кольцевая диаграмма с распределением всех значений выбранной группы маркеров (процент изолятов с соответствующим значением маркера).&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-маркеры-диаграмма&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-01.png&#34; data-caption=&#34;Маркеры. Диаграмма&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Маркеры. Диаграмма
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;группировать-по-1&#34;&gt;Группировать по&lt;/h3&gt;
+&lt;p&gt;Подвкладка &lt;strong&gt;Группировать по&lt;/strong&gt; служит для исследования корреляций между различными маркерами и метаданными.&lt;/p&gt;
+&lt;p&gt;Выбрать категорию метаданных для анализа можно в выпадающем списке &lt;strong&gt;Группировать по&lt;/strong&gt;.&lt;/p&gt;
+&lt;h6 id=&#34;пример-4&#34;&gt;Пример&lt;/h6&gt;
+&lt;p&gt;Необходимо провести оценку распределения маркеров &lt;em&gt;ESBL&lt;/em&gt; по годам (важно отметить, что для сортировки столбцов гистограммы в хронологическом порядке, необходимо задать параметр &lt;em&gt;Сортировка → Наименование&lt;/em&gt;):&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-маркеры-группировать-по&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-02.png&#34; data-caption=&#34;Маркеры. Группировать по&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Маркеры. Группировать по
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;карта-2&#34;&gt;Карта&lt;/h3&gt;
+&lt;p&gt;В подвкладке &lt;strong&gt;Карта&lt;/strong&gt; информация о распределении изолятов с выбранными маркерами в разных городах отображается в виде круговых диаграмм на географической карте:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-маркеры-карта&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-03.png&#34; data-caption=&#34;Маркеры. Карта&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Маркеры. Карта
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Диаметр кругов для каждой геолокации пропорционален количеству изолятов и может быть изменен с помощью параметра &lt;strong&gt;Размер точек (от/до)&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;При нажатии левой кнопкой мыши по круговой диаграмме появляется всплывающее окно с детальной информацией о географической точке, относительном и абсолютном количестве изолятов и др.&lt;/p&gt;
+&lt;h3 id=&#34;карта-x2&#34;&gt;Карта x2&lt;/h3&gt;
+&lt;p&gt;В подвкладке &lt;strong&gt;Карта x2&lt;/strong&gt; отображаются рядом две географические карты: с распределением выбранных маркеров и с распределением SIR-категорий для выбранного антибиотика.&lt;/p&gt;
+&lt;p&gt;Следует отметить, что любые перемещения или приближение/удаление на одной карте приводят к точно таким же изменениям на другой карте.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-маркеры-карта-x2&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-04.png&#34; data-caption=&#34;Маркеры. Карта x2&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Маркеры. Карта x2
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Антибиотик для второй карты можно выбрать с помощью выпадающего списка &lt;strong&gt;Антибиотик&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Изменить отображение S/I/R категорий с помощью выпадающего списка &lt;strong&gt;Категория&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;антибиотики-все-1&#34;&gt;Антибиотики (все)&lt;/h3&gt;
+&lt;p&gt;Подвкладка &lt;strong&gt;Антибиотики (все)&lt;/strong&gt; позволяет визуализировать информацию о категориях чувствительности (S/I/R) среди изолятов с выбранными маркерами.&lt;/p&gt;
+&lt;h6 id=&#34;пример-5&#34;&gt;Пример.&lt;/h6&gt;
+&lt;p&gt;Для группы маркеров &lt;em&gt;ESBL&lt;/em&gt; (&lt;em&gt;отрицательных&lt;/em&gt; и &lt;em&gt;положительных&lt;/em&gt;) построена гистограмма распределения категорий SIR для всех доступных антибиотиков:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-маркеры-антибиотики-все&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-05-01.png&#34; data-caption=&#34;Маркеры. Антибиотики (все)&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-05-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Маркеры. Антибиотики (все)
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;При выборе в качестве маркера &lt;em&gt;ESBL-положительный&lt;/em&gt; гистограмма представлена следующим образом…&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-маркеры-антибиотики-все-только-для-значения-esbl-положительный&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-05-02.png&#34; data-caption=&#34;Маркеры. Антибиотики (все) только для значения ESBL-положительный&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-05-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Маркеры. Антибиотики (все) только для значения ESBL-положительный
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;… и только для &lt;em&gt;ESBL-отрицательных&lt;/em&gt; маркеров:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-маркеры-антибиотики-все-только-для-значения-esbl-отрицательный&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-05-03.png&#34; data-caption=&#34;Маркеры. Антибиотики (все) только для значения ESBL-отрицательный&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-05-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Маркеры. Антибиотики (все) только для значения ESBL-отрицательный
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;мпк-1&#34;&gt;МПК&lt;/h3&gt;
+&lt;p&gt;На подвкладке &lt;strong&gt;МПК&lt;/strong&gt; отображается распределение изолятов с выбранными маркерами по значениям МПК.&lt;/p&gt;
+&lt;p&gt;На гистограмме &lt;strong&gt;МПК&lt;/strong&gt; на оси X отображаются значения МПК для выбранного антибиотика, а на оси Y отображается доля изолятов в процентах. Цвет каждого из столбцов гистограммы соответствует отдельному маркеру из выбранной группы маркеров. Красными вертикальными полосами отображаются значения МПК50 и МПК90.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-маркеры-мпк&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-06.png&#34; data-caption=&#34;Маркеры. МПК&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-06.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Маркеры. МПК
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;На графике &lt;strong&gt;МПК тренд&lt;/strong&gt; отображаются изменения распределения МПК во времени.&lt;/p&gt;
+&lt;p&gt;На оси X отображается время, на оси Y отображаются значения МПК.&lt;/p&gt;
+&lt;p&gt;Цвет кругов соответствует категориям чувствительности (S/I/R). Размер кругов соответствует количеству изолятов.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-маркеры-мпк-тренд&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-06-01.png&#34; data-caption=&#34;Маркеры. МПК тренд&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-06-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Маркеры. МПК тренд
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Для того чтобы увидеть детальную информацию о конкретном значении МПК на графике, необходимо обвести его, зажав левую кнопку мыши, и нажать кнопку &lt;strong&gt;Получить информацию&lt;/strong&gt;, расположенную под графиком. В появившемся под графиком окне будет возможность просмотреть гистограмму с распределением категорий выбранных маркеров (&lt;strong&gt;МПК&lt;/strong&gt;) и подробной таблицы с метаинформацией выбранных изолятах (&lt;strong&gt;Таблица (изоляты)&lt;/strong&gt;).&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-маркеры-просмотр-детальной-информации&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-06-04.png&#34; data-caption=&#34;Маркеры. Просмотр детальной информации&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-06-04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Маркеры. Просмотр детальной информации
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;диаметры-зон-1&#34;&gt;Диаметры зон&lt;/h3&gt;
+&lt;p&gt;В подвкладке &lt;strong&gt;Диаметры зон&lt;/strong&gt; присутствует весь функционал подвкладки &lt;strong&gt;МПК&lt;/strong&gt; (рассмотренной ранее), но вместо значений МПК здесь учитываются диаметры зон подавления роста.&lt;/p&gt;
+&lt;h3 id=&#34;время-первого-обнаружения&#34;&gt;Время первого обнаружения&lt;/h3&gt;
+&lt;p&gt;В подвкладке &lt;strong&gt;Время первого обнаружения&lt;/strong&gt; на временной шкале можно отобразить моменты первого обнаружения изолятов с заданными маркерами в рамках определенных групп.&lt;/p&gt;
+&lt;p&gt;Для проведения анализа следует выбрать необходимый маркер из выпадающего списка &lt;strong&gt;Генетический маркер&lt;/strong&gt;, а также категорию данных из списка &lt;strong&gt;Группировать по&lt;/strong&gt;.&lt;/p&gt;
+&lt;h6 id=&#34;пример-6&#34;&gt;Пример&lt;/h6&gt;
+&lt;p&gt;В качестве генетического маркера установить &lt;em&gt;IIIG линию&lt;/em&gt; &lt;em&gt;Shigella sonnei&lt;/em&gt;, как параметр для группировки выбрать &lt;em&gt;географическое распределение&lt;/em&gt;. Результаты будут визуализированы следующим образом:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-маркеры-время-первого-обнаружения&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-08.png&#34; data-caption=&#34;Маркеры. Время первого обнаружения&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-08.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Маркеры. Время первого обнаружения
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;сравнения&#34;&gt;Сравнения&lt;/h2&gt;
+&lt;p&gt;Вкладка &lt;strong&gt;Сравнения&lt;/strong&gt; используется для сравнения двух групп данных, выделенных из исходного набора, на основании различных параметров.&lt;/p&gt;
+&lt;p&gt;При переходе на вкладку &lt;strong&gt;Сравнения&lt;/strong&gt; появляется новый раздел &lt;strong&gt;Параметры сравнения&lt;/strong&gt;, идентичный разделу &lt;strong&gt;Параметры основные&lt;/strong&gt;. С помощью фильтров &lt;strong&gt;Параметры основные&lt;/strong&gt; можно сформировать первую группу данных для сравнения, а с помощью &lt;strong&gt;Параметры сравнения&lt;/strong&gt; — вторую.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h6 id=&#34;пример-7&#34;&gt;Пример&lt;/h6&gt;
+&lt;p&gt;С помощью выбора необходимых значений из выпадающего списка в первую группу можно включить изоляты от пациентов, которые принимали антибиотики в последние 90 дней, а во вторую группу – изоляты от пациентов без предшествующей антибиотикотерапии в анамнезе.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Важно подчеркнуть, что если выбрать группу микроорганизмов в разделе &lt;strong&gt;Параметры основные&lt;/strong&gt; (в выпадающем списке &lt;strong&gt;Группа микроорганизмов&lt;/strong&gt;), то эта же группа автоматически будет выбрана в разделе &lt;strong&gt;Параметры сравнения&lt;/strong&gt;, но не наоборот.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Также следует отметить, что изменение значений фильтров в разделе &lt;strong&gt;Параметры основные&lt;/strong&gt; приводит к сбросу фильтров в разделе &lt;strong&gt;Параметры сравнения&lt;/strong&gt;. Это важно учитывать при первоначальном выставлении фильтров для первой группы данных, чтобы избежать лишней работы по восстановлению значений фильтров во второй группе.&lt;/p&gt;
+&lt;p&gt;После того, как будут установлены нужные фильтры для двух групп данных, можно перейти к инструментам анализа и сравнения этих групп (подвкладкам).&lt;/p&gt;
+&lt;p&gt;В подвкладке &lt;strong&gt;Структура данных&lt;/strong&gt; можно выбрать любую категорию из исходного набора данных в качестве параметра для сравнения с помощью выпадающего списка &lt;strong&gt;Структура данных по&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Результат сравнения отобразится в виде двух столбчатых диаграмм, соответствующих выбранным группам сравнения:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-сравнения-структура-данных&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-08-01.png&#34; data-caption=&#34;Сравнения. Структура данных&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-08-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Сравнения. Структура данных
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Под графиком можно увидеть таблицу с подробной информацией об абсолютном и относительном количестве изолятов в каждой из групп, а также p-значения уровня статистической значимости (точный тест Фишера для каждой категории).&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-сравнения-таблица&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-08-02.png&#34; data-caption=&#34;Сравнения. Таблица&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/tab-06-08-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Сравнения. Таблица
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Подвкладка &lt;strong&gt;S/I/R&lt;/strong&gt; используется для сравнения распределения категорий чувствительности к выбранному антибиотику между двумя группами данных.&lt;/p&gt;
+&lt;p&gt;Подвкладка &lt;strong&gt;Детерминанты&lt;/strong&gt; используется для сравнения распределения различных генетических маркеров между двумя группами данных.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Экспорт данных</title>
+      <link>https://amrcloud.net/ru/tutorials/analysis-examples/04/</link>
+      <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/analysis-examples/04/</guid>
+      <description>&lt;h2 id=&#34;сохранение-графиков&#34;&gt;Сохранение графиков&lt;/h2&gt;
+&lt;p&gt;Большинство построенных в AMRcloud графиков и диаграмм могут быть сохранены на персональный компьютер в формате png-файла, с помощью нажатия на иконку с изображением стрелки вниз (иконка расположена в правом верхнем углу графика).&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-кнопка-сохранения-диаграммы&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/export-01.png&#34; data-caption=&#34;Кнопка сохранения диаграммы&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/export-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Кнопка сохранения диаграммы
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Исключения из этого правила перечислены ниже.&lt;/p&gt;
+&lt;h3 id=&#34;мпк-тренд-и-диаметры-зон-тренд&#34;&gt;МПК тренд и Диаметры зон (тренд)&lt;/h3&gt;
+&lt;p&gt;Графики, представленные на картинке ниже, могут быть сохранены только с использованием скриншота экрана.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-пример-графика-трендов&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/export-02.png&#34; data-caption=&#34;Пример графика трендов&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/export-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Пример графика трендов
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;карты&#34;&gt;Карты&lt;/h3&gt;
+&lt;p&gt;Созданные карты могут быть сохранены только с использованием скриншота экрана. Для этого удобно воспользоваться кнопкой &lt;i class=&#34;fas fa-expand&#34;&gt;&lt;/i&gt; на карте, чтобы отобразить ее на весь экран, а затем уже сделать скриншот.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-кнопка-разворачивания-карты-на-весь-экран&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/export-03.png&#34; data-caption=&#34;Кнопка разворачивания карты на весь экран&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/export-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Кнопка разворачивания карты на весь экран
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;таблицы&#34;&gt;Таблицы&lt;/h3&gt;
+&lt;p&gt;Все таблицы с результатами анализа данных в AMRcloud можно экспортировать с помощью функциональных кнопок под таблицей:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-кнопки-для-экспорта-табличных-данных&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/export-04.png&#34; data-caption=&#34;Кнопки для экспорта табличных данных&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/export-04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Кнопки для экспорта табличных данных
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Рекомендуемыми форматами для экспорта является CSV и Excel (в PDF часть таблиц может быть обрезана).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Обмен данными</title>
+      <link>https://amrcloud.net/ru/tutorials/analysis-examples/05/</link>
+      <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/analysis-examples/05/</guid>
+      <description>&lt;p&gt;В AMRcloud существуют два способа обмена данными с другими пользователями:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;открыть доступ к проекту в AMRcloud для других пользователей (при этом набор данных станет доступен для просмотра, анализа и изменения всем членам команды);&lt;/li&gt;
+&lt;li&gt;сгенерировать внешнюю ссылку, перейдя по которой другие пользователи смогут просматривать результаты анализа и визуализации (таблицы, диаграммы и пр.)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;командный-доступ-к-проекту&#34;&gt;Командный доступ к проекту&lt;/h2&gt;
+&lt;p&gt;Для обеспечения доступа к проекту различным специалистам, можно создать собственную команду пользователей.&lt;/p&gt;
+&lt;p&gt;Для этого необходимо:&lt;/p&gt;
+&lt;h3 id=&#34;1-создать-команду&#34;&gt;1. Создать команду&lt;/h3&gt;
+&lt;p&gt;Для этого перейти в раздел &lt;strong&gt;Команды&lt;/strong&gt; стартового окна AMRcloud, нажать на кнопку &lt;strong&gt;Добавить команду&lt;/strong&gt;. В открывшемся модальном окне вписать &lt;strong&gt;Название команды&lt;/strong&gt; и &lt;strong&gt;Описание команды&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-создание-команды&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-00.png&#34; data-caption=&#34;Создание команды&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-00.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Создание команды
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-заполнение-информации-новой-команды&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-01.png&#34; data-caption=&#34;Заполнение информации новой команды&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Заполнение информации новой команды
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;2-добавить-участников-в-новую-команду&#34;&gt;2. Добавить участников в новую команду&lt;/h3&gt;
+&lt;p&gt;Для этого следует щелкнуть один раз по названию команды из списка (строка должна выделиться синим цветом), нажать на кнопку &lt;strong&gt;Добавить участника&lt;/strong&gt;. В открывшемся модальном окне ввести адреса электронной почты тех людей, которых необходимо пригласить в команду (пользователи заранее должны быть зарегистрированы в платформе AMRcloud с этими электронными адресами).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-добавление-участников-в-команду&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-02.png&#34; data-caption=&#34;Добавление участников в команду&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Добавление участников в команду
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-добавление-участников-в-команду&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-03.png&#34; data-caption=&#34;Добавление участников в команду&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Добавление участников в команду
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;3-поделиться-своим-проектом-с-командой&#34;&gt;3. Поделиться своим проектом с командой&lt;/h3&gt;
+&lt;p&gt;Для этого перейти в раздел &lt;strong&gt;Проекты&lt;/strong&gt;, щелкнуть левой кнопкой мыши один раз по названию проекта из списка (строка должна выделиться синим цветом), нажать на кнопку &lt;strong&gt;Назначить команду&lt;/strong&gt;. В открывшемся модальном окне ввести название команды и нажать кнопку &lt;strong&gt;Принять&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-выбор-проекта&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-04.png&#34; data-caption=&#34;Выбор проекта&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выбор проекта
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-выбор-команды&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-05.png&#34; data-caption=&#34;Выбор команды&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-05.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выбор команды
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;доступ-к-проекту-по-ссылке&#34;&gt;Доступ к проекту по ссылке&lt;/h2&gt;
+&lt;p&gt;После того, получены результаты анализа данных (в виде графиков, таблиц и пр.), не меняя настройки всех установленных фильтров, необходимо нажать на кнопку &lt;i class=&#34;fas fa-link&#34;&gt;&lt;/i&gt; в верхнем правом углу экрана (над разделом &lt;strong&gt;Параметры основные&lt;/strong&gt;).&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-кнопка-генерации-ссылки&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-06.png&#34; data-caption=&#34;Кнопка генерации ссылки&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-06.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Кнопка генерации ссылки
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;В открывшемся модальном окне будут доступны следующие настройки генератора ссылок:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Защита паролем&lt;/strong&gt; – если &lt;strong&gt;НЕ&lt;/strong&gt; проставить эту галочку, то доступ к результатам анализа получит любой человек, у которого есть ссылка; если галка проставлена, то доступ можно будет получить, только введя заданный пароль.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Поделиться только выбранным фрагментом данных&lt;/strong&gt; – позволяет ограничить для внешних пользователей исходный набор данных, т.е. перейдя по такой ссылке пользователь сможет просмотреть в разделе &lt;strong&gt;Параметры основные&lt;/strong&gt; только те категории, которые использовали для анализа.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-создание-ссылки-на-набор-данных&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-07.png&#34; data-caption=&#34;Создание ссылки на набор данных&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-07.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Создание ссылки на набор данных
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Для генерации ссылки следует нажать на кнопку &lt;strong&gt;Создать ссылку&lt;/strong&gt;. Ссылка сгенерируется в формате QR-кода (для использования на мобильных устройствах) и веб-адреса (для использования на персональных компьютерах). Необходимо скопировать ссылку и отправить тем специалистам, с которыми важно поделиться результатами анализа.&lt;/p&gt;
+&lt;p&gt;Все сгенерированные ранее ссылки доступны в разделе &lt;strong&gt;Мой профиль → Ссылки&lt;/strong&gt; (при этом ссылки будут недоступны для редактирования).&lt;/p&gt;
+&lt;p&gt;Если необходимо отредактировать сгенерированные ранее ссылки, после выбора нужного набора данных (для этого следует щелкнуть левой кнопкой мыши один раз по названию набора данных из списка, чтобы соответствующая строка выделилась синим цветом), нажать на кнопку &lt;strong&gt;Редактировать набор данных&lt;/strong&gt;, перейти на вкладку &lt;strong&gt;Ссылки&lt;/strong&gt;. Нажать на кнопку &lt;strong&gt;Редактировать ссылку&lt;/strong&gt; и внести необходимые изменения.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-шаг-1-редактирование-набора-данных&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-08.png&#34; data-caption=&#34;Шаг 1. Редактирование набора данных&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-08.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Шаг 1. Редактирование набора данных
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-шаг-2-редактирование-ссылки&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-09.png&#34; data-caption=&#34;Шаг 2. Редактирование ссылки&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-09.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Шаг 2. Редактирование ссылки
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-шаг-3-сохранение-изменений-для-ссылки&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-10.png&#34; data-caption=&#34;Шаг 3. Сохранение изменений для ссылки&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-10.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Шаг 3. Сохранение изменений для ссылки
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
