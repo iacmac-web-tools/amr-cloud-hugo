@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Конвертация из VITEK 2 в AMRcloud | AMRcloud</title>
+    <link>https://amrcloud.net/ru/tutorials/vitek-2-export/</link>
+      <atom:link href="https://amrcloud.net/ru/tutorials/vitek-2-export/index.xml" rel="self" type="application/rss+xml" />
+    <description>Конвертация из VITEK 2 в AMRcloud</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2021</copyright><lastBuildDate>Fri, 17 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <title>Конвертация из VITEK 2 в AMRcloud</title>
+      <link>https://amrcloud.net/ru/tutorials/vitek-2-export/</link>
+    </image>
+    
+    <item>
+      <title>1. Экспорт из VITEK 2</title>
+      <link>https://amrcloud.net/ru/tutorials/vitek-2-export/01/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/vitek-2-export/01/</guid>
+      <description>&lt;p&gt;Экспортировать можно только изоляты, перешедшие в неактивную область.&lt;/p&gt;
+&lt;p&gt;Время перехода изолятов в неактивную область выставляется в общих настройках. По умолчанию – 14 дней.&lt;/p&gt;
+&lt;p&gt;Незавершенные изоляты (требующие проверки или ввода информации о микроорганизме или пациенте) не переходят в неактивную область. Их необходимо перевести в статус &lt;em&gt;Завершенные&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;В главном окне программы нажать на кнопку &lt;strong&gt;Инструменты&lt;/strong&gt; и выбрать &lt;strong&gt;Экспорт неактивных изолятов&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-главное-окно-программы&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/01.png&#34; data-caption=&#34;Главное окно программы&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Главное окно программы
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;В открывшемся окне выставить диапазон дат, поставить галочки на &lt;em&gt;МИК&lt;/em&gt;, &lt;em&gt;Фенотип&lt;/em&gt;, &lt;em&gt;Подробная информация о карте&lt;/em&gt;. При необходимости выбрать другие параметры. Нажать на кнопку &lt;strong&gt;Экспорт&lt;/strong&gt; (верхний правый угол диск со стрелкой).&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-установка-параметров-экспорта&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/02.png&#34; data-caption=&#34;Установка параметров экспорта&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Установка параметров экспорта
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;В открывшемся окне нажать &lt;strong&gt;Да&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-подтверждение-экспорта&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/03.png&#34; data-caption=&#34;Подтверждение экспорта&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Подтверждение экспорта
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;В диалоговом окне выбрать расположение и ввести имя файла. Нажать &lt;strong&gt;Экспорт неактивных изолятов&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-сохранение-файла&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/04.png&#34; data-caption=&#34;Сохранение файла&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Сохранение файла
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Дождаться сообщения об окончании экспорта.&lt;/p&gt;
+&lt;p&gt;Полученный файл необходимо пропустить через конвертер в AMRcloud.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2. Онлайн-конвертер</title>
+      <link>https://amrcloud.net/ru/tutorials/vitek-2-export/02/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/vitek-2-export/02/</guid>
+      <description>&lt;h2 id=&#34;подготовка&#34;&gt;Подготовка&lt;/h2&gt;
+&lt;p&gt;Файл с изолятами из VITEK 2 представляет собой текстовый файл (*.txt), разделитель полей - запятая.&lt;/p&gt;
+&lt;p&gt;Как получить файл подробно описано в 
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/vitek-2-export/01/&#34;&gt;Руководстве «Экспорт из VITEK 2»&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Для конвертации файла, перейдите по ссылке 
+&lt;a href=&#34;https://public.amrcloud.net/vitek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://public.amrcloud.net/vitek&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;загрузка-файла&#34;&gt;Загрузка файла&lt;/h2&gt;
+&lt;p&gt;Для загрузки файла нажмите на кнопку &lt;strong&gt;Choose file&lt;/strong&gt; и выберите ваш файл VITEK 2.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-загрузка-файла&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/06.png&#34; data-caption=&#34;Загрузка файла&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/06.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Загрузка файла
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Загрузка файла начнется автоматически. По окончании загрузки система проверит содержимое файла, попытается его прочитать и выведет предпросмотр на экран. В случае успешной загрузки вы увидите следующее.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-файл-успешно-загружен&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/07.png&#34; data-caption=&#34;Файл успешно загружен&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/07.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Файл успешно загружен
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Если вы видите таблицу и кнопку &lt;strong&gt;Convert&lt;/strong&gt;, значит файл распознался системой.&lt;/p&gt;
+&lt;h2 id=&#34;конвертация&#34;&gt;Конвертация&lt;/h2&gt;
+&lt;p&gt;Процесс конвертации файла заключается в замене кодов антибиотиков и организмов VITEK 2 на обозначения, понятные &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Дополнительно производится объединение значений нескольких столбцов маркеров резистентности в один столбец, начинающийся с кода &lt;code&gt;AMRCLOUD_MARKER_&lt;/code&gt;. Также конвертер удаляет столбцы с персональными данными - &lt;code&gt;PATIENT NAME&lt;/code&gt;, &lt;code&gt;PATIENT ID&lt;/code&gt;, &lt;code&gt;PATIENT LOCATION&lt;/code&gt;, &lt;code&gt;LAB ID&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;После успешной загрузки файла, нажмите кнопку &lt;strong&gt;Convert&lt;/strong&gt;. По окончании процесса конвертации на странице появится отчет о проделанных манипуляциях. Отчет содержит перечень кодов антибиотиков и организмов, которые были перекодированы, а также сообщения-предупреждения на которые стоит обратить внимание.&lt;/p&gt;
+&lt;p&gt;Если при анализе файла возникли ошибки, дальнейшая конвертация невозможна. Необходимо исправить файл.&lt;/p&gt;
+&lt;p&gt;Возможные ошибки:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Ошибка &lt;em&gt;Column [BAR CODE] not found. File has no Identity column&lt;/em&gt; означает, что не удалось найти столбец &lt;em&gt;BAR CODE&lt;/em&gt; с уникальным идентификатором изолята. Необходимо добавить его в исходный файл, либо переименовать существующий столбец с идентификатором.&lt;/li&gt;
+&lt;li&gt;Ошибка &lt;em&gt;Column [ORGANISM CODE] not found. File has no Organism column&lt;/em&gt; означает, что не удалось найти столбец &lt;em&gt;ORGANISM CODE&lt;/em&gt; с кодом микроорганизма изолята. Необходимо добавить его в исходный файл, либо переименовать существующий столбец с кодами.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-пример-ошибок&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/08.png&#34; data-caption=&#34;Пример ошибок&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/08.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Пример ошибок
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Существуют следующие виды предупреждений:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Предупреждение &lt;em&gt;Column [AM-АМПИЦИЛЛИН] looks like antibiotic, but has some non-MIC values&lt;/em&gt; выводится в том случае, когда конвертер обнаруживает в столбце с антибиотиком любые нечисловые значения. Название столбца при этом все равно приводится к формату AMRcloud, значения остаются неизменными.&lt;/li&gt;
+&lt;li&gt;Предупреждение &lt;em&gt;Column AMRCLOUD_MARKER_АМИНОГЛИКОЗИДЫ added&lt;/em&gt; информирует о том, что конвертер обнаружил столбцы со значениями &lt;em&gt;Аминогликозиды&lt;/em&gt; и создал новый столбец с объединенными значениями по аминогликозидам.&lt;/li&gt;
+&lt;li&gt;Предупреждение &lt;em&gt;Isolate with [BAR CODE]=1234567890 has 2 rows&lt;/em&gt; выводится в том случае, когда конвертер обнаружил, что изолят с уникальным идентификатором &lt;em&gt;BAR CODE&lt;/em&gt; встречается несколько раз в файле. Рекомендуется исключить дубли из анализа.&lt;/li&gt;
+&lt;li&gt;Предупреждение &lt;em&gt;Column [AM-АМПИЦИЛЛИН] has no values&lt;/em&gt; выводится когда в столбце с антибиотиком не обнаружено значений.&lt;/li&gt;
+&lt;li&gt;Предупреждение &lt;em&gt;Columns with identical names have been enumerated&lt;/em&gt; выводится когда при заменах названий столбцов с антибиотиками образовались одинаковые имена. В таком случае столбцы нумеруются по порядку.&lt;/li&gt;
+&lt;li&gt;Предупреждение &lt;em&gt;No translation has been found for organism [CODE]&lt;/em&gt; выводится когда конвертеру не удалось сопоставить код микроорганизма из столбца &lt;em&gt;ORGANISM CODE&lt;/em&gt; со словарем. В таком случае название данного микроорганизма рекомендуется заменить вручную.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-пример-предупреждений&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/09.png&#34; data-caption=&#34;Пример предупреждений&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/09.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Пример предупреждений
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-перекодировка-антибиотиков&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/10.png&#34; data-caption=&#34;Перекодировка антибиотиков&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/10.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Перекодировка антибиотиков
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-перекодировка-организмов&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/11.png&#34; data-caption=&#34;Перекодировка организмов&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/11.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Перекодировка организмов
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;скачивание-файла&#34;&gt;Скачивание файла&lt;/h2&gt;
+&lt;p&gt;Для получения сконвертированного файла, готового к загрузке в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;, нажмите кнопку &lt;strong&gt;Download&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Данный файл может быть использован Вами для создания проектов и наборов данных в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;. Руководство по загрузке файлов в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; доступно по 
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/import-data/&#34;&gt;ссылке&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3. Оффлайн-конвертер</title>
+      <link>https://amrcloud.net/ru/tutorials/vitek-2-export/03/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/vitek-2-export/03/</guid>
+      <description>&lt;p&gt;Возможна конвертация из формата VITEK 2 в формат AMRcloud и без использования интернета. Для этого необходимо воспользоваться оффлайн-конвертером.&lt;/p&gt;
+&lt;h2 id=&#34;подготовка&#34;&gt;Подготовка&lt;/h2&gt;
+&lt;p&gt;Файл с изолятами из VITEK 2 представляет собой текстовый файл (*.txt), разделитель полей - запятая.&lt;/p&gt;
+&lt;p&gt;Как получить файл подробно описано в 
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/vitek-2-export/01/&#34;&gt;Руководстве «Экспорт из VITEK 2»&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;установка&#34;&gt;Установка&lt;/h2&gt;
+&lt;p&gt;Для установки программы AMRcloud Vitek Converter скачайте его по ссылке.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://amrcloud.net/static/install/AmrCloudVitekConverterSetup.msi&#34;&gt;AMRcloudVitekConverter.msi&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Если на компьютере не установлен .NET Framework 4, установщик предложит его скачать. По умолчанию программа устанавливается в папку &lt;code&gt;Документы\AMRsolution\AMRcloud Vitek Converter\&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;работа-с-программой&#34;&gt;Работа с программой&lt;/h2&gt;
+&lt;p&gt;Окно программы после запуска выглядит следующим образом.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-главное-окно-программы&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/12.png&#34; data-caption=&#34;Главное окно программы&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/12.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Главное окно программы
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Для выбора файла VITEK нажмите кнопку &lt;strong&gt;Open File&lt;/strong&gt;, либо выберите меню &lt;strong&gt;File → Open Vitek File&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-выбор-файла&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/13.png&#34; data-caption=&#34;Выбор файла&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/13.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выбор файла
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;После выбора файла нажмите кнопку &lt;strong&gt;Read File&lt;/strong&gt;, либо меню &lt;strong&gt;File → Read Vitek File&lt;/strong&gt;. Должна появиться таблица. Если таблица не появилась, возможно форматирование файла отличается от стандартного и нужно выбрать другой тип разделителя. Переключатель типа разделителя расположен между кнопками &lt;strong&gt;Open File&lt;/strong&gt; и &lt;strong&gt;Read File&lt;/strong&gt;. По умолчанию используется разделитель запятая.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-чтение-файла&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/14.png&#34; data-caption=&#34;Чтение файла&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/14.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Чтение файла
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Далее необходимо указать, в каких столбцах содержится идентификатор изолята и код организма. По умолчанию считается, чтобы идентификатор хранится в столбце &lt;code&gt;BAR CODE&lt;/code&gt;, а код организма в столбце &lt;code&gt;ORGANISM CODE&lt;/code&gt; и эти значения менять не требуется.&lt;/p&gt;
+&lt;p&gt;При желании вы можете задать дополнительные параметры трансформации:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Флажок &lt;strong&gt;Generate Unique IDs&lt;/strong&gt; позволяет добавить к файлу новый столбец &lt;code&gt;AMRCLOUD_ID&lt;/code&gt; с новым сгенерированным уникальным идентификатором.&lt;/li&gt;
+&lt;li&gt;Флажок &lt;strong&gt;Concatenate Markers&lt;/strong&gt; позволяет объединенить значения нескольких столбцов маркеров резистентности в один столбец, начинающийся с кода &lt;code&gt;AMRCLOUD_MARKER_&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Для запуска процесса конвертации нажмите кнопку &lt;strong&gt;Convert&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-конвертация-файла&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/15.png&#34; data-caption=&#34;Конвертация файла&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/15.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Конвертация файла
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;По окончании процесса конвертации на странице появится отчет о проделанных манипуляциях. Отчет содержит перечень кодов антибиотиков и организмов, которые были перекодированы, а также сообщения-предупреждения на которые стоит обратить внимание.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-отчет-о-конвертации&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/16.png&#34; data-caption=&#34;Отчет о конвертации&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/16.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Отчет о конвертации
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;По умолчанию сконвертированный файл сохраняется в папку &lt;code&gt;Документы\AMRsolution\AMRcloud Vitek Converter\Converted&lt;/code&gt;. Открыть сконвертированный файл можно с помощью кнопки &lt;strong&gt;Open converted file&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Возможные ошибки:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Ошибка &lt;em&gt;Column [BAR CODE] not found. File has no Identity column&lt;/em&gt; означает, что не удалось найти столбец &lt;em&gt;BAR CODE&lt;/em&gt; с уникальным идентификатором изолята. Необходимо добавить его в исходный файл, либо переименовать существующий столбец с идентификатором.&lt;/li&gt;
+&lt;li&gt;Ошибка &lt;em&gt;Column [ORGANISM CODE] not found. File has no Organism column&lt;/em&gt; означает, что не удалось найти столбец &lt;em&gt;ORGANISM CODE&lt;/em&gt; с кодом микроорганизма изолята. Необходимо добавить его в исходный файл, либо переименовать существующий столбец с кодами.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Существуют следующие виды предупреждений:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Предупреждение &lt;em&gt;Column [AM-АМПИЦИЛЛИН] looks like antibiotic, but has some non-MIC values&lt;/em&gt; выводится в том случае, когда конвертер обнаруживает в столбце с антибиотиком любые нечисловые значения. Название столбца при этом все равно приводится к формату AMRcloud, значения остаются неизменными.&lt;/li&gt;
+&lt;li&gt;Предупреждение &lt;em&gt;Column AMRCLOUD_MARKER_АМИНОГЛИКОЗИДЫ added&lt;/em&gt; информирует о том, что конвертер обнаружил столбцы со значениями &lt;em&gt;Аминогликозиды&lt;/em&gt; и создал новый столбец с объединенными значениями по аминогликозидам.&lt;/li&gt;
+&lt;li&gt;Предупреждение &lt;em&gt;Isolate with [BAR CODE]=1234567890 has 2 rows&lt;/em&gt; выводится в том случае, когда конвертер обнаружил, что изолят с уникальным идентификатором &lt;em&gt;BAR CODE&lt;/em&gt; встречается несколько раз в файле. Рекомендуется исключить дубли из анализа.&lt;/li&gt;
+&lt;li&gt;Предупреждение &lt;em&gt;Column [AM-АМПИЦИЛЛИН] has no values&lt;/em&gt; выводится когда в столбце с антибиотиком не обнаружено значений.&lt;/li&gt;
+&lt;li&gt;Предупреждение &lt;em&gt;Columns with identical names have been enumerated&lt;/em&gt; выводится когда при заменах названий столбцов с антибиотиками образовались одинаковые имена. В таком случае столбцы нумеруются по порядку.&lt;/li&gt;
+&lt;li&gt;Предупреждение &lt;em&gt;No translation has been found for organism [CODE]&lt;/em&gt; выводится когда конвертеру не удалось сопоставить код микроорганизма из столбца &lt;em&gt;ORGANISM CODE&lt;/em&gt; со словарем. В таком случае название данного микроорганизма рекомендуется заменить вручную.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;работа-со-справочниками&#34;&gt;Работа со справочниками&lt;/h2&gt;
+&lt;p&gt;Программа содержит предустановленные справочники антибиотиков и организмов, согласно которым осуществляется конвертация. При необходимости вы можете вносить в них изменения с помощью меню &lt;strong&gt;Dicitonaries&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Справочники подразделяются на глобальные и пользовательские. Глобальные содержат предустановленные стандартные значения перекодировки. Пользовательские справочники могут переопределять коды глобальных. Поэтому рекомендуется вносить изменения именно в пользовательские справочники.&lt;/p&gt;
+&lt;p&gt;Работу с ними рассмотрим на примере справочника организмов. Для этого выберите меню &lt;strong&gt;Dictionaries → User&amp;rsquo;s organisms&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-меню-справочников&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/17.png&#34; data-caption=&#34;Меню справочников&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/17.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Меню справочников
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Окно справочника выглядит следующим образом.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-окно-справочника&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/18.png&#34; data-caption=&#34;Окно справочника&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/18.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Окно справочника
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Для ввода данных достаточно дважды кликнуть на ячейку таблицы и ввести текст. Подтверждение ввода осуществляется клавишей &lt;strong&gt;Enter&lt;/strong&gt;. Добавление новых записей осуществляется с помощью строки, помеченной звездочкой. Сохранить изменения можно с помощью кнопки &lt;strong&gt;Save&lt;/strong&gt;. Кнопка &lt;strong&gt;Reload&lt;/strong&gt; позволяет перезагрузить таблицу заново, тем самым сбросить несохраненные изменения.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-пример-заполнения-справочника&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/19.png&#34; data-caption=&#34;Пример заполнения справочника&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/19.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Пример заполнения справочника
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Кнопка &lt;strong&gt;Import&lt;/strong&gt; позволяет упростить заполнения справочника. При нажатии появляется текстовое окно, куда можно скопировать таблицу с кодами из Excel. По нажатии кнопки &lt;strong&gt;OK&lt;/strong&gt; они будут добавлены в справочник.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-импорт-новых-значений-в-справочник&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/20.png&#34; data-caption=&#34;Импорт новых значений в справочник&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/20.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Импорт новых значений в справочник
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Кнопка &lt;strong&gt;Export&lt;/strong&gt; позволяет сохранить значения справочника в файл формата Excel.&lt;/p&gt;
+&lt;h3 id=&#34;справочники-complex-antibiotics-replacement-и-custom-antibiotics-replacement&#34;&gt;Справочники &lt;em&gt;Complex antibiotics replacement&lt;/em&gt; и &lt;em&gt;Custom antibiotics replacement&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Особенность данных справочников в том, что они содержат правила для перекодировки значений МПК для комбинированных антибиотиков.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-справочник-complex-antibiotics-replacement&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/21.png&#34; data-caption=&#34;Справочник Complex antibiotics replacement&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/21.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Справочник Complex antibiotics replacement
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Для описания такого перекодирования необходимо пары значений записать через символ равно (=) , разделителем пар служит запятая.&lt;/p&gt;
+&lt;p&gt;В качестве примера приводится запись для антибиотика &lt;em&gt;SXT-Триметоприм/cульфаметоксазол&lt;/em&gt;. Для словаря использовались следующие справочные данные.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Vitek&lt;/th&gt;
+&lt;th&gt;trimethoprim, mg/L&lt;/th&gt;
+&lt;th&gt;sulfamethoxasole, mg/L&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;2,5&lt;/td&gt;
+&lt;td&gt;0,125&lt;/td&gt;
+&lt;td&gt;2,375&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;0,25&lt;/td&gt;
+&lt;td&gt;4,75&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;0,5&lt;/td&gt;
+&lt;td&gt;9,5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;19&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;40&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;38&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;80&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;76&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;160&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;152&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;320&lt;/td&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;304&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;640&lt;/td&gt;
+&lt;td&gt;32&lt;/td&gt;
+&lt;td&gt;608&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1280&lt;/td&gt;
+&lt;td&gt;64&lt;/td&gt;
+&lt;td&gt;1216&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2560&lt;/td&gt;
+&lt;td&gt;128&lt;/td&gt;
+&lt;td&gt;2432&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5120&lt;/td&gt;
+&lt;td&gt;256&lt;/td&gt;
+&lt;td&gt;4864&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10240&lt;/td&gt;
+&lt;td&gt;512&lt;/td&gt;
+&lt;td&gt;9728&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
