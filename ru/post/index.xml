@@ -13,6 +13,21 @@
     </image>
     
     <item>
+      <title>Создан конвертер для VITEK 2 компании bioMérieux</title>
+      <link>https://amrcloud.net/ru/post/20210922-vitek2-integration/</link>
+      <pubDate>Wed, 22 Sep 2021 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/ru/post/20210922-vitek2-integration/</guid>
+      <description>&lt;p&gt;Мы рады сообщить, что для пользователей автоматического бактериологического анализатора VITEK 2 от компании bioMérieux созданы конвертеры (онлайн и оффлайн), позволяющие подготовить данные из анализатора для загрузки в AMRcloud.&lt;/p&gt;
+&lt;p&gt;Порядок действий, как выгрузить данные из VITEK 2 описан в руководстве 
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/vitek-2-export/&#34;&gt;Конвертация из VITEK 2 в AMRcloud&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Онлайн-конвертер не требует установки и каких-либо настроек от пользователя и доступен по ссылке &lt;a href=&#34;https://public.amrcloud.net/vitek&#34;&gt;https://public.amrcloud.net/vitek&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Оффлайн-конвертер представляет собой Windows-приложение, способное работать без подключения к сети, полностью автономно. Присутствует возможность модифицировать встроенные справочники программы конкретно под ваши нужды. Скачать приложение можно по ссылке 
+&lt;a href=&#34;https://amrcloud.net/install/AMRcloudVitekConverterSetup.msi&#34;&gt;AMRcloudVitekConverter.msi&lt;/a&gt;.
+Для работы оффлайн-конвертер требуется .NET Framework 4, если он не установлен на компьютере, будет предложено его скачать и установить. По умолчанию программа устанавливается в папку &lt;code&gt;Документы\AMRsolution\AMRcloud Vitek Converter\&lt;/code&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Обновление ЛИС «Акросс-Клиническая Лаборатория» (ЛИС АКЛ)</title>
       <link>https://amrcloud.net/ru/post/20210826-across-update/</link>
       <pubDate>Wed, 25 Aug 2021 09:00:00 +0300</pubDate>
