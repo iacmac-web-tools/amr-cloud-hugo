@@ -9649,6 +9649,22 @@ File**→** Save with Encoding **→** Windows-1251.
     </item>
     
     <item>
+      <title>Создан конвертер для Adagio компании Bio-Rad</title>
+      <link>https://amrcloud.net/ru/post/20211004-adagio-integration/</link>
+      <pubDate>Mon, 04 Oct 2021 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/ru/post/20211004-adagio-integration/</guid>
+      <description>&lt;p&gt;Мы рады сообщить, что для пользователей бактериологического анализатора чувствительности к антибиотикам Adagio от компании Bio-Rad созданы конвертеры (онлайн и оффлайн), позволяющие подготовить данные из анализатора для загрузки в AMRcloud.&lt;/p&gt;
+&lt;p&gt;Порядок действий, как выгрузить данные из Adagio описан в руководстве 
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/adagio-export/&#34;&gt;Экспорт из Adagio в AMRcloud&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Онлайн-конвертер не требует установки и каких-либо настроек от пользователя и доступен по ссылке &lt;a href=&#34;https://public.amrcloud.net/adagio&#34;&gt;https://public.amrcloud.net/adagio&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Оффлайн-конвертер представляет собой Windows-приложение, способное работать без подключения к сети, полностью автономно. Присутствует возможность модифицировать встроенный справочник антибиотиков.&lt;/p&gt;
+&lt;p&gt;Программа AMRcloud Adagio Converter не требует установки, достаточно скачать архив и распаковать его.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://amrcloud.net/install/AMRcloudAdagioConverterFull.zip&#34;&gt;AMRcloudAdagioConverter.zip&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Создан конвертер для VITEK 2 компании bioMérieux</title>
       <link>https://amrcloud.net/ru/post/20210922-vitek2-integration/</link>
       <pubDate>Wed, 22 Sep 2021 09:00:00 +0300</pubDate>
