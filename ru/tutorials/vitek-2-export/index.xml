@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Конвертация из VITEK 2 в AMRcloud | AMRcloud</title>
+    <title>Экспорт из VITEK 2 в AMRcloud | AMRcloud</title>
     <link>https://amrcloud.net/ru/tutorials/vitek-2-export/</link>
       <atom:link href="https://amrcloud.net/ru/tutorials/vitek-2-export/index.xml" rel="self" type="application/rss+xml" />
-    <description>Конвертация из VITEK 2 в AMRcloud</description>
+    <description>Экспорт из VITEK 2 в AMRcloud</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2021</copyright><lastBuildDate>Fri, 17 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
-      <title>Конвертация из VITEK 2 в AMRcloud</title>
+      <title>Экспорт из VITEK 2 в AMRcloud</title>
       <link>https://amrcloud.net/ru/tutorials/vitek-2-export/</link>
     </image>
     
@@ -169,7 +169,8 @@
 &lt;/figure&gt;
 
 &lt;p&gt;Дождаться сообщения об окончании экспорта.&lt;/p&gt;
-&lt;p&gt;Полученный файл необходимо пропустить через конвертер в AMRcloud.&lt;/p&gt;
+&lt;p&gt;Полученный файл необходимо 
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/vitek-2-export/02/&#34;&gt;пропустить через конвертер в AMRcloud&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -653,7 +654,7 @@
 &lt;li&gt;Предупреждение &lt;em&gt;No translation has been found for organism [CODE]&lt;/em&gt; выводится когда конвертеру не удалось сопоставить код микроорганизма из столбца &lt;em&gt;ORGANISM CODE&lt;/em&gt; со словарем. В таком случае название данного микроорганизма рекомендуется заменить вручную.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;работа-со-справочниками&#34;&gt;Работа со справочниками&lt;/h2&gt;
-&lt;p&gt;Программа содержит предустановленные справочники антибиотиков и организмов, согласно которым осуществляется конвертация. При необходимости вы можете вносить в них изменения с помощью меню &lt;strong&gt;Dicitonaries&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Программа содержит предустановленные справочники антибиотиков и организмов, согласно которым осуществляется конвертация. При необходимости вы можете вносить в них изменения с помощью меню &lt;strong&gt;Dictionaries&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Справочники подразделяются на глобальные и пользовательские. Глобальные содержат предустановленные стандартные значения перекодировки. Пользовательские справочники могут переопределять коды глобальных. Поэтому рекомендуется вносить изменения именно в пользовательские справочники.&lt;/p&gt;
 &lt;p&gt;Работу с ними рассмотрим на примере справочника организмов. Для этого выберите меню &lt;strong&gt;Dictionaries → User&amp;rsquo;s organisms&lt;/strong&gt;.&lt;/p&gt;
 
@@ -766,7 +767,7 @@
 
 &lt;/figure&gt;
 
-&lt;p&gt;Кнопка &lt;strong&gt;Import&lt;/strong&gt; позволяет упростить заполнения справочника. При нажатии появляется текстовое окно, куда можно скопировать таблицу с кодами из Excel. По нажатии кнопки &lt;strong&gt;OK&lt;/strong&gt; они будут добавлены в справочник.&lt;/p&gt;
+&lt;p&gt;Кнопка &lt;strong&gt;Import&lt;/strong&gt; позволяет упростить заполнение справочника. При нажатии появляется текстовое окно, куда можно скопировать таблицу с кодами из Excel. По нажатии кнопки &lt;strong&gt;OK&lt;/strong&gt; они будут добавлены в справочник.&lt;/p&gt;
 
 
 

@@ -1,0 +1,880 @@
+<!DOCTYPE html><html lang="ru-ru" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Андрей Авраменко">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Руководство Экспорт из Adagio в AMRcloud» рассказывает о том, как имеющиеся у вас данные из программы Adagio подготовить для загрузки в AMRcloud.">
+
+  
+  <link rel="alternate" hreflang="ru-ru" href="https://amrcloud.net/ru/tutorials/adagio-export/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-85066436-14"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-85066436-14', { 'anonymize_ip': true });
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+  
+
+  
+  <link rel="alternate" href="/ru/tutorials/adagio-export/index.xml" type="application/rss+xml" title="AMRcloud">
+  
+
+  <link rel="manifest" href="/ru/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu1e3f9432ea43508a577ec9e03ae2f676_16946_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu1e3f9432ea43508a577ec9e03ae2f676_16946_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://amrcloud.net/ru/tutorials/adagio-export/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@@iacmac1997">
+  <meta property="twitter:creator" content="@@iacmac1997">
+  
+  <meta property="og:site_name" content="AMRcloud">
+  <meta property="og:url" content="https://amrcloud.net/ru/tutorials/adagio-export/">
+  <meta property="og:title" content="Экспорт из Adagio в AMRcloud | AMRcloud">
+  <meta property="og:description" content="Руководство Экспорт из Adagio в AMRcloud» рассказывает о том, как имеющиеся у вас данные из программы Adagio подготовить для загрузки в AMRcloud."><meta property="og:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png">
+  <meta property="twitter:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png"><meta property="og:locale" content="ru-ru">
+  
+    <meta property="og:updated_time" content="2021-10-04T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+
+  
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#3f51b5",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#3f51b5"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "На нашем сайте включены cookies, потому что мы используем услуги Google Analytics.",
+        "dismiss": "Понятно",
+        "link": "Узнать больше...",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
+
+
+  
+
+
+
+
+
+  <title>Экспорт из Adagio в AMRcloud | AMRcloud</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Поиск</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Поиск..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/ru/">AMRcloud</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Переключить навигацию">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/ru/">AMRcloud</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/ru/#hero"><span>Главная</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/ru/tutorials"><span>Начало работы</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/ru/#projects"><span>Открытые проекты</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/ru/#people"><span>Команда</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/ru/#contact"><span>Контакты</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-md-auto">
+      
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://amrhub.ru" target="_blank" rel="noopener"><i class='fas fa-external-link-alt'></i>&nbsp;<span>Другие AMR сервисы</span></a>
+        </li>
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+  
+    
+  
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Поиск..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+
+  
+  
+  
+  
+  <div class="docs-toc-item active">
+    <a class="docs-toc-link" href="/ru/tutorials/adagio-export/">Adagio в AMRcloud</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/ru/tutorials/adagio-export/01/">1. Экспорт из Adagio</a>
+      </li>
+      
+      <li >
+        <a href="/ru/tutorials/adagio-export/02/">2. Онлайн-конвертер</a>
+      </li>
+      
+      <li >
+        <a href="/ru/tutorials/adagio-export/03/">3. Оффлайн-конвертер</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          <h1>Экспорт из Adagio в AMRcloud</h1>
+
+          <div class="article-style">
+            <p>Руководство «Экспорт из Adagio в AMRcloud» рассказывает о том, как имеющиеся у вас данные из анализатора Adagio подготовить для загрузки в онлайн-платформу <span style="color:#2BA2E6"><strong>AMRcloud</strong></span>.</p>
+<div class="alert alert-warning">
+  <div>
+    Предварительно необходимо настроить шаблоны отчетов для выгрузки. Для настройки отчетов обращайтесь в службу поддержки Био-Рад <a href="mailto:sos@bio-rad.com">sos@bio-rad.com</a>
+  </div>
+</div>
+<p>Как загрузить полученный файл подробно описано в 
+<a href="https://amrcloud.net/ru/tutorials/import-data/">Руководстве «AMRcloud. Импорт данных»</a></p>
+
+          </div>
+
+          
+
+
+
+          
+        </div>
+
+        <div class="body-footer">
+          <p>
+            Обновлено 
+            
+            
+              4 октября 2021
+            
+          </p>
+
+          
+
+
+
+          
+
+
+          
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    AMRcloud © 2021 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" >Academic theme</a> for
+    <a href="https://gohugo.io" >Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+  
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+  
+
+  
+
+
+
+
+
+
+
+
+<script>const code_highlighting = false;</script>
+
+
+
+
+<script>const isSiteThemeDark = false;</script>
+
+
+
+
+
+
+
+
+
+<script>
+  const search_config = {"indexURI":"/ru/index.json","minLength":1,"threshold":0.3};
+  const i18n = {"no_results":"Ничего не найдено","placeholder":"Поиск...","results":"найдено"};
+  const content_type = {
+        'post': "Статьи",
+        'project': "Проекты",
+        'publication' : "Публикации",
+        'talk' : "Выступления",
+        'tutorials' : "Руководства",
+        'terms-of-use' : "Условия использования",
+        'privacy-policy' : "Политика конфиденциальности",
+        'slides' : "Slides",
+        'authors': "Команда проекта"
+        };
+</script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+<script>
+  anchors.add();
+</script>
+
+
+
+
+<script id="search-hit-fuse-template" type="text/x-template">
+  <div class="search-hit" id="summary-{{key}}">
+  <div class="search-hit-content">
+    <div class="search-hit-name">
+      <a href="{{relpermalink}}">{{title}}</a>
+      <div class="article-metadata search-hit-type">{{type}}</div>
+      <p class="search-hit-description">{{snippet}}</p>
+    </div>
+  </div>
+  </div>
+</script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<script src="/js/academic.min.841694c7f175002e4b487c622da41168.js"></script>
+
+<script type="text/javascript">
+    
+</script>
+<script>
+    
+    function setPreferredLanguage(lang) {
+        console.log('preferred lang:' + lang);
+        localStorage.setItem('amrcloud-pref-lang', lang);
+    }
+
+</script>
+<script>
+    $(document).ready(function () {
+
+
+        if ($('span.project-stat').length) {
+            $.ajax({
+                url: "https:\/\/api.amrcloud.net\/api/ga/page",
+                data: {
+                    path: "\/ru\/tutorials\/adagio-export\/",
+                    link: ""
+                },
+                type: 'GET',
+                cache: true,
+                crossDomain: true,
+                success: function (data) {
+                    $("#publication_statistics_views_value").text(data['views'] || 0);
+                    $("#publication_statistics_goto_value").text(data['outbound'] || 0);
+                },
+                error: function (data) {
+                    console.log(data);
+                }
+            });
+        }
+    });
+</script>
+
+
+
+  
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
