@@ -13,6 +13,25 @@
     </image>
     
     <item>
+      <title>AMRcloud September update</title>
+      <link>https://amrcloud.net/en/post/20211020-september-update/</link>
+      <pubDate>Wed, 20 Oct 2021 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/en/post/20211020-september-update/</guid>
+      <description>&lt;h3 id=&#34;amrcloud-september-update&#34;&gt;AMRcloud September update:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Added function to create dashboards;&lt;/li&gt;
+&lt;li&gt;Improved functionality for editing projects and datasets;&lt;/li&gt;
+&lt;li&gt;Added ability to display graphs with a given 95% CI for the &amp;ldquo;Antibiotics (all)&amp;rdquo; tab;&lt;/li&gt;
+&lt;li&gt;Added button to copy link;&lt;/li&gt;
+&lt;li&gt;Improved mechanics of adding users to a group;&lt;/li&gt;
+&lt;li&gt;Faster filters for large amounts of data;&lt;/li&gt;
+&lt;li&gt;Added a default value of &amp;ldquo;0%&amp;rdquo; for the &amp;ldquo;Multiple Resistance&amp;rdquo; sub-tab;&lt;/li&gt;
+&lt;li&gt;Interface and stability improvements.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>AMRcloud April update</title>
       <link>https://amrcloud.net/en/post/20210427-april-update/</link>
       <pubDate>Tue, 27 Apr 2021 09:00:00 +0300</pubDate>
