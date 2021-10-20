@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Link Vitek 2 and AMRcloud | AMRcloud</title>
+    <link>https://amrcloud.net/en/tutorials/vitek-2-export/</link>
+      <atom:link href="https://amrcloud.net/en/tutorials/vitek-2-export/index.xml" rel="self" type="application/rss+xml" />
+    <description>Link Vitek 2 and AMRcloud</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2021</copyright><lastBuildDate>Fri, 17 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <title>Link Vitek 2 and AMRcloud</title>
+      <link>https://amrcloud.net/en/tutorials/vitek-2-export/</link>
+    </image>
+    
+    <item>
+      <title>1. VITEK 2 export</title>
+      <link>https://amrcloud.net/en/tutorials/vitek-2-export/01/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/tutorials/vitek-2-export/01/</guid>
+      <description>&lt;p&gt;You can export only isolates that have moved to an inactive area.&lt;/p&gt;
+&lt;p&gt;The time for isolates to move to the inactive area is set in the general settings. The default is 14 days.&lt;/p&gt;
+&lt;p&gt;Incomplete isolates (requiring verification or microorganism/patient information) do not move to the inactive area. They must be switched to the status &lt;em&gt;Completed&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;In the main window of the program, you should click on the &lt;strong&gt;Tools&lt;/strong&gt; button and select &lt;strong&gt;Export inactive isolates&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-main-window&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/01.png&#34; data-caption=&#34;Main window&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Main window
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;In the new window, set the date range, check the &lt;em&gt;MIC&lt;/em&gt;, &lt;em&gt;Phenotype&lt;/em&gt;, &lt;em&gt;Detailed information about the panel&lt;/em&gt;. Select other options as needed. Click on the &lt;strong&gt;Export&lt;/strong&gt; button (icon with disk and arrow in the upper right corner).&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-export-options&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/02.png&#34; data-caption=&#34;Export options&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Export options
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;In the new window, click &lt;strong&gt;Yes&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-export-confirmation&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/03.png&#34; data-caption=&#34;Export confirmation&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Export confirmation
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;In the dialog box, select a location and enter a file name. Press &lt;strong&gt;Export inactive isolates&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-save-file&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/04.png&#34; data-caption=&#34;Save file&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Save file
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Wait for the &amp;ldquo;Export over&amp;rdquo; message.&lt;/p&gt;
+&lt;p&gt;The resulting file must be passed through the converter to AMRcloud.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2. Online Converter</title>
+      <link>https://amrcloud.net/en/tutorials/vitek-2-export/02/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/tutorials/vitek-2-export/02/</guid>
+      <description>&lt;h2 id=&#34;preparation&#34;&gt;Preparation&lt;/h2&gt;
+&lt;p&gt;The file with isolates from VITEK 2 system is a text file (* .txt), with a comma (,) field separator.&lt;/p&gt;
+&lt;p&gt;How to get the file is described in detail in the 
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/vitek-2-export/01/&#34;&gt;Guide &amp;ldquo;VITEK 2 export&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you need to convert the file, follow the link 
+&lt;a href=&#34;https://public.amrcloud.net/vitek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://public.amrcloud.net/vitek&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;uploading-a-file&#34;&gt;Uploading a File&lt;/h2&gt;
+&lt;p&gt;To upload the file, click on the &lt;strong&gt;Choose file&lt;/strong&gt; button and select your VITEK 2 file.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-file-upload&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/06.png&#34; data-caption=&#34;File upload&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/06.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    File upload
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The file upload will start automatically. When the upload is complete, the system will check the contents of the file, try to read it, and display a preview on the screen. If the upload is successful, you will see the following.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-file-is-successfully-uploaded&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/07.png&#34; data-caption=&#34;File is successfully uploaded&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/07.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    File is successfully uploaded
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;If you see the table and the &lt;strong&gt;Convert&lt;/strong&gt; button, then the file was successfully recognized by the system.&lt;/p&gt;
+&lt;h2 id=&#34;converting-a-file&#34;&gt;Converting a File&lt;/h2&gt;
+&lt;p&gt;The file converting process consists in replacing the VITEK 2 antibiotic and organisms codes with &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; codes.&lt;/p&gt;
+&lt;p&gt;Additionally, the values ​​of several columns of resistance markers are combined into one column, starting with the code &lt;code&gt;AMRCLOUD_MARKER_&lt;/code&gt;. The converter also removes columns with personal data - &lt;code&gt;PATIENT NAME&lt;/code&gt;,&lt;code&gt; PATIENT ID&lt;/code&gt;, &lt;code&gt;PATIENT LOCATION&lt;/code&gt;,&lt;code&gt; LAB ID&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;After successfully uploading the file, click the &lt;strong&gt;Convert&lt;/strong&gt; button. At the end of the converting process, a report on the performed manipulations will appear on the page. The report contains a list of codes for antibiotics and organisms that have been changed, as well as warning messages to look out for.&lt;/p&gt;
+&lt;p&gt;If errors occurred while analyzing the file, further converting is impossible. You need to fix the file.&lt;/p&gt;
+&lt;p&gt;Possible errors:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Error &lt;em&gt;Column [BAR CODE] not found. File has no Identity column&lt;/em&gt; means that the &lt;em&gt;BAR CODE&lt;/em&gt; column with unique isolate ID could not be found. You need to add it to the source file, or rename the existing column with the identifier.&lt;/li&gt;
+&lt;li&gt;Error &lt;em&gt;Column [ORGANISM CODE] not found. File has no Organism column&lt;/em&gt; means that the &lt;em&gt;ORGANISM CODE&lt;/em&gt; column with the isolate microorganism ID could not be found. You need to add it to the source file, or rename the existing column.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-error-examples&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/08.png&#34; data-caption=&#34;Error examples&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/08.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Error examples
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;There are the following types of warnings:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Warning &lt;em&gt;Column [AM-AMPICILLIN] looks like antibiotic, but has some non-MIC values&lt;/em&gt; means that the converter detects any non-numeric values ​​in the antibiotic column. In this case, the column name is still converted to the AMRcloud format, the values ​​remain unchanged.&lt;/li&gt;
+&lt;li&gt;Warning &lt;em&gt;Column AMRCLOUD_MARKER_AMINOGLYCOSIDE added&lt;/em&gt; means that the converter has detected columns with &lt;em&gt;Aminoglycosides&lt;/em&gt; values ​​and has created a new column with merged values ​​for aminoglycosides.&lt;/li&gt;
+&lt;li&gt;The warning &lt;em&gt;Isolate with [BAR CODE] = 1234567890 has 2 rows&lt;/em&gt; means that the converter has detected that an isolate with an unique identifier &lt;em&gt;BAR CODE&lt;/em&gt; occurs multiple times in the file. It is recommended to exclude duplicates from the analysis.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;Column [AM-AMPICILLIN] has no values&lt;/em&gt; warning is displayed when no values ​​are found in the antibiotic column.&lt;/li&gt;
+&lt;li&gt;The warning &lt;em&gt;Columns with identical names have been enumerated&lt;/em&gt; is displayed when the antibiotic column names are replaced with the same names. In this case, the columns are numbered in order.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;No translation has been found for organism [CODE]&lt;/em&gt; warning is displayed when the converter was unable to match the organism code from the &lt;em&gt;ORGANISM CODE&lt;/em&gt; column with the dictionary. In this case, it is recommended to change the name of this microorganism manually.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-warnings-example&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/09.png&#34; data-caption=&#34;Warnings example&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/09.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Warnings example
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-antibiotics-converting&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/10.png&#34; data-caption=&#34;Antibiotics converting&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/10.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Antibiotics converting
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-organisms-converting&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/11.png&#34; data-caption=&#34;Organisms converting&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/11.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Organisms converting
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;downloading-a-file&#34;&gt;Downloading a File&lt;/h2&gt;
+&lt;p&gt;To get the converted file, click the &lt;strong&gt;Download&lt;/strong&gt; button.&lt;/p&gt;
+&lt;p&gt;You can use this file to create projects and datasets in &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;. The basic steps of uploading data to the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; online platform are described in the 
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/import-data/&#34;&gt;AMRcloud Data Import Tutorial&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3. Offline Converter</title>
+      <link>https://amrcloud.net/en/tutorials/vitek-2-export/03/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/tutorials/vitek-2-export/03/</guid>
+      <description>&lt;p&gt;It is possible to convert data from VITEK 2 format to AMRcloud format without using the Internet. To do this, you need to use an offline converter.&lt;/p&gt;
+&lt;h2 id=&#34;preparation&#34;&gt;Preparation&lt;/h2&gt;
+&lt;p&gt;The file with isolates from VITEK 2 system is a text file (* .txt), with a comma (,) field separator.&lt;/p&gt;
+&lt;p&gt;How to get the file is described in detail in the 
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/vitek-2-export/01/&#34;&gt;Guide &amp;ldquo;VITEK 2 export&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;To install the &amp;ldquo;AMRcloud Vitek Converter&amp;rdquo;, you should download it from the link.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://amrcloud.net/install/AMRcloudVitekConverterSetup.msi&#34;&gt;AMRcloudVitekConverter.msi&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If .NET Framework 4 is not installed on the computer, the installer will offer to download it. By default, the program is installed in the &lt;code&gt;Documents\AMRsolution\AMRcloud Vitek Converter\&lt;/code&gt; folder.&lt;/p&gt;
+&lt;h2 id=&#34;working&#34;&gt;Working&lt;/h2&gt;
+&lt;p&gt;The program window after launch looks like this.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-main-window&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/12.png&#34; data-caption=&#34;Main window&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/12.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Main window
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;To select a VITEK file, press the &lt;strong&gt;Open File&lt;/strong&gt; button, or select the &lt;strong&gt;File → Open Vitek File&lt;/strong&gt; menu.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-open-file&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/13.png&#34; data-caption=&#34;Open file&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/13.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Open file
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;After selecting the file, press the &lt;strong&gt;Read File&lt;/strong&gt; button or &lt;strong&gt;File → Read Vitek File&lt;/strong&gt; menu. A table should appear. If the table does not appear, the file formatting may differ from the standard and you need to select a different type of separator. The separator type switch is located between the &lt;strong&gt;Open File&lt;/strong&gt; and &lt;strong&gt;Read File&lt;/strong&gt; buttons. The default is comma separator.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-read-file&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/14.png&#34; data-caption=&#34;Read file&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/14.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Read file
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Next, you need to specify which columns contain the isolate ID and organism code. By default, it is assumed that the identifier is stored in the &lt;code&gt;BAR CODE&lt;/code&gt; column, and the organism code in the &lt;code&gt;ORGANISM CODE&lt;/code&gt; column. These values ​​do not need to be changed.&lt;/p&gt;
+&lt;p&gt;If you wish, you can set additional transformation parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;strong&gt;Generate Unique IDs&lt;/strong&gt; checkbox allows you to add a new column &lt;code&gt;AMRCLOUD_ID&lt;/code&gt; to the file with a new generated unique ID.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;Concatenate Markers&lt;/strong&gt; checkbox allows you to concatenate the values ​​of several columns of resistance markers into one column, starting with the code &lt;code&gt;AMRCLOUD_MARKER_&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To start the converting process, click the &lt;strong&gt;Convert&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-convert-file&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/15.png&#34; data-caption=&#34;Convert file&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/15.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Convert file
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;At the end of the converting process, a report on the performed manipulations will appear on the page. The report contains a list of codes for antibiotics and organisms that have been changed, as well as warning messages to look out for.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-converting-report&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/16.png&#34; data-caption=&#34;Converting report&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/16.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Converting report
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;By default, the converted file is saved to the &lt;code&gt;Documents\AMRsolution\AMRcloud Vitek Converter\Converted&lt;/code&gt; folder. You can open the converted file using the &lt;strong&gt;Open converted file&lt;/strong&gt; button.&lt;/p&gt;
+&lt;p&gt;Possible errors:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Error &lt;em&gt;Column [BAR CODE] not found. File has no Identity column&lt;/em&gt; means that the &lt;em&gt;BAR CODE&lt;/em&gt; column with unique isolate ID could not be found. You need to add it to the source file, or rename the existing column with the identifier.&lt;/li&gt;
+&lt;li&gt;Error &lt;em&gt;Column [ORGANISM CODE] not found. File has no Organism column&lt;/em&gt; means that the &lt;em&gt;ORGANISM CODE&lt;/em&gt; column with the isolate microorganism ID could not be found. You need to add it to the source file, or rename the existing column.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There are the following types of warnings:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Warning &lt;em&gt;Column [AM-AMPICILLIN] looks like antibiotic, but has some non-MIC values&lt;/em&gt; means that the converter detects any non-numeric values ​​in the antibiotic column. In this case, the column name is still converted to the AMRcloud format, the values ​​remain unchanged.&lt;/li&gt;
+&lt;li&gt;Warning &lt;em&gt;Column AMRCLOUD_MARKER_AMINOGLYCOSIDE added&lt;/em&gt; means that the converter has detected columns with &lt;em&gt;Aminoglycosides&lt;/em&gt; values ​​and has created a new column with merged values ​​for aminoglycosides.&lt;/li&gt;
+&lt;li&gt;The warning &lt;em&gt;Isolate with [BAR CODE] = 1234567890 has 2 rows&lt;/em&gt; means that the converter has detected that an isolate with an unique identifier &lt;em&gt;BAR CODE&lt;/em&gt; occurs multiple times in the file. It is recommended to exclude duplicates from the analysis.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;Column [AM-AMPICILLIN] has no values&lt;/em&gt; warning is displayed when no values ​​are found in the antibiotic column.&lt;/li&gt;
+&lt;li&gt;The warning &lt;em&gt;Columns with identical names have been enumerated&lt;/em&gt; is displayed when the antibiotic column names are replaced with the same names. In this case, the columns are numbered in order.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;No translation has been found for organism [CODE]&lt;/em&gt; warning is displayed when the converter was unable to match the organism code from the &lt;em&gt;ORGANISM CODE&lt;/em&gt; column with the dictionary. In this case, it is recommended to change the name of this microorganism manually.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;dictionaries&#34;&gt;Dictionaries&lt;/h2&gt;
+&lt;p&gt;The program contains pre-installed reference dictionaries of antibiotics and organisms, according to which the converting is carried out. If necessary, you can make changes to them using the &lt;strong&gt;Dicitonaries&lt;/strong&gt; menu.&lt;/p&gt;
+&lt;p&gt;Dictionaries are subdivided into global and user&amp;rsquo;s. Global dictionaries contain predefined standard converting values. Custom references can override global codes. Therefore, it is recommended to make changes specifically to custom dictionaries.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s select the &lt;strong&gt;Dictionaries → User&amp;rsquo;s organisms&lt;/strong&gt; menu.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-dictionaries-menu&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/17.png&#34; data-caption=&#34;Dictionaries menu&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/17.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Dictionaries menu
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The dictionary window looks like this.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-dictionary-window&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/18.png&#34; data-caption=&#34;Dictionary window&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/18.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Dictionary window
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;To enter the data, just double-click on a cell in the table and enter the text. Confirmation of the input is carried out with the &lt;strong&gt;Enter&lt;/strong&gt; key. New entries are added using the line marked with an asterisk. You can save the changes using the &lt;strong&gt;Save&lt;/strong&gt; button. The &lt;strong&gt;Reload&lt;/strong&gt; button allows you to reload the table again, thereby resetting unsaved changes.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-filled-dictionary-example&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/19.png&#34; data-caption=&#34;Filled dictionary example&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/19.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Filled dictionary example
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The &lt;strong&gt;Import&lt;/strong&gt; button allows you to simplify the dictionary filling process. When you click the button, a text box appears where you can paste a table with codes from Excel. By pressing the &lt;strong&gt;OK&lt;/strong&gt; button, they will be added to the dictionary.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-dictionary-data-import&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/20.png&#34; data-caption=&#34;Dictionary data import&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/20.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Dictionary data import
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The &lt;strong&gt;Export&lt;/strong&gt; button allows you to save the dictionary ​​values to an Excel file.&lt;/p&gt;
+&lt;h3 id=&#34;complex-antibiotics-replacement-and-custom-antibiotics-replacement-dictionaries&#34;&gt;&lt;em&gt;Complex antibiotics replacement&lt;/em&gt; and &lt;em&gt;Custom antibiotics replacement&lt;/em&gt; dictionaries&lt;/h3&gt;
+&lt;p&gt;The peculiarity of these dictionaries is that they contain rules for converting MIC values ​​for combined antibiotics.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-complex-antibiotics-replacement-dictionary&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/21.png&#34; data-caption=&#34;Complex antibiotics replacement dictionary&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/21.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Complex antibiotics replacement dictionary
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;To describe such a converting, it is necessary to write pairs of values ​​through the symbol (=), the comma is used as a separator of the pairs.&lt;/p&gt;
+&lt;p&gt;The figure shows an example for an &lt;em&gt;SXT-Trimethoprim/sulfamethoxazole&lt;/em&gt; antibiotic. The following reference data were used for the dictionary.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Vitek&lt;/th&gt;
+&lt;th&gt;trimethoprim, mg/L&lt;/th&gt;
+&lt;th&gt;sulfamethoxasole, mg/L&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;2,5&lt;/td&gt;
+&lt;td&gt;0,125&lt;/td&gt;
+&lt;td&gt;2,375&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;0,25&lt;/td&gt;
+&lt;td&gt;4,75&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;0,5&lt;/td&gt;
+&lt;td&gt;9,5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;19&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;40&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;38&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;80&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;76&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;160&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;152&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;320&lt;/td&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;304&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;640&lt;/td&gt;
+&lt;td&gt;32&lt;/td&gt;
+&lt;td&gt;608&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1280&lt;/td&gt;
+&lt;td&gt;64&lt;/td&gt;
+&lt;td&gt;1216&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2560&lt;/td&gt;
+&lt;td&gt;128&lt;/td&gt;
+&lt;td&gt;2432&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5120&lt;/td&gt;
+&lt;td&gt;256&lt;/td&gt;
+&lt;td&gt;4864&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10240&lt;/td&gt;
+&lt;td&gt;512&lt;/td&gt;
+&lt;td&gt;9728&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
