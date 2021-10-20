@@ -13,6 +13,1372 @@
     </image>
     
     <item>
+      <title>Organization of data analysis &amp; visualization module</title>
+      <link>https://amrcloud.net/en/tutorials/analysis-examples/01/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/tutorials/analysis-examples/01/</guid>
+      <description>&lt;p&gt;In the data analysis module, the view is split into 2 fields: &lt;strong&gt;Basic filters&lt;/strong&gt; (top) and &lt;strong&gt;Infographics&lt;/strong&gt; (bottom). The data visualized in the Infographics field can be filtered to only display a data subset by using filters at the top of the screen. Below is the description of the structures of those two main modules.&lt;/p&gt;
+&lt;h2 id=&#34;basic-filters-field&#34;&gt;Basic filters field&lt;/h2&gt;
+&lt;p&gt;The metadata from your dataset that you’ve selected for loading will appear at the top of the screen as a set of filters with drop-down lists. The names of the filters originate from the column titles in your dataset (and likely differ from this manual, depending on your data). The same goes for the categories in the drop-down lists.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Field 13 - always organism group, Field 14 - always organism species.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;There are 2 types of data filters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Categorical filters have a drop-down to select from a list of values for filtering (E.g., geographical location, genes present, etc.).&lt;/li&gt;
+&lt;li&gt;Continuous filters (e.g., age, date) are adjusted by sliding a bar on the scale to limit the value range.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For easy selection of the parameters in the categorical filters, there is an option to start typing the text you would like to filter the data by, and this will show you all options containing the given text:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-filter-parameter-values&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/filters-with-text.png&#34; data-caption=&#34;Filter parameter values&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/filters-with-text.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Filter parameter values
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;hierarchical-sorting-principle&#34;&gt;Hierarchical sorting principle&lt;/h3&gt;
+&lt;p&gt;Parameters to which the filtering has been applied are marked with a blue box around the corresponding filter drop-down list. Filters are numbered according to their level in the filtering hierarchy (1-12, the lower the number, the higher the hierarchy). When applying the filtering to one of the categories at a higher level, the available filtering options for other lower-level categories may become limited due to filtering applied at a higher-level filter (this is also displayed as a blue box around affected filters).&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-blue-box-around-filters&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/filter-blue.png&#34; data-caption=&#34;Blue box around filters&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/filter-blue.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Blue box around filters
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;If you change a higher-level filter, the lower-level filters will be reset.&lt;/p&gt;
+&lt;h6 id=&#34;example&#34;&gt;Example&lt;/h6&gt;
+&lt;ol&gt;
+&lt;li&gt;Filter was applied to category 1.
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/filter-example-01.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/filter-example-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;After that, the data selection was filtered in category filter #3 to display only 2 geographical locations from the available list:
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/filter-example-02.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/filter-example-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;If after that we go back and modify the selection in category filter #1, e.g., to include one additional value:
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/filter-example-03.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/filter-example-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;We will see that the selection in the category field #3 has been reset to default (to include all available options):
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/filter-example-04.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/filter-example-04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Therefore, as you set your data filtering parameters, it is preferable to apply filters in the order of their appearance on the screen (this does not apply to the fields with continuous data, e.g., patient age).&lt;/p&gt;
+&lt;p&gt;If you wish to keep selected criteria for display, turn on the &lt;strong&gt;keep filter&lt;/strong&gt; option:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-keep-selected-criteria-for-display&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/filter-hold.png&#34; data-caption=&#34;Keep selected criteria for display&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/filter-hold.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Keep selected criteria for display
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    The function &lt;strong&gt;Keep filters&lt;/strong&gt; works for drop-down parameters but not for continuous fields (e.g., Date, Age, etc.)
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;infographics-field&#34;&gt;Infographics field&lt;/h2&gt;
+&lt;p&gt;There are 7 tabs in the Infographics field that provide different types of data visualization.&lt;/p&gt;
+&lt;p&gt;Overall, the infographics field has a &lt;em&gt;general-to-specific&lt;/em&gt; structure. This layout facilitates an exploratory approach to your dataset. Meaning, the user doesn’t have to have a preconceived scientific question or target phenomena in mind that they want to investigate, but rather would like to methodically review all facets of their data. Following the organization of the analysis, inherent to the AMRcloud resource, by advancing through the infographics tabs left to right, will help users to form their scientific questions at the more &lt;em&gt;general&lt;/em&gt; level of the analysis and proceed to refining and investigating it as they move towards visualization levels focusing on &lt;em&gt;specific&lt;/em&gt; data.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tab &lt;strong&gt;Data structure&lt;/strong&gt; allows viewing general metadata structure characteristics (proportions of entries with various characteristics, relationships between different data categories, data overlay with a map).&lt;/li&gt;
+&lt;li&gt;Tab &lt;strong&gt;Organisms&lt;/strong&gt; – displays a summary of representation of different species or groups of organisms in the dataset. It may be useful for an initial overview of the dataset and delineation of the further analysis strategy for different species and groups of organisms (e.g., Enterobaterales).&lt;/li&gt;
+&lt;li&gt;Phenotypic resistance can be viewed and analyzed in three tabs: &lt;strong&gt;Antibiotic S/I/R Summary&lt;/strong&gt;, &lt;strong&gt;Selected Antibiotic&lt;/strong&gt;, and &lt;strong&gt;Associated Resistance&lt;/strong&gt;, which are ordered by their level of data granularity starting from a broad overview moving towards more in-depth analysis. Using Infographics tools in that order would prompt the user to start with detecting the concern/interest areas at a big-picture level (general prevalence of resistance to various antimicrobials among different bacterial species, MIC trends, etc.). Then the user would proceed to drill down to unravel potential connections between various types of data: resistance phenotypes vs. metadata (demographic data, geographic distributions, diagnosis, therapy, any genetic or phenotypic properties of the pathogen strains, etc.), as well as associations between individual antibiotic resistance phenotypes (co-resistance, multidrug resistance).&lt;/li&gt;
+&lt;li&gt;Described above types of analysis logically lead to the tab &lt;strong&gt;Markers&lt;/strong&gt;, providing a convenient tool for investigating associations between resistant phenotypes and genetic antibiotic resistance determinants. It can also be used to analyze the correlation between all sorts of genetic markers and any type of metadata.&lt;/li&gt;
+&lt;li&gt;Tab &lt;strong&gt;Compare&lt;/strong&gt; – allows to create two groups with the desired set of parameters and then compare those groups against each other based on various data selected by the user.  For example, one could create the first group as community-acquired cases and the second group- as nosocomial cases and then compare the prevalence of antimicrobial resistance, presence of different markers, or any metadata distribution between two groups.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The filtering from the Basic filters field applies to visualizations in all tabs&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    To apply filtering from the Basic filters field to the graphics in the Infographics field, press the button &lt;strong&gt;Display&lt;/strong&gt; (the changes made in the Basic filters will not be displayed until you click &lt;strong&gt;Display&lt;/strong&gt;).
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Drop-down lists included in the infographics field serve as controllers of what data is presented in a given graph and apply only to the tab they are listed under (unlike filters in the top portion of the screen that include/exclude data for all tabs).&lt;/p&gt;
+&lt;p&gt;After making the adjustments in the filter fields under the infographics, you need to press the &lt;strong&gt;Display&lt;/strong&gt; button to apply the changes.&lt;/p&gt;
+&lt;p&gt;Histograms, pie charts, and area plots generated in various infographics fields of AMRcloud are interactive:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hovering over the graph brings a pop-up message showing the name of the data category and percentage of isolates with a given data value.&lt;/li&gt;
+&lt;li&gt;You can change the categories displayed on the graph by clicking on their names in the legend for the corresponding graph. (This does not change relative percentages shown in the graph). E.g., you can hide cases with no data available from the view by clicking on the corresponding data category in the legend.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-changing-categories&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/interactive-01.png&#34; data-caption=&#34;Changing categories&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/interactive-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Changing categories
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;understanding-of-basic-connections-between-loaded-data-and-data-filteringanalysis-options&#34;&gt;Understanding of basic connections between loaded data and data filtering/analysis options&lt;/h2&gt;
+&lt;p&gt;As mentioned earlier, the names of the headers in your imported data table will be used as the names of the basic filters in the AMRcloud analysis module. When uploading the data, you are asked to mark some of your data fields as &lt;strong&gt;Parameters to filter&lt;/strong&gt; (or &lt;strong&gt;Filtration Columns&lt;/strong&gt;), while others as &lt;strong&gt;Markers&lt;/strong&gt;. Both will be displayed as the &lt;strong&gt;Basic Filters&lt;/strong&gt; for your data. The difference is that the data fields marked as &lt;strong&gt;Markers&lt;/strong&gt; in your original data table will be additionally available for selection under the &lt;strong&gt;Markers&lt;/strong&gt; tab in the Infographics field; this will make it easier to plot those genetic features against the phenotypes (especially SIR categories) as well as other metadata.&lt;/p&gt;
+&lt;p&gt;Another thing to consider, if you have data on multiple genetic determinants that are known to confer resistance to a certain class of antimicrobials, it may be convenient to group them under one category (see detailed instructions in 
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/import-data/05-identification/&#34;&gt;the manual for data upload&lt;/a&gt;).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example tasks and their solutions</title>
+      <link>https://amrcloud.net/en/tutorials/analysis-examples/02/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/tutorials/analysis-examples/02/</guid>
+      <description>&lt;p&gt;The use of the AMRcloud platform entirely depends on the data that you loaded into your dataset. However, we would like to bring up some general examples where different features of the AMRcloud could help solving common types of questions, which a clinician, microbiologist, or epidemiologist involved in antimicrobial resistance surveillance might want to answer. Please note that the exact positioning of filters and types of presented data will likely differ between our examples and your actual data, but the general structure will be the same as described in the previous chapter. If none of the presented examples speak to you, the systematic and detailed description of all functionalities included in the AMRcloud platform is included in 
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/analysis-examples/03/&#34;&gt;Section 3&lt;/a&gt; of this manual. And by all means, feel free to just play around with your data.&lt;/p&gt;
+&lt;h2 id=&#34;susceptibility-profiles-of-microorganisms-associated-with-a-certain-pathology&#34;&gt;Susceptibility profiles of microorganisms associated with a certain pathology&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Set your &lt;strong&gt;Basic Filters&lt;/strong&gt; to select the &lt;strong&gt;Organism Species&lt;/strong&gt; or &lt;strong&gt;Organism Group&lt;/strong&gt; (e.g., Enterobacterales) that you wish to analyze (Species or group of organisms has to be selected for the tasks involving antimicrobial resistance phenotype interpretation due to the species-specific nature of susceptibility breakpoints).&lt;/li&gt;
+&lt;li&gt;In the Infographics field, select the tab &lt;strong&gt;Selected Antibiotic&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Under the tab &lt;strong&gt;Selected Antibiotic&lt;/strong&gt;, from the drop-down list, pick the Antibiotic resistance to which you want to explore.&lt;/li&gt;
+&lt;li&gt;Open sub-tab &lt;strong&gt;S/I/R Plots&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Click on sub-tab &lt;strong&gt;Plot by&lt;/strong&gt; further down.&lt;/li&gt;
+&lt;li&gt;From the appeared drop-down filter &lt;strong&gt;Plot by&lt;/strong&gt; (under &lt;strong&gt;S/I/R Plots&lt;/strong&gt;), chose category &lt;em&gt;Diagnosis&lt;/em&gt; (may be named differently depending on the headers title in your dataset).&lt;/li&gt;
+&lt;li&gt;Click the button &lt;strong&gt;Display&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-susceptibility-profiles-of-microorganisms-associated-with-a-certain-pathology-filters&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-01.png&#34; data-caption=&#34;Susceptibility profiles of microorganisms associated with a certain pathology. Filters&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Susceptibility profiles of microorganisms associated with a certain pathology. Filters
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Example of data display:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-susceptibility-profiles-of-microorganisms-associated-with-a-certain-pathology-result&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-01-graph.png&#34; data-caption=&#34;Susceptibility profiles of microorganisms associated with a certain pathology. Result&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-01-graph.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Susceptibility profiles of microorganisms associated with a certain pathology. Result
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;When using the &lt;strong&gt;Plot by&lt;/strong&gt; function, it is important to have all available values selected under &lt;strong&gt;Basic Filters&lt;/strong&gt; for the parameter selected as the category in &lt;strong&gt;Plot by&lt;/strong&gt;. E.g., if &lt;strong&gt;Plot by&lt;/strong&gt; is set to &lt;strong&gt;Diagnosis&lt;/strong&gt; under &lt;strong&gt;Selected Antibiotic&lt;/strong&gt; infographics, the &lt;strong&gt;Basic Filter&lt;/strong&gt; for &lt;em&gt;Diagnosis&lt;/em&gt; category should have all values selected:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-susceptibility-profiles-of-microorganisms-associated-with-a-certain-pathology-function-plot-by&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-01-groupby.png&#34; data-caption=&#34;Susceptibility profiles of microorganisms associated with a certain pathology. Function Plot by&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-01-groupby.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Susceptibility profiles of microorganisms associated with a certain pathology. Function Plot by
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The analyzed dataset can be further sorted by applying additional Basic Filters. However, after the Basic Filters are modified, the downstream Basic Filters settings will be discarded and would need to be selected again, and the antibiotic name needs to be picked (see chapter 
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/analysis-examples/01/#hierarchical-sorting-principle&#34;&gt;Hierarchical sorting principle&lt;/a&gt; of this manual for details).&lt;/p&gt;
+&lt;h2 id=&#34;distribution-of-resistance-in-different-age-groups&#34;&gt;Distribution of resistance in different age groups&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Set your &lt;strong&gt;Basic Filters&lt;/strong&gt; to select the &lt;strong&gt;Organism Species&lt;/strong&gt; or &lt;strong&gt;Organism Group&lt;/strong&gt; (e.g., Enterobacterales) you wish to analyze. (Species or a group of organisms must be selected for the tasks involving antimicrobial resistance phenotype interpretation due to the species-specific nature of susceptibility breakpoints).&lt;/li&gt;
+&lt;li&gt;In the Infographics field, select the tab &lt;strong&gt;Selected Antibiotic&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Under the tab &lt;strong&gt;Selected Antibiotic&lt;/strong&gt;, from the drop-down list, pick the Antibiotic resistance to which you want to explore.&lt;/li&gt;
+&lt;li&gt;Open sub-tab &lt;strong&gt;S/I/R Plots&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Click on sub-tab &lt;strong&gt;Plot by&lt;/strong&gt; further down.&lt;/li&gt;
+&lt;li&gt;From the appeared drop-down filter &lt;strong&gt;Plot by&lt;/strong&gt; (under &lt;strong&gt;S/I/R Plots&lt;/strong&gt;), chose the category &lt;em&gt;Age Group&lt;/em&gt; (may be named differently depending on the headers title in your dataset).&lt;/li&gt;
+&lt;li&gt;Click the button &lt;strong&gt;Display&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;To create a graph sorted by age along the X-axis: use graph settings options: &lt;em&gt;Sort By - Name&lt;/em&gt;. &lt;em&gt;Sort Type - Descending or Ascending&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-distribution-of-resistance-in-different-age-groups-filters&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-02.png&#34; data-caption=&#34;Distribution of resistance in different age groups. Filters&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Distribution of resistance in different age groups. Filters
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Example of data display:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-distribution-of-resistance-in-different-age-groups-result&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-02-graph.png&#34; data-caption=&#34;Distribution of resistance in different age groups. Result&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-02-graph.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Distribution of resistance in different age groups. Result
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;When using &lt;strong&gt;Plot by&lt;/strong&gt; function, it is important to have all available values selected under &lt;strong&gt;Basic Filters&lt;/strong&gt; for the parameter selected as the category in &lt;strong&gt;Plot by&lt;/strong&gt;. E.g., if &lt;strong&gt;Plot by&lt;/strong&gt; is set to &lt;em&gt;Age group&lt;/em&gt; under &lt;strong&gt;Selected Antibiotic&lt;/strong&gt; infographics, the &lt;strong&gt;Basic Filter&lt;/strong&gt; for the &lt;strong&gt;Age group&lt;/strong&gt; category should have all values included (unless you intended to exclude them from the analysis):&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-distribution-of-resistance-in-different-age-groups-function-plot-by&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-02-groupby.png&#34; data-caption=&#34;Distribution of resistance in different age groups. Function Plot By&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-02-groupby.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Distribution of resistance in different age groups. Function Plot By
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The analyzed dataset can be further sorted by applying additional Basic Filters. However, after the Basic Filters are modified, the downstream Basic Filters settings will be discarded and would need to be selected again, and the antibiotic name needs to be picked (see chapter 
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/analysis-examples/01/#hierarchical-sorting-principle&#34;&gt;Hierarchical sorting principle&lt;/a&gt; of this manual for details).&lt;/p&gt;
+&lt;h2 id=&#34;sir-distribution-for-antimicrobials-tested-within-a-certain-period&#34;&gt;S/I/R distribution for antimicrobials tested within a certain period&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Set your &lt;strong&gt;Basic Filters&lt;/strong&gt; to select the date range for the data you wish to include in the analysis.&lt;/li&gt;
+&lt;li&gt;In the &lt;strong&gt;Basic Filters&lt;/strong&gt;, select the &lt;strong&gt;Organism Species&lt;/strong&gt; or &lt;strong&gt;Organism Group&lt;/strong&gt; (e.g., Enterobacterales) that you wish to analyze. (Species or a group of organisms must be selected for the tasks involving antimicrobial resistance phenotype interpretation due to the species-specific nature of susceptibility breakpoints).&lt;/li&gt;
+&lt;li&gt;In the Infographics field, select the tab &lt;strong&gt;Antibiotics S/I/R Summary&lt;/strong&gt;, sub-tab &lt;strong&gt;Plot&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Click the button &lt;strong&gt;Display&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Under tab &lt;strong&gt;Plot&lt;/strong&gt;, from the drop-down list, pick the Antibiotic resistance to which you want to explore.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-sir-distribution-for-antimicrobials-tested-within-a-certain-period-filters&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-03.png&#34; data-caption=&#34;S/I/R distribution for antimicrobials tested within a certain period. Filters&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    S/I/R distribution for antimicrobials tested within a certain period. Filters
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Example of data display:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-sir-distribution-for-antimicrobials-tested-within-a-certain-period-result&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-03-graph.png&#34; data-caption=&#34;S/I/R distribution for antimicrobials tested within a certain period. Result&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-03-graph.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    S/I/R distribution for antimicrobials tested within a certain period. Result
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The analyzed dataset can be further sorted by applying additional Basic Filters. However, after the Basic Filters are modified, the downstream Basic Filters settings will be discarded and would need to be selected again, and the antibiotic name needs to be picked (see chapter 
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/analysis-examples/01/#hierarchical-sorting-principle&#34;&gt;Hierarchical sorting principle&lt;/a&gt; of this manual for details).&lt;/p&gt;
+&lt;h2 id=&#34;trends-in-resistance-to-an-antibiotic-over-a-period-of-time&#34;&gt;Trends in resistance to an antibiotic over a period of time&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Set your &lt;strong&gt;Basic Filters&lt;/strong&gt; to select the &lt;strong&gt;Organism Species&lt;/strong&gt; or &lt;strong&gt;Organism Group&lt;/strong&gt; (e.g., Enterobacterales) you wish to analyze. (Species or group of organisms has to be selected for the tasks involving antimicrobial resistance phenotype interpretation due to species-specific nature of susceptibility breakpoints).&lt;/li&gt;
+&lt;li&gt;In the Infographics field, select the tab &lt;strong&gt;Selected Antibiotic&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Under the tab &lt;strong&gt;Selected Antibiotic&lt;/strong&gt;, from the drop-down list, pick the Antibiotic resistance to which you want to explore.&lt;/li&gt;
+&lt;li&gt;Open sub-tab &lt;strong&gt;S/I/R Plots&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Click on sub-tab &lt;strong&gt;Plot by&lt;/strong&gt; further down.&lt;/li&gt;
+&lt;li&gt;From the appeared drop-down filter &lt;strong&gt;Plot by&lt;/strong&gt; (under &lt;strong&gt;S/I/R Plots&lt;/strong&gt;), chose the category &lt;em&gt;Date: Year&lt;/em&gt; (may be named differently depending on the header titles in your dataset). AMRcloud algorithm can round the dates to display congregated data by years, quarters, months, and weeks.&lt;/li&gt;
+&lt;li&gt;Click the button &lt;strong&gt;Display&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Note that dates are always sorted automatically in chronological order, and Descending/Ascending sorting doesn’t work in this infographic.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-trends-in-resistance-to-an-antibiotic-over-a-period-of-time-filters&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-04.png&#34; data-caption=&#34;Trends in resistance to an antibiotic over a period of time. Filters&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Trends in resistance to an antibiotic over a period of time. Filters
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Example of data display:&lt;/p&gt;
+&lt;p&gt;Data is presented as histogram by default.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-trends-in-resistance-to-an-antibiotic-over-a-period-of-time-histogram&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-04-graph.png&#34; data-caption=&#34;Trends in resistance to an antibiotic over a period of time. Histogram&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-04-graph.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Trends in resistance to an antibiotic over a period of time. Histogram
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;For the presentation of data as resistance trend, under the sub-tab &lt;strong&gt;Plot by&lt;/strong&gt;, select the &lt;em&gt;Trend&lt;/em&gt; option from the &lt;strong&gt;Plot type&lt;/strong&gt; drop-down list.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-trends-in-resistance-to-an-antibiotic-over-a-period-of-time-plot-by-trend&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-04-trend.png&#34; data-caption=&#34;Trends in resistance to an antibiotic over a period of time. Plot by Trend&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-04-trend.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Trends in resistance to an antibiotic over a period of time. Plot by Trend
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-trends-in-resistance-to-an-antibiotic-over-a-period-of-time-trend&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-04-graph-trend.png&#34; data-caption=&#34;Trends in resistance to an antibiotic over a period of time. Trend&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-04-graph-trend.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Trends in resistance to an antibiotic over a period of time. Trend
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;When using &lt;strong&gt;Plot by&lt;/strong&gt; function, it is important to have all available values selected under &lt;strong&gt;Basic Filters&lt;/strong&gt; for the parameter selected as the category in &lt;strong&gt;Plot by&lt;/strong&gt;. E.g., if &lt;strong&gt;Plot by&lt;/strong&gt; is set to &lt;em&gt;Date:Year&lt;/em&gt; under &lt;strong&gt;Selected Antibiotic&lt;/strong&gt; infographics, the &lt;strong&gt;Basic Filter&lt;/strong&gt; for the &lt;strong&gt;Date&lt;/strong&gt; category should have all values included (unless you intended to exclude them from the analysis):&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-trends-in-resistance-to-an-antibiotic-over-a-period-of-time-function-plot-by&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-04-group-by.png&#34; data-caption=&#34;Trends in resistance to an antibiotic over a period of time. Function Plot by&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-04-group-by.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Trends in resistance to an antibiotic over a period of time. Function Plot by
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The analyzed dataset can be further sorted by applying additional Basic Filters. However, after the Basic Filters are modified, the downstream Basic Filters settings will be discarded and would need to be selected again, and the antibiotic name needs to be picked (see chapter 
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/analysis-examples/01/#hierarchical-sorting-principle&#34;&gt;Hierarchical sorting principle&lt;/a&gt; of this manual for details).&lt;/p&gt;
+&lt;h2 id=&#34;geographical-distribution-of-resistance-profiles-map-visualization&#34;&gt;Geographical distribution of resistance profiles (map visualization)&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Set your &lt;strong&gt;Basic Filters&lt;/strong&gt; to select the &lt;strong&gt;Organism Species&lt;/strong&gt; or &lt;strong&gt;Organism Group&lt;/strong&gt; (e.g., Enterobacterales) you wish to analyze. [Species or a group of organisms must be selected for the tasks involving antimicrobial resistance phenotype interpretation due to the species-specific nature of susceptibility breakpoints].&lt;/li&gt;
+&lt;li&gt;In the Infographics field, select the tab &lt;strong&gt;Selected Antibiotic&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Under the tab &lt;strong&gt;Selected Antibiotic&lt;/strong&gt;, from the drop-down list, pick the Antibiotic resistance to which you want to explore.&lt;/li&gt;
+&lt;li&gt;Open sub-tab &lt;strong&gt;Map&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Click the button &lt;strong&gt;Display&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-geographical-distribution-of-resistance-profiles-filters&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-05.png&#34; data-caption=&#34;Geographical distribution of resistance profiles. Filters&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-05.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Geographical distribution of resistance profiles. Filters
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;View map with overplayed S/I/R data in the infographics “Map” below.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-geographical-distribution-of-resistance-profiles-map&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-05-map.png&#34; data-caption=&#34;Geographical distribution of resistance profiles. Map&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-05-map.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Geographical distribution of resistance profiles. Map
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Alternatively, the distribution of relative proportions of isolates resistant to a given antibiotic by geographic locations can be shown by clicking infographics sub-tab &lt;strong&gt;Rating&lt;/strong&gt; (also under &lt;strong&gt;Map&lt;/strong&gt; sub-tab). In the graph below, the prevalence of the selected resistance type in all geographical loci is ordered according to its rate. A vertical dotted line designates a median percentage of resistant isolates.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-geographical-distribution-of-resistance-profiles-rating&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-05-rating.png&#34; data-caption=&#34;Geographical distribution of resistance profiles. Rating&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-05-rating.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Geographical distribution of resistance profiles. Rating
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The analyzed dataset can be further sorted by applying additional Basic Filters. However, after the Basic Filters are modified, the downstream Basic Filters settings will be discarded and would need to be selected again, and the antibiotic name needs to be picked (see chapter 
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/analysis-examples/01/#hierarchical-sorting-principle&#34;&gt;Hierarchical sorting principle&lt;/a&gt; of this manual for details).&lt;/p&gt;
+&lt;h2 id=&#34;association-of-resistance-phenotype-and-genotype&#34;&gt;Association of resistance phenotype and genotype&lt;/h2&gt;
+&lt;p&gt;This type of analysis depends on the data uploaded by the user and can be done using the &lt;strong&gt;Markers&lt;/strong&gt; tab. Specifically, it allows to show MIC distribution for the isolates with different genetic resistance determinants present.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;In the &lt;strong&gt;Markers&lt;/strong&gt; tab, select a group of markers and/or specific markers that you wish to analyze from the corresponding drop-down lists.&lt;/li&gt;
+&lt;li&gt;Select the sub-tab &lt;strong&gt;MIC&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Select an antibiotic for which you wish to explore the association of phenotype and genotype.&lt;/li&gt;
+&lt;li&gt;Click the button &lt;strong&gt;Display&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;View the histogram of MIC-genetic marker distribution in the infographics &lt;strong&gt;MIC&lt;/strong&gt; below.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-association-of-resistance-phenotype-and-genotype-filters&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-06.png&#34; data-caption=&#34;Association of resistance phenotype and genotype. Filters&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-06.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Association of resistance phenotype and genotype. Filters
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Example of data display. In the provided below example, the presence of carbapenemases correlates with high MIC values of meropenem:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-association-of-resistance-phenotype-and-genotype-result&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-06-graph.png&#34; data-caption=&#34;Association of resistance phenotype and genotype. Result&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-06-graph.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Association of resistance phenotype and genotype. Result
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;associated-resistance&#34;&gt;Associated resistance&lt;/h2&gt;
+&lt;p&gt;AMRcloud allows users to explore the association between different antibiotic resistance phenotypes by comparing relative numbers of the isolates resistant to various antibiotics. This information helps to form a better understanding of the general epidemiology of antibiotic resistance and assists with choosing the strategy of antimicrobial prescriptions.&lt;/p&gt;
+&lt;h3 id=&#34;matrix-of-associated-resistance&#34;&gt;Matrix of associated resistance&lt;/h3&gt;
+&lt;p&gt;To determine whether any co-resistance is observed in the dataset, use the tab &lt;strong&gt;Associated Resistance&lt;/strong&gt;. A good way to start is with known resistance to an antimicrobial present in your isolates; determine the likelihood of that type of resistance to be associated with the resistance to other antimicrobials. For that:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Set your &lt;strong&gt;Basic Filters&lt;/strong&gt; to select the &lt;strong&gt;Organism Species&lt;/strong&gt; or &lt;strong&gt;Organism Group&lt;/strong&gt; (e.g., Enterobacterales) you wish to analyze. (Species or a group of organisms must be selected for the tasks involving antimicrobial resistance phenotype interpretation due to the species-specific nature of susceptibility breakpoints).&lt;/li&gt;
+&lt;li&gt;Under the tab &lt;strong&gt;Associated Resistance&lt;/strong&gt;, select the sub-tab &lt;strong&gt;Coresistance&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Click the button &lt;strong&gt;Display&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;View the matrix of associated resistance in the infographics &lt;strong&gt;Matrix&lt;/strong&gt; below.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-associated-resistance&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-07-01.png&#34; data-caption=&#34;Associated resistance&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-07-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Associated resistance
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Example of data display:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-associated-resistance-result&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-07-01-graph.png&#34; data-caption=&#34;Associated resistance. Result&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-07-01-graph.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Associated resistance. Result
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;In the example matrix above, find the row with the antibiotic to which the resistance is observed in the dataset and which you want to investigate for co-resistance for other antimicrobials, e.g., meropenem.&lt;/p&gt;
+&lt;p&gt;Values in the intersections show the likelihood of associated resistance between two drugs being present. E.g., in the example above, there is an 81.49% likelihood that an isolate with resistance to meropenem will also be resistant to gentamicin. Usually, the goal is to find the drug combination with the lowest likelihood value for co-resistance as a potential option for treatment in case of observed resistance to one of the drugs in the pair.  Another use of this type of analysis is the detection of unusual resistance patterns, e.g., in the case of resistance of Acetobacter isolates to meropenem, tobramycin has the lowest level of associated resistance among other aminoglycosides.&lt;/p&gt;
+&lt;h3 id=&#34;multiple-resistance&#34;&gt;Multiple Resistance&lt;/h3&gt;
+&lt;p&gt;To calculate the proportion of multi-/extreme-/pan-drug-resistant isolates (as determined by the user) in your dataset, use sub-tab &lt;strong&gt;Multiple Resistance&lt;/strong&gt;. This function allows the user to determine the percentage of isolates that are resistant to at least one, two, … N number of antibiotics simultaneously. The user can specify antimicrobials selected for the analysis.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Set your &lt;strong&gt;Basic Filters&lt;/strong&gt; to select the &lt;strong&gt;Organism Species&lt;/strong&gt; or &lt;strong&gt;Organism Group&lt;/strong&gt; (e.g., Enterobacterales) you wish to analyze.&lt;/li&gt;
+&lt;li&gt;Select the tab &lt;strong&gt;Associated Resistance&lt;/strong&gt;,&lt;/li&gt;
+&lt;li&gt;Select the sub-tab &lt;strong&gt;Multiple Resistance&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Pick the antibiotics, among which multiple resistance will be explored. Multiple resistance will only be analyzed among the selected antibiotics (selecting only one antibiotic will not allow analyzing for multiple resistance).&lt;/li&gt;
+&lt;li&gt;Enter the number of antimicrobials to which the simultaneous resistance must be observed in your selected group (user defines the multiple resistance in this analysis). E.g., in the example below, to determine the proportion of isolates that are resistant to all antibiotics in the panel (pan-resistance), select all antibiotics in the dataset (8 out of 8) in the field &lt;strong&gt;Antibiotic&lt;/strong&gt; and set N number to 8 in the field &lt;strong&gt;R at least to N antibiotics&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Click the button &lt;strong&gt;Display&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-multiple-resistance&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-07-02.png&#34; data-caption=&#34;Multiple Resistance&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-07-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Multiple Resistance
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;View the number of isolates meeting the set parameters of multiple resistance. The percentage value from the total number of isolates in the dataset and 95% confidence interval (CI) are also calculated automatically.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-multiple-resistance-result&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-07-02-graph.png&#34; data-caption=&#34;Multiple Resistance. Result&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-07-02-graph.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Multiple Resistance. Result
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The analyzed dataset can be further sorted by applying additional Basic Filters. However, after the Basic Filters are modified, the downstream Basic Filters settings will be discarded and would need to be selected again, and the antibiotic name needs to be picked (see chapter 
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/analysis-examples/01/#hierarchical-sorting-principle&#34;&gt;Hierarchical sorting principle&lt;/a&gt; of this manual for details).&lt;/p&gt;
+&lt;h2 id=&#34;visualize-mic-50-and-mic-90&#34;&gt;Visualize MIC 50 and MIC 90&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Set your &lt;strong&gt;Basic Filters&lt;/strong&gt; to select the &lt;strong&gt;Organism Species&lt;/strong&gt; or &lt;strong&gt;Organism Group&lt;/strong&gt; (e.g., Enterobacterales) you wish to analyze. (Species or a group of organisms must be selected for the tasks involving antimicrobial resistance phenotype interpretation due to the species-specific nature of susceptibility breakpoints).&lt;/li&gt;
+&lt;li&gt;In the Infographics field, select the tab &lt;strong&gt;Selected Antibiotic&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Under the tab &lt;strong&gt;Selected Antibiotic&lt;/strong&gt;, from the drop-down list, pick the Antibiotic resistance to which you want to explore.&lt;/li&gt;
+&lt;li&gt;Open sub-tab &lt;strong&gt;MIC&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Click the button &lt;strong&gt;Display&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-visualize-mic-50-and-mic-90&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-08.png&#34; data-caption=&#34;Visualize MIC 50 and MIC 90&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-08.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Visualize MIC 50 and MIC 90
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;In the infographics &lt;strong&gt;MIC&lt;/strong&gt; below, the MIC50 and MIC90 will be displayed as dotted vertical lines above corresponding MIC columns. Hovering over the dotted line will bring out the corresponding MIC50 or MIC90 label:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-visualize-mic-50-and-mic-90-result&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-08-graph.png&#34; data-caption=&#34;Visualize MIC 50 and MIC 90. Result&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-08-graph.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Visualize MIC 50 and MIC 90. Result
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;time-of-first-detection-of-a-certain-marker-in-different-geographical-locations&#34;&gt;Time of First Detection of a certain marker in different geographical locations&lt;/h2&gt;
+&lt;p&gt;It could be useful to visualize the timeline of occurrence of certain markers- virulence or resistance determinant or a genetic lineage- in different geographical locations available in your dataset. For that, perform the following steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Set your basic filters to include/filter data that you would like to analyze.&lt;/li&gt;
+&lt;li&gt;In the Infographics field, select the tab &lt;strong&gt;Markers&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Under the &lt;strong&gt;Markers&lt;/strong&gt; tab, chose the group of markers you would like to analyze in the &lt;strong&gt;Group of Markers&lt;/strong&gt; drop-down list. You don’t have to select a specific &lt;strong&gt;Marker&lt;/strong&gt; at this level because you will be selecting the specific marker for visualization later.&lt;/li&gt;
+&lt;li&gt;Open sub-tab &lt;strong&gt;Time of First Detection&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Select the marker under the drop-down list &lt;strong&gt;Genetic Marker&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Select the geographical location parameter under &lt;strong&gt;Plot by&lt;/strong&gt; drop-down list.&lt;/li&gt;
+&lt;li&gt;Click the button &lt;strong&gt;Display&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For example: if we select an &lt;em&gt;IIIG&lt;/em&gt; lineage of &lt;em&gt;Shigella sonnei&lt;/em&gt; in our example dataset as a &lt;strong&gt;Genetic Marker&lt;/strong&gt; and set the &lt;strong&gt;Plot by&lt;/strong&gt; to the &lt;em&gt;geographical location of isolation&lt;/em&gt;, we will see the dates when IIIG lineage was first isolated in different geographical locations:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-time-of-first-detection-of-a-certain-marker-in-different-geographical-locations&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-09.png&#34; data-caption=&#34;Time of First Detection of a certain marker in different geographical locations&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/example-09.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Time of First Detection of a certain marker in different geographical locations
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>From CAESAR to AMRcloud</title>
       <link>https://amrcloud.net/en/tutorials/caesar-converter/01/</link>
       <pubDate>Tue, 27 Apr 2021 00:05:00 +0000</pubDate>
@@ -3446,6 +4812,1918 @@ Full description of CAESAR file columns you can find in
 &lt;p&gt;To download the converted file, press the &lt;strong&gt;&amp;lsquo;Download&amp;rsquo;&lt;/strong&gt; button. The file should be ready to upload to the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; without additional modifications, except when you see critical warnings described above.&lt;/p&gt;
 &lt;p&gt;The import of data files using the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; Import Wizard is described in the 
 &lt;a href=&#34;https://amrcloud.net/en/tutorials/import-data/&#34;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Detailed description of the types of analysis available in AMRcloud.</title>
+      <link>https://amrcloud.net/en/tutorials/analysis-examples/03/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/tutorials/analysis-examples/03/</guid>
+      <description>&lt;p&gt;Below is the detailed description of the different types of analysis that can be performed in separate tabs of the Infographics field.&lt;/p&gt;
+&lt;h2 id=&#34;data-structure&#34;&gt;Data structure&lt;/h2&gt;
+&lt;p&gt;Tab &lt;strong&gt;Data structure&lt;/strong&gt; gives a general overview of metadata structure. These infographics will help you overlay and compare any type of metadata uploaded with your dataset; however, it does not include antibiotic susceptibility data, which is investigated in detail in the consequent tabs.&lt;/p&gt;
+&lt;p&gt;Following visualization tools are available under &lt;strong&gt;Data structure&lt;/strong&gt; (sub-tabs):&lt;/p&gt;
+&lt;h3 id=&#34;pie-chart&#34;&gt;Pie Chart&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Pie Chart&lt;/strong&gt; sub-tab — simple data distribution by the categories that can be picked from the drop-down list. The table under the graph shows the cumulative data that went into the displayed graph and can be exported in various formats (csv, Excel, pdf, …).&lt;/p&gt;
+&lt;h3 id=&#34;plot-by&#34;&gt;Plot by&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Plot by&lt;/strong&gt; sub-tab — shows data distribution in relation to different criteria set by controllers in this Infographics field:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Field &lt;strong&gt;Plot&lt;/strong&gt; — the category of data that will be displayed&lt;/li&gt;
+&lt;li&gt;Field &lt;strong&gt;Group by&lt;/strong&gt; — the categories in which the displayed data will be classified into.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h6 id=&#34;example-distribution-of-isolates-of-different-species-by-years&#34;&gt;Example. Distribution of isolates of different species by years&lt;/h6&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-distribution-of-isolates-of-different-species-by-years&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-01-01.png&#34; data-caption=&#34;Distribution of isolates of different species by years&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-01-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Distribution of isolates of different species by years
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-distribution-of-isolates-of-different-species-by-years-result&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-01-02.png&#34; data-caption=&#34;Distribution of isolates of different species by years. Result&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-01-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Distribution of isolates of different species by years. Result
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Table with cumulative data used to generate the graph is also available below.&lt;/p&gt;
+&lt;h3 id=&#34;map&#34;&gt;Map&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Map&lt;/strong&gt; sub-tab — allows a display of one data category at a time that is set by a drop-down filter.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To include all data points on the screen, press &lt;i class=&#34;fas fa-compress-arrows-alt&#34;&gt;&lt;/i&gt;&lt;/li&gt;
+&lt;li&gt;To search for the location on the map, use &lt;i class=&#34;fas fa-search&#34;&gt;&lt;/i&gt;&lt;/li&gt;
+&lt;li&gt;You can apply markers or drawings by using the side panel on the map &lt;img src=&#34;https://amrcloud.net/css/spritesheet-short.svg&#34; style=&#34;margin: 0&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;Various adjustments to the elements on the map are available via &lt;strong&gt;Style Editor&lt;/strong&gt; &lt;i class=&#34;leaflet-button-control&#34; style=&#34;margin: 0&#34; alt=&#34;&#34;&gt;&lt;/i&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-style-settings&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/style-editor.png&#34; data-caption=&#34;Style settings&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/style-editor.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Style settings
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;organisms&#34;&gt;Organisms&lt;/h2&gt;
+&lt;p&gt;Tab &lt;strong&gt;Organisms&lt;/strong&gt; – displays a summary of representation of different species or groups of organisms in the dataset (or subset of data selected based on the filters in the &lt;strong&gt;Basic Filters&lt;/strong&gt; filed).&lt;/p&gt;
+&lt;h2 id=&#34;antibiotics-sir-summary&#34;&gt;Antibiotics S/I/R Summary&lt;/h2&gt;
+&lt;p&gt;Tab &lt;strong&gt;Antibiotics S/I/R Summary&lt;/strong&gt; displays the overview distribution of the isolates by susceptibility categories S/I/R (which are either entered by the user or calculated from provided by user MIC of Inhibition zone diameter values)&lt;/p&gt;
+&lt;p&gt;Only one organism group or species can be analyzed at once. Before clicking &lt;strong&gt;Display&lt;/strong&gt;, select the &lt;strong&gt;Organism Group&lt;/strong&gt; or &lt;strong&gt;Organism Species&lt;/strong&gt; in the &lt;strong&gt;Basic Filters&lt;/strong&gt; part of the window.&lt;/p&gt;
+&lt;p&gt;By default, the susceptibility categories are displayed for all tested antibiotics (for which the susceptibility criteria are available). You may further select a smaller group of antibiotics (or a single drug) for which you would like to view the S/I/R distributions using the &lt;strong&gt;Antibiotic&lt;/strong&gt; drop-down list in the &lt;strong&gt;Plot&lt;/strong&gt; sub-tab.&lt;/p&gt;
+&lt;p&gt;Below are the controllers of data view available under the &lt;strong&gt;Antibiotics S/I/R Summary&lt;/strong&gt; infographics field:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A user can choose to show combined data from both auto-interpreted MICs and Zone Diameters together or select one of them under the drop-down list &lt;strong&gt;S/I/R Data Source&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;S/I/R categories can be displayed separately or be combined as S/I+R or S+I/R under the drop-down list &lt;strong&gt;Display&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;selected-antibiotic&#34;&gt;Selected Antibiotic&lt;/h2&gt;
+&lt;p&gt;Tab &lt;strong&gt;Selected Antibiotic&lt;/strong&gt; allows to visualize the association of S/I/R categories for each antibiotic with other various factors present in the dataset (e.g., year, genetic lineage, diagnosis, geographic location, etc.). The main goal of this data visualization is to expose the concealed connections between a pattern of antibiotic resistance and any type of provided metadata. This is also the place where you can see antimicrobial susceptibility data distribution by discrete MIC or zone diameter values.&lt;/p&gt;
+&lt;p&gt;Following controllers of data view are used to adjust data depiction throughout all sub-tabs of the &lt;strong&gt;Selected Antibiotic&lt;/strong&gt; infographics field:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A user can choose to show combined data from both auto-interpreted MICs and Zone Diameters together or select one of them under the drop-down list &lt;strong&gt;S/I/R Data Source&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Antibiotic, for which the in-depth analysis is performed, can be selected in the &lt;strong&gt;Antibiotic&lt;/strong&gt; drop-down list. The default selection is the first antibiotic in alphabetical order found in the dataset. Only one antibiotic can be chosen at a time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Following sub-tabs are available under &lt;strong&gt;Selected Antibiotic&lt;/strong&gt;:&lt;/p&gt;
+&lt;h3 id=&#34;sir-plots&#34;&gt;S/I/R Plots&lt;/h3&gt;
+&lt;p&gt;As you open &lt;strong&gt;S/I/R Plots&lt;/strong&gt;, the first set of filters allows you to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;switch between S/I/R individual categorical view and either S/I+R or S+I/R combined views&lt;/li&gt;
+&lt;li&gt;adjust 95% CI display&lt;/li&gt;
+&lt;li&gt;(most importantly) select the metadata type that will be used for differential analysis of the susceptibility data (viewing susceptibility data distribution based on different metadata categories) – set in the drop-down list &lt;strong&gt;Plot by&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;strong&gt;Summary information&lt;/strong&gt; infographic is displayed first by default and provides the S/I/R summary for the selected antibiotic. (Summary is not affected by the &lt;strong&gt;Plot by&lt;/strong&gt; filter set above).&lt;/p&gt;
+&lt;h6 id=&#34;example-overall-ciprofloxacin-resistance-of-enterobacterales&#34;&gt;Example. Overall ciprofloxacin resistance of Enterobacterales.&lt;/h6&gt;
+&lt;p&gt;Let’s say we would like to see the overall ciprofloxacin resistance of Enterobacterales present in the dataset.&lt;/p&gt;
+&lt;p&gt;Settings:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Select the species or group of organisms for which resistance will be explored. Species or a group of organisms have to be selected for performing the tasks involving antimicrobial resistance phenotype interpretation (due to the species-specific nature of susceptibility breakpoints).&lt;/li&gt;
+&lt;li&gt;Pick an antibiotic from the drop-down list, e.g., &lt;em&gt;ciprofloxacin&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Select the sub-tab &lt;strong&gt;S/I/R Plots&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Select the infographics &lt;strong&gt;Summary information&lt;/strong&gt; for the results&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-overall-ciprofloxacin-resistance-of-enterobacterales-filters&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04.png&#34; data-caption=&#34;Overall ciprofloxacin resistance of Enterobacterales. Filters&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Overall ciprofloxacin resistance of Enterobacterales. Filters
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-overall-ciprofloxacin-resistance-of-enterobacterales-result&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-graph.png&#34; data-caption=&#34;Overall ciprofloxacin resistance of Enterobacterales. Result&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-graph.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Overall ciprofloxacin resistance of Enterobacterales. Result
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;To proceed with viewing the distribution of antibiotic susceptibility categories (S/I/R) based on various data groups available in the dataset, click on infographics &lt;strong&gt;Plot by&lt;/strong&gt;. Select the type of metadata you would like to use for grouping in the &lt;strong&gt;Plot by&lt;/strong&gt; drop-down list in the level above.&lt;/p&gt;
+&lt;h6 id=&#34;example-prevalence-of-ciprofloxacin-resistance-in-different-infection-types-caused-by-members-of-enterobacterales&#34;&gt;Example. Prevalence of ciprofloxacin resistance in different infection types caused by members of Enterobacterales.&lt;/h6&gt;
+&lt;p&gt;Let’s say we would like to see the prevalence of ciprofloxacin resistance in different infection types caused by members of Enterobacterales.&lt;/p&gt;
+&lt;p&gt;Settings:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-prevalence-of-ciprofloxacin-resistance-in-different-infection-types-caused-by-members-of-enterobacterales-filters&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-01.png&#34; data-caption=&#34;Prevalence of ciprofloxacin resistance in different infection types caused by members of Enterobacterales. Filters&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Prevalence of ciprofloxacin resistance in different infection types caused by members of Enterobacterales. Filters
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Results:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-prevalence-of-ciprofloxacin-resistance-in-different-infection-types-caused-by-members-of-enterobacterales-results&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-01-graph.png&#34; data-caption=&#34;Prevalence of ciprofloxacin resistance in different infection types caused by members of Enterobacterales. Results&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-01-graph.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Prevalence of ciprofloxacin resistance in different infection types caused by members of Enterobacterales. Results
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;By clicking on colored circles with categories S/I/R under the graph, you can limit displayed categories. E.g., switch to only showing % of resistant isolates by deselecting &lt;strong&gt;S&lt;/strong&gt; and &lt;strong&gt;I&lt;/strong&gt; data:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-prevalence-of-ciprofloxacin-resistance-in-different-infection-types-caused-by-members-of-enterobacterales-deselecting-s-and-i-data&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-01-graph-01.png&#34; data-caption=&#34;Prevalence of ciprofloxacin resistance in different infection types caused by members of Enterobacterales. Deselecting S and I data&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-01-graph-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Prevalence of ciprofloxacin resistance in different infection types caused by members of Enterobacterales. Deselecting S and I data
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The &lt;strong&gt;Table&lt;/strong&gt; available under the last subtab of S/I/R plots shows the cumulative data that corresponds to the graph displayed in &lt;strong&gt;Plot by&lt;/strong&gt; infographics.&lt;/p&gt;
+&lt;h3 id=&#34;map-1&#34;&gt;Map&lt;/h3&gt;
+&lt;p&gt;The map with S/I/R data shown as a pie chart for each geographic location appears under &lt;strong&gt;Map&lt;/strong&gt; infographics.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-selected-antibiotic-map&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-02.png&#34; data-caption=&#34;Selected Antibiotic. Map&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Selected Antibiotic. Map
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The diameter of each pie chart is proportional to the number of isolates. A left-click of the mouse on the diagram shows the geographic location name and absolute and relative number of samples.&lt;/p&gt;
+&lt;p&gt;You may set up an alert value to flag all locations with resistance prevalence above a certain threshold.
+Example: flag location with &amp;gt;=50% resistance to ciprofloxacin:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-selected-antibiotic-map-with-alerts&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-02-01.png&#34; data-caption=&#34;Selected Antibiotic. Map with alerts&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-02-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Selected Antibiotic. Map with alerts
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Infographics &lt;strong&gt;Rating&lt;/strong&gt; displays the prevalence of the selected resistance type in all geographical loci and orders them according to their rate. Vertical line designates a median percentage of resistant isolates.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-selected-antibiotic-rating&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-02-02.png&#34; data-caption=&#34;Selected Antibiotic. Rating&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-02-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Selected Antibiotic. Rating
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Regression analysis of phenotypic susceptibility trends for various geographic locations is available in the corresponding infographics &lt;strong&gt;Regression&lt;/strong&gt;. The generated graph has time points plotted against the X-axis and percentage values for the selected susceptibility categories along the Y-axis.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-selected-antibiotic-regression&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-02-03.png&#34; data-caption=&#34;Selected Antibiotic. Regression&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-02-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Selected Antibiotic. Regression
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;In the infographics settings, a user has the option to display various susceptibility phenotypes (S, S+I, R, I+R) as well as turn off and on the display of geographical names. Using the sliding scale, one may also adjust the size of circles and smoothing of the graph.&lt;/p&gt;
+&lt;p&gt;To see detailed information for specific geographic locations (particularly, the outlier from general trend), draw a box around values of interest with a left-click of a mouse.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-selected-antibiotic-regression-detailed-information&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-02-04.png&#34; data-caption=&#34;Selected Antibiotic. Regression. Detailed information.&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-02-04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Selected Antibiotic. Regression. Detailed information.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;mic&#34;&gt;MIC&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;MIC&lt;/strong&gt; sub-tab presents antimicrobial susceptibility data as a distribution by discrete MIC or zone diameter values.&lt;/p&gt;
+&lt;p&gt;Infographics &lt;strong&gt;MIC&lt;/strong&gt; plots the number of isolates with each corresponding MIC value, as well as MIC 50 and MIC 90 values.&lt;/p&gt;
+&lt;p&gt;Interpretive criteria (CLSI or EUCAST) selected upon dataset upload are applied to color-code graph bars for different MIC values: red for resistant isolates, yellow for intermediate, and green for susceptible isolates. If no interpretation criteria are available for a given drug-bug combination, the data bars for the corresponding MIC values will appear grey. It is also possible to have only data bars corresponding to the certain MIC values colored grey- if instead of a single species, the organism group is selected in Basic Filters, and the interpretive criteria for different species (or different infection localizations) within the given group are different for the selected antibiotic.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-selected-antibiotic-mic&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-03.png&#34; data-caption=&#34;Selected antibiotic. MIC&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Selected antibiotic. MIC
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Infographics &lt;strong&gt;MIC Trend&lt;/strong&gt; plots the MIC trend to the specified antibiotic within a given time frame.&lt;/p&gt;
+&lt;p&gt;The generated graph has time points plotted along the X-axis and MIC values along the Y-axis. The size of the circle for each value corresponds to the number of isolates. Color-coding is the same as in the &lt;strong&gt;MIC&lt;/strong&gt; Infographics.&lt;/p&gt;
+&lt;p&gt;Checking the flag &lt;strong&gt;MIC&lt;/strong&gt; and adjusting the &lt;strong&gt;MIC xx%&lt;/strong&gt; scale displays the trend of the compiled MIC values:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-selected-antibiotic-mic-trend-mic90&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-03-01.png&#34; data-caption=&#34;Selected antibiotic. MIC trend. MIC90%&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-03-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Selected antibiotic. MIC trend. MIC90%
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;To see additional information for the specific MIC values in a given time frame, draw a box around values of interest with a left-click of a mouse and press the button &lt;strong&gt;Get Info&lt;/strong&gt; under the graph. Displayed below information will display the S/I/R distribution for the datapoints encompassed by your selection in the histogram. The table will also include the isolate-level details. The isolates table can be further filtered based on any of the data columns by typing in the value at the top of the column or sorted in ascending/descending order.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-selected-antibiotic-mic-trend-table&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-03-02.png&#34; data-caption=&#34;Selected antibiotic. MIC trend. Table&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-04-03-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Selected antibiotic. MIC trend. Table
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;zone-diameter&#34;&gt;Zone Diameter&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Zone Diameter&lt;/strong&gt; sub-tab performs the same function as the &lt;strong&gt;MIC&lt;/strong&gt; sub-tab described above, but for the analysis of antibiotic zone diameters distribution and trends. Similarly, this sub-tab contains Infographics &lt;strong&gt;Zone Diameter&lt;/strong&gt; and &lt;strong&gt;Zone Diameter Trend&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;associated-resistance&#34;&gt;Associated Resistance&lt;/h2&gt;
+&lt;p&gt;Tab &lt;strong&gt;Associated Resistance&lt;/strong&gt; – is a perfect tool for discovering associations between different antibiotic resistance phenotypes. This analysis utility quantifies the number of isolates that are assigned to the category &lt;em&gt;resistant&lt;/em&gt; based on applied susceptibility interpretation criteria.&lt;/p&gt;
+&lt;p&gt;Following infographics sub-tabs are available under &lt;strong&gt;Associated Resistance&lt;/strong&gt;:&lt;/p&gt;
+&lt;h3 id=&#34;coresistance&#34;&gt;Coresistance&lt;/h3&gt;
+&lt;p&gt;The &lt;strong&gt;Coresistance&lt;/strong&gt; sub-tab demonstrated the data on associated resistance as a matrix, where the values in the intersection of two antibiotics show the percentage of cases when resistance to one drug correlates with the resistance to another antimicrobial. Applied heatmap (&lt;strong&gt;Matrix&lt;/strong&gt; infographics) represents the higher percentage of correlation as a brighter red color of the cell.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-associated-resistance-matrix&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-05-01.png&#34; data-caption=&#34;Associated Resistance. Matrix&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-05-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Associated Resistance. Matrix
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The selection of antibiotics is defaulted to displaying all drugs present in the dataset, but the user may restrict the displayed antimicrobials by using the drop-down list under the &lt;strong&gt;Coresistance&lt;/strong&gt; sub-tab.&lt;/p&gt;
+&lt;p&gt;The same data is also available in Table view under the corresponding tab &lt;strong&gt;Table&lt;/strong&gt;:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-associated-resistance-table&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-05-01-01.png&#34; data-caption=&#34;Associated Resistance. Table&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-05-01-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Associated Resistance. Table
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;multiple-resistance&#34;&gt;Multiple Resistance&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Multiple Resistance&lt;/strong&gt; sub-tab calculates the number of isolates that displays correlated resistance against the selected antibiotics.&lt;/p&gt;
+&lt;p&gt;Select 2 or more antibiotics from the drop-down list &lt;strong&gt;Antibiotic&lt;/strong&gt; to see how many isolates possess simultaneous resistance to those antibiotics.&lt;/p&gt;
+&lt;p&gt;In the &lt;strong&gt;R at least to N antibiotics&lt;/strong&gt;, set the value to match the number of the selected antibiotics if you would like to see what portion of isolates is resistant to &lt;em&gt;&lt;strong&gt;all&lt;/strong&gt;&lt;/em&gt; of those antibiotics.&lt;/p&gt;
+&lt;h6 id=&#34;example&#34;&gt;Example&lt;/h6&gt;
+&lt;p&gt;If we selected 3 antibiotics: cefotaxime, ciprofloxacin, and imipenem - and then set the number of correlated drug resistance to 3 - it means we will see the number of isolates simultaneously resistant to all 3 drugs - cefotaxime, ciprofloxacin, and imipenem. In the example below, none of the isolates possessed such a combination of resistant phenotypes:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-multiple-resistance-example-for-n--3&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-05-02.png&#34; data-caption=&#34;Multiple Resistance. Example for N = 3&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-05-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Multiple Resistance. Example for N = 3
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;If we set &lt;strong&gt;R at least to N antibiotics&lt;/strong&gt; to 2, this would mean that we would see the number of isolates that are simultaneously resistant to any 2 antibiotics from the selected list (cefotaxime, ciprofloxacin, and imipenem):&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-multiple-resistance-example-for-n--2&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-05-02-01.png&#34; data-caption=&#34;Multiple Resistance. Example for N = 2&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-05-02-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Multiple Resistance. Example for N = 2
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;In our example, there are 33 isolates that have such resistance combination out of 135 total tested isolates (value N).&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    If the value set in &lt;strong&gt;R at least to N antibiotics&lt;/strong&gt; is bigger than the number of selected drugs under &lt;strong&gt;Antibiotic&lt;/strong&gt;, the number of isolates matching such parameters will be 0, as those are invalid settings.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Value N&lt;/strong&gt; shows the absolute number of isolates that have the configured resistance combination, displayed in relation to the number of total tested isolates.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Value R&lt;/strong&gt; shows the relative number of isolates resistant to the selected antibiotics (percentage equivalent of the N value).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;95% CI&lt;/strong&gt; is the 95% confidence interval of the relative number of isolates with multiple resistance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;scatter-plot&#34;&gt;Scatter Plot&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Scatter Plot&lt;/strong&gt; sub-tab shows scatter plot of MIC values for 2 selected antibiotics. Select any 2 antibiotics using the drop-down list under this subtab.&lt;/p&gt;
+&lt;p&gt;The number displayed in the intersection between MIC values for 2 different antibiotics corresponds to the number of isolates with such MIC values combination. The circle size is proportional to the number of the isolates with given MIC values and can be adjusted using the scale &lt;strong&gt;Point size&lt;/strong&gt;.&lt;/p&gt;
+&lt;h6 id=&#34;example-1&#34;&gt;Example&lt;/h6&gt;
+&lt;p&gt;In the example below, we have 12 isolates with ciprofloxacin MIC 128 mg/L and cefotaxime MIC of 256 mg/L.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-scatter-plot&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-05-03.png&#34; data-caption=&#34;Scatter Plot&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-05-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Scatter Plot
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;markers&#34;&gt;Markers&lt;/h2&gt;
+&lt;p&gt;Tab &lt;strong&gt;Markers&lt;/strong&gt; – can be used for all sorts of genetic markers that you would like to overlay with any type of metadata or antibiotic susceptibility data; the latter is most convenient for investigating correlations between resistant phenotype and antibiotic resistance determinants.&lt;/p&gt;
+&lt;p&gt;Select a group of markers using the &lt;strong&gt;Group of Markers&lt;/strong&gt; drop-down list under the &lt;strong&gt;Markers&lt;/strong&gt; tab. &lt;strong&gt;Group of Markers&lt;/strong&gt; could be any column in your dataset that you marked as &lt;strong&gt;Markers&lt;/strong&gt; while loading the data, and any distinct values in the corresponding column would be considered as individual markers.&lt;/p&gt;
+&lt;p&gt;By default, all values under that group will be displayed, but you can use the &lt;strong&gt;Marker&lt;/strong&gt; drop-down list to limit the displayed values. E.g., below we selected the group of markers - &lt;em&gt;ESBL&lt;/em&gt;, and left all possible values to display (in this case only 2 values - &lt;em&gt;positive&lt;/em&gt; and &lt;em&gt;negative&lt;/em&gt;).&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-markers&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06.png&#34; data-caption=&#34;Markers&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Markers
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Following infographics sub-tabs are available under &lt;strong&gt;Markers&lt;/strong&gt;:&lt;/p&gt;
+&lt;h3 id=&#34;markers-1&#34;&gt;Markers&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Markers&lt;/strong&gt; sub-tab shows a circular diagram representing a summary of the values available under the selected &lt;strong&gt;Group of Markers&lt;/strong&gt;, i.e., percentage of isolates with each marker value.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-markers-graph&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-01.png&#34; data-caption=&#34;Markers. Graph&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Markers. Graph
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;plot-by-1&#34;&gt;Plot by&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Plot by&lt;/strong&gt; sub-tab is a convenient tool to investigate the correlations between various markers and any metadata that is present in your dataset.&lt;/p&gt;
+&lt;p&gt;To select the type of data for the analysis categories, use the &lt;strong&gt;Plot by&lt;/strong&gt; drop-down menu.&lt;/p&gt;
+&lt;h6 id=&#34;example-2&#34;&gt;Example&lt;/h6&gt;
+&lt;p&gt;Distribution of ESBL markers by month:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-markers-plot-by-month&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-02.png&#34; data-caption=&#34;Markers. Plot by month&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Markers. Plot by month
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Or by allele clusters (genotyping groups):&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-markers-plot-by-allele-clusters&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-02-01.png&#34; data-caption=&#34;Markers. Plot by allele clusters&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-02-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Markers. Plot by allele clusters
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;map-2&#34;&gt;Map&lt;/h3&gt;
+&lt;p&gt;The &lt;strong&gt;Map&lt;/strong&gt; sub-tab is used to overlay the number of isolates with a given marker on the geographical map.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-markers-map&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-03.png&#34; data-caption=&#34;Markers. Map&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Markers. Map
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The diameter of the circle for each geographic location is proportional to the number of isolates with the selected marker. The size of circles can be adjusted by dragging the &lt;strong&gt;Point Size&lt;/strong&gt; pointers.&lt;/p&gt;
+&lt;p&gt;Clicking on the circles will bring a pop-up message showing the name of the geographic location and the number of the isolates.&lt;/p&gt;
+&lt;h3 id=&#34;map-x2&#34;&gt;Map x2&lt;/h3&gt;
+&lt;p&gt;Map x2 sub-tab differs from the &lt;strong&gt;Map&lt;/strong&gt; sub-tab in the ability to display side by side two maps: one with markers and another one- with a selected antibiotic’s SIR distribution by geographical location.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-markers-map-x2&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-04.png&#34; data-caption=&#34;Markers. Map x2&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Markers. Map x2
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Select one antibiotic for the SIR display using the &lt;strong&gt;Antibiotic&lt;/strong&gt; drop-down menu under the &lt;strong&gt;Map x2&lt;/strong&gt; sub-tab.&lt;/p&gt;
+&lt;p&gt;You can change how SIR categories are displayed on the map using the &lt;strong&gt;Category&lt;/strong&gt; drop-down list and select either of the following: SIR, S+I, R, R+I.&lt;/p&gt;
+&lt;p&gt;Any movement or zooming in one map view is automatically applied to another map.&lt;/p&gt;
+&lt;h3 id=&#34;sir-summary&#34;&gt;SIR Summary&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;SIR Summary&lt;/strong&gt; sub-tab allows visualizing the information on susceptibility categories (SIR) among the isolates with a selected marker(s).&lt;/p&gt;
+&lt;p&gt;The most useful way to review the data would be to select one marker at a time in the &lt;strong&gt;Marker&lt;/strong&gt; drop-down list and look at SIR category distributions for a given marker before moving to the next marker. If all markers are selected, the SIR distribution infographic displays the values for all isolates that have the given marker group values and doesn’t show the difference between different markers.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;SIR plot&lt;/strong&gt; has the percentage of isolates plotted on the Y-axis and SIR categories for the selected antibiotics plotted on the X-axis. The color of the graph bar corresponds to the susceptibility profile:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-sir-colors&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-05-00.png&#34; data-caption=&#34;S/I/R colors&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-05-00.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    S/I/R colors
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h6 id=&#34;example-3&#34;&gt;Example&lt;/h6&gt;
+&lt;p&gt;Below is an example with the ESBL marker group:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Both possible marker values are selected. SIR distribution for all antibiotics is shown:&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-sir-summary-esbl&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-05-01.png&#34; data-caption=&#34;SIR summary. ESBL&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-05-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    SIR summary. ESBL
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Only the &lt;strong&gt;Positive&lt;/strong&gt; ESBL marker is selected. SIR distribution for all antibiotics is shown:
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-sir-summary-positive-esbl&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-05-02.png&#34; data-caption=&#34;SIR summary. Positive ESBL&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-05-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    SIR summary. Positive ESBL
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Only the &lt;strong&gt;Negative&lt;/strong&gt; ESBL marker is selected. SIR distribution for all antibiotics is shown:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-sir-summary-negative-esbl&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-05-03.png&#34; data-caption=&#34;SIR summary. Negative ESBL&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-05-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    SIR summary. Negative ESBL
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;mic-1&#34;&gt;MIC&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;MIC&lt;/strong&gt; sub-tab demonstrates the distribution of the selected markers in relation to MIC values of the selected antibiotic. For this analysis, you may have all or only certain markers selected. However, you would need to select only one antibiotic at a time to display the MIC distributions.&lt;/p&gt;
+&lt;p&gt;Infographics &lt;strong&gt;MIC&lt;/strong&gt; shows the histogram distribution with each MIC value of the selected antimicrobial plotted along the X-axis and the percentage of isolates plotted along the Y-axis. The color within each bar indicates the markers, with the height of the block reflective of the proportion of the isolates with a given marker. MIC 50 and MIC 90 values are marked with red vertical lines.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-markers-mic&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-06.png&#34; data-caption=&#34;Markers. MIC&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-06.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Markers. MIC
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Infographics &lt;strong&gt;MIC Trend&lt;/strong&gt; has dates plotted along the X-axis and MIC values along the Y-axis. Data is displayed for the isolates with the selected marker(s).&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-markers-mic-trend&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-06-01.png&#34; data-caption=&#34;Markers. MIC trend&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-06-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Markers. MIC trend
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The color of circles corresponds to the susceptibility category and circle size - to the number of isolates.&lt;/p&gt;
+&lt;p&gt;You can select the circles on the graph for which you want to get more information (by drawing a box around them) and click the button &lt;strong&gt;Get Info&lt;/strong&gt;. The data displayed below will have information on the isolates included in those data points: their MIC values distribution in the &lt;strong&gt;MIC&lt;/strong&gt; tab and metadata - in the &lt;strong&gt;Table (Isolates)&lt;/strong&gt; tab. &lt;strong&gt;MIC&lt;/strong&gt; tab here could be helpful if you would like to see a distribution of MICs in relation to the markers selected for the analysis upstream.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-markers-detail-information&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-06-04.png&#34; data-caption=&#34;Markers. Detail information&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-06-04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Markers. Detail information
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;zone-diameter-1&#34;&gt;Zone Diameter&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Zone Diameter&lt;/strong&gt; sub-tab pretty much does the same visualization as the &lt;strong&gt;MIC&lt;/strong&gt; subtab, but for AST data available as zone diameters. As with MIC, you may have all or only certain markers selected, but you would need to select only one antibiotic at a time.&lt;/p&gt;
+&lt;p&gt;Infographics &lt;strong&gt;Zone Diameter&lt;/strong&gt; shows the histogram distribution with each Zone Diameter value of the selected antimicrobial plotted along the X-axis and percentage of isolates plotted along the Y-axis. The color within each bar indicates the markers, with the height of the block reflective of the proportion of the isolates with a given marker.&lt;/p&gt;
+&lt;p&gt;Infographics &lt;strong&gt;Zone Diameter Trend&lt;/strong&gt; displays dates plotted along the X-axis and Zone Diameter values along the Y-axis for the isolates with the selected above marker(s).&lt;/p&gt;
+&lt;p&gt;You can draw a box around the data points for which you want to see more information and click the button &lt;strong&gt;Get Info&lt;/strong&gt;. The data displayed below in the &lt;strong&gt;Zone Diameter&lt;/strong&gt; tab will have Zone Diameter distribution for the selection in relation to the markers selected for the analysis upstream.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;Table (Isolates)&lt;/strong&gt; tab contains the metadata for the isolates included in selection on the Zone Diameter Trend graph.&lt;/p&gt;
+&lt;h3 id=&#34;time-of-first-detection&#34;&gt;Time of First Detection&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Time of First Detection&lt;/strong&gt; sub-tab provides visualization of the date of the first detection of a certain marker.&lt;/p&gt;
+&lt;p&gt;Select the marker under the drop-down list &lt;strong&gt;Genetic Marker&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;You can alter what information about the first detection case is displayed on the timeline by selecting different parameters in the drop-down list &lt;strong&gt;Plot by&lt;/strong&gt;. In the case if dates of the first detection are different based on the value of the parameter selected in &lt;strong&gt;Plot by&lt;/strong&gt;, you’ll see multiple date marks on the timeline.&lt;/p&gt;
+&lt;h6 id=&#34;example-4&#34;&gt;Example&lt;/h6&gt;
+&lt;p&gt;If we select an &lt;em&gt;IIIG&lt;/em&gt; lineage of &lt;em&gt;Shigella sonnei&lt;/em&gt; in our example dataset as a marker and set the &lt;strong&gt;Plot by&lt;/strong&gt; to &lt;em&gt;geographical location&lt;/em&gt;, we will see the dates when this marker was detected in all geographical locations:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-markers-time-of-first-detection&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-08.png&#34; data-caption=&#34;Markers. Time of First Detection&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-08.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Markers. Time of First Detection
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;compare&#34;&gt;Compare&lt;/h2&gt;
+&lt;p&gt;Tab &lt;strong&gt;Compare&lt;/strong&gt; is used to compare two groups defined by the user based on the variety of different parameters (various metadata categories, resistance, presence of markers, etc.).&lt;/p&gt;
+&lt;p&gt;A user utilizes the filters to define what parameters do the isolates need to meet in order to be included in one or another group.  Group #1 is set using the &lt;strong&gt;Basic filters&lt;/strong&gt; field, and Group #2 is defined using the &lt;strong&gt;Filters for Comparison&lt;/strong&gt; field under the &lt;strong&gt;Compare&lt;/strong&gt; tab - both fields have the same set of filters set at default values at a start, that could be later modified accordingly to define the two comparison groups. E.g., in order to create Group #1, you could filter isolates in the &lt;strong&gt;Basic filters&lt;/strong&gt; field based on prior antibiotics use and only select patients with a recent history of antibiotics prescription. Now, to create Group #2, one could filter the isolates for the second group to only include isolates from patients with no recent antibiotics therapy.&lt;/p&gt;
+&lt;p&gt;The organism group and/or organism species selected by the user for Group #1 will be automatically populated for Group #2 (but not the other way around). Only the group filter is automatically populated.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Note that after setting the group criteria in the &lt;strong&gt;Basic filters&lt;/strong&gt; field (Group #1) and in the &lt;strong&gt;Filters for Comparison&lt;/strong&gt; field (Group #2), if you go back to modify the selection of parameters for Group #1, the parameters in Group #2 will be reset.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This applies to the selected organism group and species. So if you are planning to restrict the comparison to a particular organism group/species (will be necessary for S/I/R category analysis; see below), it is helpful to set the organism specifics under the Group #1 parameters before applying filters to Group #2 to avoid having to redo your Group #2 filtering. Alternatively, you can always reapply your Group #2 filters if you had to change organism group/species after both Groups have been already defined.&lt;/p&gt;
+&lt;p&gt;After the two groups were defined, proceed to select the parameters that you want to use as a basis for the comparison of the two groups.&lt;/p&gt;
+&lt;h3 id=&#34;data-structure-1&#34;&gt;Data structure&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Data structure&lt;/strong&gt; sub-tab: you can use any data categories in your dataset as the parameters for the comparison of two groups. Those will be listed in the drop-down list &lt;strong&gt;Data Structure by&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The top part of the infographics will contain data visualization of your comparison as a bar graph. As with other bar graphs in AMRcloud infographics, you can hide data categories from the view by clicking on them in the legend to the graph. E.g., hiding cases with no data available on complications:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-compare-data-structure&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-08-01.png&#34; data-caption=&#34;Compare. Data structure&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-08-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Compare. Data structure
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Below the graph, you can see the table showing the row values and percentages for all data categories, as well as the p-value for the statistical significance level (exact Fisher test for each category).&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-compare-table&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-08-02.png&#34; data-caption=&#34;Compare. Table&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/tab-06-08-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Compare. Table
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;sir&#34;&gt;SIR&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;S/I/R&lt;/strong&gt; sub-tab: If you would like to compare the antibiotic susceptibility phenotype between two selected groups, make sure to first select the same organism group (or species) in Group #1 (will be applied to both Groups automatically).&lt;/p&gt;
+&lt;h3 id=&#34;determinants&#34;&gt;Determinants&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Determinants&lt;/strong&gt; sub-tab allows you to show the distribution of various genetic markers (values in the dataset labeled by the user as &lt;strong&gt;Markers&lt;/strong&gt;) between two comparison groups. (The values listed in the &lt;strong&gt;Determinants&lt;/strong&gt; sub-tab are the same as in the &lt;strong&gt;Markers&lt;/strong&gt; tab, but the structure of the infographic is more geared towards the comparison of markers between two groups).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data export</title>
+      <link>https://amrcloud.net/en/tutorials/analysis-examples/04/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/tutorials/analysis-examples/04/</guid>
+      <description>&lt;h2 id=&#34;saving-the-graph&#34;&gt;Saving the graph&lt;/h2&gt;
+&lt;p&gt;The majority of graphs can be simply saved to your local PC by clicking on the icon with an arrow pointing down  in the top right corner of the graph that allows you to save the image as a .png file.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-save-graph-button&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/export-01.png&#34; data-caption=&#34;Save graph button&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/export-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Save graph button
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The exceptions are described below.&lt;/p&gt;
+&lt;h2 id=&#34;saving-the-trend-graph&#34;&gt;Saving the trend graph&lt;/h2&gt;
+&lt;p&gt;Trend graphs, like an example below, at this point can only be exported via screenshot.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-trend-graph&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/export-02.png&#34; data-caption=&#34;Trend graph&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/export-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Trend graph
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;saving-the-map&#34;&gt;Saving the map&lt;/h2&gt;
+&lt;p&gt;Maps at this point can only be exported via screenshot. It may be helpful to expand the map to the full screen in order to achieve better resolution of the screenshot: for that, click on the &lt;strong&gt;View Fullscreen&lt;/strong&gt; icon &lt;i class=&#34;fas fa-expand&#34;&gt;&lt;/i&gt; on the map before making a screenshot.&lt;/p&gt;
+&lt;h2 id=&#34;exporting-table-with-analysis-results&#34;&gt;Exporting table with analysis results&lt;/h2&gt;
+&lt;p&gt;All the analysis data tables in the AMRCloud resource can be exported using the buttons at the bottom of the table:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-buttons-for-export-table-data&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/export-04.png&#34; data-caption=&#34;Buttons for export table data&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/export-04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Buttons for export table data
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;CSV and Excel are preferred formats for data export (PDF format may have your table cropped).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data sharing</title>
+      <link>https://amrcloud.net/en/tutorials/analysis-examples/05/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/tutorials/analysis-examples/05/</guid>
+      <description>&lt;p&gt;You can share your data with your colleagues by either:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Sharing your AMRcloud project with other users: in this case, the whole dataset will be available for view, analysis, and modification by the team members added to the project; or&lt;/li&gt;
+&lt;li&gt;Sharing results of your analysis by generating a link that allows other users to view the data analysis settings and visualizations (tables, graphs, etc.) created by you.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;sharing-the-project&#34;&gt;Sharing the project&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a team of users with whom you would like to share the project (a team may contain only 1 user). For that, go to the &lt;strong&gt;Teams&lt;/strong&gt; section of your starting window and click the button &lt;strong&gt;Add Team&lt;/strong&gt;. In the newly opened window, enter Team name and description:&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-create-new-team&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/share-01.png&#34; data-caption=&#34;Create new team&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/share-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Create new team
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Add users to the sharing team: In the same window, select the newly created team and click the button &lt;strong&gt;Add users&lt;/strong&gt;. In the newly opened window, you can enter multiple email addresses at a time to add users to the team (users must be registered in AMRcloud with those email addresses).&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-add-users-to-team&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/share-02.png&#34; data-caption=&#34;Add users to team&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/share-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Add users to team
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Share your project with the created team. For that, select the project that you would like to share in the &lt;strong&gt;Projects&lt;/strong&gt; starting window and click the button &lt;strong&gt;Assign Team&lt;/strong&gt;. In the newly opened window, select the team name with which you wish to share the project.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-share-project&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/share-03.png&#34; data-caption=&#34;Share project&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/share-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Share project
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;sharing-a-link-to-the-analysis-results&#34;&gt;Sharing a link to the analysis results&lt;/h2&gt;
+&lt;p&gt;After the results of the analysis (graph, table, map, etc.) were generated, do not change any filters or settings and proceed to create a link for sharing your analysis.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Click a button &lt;i class=&#34;fas fa-link&#34;&gt;&lt;/i&gt; in the top right corner of your working screen (above the &lt;strong&gt;Basic Filters&lt;/strong&gt; field)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In the newly opened window, you can set several options for the generated link:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You may choose to create a link that is protected by a password (check the &lt;strong&gt;Password protected&lt;/strong&gt; box); alternatively, data can be accessed by anybody with a link (if left unchecked).&lt;/p&gt;
+&lt;p&gt;You may also limit the access to allow viewing only the limited dataset determined by filters that were set by you, meaning that if another user attempts to modify the set filtering parameters, no data will be displayed beyond your shared selection. For that, check the &lt;strong&gt;Share only selected data&lt;/strong&gt; box. If this box is unchecked, the user with the link will be able to modify the filters and look at different analysis tabs.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-generate-link-dialog&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/share-04.png&#34; data-caption=&#34;Generate Link dialog&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/share-04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Generate Link dialog
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Click the button &lt;strong&gt;Generated link&lt;/strong&gt;. Link is generated in the form of barcode and web browser address. Copy the link to share with your colleagues.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Generated links can be viewed in &lt;strong&gt;My Profile&lt;/strong&gt;, tab &lt;strong&gt;Links&lt;/strong&gt; (no editing is available).&lt;/p&gt;
+&lt;p&gt;To manage (delete/edit) links, open your project, select the set and click the button &lt;strong&gt;Edit Set&lt;/strong&gt;. In the next window, click on tab &lt;strong&gt;Links&lt;/strong&gt;:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-edit-set&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/share-05.png&#34; data-caption=&#34;Edit Set&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/share-05.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Edit Set
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-edit-link&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/share-06.png&#34; data-caption=&#34;Edit Link&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/en/share-06.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Edit Link
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
 </description>
     </item>
     

@@ -1,0 +1,2493 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Below is the detailed description of the different types of analysis that can be performed in separate tabs of the Infographics field.
+Data structure Tab Data structure gives a general overview of metadata structure. These infographics will help you overlay and compare any type of metadata uploaded with your dataset; however, it does not include antibiotic susceptibility data, which is investigated in detail in the consequent tabs.
+Following visualization tools are available under Data structure (sub-tabs):">
+
+  
+  <link rel="alternate" hreflang="ru" href="https://amrcloud.net/ru/tutorials/analysis-examples/03/">
+  
+  <link rel="alternate" hreflang="en-us" href="https://amrcloud.net/en/tutorials/analysis-examples/03/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-85066436-14"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-85066436-14', { 'anonymize_ip': true });
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/en/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu1e3f9432ea43508a577ec9e03ae2f676_16946_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu1e3f9432ea43508a577ec9e03ae2f676_16946_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://amrcloud.net/en/tutorials/analysis-examples/03/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@@iacmac1997">
+  <meta property="twitter:creator" content="@@iacmac1997">
+  
+  <meta property="og:site_name" content="AMRcloud">
+  <meta property="og:url" content="https://amrcloud.net/en/tutorials/analysis-examples/03/">
+  <meta property="og:title" content="Detailed description of the types of analysis available in AMRcloud. | AMRcloud">
+  <meta property="og:description" content="Below is the detailed description of the different types of analysis that can be performed in separate tabs of the Infographics field.
+Data structure Tab Data structure gives a general overview of metadata structure. These infographics will help you overlay and compare any type of metadata uploaded with your dataset; however, it does not include antibiotic susceptibility data, which is investigated in detail in the consequent tabs.
+Following visualization tools are available under Data structure (sub-tabs):"><meta property="og:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png">
+  <meta property="twitter:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2021-10-12T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2021-10-20T11:10:54&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#3f51b5",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#3f51b5"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
+
+
+  
+
+
+
+
+
+  <title>Detailed description of the types of analysis available in AMRcloud. | AMRcloud</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/en/">AMRcloud</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/en/">AMRcloud</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#hero"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#projects"><span>Public Datasets</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/en/tutorials"><span>Get started</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#people"><span>Team</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-md-auto">
+      
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://amrhub.ru" target="_blank" rel="noopener"><i class='fas fa-external-link-alt'></i>&nbsp;<span>More AMR services</span></a>
+        </li>
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+
+      
+            <li class="nav-item dropdown i18n-dropdown">
+              
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+                    
+                        <span class="emoji-flag-icon"><img src="\img\flag-uk.png" alt="ENG"></span>
+                    
+                    <span class="d-none d-lg-inline">English</span>
+                </a>
+                <div class="dropdown-menu">
+                    <div class="dropdown-item active font-weight-bold">
+                        
+                        <span class="emoji-flag-icon"><img src="\img\flag-uk.png" alt="ENG"></span>
+                        
+                        <span>English</span>
+                    </div>
+                    
+                    <a class="dropdown-item" href="/ru/tutorials/analysis-examples/03/"  onclick="setPreferredLanguage(&#34;ru&#34;)">
+                        
+                        <span class="emoji-flag-icon"><img src="\img\flag-ru.png" alt="RU"></span>
+                        
+                        <span>Русский</span>
+                    </a>
+                    
+                </div>
+            </li>
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+  
+    
+  
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+
+  
+  
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/en/tutorials/analysis-examples/">Data Analysis Examples</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/en/tutorials/analysis-examples/01/">Data analysis</a>
+      </li>
+      
+      <li >
+        <a href="/en/tutorials/analysis-examples/02/">Example tasks and their solutions</a>
+      </li>
+      
+      <li class="active">
+        <a href="/en/tutorials/analysis-examples/03/">Detailed description of the types of analysis</a>
+      </li>
+      
+      <li >
+        <a href="/en/tutorials/analysis-examples/04/">Data export</a>
+      </li>
+      
+      <li >
+        <a href="/en/tutorials/analysis-examples/05/">Data sharing</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#data-structure">Data structure</a>
+      <ul>
+        <li><a href="#pie-chart">Pie Chart</a></li>
+        <li><a href="#plot-by">Plot by</a></li>
+        <li><a href="#map">Map</a></li>
+      </ul>
+    </li>
+    <li><a href="#organisms">Organisms</a></li>
+    <li><a href="#antibiotics-sir-summary">Antibiotics S/I/R Summary</a></li>
+    <li><a href="#selected-antibiotic">Selected Antibiotic</a>
+      <ul>
+        <li><a href="#sir-plots">S/I/R Plots</a></li>
+        <li><a href="#map-1">Map</a></li>
+        <li><a href="#mic">MIC</a></li>
+        <li><a href="#zone-diameter">Zone Diameter</a></li>
+      </ul>
+    </li>
+    <li><a href="#associated-resistance">Associated Resistance</a>
+      <ul>
+        <li><a href="#coresistance">Coresistance</a></li>
+        <li><a href="#multiple-resistance">Multiple Resistance</a></li>
+        <li><a href="#scatter-plot">Scatter Plot</a></li>
+      </ul>
+    </li>
+    <li><a href="#markers">Markers</a>
+      <ul>
+        <li><a href="#markers-1">Markers</a></li>
+        <li><a href="#plot-by-1">Plot by</a></li>
+        <li><a href="#map-2">Map</a></li>
+        <li><a href="#map-x2">Map x2</a></li>
+        <li><a href="#sir-summary">SIR Summary</a></li>
+        <li><a href="#mic-1">MIC</a></li>
+        <li><a href="#zone-diameter-1">Zone Diameter</a></li>
+        <li><a href="#time-of-first-detection">Time of First Detection</a></li>
+      </ul>
+    </li>
+    <li><a href="#compare">Compare</a>
+      <ul>
+        <li><a href="#data-structure-1">Data structure</a></li>
+        <li><a href="#sir">SIR</a></li>
+        <li><a href="#determinants">Determinants</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          <h1>Detailed description of the types of analysis available in AMRcloud.</h1>
+
+          <div class="article-style">
+            <p>Below is the detailed description of the different types of analysis that can be performed in separate tabs of the Infographics field.</p>
+<h2 id="data-structure">Data structure</h2>
+<p>Tab <strong>Data structure</strong> gives a general overview of metadata structure. These infographics will help you overlay and compare any type of metadata uploaded with your dataset; however, it does not include antibiotic susceptibility data, which is investigated in detail in the consequent tabs.</p>
+<p>Following visualization tools are available under <strong>Data structure</strong> (sub-tabs):</p>
+<h3 id="pie-chart">Pie Chart</h3>
+<p><strong>Pie Chart</strong> sub-tab — simple data distribution by the categories that can be picked from the drop-down list. The table under the graph shows the cumulative data that went into the displayed graph and can be exported in various formats (csv, Excel, pdf, …).</p>
+<h3 id="plot-by">Plot by</h3>
+<p><strong>Plot by</strong> sub-tab — shows data distribution in relation to different criteria set by controllers in this Infographics field:</p>
+<ul>
+<li>Field <strong>Plot</strong> — the category of data that will be displayed</li>
+<li>Field <strong>Group by</strong> — the categories in which the displayed data will be classified into.</li>
+</ul>
+<h6 id="example-distribution-of-isolates-of-different-species-by-years">Example. Distribution of isolates of different species by years</h6>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-distribution-of-isolates-of-different-species-by-years">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-01-01.png" data-caption="Distribution of isolates of different species by years">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-01-01.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Distribution of isolates of different species by years
+  </figcaption>
+
+
+</figure>
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-distribution-of-isolates-of-different-species-by-years-result">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-01-02.png" data-caption="Distribution of isolates of different species by years. Result">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-01-02.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Distribution of isolates of different species by years. Result
+  </figcaption>
+
+
+</figure>
+
+<p>Table with cumulative data used to generate the graph is also available below.</p>
+<h3 id="map">Map</h3>
+<p><strong>Map</strong> sub-tab — allows a display of one data category at a time that is set by a drop-down filter.</p>
+<ul>
+<li>To include all data points on the screen, press <i class="fas fa-compress-arrows-alt"></i></li>
+<li>To search for the location on the map, use <i class="fas fa-search"></i></li>
+<li>You can apply markers or drawings by using the side panel on the map <img src="/css/spritesheet-short.svg" style="margin: 0" alt=""></li>
+<li>Various adjustments to the elements on the map are available via <strong>Style Editor</strong> <i class="leaflet-button-control" style="margin: 0" alt=""></i></li>
+</ul>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-style-settings">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/style-editor.png" data-caption="Style settings">
+
+
+  <img src="/img/tutorials/analysis-examples/en/style-editor.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Style settings
+  </figcaption>
+
+
+</figure>
+
+<h2 id="organisms">Organisms</h2>
+<p>Tab <strong>Organisms</strong> – displays a summary of representation of different species or groups of organisms in the dataset (or subset of data selected based on the filters in the <strong>Basic Filters</strong> filed).</p>
+<h2 id="antibiotics-sir-summary">Antibiotics S/I/R Summary</h2>
+<p>Tab <strong>Antibiotics S/I/R Summary</strong> displays the overview distribution of the isolates by susceptibility categories S/I/R (which are either entered by the user or calculated from provided by user MIC of Inhibition zone diameter values)</p>
+<p>Only one organism group or species can be analyzed at once. Before clicking <strong>Display</strong>, select the <strong>Organism Group</strong> or <strong>Organism Species</strong> in the <strong>Basic Filters</strong> part of the window.</p>
+<p>By default, the susceptibility categories are displayed for all tested antibiotics (for which the susceptibility criteria are available). You may further select a smaller group of antibiotics (or a single drug) for which you would like to view the S/I/R distributions using the <strong>Antibiotic</strong> drop-down list in the <strong>Plot</strong> sub-tab.</p>
+<p>Below are the controllers of data view available under the <strong>Antibiotics S/I/R Summary</strong> infographics field:</p>
+<ul>
+<li>A user can choose to show combined data from both auto-interpreted MICs and Zone Diameters together or select one of them under the drop-down list <strong>S/I/R Data Source</strong>.</li>
+<li>S/I/R categories can be displayed separately or be combined as S/I+R or S+I/R under the drop-down list <strong>Display</strong>.</li>
+</ul>
+<h2 id="selected-antibiotic">Selected Antibiotic</h2>
+<p>Tab <strong>Selected Antibiotic</strong> allows to visualize the association of S/I/R categories for each antibiotic with other various factors present in the dataset (e.g., year, genetic lineage, diagnosis, geographic location, etc.). The main goal of this data visualization is to expose the concealed connections between a pattern of antibiotic resistance and any type of provided metadata. This is also the place where you can see antimicrobial susceptibility data distribution by discrete MIC or zone diameter values.</p>
+<p>Following controllers of data view are used to adjust data depiction throughout all sub-tabs of the <strong>Selected Antibiotic</strong> infographics field:</p>
+<ul>
+<li>A user can choose to show combined data from both auto-interpreted MICs and Zone Diameters together or select one of them under the drop-down list <strong>S/I/R Data Source</strong>.</li>
+<li>Antibiotic, for which the in-depth analysis is performed, can be selected in the <strong>Antibiotic</strong> drop-down list. The default selection is the first antibiotic in alphabetical order found in the dataset. Only one antibiotic can be chosen at a time.</li>
+</ul>
+<p>Following sub-tabs are available under <strong>Selected Antibiotic</strong>:</p>
+<h3 id="sir-plots">S/I/R Plots</h3>
+<p>As you open <strong>S/I/R Plots</strong>, the first set of filters allows you to:</p>
+<ul>
+<li>switch between S/I/R individual categorical view and either S/I+R or S+I/R combined views</li>
+<li>adjust 95% CI display</li>
+<li>(most importantly) select the metadata type that will be used for differential analysis of the susceptibility data (viewing susceptibility data distribution based on different metadata categories) – set in the drop-down list <strong>Plot by</strong>.</li>
+</ul>
+<p>The <strong>Summary information</strong> infographic is displayed first by default and provides the S/I/R summary for the selected antibiotic. (Summary is not affected by the <strong>Plot by</strong> filter set above).</p>
+<h6 id="example-overall-ciprofloxacin-resistance-of-enterobacterales">Example. Overall ciprofloxacin resistance of Enterobacterales.</h6>
+<p>Let’s say we would like to see the overall ciprofloxacin resistance of Enterobacterales present in the dataset.</p>
+<p>Settings:</p>
+<ol>
+<li>Select the species or group of organisms for which resistance will be explored. Species or a group of organisms have to be selected for performing the tasks involving antimicrobial resistance phenotype interpretation (due to the species-specific nature of susceptibility breakpoints).</li>
+<li>Pick an antibiotic from the drop-down list, e.g., <em>ciprofloxacin</em>.</li>
+<li>Select the sub-tab <strong>S/I/R Plots</strong>.</li>
+<li>Select the infographics <strong>Summary information</strong> for the results</li>
+</ol>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-overall-ciprofloxacin-resistance-of-enterobacterales-filters">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-04.png" data-caption="Overall ciprofloxacin resistance of Enterobacterales. Filters">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-04.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Overall ciprofloxacin resistance of Enterobacterales. Filters
+  </figcaption>
+
+
+</figure>
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-overall-ciprofloxacin-resistance-of-enterobacterales-result">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-04-graph.png" data-caption="Overall ciprofloxacin resistance of Enterobacterales. Result">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-04-graph.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Overall ciprofloxacin resistance of Enterobacterales. Result
+  </figcaption>
+
+
+</figure>
+
+<p>To proceed with viewing the distribution of antibiotic susceptibility categories (S/I/R) based on various data groups available in the dataset, click on infographics <strong>Plot by</strong>. Select the type of metadata you would like to use for grouping in the <strong>Plot by</strong> drop-down list in the level above.</p>
+<h6 id="example-prevalence-of-ciprofloxacin-resistance-in-different-infection-types-caused-by-members-of-enterobacterales">Example. Prevalence of ciprofloxacin resistance in different infection types caused by members of Enterobacterales.</h6>
+<p>Let’s say we would like to see the prevalence of ciprofloxacin resistance in different infection types caused by members of Enterobacterales.</p>
+<p>Settings:</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-prevalence-of-ciprofloxacin-resistance-in-different-infection-types-caused-by-members-of-enterobacterales-filters">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-04-01.png" data-caption="Prevalence of ciprofloxacin resistance in different infection types caused by members of Enterobacterales. Filters">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-04-01.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Prevalence of ciprofloxacin resistance in different infection types caused by members of Enterobacterales. Filters
+  </figcaption>
+
+
+</figure>
+
+<p>Results:</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-prevalence-of-ciprofloxacin-resistance-in-different-infection-types-caused-by-members-of-enterobacterales-results">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-04-01-graph.png" data-caption="Prevalence of ciprofloxacin resistance in different infection types caused by members of Enterobacterales. Results">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-04-01-graph.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Prevalence of ciprofloxacin resistance in different infection types caused by members of Enterobacterales. Results
+  </figcaption>
+
+
+</figure>
+
+<p>By clicking on colored circles with categories S/I/R under the graph, you can limit displayed categories. E.g., switch to only showing % of resistant isolates by deselecting <strong>S</strong> and <strong>I</strong> data:</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-prevalence-of-ciprofloxacin-resistance-in-different-infection-types-caused-by-members-of-enterobacterales-deselecting-s-and-i-data">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-04-01-graph-01.png" data-caption="Prevalence of ciprofloxacin resistance in different infection types caused by members of Enterobacterales. Deselecting S and I data">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-04-01-graph-01.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Prevalence of ciprofloxacin resistance in different infection types caused by members of Enterobacterales. Deselecting S and I data
+  </figcaption>
+
+
+</figure>
+
+<p>The <strong>Table</strong> available under the last subtab of S/I/R plots shows the cumulative data that corresponds to the graph displayed in <strong>Plot by</strong> infographics.</p>
+<h3 id="map-1">Map</h3>
+<p>The map with S/I/R data shown as a pie chart for each geographic location appears under <strong>Map</strong> infographics.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-selected-antibiotic-map">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-04-02.png" data-caption="Selected Antibiotic. Map">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-04-02.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Selected Antibiotic. Map
+  </figcaption>
+
+
+</figure>
+
+<p>The diameter of each pie chart is proportional to the number of isolates. A left-click of the mouse on the diagram shows the geographic location name and absolute and relative number of samples.</p>
+<p>You may set up an alert value to flag all locations with resistance prevalence above a certain threshold.
+Example: flag location with &gt;=50% resistance to ciprofloxacin:</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-selected-antibiotic-map-with-alerts">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-04-02-01.png" data-caption="Selected Antibiotic. Map with alerts">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-04-02-01.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Selected Antibiotic. Map with alerts
+  </figcaption>
+
+
+</figure>
+
+<p>Infographics <strong>Rating</strong> displays the prevalence of the selected resistance type in all geographical loci and orders them according to their rate. Vertical line designates a median percentage of resistant isolates.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-selected-antibiotic-rating">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-04-02-02.png" data-caption="Selected Antibiotic. Rating">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-04-02-02.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Selected Antibiotic. Rating
+  </figcaption>
+
+
+</figure>
+
+<p>Regression analysis of phenotypic susceptibility trends for various geographic locations is available in the corresponding infographics <strong>Regression</strong>. The generated graph has time points plotted against the X-axis and percentage values for the selected susceptibility categories along the Y-axis.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-selected-antibiotic-regression">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-04-02-03.png" data-caption="Selected Antibiotic. Regression">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-04-02-03.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Selected Antibiotic. Regression
+  </figcaption>
+
+
+</figure>
+
+<p>In the infographics settings, a user has the option to display various susceptibility phenotypes (S, S+I, R, I+R) as well as turn off and on the display of geographical names. Using the sliding scale, one may also adjust the size of circles and smoothing of the graph.</p>
+<p>To see detailed information for specific geographic locations (particularly, the outlier from general trend), draw a box around values of interest with a left-click of a mouse.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-selected-antibiotic-regression-detailed-information">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-04-02-04.png" data-caption="Selected Antibiotic. Regression. Detailed information.">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-04-02-04.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Selected Antibiotic. Regression. Detailed information.
+  </figcaption>
+
+
+</figure>
+
+<h3 id="mic">MIC</h3>
+<p><strong>MIC</strong> sub-tab presents antimicrobial susceptibility data as a distribution by discrete MIC or zone diameter values.</p>
+<p>Infographics <strong>MIC</strong> plots the number of isolates with each corresponding MIC value, as well as MIC 50 and MIC 90 values.</p>
+<p>Interpretive criteria (CLSI or EUCAST) selected upon dataset upload are applied to color-code graph bars for different MIC values: red for resistant isolates, yellow for intermediate, and green for susceptible isolates. If no interpretation criteria are available for a given drug-bug combination, the data bars for the corresponding MIC values will appear grey. It is also possible to have only data bars corresponding to the certain MIC values colored grey- if instead of a single species, the organism group is selected in Basic Filters, and the interpretive criteria for different species (or different infection localizations) within the given group are different for the selected antibiotic.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-selected-antibiotic-mic">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-04-03.png" data-caption="Selected antibiotic. MIC">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-04-03.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Selected antibiotic. MIC
+  </figcaption>
+
+
+</figure>
+
+<p>Infographics <strong>MIC Trend</strong> plots the MIC trend to the specified antibiotic within a given time frame.</p>
+<p>The generated graph has time points plotted along the X-axis and MIC values along the Y-axis. The size of the circle for each value corresponds to the number of isolates. Color-coding is the same as in the <strong>MIC</strong> Infographics.</p>
+<p>Checking the flag <strong>MIC</strong> and adjusting the <strong>MIC xx%</strong> scale displays the trend of the compiled MIC values:</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-selected-antibiotic-mic-trend-mic90">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-04-03-01.png" data-caption="Selected antibiotic. MIC trend. MIC90%">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-04-03-01.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Selected antibiotic. MIC trend. MIC90%
+  </figcaption>
+
+
+</figure>
+
+<p>To see additional information for the specific MIC values in a given time frame, draw a box around values of interest with a left-click of a mouse and press the button <strong>Get Info</strong> under the graph. Displayed below information will display the S/I/R distribution for the datapoints encompassed by your selection in the histogram. The table will also include the isolate-level details. The isolates table can be further filtered based on any of the data columns by typing in the value at the top of the column or sorted in ascending/descending order.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-selected-antibiotic-mic-trend-table">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-04-03-02.png" data-caption="Selected antibiotic. MIC trend. Table">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-04-03-02.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Selected antibiotic. MIC trend. Table
+  </figcaption>
+
+
+</figure>
+
+<h3 id="zone-diameter">Zone Diameter</h3>
+<p><strong>Zone Diameter</strong> sub-tab performs the same function as the <strong>MIC</strong> sub-tab described above, but for the analysis of antibiotic zone diameters distribution and trends. Similarly, this sub-tab contains Infographics <strong>Zone Diameter</strong> and <strong>Zone Diameter Trend</strong>.</p>
+<h2 id="associated-resistance">Associated Resistance</h2>
+<p>Tab <strong>Associated Resistance</strong> – is a perfect tool for discovering associations between different antibiotic resistance phenotypes. This analysis utility quantifies the number of isolates that are assigned to the category <em>resistant</em> based on applied susceptibility interpretation criteria.</p>
+<p>Following infographics sub-tabs are available under <strong>Associated Resistance</strong>:</p>
+<h3 id="coresistance">Coresistance</h3>
+<p>The <strong>Coresistance</strong> sub-tab demonstrated the data on associated resistance as a matrix, where the values in the intersection of two antibiotics show the percentage of cases when resistance to one drug correlates with the resistance to another antimicrobial. Applied heatmap (<strong>Matrix</strong> infographics) represents the higher percentage of correlation as a brighter red color of the cell.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-associated-resistance-matrix">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-05-01.png" data-caption="Associated Resistance. Matrix">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-05-01.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Associated Resistance. Matrix
+  </figcaption>
+
+
+</figure>
+
+<p>The selection of antibiotics is defaulted to displaying all drugs present in the dataset, but the user may restrict the displayed antimicrobials by using the drop-down list under the <strong>Coresistance</strong> sub-tab.</p>
+<p>The same data is also available in Table view under the corresponding tab <strong>Table</strong>:</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-associated-resistance-table">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-05-01-01.png" data-caption="Associated Resistance. Table">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-05-01-01.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Associated Resistance. Table
+  </figcaption>
+
+
+</figure>
+
+<h3 id="multiple-resistance">Multiple Resistance</h3>
+<p><strong>Multiple Resistance</strong> sub-tab calculates the number of isolates that displays correlated resistance against the selected antibiotics.</p>
+<p>Select 2 or more antibiotics from the drop-down list <strong>Antibiotic</strong> to see how many isolates possess simultaneous resistance to those antibiotics.</p>
+<p>In the <strong>R at least to N antibiotics</strong>, set the value to match the number of the selected antibiotics if you would like to see what portion of isolates is resistant to <em><strong>all</strong></em> of those antibiotics.</p>
+<h6 id="example">Example</h6>
+<p>If we selected 3 antibiotics: cefotaxime, ciprofloxacin, and imipenem - and then set the number of correlated drug resistance to 3 - it means we will see the number of isolates simultaneously resistant to all 3 drugs - cefotaxime, ciprofloxacin, and imipenem. In the example below, none of the isolates possessed such a combination of resistant phenotypes:</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-multiple-resistance-example-for-n--3">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-05-02.png" data-caption="Multiple Resistance. Example for N = 3">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-05-02.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Multiple Resistance. Example for N = 3
+  </figcaption>
+
+
+</figure>
+
+<p>If we set <strong>R at least to N antibiotics</strong> to 2, this would mean that we would see the number of isolates that are simultaneously resistant to any 2 antibiotics from the selected list (cefotaxime, ciprofloxacin, and imipenem):</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-multiple-resistance-example-for-n--2">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-05-02-01.png" data-caption="Multiple Resistance. Example for N = 2">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-05-02-01.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Multiple Resistance. Example for N = 2
+  </figcaption>
+
+
+</figure>
+
+<p>In our example, there are 33 isolates that have such resistance combination out of 135 total tested isolates (value N).</p>
+<div class="alert alert-note">
+  <div>
+    If the value set in <strong>R at least to N antibiotics</strong> is bigger than the number of selected drugs under <strong>Antibiotic</strong>, the number of isolates matching such parameters will be 0, as those are invalid settings.
+  </div>
+</div>
+<ul>
+<li><strong>Value N</strong> shows the absolute number of isolates that have the configured resistance combination, displayed in relation to the number of total tested isolates.</li>
+<li><strong>Value R</strong> shows the relative number of isolates resistant to the selected antibiotics (percentage equivalent of the N value).</li>
+<li><strong>95% CI</strong> is the 95% confidence interval of the relative number of isolates with multiple resistance.</li>
+</ul>
+<h3 id="scatter-plot">Scatter Plot</h3>
+<p><strong>Scatter Plot</strong> sub-tab shows scatter plot of MIC values for 2 selected antibiotics. Select any 2 antibiotics using the drop-down list under this subtab.</p>
+<p>The number displayed in the intersection between MIC values for 2 different antibiotics corresponds to the number of isolates with such MIC values combination. The circle size is proportional to the number of the isolates with given MIC values and can be adjusted using the scale <strong>Point size</strong>.</p>
+<h6 id="example-1">Example</h6>
+<p>In the example below, we have 12 isolates with ciprofloxacin MIC 128 mg/L and cefotaxime MIC of 256 mg/L.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-scatter-plot">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-05-03.png" data-caption="Scatter Plot">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-05-03.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Scatter Plot
+  </figcaption>
+
+
+</figure>
+
+<h2 id="markers">Markers</h2>
+<p>Tab <strong>Markers</strong> – can be used for all sorts of genetic markers that you would like to overlay with any type of metadata or antibiotic susceptibility data; the latter is most convenient for investigating correlations between resistant phenotype and antibiotic resistance determinants.</p>
+<p>Select a group of markers using the <strong>Group of Markers</strong> drop-down list under the <strong>Markers</strong> tab. <strong>Group of Markers</strong> could be any column in your dataset that you marked as <strong>Markers</strong> while loading the data, and any distinct values in the corresponding column would be considered as individual markers.</p>
+<p>By default, all values under that group will be displayed, but you can use the <strong>Marker</strong> drop-down list to limit the displayed values. E.g., below we selected the group of markers - <em>ESBL</em>, and left all possible values to display (in this case only 2 values - <em>positive</em> and <em>negative</em>).</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-markers">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-06.png" data-caption="Markers">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-06.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Markers
+  </figcaption>
+
+
+</figure>
+
+<p>Following infographics sub-tabs are available under <strong>Markers</strong>:</p>
+<h3 id="markers-1">Markers</h3>
+<p><strong>Markers</strong> sub-tab shows a circular diagram representing a summary of the values available under the selected <strong>Group of Markers</strong>, i.e., percentage of isolates with each marker value.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-markers-graph">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-06-01.png" data-caption="Markers. Graph">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-06-01.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Markers. Graph
+  </figcaption>
+
+
+</figure>
+
+<h3 id="plot-by-1">Plot by</h3>
+<p><strong>Plot by</strong> sub-tab is a convenient tool to investigate the correlations between various markers and any metadata that is present in your dataset.</p>
+<p>To select the type of data for the analysis categories, use the <strong>Plot by</strong> drop-down menu.</p>
+<h6 id="example-2">Example</h6>
+<p>Distribution of ESBL markers by month:</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-markers-plot-by-month">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-06-02.png" data-caption="Markers. Plot by month">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-06-02.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Markers. Plot by month
+  </figcaption>
+
+
+</figure>
+
+<p>Or by allele clusters (genotyping groups):</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-markers-plot-by-allele-clusters">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-06-02-01.png" data-caption="Markers. Plot by allele clusters">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-06-02-01.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Markers. Plot by allele clusters
+  </figcaption>
+
+
+</figure>
+
+<h3 id="map-2">Map</h3>
+<p>The <strong>Map</strong> sub-tab is used to overlay the number of isolates with a given marker on the geographical map.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-markers-map">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-06-03.png" data-caption="Markers. Map">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-06-03.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Markers. Map
+  </figcaption>
+
+
+</figure>
+
+<p>The diameter of the circle for each geographic location is proportional to the number of isolates with the selected marker. The size of circles can be adjusted by dragging the <strong>Point Size</strong> pointers.</p>
+<p>Clicking on the circles will bring a pop-up message showing the name of the geographic location and the number of the isolates.</p>
+<h3 id="map-x2">Map x2</h3>
+<p>Map x2 sub-tab differs from the <strong>Map</strong> sub-tab in the ability to display side by side two maps: one with markers and another one- with a selected antibiotic’s SIR distribution by geographical location.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-markers-map-x2">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-06-04.png" data-caption="Markers. Map x2">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-06-04.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Markers. Map x2
+  </figcaption>
+
+
+</figure>
+
+<p>Select one antibiotic for the SIR display using the <strong>Antibiotic</strong> drop-down menu under the <strong>Map x2</strong> sub-tab.</p>
+<p>You can change how SIR categories are displayed on the map using the <strong>Category</strong> drop-down list and select either of the following: SIR, S+I, R, R+I.</p>
+<p>Any movement or zooming in one map view is automatically applied to another map.</p>
+<h3 id="sir-summary">SIR Summary</h3>
+<p><strong>SIR Summary</strong> sub-tab allows visualizing the information on susceptibility categories (SIR) among the isolates with a selected marker(s).</p>
+<p>The most useful way to review the data would be to select one marker at a time in the <strong>Marker</strong> drop-down list and look at SIR category distributions for a given marker before moving to the next marker. If all markers are selected, the SIR distribution infographic displays the values for all isolates that have the given marker group values and doesn’t show the difference between different markers.</p>
+<p>The <strong>SIR plot</strong> has the percentage of isolates plotted on the Y-axis and SIR categories for the selected antibiotics plotted on the X-axis. The color of the graph bar corresponds to the susceptibility profile:</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-sir-colors">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-06-05-00.png" data-caption="S/I/R colors">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-06-05-00.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    S/I/R colors
+  </figcaption>
+
+
+</figure>
+
+<h6 id="example-3">Example</h6>
+<p>Below is an example with the ESBL marker group:</p>
+<ol>
+<li>Both possible marker values are selected. SIR distribution for all antibiotics is shown:</li>
+</ol>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-sir-summary-esbl">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-06-05-01.png" data-caption="SIR summary. ESBL">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-06-05-01.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    SIR summary. ESBL
+  </figcaption>
+
+
+</figure>
+
+<ol start="2">
+<li>
+<p>Only the <strong>Positive</strong> ESBL marker is selected. SIR distribution for all antibiotics is shown:
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-sir-summary-positive-esbl">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-06-05-02.png" data-caption="SIR summary. Positive ESBL">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-06-05-02.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    SIR summary. Positive ESBL
+  </figcaption>
+
+
+</figure>
+</p>
+</li>
+<li>
+<p>Only the <strong>Negative</strong> ESBL marker is selected. SIR distribution for all antibiotics is shown:</p>
+</li>
+</ol>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-sir-summary-negative-esbl">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-06-05-03.png" data-caption="SIR summary. Negative ESBL">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-06-05-03.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    SIR summary. Negative ESBL
+  </figcaption>
+
+
+</figure>
+
+<h3 id="mic-1">MIC</h3>
+<p><strong>MIC</strong> sub-tab demonstrates the distribution of the selected markers in relation to MIC values of the selected antibiotic. For this analysis, you may have all or only certain markers selected. However, you would need to select only one antibiotic at a time to display the MIC distributions.</p>
+<p>Infographics <strong>MIC</strong> shows the histogram distribution with each MIC value of the selected antimicrobial plotted along the X-axis and the percentage of isolates plotted along the Y-axis. The color within each bar indicates the markers, with the height of the block reflective of the proportion of the isolates with a given marker. MIC 50 and MIC 90 values are marked with red vertical lines.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-markers-mic">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-06-06.png" data-caption="Markers. MIC">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-06-06.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Markers. MIC
+  </figcaption>
+
+
+</figure>
+
+<p>Infographics <strong>MIC Trend</strong> has dates plotted along the X-axis and MIC values along the Y-axis. Data is displayed for the isolates with the selected marker(s).</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-markers-mic-trend">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-06-06-01.png" data-caption="Markers. MIC trend">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-06-06-01.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Markers. MIC trend
+  </figcaption>
+
+
+</figure>
+
+<p>The color of circles corresponds to the susceptibility category and circle size - to the number of isolates.</p>
+<p>You can select the circles on the graph for which you want to get more information (by drawing a box around them) and click the button <strong>Get Info</strong>. The data displayed below will have information on the isolates included in those data points: their MIC values distribution in the <strong>MIC</strong> tab and metadata - in the <strong>Table (Isolates)</strong> tab. <strong>MIC</strong> tab here could be helpful if you would like to see a distribution of MICs in relation to the markers selected for the analysis upstream.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-markers-detail-information">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-06-06-04.png" data-caption="Markers. Detail information">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-06-06-04.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Markers. Detail information
+  </figcaption>
+
+
+</figure>
+
+<h3 id="zone-diameter-1">Zone Diameter</h3>
+<p><strong>Zone Diameter</strong> sub-tab pretty much does the same visualization as the <strong>MIC</strong> subtab, but for AST data available as zone diameters. As with MIC, you may have all or only certain markers selected, but you would need to select only one antibiotic at a time.</p>
+<p>Infographics <strong>Zone Diameter</strong> shows the histogram distribution with each Zone Diameter value of the selected antimicrobial plotted along the X-axis and percentage of isolates plotted along the Y-axis. The color within each bar indicates the markers, with the height of the block reflective of the proportion of the isolates with a given marker.</p>
+<p>Infographics <strong>Zone Diameter Trend</strong> displays dates plotted along the X-axis and Zone Diameter values along the Y-axis for the isolates with the selected above marker(s).</p>
+<p>You can draw a box around the data points for which you want to see more information and click the button <strong>Get Info</strong>. The data displayed below in the <strong>Zone Diameter</strong> tab will have Zone Diameter distribution for the selection in relation to the markers selected for the analysis upstream.</p>
+<p>The <strong>Table (Isolates)</strong> tab contains the metadata for the isolates included in selection on the Zone Diameter Trend graph.</p>
+<h3 id="time-of-first-detection">Time of First Detection</h3>
+<p><strong>Time of First Detection</strong> sub-tab provides visualization of the date of the first detection of a certain marker.</p>
+<p>Select the marker under the drop-down list <strong>Genetic Marker</strong>.</p>
+<p>You can alter what information about the first detection case is displayed on the timeline by selecting different parameters in the drop-down list <strong>Plot by</strong>. In the case if dates of the first detection are different based on the value of the parameter selected in <strong>Plot by</strong>, you’ll see multiple date marks on the timeline.</p>
+<h6 id="example-4">Example</h6>
+<p>If we select an <em>IIIG</em> lineage of <em>Shigella sonnei</em> in our example dataset as a marker and set the <strong>Plot by</strong> to <em>geographical location</em>, we will see the dates when this marker was detected in all geographical locations:</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-markers-time-of-first-detection">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-06-08.png" data-caption="Markers. Time of First Detection">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-06-08.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Markers. Time of First Detection
+  </figcaption>
+
+
+</figure>
+
+<h2 id="compare">Compare</h2>
+<p>Tab <strong>Compare</strong> is used to compare two groups defined by the user based on the variety of different parameters (various metadata categories, resistance, presence of markers, etc.).</p>
+<p>A user utilizes the filters to define what parameters do the isolates need to meet in order to be included in one or another group.  Group #1 is set using the <strong>Basic filters</strong> field, and Group #2 is defined using the <strong>Filters for Comparison</strong> field under the <strong>Compare</strong> tab - both fields have the same set of filters set at default values at a start, that could be later modified accordingly to define the two comparison groups. E.g., in order to create Group #1, you could filter isolates in the <strong>Basic filters</strong> field based on prior antibiotics use and only select patients with a recent history of antibiotics prescription. Now, to create Group #2, one could filter the isolates for the second group to only include isolates from patients with no recent antibiotics therapy.</p>
+<p>The organism group and/or organism species selected by the user for Group #1 will be automatically populated for Group #2 (but not the other way around). Only the group filter is automatically populated.</p>
+<div class="alert alert-note">
+  <div>
+    Note that after setting the group criteria in the <strong>Basic filters</strong> field (Group #1) and in the <strong>Filters for Comparison</strong> field (Group #2), if you go back to modify the selection of parameters for Group #1, the parameters in Group #2 will be reset.
+  </div>
+</div>
+<p>This applies to the selected organism group and species. So if you are planning to restrict the comparison to a particular organism group/species (will be necessary for S/I/R category analysis; see below), it is helpful to set the organism specifics under the Group #1 parameters before applying filters to Group #2 to avoid having to redo your Group #2 filtering. Alternatively, you can always reapply your Group #2 filters if you had to change organism group/species after both Groups have been already defined.</p>
+<p>After the two groups were defined, proceed to select the parameters that you want to use as a basis for the comparison of the two groups.</p>
+<h3 id="data-structure-1">Data structure</h3>
+<p><strong>Data structure</strong> sub-tab: you can use any data categories in your dataset as the parameters for the comparison of two groups. Those will be listed in the drop-down list <strong>Data Structure by</strong>.</p>
+<p>The top part of the infographics will contain data visualization of your comparison as a bar graph. As with other bar graphs in AMRcloud infographics, you can hide data categories from the view by clicking on them in the legend to the graph. E.g., hiding cases with no data available on complications:</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-compare-data-structure">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-06-08-01.png" data-caption="Compare. Data structure">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-06-08-01.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Compare. Data structure
+  </figcaption>
+
+
+</figure>
+
+<p>Below the graph, you can see the table showing the row values and percentages for all data categories, as well as the p-value for the statistical significance level (exact Fisher test for each category).</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-compare-table">
+
+
+  <a data-fancybox="" href="/img/tutorials/analysis-examples/en/tab-06-08-02.png" data-caption="Compare. Table">
+
+
+  <img src="/img/tutorials/analysis-examples/en/tab-06-08-02.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Compare. Table
+  </figcaption>
+
+
+</figure>
+
+<h3 id="sir">SIR</h3>
+<p><strong>S/I/R</strong> sub-tab: If you would like to compare the antibiotic susceptibility phenotype between two selected groups, make sure to first select the same organism group (or species) in Group #1 (will be applied to both Groups automatically).</p>
+<h3 id="determinants">Determinants</h3>
+<p><strong>Determinants</strong> sub-tab allows you to show the distribution of various genetic markers (values in the dataset labeled by the user as <strong>Markers</strong>) between two comparison groups. (The values listed in the <strong>Determinants</strong> sub-tab are the same as in the <strong>Markers</strong> tab, but the structure of the infographic is more geared towards the comparison of markers between two groups).</p>
+
+          </div>
+
+          
+
+
+
+          
+        </div>
+
+        <div class="body-footer">
+          <p>
+            Last updated on 
+            
+            
+              20 October 2021
+            
+          </p>
+
+          
+
+
+
+          
+
+
+          
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    AMRcloud © 2021 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" >Academic theme</a> for
+    <a href="https://gohugo.io" >Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+  
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+  
+
+  
+
+
+
+
+
+
+
+
+<script>const code_highlighting = false;</script>
+
+
+
+
+<script>const isSiteThemeDark = false;</script>
+
+
+
+
+
+
+
+
+
+<script>
+  const search_config = {"indexURI":"/en/index.json","minLength":1,"threshold":0.3};
+  const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+  const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'tutorials' : "Tutorials",
+        'terms-of-use' : "Terms of use",
+        'privacy-policy' : "Privacy policy",
+        'slides' : "Slides",
+        'authors': "Team"
+        };
+</script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+<script>
+  anchors.add();
+</script>
+
+
+
+
+<script id="search-hit-fuse-template" type="text/x-template">
+  <div class="search-hit" id="summary-{{key}}">
+  <div class="search-hit-content">
+    <div class="search-hit-name">
+      <a href="{{relpermalink}}">{{title}}</a>
+      <div class="article-metadata search-hit-type">{{type}}</div>
+      <p class="search-hit-description">{{snippet}}</p>
+    </div>
+  </div>
+  </div>
+</script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<script src="/js/academic.min.841694c7f175002e4b487c622da41168.js"></script>
+
+<script type="text/javascript">
+    
+</script>
+<script>
+    
+    function setPreferredLanguage(lang) {
+        console.log('preferred lang:' + lang);
+        localStorage.setItem('amrcloud-pref-lang', lang);
+    }
+
+</script>
+<script>
+    $(document).ready(function () {
+
+
+        if ($('span.project-stat').length) {
+            $.ajax({
+                url: "https:\/\/api.amrcloud.net\/api/ga/page",
+                data: {
+                    path: "\/en\/tutorials\/analysis-examples\/03\/",
+                    link: ""
+                },
+                type: 'GET',
+                cache: true,
+                crossDomain: true,
+                success: function (data) {
+                    $("#publication_statistics_views_value").text(data['views'] || 0);
+                    $("#publication_statistics_goto_value").text(data['outbound'] || 0);
+                },
+                error: function (data) {
+                    console.log(data);
+                }
+            });
+        }
+    });
+</script>
+
+
+
+  
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
