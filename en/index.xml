@@ -8470,13 +8470,13 @@ Example: flag location with &amp;gt;=50% resistance to ciprofloxacin:&lt;/p&gt;
       <guid>https://amrcloud.net/en/post/20211020-september-update/</guid>
       <description>&lt;h3 id=&#34;amrcloud-september-update&#34;&gt;AMRcloud September update:&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Added function to create dashboards;&lt;/li&gt;
-&lt;li&gt;Improved functionality for editing projects and datasets;&lt;/li&gt;
-&lt;li&gt;Added ability to display graphs with a given 95% CI for the &amp;ldquo;Antibiotics (all)&amp;rdquo; tab;&lt;/li&gt;
-&lt;li&gt;Added button to copy link;&lt;/li&gt;
-&lt;li&gt;Improved mechanics of adding users to a group;&lt;/li&gt;
-&lt;li&gt;Faster filters for large amounts of data;&lt;/li&gt;
-&lt;li&gt;Added a default value of &amp;ldquo;0%&amp;rdquo; for the &amp;ldquo;Multiple Resistance&amp;rdquo; sub-tab;&lt;/li&gt;
+&lt;li&gt;Added new data sharing capability - Graphical Dashboards;&lt;/li&gt;
+&lt;li&gt;Improved editing functionality for projects and datasets;&lt;/li&gt;
+&lt;li&gt;Added ability to display graphs with a set 95% CI for the &amp;lsquo;Antibiotics (all)&amp;rsquo; tab;&lt;/li&gt;
+&lt;li&gt;Added button for quick copying web links;&lt;/li&gt;
+&lt;li&gt;Improved mechanics of adding members to user teams;&lt;/li&gt;
+&lt;li&gt;Faster data filtration in large datasets;&lt;/li&gt;
+&lt;li&gt;In the &amp;lsquo;Multiple Resilience&amp;rsquo; sub-tab, the default value is set to 0%;&lt;/li&gt;
 &lt;li&gt;Interface and stability improvements.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
