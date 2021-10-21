@@ -13,6 +13,30 @@
     </image>
     
     <item>
+      <title>Organizational aspects of the application of microbiological data in clinical practice</title>
+      <link>https://amrcloud.net/en/post/20211021-novosibirsk/</link>
+      <pubDate>Thu, 21 Oct 2021 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/en/post/20211021-novosibirsk/</guid>
+      <description>&lt;h3 id=&#34;dear-colleagues&#34;&gt;Dear Colleagues!&lt;/h3&gt;
+&lt;p&gt;On October 15, 2021, Symposium &amp;ldquo;Organizational Aspects of the Application of Microbiological Data in Clinical Practice&amp;rdquo; was held during the V Siberian Conference on Antimicrobial Therapy and Clinical Microbiology.&lt;/p&gt;
+&lt;p&gt;The seminar discussed theoretical and practical issues of organizing local monitoring of antibiotic resistance. Separately, they touched upon the issue of using various information systems in the organization of this process.&lt;/p&gt;
+&lt;p&gt;Reports were made at the seminar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alexey Yuryevich Kuzmenkov spoke about what antimicrobial therapy management program is and why it is needed.&lt;/li&gt;
+&lt;li&gt;Alina Gennadievna Vinogradova revealed the nuances of organizing local monitoring of antibiotic resistance and spoke about the practical tasks of data analysis.&lt;/li&gt;
+&lt;li&gt;Ivan Vitalievich Trushin analyzed aspects of the interaction of information systems in the laboratory and told how AMRcloud helps to improve work efficiency.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Below you can see the presentations of the reports:&lt;/p&gt;
+&lt;h4 id=&#34;antimicrobial-surveillance---a-data-driven-approach-kuzmenkov-a-yu&#34;&gt;Antimicrobial Surveillance - A Data Driven Approach (Kuzmenkov A. Yu.)&lt;/h4&gt;
+&lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vSWzZ4JrLebAf50cqFBJdITw59q4TPu0qKZ4Q1oHMz1rUR0ZU1bc75TmrCzF-UsJ38huDO3e1f2KDuF/embed?start=false&amp;loop=false&amp;delayms=5000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;749&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;organization-of-local-monitoring-of-antibiotic-resistance-vinogradova-ag&#34;&gt;Organization of local monitoring of antibiotic resistance (Vinogradova A.G.)&lt;/h4&gt;
+&lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vQFW6Lau_QE3Gn18sHiBqcn9O2V4blLWzvHNqaMc3rko5BHMIQ7Kh2DZ4gGAujfIdp1neMaeeC4qkxM/embed?start=false&amp;loop=false&amp;delayms=5000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;interaction-of-information-systems-in-the-laboratory-trushin-iv&#34;&gt;Interaction of information systems in the laboratory (Trushin I.V.)&lt;/h4&gt;
+&lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vTuIWBU52wbHpPvkJDFC_tdNPIDRRp1JZttn1LZQKDLL0J0nGpRYqBe8_EA-crtl-XFxW6TgLPf5Z_i/embed?start=false&amp;loop=false&amp;delayms=5000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
       <title>AMRcloud September update</title>
       <link>https://amrcloud.net/en/post/20211020-september-update/</link>
       <pubDate>Wed, 20 Oct 2021 09:00:00 +0300</pubDate>
@@ -25,7 +49,7 @@
 &lt;li&gt;Added button for quick copying web links;&lt;/li&gt;
 &lt;li&gt;Improved mechanics of adding members to user teams;&lt;/li&gt;
 &lt;li&gt;Faster data filtration in large datasets;&lt;/li&gt;
-&lt;li&gt;In the &amp;lsquo;Multiple Resilience&amp;rsquo; sub-tab, the default value is set to 0%;&lt;/li&gt;
+&lt;li&gt;In the &amp;lsquo;Multiple Resistance&amp;rsquo; sub-tab, the default value is set to 0%;&lt;/li&gt;
 &lt;li&gt;Interface and stability improvements.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
