@@ -504,7 +504,7 @@
   
   <url>
     <loc>https://amrcloud.net/ru/</loc>
-    <lastmod>2021-10-27T09:00:00+03:00</lastmod>
+    <lastmod>2021-12-27T09:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -518,8 +518,38 @@
   </url>
   
   <url>
+    <loc>https://amrcloud.net/ru/project/vgnki/</loc>
+    <lastmod>2021-12-27T09:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/project/vgnki/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/project/vgnki/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/project/</loc>
+    <lastmod>2021-12-27T09:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/project/"
+                />
+  </url>
+  
+  <url>
     <loc>https://amrcloud.net/ru/post/</loc>
-    <lastmod>2021-10-27T09:00:00+03:00</lastmod>
+    <lastmod>2021-12-27T09:00:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -530,6 +560,11 @@
                 hreflang="ru"
                 href="https://amrcloud.net/ru/post/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/post/20211227-vgnki-update/</loc>
+    <lastmod>2021-12-27T09:00:00+03:00</lastmod>
   </url>
   
   <url>
@@ -619,21 +654,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://amrcloud.net/ru/project/spectrum/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/ru/project/</loc>
-    <lastmod>2021-09-09T09:00:00+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/project/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/project/"
                 />
   </url>
   
@@ -980,21 +1000,6 @@
   <url>
     <loc>https://amrcloud.net/ru/post/20191216-amrcloud-skat/</loc>
     <lastmod>2019-12-16T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/ru/project/vgnki/</loc>
-    <lastmod>2019-11-08T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/project/vgnki/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/project/vgnki/"
-                />
   </url>
   
   <url>

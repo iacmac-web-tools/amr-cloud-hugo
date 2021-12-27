@@ -5,12 +5,23 @@
     <link>https://amrcloud.net/ru/post/</link>
       <atom:link href="https://amrcloud.net/ru/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Новости</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2021</copyright><lastBuildDate>Wed, 27 Oct 2021 09:00:00 +0300</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2021</copyright><lastBuildDate>Mon, 27 Dec 2021 09:00:00 +0300</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>Новости</title>
       <link>https://amrcloud.net/ru/post/</link>
     </image>
+    
+    <item>
+      <title>Обновлён открытый проект ФГБУ «ВГНКИ» «Ветеринарный мониторинг антибиотикорезистентности»</title>
+      <link>https://amrcloud.net/ru/post/20211227-vgnki-update/</link>
+      <pubDate>Mon, 27 Dec 2021 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/ru/post/20211227-vgnki-update/</guid>
+      <description>&lt;p&gt;Обновлён открытый проект ФГБУ «ВГНКИ» «Ветеринарный мониторинг антибиотикорезистентности» - добавлены данные по чувствительности к антибактериальным средствам за 2019-2021 годы: более 800 новых изолятов, новые микроорганизмы, антибиотики, виды животных и регионы отбора проб.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://amrcloud.net/ru/project/vgnki/&#34;&gt;Открыть проект&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Серия видеолекций «Мониторинг антибиотикорезистентности»</title>
