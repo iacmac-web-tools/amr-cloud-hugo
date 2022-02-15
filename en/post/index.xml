@@ -5,12 +5,30 @@
     <link>https://amrcloud.net/en/post/</link>
       <atom:link href="https://amrcloud.net/en/post/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2021</copyright><lastBuildDate>Wed, 27 Oct 2021 09:00:00 +0300</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2022</copyright><lastBuildDate>Tue, 15 Feb 2022 09:00:00 +0300</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>News</title>
       <link>https://amrcloud.net/en/post/</link>
     </image>
+    
+    <item>
+      <title>AMRcloud February update</title>
+      <link>https://amrcloud.net/en/post/20220215-amrcloud-update/</link>
+      <pubDate>Tue, 15 Feb 2022 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/en/post/20220215-amrcloud-update/</guid>
+      <description>&lt;p&gt;AMRcloud has been updated to version 0.8:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;added ability to append data into an existing dataset;&lt;/li&gt;
+&lt;li&gt;improved drawing of pie charts;&lt;/li&gt;
+&lt;li&gt;added ability to select the analytical sections (tabs) to be displayed when generating web links;&lt;/li&gt;
+&lt;li&gt;improved web link generation;&lt;/li&gt;
+&lt;li&gt;added ability to create stratified resistance tables for an arbitrary number of microorganisms in the &amp;ldquo;Antibiotics (all)&amp;rdquo; section;&lt;/li&gt;
+&lt;li&gt;when adding a graph to the dashboard, added the ability to select columns to ignore for automatic recalculation of the graph;&lt;/li&gt;
+&lt;li&gt;stability improvements.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Series of educational videos with authors of AMRcloud and ASP experts on topics</title>

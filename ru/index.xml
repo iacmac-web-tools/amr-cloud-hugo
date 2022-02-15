@@ -5,7 +5,7 @@
     <link>https://amrcloud.net/ru/</link>
       <atom:link href="https://amrcloud.net/ru/index.xml" rel="self" type="application/rss+xml" />
     <description>AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2021</copyright><lastBuildDate>Mon, 27 Dec 2021 09:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2022</copyright><lastBuildDate>Tue, 15 Feb 2022 09:00:00 +0300</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>AMRcloud</title>
@@ -9645,6 +9645,24 @@ File**→** Save with Encoding **→** Windows-1251.
 
 &lt;/figure&gt;
 &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Февральское обновление AMRcloud</title>
+      <link>https://amrcloud.net/ru/post/20220215-amrcloud-update/</link>
+      <pubDate>Tue, 15 Feb 2022 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/ru/post/20220215-amrcloud-update/</guid>
+      <description>&lt;p&gt;Февральское обновление AMRcloud до версии 0.8 принесло новые возможности:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Добавлена возможность догружать данные в ранее созданный набор;&lt;/li&gt;
+&lt;li&gt;Улучшено отображение круговых диаграмм;&lt;/li&gt;
+&lt;li&gt;Добавлена возможность выбора вкладок для отображения при создании ссылок;&lt;/li&gt;
+&lt;li&gt;Улучшена генерация ссылок;&lt;/li&gt;
+&lt;li&gt;В раздел Антибиотики (все) добавлена возможность создавать стратифицированные таблицы резистентности для произвольного количества микроорганизмов;&lt;/li&gt;
+&lt;li&gt;При добавлении графика в дашборд добавлена возможность выбора столбцов, которые нужно игнорировать при автоматическом перерасчете графика;&lt;/li&gt;
+&lt;li&gt;Улучшения стабильности работы.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
