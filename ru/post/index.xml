@@ -127,7 +127,7 @@
       <guid>https://amrcloud.net/ru/post/20211004-adagio-integration/</guid>
       <description>&lt;p&gt;Мы рады сообщить, что для пользователей бактериологического анализатора чувствительности к антибиотикам Adagio от компании Bio-Rad созданы конвертеры (онлайн и оффлайн), позволяющие подготовить данные из анализатора для загрузки в AMRcloud.&lt;/p&gt;
 &lt;p&gt;Порядок действий, как выгрузить данные из Adagio описан в руководстве 
-&lt;a href=&#34;https://amrcloud.net/ru/tutorials/adagio-export/&#34;&gt;Экспорт из Adagio в AMRcloud&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/integrations/adagio/&#34;&gt;Экспорт из Adagio в AMRcloud&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Онлайн-конвертер не требует установки и каких-либо настроек от пользователя и доступен по ссылке &lt;a href=&#34;https://public.amrcloud.net/adagio&#34;&gt;https://public.amrcloud.net/adagio&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Оффлайн-конвертер представляет собой Windows-приложение, способное работать без подключения к сети, полностью автономно. Присутствует возможность модифицировать встроенный справочник антибиотиков.&lt;/p&gt;
 &lt;p&gt;Программа AMRcloud Adagio Converter не требует установки, достаточно скачать архив и распаковать его.&lt;/p&gt;
@@ -143,7 +143,7 @@
       <guid>https://amrcloud.net/ru/post/20210922-vitek2-integration/</guid>
       <description>&lt;p&gt;Мы рады сообщить, что для пользователей автоматического бактериологического анализатора VITEK 2 от компании bioMérieux созданы конвертеры (онлайн и оффлайн), позволяющие подготовить данные из анализатора для загрузки в AMRcloud.&lt;/p&gt;
 &lt;p&gt;Порядок действий, как выгрузить данные из VITEK 2 описан в руководстве 
-&lt;a href=&#34;https://amrcloud.net/ru/tutorials/vitek-2-export/&#34;&gt;Конвертация из VITEK 2 в AMRcloud&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/integrations/vitek-2/&#34;&gt;Конвертация из VITEK 2 в AMRcloud&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Онлайн-конвертер не требует установки и каких-либо настроек от пользователя и доступен по ссылке &lt;a href=&#34;https://public.amrcloud.net/vitek&#34;&gt;https://public.amrcloud.net/vitek&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Оффлайн-конвертер представляет собой Windows-приложение, способное работать без подключения к сети, полностью автономно. Присутствует возможность модифицировать встроенные справочники программы конкретно под ваши нужды. Скачать приложение можно по ссылке 
 &lt;a href=&#34;https://amrcloud.net/install/AMRcloudVitekConverterSetup.msi&#34;&gt;AMRcloudVitekConverter.msi&lt;/a&gt;.
@@ -159,7 +159,7 @@
       <description>&lt;p&gt;Мы рады сообщить, что для пользователей 
 &lt;a href=&#34;https://across.ru/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ЛИС «Акросс-Клиническая Лаборатория» (ЛИС АКЛ)&lt;/a&gt;, доступно обновление, позволяющее формировать файлы для передачи в AMRcloud.&lt;/p&gt;
 &lt;p&gt;Порядок действий описан в руководтсве 
-&lt;a href=&#34;https://amrcloud.net/ru/tutorials/across-export/&#34;&gt;Экспорт из ЛИС «Акросс-Клиническая Лаборатория» в AMRcloud&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/integrations/across/&#34;&gt;Экспорт из ЛИС «Акросс-Клиническая Лаборатория» в AMRcloud&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Для получения обновления просьба обратиться в службу поддержки компании «Акросс-Инжиниринг» по телефону 8-800-707-05-72, Whatsapp +7-911-190-75-59 или по электронной почте &lt;a href=&#34;mailto:support@across.ru&#34;&gt;support@across.ru&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -283,7 +283,7 @@
       <description>&lt;p&gt;Мы рады сообщить, что для пользователей 
 &lt;a href=&#34;https://labforce.ru/lis-labforce_mikro/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ЛИС LabForce: модуль Микробиология&lt;/a&gt;, доступно обновление, позволяющее формировать файлы для передачи в AMRcloud. Функциональность доступна начиная с версии 1.21.04.09. Теперь не нужно самим собирать таблицы и можно значительно сэкономить время.&lt;/p&gt;
 &lt;p&gt;Порядок действий описан в руководтсве 
-&lt;a href=&#34;https://amrcloud.net/ru/tutorials/labforce-export/&#34;&gt;Экспорт из LabForce в AMRcloud&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/integrations/labforce/&#34;&gt;Экспорт из LabForce в AMRcloud&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Для установки обновления просьба обратиться в службу поддержки LabForce по телефону 8-800-700-92-46 или по электронной почте &lt;a href=&#34;mailto:info@labforce.ru&#34;&gt;info@labforce.ru&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -302,7 +302,7 @@
 &lt;li&gt;Настройка преобразования тестов на фенотип и маркеров резистентности в категории AMRcloud.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Руководство 
-&lt;a href=&#34;https://amrcloud.net/ru/tutorials/microb-2-export/&#34;&gt;Экспорт из Микроб-2 в AMRcloud&lt;/a&gt; также обновлено в соответствии с новыми возможностями программы.&lt;/p&gt;
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/integrations/microb-2/&#34;&gt;Экспорт из Микроб-2 в AMRcloud&lt;/a&gt; также обновлено в соответствии с новыми возможностями программы.&lt;/p&gt;
 &lt;p&gt;Скачать обновление можно по ссылке &lt;a href=&#34;https://erbarus.com/news/432/&#34;&gt;https://erbarus.com/news/432/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -598,7 +598,7 @@
 &lt;a href=&#34;https://www.medproject-3.com/project/downloads/updates/20201027/SetupMicrobeAutomatGuard7.erba.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Для Микроб-Автомат&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Также доступно руководство 
-&lt;a href=&#34;https://amrcloud.net/ru/tutorials/microb-2-export/&#34;&gt;Экспорт из Микроб-2 в AMRcloud&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/integrations/microb-2/&#34;&gt;Экспорт из Микроб-2 в AMRcloud&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -612,7 +612,7 @@
 &lt;li&gt;добавлен 
 &lt;a href=&#34;https://public.amrcloud.net/whonet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;онлайн конвертер&lt;/a&gt; для текстовых файлов экспорта WHONET;&lt;/li&gt;
 &lt;li&gt;добавлено 
-&lt;a href=&#34;https://amrcloud.net/ru/tutorials/whonet-converter/&#34;&gt;руководство&lt;/a&gt; по экспорту/конвертации данных из WHONET.&lt;/li&gt;
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/integrations/whonet/&#34;&gt;руководство&lt;/a&gt; по экспорту/конвертации данных из WHONET.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

@@ -27,15 +27,12 @@
   
     
   
-  <meta name="description" content="Что такое проект и набор данных В рамках онлайн-платформы AMRcloud пользователь может создавать различные проекты и наборы данных.
-Проект — это структурный элемент приложения, который позволяет группировать несколько наборов с данными по усмотрению пользователя.
-Набор(ы) данных — основная единица в рамках проекта. Набор данных содержит информацию, с которой AMRcloud осуществляет непосредственную работу.
-Создание проекта Для создания проекта пользователю после входа в личный аккаунт следует нажать кнопку &#43; Новый проект в верхнем левом углу экрана.">
+  <meta name="description" content="Руководство «Экспорт из LabForce в AMRcloud» рассказывает о том, как имеющиеся у вас данные из ЛИС LabForce экспортировать в файл формата AMRcloud.
+Файл экспорта представляет собой текстовый файл, использующий в качестве разделителя полей символ табуляции и имеющий кодировку WIN1251. Формирование файла выполняется на основании данных, входящих в предварительно созданный список отобранных анализов.
+Для подготовки данных для выгрузки нужно зайти в меню Справочники &amp;gt; Интеграция с МИС &amp;gt; Выгрузка в AMRCloud.">
 
   
-  <link rel="alternate" hreflang="en" href="https://amrcloud.net/en/tutorials/import-data/00-project-set/">
-  
-  <link rel="alternate" hreflang="ru-ru" href="https://amrcloud.net/ru/tutorials/import-data/00-project-set/">
+  <link rel="alternate" hreflang="ru-ru" href="https://amrcloud.net/ru/tutorials/integrations/labforce/">
 
   
 
@@ -250,7 +247,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu1e3f9432ea43508a577ec9e03ae2f676_16946_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu1e3f9432ea43508a577ec9e03ae2f676_16946_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://amrcloud.net/ru/tutorials/import-data/00-project-set/">
+  <link rel="canonical" href="https://amrcloud.net/ru/tutorials/integrations/labforce/">
 
   
   
@@ -268,18 +265,17 @@
   <meta property="twitter:creator" content="@@iacmac1997">
   
   <meta property="og:site_name" content="AMRcloud">
-  <meta property="og:url" content="https://amrcloud.net/ru/tutorials/import-data/00-project-set/">
-  <meta property="og:title" content="Проекты и наборы данных | AMRcloud">
-  <meta property="og:description" content="Что такое проект и набор данных В рамках онлайн-платформы AMRcloud пользователь может создавать различные проекты и наборы данных.
-Проект — это структурный элемент приложения, который позволяет группировать несколько наборов с данными по усмотрению пользователя.
-Набор(ы) данных — основная единица в рамках проекта. Набор данных содержит информацию, с которой AMRcloud осуществляет непосредственную работу.
-Создание проекта Для создания проекта пользователю после входа в личный аккаунт следует нажать кнопку &#43; Новый проект в верхнем левом углу экрана."><meta property="og:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png">
+  <meta property="og:url" content="https://amrcloud.net/ru/tutorials/integrations/labforce/">
+  <meta property="og:title" content="Экспорт из LabForce в AMRcloud | AMRcloud">
+  <meta property="og:description" content="Руководство «Экспорт из LabForce в AMRcloud» рассказывает о том, как имеющиеся у вас данные из ЛИС LabForce экспортировать в файл формата AMRcloud.
+Файл экспорта представляет собой текстовый файл, использующий в качестве разделителя полей символ табуляции и имеющий кодировку WIN1251. Формирование файла выполняется на основании данных, входящих в предварительно созданный список отобранных анализов.
+Для подготовки данных для выгрузки нужно зайти в меню Справочники &amp;gt; Интеграция с МИС &amp;gt; Выгрузка в AMRCloud."><meta property="og:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png">
   <meta property="twitter:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png"><meta property="og:locale" content="ru-ru">
   
     
-      <meta property="article:published_time" content="2020-02-14T00:06:00&#43;00:00">
+      <meta property="article:published_time" content="2022-03-25T00:06:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-02-14T00:06:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-03-25T00:06:00&#43;00:00">
   
 
   
@@ -328,7 +324,7 @@
 
 
 
-  <title>Проекты и наборы данных | AMRcloud</title>
+  <title>Экспорт из LabForce в AMRcloud | AMRcloud</title>
 
 </head>
 
@@ -578,32 +574,6 @@
       
 
       
-            <li class="nav-item dropdown i18n-dropdown">
-              
-                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
-                    
-                        <span class="emoji-flag-icon"><img src="\img\flag-ru.png" alt="RU"></span>
-                        
-                    <span class="d-none d-lg-inline">Русский</span>
-                </a>
-                <div class="dropdown-menu">
-                    <div class="dropdown-item active font-weight-bold">
-                        
-                        <span class="emoji-flag-icon"><img src="\img\flag-ru.png" alt="RU"></span>
-                        
-                        <span>Русский</span>
-                    </div>
-                    
-                    <a class="dropdown-item" href="/en/tutorials/import-data/00-project-set/"  onclick="setPreferredLanguage(&#34;en&#34;)">
-                        
-                        <span class="emoji-flag-icon"><img src="\img\flag-uk.png" alt="ENG"></span>
-                        
-                        <span>English</span>
-                    </a>
-                    
-                </div>
-            </li>
-      
 
     </ul>
 
@@ -647,35 +617,35 @@
   
   
   <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/ru/tutorials/import-data/">Импорт данных</a>
+    <a class="docs-toc-link" href="/ru/tutorials/integrations/">Взаимодействие с ЛИС</a>
     <ul class="nav docs-sidenav">
       
+      <li >
+        <a href="/ru/tutorials/integrations/adagio/">Adagio</a>
+      </li>
+      
+      <li >
+        <a href="/ru/tutorials/integrations/caesar/">CAESAR</a>
+      </li>
+      
       <li class="active">
-        <a href="/ru/tutorials/import-data/00-project-set/">Проекты и наборы данных</a>
+        <a href="/ru/tutorials/integrations/labforce/">LabForce</a>
       </li>
       
       <li >
-        <a href="/ru/tutorials/import-data/01-prepare/">Подготовка данных</a>
+        <a href="/ru/tutorials/integrations/vitek-2/">Vitek-2</a>
       </li>
       
       <li >
-        <a href="/ru/tutorials/import-data/04-upload-file/">Шаг 1 - Загрузка файла</a>
+        <a href="/ru/tutorials/integrations/whonet/">WHONET</a>
       </li>
       
       <li >
-        <a href="/ru/tutorials/import-data/05-identification/">Шаг 2 - Выбор параметров</a>
+        <a href="/ru/tutorials/integrations/across/">ЛИС «Акросс-Клиническая Лаборатория»</a>
       </li>
       
       <li >
-        <a href="/ru/tutorials/import-data/06-geocode/">Шаг 3 - Геокодирование</a>
-      </li>
-      
-      <li >
-        <a href="/ru/tutorials/import-data/07-interpretation/">Шаг 4 - Категоризация S/I/R</a>
-      </li>
-      
-      <li >
-        <a href="/ru/tutorials/import-data/08-appdx-datafile/">Приложение. Описание файла</a>
+        <a href="/ru/tutorials/integrations/microb-2/">Микроб-2</a>
       </li>
       
     </ul>
@@ -689,38 +659,18 @@
     </div>
 
     
-    <div class="d-none d-xl-block col-xl-2 docs-toc">
-      <ul class="nav toc-top">
-        <li><a href="#" id="back_to_top" class="docs-toc-title">Содержание</a></li>
-      </ul>
-
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#что-такое-проект-и-набор-данных">Что такое проект и набор данных</a></li>
-    <li><a href="#создание-проекта">Создание проекта</a></li>
-    <li><a href="#типы-проектов">Типы проектов</a></li>
-    <li><a href="#наборы-данных">Наборы данных</a></li>
-  </ul>
-</nav>
-
-      
-    </div>
-    
 
     <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
 
       <article class="article">
 
         <div class="docs-article-container">
-          <h1>Проекты и наборы данных</h1>
+          <h1>Экспорт из LabForce в AMRcloud</h1>
 
           <div class="article-style">
-            <h2 id="что-такое-проект-и-набор-данных">Что такое проект и набор данных</h2>
-<p>В рамках онлайн-платформы <span style="color:#2BA2E6"><strong>AMRcloud</strong></span> пользователь может создавать различные проекты и наборы данных.</p>
-<p><u>Проект</u> — это структурный элемент приложения, который позволяет группировать несколько наборов с данными по усмотрению пользователя.</p>
-<p><u>Набор(ы) данных</u> — основная единица в рамках проекта. Набор данных содержит информацию, с которой <span style="color:#2BA2E6"><strong>AMRcloud</strong></span> осуществляет непосредственную работу.</p>
-<h2 id="создание-проекта">Создание проекта</h2>
-<p>Для создания проекта пользователю после входа в личный аккаунт следует нажать кнопку <em><strong>+ Новый проект</strong></em> в верхнем левом углу экрана.</p>
+            <p>Руководство «Экспорт из LabForce в AMRcloud» рассказывает о том, как имеющиеся у вас данные из ЛИС LabForce экспортировать в файл формата <span style="color:#2BA2E6"><strong>AMRcloud</strong></span>.</p>
+<p>Файл экспорта представляет собой текстовый файл, использующий в качестве разделителя полей символ табуляции и имеющий кодировку WIN1251. Формирование файла выполняется на основании данных, входящих в предварительно созданный список отобранных анализов.</p>
+<p>Для подготовки данных для выгрузки нужно зайти в меню <strong>Справочники</strong> &gt; <strong>Интеграция с МИС</strong> &gt; <strong>Выгрузка в AMRCloud</strong>.</p>
 
 
 
@@ -738,26 +688,26 @@
 
 
 
-<figure id="figure-новый-проект">
+<figure id="figure-меню-интеграция-с-мис">
 
 
-  <a data-fancybox="" href="/img/tutorials/import-data/ru/new_project.png" data-caption="Новый проект">
+  <a data-fancybox="" href="/img/tutorials/labforce-export/integration-menu.png" data-caption="Меню Интеграция с МИС">
 
 
-  <img src="/img/tutorials/import-data/ru/new_project.png" alt=""  >
+  <img src="/img/tutorials/labforce-export/integration-menu.png" alt=""  >
 </a>
 
 
   
   
   <figcaption data-pre="Рисунок " data-post=":" class="numbered">
-    Новый проект
+    Меню Интеграция с МИС
   </figcaption>
 
 
 </figure>
 
-<p>Во всплывающем окне необходимо заполнить поля <strong>Название нового проекта</strong> и <strong>Подзаголовок проекта</strong> (для каждого поля установлено ограничение в 255 символов). При постоянной работе с различными проектами рекомендуется использовать полностью уникальные или значимо отличающиеся между собой названия. Не стоит ограничиваться вариантами <em>test1</em> и <em>test2</em>. <strong>Подзаголовок проекта</strong> может быть представлен ключевыми словами, которые поясняют название.</p>
+<p>В открывшейся форме необходимо задать период для подготовки данных. После этого нажимаем кнопку <strong>Сформировать данные</strong>:</p>
 
 
 
@@ -775,39 +725,26 @@
 
 
 
-<figure id="figure-создание-проекта">
+<figure id="figure-задание-временного-периода-для-отбора">
 
 
-  <a data-fancybox="" href="/img/tutorials/import-data/ru/new_project2.png" data-caption="Создание проекта">
+  <a data-fancybox="" href="/img/tutorials/labforce-export/create-data-period.png" data-caption="Задание временного периода для отбора">
 
 
-  <img src="/img/tutorials/import-data/ru/new_project2.png" alt=""  >
+  <img src="/img/tutorials/labforce-export/create-data-period.png" alt=""  >
 </a>
 
 
   
   
   <figcaption data-pre="Рисунок " data-post=":" class="numbered">
-    Создание проекта
+    Задание временного периода для отбора
   </figcaption>
 
 
 </figure>
 
-<h2 id="типы-проектов">Типы проектов</h2>
-<p>Пользователь может работать с двумя типами проектов:</p>
-<ul>
-<li><strong>Мои проекты</strong></li>
-<li><strong>Командные проекты</strong></li>
-</ul>
-<p><strong>Мои проекты</strong> — персональные проекты пользовательзователя.
-Доступ к данным в таком проекте единолично предоставлен создавшему его пользователю. Если пользователь захочет поделиться данными своего проекта с другими людьми, он сможет сделать это с помощью генерации общедоступной ссылки.</p>
-<p><strong>Командные проекты</strong> — проекты, в которых данные доступны всем пользователям, объединенным в одну команду.
-При этом один пользователь становится <em>администратором</em> команды (т.е. ее создателем), а остальные — <em>участниками</em> команды, т.е. пользователями, приглашенными администратором команды.</p>
-<h2 id="наборы-данных">Наборы данных</h2>
-<p>В рамках проекта пользователь может создавать несколько наборов данных или сетов. Для этого следует перейти в выбранный проект, нажав кнопку <em><strong>+ Открыть</strong></em> слева от названия проекта, а затем нажать кнопку <em><strong>+ Новый набор данных</strong></em>.</p>
-<p>Во всплывающем окне необходимо заполнить поля <strong>Название нового набора</strong> и <strong>Подзаголовок нового набора</strong> (для каждого поля установлено ограничение в 255 символов).</p>
-<p>При постоянной работе с несколькими наборами данных в рамках одного проекта рекомендуется использовать понятные, полностью уникальные или значимо отличающиеся между собой названия. Например, не ограничиваться вариантами <em>test1</em>, <em>test2</em>.</p>
+<p>Система формирует данные, которые можно предварительно посмотреть:</p>
 
 
 
@@ -825,26 +762,104 @@
 
 
 
-<figure id="figure-создание-набора-данных">
+<figure id="figure-предварительный-просмотр">
 
 
-  <a data-fancybox="" href="/img/tutorials/import-data/ru/new_project3.png" data-caption="Создание набора данных">
+  <a data-fancybox="" href="/img/tutorials/labforce-export/data-preview.png" data-caption="Предварительный просмотр">
 
 
-  <img src="/img/tutorials/import-data/ru/new_project3.png" alt=""  >
+  <img src="/img/tutorials/labforce-export/data-preview.png" alt=""  >
 </a>
 
 
   
   
   <figcaption data-pre="Рисунок " data-post=":" class="numbered">
-    Создание набора данных
+    Предварительный просмотр
   </figcaption>
 
 
 </figure>
 
-<p>После создания сета система автоматически переведет пользователя на страницу импорта данных. Также на страницу импорта можно попасть, выбрав левой кнопкой мыши необходимый набор данных и нажав кнопку <strong>&ldquo;Редактировать набор данных&rdquo;</strong>.</p>
+<p>Далее нужно в поле <strong>Файл выгрузки</strong> указать путь сохранения файла с помощью кнопки с тремя точками и нажать кнопку <strong>Выгрузить</strong>.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-выбор-места-сохранения-файла">
+
+
+  <a data-fancybox="" href="/img/tutorials/labforce-export/saving-steps.png" data-caption="Выбор места сохранения файла">
+
+
+  <img src="/img/tutorials/labforce-export/saving-steps.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Рисунок " data-post=":" class="numbered">
+    Выбор места сохранения файла
+  </figcaption>
+
+
+</figure>
+
+<p>В результате будет создан файл в формате Excel с предварительно отобранными данными. Пример такого файла ниже.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-пример-файла-excel">
+
+
+  <a data-fancybox="" href="/img/tutorials/labforce-export/excel-example.png" data-caption="Пример файла Excel">
+
+
+  <img src="/img/tutorials/labforce-export/excel-example.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Рисунок " data-post=":" class="numbered">
+    Пример файла Excel
+  </figcaption>
+
+
+</figure>
+
+<div class="alert alert-note">
+  <div>
+    Созданный файл может быть загружен в <span style="color:#2BA2E6"><strong>AMRcloud</strong></span> для анализа. Как загрузить полученный файл подробно описано в <a href="https://amrcloud.net/ru/tutorials/import-data/">Руководстве «AMRcloud. Импорт данных»</a>
+  </div>
+</div>
 
           </div>
 
@@ -860,7 +875,7 @@
             Обновлено 
             
             
-              14 февраля 2020
+              25 марта 2022
             
           </p>
 
@@ -1019,7 +1034,7 @@
             $.ajax({
                 url: "https:\/\/api.amrcloud.net\/api/ga/page",
                 data: {
-                    path: "\/ru\/tutorials\/import-data\/00-project-set\/",
+                    path: "\/ru\/tutorials\/integrations\/labforce\/",
                     link: ""
                 },
                 type: 'GET',

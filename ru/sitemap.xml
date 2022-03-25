@@ -23,36 +23,6 @@
   </url>
   
   <url>
-    <loc>https://amrcloud.net/ru/tutorials/adagio-export/01/</loc>
-    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/tutorials/adagio-export/01/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/tutorials/adagio-export/01/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/ru/tutorials/vitek-2-export/01/</loc>
-    <lastmod>2021-09-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/tutorials/vitek-2-export/01/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/tutorials/vitek-2-export/01/"
-                />
-  </url>
-  
-  <url>
     <loc>https://amrcloud.net/ru/tutorials/analysis-examples/01/</loc>
     <lastmod>2021-09-04T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -83,26 +53,6 @@
   </url>
   
   <url>
-    <loc>https://amrcloud.net/ru/tutorials/caesar-converter/01/</loc>
-    <lastmod>2021-04-27T00:05:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/tutorials/caesar-converter/01/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/tutorials/caesar-converter/01/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/ru/tutorials/microb-2-export/01/</loc>
-    <lastmod>2020-11-03T00:01:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://amrcloud.net/ru/tutorials/import-data/00-project-set/</loc>
     <lastmod>2020-02-14T00:06:00+00:00</lastmod>
     <xhtml:link
@@ -114,21 +64,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://amrcloud.net/ru/tutorials/import-data/00-project-set/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/ru/tutorials/whonet-converter/01/</loc>
-    <lastmod>2020-02-14T00:05:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/tutorials/whonet-converter/01/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/tutorials/whonet-converter/01/"
                 />
   </url>
   
@@ -237,36 +172,6 @@
   </url>
   
   <url>
-    <loc>https://amrcloud.net/ru/tutorials/adagio-export/02/</loc>
-    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/tutorials/adagio-export/02/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/tutorials/adagio-export/02/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/ru/tutorials/vitek-2-export/02/</loc>
-    <lastmod>2021-09-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/tutorials/vitek-2-export/02/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/tutorials/vitek-2-export/02/"
-                />
-  </url>
-  
-  <url>
     <loc>https://amrcloud.net/ru/tutorials/analysis-examples/</loc>
     <lastmod>2021-09-04T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -278,41 +183,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://amrcloud.net/ru/tutorials/analysis-examples/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/ru/tutorials/microb-2-export/02/</loc>
-    <lastmod>2021-05-04T00:01:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/ru/tutorials/caesar-converter/02/</loc>
-    <lastmod>2021-04-27T00:05:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/tutorials/caesar-converter/02/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/tutorials/caesar-converter/02/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/ru/tutorials/whonet-converter/02/</loc>
-    <lastmod>2020-02-14T00:05:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/tutorials/whonet-converter/02/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/tutorials/whonet-converter/02/"
                 />
   </url>
   
@@ -331,38 +201,23 @@
   </url>
   
   <url>
+    <loc>https://amrcloud.net/ru/tutorials/integrations/</loc>
+    <lastmod>2022-03-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/tutorials/integrations/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/tutorials/integrations/"
+                />
+  </url>
+  
+  <url>
     <loc>https://amrcloud.net/ru/tutorials/dashboard/</loc>
     <lastmod>2022-02-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/ru/tutorials/adagio-export/03/</loc>
-    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/tutorials/adagio-export/03/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/tutorials/adagio-export/03/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/ru/tutorials/vitek-2-export/03/</loc>
-    <lastmod>2021-09-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/tutorials/vitek-2-export/03/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/tutorials/vitek-2-export/03/"
-                />
   </url>
   
   <url>
@@ -378,16 +233,6 @@
                 hreflang="ru"
                 href="https://amrcloud.net/ru/tutorials/analysis-examples/03/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/ru/tutorials/across-export/</loc>
-    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/ru/tutorials/microb-2-export/</loc>
-    <lastmod>2020-11-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -416,26 +261,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://amrcloud.net/ru/tutorials/analysis-examples/04/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/ru/tutorials/labforce-export/</loc>
-    <lastmod>2021-05-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/ru/tutorials/whonet-converter/</loc>
-    <lastmod>2020-02-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/tutorials/whonet-converter/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/tutorials/whonet-converter/"
                 />
   </url>
   
@@ -469,21 +294,6 @@
   </url>
   
   <url>
-    <loc>https://amrcloud.net/ru/tutorials/caesar-converter/</loc>
-    <lastmod>2020-02-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/tutorials/caesar-converter/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/tutorials/caesar-converter/"
-                />
-  </url>
-  
-  <url>
     <loc>https://amrcloud.net/ru/authors/edelstein-mv/</loc>
     <xhtml:link
                 rel="alternate"
@@ -498,38 +308,23 @@
   </url>
   
   <url>
-    <loc>https://amrcloud.net/ru/tutorials/vitek-2-export/</loc>
-    <lastmod>2021-09-17T00:00:00+00:00</lastmod>
+    <loc>https://amrcloud.net/ru/tutorials/integrations/adagio/</loc>
+    <lastmod>2022-03-25T00:06:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://amrcloud.net/en/tutorials/vitek-2-export/"
+                href="https://amrcloud.net/en/tutorials/integrations/adagio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://amrcloud.net/ru/tutorials/vitek-2-export/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/ru/tutorials/adagio-export/</loc>
-    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/tutorials/adagio-export/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/tutorials/adagio-export/"
+                href="https://amrcloud.net/ru/tutorials/integrations/adagio/"
                 />
   </url>
   
   <url>
     <loc>https://amrcloud.net/ru/</loc>
-    <lastmod>2022-02-15T09:00:00+03:00</lastmod>
+    <lastmod>2022-03-25T00:06:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -540,6 +335,81 @@
                 hreflang="ru"
                 href="https://amrcloud.net/ru/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/tutorials/integrations/caesar/</loc>
+    <lastmod>2022-03-25T00:06:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/tutorials/integrations/caesar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/tutorials/integrations/caesar/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/tutorials/integrations/labforce/</loc>
+    <lastmod>2022-03-25T00:06:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/tutorials/integrations/vitek-2/</loc>
+    <lastmod>2022-03-25T00:06:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/tutorials/integrations/vitek-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/tutorials/integrations/vitek-2/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/tutorials/integrations/whonet/</loc>
+    <lastmod>2022-03-25T00:06:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/tutorials/integrations/whonet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/tutorials/integrations/whonet/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/tutorials/</loc>
+    <lastmod>2022-03-25T00:06:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/tutorials/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/tutorials/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/tutorials/integrations/across/</loc>
+    <lastmod>2022-03-25T00:06:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/tutorials/integrations/microb-2/</loc>
+    <lastmod>2022-03-25T00:06:00+00:00</lastmod>
   </url>
   
   <url>
@@ -569,21 +439,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://amrcloud.net/ru/post/20220215-amrcloud-update/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/ru/tutorials/</loc>
-    <lastmod>2022-02-14T00:06:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/tutorials/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/tutorials/"
                 />
   </url>
   

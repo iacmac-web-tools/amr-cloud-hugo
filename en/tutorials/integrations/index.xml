@@ -1,0 +1,3538 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AMRcloud. Integrations with information systems | AMRcloud</title>
+    <link>https://amrcloud.net/en/tutorials/integrations/</link>
+      <atom:link href="https://amrcloud.net/en/tutorials/integrations/index.xml" rel="self" type="application/rss+xml" />
+    <description>AMRcloud. Integrations with information systems</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2022</copyright><lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
+      <title>AMRcloud. Integrations with information systems</title>
+      <link>https://amrcloud.net/en/tutorials/integrations/</link>
+    </image>
+    
+    <item>
+      <title>Link Adagio to AMRcloud</title>
+      <link>https://amrcloud.net/en/tutorials/integrations/adagio/</link>
+      <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/tutorials/integrations/adagio/</guid>
+      <description>&lt;p&gt;This tutorial shows you how to export and convert the data from &lt;strong&gt;Adagio&lt;/strong&gt; system for uploading to the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; online platform.&lt;/p&gt;
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    First of all you should to configure report templates for uploading. In order to configure the reports, please contact Bio-Rad support service &lt;a href=&#34;mailto:sos@bio-rad.com&#34;&gt;sos@bio-rad.com&lt;/a&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The basic steps of uploading data to the AMRcloud online platform are described in the 
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/import-data/&#34;&gt;AMRcloud Data Import Tutorial&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;adagio-export&#34;&gt;Adagio export&lt;/h2&gt;
+&lt;p&gt;The export file is an Excel file. The file is generated based on the data included in the previously created list of selected analyzes.&lt;/p&gt;
+&lt;p&gt;To prepare the data for upload, go to the &lt;strong&gt;Tools → Epidemiology&lt;/strong&gt; menu.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-epidemiology-menu&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/01.png&#34; data-caption=&#34;Epidemiology menu&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Epidemiology menu
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;In the new window, select &lt;strong&gt;English&lt;/strong&gt; language.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-select-language&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/02.png&#34; data-caption=&#34;Select language&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Select language
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;In the list you should find the &lt;strong&gt;AMRCloud&lt;/strong&gt; folder and click on the gray triangle on the left.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-select-report&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/03.png&#34; data-caption=&#34;Select report&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Select report
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;After that, select the report for export:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AMRCloud dd&lt;/strong&gt; for exporting the diameters of the Zone of Inhibition Test.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AMRCloud SIR&lt;/strong&gt; for exporting results in &amp;ldquo;S/I/R&amp;rdquo; categories.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Then set the required time period of study on the &lt;strong&gt;Criteria&lt;/strong&gt; tab and click the &lt;strong&gt;Save&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-period-of-study&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/04.png&#34; data-caption=&#34;Period of study&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Period of study
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;alert alert-info&#34;&gt;
+  &lt;div&gt;
+    &lt;strong&gt;Attention!&lt;/strong&gt; You must wait for the pop-up window &lt;strong&gt;Saved with success&lt;/strong&gt; to appear.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-saved-with-success&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/05.png&#34; data-caption=&#34;Saved with success&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/05.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Saved with success
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;To generate the report, go to the &lt;strong&gt;Result&lt;/strong&gt; tab and click the &lt;strong&gt;Run query&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-generate-the-report&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/06.png&#34; data-caption=&#34;Generate the report&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/06.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Generate the report
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The generated report will automatically open in a new window. You can close this window.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-generated-report&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/07.png&#34; data-caption=&#34;Generated report&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/07.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Generated report
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Next, you need to export the report to an Excel file.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-excel-file-export&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/08.png&#34; data-caption=&#34;Excel file export&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/08.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Excel file export
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The finished report with pre-selected data will be automatically saved in the &lt;strong&gt;Downloads&lt;/strong&gt; folder.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-excel-file-example&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/09.png&#34; data-caption=&#34;Excel file example&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/09.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Excel file example
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The resulting file must be passed through the converter to AMRcloud.&lt;/p&gt;
+&lt;h2 id=&#34;online-converter&#34;&gt;Online Converter&lt;/h2&gt;
+&lt;h3 id=&#34;preparation&#34;&gt;Preparation&lt;/h3&gt;
+&lt;p&gt;The file with isolates from Adagio system is an Excel file (* .xlsx).&lt;/p&gt;
+&lt;p&gt;If you need to convert the file, follow the link 
+&lt;a href=&#34;https://public.amrcloud.net/adagio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://public.amrcloud.net/adagio&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;uploading-a-file&#34;&gt;Uploading a File&lt;/h3&gt;
+&lt;p&gt;To upload the file, click on the &lt;strong&gt;Choose file&lt;/strong&gt; button and select your Adagio file.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-file-upload&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/10.png&#34; data-caption=&#34;File upload&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/10.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    File upload
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The file upload will start automatically. When the upload is complete, the system will check the contents of the file, try to read it, and display a preview on the screen. If the upload is successful, you will see the following.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-successful-file-upload&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/11.png&#34; data-caption=&#34;Successful file upload&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/11.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Successful file upload
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;If you see the table and the &lt;strong&gt;Convert&lt;/strong&gt; button, then the file was successfully recognized by the system.&lt;/p&gt;
+&lt;h3 id=&#34;converting-a-file&#34;&gt;Converting a File&lt;/h3&gt;
+&lt;p&gt;The file converting process consists in replacing the Adagio antibiotic and organisms codes with &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; codes.&lt;/p&gt;
+&lt;p&gt;After successfully uploading the file, click the &lt;strong&gt;Convert&lt;/strong&gt; button. At the end of the converting process, a report on the performed manipulations will appear on the page. The report contains a list of codes for antibiotics and organisms that have been changed, as well as warning messages to look out for.&lt;/p&gt;
+&lt;p&gt;There are the following types of warnings:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The &lt;em&gt;Column [AMC] has no values&lt;/em&gt; warning is displayed when no values ​​are found in the antibiotic column.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;Column [AMC] looks like antibiotic, but has ho DISK values&lt;/em&gt; warning is displayed when the converter detects values in the antibiotic column that cannot be recognized either as inhibition zone diameters or as interpreted SIR values. In this case, the column name is still converted to the AMRcloud format, the values remain unchanged.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;Columns with identical names have been enumerated&lt;/em&gt; warning is displayed when replacing the names of columns with antibiotics produces the same names. In this case, the columns are numbered in order.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-warnings-example&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/12.png&#34; data-caption=&#34;Warnings example&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/12.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Warnings example
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-antibiotics-converting&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/13.png&#34; data-caption=&#34;Antibiotics converting&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/13.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Antibiotics converting
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;downloading-a-file&#34;&gt;Downloading a File&lt;/h3&gt;
+&lt;p&gt;To get the converted file, click the &lt;strong&gt;Download&lt;/strong&gt; button.&lt;/p&gt;
+&lt;p&gt;You can use this file to create projects and datasets in &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;. The basic steps of uploading data to the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; online platform are described in the 
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/import-data/&#34;&gt;AMRcloud Data Import Tutorial&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;offline-converter&#34;&gt;Offline Converter&lt;/h2&gt;
+&lt;p&gt;It is possible to convert data from Adagio format to AMRcloud format without using the Internet. To do this, you need to use an offline converter.&lt;/p&gt;
+&lt;h3 id=&#34;preparation-1&#34;&gt;Preparation&lt;/h3&gt;
+&lt;p&gt;The file with isolates from Adagio system is an Excel file (* .xlsx).&lt;/p&gt;
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+&lt;p&gt;You do not need to install the &amp;ldquo;AMRcloud Adagio Converter&amp;rdquo;, you should just download the archive from the link below and unpack it.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://amrcloud.net/install/AMRcloudAdagioConverterFull.zip&#34;&gt;AMRcloudAdagioConverter.zip&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Then execute the &lt;strong&gt;AMRcloudAdagioConverter.exe&lt;/strong&gt; file.&lt;/p&gt;
+&lt;p&gt;The program requires .Net 5. If necessary, you can donwload it from the 
+&lt;a href=&#34;https://dotnet.microsoft.com/download/dotnet/thank-you/runtime-desktop-5.0.10-windows-x86-installer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official Microsoft link&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;working&#34;&gt;Working&lt;/h3&gt;
+&lt;p&gt;The program window after launch looks like this.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-main-window&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/14.png&#34; data-caption=&#34;Main window&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/14.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Main window
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;To select an Adagio file, press the &lt;strong&gt;Open Adagio Excel File&lt;/strong&gt; button, or select the &lt;strong&gt;File → Open Adagio Excel file&lt;/strong&gt; menu.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-open-file&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/15.png&#34; data-caption=&#34;Open file&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/15.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Open file
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;After selecting the file, a table should appear. If the table does not appear, the file formatting may differ from the standard and you need to correct the original file.&lt;/p&gt;
+&lt;p&gt;To start the converting process, click the &lt;strong&gt;Convert to AMRcloud&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-convert-file&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/16.png&#34; data-caption=&#34;Convert file&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/16.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Convert file
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;At the end of the converting process, a report on the performed manipulations will appear on the page. The report contains a list of codes for antibiotics and organisms that have been changed, as well as warning messages to look out for.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-converting-report&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/17.png&#34; data-caption=&#34;Converting report&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/17.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Converting report
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;By default, the converted file is saved to the &lt;code&gt;.\Converted&lt;/code&gt; folder. You can open the converted file using the &lt;strong&gt;Open converted file&lt;/strong&gt; button.&lt;/p&gt;
+&lt;p&gt;There are the following types of warnings:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The &lt;em&gt;Column [AMC] has no values&lt;/em&gt; warning is displayed when no values ​​are found in the antibiotic column.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;Column [AMC] looks like antibiotic, but has ho DISK values&lt;/em&gt; warning is displayed when the converter detects values in the antibiotic column that cannot be recognized either as inhibition zone diameters or as interpreted SIR values. In this case, the column name is still converted to the AMRcloud format, the values remain unchanged.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;Columns with identical names have been enumerated&lt;/em&gt; warning is displayed when replacing the names of columns with antibiotics produces the same names. In this case, the columns are numbered in order.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;dictionaries&#34;&gt;Dictionaries&lt;/h3&gt;
+&lt;p&gt;The program contains pre-installed reference dictionary of antibiotics, according to which the converting is carried out. If necessary, you can make changes to them using the &lt;strong&gt;Dicitonaries&lt;/strong&gt; menu.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s select the &lt;strong&gt;Dictionaries → Antibiotics&lt;/strong&gt; menu.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-dictionaries-menu&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/18.png&#34; data-caption=&#34;Dictionaries menu&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/18.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Dictionaries menu
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The dictionary window looks like this.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-antibiotics-dictionary&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/19.png&#34; data-caption=&#34;Antibiotics dictionary&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/19.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Antibiotics dictionary
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;To enter the data, just double-click on a cell in the table and enter the text. Confirmation of the input is carried out with the &lt;strong&gt;Enter&lt;/strong&gt; key. New entries are added using the line marked with an asterisk. You can save the changes using the &lt;strong&gt;Save&lt;/strong&gt; button. The &lt;strong&gt;Reload&lt;/strong&gt; button allows you to reload the table again, thereby resetting unsaved changes.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;Import&lt;/strong&gt; button allows you to simplify the dictionary filling process. When you click the button, a text box appears where you can paste a table with codes from Excel. By pressing the &lt;strong&gt;OK&lt;/strong&gt; button, they will be added to the dictionary.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-dictionary-data-import&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/20.png&#34; data-caption=&#34;Dictionary data import&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/adagio-export/en/20.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Dictionary data import
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The &lt;strong&gt;Export&lt;/strong&gt; button allows you to save the dictionary ​​values to an Excel file.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Link CAESAR and AMRcloud</title>
+      <link>https://amrcloud.net/en/tutorials/integrations/caesar/</link>
+      <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/tutorials/integrations/caesar/</guid>
+      <description>&lt;p&gt;This tutorial shows you how to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;prepare and upload CAESAR data table to the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; online platform.&lt;/li&gt;
+&lt;li&gt;convert the data from the AMRcloud online platfrom to CAESAR data-table format.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;from-caesar-to-amrcloud&#34;&gt;From CAESAR to AMRcloud&lt;/h2&gt;
+&lt;p&gt;Isolates data in CAESAR are stored in a format with one antibiotic per row.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-an-example-of-caesar-file&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/caesar-example-file.png&#34; data-caption=&#34;An example of CAESAR file&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/caesar-example-file.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    An example of CAESAR file
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;But AMRcloud table has a format with a single row for each isolate and separate columns for each antibiotic.&lt;/p&gt;
+&lt;p&gt;To convert the CAESAR file to AMRcloud format use the following link 
+&lt;a href=&#34;https://public.amrcloud.net/caesar&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://public.amrcloud.net/caesar&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;uploading-a-file&#34;&gt;Uploading a File&lt;/h3&gt;
+&lt;p&gt;Press the &lt;strong&gt;Choose file&lt;/strong&gt; button and select the CAESAR file.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-file-upload&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/upload-file.png&#34; data-caption=&#34;File upload&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/upload-file.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    File upload
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The upload will start automatically. When the upload is complete, the converter checks the file content and previews it on screen.&lt;/p&gt;
+&lt;p&gt;If the upload is successful, you will see the following:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-an-example-of-successful-file-upload&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/upload-file-success.png&#34; data-caption=&#34;An example of successful file upload&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/upload-file-success.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    An example of successful file upload
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;If you see a preview table and the &lt;strong&gt;Convert Caesar to AMRcloud&lt;/strong&gt; button, the file was uploaded correctly.&lt;/p&gt;
+&lt;p&gt;If you see a list of lines (not a table) and an error message, further file processing is not possible. It means that file does not match the specified format.
+Try to save your gile into CSV format, semicolon delimited, UTF-8 encoding.
+Another reason for the error may be the absence of required columns in the CAESAR format file: if at least one column is missing, the file is considered invalid.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-invalid-file&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/upload-file-error.png&#34; data-caption=&#34;Invalid file&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/upload-file-error.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Invalid file
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;converting-a-file&#34;&gt;Converting a File&lt;/h3&gt;
+&lt;p&gt;During a conversion process, the table is being spreaded and the CAESAR abbreviated codes for antibiotics (column &lt;strong&gt;Antibiotic&lt;/strong&gt;) and microorganisms (column &lt;strong&gt;Pathogen&lt;/strong&gt;) are being replaced by the corresponding full names and ‘suffix codes’ that can be read by the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Replacements are preformed according to 
+&lt;a href=&#34;https://www.euro.who.int/en/health-topics/disease-prevention/antimicrobial-resistance/surveillance/central-asian-and-european-surveillance-of-antimicrobial-resistance-caesar&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the CAESAR study protocol&lt;/a&gt;. Columns except &lt;strong&gt;Antibiotic&lt;/strong&gt; and &lt;strong&gt;Pathogen&lt;/strong&gt; remain unchanged.&lt;/p&gt;
+&lt;p&gt;Press the &lt;strong&gt;Convert Caesar to AMRcloud&lt;/strong&gt; button. Once the conversion is complete, a report is displayed.&lt;/p&gt;
+&lt;p&gt;On the top of the report, there are warnings from the conversion process that provide important information you should pay attention to.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-warnings&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/warning-messages.png&#34; data-caption=&#34;Warnings&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/warning-messages.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Warnings
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;There are three types of warnings:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;No translation has been found for antibiotic []&lt;/em&gt;. This message is displayed when a antibitoic CAESAR code is not found in the translation table. In such case, the original name is preserved. If necessary, change the name(s) manually as required after finishing the conversion. In the example shown below, no translation has been found for the empty antibiotic code due to empty lines in the end of file.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;No translation has been found for pathogen []&lt;/em&gt;. This message is displayed when a pathogen CAESAR code is not found in the translation table. In such case, the original name is preserved. If necessary, change the name(s) manually as required after finishing the conversion. In the example shown below, no translation has been found for the empty pathogen code due to empty lines in the end of file.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Isolate has doubles for antibiotic&lt;/em&gt;. This message is displayed when one isolate has more than one lines with the same antibiotic name. For the unique isolate ID is used a concatenation of fields &lt;em&gt;HospitalID_LaboratoryCode_IsolateID_PatientID&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A list of translated codes appears below the warnings. Inspect the translations and, if necessary, correct them manually.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-antibiotics&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/ab-coded.png&#34; data-caption=&#34;Antibiotics&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/ab-coded.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Antibiotics
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-pathogens&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/pathogen-coded.png&#34; data-caption=&#34;Pathogens&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/pathogen-coded.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Pathogens
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;downloading-a-file&#34;&gt;Downloading a File&lt;/h3&gt;
+&lt;p&gt;To download the converted file, press the &lt;strong&gt;&amp;lsquo;Download&amp;rsquo;&lt;/strong&gt; button. The file should be ready to upload to the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; without additional modifications, except when you see critical warnings described above.&lt;/p&gt;
+&lt;p&gt;The import of data files using the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; Import Wizard is described in the 
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/import-data/&#34;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;from-amrcloud-to-caesar&#34;&gt;From AMRcloud to CAESAR&lt;/h2&gt;
+&lt;p&gt;Login into your AMRcloud account:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Choose dataset for export and press the &lt;strong&gt;Edit set&lt;/strong&gt; button;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-choose-a-dataset&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/edit-dataset.png&#34; data-caption=&#34;Choose a dataset&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/edit-dataset.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Choose a dataset
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go to the &lt;strong&gt;Download&lt;/strong&gt; tab, check the &lt;strong&gt;UTF-8&lt;/strong&gt; encoding and press the button.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-download-amrcloud-data&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/amrcloud-download.png&#34; data-caption=&#34;Download AMRcloud data&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/amrcloud-download.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Download AMRcloud data
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Isolates data in CAESAR are stored in a format with one antibiotic per row, so we need to &amp;ldquo;collapse&amp;rdquo; our AMRcloud table.&lt;/p&gt;
+&lt;p&gt;To convert the AMRcloud file to CAESAR format use the following link 
+&lt;a href=&#34;https://public.amrcloud.net/caesar&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://public.amrcloud.net/caesar&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;uploading-a-file-1&#34;&gt;Uploading a File&lt;/h3&gt;
+&lt;p&gt;Press the &lt;strong&gt;Choose file&lt;/strong&gt; button and select the AMRcloud file.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-file-upload&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/upload-file.png&#34; data-caption=&#34;File upload&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/upload-file.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    File upload
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The upload will start automatically. When the upload is complete, the converter checks the file content and previews it on screen.&lt;/p&gt;
+&lt;p&gt;If the upload is successful, you will see the following:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-an-example-of-successful-file-upload&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/upload-file-success-2.png&#34; data-caption=&#34;An example of successful file upload&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/upload-file-success-2.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    An example of successful file upload
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;If you see a preview table and the &lt;strong&gt;Convert AMRcloud to Caesar. Step 1&lt;/strong&gt; button, the file was uploaded correctly.&lt;/p&gt;
+&lt;p&gt;If you see a list of lines (not a table) and an error message, further file processing is not possible. It means that file does not match the specified format.
+Try to save your gile into CSV format, semicolon delimited, UTF-8 encoding.
+Another reason for the error may be the absence of required columns in the AMRcloud format file: antibiotics columns with suffixes &lt;strong&gt;_dd&lt;/strong&gt;, &lt;strong&gt;_mic&lt;/strong&gt;, &lt;strong&gt;_etest_mic&lt;/strong&gt;, &lt;strong&gt;_sir&lt;/strong&gt;. The file is considered invalid if there are no antibiotic columns.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-invalid-file&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/upload-file-error.png&#34; data-caption=&#34;Invalid file&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/ru/upload-file-error.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Invalid file
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;converting-a-file-step-1&#34;&gt;Converting a File. Step 1&lt;/h3&gt;
+&lt;p&gt;Before the convertion press the &lt;strong&gt;Convert AMRcloud to Caesar. Step 1&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-converting-a-file-step-1&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/amrcloud-to-caesar-convert-step-1.png&#34; data-caption=&#34;Converting a File. Step 1&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/amrcloud-to-caesar-convert-step-1.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Converting a File. Step 1
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;On the first step the fields of the original AMRcloud file have to be matched with the default fields of the CAESAR file.
+Full description of CAESAR file columns you can find in 
+&lt;a href=&#34;https://www.euro.who.int/en/health-topics/disease-prevention/antimicrobial-resistance/surveillance/central-asian-and-european-surveillance-of-antimicrobial-resistance-caesar&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the CAESAR study protocol&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To match the &lt;strong&gt;MICROORGANISM&lt;/strong&gt; column is required. The rest of the fields are matched at our opinion. If you do not want to match the field, you can leave the drop-down list empty.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-сопоставление-полей-amrcloud-и-caesar&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/amrcloud-to-caesar-convert-step-1-filled.png&#34; data-caption=&#34;Сопоставление полей AMRcloud и CAESAR&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/amrcloud-to-caesar-convert-step-1-filled.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Сопоставление полей AMRcloud и CAESAR
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;After the fields are matched, you can proceed to step 2.&lt;/p&gt;
+&lt;h3 id=&#34;converting-a-file-step-2&#34;&gt;Converting a File. Step 2&lt;/h3&gt;
+&lt;p&gt;Press the &lt;strong&gt;Convert Caesar to AMRcloud&lt;/strong&gt; button. Once the conversion is complete, a report is displayed.&lt;/p&gt;
+&lt;p&gt;On the top of the report, there are warnings from the conversion process that provide important information you should pay attention to.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-warnings&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/amrcloud-recode-warnings.png&#34; data-caption=&#34;Warnings&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/amrcloud-recode-warnings.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Warnings
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;There are three types of warnings:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;No Antibiotic code found for []&lt;/em&gt;. This message is displayed when a antibitoic code is not found in the translation table. In such case, the original name is preserved. If necessary, change the name(s) manually as required after finishing the conversion.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;No Specimen code found for []&lt;/em&gt;. This message is displayed when a specimen code is not found in the translation table. In such case, the original name is preserved. If necessary, change the name(s) manually as required after finishing the conversion.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;No Pathogen code found for []&lt;/em&gt;. This message is displayed when a pathogen code is not found in the translation table. In such case, the original name is preserved. If necessary, change the name(s) manually as required after finishing the conversion.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A list of translated codes appears below the warnings. Inspect the translations and, if necessary, correct them manually.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-antibiotics&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/amrcloud-recode-ab.png&#34; data-caption=&#34;Antibiotics&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/amrcloud-recode-ab.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Antibiotics
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-pathogens&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/amrcloud-recode-pat.png&#34; data-caption=&#34;Pathogens&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/amrcloud-recode-pat.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Pathogens
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-specimens&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/amrcloud-recode-spec.png&#34; data-caption=&#34;Specimens&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/caesar-converter/en/amrcloud-recode-spec.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Specimens
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;downloading-a-file-1&#34;&gt;Downloading a File&lt;/h3&gt;
+&lt;p&gt;To download the converted file, press the &lt;strong&gt;Download&lt;/strong&gt; button.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Link Vitek 2 and AMRcloud</title>
+      <link>https://amrcloud.net/en/tutorials/integrations/vitek-2/</link>
+      <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/tutorials/integrations/vitek-2/</guid>
+      <description>&lt;p&gt;This tutorial shows you how to export and convert the data from &lt;strong&gt;Vitek 2&lt;/strong&gt; system for uploading to the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; online platform.&lt;/p&gt;
+&lt;p&gt;The basic steps of uploading data to the AMRcloud online platform are described in the 
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/import-data/&#34;&gt;AMRcloud Data Import Tutorial&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;vitek-2-export&#34;&gt;VITEK 2 export&lt;/h2&gt;
+&lt;p&gt;You can export only isolates that have moved to an inactive area.&lt;/p&gt;
+&lt;p&gt;The time for isolates to move to the inactive area is set in the general settings. The default is 14 days.&lt;/p&gt;
+&lt;p&gt;Incomplete isolates (requiring verification or microorganism/patient information) do not move to the inactive area. They must be switched to the status &lt;em&gt;Completed&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;In the main window of the program, you should click on the &lt;strong&gt;Tools&lt;/strong&gt; button and select &lt;strong&gt;Export inactive isolates&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-main-window&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/01.png&#34; data-caption=&#34;Main window&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Main window
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;In the new window, set the date range, check the &lt;em&gt;MIC&lt;/em&gt;, &lt;em&gt;Phenotype&lt;/em&gt;, &lt;em&gt;Detailed information about the panel&lt;/em&gt;. Select other options as needed. Click on the &lt;strong&gt;Export&lt;/strong&gt; button (icon with disk and arrow in the upper right corner).&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-export-options&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/02.png&#34; data-caption=&#34;Export options&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Export options
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;In the new window, click &lt;strong&gt;Yes&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-export-confirmation&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/03.png&#34; data-caption=&#34;Export confirmation&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Export confirmation
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;In the dialog box, select a location and enter a file name. Press &lt;strong&gt;Export inactive isolates&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-save-file&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/04.png&#34; data-caption=&#34;Save file&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Save file
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Wait for the &amp;ldquo;Export over&amp;rdquo; message.&lt;/p&gt;
+&lt;p&gt;The resulting file must be passed through the converter to AMRcloud.&lt;/p&gt;
+&lt;h2 id=&#34;online-converter&#34;&gt;Online Converter&lt;/h2&gt;
+&lt;h3 id=&#34;preparation&#34;&gt;Preparation&lt;/h3&gt;
+&lt;p&gt;The file with isolates from VITEK 2 system is a text file (* .txt), with a comma (,) field separator.&lt;/p&gt;
+&lt;p&gt;If you need to convert the file, follow the link 
+&lt;a href=&#34;https://public.amrcloud.net/vitek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://public.amrcloud.net/vitek&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;uploading-a-file&#34;&gt;Uploading a File&lt;/h3&gt;
+&lt;p&gt;To upload the file, click on the &lt;strong&gt;Choose file&lt;/strong&gt; button and select your VITEK 2 file.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-file-upload&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/06.png&#34; data-caption=&#34;File upload&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/06.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    File upload
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The file upload will start automatically. When the upload is complete, the system will check the contents of the file, try to read it, and display a preview on the screen. If the upload is successful, you will see the following.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-file-is-successfully-uploaded&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/07.png&#34; data-caption=&#34;File is successfully uploaded&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/07.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    File is successfully uploaded
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;If you see the table and the &lt;strong&gt;Convert&lt;/strong&gt; button, then the file was successfully recognized by the system.&lt;/p&gt;
+&lt;h3 id=&#34;converting-a-file&#34;&gt;Converting a File&lt;/h3&gt;
+&lt;p&gt;The file converting process consists in replacing the VITEK 2 antibiotic and organisms codes with &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; codes.&lt;/p&gt;
+&lt;p&gt;Additionally, the values ​​of several columns of resistance markers are combined into one column, starting with the code &lt;code&gt;AMRCLOUD_MARKER_&lt;/code&gt;. The converter also removes columns with personal data - &lt;code&gt;PATIENT NAME&lt;/code&gt;,&lt;code&gt; PATIENT ID&lt;/code&gt;, &lt;code&gt;PATIENT LOCATION&lt;/code&gt;,&lt;code&gt; LAB ID&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;After successfully uploading the file, click the &lt;strong&gt;Convert&lt;/strong&gt; button. At the end of the converting process, a report on the performed manipulations will appear on the page. The report contains a list of codes for antibiotics and organisms that have been changed, as well as warning messages to look out for.&lt;/p&gt;
+&lt;p&gt;If errors occurred while analyzing the file, further converting is impossible. You need to fix the file.&lt;/p&gt;
+&lt;p&gt;Possible errors:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Error &lt;em&gt;Column [BAR CODE] not found. File has no Identity column&lt;/em&gt; means that the &lt;em&gt;BAR CODE&lt;/em&gt; column with unique isolate ID could not be found. You need to add it to the source file, or rename the existing column with the identifier.&lt;/li&gt;
+&lt;li&gt;Error &lt;em&gt;Column [ORGANISM CODE] not found. File has no Organism column&lt;/em&gt; means that the &lt;em&gt;ORGANISM CODE&lt;/em&gt; column with the isolate microorganism ID could not be found. You need to add it to the source file, or rename the existing column.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-error-examples&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/08.png&#34; data-caption=&#34;Error examples&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/08.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Error examples
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;There are the following types of warnings:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Warning &lt;em&gt;Column [AM-AMPICILLIN] looks like antibiotic, but has some non-MIC values&lt;/em&gt; means that the converter detects any non-numeric values ​​in the antibiotic column. In this case, the column name is still converted to the AMRcloud format, the values ​​remain unchanged.&lt;/li&gt;
+&lt;li&gt;Warning &lt;em&gt;Column AMRCLOUD_MARKER_AMINOGLYCOSIDE added&lt;/em&gt; means that the converter has detected columns with &lt;em&gt;Aminoglycosides&lt;/em&gt; values ​​and has created a new column with merged values ​​for aminoglycosides.&lt;/li&gt;
+&lt;li&gt;The warning &lt;em&gt;Isolate with [BAR CODE] = 1234567890 has 2 rows&lt;/em&gt; means that the converter has detected that an isolate with an unique identifier &lt;em&gt;BAR CODE&lt;/em&gt; occurs multiple times in the file. It is recommended to exclude duplicates from the analysis.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;Column [AM-AMPICILLIN] has no values&lt;/em&gt; warning is displayed when no values ​​are found in the antibiotic column.&lt;/li&gt;
+&lt;li&gt;The warning &lt;em&gt;Columns with identical names have been enumerated&lt;/em&gt; is displayed when the antibiotic column names are replaced with the same names. In this case, the columns are numbered in order.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;No translation has been found for organism [CODE]&lt;/em&gt; warning is displayed when the converter was unable to match the organism code from the &lt;em&gt;ORGANISM CODE&lt;/em&gt; column with the dictionary. In this case, it is recommended to change the name of this microorganism manually.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-warnings-example&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/09.png&#34; data-caption=&#34;Warnings example&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/09.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Warnings example
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-antibiotics-converting&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/10.png&#34; data-caption=&#34;Antibiotics converting&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/10.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Antibiotics converting
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-organisms-converting&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/11.png&#34; data-caption=&#34;Organisms converting&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/11.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Organisms converting
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;downloading-a-file&#34;&gt;Downloading a File&lt;/h3&gt;
+&lt;p&gt;To get the converted file, click the &lt;strong&gt;Download&lt;/strong&gt; button.&lt;/p&gt;
+&lt;p&gt;You can use this file to create projects and datasets in &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;. The basic steps of uploading data to the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; online platform are described in the 
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/import-data/&#34;&gt;AMRcloud Data Import Tutorial&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;offline-converter&#34;&gt;Offline Converter&lt;/h2&gt;
+&lt;p&gt;It is possible to convert data from VITEK 2 format to AMRcloud format without using the Internet. To do this, you need to use an offline converter.&lt;/p&gt;
+&lt;h3 id=&#34;preparation-1&#34;&gt;Preparation&lt;/h3&gt;
+&lt;p&gt;The file with isolates from VITEK 2 system is a text file (* .txt), with a comma (,) field separator.&lt;/p&gt;
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+&lt;p&gt;To install the &amp;ldquo;AMRcloud Vitek Converter&amp;rdquo;, you should download it from the link.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://amrcloud.net/install/AMRcloudVitekConverterSetup.msi&#34;&gt;AMRcloudVitekConverter.msi&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If .NET Framework 4 is not installed on the computer, the installer will offer to download it. By default, the program is installed in the &lt;code&gt;Documents\AMRsolution\AMRcloud Vitek Converter\&lt;/code&gt; folder.&lt;/p&gt;
+&lt;h3 id=&#34;working&#34;&gt;Working&lt;/h3&gt;
+&lt;p&gt;The program window after launch looks like this.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-main-window&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/12.png&#34; data-caption=&#34;Main window&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/12.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Main window
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;To select a VITEK file, press the &lt;strong&gt;Open File&lt;/strong&gt; button, or select the &lt;strong&gt;File → Open Vitek File&lt;/strong&gt; menu.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-open-file&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/13.png&#34; data-caption=&#34;Open file&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/13.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Open file
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;After selecting the file, press the &lt;strong&gt;Read File&lt;/strong&gt; button or &lt;strong&gt;File → Read Vitek File&lt;/strong&gt; menu. A table should appear. If the table does not appear, the file formatting may differ from the standard and you need to select a different type of separator. The separator type switch is located between the &lt;strong&gt;Open File&lt;/strong&gt; and &lt;strong&gt;Read File&lt;/strong&gt; buttons. The default is comma separator.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-read-file&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/14.png&#34; data-caption=&#34;Read file&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/14.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Read file
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Next, you need to specify which columns contain the isolate ID and organism code. By default, it is assumed that the identifier is stored in the &lt;code&gt;BAR CODE&lt;/code&gt; column, and the organism code in the &lt;code&gt;ORGANISM CODE&lt;/code&gt; column. These values ​​do not need to be changed.&lt;/p&gt;
+&lt;p&gt;If you wish, you can set additional transformation parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;strong&gt;Generate Unique IDs&lt;/strong&gt; checkbox allows you to add a new column &lt;code&gt;AMRCLOUD_ID&lt;/code&gt; to the file with a new generated unique ID.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;Concatenate Markers&lt;/strong&gt; checkbox allows you to concatenate the values ​​of several columns of resistance markers into one column, starting with the code &lt;code&gt;AMRCLOUD_MARKER_&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To start the converting process, click the &lt;strong&gt;Convert&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-convert-file&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/15.png&#34; data-caption=&#34;Convert file&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/15.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Convert file
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;At the end of the converting process, a report on the performed manipulations will appear on the page. The report contains a list of codes for antibiotics and organisms that have been changed, as well as warning messages to look out for.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-converting-report&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/16.png&#34; data-caption=&#34;Converting report&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/16.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Converting report
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;By default, the converted file is saved to the &lt;code&gt;Documents\AMRsolution\AMRcloud Vitek Converter\Converted&lt;/code&gt; folder. You can open the converted file using the &lt;strong&gt;Open converted file&lt;/strong&gt; button.&lt;/p&gt;
+&lt;p&gt;Possible errors:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Error &lt;em&gt;Column [BAR CODE] not found. File has no Identity column&lt;/em&gt; means that the &lt;em&gt;BAR CODE&lt;/em&gt; column with unique isolate ID could not be found. You need to add it to the source file, or rename the existing column with the identifier.&lt;/li&gt;
+&lt;li&gt;Error &lt;em&gt;Column [ORGANISM CODE] not found. File has no Organism column&lt;/em&gt; means that the &lt;em&gt;ORGANISM CODE&lt;/em&gt; column with the isolate microorganism ID could not be found. You need to add it to the source file, or rename the existing column.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There are the following types of warnings:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Warning &lt;em&gt;Column [AM-AMPICILLIN] looks like antibiotic, but has some non-MIC values&lt;/em&gt; means that the converter detects any non-numeric values ​​in the antibiotic column. In this case, the column name is still converted to the AMRcloud format, the values ​​remain unchanged.&lt;/li&gt;
+&lt;li&gt;Warning &lt;em&gt;Column AMRCLOUD_MARKER_AMINOGLYCOSIDE added&lt;/em&gt; means that the converter has detected columns with &lt;em&gt;Aminoglycosides&lt;/em&gt; values ​​and has created a new column with merged values ​​for aminoglycosides.&lt;/li&gt;
+&lt;li&gt;The warning &lt;em&gt;Isolate with [BAR CODE] = 1234567890 has 2 rows&lt;/em&gt; means that the converter has detected that an isolate with an unique identifier &lt;em&gt;BAR CODE&lt;/em&gt; occurs multiple times in the file. It is recommended to exclude duplicates from the analysis.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;Column [AM-AMPICILLIN] has no values&lt;/em&gt; warning is displayed when no values ​​are found in the antibiotic column.&lt;/li&gt;
+&lt;li&gt;The warning &lt;em&gt;Columns with identical names have been enumerated&lt;/em&gt; is displayed when the antibiotic column names are replaced with the same names. In this case, the columns are numbered in order.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;No translation has been found for organism [CODE]&lt;/em&gt; warning is displayed when the converter was unable to match the organism code from the &lt;em&gt;ORGANISM CODE&lt;/em&gt; column with the dictionary. In this case, it is recommended to change the name of this microorganism manually.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;dictionaries&#34;&gt;Dictionaries&lt;/h3&gt;
+&lt;p&gt;The program contains pre-installed reference dictionaries of antibiotics and organisms, according to which the converting is carried out. If necessary, you can make changes to them using the &lt;strong&gt;Dicitonaries&lt;/strong&gt; menu.&lt;/p&gt;
+&lt;p&gt;Dictionaries are subdivided into global and user&amp;rsquo;s. Global dictionaries contain predefined standard converting values. Custom references can override global codes. Therefore, it is recommended to make changes specifically to custom dictionaries.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s select the &lt;strong&gt;Dictionaries → User&amp;rsquo;s organisms&lt;/strong&gt; menu.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-dictionaries-menu&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/17.png&#34; data-caption=&#34;Dictionaries menu&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/17.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Dictionaries menu
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The dictionary window looks like this.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-dictionary-window&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/18.png&#34; data-caption=&#34;Dictionary window&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/18.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Dictionary window
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;To enter the data, just double-click on a cell in the table and enter the text. Confirmation of the input is carried out with the &lt;strong&gt;Enter&lt;/strong&gt; key. New entries are added using the line marked with an asterisk. You can save the changes using the &lt;strong&gt;Save&lt;/strong&gt; button. The &lt;strong&gt;Reload&lt;/strong&gt; button allows you to reload the table again, thereby resetting unsaved changes.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-filled-dictionary-example&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/19.png&#34; data-caption=&#34;Filled dictionary example&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/19.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Filled dictionary example
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The &lt;strong&gt;Import&lt;/strong&gt; button allows you to simplify the dictionary filling process. When you click the button, a text box appears where you can paste a table with codes from Excel. By pressing the &lt;strong&gt;OK&lt;/strong&gt; button, they will be added to the dictionary.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-dictionary-data-import&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/20.png&#34; data-caption=&#34;Dictionary data import&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/20.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Dictionary data import
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The &lt;strong&gt;Export&lt;/strong&gt; button allows you to save the dictionary ​​values to an Excel file.&lt;/p&gt;
+&lt;h4 id=&#34;complex-antibiotics-replacement-and-custom-antibiotics-replacement-dictionaries&#34;&gt;&lt;em&gt;Complex antibiotics replacement&lt;/em&gt; and &lt;em&gt;Custom antibiotics replacement&lt;/em&gt; dictionaries&lt;/h4&gt;
+&lt;p&gt;The peculiarity of these dictionaries is that they contain rules for converting MIC values ​​for combined antibiotics.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-complex-antibiotics-replacement-dictionary&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/21.png&#34; data-caption=&#34;Complex antibiotics replacement dictionary&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/21.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Complex antibiotics replacement dictionary
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;To describe such a converting, it is necessary to write pairs of values ​​through the symbol (=), the comma is used as a separator of the pairs.&lt;/p&gt;
+&lt;p&gt;The figure shows an example for an &lt;em&gt;SXT-Trimethoprim/sulfamethoxazole&lt;/em&gt; antibiotic. The following reference data were used for the dictionary.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Vitek&lt;/th&gt;
+&lt;th&gt;trimethoprim, mg/L&lt;/th&gt;
+&lt;th&gt;sulfamethoxasole, mg/L&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;2,5&lt;/td&gt;
+&lt;td&gt;0,125&lt;/td&gt;
+&lt;td&gt;2,375&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;0,25&lt;/td&gt;
+&lt;td&gt;4,75&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;0,5&lt;/td&gt;
+&lt;td&gt;9,5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;19&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;40&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;38&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;80&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;76&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;160&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;152&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;320&lt;/td&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;304&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;640&lt;/td&gt;
+&lt;td&gt;32&lt;/td&gt;
+&lt;td&gt;608&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1280&lt;/td&gt;
+&lt;td&gt;64&lt;/td&gt;
+&lt;td&gt;1216&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2560&lt;/td&gt;
+&lt;td&gt;128&lt;/td&gt;
+&lt;td&gt;2432&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5120&lt;/td&gt;
+&lt;td&gt;256&lt;/td&gt;
+&lt;td&gt;4864&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10240&lt;/td&gt;
+&lt;td&gt;512&lt;/td&gt;
+&lt;td&gt;9728&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Link WHONET to AMRcloud</title>
+      <link>https://amrcloud.net/en/tutorials/integrations/whonet/</link>
+      <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/tutorials/integrations/whonet/</guid>
+      <description>&lt;p&gt;This tutorial shows you how to export and convert the data from &lt;strong&gt;WHONET&lt;/strong&gt; program for uploading to the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; online platform.&lt;/p&gt;
+&lt;p&gt;The basic steps of uploading data to the AMRcloud online platform are described in the 
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/import-data/&#34;&gt;AMRcloud Data Import Tutorial&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;whonet-export&#34;&gt;WHONET export&lt;/h2&gt;
+&lt;h3 id=&#34;running-whonet-program&#34;&gt;Running WHONET Program&lt;/h3&gt;
+&lt;p&gt;Run WHONET program and select the name of your laboratory.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-choose-your-laboratory&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/open-lab.png&#34; data-caption=&#34;Choose your laboratory&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/open-lab.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Choose your laboratory
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Choose &lt;strong&gt;&amp;lsquo;Data analysis&amp;rsquo;&lt;/strong&gt; from the &lt;strong&gt;&amp;lsquo;Data analysis&amp;rsquo;&lt;/strong&gt; menu.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-data-analysis-menu&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-menu.png&#34; data-caption=&#34;Data analysis menu&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-menu.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Data analysis menu
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;analysis-type&#34;&gt;Analysis Type&lt;/h3&gt;
+&lt;p&gt;In the opened window, press the &lt;strong&gt;&amp;lsquo;Analysis type&amp;rsquo;&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-data-analysis-window&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-01.png&#34; data-caption=&#34;Data analysis window&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Data analysis window
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;In the &lt;strong&gt;&amp;lsquo;Isolate listing and summary&amp;rsquo;&lt;/strong&gt; tab, select &lt;strong&gt;&amp;lsquo;Listing&amp;rsquo;&lt;/strong&gt; for report format and press the &lt;strong&gt;&amp;lsquo;OK&amp;rsquo;&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-analysis-selection-window&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-02.png&#34; data-caption=&#34;Analysis selection window&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Analysis selection window
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;analysis-options&#34;&gt;Analysis Options&lt;/h3&gt;
+&lt;p&gt;Press the &lt;strong&gt;&amp;lsquo;Options&amp;rsquo;&lt;/strong&gt; button to set additional options for data export and conversion. This step is is not mandatory but may be be useful in certain scenarios.
+For example, you can choose to &lt;strong&gt;&amp;lsquo;Combine Disk, MIC, and Etest results&amp;rsquo;&lt;/strong&gt; in the &lt;strong&gt;&amp;lsquo;Test interpretations&amp;rsquo;&lt;/strong&gt; panel; or remove patients&amp;rsquo; personal data by selecting the &lt;strong&gt;&amp;lsquo;Encrypt patient information&amp;rsquo;&lt;/strong&gt; checkbox in the &lt;strong&gt;&amp;lsquo;Isolate listing and summary&amp;rsquo;&lt;/strong&gt; panel.&lt;/p&gt;
+&lt;p&gt;The default state of the &lt;strong&gt;&amp;lsquo;Analysis options&amp;rsquo;&lt;/strong&gt; window is shown in Figure 5.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-analysis-options-window&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-03.png&#34; data-caption=&#34;Analysis options window&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Analysis options window
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;You can choose whether to include in the report all isolates or one isolate per species by patient. The &lt;strong&gt;&amp;lsquo;By isolate&amp;rsquo;&lt;/strong&gt; mode is used by default. Check the &lt;strong&gt;&amp;lsquo;One per patient&amp;rsquo;&lt;/strong&gt; radio button to change it.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-one-isolate-of-species-by-patient-window&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-04.png&#34; data-caption=&#34;One isolate of species by patient window&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    One isolate of species by patient window
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;organisms&#34;&gt;Organisms&lt;/h3&gt;
+&lt;p&gt;Press the &lt;strong&gt;&amp;lsquo;Organisms&amp;rsquo;&lt;/strong&gt; button to select the organisms you would like to include in analysis. This step is mandatory.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-organisms-window&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-05.png&#34; data-caption=&#34;Organisms window&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-05.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Organisms window
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;From the left-side list, select the organisms to be included in the report by clicking on them. Use &lt;strong&gt;Ctrl&lt;/strong&gt; or &lt;strong&gt;Shift&lt;/strong&gt; keys to select multiple entries. Press the &lt;strong&gt;&#39;&amp;ndash;&amp;gt;&amp;rsquo;&lt;/strong&gt; button to add selection to the right-side list; press the &lt;strong&gt;&amp;lsquo;&amp;lt;&amp;ndash;&#39;&lt;/strong&gt; button to remove selected organisms.&lt;/p&gt;
+&lt;h3 id=&#34;isolates&#34;&gt;Isolates&lt;/h3&gt;
+&lt;p&gt;You can define additional criteria for selecting the isolates to be included in the report by clicking the &lt;strong&gt;&amp;lsquo;Isolates&amp;rsquo;&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-isolates-window&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-06.png&#34; data-caption=&#34;Isolates window&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-06.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Isolates window
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Choose a data field and click on the &lt;strong&gt;&amp;lsquo;Define criteria&amp;rsquo;&lt;/strong&gt; button. For example, to select the isolates collected in ICU from male patients over 30 years old, you need to set three selection criteria as follows:&lt;/p&gt;
+&lt;p&gt;First, double click on the &lt;strong&gt;&amp;lsquo;Sex&amp;rsquo;&lt;/strong&gt; item in the list to open the dialog, double click on &lt;strong&gt;&amp;lsquo;m - Male&amp;rsquo;&lt;/strong&gt; and press the &lt;strong&gt;&amp;lsquo;OK&amp;rsquo;&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-setting-criteria-for-sex&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-06-01.png&#34; data-caption=&#34;Setting criteria for sex&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-06-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Setting criteria for sex
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Second, double click on the &lt;strong&gt;&amp;lsquo;Age&amp;rsquo;&lt;/strong&gt; item in the list to open the dialog, type &amp;lsquo;30&amp;rsquo; in the  &lt;strong&gt;&amp;lsquo;Greater than or equal&amp;rsquo;&lt;/strong&gt; field and press the &lt;strong&gt;&amp;lsquo;OK&amp;rsquo;&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-setting-criteria-for-age&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-06-02.png&#34; data-caption=&#34;Setting criteria for age&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-06-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Setting criteria for age
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Finally, double click on the &lt;strong&gt;&amp;lsquo;Department&amp;rsquo;&lt;/strong&gt; item in the list to open the dialog, double click on &lt;strong&gt;&amp;lsquo;icu - Intensive care unit&amp;rsquo;&lt;/strong&gt; and press the &lt;strong&gt;&amp;lsquo;OK&amp;rsquo;&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-setting-criteria-for-department&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-06-03.png&#34; data-caption=&#34;Setting criteria for department&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-06-03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Setting criteria for department
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Choose the &lt;strong&gt;&amp;lsquo;Include isolates that satisfy all of the selection criteria&amp;rsquo;&lt;/strong&gt; radio button to apply all three selected criteria together. The &lt;strong&gt;&amp;lsquo;Isolates&amp;rsquo;&lt;/strong&gt; window with selected criteria is shown in Figure 12.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-isolates-window-with-criterias&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-06-04.png&#34; data-caption=&#34;Isolates window with criterias&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-06-04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Isolates window with criterias
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;data-files&#34;&gt;Data Files&lt;/h3&gt;
+&lt;p&gt;After setting the options, you should specify the WHONET data file to analize. Press the &lt;strong&gt;&amp;lsquo;Data files&amp;rsquo;&lt;/strong&gt; button and select your laboratory data file.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-select-data-files-window&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-07.png&#34; data-caption=&#34;Select data files window&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-07.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Select data files window
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;preview&#34;&gt;Preview&lt;/h3&gt;
+&lt;p&gt;The &lt;strong&gt;&amp;lsquo;Data analysis&amp;rsquo;&lt;/strong&gt; window with selected options is shown in Figure 13.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-data-analysis-window-after-setting-filters-and-criterias&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-08.png&#34; data-caption=&#34;Data analysis window after setting filters and criterias&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-08.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Data analysis window after setting filters and criterias
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;To preview the output, select the &lt;strong&gt;&amp;lsquo;Screen&amp;rsquo;&lt;/strong&gt; option in the &lt;strong&gt;&amp;lsquo;Output&amp;rsquo;&lt;/strong&gt; list and press the &lt;strong&gt;&amp;lsquo;Begin analysis&amp;rsquo;&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-preview&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-preview.png&#34; data-caption=&#34;Preview&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-preview.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Preview
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;If the resulting list of isolates differs from what your expect, adjust the options as needed and repeat the procedure.&lt;/p&gt;
+&lt;h3 id=&#34;export&#34;&gt;Export&lt;/h3&gt;
+&lt;p&gt;To export the list of isolates to a file, select the &lt;strong&gt;&amp;lsquo;Text (WHONET)&#39;&lt;/strong&gt; option in the &lt;strong&gt;&amp;lsquo;Output&amp;rsquo;&lt;/strong&gt; list, enter a path for saving a file as shown in example in Figure 16.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-data-analysis-window-ready-for-export&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-09.png&#34; data-caption=&#34;Data analysis window ready for export&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/analysis-window-09.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Data analysis window ready for export
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Press the &lt;strong&gt;&amp;lsquo;Begin analysis&amp;rsquo;&lt;/strong&gt; button to create a text export file. This file can be converted into AMRcloud readable format as described in the next chapter.&lt;/p&gt;
+&lt;p&gt;An example of WHONET export file is shown in Figure 17.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-exported-file&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/whonet-text-export.png&#34; data-caption=&#34;Exported file&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/whonet-text-export.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Exported file
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;save-export-settings&#34;&gt;Save export settings&lt;/h3&gt;
+&lt;p&gt;Usually, export procedure has to be repeated at regular intervals. To save your time and not to set the same values in filters every time, you can save export settings and parameters to special file called macro. To show the &lt;strong&gt;Macro definitions&lt;/strong&gt; window press the &lt;strong&gt;Macros&lt;/strong&gt; button in the &lt;strong&gt;Analysis data&lt;/strong&gt; window. Here you can see list of previosly saved macros. To add new macro press the &lt;strong&gt;New&lt;/strong&gt; button, type the macro name, check settings you want to save and press the &lt;strong&gt;Save&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-save-analysis-settings-to-macro&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/macros-window-00.png&#34; data-caption=&#34;Save analysis settings to macro&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/macros-window-00.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Save analysis settings to macro
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Чтобы воспользоваться сохраненным макросом, откройте окно &lt;strong&gt;Анализ данных&lt;/strong&gt;, нажмите кнопку &lt;strong&gt;Макрос&lt;/strong&gt;, выберите сохраненный макрос и нажмите кнопку &lt;strong&gt;Нагрузка&lt;/strong&gt;/&lt;strong&gt;Load&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;To use saved macro open the &lt;strong&gt;Analysis data&lt;/strong&gt; window, press the button &lt;strong&gt;Macros&lt;/strong&gt;, choose necessary macro and press the &lt;strong&gt;Load&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-load-export-settings-from-macro&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/macros-window-01.png&#34; data-caption=&#34;Load export settings from macro&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/macros-window-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Load export settings from macro
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The filter values will be filled in automatically and after that you can press the &lt;strong&gt;Begin analysis&lt;/strong&gt; button.&lt;/p&gt;
+&lt;h3 id=&#34;combine-and-export-multiple-files&#34;&gt;Combine and Export multiple files&lt;/h3&gt;
+&lt;p&gt;In some cases, it may be necessary to export multiple data files.
+For example, laboratories can store their data in different files, or files from one laboratory can be separated by years.&lt;/p&gt;
+&lt;p&gt;WHONET allows you to combine data from these files and export them as one file.&lt;/p&gt;
+&lt;p&gt;Choose &lt;strong&gt;Combine, export, or encrypt data files&lt;/strong&gt; from &lt;strong&gt;Data entry&lt;/strong&gt; menu.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-data-entry-menu&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/whonet-combine-menu.png&#34; data-caption=&#34;Data entry menu&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/whonet-combine-menu.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Data entry menu
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;In the opened window, press the &lt;strong&gt;Data files&lt;/strong&gt; button and select files you need to combine. In the &lt;strong&gt;Save as type&lt;/strong&gt; list select &lt;strong&gt;WHONET&lt;/strong&gt; for report format. Enter a path for saving export file. It is recommended to select the .txt format for further processing or converting. If the data contains personal information, it will be useful to check the box &lt;strong&gt;Encrypt patient information&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-combine-export-or-encrypt-data-files-window&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/combine-window-01.png&#34; data-caption=&#34;Combine, export, or encrypt data files window&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/combine-window-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Combine, export, or encrypt data files window
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Press the &lt;strong&gt;Combine&lt;/strong&gt; button to create a text export file. This file can be converted into AMRcloud readable format as described in the next chapter.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-exported-file&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/combine-export-result.png&#34; data-caption=&#34;Exported file&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/en/combine-export-result.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Exported file
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;This window can also be used to export a single file — this method may be easier and more convenient if no additional conditions for filtering isolates are required.&lt;/p&gt;
+&lt;h2 id=&#34;amrcloud-convert&#34;&gt;AMRcloud convert&lt;/h2&gt;
+&lt;p&gt;The conversion of WHONET output file is needed in order to bring it to AMRcloud readable format. To convert the file use the following link: 
+&lt;a href=&#34;https://public.amrcloud.net/whonet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://public.amrcloud.net/whonet&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;uploading-a-file&#34;&gt;Uploading a File&lt;/h3&gt;
+&lt;p&gt;Press the &lt;strong&gt;&amp;lsquo;Choose file&amp;rsquo;&lt;/strong&gt; button and select the WHONET export file from previous step.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-file-upload&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file.png&#34; data-caption=&#34;File upload&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    File upload
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The upload will start automatically. When the upload is complete, the converter checks the file content and previews it on screen.&lt;/p&gt;
+&lt;p&gt;The export file must meet the following requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Maximum size: 10 MB;&lt;/li&gt;
+&lt;li&gt;Column separator: Tab;&lt;/li&gt;
+&lt;li&gt;All column names must be unique.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If the upload is successful, you will see the following:&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-an-example-of-successful-file-upload&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file-success.png&#34; data-caption=&#34;An example of successful file upload&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file-success.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    An example of successful file upload
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;If you see an error message, further file processing is not possible. In an example shown below, an error message is caused by the presence of duplicate column named &amp;lsquo;FOX_ND30&amp;rsquo;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-an-example-of-error-file&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file-error.png&#34; data-caption=&#34;An example of error file&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/upload-file-error.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    An example of error file
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Correct any errors and re-upload the file.&lt;/p&gt;
+&lt;h3 id=&#34;converting-a-file&#34;&gt;Converting a File&lt;/h3&gt;
+&lt;p&gt;To convert the uploaded file press the &lt;strong&gt;&amp;lsquo;Convert&amp;rsquo;&lt;/strong&gt; button.&lt;/p&gt;
+&lt;p&gt;During a conversion process, the WHONET abbreviated codes for antibiotics, microorganisms, and clinical materials are being replaced by the corresponding full names and &amp;lsquo;suffix codes&amp;rsquo; that can be read by the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;. In addition, the column named &amp;lsquo;ORGANISM_GROUP&amp;rsquo; is automatically added and filled in. This column is mandatory for the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; that uses a two-level hierarchy of organisms to allow reporting the combined susceptibilities for any organism group. Once the conversion is complete, a report is displayed, as shown in example in Figure 4.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-conversion-report&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/convert-01.png&#34; data-caption=&#34;Conversion report&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/convert-01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Conversion report
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;On the top of the report, there are warnings from the conversion process that provide important information you should pay attention to. In the example above, the only warning message informs that the &amp;lsquo;ORGANISM_GROUP&amp;rsquo; column has been created. This is a standard warning that does not require any action, however, you may wish to change the organism groups manually at your discretion. Other warning messages you may see are explained below.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Warning message&lt;/th&gt;
+&lt;th&gt;Explanation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Columns with identical names have been enumerated&lt;/td&gt;
+&lt;td&gt;This message is displayed when two or more columns are translated with identical antibiotic names and suffixes. In the example shown below, the WHONET file contained two columns &amp;lsquo;AMK_ND30&amp;rsquo; and &amp;lsquo;AMK_ND20&amp;rsquo; that should have received the same name &amp;lsquo;amikacin_dd&amp;rsquo; upon convesion. To avoid duplication of column names, a number has been added to the name of the second column: &amp;lsquo;amikacin_1_dd&amp;rsquo;.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;No translation has been found for…&lt;/td&gt;
+&lt;td&gt;This message is displayed when a name is not found in the translation table. In such case, the original name is preserved. If necessary, change the name(s) manually as required after finishing the conversion. In the example shown below, no translation has been found for the antibiotic code &amp;lsquo;AMM_NE&amp;rsquo; and the clinical material code &amp;lsquo;tt&amp;rsquo;.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;The &amp;lsquo;ORGANISM&amp;rsquo; column is missing&lt;/td&gt;
+&lt;td&gt;This message is displayed when the &amp;lsquo;ORGANISM&amp;rsquo; column is missing in the uploaded file. This column is mandatory for the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-warning-messages&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/convert-02.png&#34; data-caption=&#34;Warning messages&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/whonet-converter/ru/convert-02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Warning messages
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;A list of translated codes appears below the warnings. Inspect the translations and, if necessary, correct them manually.&lt;/p&gt;
+&lt;p&gt;FYI: The following algorithm is used for the translation of antibiotic column names:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The text string preceding the underscore (_) is translated into full antibiotic name using a &amp;lsquo;dictionary&amp;rsquo;;&lt;/li&gt;
+&lt;li&gt;If the column contains any &amp;lsquo;S&amp;rsquo;, &amp;lsquo;I&amp;rsquo;, or &amp;lsquo;R&amp;rsquo; values, the suffix &lt;strong&gt;&#39;_sir&amp;rsquo;&lt;/strong&gt; is appended to the end of antibiotic name;&lt;/li&gt;
+&lt;li&gt;In other cases, the suffix following the underscore (_) is translated and appended as follows:
+&lt;ul&gt;
+&lt;li&gt;&amp;lsquo;ND&amp;rsquo; – &lt;strong&gt;&#39;_dd&amp;rsquo;&lt;/strong&gt;;&lt;/li&gt;
+&lt;li&gt;&amp;lsquo;NE&amp;rsquo; – &lt;strong&gt;&#39;_etest_mic&amp;rsquo;&lt;/strong&gt;;&lt;/li&gt;
+&lt;li&gt;&amp;lsquo;NM&amp;rsquo; (or any other suffix) – &lt;strong&gt;&#39;_mic&amp;rsquo;&lt;/strong&gt;;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;downloading-a-file&#34;&gt;Downloading a File&lt;/h3&gt;
+&lt;p&gt;To download the converted file, press the &lt;strong&gt;&amp;lsquo;Download&amp;rsquo;&lt;/strong&gt; button. The file should be ready to upload to the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; without additional modifications, except when you see critical warnings described above.&lt;/p&gt;
+&lt;p&gt;The import of data files using the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; Import Wizard is described in the 
+&lt;a href=&#34;https://amrcloud.net/en/tutorials/import-data/&#34;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
