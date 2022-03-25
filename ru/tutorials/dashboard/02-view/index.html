@@ -27,12 +27,12 @@
   
     
   
-  <meta name="description" content="AMRcloud (AntiMicrobial Resistance Cloud) is a web platform for analysis and sharing of AMR surveillance data.">
+  <meta name="description" content="Для просмотра всех созданных дашбордов перейдите в раздел Дашборды.
+Добавление графика   В крайнем правом столбце списка дашбордов указывается статус обработки. После создания дашборда статус всегда высвечивается как Обработан. В дальнейшем, при любом изменении набора данных, входящих в дашборд, графики в нём будут перерасчитываться автоматически, однако этот процесс может занять некоторое время. Пока графики не будут перерасчитаны полностью, статус обработки будет высвечиваться как Не обработан.
+Статус обработки   В редких случаях (в результате технического сбоя) автоматического перерасчёта графиков не происходит — для этого на панели инструментов пользователя находится кнопка Пересчитать, которая принудительно запускает процесс обработки графиков из выбранного дашборда.">
 
   
-  <link rel="alternate" hreflang="en" href="https://amrcloud.net/en/tutorials/">
-  
-  <link rel="alternate" hreflang="ru-ru" href="https://amrcloud.net/ru/tutorials/">
+  <link rel="alternate" hreflang="ru-ru" href="https://amrcloud.net/ru/tutorials/dashboard/02-view/">
 
   
 
@@ -242,14 +242,12 @@
   
 
   
-  <link rel="alternate" href="/ru/tutorials/index.xml" type="application/rss+xml" title="AMRcloud">
-  
 
   <link rel="manifest" href="/ru/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu1e3f9432ea43508a577ec9e03ae2f676_16946_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu1e3f9432ea43508a577ec9e03ae2f676_16946_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://amrcloud.net/ru/tutorials/">
+  <link rel="canonical" href="https://amrcloud.net/ru/tutorials/dashboard/02-view/">
 
   
   
@@ -267,17 +265,24 @@
   <meta property="twitter:creator" content="@@iacmac1997">
   
   <meta property="og:site_name" content="AMRcloud">
-  <meta property="og:url" content="https://amrcloud.net/ru/tutorials/">
-  <meta property="og:title" content="Как начать работу с AMRcloud | AMRcloud">
-  <meta property="og:description" content="AMRcloud (AntiMicrobial Resistance Cloud) is a web platform for analysis and sharing of AMR surveillance data."><meta property="og:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png">
+  <meta property="og:url" content="https://amrcloud.net/ru/tutorials/dashboard/02-view/">
+  <meta property="og:title" content="Просмотр дашбордов | AMRcloud">
+  <meta property="og:description" content="Для просмотра всех созданных дашбордов перейдите в раздел Дашборды.
+Добавление графика   В крайнем правом столбце списка дашбордов указывается статус обработки. После создания дашборда статус всегда высвечивается как Обработан. В дальнейшем, при любом изменении набора данных, входящих в дашборд, графики в нём будут перерасчитываться автоматически, однако этот процесс может занять некоторое время. Пока графики не будут перерасчитаны полностью, статус обработки будет высвечиваться как Не обработан.
+Статус обработки   В редких случаях (в результате технического сбоя) автоматического перерасчёта графиков не происходит — для этого на панели инструментов пользователя находится кнопка Пересчитать, которая принудительно запускает процесс обработки графиков из выбранного дашборда."><meta property="og:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png">
   <meta property="twitter:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png"><meta property="og:locale" content="ru-ru">
   
-    <meta property="og:updated_time" content="2022-02-14T00:06:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2022-02-14T00:06:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2022-02-14T00:06:00&#43;00:00">
   
 
   
 
 
+
+  
 
 
   
@@ -319,7 +324,7 @@
 
 
 
-  <title>Как начать работу с AMRcloud | AMRcloud</title>
+  <title>Просмотр дашбордов | AMRcloud</title>
 
 </head>
 
@@ -569,32 +574,6 @@
       
 
       
-            <li class="nav-item dropdown i18n-dropdown">
-              
-                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
-                    
-                        <span class="emoji-flag-icon"><img src="\img\flag-ru.png" alt="RU"></span>
-                        
-                    <span class="d-none d-lg-inline">Русский</span>
-                </a>
-                <div class="dropdown-menu">
-                    <div class="dropdown-item active font-weight-bold">
-                        
-                        <span class="emoji-flag-icon"><img src="\img\flag-ru.png" alt="RU"></span>
-                        
-                        <span>Русский</span>
-                    </div>
-                    
-                    <a class="dropdown-item" href="/en/tutorials/"  onclick="setPreferredLanguage(&#34;en&#34;)">
-                        
-                        <span class="emoji-flag-icon"><img src="\img\flag-uk.png" alt="ENG"></span>
-                        
-                        <span>English</span>
-                    </a>
-                    
-                </div>
-            </li>
-      
 
     </ul>
 
@@ -604,63 +583,398 @@
 
   
 
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
 
 
 
 
 
-
-
-
-
-
-
-  
-
-  
-  
   
     
   
-<div class="universal-wrapper pt-3">
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
   
-  <h1>Как начать работу с AMRcloud</h1>
+  <input name="q" type="search" class="form-control" placeholder="Поиск..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+
+  
+  
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/ru/tutorials/dashboard/">Дашборды</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/ru/tutorials/dashboard/00-create/">Создание дашборда</a>
+      </li>
+      
+      <li >
+        <a href="/ru/tutorials/dashboard/01-add/">Добавление графиков в дашборд</a>
+      </li>
+      
+      <li class="active">
+        <a href="/ru/tutorials/dashboard/02-view/">Просмотр дашбордов</a>
+      </li>
+      
+      <li >
+        <a href="/ru/tutorials/dashboard/03-graph/">Графики в дашборде</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Содержание</a></li>
+      </ul>
+
+      <nav id="TableOfContents"></nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          <h1>Просмотр дашбордов</h1>
+
+          <div class="article-style">
+            <p>Для просмотра всех созданных дашбордов перейдите в раздел <strong>Дашборды</strong>.</p>
+
+
+
+
 
   
 
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-добавление-графика">
+
+
+  <a data-fancybox="" href="/img/tutorials/dashboard/6.png" data-caption="Добавление графика">
+
+
+  <img src="/img/tutorials/dashboard/6.png" alt=""  >
+</a>
+
+
   
+  
+  <figcaption data-pre="Рисунок " data-post=":" class="numbered">
+    Добавление графика
+  </figcaption>
+
+
+</figure>
+
+<p>В крайнем правом столбце списка дашбордов указывается статус обработки. После создания дашборда статус всегда высвечивается как <strong>Обработан</strong>. В дальнейшем, при любом изменении набора данных, входящих в дашборд, графики в нём будут перерасчитываться автоматически, однако этот процесс может занять некоторое время. Пока графики не будут перерасчитаны полностью, статус обработки будет высвечиваться как <strong>Не обработан</strong>.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-статус-обработки">
+
+
+  <a data-fancybox="" href="/img/tutorials/dashboard/11.png" data-caption="Статус обработки">
+
+
+  <img src="/img/tutorials/dashboard/11.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Рисунок " data-post=":" class="numbered">
+    Статус обработки
+  </figcaption>
+
+
+</figure>
+
+<p>В редких случаях (в результате технического сбоя) автоматического перерасчёта графиков не происходит — для этого на панели инструментов пользователя находится кнопка <strong>Пересчитать</strong>, которая принудительно запускает процесс обработки графиков из выбранного дашборда. Сперва вы должны выбрать дашборд для пересчёта (один раз кликнив по его названию), а затем нажать на кнопку.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-пересчитать">
+
+
+  <a data-fancybox="" href="/img/tutorials/dashboard/12.png" data-caption="Пересчитать">
+
+
+  <img src="/img/tutorials/dashboard/12.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Рисунок " data-post=":" class="numbered">
+    Пересчитать
+  </figcaption>
+
+
+</figure>
+
+<p>Для того чтобы редактировать название дашборда, его описание, снять/установить защиту паролем, разрешить/запретить доступ к дашборду, вам необходимо выделить его в списке дашбордов (один раз кликнив по названию) и нажать кнопку <strong>Редактировать имя/описание/доступ</strong> в правом верхнем углу экрана.</p>
+<p>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-редактирование-дашборда">
+
+
+  <a data-fancybox="" href="/img/tutorials/dashboard/7.png" data-caption="Редактирование дашборда">
+
+
+  <img src="/img/tutorials/dashboard/7.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Рисунок " data-post=":" class="numbered">
+    Редактирование дашборда
+  </figcaption>
+
+
+</figure>
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-редактирование-дашборда">
+
+
+  <a data-fancybox="" href="/img/tutorials/dashboard/8.png" data-caption="Редактирование дашборда">
+
+
+  <img src="/img/tutorials/dashboard/8.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Рисунок " data-post=":" class="numbered">
+    Редактирование дашборда
+  </figcaption>
+
+
+</figure>
+</p>
+<p>Для того чтобы поделиться созданным дашбордом с другими людьми, воспользуйтесь кнопкой <strong>QR-код</strong> в правом верхнем углу экрана. После нажатия будет сгенерирован QR-код и текстовая гиперссылка на ваш дашборд. Изображение с QR-кодом можно скачать, нажав на кнопку <strong>Скачать QR-код</strong>.</p>
+<p>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-qr-код">
+
+
+  <a data-fancybox="" href="/img/tutorials/dashboard/9.png" data-caption="QR-код">
+
+
+  <img src="/img/tutorials/dashboard/9.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Рисунок " data-post=":" class="numbered">
+    QR-код
+  </figcaption>
+
+
+</figure>
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-qr-код">
+
+
+  <a data-fancybox="" href="/img/tutorials/dashboard/10.png" data-caption="QR-код">
+
+
+  <img src="/img/tutorials/dashboard/10.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Рисунок " data-post=":" class="numbered">
+    QR-код
+  </figcaption>
+
+
+</figure>
+</p>
+
+          </div>
+
+          
+
+
+
+          
+        </div>
+
+        <div class="body-footer">
+          <p>
+            Обновлено 
+            
+            
+              14 февраля 2022
+            
+          </p>
+
+          
+
+
+
+          
+
+
+          
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    AMRcloud © 2022 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" >Academic theme</a> for
+    <a href="https://gohugo.io" >Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
 </div>
 
-
-
-<div class="universal-wrapper">
-  
-  <ul class="list-unstyled">
-    
-    
-    <li><h5><a href="/ru/tutorials/import-data/">Импорт данных</a></h5> <p>Руководство «AMRcloud. Импорт данных» предназначено для ознакомления с основными этапами загрузки пользовательских таблиц в онлайн-платформу AMRcloud, индивидуальной настройкой рабочей среды и подготовкой системы к непосредственному анализу и визуализации данных.</p></li>
-    
-    <li><h5><a href="/ru/tutorials/analysis-examples/">Примеры анализа данных</a></h5> <p>Руководство «Примеры анализа данных» рассказывает о том, как анализировать данные, загруженные в AMRcloud.</p></li>
-    
-    <li><h5><a href="/ru/tutorials/dashboard/">Дашборды</a></h5> <p>Руководство «AMRcloud. Дашборды» предназначено для ознакомления с новым функционалом онлайн-платформы AMRcloud, который позволяет пользователям делиться локальными данными антимикробной резистентности с контрагентами врачами стационаров.</p></li>
-    
-    <li><h5><a href="/ru/tutorials/across-export/">Экспорт из ЛИС «Акросс-Клиническая Лаборатория» в AMRcloud</a></h5> <p>Руководство «Экспорт из ЛИС АКЛ в AMRcloud» рассказывает о том, как имеющиеся у вас данные в ЛИС «Акросс-Клиническая Лаборатория» (ЛИС АКЛ) выгрузить в файл формата AMRcloud.</p></li>
-    
-    <li><h5><a href="/ru/tutorials/microb-2-export/">Экспорт из Микроб-2 в AMRcloud</a></h5> <p>Руководство «Экспорт из Микроб-2 в AMRcloud» рассказывает о том, как имеющиеся у вас данные из программы Микроб-2 подготовить для загрузки в AMRcloud.</p></li>
-    
-    <li><h5><a href="/ru/tutorials/labforce-export/">Экспорт из LabForce в AMRcloud</a></h5> <p>Руководство «Экспорт из LabForce в AMRcloud» рассказывает о том, как имеющиеся у вас данные в ЛИС LabForce выгрузить в файл формата AMRcloud.</p></li>
-    
-    <li><h5><a href="/ru/tutorials/whonet-converter/">Конвертация из WHONET в AMRcloud</a></h5> <p>Руководство «Конвертация из WHONET в AMRcloud» рассказывает о том, как имеющиеся у вас данные из программы WHONET подготовить для загрузки в AMRcloud.</p></li>
-    
-    <li><h5><a href="/ru/tutorials/caesar-converter/">Конвертация CAESAR &lt;=&gt; AMRcloud</a></h5> <p>Руководство «Конвертация CAESAR  AMRcloud» рассказывает о том, как можно быстро преобразовывать файлы из формата CAESAR в AMRcloud и обратно</p></li>
-    
-    <li><h5><a href="/ru/tutorials/vitek-2-export/">Экспорт из VITEK 2 в AMRcloud</a></h5> <p>Руководство «Экспорт из VITEK 2 в AMRcloud» рассказывает о том, как имеющиеся у вас данные из программы VITEK 2 подготовить для загрузки в AMRcloud.</p></li>
-    
-    <li><h5><a href="/ru/tutorials/adagio-export/">Экспорт из Adagio в AMRcloud</a></h5> <p>Руководство Экспорт из Adagio в AMRcloud» рассказывает о том, как имеющиеся у вас данные из программы Adagio подготовить для загрузки в AMRcloud.</p></li>
-    
-    
-  </ul>
-</div>
 
   
 
@@ -716,6 +1030,11 @@
 
 
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+<script>
+  anchors.add();
+</script>
 
 
 
@@ -778,7 +1097,7 @@
             $.ajax({
                 url: "https:\/\/api.amrcloud.net\/api/ga/page",
                 data: {
-                    path: "\/ru\/tutorials\/",
+                    path: "\/ru\/tutorials\/dashboard\/02-view\/",
                     link: ""
                 },
                 type: 'GET',
@@ -799,31 +1118,6 @@
 
 
   
-  
-  <div class="container">
-    <footer class="site-footer">
-  
-
-  <p class="powered-by">
-    AMRcloud © 2022 &middot; 
-
-    Powered by the
-    <a href="https://sourcethemes.com/academic/" >Academic theme</a> for
-    <a href="https://gohugo.io" >Hugo</a>.
-
-    
-    <span class="float-right" aria-hidden="true">
-      <a href="#" class="back-to-top">
-        <span class="button_icon">
-          <i class="fas fa-chevron-up fa-2x"></i>
-        </span>
-      </a>
-    </span>
-    
-  </p>
-</footer>
-
-  </div>
   
 
   

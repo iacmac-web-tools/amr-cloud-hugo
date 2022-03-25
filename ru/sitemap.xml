@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://amrcloud.net/ru/tutorials/dashboard/03-graph/</loc>
+    <lastmod>2022-02-14T00:06:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/tutorials/dashboard/01-add/</loc>
+    <lastmod>2022-02-14T00:06:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/tutorials/dashboard/02-view/</loc>
+    <lastmod>2022-02-14T00:06:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/tutorials/dashboard/00-create/</loc>
+    <lastmod>2022-02-14T00:06:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://amrcloud.net/ru/tutorials/adagio-export/01/</loc>
     <lastmod>2021-10-04T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -262,11 +282,6 @@
   </url>
   
   <url>
-    <loc>https://amrcloud.net/ru/tutorials/labforce-export/</loc>
-    <lastmod>2021-05-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://amrcloud.net/ru/tutorials/microb-2-export/02/</loc>
     <lastmod>2021-05-04T00:01:00+00:00</lastmod>
   </url>
@@ -313,6 +328,11 @@
                 hreflang="ru"
                 href="https://amrcloud.net/ru/authors/vinogradova-ag/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/tutorials/dashboard/</loc>
+    <lastmod>2022-02-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -397,6 +417,11 @@
                 hreflang="ru"
                 href="https://amrcloud.net/ru/tutorials/analysis-examples/04/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/tutorials/labforce-export/</loc>
+    <lastmod>2021-05-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -548,6 +573,21 @@
   </url>
   
   <url>
+    <loc>https://amrcloud.net/ru/tutorials/</loc>
+    <lastmod>2022-02-14T00:06:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/tutorials/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/tutorials/"
+                />
+  </url>
+  
+  <url>
     <loc>https://amrcloud.net/ru/project/vgnki/</loc>
     <lastmod>2021-12-27T09:00:00+00:00</lastmod>
     <xhtml:link
@@ -635,21 +675,6 @@
   <url>
     <loc>https://amrcloud.net/ru/post/20211004-adagio-integration/</loc>
     <lastmod>2021-10-04T09:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/ru/tutorials/</loc>
-    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/tutorials/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/tutorials/"
-                />
   </url>
   
   <url>

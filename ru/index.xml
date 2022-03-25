@@ -13,6 +13,633 @@
     </image>
     
     <item>
+      <title>Графики в дашборде</title>
+      <link>https://amrcloud.net/ru/tutorials/dashboard/03-graph/</link>
+      <pubDate>Mon, 14 Feb 2022 00:06:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/dashboard/03-graph/</guid>
+      <description>&lt;p&gt;Для того чтобы просмотреть подробную информацию о графиках, содержащихся в дашборде, необходимо нажать на кнопку &lt;strong&gt;Открыть&lt;/strong&gt;, расположенную слева от названия дашборда.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-открыть&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/dashboard/13.png&#34; data-caption=&#34;Открыть&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/dashboard/13.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Открыть
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;На данной странице вы можете настроить параметры отображения графиков в дашборде.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-графики-дашборда&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/dashboard/14.png&#34; data-caption=&#34;Графики дашборда&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/dashboard/14.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Графики дашборда
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Вы можете перетащить элементы списка, чтобы задать необходимый порядок графиков в дашборде — после этого не забудьте нажать на кнопку &lt;strong&gt;Сохранить новый порядок графиков&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Подробное отображение каждого отдельного графика можно просмотреть, нажав на кнопку с изображением глаза справа от названия графика.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-кнопка-просмотра&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/dashboard/15.png&#34; data-caption=&#34;Кнопка просмотра&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/dashboard/15.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Кнопка просмотра
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;В открывшемся окне &lt;strong&gt;Просмотр графика&lt;/strong&gt; вы можете включить/выключить отображение графика в дашборде (с помощью галочки &lt;strong&gt;Показывать в дашборде&lt;/strong&gt;), отредактировать описание графика, а также просмотреть параметры набора данных, на основании коорого был построен график.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-просмотр-графика&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/dashboard/16.png&#34; data-caption=&#34;Просмотр графика&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/dashboard/16.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Просмотр графика
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Возможна ситуация, когда у дашборда установлен статус &lt;strong&gt;Обработан&lt;/strong&gt;, а у нескольких графиков внутри дашборда установлен статус &lt;strong&gt;Не обработан&lt;/strong&gt;. Это означает, что набор данных изменился таким образом, что графики со статусом &amp;ldquo;Не обработан&amp;rdquo; не могут быть построены.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Добавление графиков в дашборд</title>
+      <link>https://amrcloud.net/ru/tutorials/dashboard/01-add/</link>
+      <pubDate>Mon, 14 Feb 2022 00:06:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/dashboard/01-add/</guid>
+      <description>&lt;p&gt;Для добавления графика в дашборд отобразите требуемый график на любой из вкладок &lt;strong&gt;Структура данных&lt;/strong&gt;, &lt;strong&gt;Микроорганизмы&lt;/strong&gt; и пр. и нажмите на значок со спидометром рядом с графиком.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-добавление-графика&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/dashboard/4.png&#34; data-caption=&#34;Добавление графика&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/dashboard/4.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Добавление графика
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;В открывшемся окне выберите из выпадающего списка нужный дашборд, введите наименование графика (может быть любым, но по умолчанию подставляется стандартное). Также ниже вы сможете с помощью специальных галочек &amp;ldquo;зафиксировать&amp;rdquo; необходимые параметры отображения: галочки нужны для того, чтобы в дальнейшем, если ваш набор данных изменится, то график не перерасчитывался для зафиксированных параметров.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-добавление-графика&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/dashboard/5.png&#34; data-caption=&#34;Добавление графика&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/dashboard/5.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Добавление графика
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Просмотр дашбордов</title>
+      <link>https://amrcloud.net/ru/tutorials/dashboard/02-view/</link>
+      <pubDate>Mon, 14 Feb 2022 00:06:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/dashboard/02-view/</guid>
+      <description>&lt;p&gt;Для просмотра всех созданных дашбордов перейдите в раздел &lt;strong&gt;Дашборды&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-добавление-графика&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/dashboard/6.png&#34; data-caption=&#34;Добавление графика&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/dashboard/6.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Добавление графика
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;В крайнем правом столбце списка дашбордов указывается статус обработки. После создания дашборда статус всегда высвечивается как &lt;strong&gt;Обработан&lt;/strong&gt;. В дальнейшем, при любом изменении набора данных, входящих в дашборд, графики в нём будут перерасчитываться автоматически, однако этот процесс может занять некоторое время. Пока графики не будут перерасчитаны полностью, статус обработки будет высвечиваться как &lt;strong&gt;Не обработан&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-статус-обработки&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/dashboard/11.png&#34; data-caption=&#34;Статус обработки&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/dashboard/11.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Статус обработки
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;В редких случаях (в результате технического сбоя) автоматического перерасчёта графиков не происходит — для этого на панели инструментов пользователя находится кнопка &lt;strong&gt;Пересчитать&lt;/strong&gt;, которая принудительно запускает процесс обработки графиков из выбранного дашборда. Сперва вы должны выбрать дашборд для пересчёта (один раз кликнив по его названию), а затем нажать на кнопку.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-пересчитать&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/dashboard/12.png&#34; data-caption=&#34;Пересчитать&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/dashboard/12.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Пересчитать
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Для того чтобы редактировать название дашборда, его описание, снять/установить защиту паролем, разрешить/запретить доступ к дашборду, вам необходимо выделить его в списке дашбордов (один раз кликнив по названию) и нажать кнопку &lt;strong&gt;Редактировать имя/описание/доступ&lt;/strong&gt; в правом верхнем углу экрана.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-редактирование-дашборда&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/dashboard/7.png&#34; data-caption=&#34;Редактирование дашборда&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/dashboard/7.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Редактирование дашборда
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-редактирование-дашборда&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/dashboard/8.png&#34; data-caption=&#34;Редактирование дашборда&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/dashboard/8.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Редактирование дашборда
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Для того чтобы поделиться созданным дашбордом с другими людьми, воспользуйтесь кнопкой &lt;strong&gt;QR-код&lt;/strong&gt; в правом верхнем углу экрана. После нажатия будет сгенерирован QR-код и текстовая гиперссылка на ваш дашборд. Изображение с QR-кодом можно скачать, нажав на кнопку &lt;strong&gt;Скачать QR-код&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-qr-код&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/dashboard/9.png&#34; data-caption=&#34;QR-код&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/dashboard/9.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    QR-код
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-qr-код&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/dashboard/10.png&#34; data-caption=&#34;QR-код&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/dashboard/10.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    QR-код
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Создание дашборда</title>
+      <link>https://amrcloud.net/ru/tutorials/dashboard/00-create/</link>
+      <pubDate>Mon, 14 Feb 2022 00:06:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/dashboard/00-create/</guid>
+      <description>&lt;p&gt;Для создания нового дашборда откройте в разделе &lt;strong&gt;Проекты&lt;/strong&gt; необходимый проект, а затем набор данных.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-открываем-проект&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/dashboard/1.png&#34; data-caption=&#34;Открываем проект&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/dashboard/1.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Открываем проект
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-открываем-набор-данных&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/dashboard/2.png&#34; data-caption=&#34;Открываем набор данных&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/dashboard/2.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Открываем набор данных
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;В правом верхнем углу вы увидите иконку со спидометром &lt;strong&gt;Новый дашборд&lt;/strong&gt;. В открывшемся окне вам необходимо указать название создаваемого дашборда и его описание. По желанию вы можете защитить свой дошборд паролем, воспользовавшись специальной галочкой.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-создание-дашборда&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/dashboard/3.png&#34; data-caption=&#34;Создание дашборда&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/dashboard/3.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Создание дашборда
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>1. Экспорт из Adagio</title>
       <link>https://amrcloud.net/ru/tutorials/adagio-export/01/</link>
       <pubDate>Mon, 04 Oct 2021 00:00:00 +0000</pubDate>
