@@ -5435,10 +5435,10 @@ Example: flag location with &amp;gt;=50% resistance to ciprofloxacin:&lt;/p&gt;
 &lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
 &lt;p&gt;You do not need to install the &amp;ldquo;AMRcloud Adagio Converter&amp;rdquo;, you should just download the archive from the link below and unpack it.&lt;/p&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://amrcloud.net/install/AMRcloudAdagioConverterFull.zip&#34;&gt;AMRcloudAdagioConverter.zip&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://amrcloud.net/install/AMRcloudAdagioConverter.net6.zip&#34;&gt;AMRcloudAdagioConverter.zip&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Then execute the &lt;strong&gt;AMRcloudAdagioConverter.exe&lt;/strong&gt; file.&lt;/p&gt;
-&lt;p&gt;The program requires .Net 5. If necessary, you can donwload it from the 
-&lt;a href=&#34;https://dotnet.microsoft.com/download/dotnet/thank-you/runtime-desktop-5.0.10-windows-x86-installer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official Microsoft link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The program requires .Net 6. If necessary, you can donwload it from the 
+&lt;a href=&#34;https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.3-windows-x86-installer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official Microsoft link&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;working&#34;&gt;Working&lt;/h3&gt;
 &lt;p&gt;The program window after launch looks like this.&lt;/p&gt;
 

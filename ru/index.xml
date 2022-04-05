@@ -6627,10 +6627,10 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;h3 id=&#34;установка&#34;&gt;Установка&lt;/h3&gt;
 &lt;p&gt;Программа AMRcloud Adagio Converter не требует установки, достаточно скачать архив и распаковать его.&lt;/p&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://amrcloud.net/install/AMRcloudAdagioConverterFull.zip&#34;&gt;AMRcloudAdagioConverter.zip&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://amrcloud.net/install/AMRcloudAdagioConverter.net6.zip&#34;&gt;AMRcloudAdagioConverter.zip&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;После этого запустите файл &lt;strong&gt;AMRcloudAdagioConverter.exe&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Для работы программы требуется .Net 5. При необходимости его можно 
-&lt;a href=&#34;https://dotnet.microsoft.com/download/dotnet/thank-you/runtime-desktop-5.0.10-windows-x86-installer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;скачать с официального сайта Microsoft&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Для работы программы требуется .Net 6. При необходимости его можно 
+&lt;a href=&#34;https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.3-windows-x86-installer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;скачать с официального сайта Microsoft&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;работа-с-программой&#34;&gt;Работа с программой&lt;/h3&gt;
 &lt;p&gt;Окно программы после запуска выглядит следующим образом.&lt;/p&gt;
 
