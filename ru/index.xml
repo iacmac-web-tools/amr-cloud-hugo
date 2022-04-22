@@ -5,7 +5,7 @@
     <link>https://amrcloud.net/ru/</link>
       <atom:link href="https://amrcloud.net/ru/index.xml" rel="self" type="application/rss+xml" />
     <description>AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2022</copyright><lastBuildDate>Fri, 25 Mar 2022 00:06:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2022</copyright><lastBuildDate>Sat, 26 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>AMRcloud</title>
@@ -3886,6 +3886,115 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;Точный географический объект - это более подробное географическое описание в сравнении с текущим вариантом. Например, был выбран город или область, то точным вариантом может быть конкретный корпус ЛПУ.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Добавление данных</title>
+      <link>https://amrcloud.net/ru/tutorials/import-data/09-adddata/</link>
+      <pubDate>Fri, 14 Feb 2020 00:01:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/import-data/09-adddata/</guid>
+      <description>&lt;p&gt;В последующем, если у вас появятся новые данные, структурно не отличающиеся от первоначально загруженных в &amp;ldquo;Набор данных&amp;rdquo;, то вам не придётся какждый раз сбрасывать все шаги импорта и перезагружать всю таблицу целиком.&lt;/p&gt;
+&lt;h2 id=&#34;добавление-данных&#34;&gt;Добавление данных&lt;/h2&gt;
+&lt;p&gt;Выберите необходимый набор данных и нажмите на кнопку &lt;strong&gt;Редактировать набор данных&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/1.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/1.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Перейдите на вкладку &lt;strong&gt;Шаг 4: Категоризация S/I/R&lt;/strong&gt; и нажмите на кнопку &lt;strong&gt;Добавить данные&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/2.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/2.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Для выбора файла нажмите &lt;strong&gt;Browse&lt;/strong&gt; (вы можете использовать файл формата CSV — в таком случае вам, возможно, потребуется настроить разделитель столбцов). Если таблица с данными корректно отобразилась, то проверьте правильность формата дат и поставьте галочку &lt;strong&gt;Отображается ли временная шкала?&lt;/strong&gt;. В завершении нажмите на кнопку &lt;strong&gt;Загрузить&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/3.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/3.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;После завершения загрузки вы сможете закрыть окно загрузки и перейти к анализу данных или загрузить ещё дополнительные данные.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Функционал добавления данных появился в AMRcloud с 15 февраля 2022. Для наборов данных, созданных ранее этой даты, будет необходимо сбросить набор на &lt;strong&gt;Шаге 2&lt;/strong&gt; и пройти заново все шаги импорта. После этого функционал добавления данных станет доступен.
+  &lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -9860,6 +9969,78 @@ File**→** Save with Encoding **→** Windows-1251.
     </item>
     
     <item>
+      <title>Вкладка «Антибиотики (все)»</title>
+      <link>https://amrcloud.net/ru/tutorials/videotutorial/05/</link>
+      <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/videotutorial/05/</guid>
+      <description>&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/vdqemjOqnMQ&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Вкладка «Ассоциированная устойчивость»</title>
+      <link>https://amrcloud.net/ru/tutorials/videotutorial/07/</link>
+      <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/videotutorial/07/</guid>
+      <description>&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/slQw4b-Yu6M&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Вкладка «Выбранный антибиотик»</title>
+      <link>https://amrcloud.net/ru/tutorials/videotutorial/06/</link>
+      <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/videotutorial/06/</guid>
+      <description>&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/V1s9W9nF7mE&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Вкладка «Маркеры»</title>
+      <link>https://amrcloud.net/ru/tutorials/videotutorial/08/</link>
+      <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/videotutorial/08/</guid>
+      <description>&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/dN6zoWEqX_A&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Вкладка «Микроорганизмы»</title>
+      <link>https://amrcloud.net/ru/tutorials/videotutorial/04/</link>
+      <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/videotutorial/04/</guid>
+      <description>&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/JlW4tWN07yA&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Вкладка «Сравнения»</title>
+      <link>https://amrcloud.net/ru/tutorials/videotutorial/09/</link>
+      <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/videotutorial/09/</guid>
+      <description>&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/SPVvIbYBiKk&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Вкладка «Структура данных»</title>
+      <link>https://amrcloud.net/ru/tutorials/videotutorial/03/</link>
+      <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/videotutorial/03/</guid>
+      <description>&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/vAufGpQSYH0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Загрузка данных</title>
+      <link>https://amrcloud.net/ru/tutorials/videotutorial/02/</link>
+      <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/videotutorial/02/</guid>
+      <description>&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/zjI-k6lSM4Q&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Как поделиться данными</title>
+      <link>https://amrcloud.net/ru/tutorials/videotutorial/10/</link>
+      <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/videotutorial/10/</guid>
+      <description>&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/QRCURaD0itg&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
       <title>Экспорт из ЛИС «Акросс-Клиническая Лаборатория» в AMRcloud</title>
       <link>https://amrcloud.net/ru/tutorials/integrations/across/</link>
       <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
@@ -10563,6 +10744,22 @@ File**→** Save with Encoding **→** Windows-1251.
     </item>
     
     <item>
+      <title>Начало работы</title>
+      <link>https://amrcloud.net/ru/tutorials/videotutorial/01/</link>
+      <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/videotutorial/01/</guid>
+      <description>&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/8OXiW704ki4&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Подготовка набора данных к публикации</title>
+      <link>https://amrcloud.net/ru/tutorials/videotutorial/11/</link>
+      <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/videotutorial/11/</guid>
+      <description>&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/WfWgxUW9ET8&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
       <title>Февральское обновление AMRcloud</title>
       <link>https://amrcloud.net/ru/post/20220215-amrcloud-update/</link>
       <pubDate>Tue, 15 Feb 2022 09:00:00 +0300</pubDate>
@@ -10673,7 +10870,7 @@ File**→** Save with Encoding **→** Windows-1251.
       <pubDate>Fri, 22 Oct 2021 09:00:00 +0300</pubDate>
       <guid>https://amrcloud.net/ru/post/20211022-tutorial-video/</guid>
       <description>&lt;h3 id=&#34;уважаемые-коллеги&#34;&gt;Уважаемые коллеги!&lt;/h3&gt;
-&lt;p&gt;Подготовлена пошаговая видеоинструкция по работе с платформой AMRcloud (ссылка на видеоруководство) по следующим темам:&lt;/p&gt;
+&lt;p&gt;Подготовлена пошаговая видеоинструкция по работе с платформой AMRcloud по следующим темам:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Регистрация на сайте и начало работы&lt;/li&gt;
 &lt;li&gt;Загрузка данных&lt;/li&gt;

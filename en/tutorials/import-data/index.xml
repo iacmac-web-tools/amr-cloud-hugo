@@ -1626,5 +1626,114 @@ It is recommended to use unique and distinguishing names for your Data Sets (do 
 </description>
     </item>
     
+    <item>
+      <title>Add data</title>
+      <link>https://amrcloud.net/en/tutorials/import-data/09-adddata/</link>
+      <pubDate>Fri, 14 Feb 2020 00:01:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/tutorials/import-data/09-adddata/</guid>
+      <description>&lt;p&gt;In the future, if you have new data that does not structurally differ from those originally loaded into the &lt;strong&gt;Data Set&lt;/strong&gt;, then you will not have to reset all the import steps and reload the entire table every time.&lt;/p&gt;
+&lt;h2 id=&#34;add-data&#34;&gt;Add data&lt;/h2&gt;
+&lt;p&gt;Select the required data set and click on the &lt;strong&gt;Edit set&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/1.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/1.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Go to the &lt;strong&gt;Step Four: Determine S/I/R&lt;/strong&gt; tab and click on the &lt;strong&gt;Add Data&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/2.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/2.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Click &lt;strong&gt;Browse&lt;/strong&gt; to select a file (you can use a CSV file, in which case you may need to adjust the column separator). If the data table is displayed correctly, then check the date format is correct and check the box &lt;strong&gt;Check if you see the time scale?&lt;/strong&gt;. Finally, click on the &lt;strong&gt;Upload&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/3.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/3.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Once the upload is complete, you can close the upload window and proceed to analyze the data or upload more data.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    The functionality of adding data appeared in AMRcloud from February 15, 2022. For data sets created before this date, it will be necessary to reset the set in &lt;strong&gt;Step Two&lt;/strong&gt; and go through all the import steps again. After that, the functionality of adding data will become available.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

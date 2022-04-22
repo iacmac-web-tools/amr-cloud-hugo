@@ -138,6 +138,21 @@
   </url>
   
   <url>
+    <loc>https://amrcloud.net/en/tutorials/import-data/09-adddata/</loc>
+    <lastmod>2020-02-14T00:01:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/tutorials/import-data/09-adddata/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/tutorials/import-data/09-adddata/"
+                />
+  </url>
+  
+  <url>
     <loc>https://amrcloud.net/en/tutorials/analysis-examples/</loc>
     <lastmod>2021-10-12T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -183,6 +198,21 @@
   </url>
   
   <url>
+    <loc>https://amrcloud.net/en/tutorials/videotutorial/</loc>
+    <lastmod>2022-03-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/tutorials/videotutorial/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/tutorials/videotutorial/"
+                />
+  </url>
+  
+  <url>
     <loc>https://amrcloud.net/en/tutorials/analysis-examples/04/</loc>
     <lastmod>2021-10-12T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -213,6 +243,36 @@
   </url>
   
   <url>
+    <loc>https://amrcloud.net/en/</loc>
+    <lastmod>2022-03-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/tutorials/</loc>
+    <lastmod>2022-03-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/tutorials/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/tutorials/"
+                />
+  </url>
+  
+  <url>
     <loc>https://amrcloud.net/en/tutorials/integrations/adagio/</loc>
     <lastmod>2022-03-25T00:06:00+00:00</lastmod>
     <xhtml:link
@@ -228,32 +288,32 @@
   </url>
   
   <url>
-    <loc>https://amrcloud.net/en/</loc>
+    <loc>https://amrcloud.net/en/tutorials/videotutorial/05/</loc>
     <lastmod>2022-03-25T00:06:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://amrcloud.net/ru/"
+                href="https://amrcloud.net/ru/tutorials/videotutorial/05/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://amrcloud.net/en/"
+                href="https://amrcloud.net/en/tutorials/videotutorial/05/"
                 />
   </url>
   
   <url>
-    <loc>https://amrcloud.net/en/tutorials/</loc>
+    <loc>https://amrcloud.net/en/tutorials/videotutorial/07/</loc>
     <lastmod>2022-03-25T00:06:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://amrcloud.net/ru/tutorials/"
+                href="https://amrcloud.net/ru/tutorials/videotutorial/07/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://amrcloud.net/en/tutorials/"
+                href="https://amrcloud.net/en/tutorials/videotutorial/07/"
                 />
   </url>
   
@@ -269,6 +329,141 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://amrcloud.net/en/tutorials/integrations/caesar/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/tutorials/videotutorial/09/</loc>
+    <lastmod>2022-03-25T00:06:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/tutorials/videotutorial/09/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/tutorials/videotutorial/09/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/tutorials/videotutorial/02/</loc>
+    <lastmod>2022-03-25T00:06:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/tutorials/videotutorial/02/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/tutorials/videotutorial/02/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/tutorials/videotutorial/03/</loc>
+    <lastmod>2022-03-25T00:06:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/tutorials/videotutorial/03/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/tutorials/videotutorial/03/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/tutorials/videotutorial/01/</loc>
+    <lastmod>2022-03-25T00:06:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/tutorials/videotutorial/01/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/tutorials/videotutorial/01/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/tutorials/videotutorial/11/</loc>
+    <lastmod>2022-03-25T00:06:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/tutorials/videotutorial/11/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/tutorials/videotutorial/11/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/tutorials/videotutorial/10/</loc>
+    <lastmod>2022-03-25T00:06:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/tutorials/videotutorial/10/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/tutorials/videotutorial/10/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/tutorials/videotutorial/08/</loc>
+    <lastmod>2022-03-25T00:06:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/tutorials/videotutorial/08/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/tutorials/videotutorial/08/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/tutorials/videotutorial/04/</loc>
+    <lastmod>2022-03-25T00:06:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/tutorials/videotutorial/04/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/tutorials/videotutorial/04/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/tutorials/videotutorial/06/</loc>
+    <lastmod>2022-03-25T00:06:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/tutorials/videotutorial/06/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/tutorials/videotutorial/06/"
                 />
   </url>
   
