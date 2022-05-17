@@ -624,6 +624,122 @@
 
 &lt;/figure&gt;
 
+&lt;h2 id=&#34;оценка-активности-антимикробных-препаратов-для-всех-групп-микроорганизмов&#34;&gt;Оценка активности антимикробных препаратов для всех групп микроорганизмов&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Выбрать с помощью фильтров раздела &lt;strong&gt;Параметры основные&lt;/strong&gt; все группы микроорганизмов.&lt;/li&gt;
+&lt;li&gt;В разделе &lt;strong&gt;«Инфографика»&lt;/strong&gt; перейти во вкладку &lt;strong&gt;Антибиотики (все)&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Перейти в подвкладку &lt;strong&gt;Микроорганизмы vs. антибиотики&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Нажать на кнопку &lt;strong&gt;Отобразить&lt;/strong&gt;, расположенную в самом низу экрана.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-оценка-активности-антимикробных-препаратов-для-всех-групп-микроорганизмов-фильтры&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-10.png&#34; data-caption=&#34;Оценка активности антимикробных препаратов для всех групп микроорганизмов. Фильтры&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-10.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Оценка активности антимикробных препаратов для всех групп микроорганизмов. Фильтры
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;На экране отобразится следующая таблица (в верхней части приведены значения с ДИ±10%, а в нижней части — с большим значением ДИ):&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-оценка-активности-антимикробных-препаратов-для-всех-групп-микроорганизмов-таблица-точность-результата--80&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-10-graph1.png&#34; data-caption=&#34;Оценка активности антимикробных препаратов для всех групп микроорганизмов. Таблица. Точность результата ≥ 80%&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-10-graph1.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Оценка активности антимикробных препаратов для всех групп микроорганизмов. Таблица. Точность результата ≥ 80%
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-оценка-активности-антимикробных-препаратов-для-всех-групп-микроорганизмов-таблица-точность-результата--80&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-10-graph2.png&#34; data-caption=&#34;Оценка активности антимикробных препаратов для всех групп микроорганизмов. Таблица. Точность результата &amp;amp;lt; 80%&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-10-graph2.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Оценка активности антимикробных препаратов для всех групп микроорганизмов. Таблица. Точность результата &amp;lt; 80%
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;тренд-резистентности-к-антимикробным-препаратам-по-годам&#34;&gt;Тренд резистентности к антимикробным препаратам по годам&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;В разделе &lt;strong&gt;Параметры основные&lt;/strong&gt; установить необходимые для анализа значения параметров &lt;strong&gt;Группа микроорганизмов&lt;/strong&gt; и &lt;strong&gt;Микроорганизмы&lt;/strong&gt; (например, выбрать Enterobacterales).&lt;/li&gt;
@@ -2783,10 +2899,12 @@
       <link>https://amrcloud.net/ru/tutorials/analysis-examples/05/</link>
       <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://amrcloud.net/ru/tutorials/analysis-examples/05/</guid>
-      <description>&lt;p&gt;В AMRcloud существуют два способа обмена данными с другими пользователями:&lt;/p&gt;
+      <description>&lt;p&gt;В AMRcloud существуют три способа обмена данными с другими пользователями:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;открыть доступ к проекту в AMRcloud для других пользователей (при этом набор данных станет доступен для просмотра, анализа и изменения всем членам команды);&lt;/li&gt;
-&lt;li&gt;сгенерировать внешнюю ссылку, перейдя по которой другие пользователи смогут просматривать результаты анализа и визуализации (таблицы, диаграммы и пр.)&lt;/li&gt;
+&lt;li&gt;командный доступ к проекту в AMRcloud (при этом набор данных станет доступен для просмотра, анализа и изменения всем членам команды)&lt;/li&gt;
+&lt;li&gt;прямая внешняя ссылка на проект&lt;/li&gt;
+&lt;li&gt;ссылка на фрагмент данных&lt;/li&gt;
+&lt;li&gt;дашборд&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;командный-доступ-к-проекту&#34;&gt;Командный доступ к проекту&lt;/h2&gt;
 &lt;p&gt;Для обеспечения доступа к проекту различным специалистам, можно создать собственную команду пользователей.&lt;/p&gt;
@@ -3013,7 +3131,118 @@
 
 &lt;/figure&gt;
 &lt;/p&gt;
-&lt;h2 id=&#34;доступ-к-проекту-по-ссылке&#34;&gt;Доступ к проекту по ссылке&lt;/h2&gt;
+&lt;h2 id=&#34;прямая-ссылка-на-проект&#34;&gt;Прямая ссылка на проект&lt;/h2&gt;
+&lt;p&gt;Для получения прямой внешней ссылки на весь проект, необходимо выбрать нужный набор данных (для этого следует щелкнуть левой кнопкой мыши один раз по названию набора данных из списка, чтобы соответствующая строка выделилась синим цветом), нажать на кнопку &lt;strong&gt;Редактировать набор данных&lt;/strong&gt;, перейти на вкладку &lt;strong&gt;Ссылки&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-редактирование-набора-данных&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-08.png&#34; data-caption=&#34;Редактирование набора данных&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-08.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Редактирование набора данных
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-постоянная-ссылка-на-набор-данных&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-11.png&#34; data-caption=&#34;Постоянная ссылка на набор данных&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/example-11.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Постоянная ссылка на набор данных
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Постоянная ссылка на набор данных появится в специальном окне. Параметры доступа по ссылке можно изменить, нажав на значок с шестерёнкой.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-необходимые-настройки-доступа-по-ссылке&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-10.png&#34; data-caption=&#34;Необходимые настройки доступа по ссылке&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/share-10.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Необходимые настройки доступа по ссылке
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;ссылка-на-выбранный-фрагмент-данных&#34;&gt;Ссылка на выбранный фрагмент данных&lt;/h2&gt;
 &lt;p&gt;После того, получены результаты анализа данных (в виде графиков, таблиц и пр.), не меняя настройки всех установленных фильтров, необходимо нажать на кнопку &lt;i class=&#34;fas fa-link&#34;&gt;&lt;/i&gt; в верхнем правом углу экрана (над разделом &lt;strong&gt;Параметры основные&lt;/strong&gt;).&lt;/p&gt;
 
 
@@ -3203,6 +3432,9 @@
 
 &lt;/figure&gt;
 &lt;/p&gt;
+&lt;h2 id=&#34;дашборды&#34;&gt;Дашборды&lt;/h2&gt;
+&lt;p&gt;Подробно механизм  дашбордов, который позволяет пользователям делиться локальными данными антимикробной резистентности, описан 
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/dashboard/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;в соответствующем руководстве&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
