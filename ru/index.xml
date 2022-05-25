@@ -5,7 +5,7 @@
     <link>https://amrcloud.net/ru/</link>
       <atom:link href="https://amrcloud.net/ru/index.xml" rel="self" type="application/rss+xml" />
     <description>AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2022</copyright><lastBuildDate>Wed, 25 May 2022 00:06:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2022</copyright><lastBuildDate>Thu, 26 May 2022 01:00:00 +0300</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>AMRcloud</title>
@@ -6448,7 +6448,20 @@ File**→** Save with Encoding **→** Windows-1251.
     </item>
     
     <item>
-      <title>Экспорт данных из ЛИС «Патоген»</title>
+      <title>Интеграция с ЛИС Патоген</title>
+      <link>https://amrcloud.net/ru/post/20220526-lis-patogen/</link>
+      <pubDate>Thu, 26 May 2022 01:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/ru/post/20220526-lis-patogen/</guid>
+      <description>&lt;p&gt;Мы всегда рады нашим коллегам и партнерам из индустрии, поэтому с радостью сообщаем, что для пользователей 
+&lt;a href=&#34;https://patogen-lis.ru/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ЛИС Патоген&lt;/a&gt; среди набора отчетов появилась возможность 
+&lt;a href=&#34;https://patogen-lis.ru/tpost/nkghi1vdd1-otchyoti&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;выгрузки в AMRcloud&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Порядок действий описан в руководстве 
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/integrations/patogen-lis/&#34;&gt;Экспорт из ЛИС «Патоген» в AMRcloud&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Экспорт из ЛИС «Патоген» в AMRcloud</title>
       <link>https://amrcloud.net/ru/tutorials/integrations/patogen-lis/</link>
       <pubDate>Wed, 25 May 2022 00:06:00 +0000</pubDate>
       <guid>https://amrcloud.net/ru/tutorials/integrations/patogen-lis/</guid>
