@@ -5018,7 +5018,8 @@ Example: flag location with &amp;gt;=50% resistance to ciprofloxacin:&lt;/p&gt;
       <link>https://amrcloud.net/en/tutorials/integrations/adagio/</link>
       <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
       <guid>https://amrcloud.net/en/tutorials/integrations/adagio/</guid>
-      <description>&lt;p&gt;This tutorial shows you how to export and convert the data from &lt;strong&gt;Adagio&lt;/strong&gt; system for uploading to the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; online platform.&lt;/p&gt;
+      <description>&lt;p&gt;This tutorial shows you how to export and convert the data from 
+&lt;a href=&#34;https://www.bio-rad.com/en-ru/product/adagio-automated-system&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Adagio&lt;/a&gt; system for uploading to the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; online platform.&lt;/p&gt;
 &lt;div class=&#34;alert alert-warning&#34;&gt;
   &lt;div&gt;
     First of all you should to configure report templates for uploading. In order to configure the reports, please contact Bio-Rad support service &lt;a href=&#34;mailto:sos@bio-rad.com&#34;&gt;sos@bio-rad.com&lt;/a&gt;.
@@ -5846,7 +5847,8 @@ Example: flag location with &amp;gt;=50% resistance to ciprofloxacin:&lt;/p&gt;
       <guid>https://amrcloud.net/en/tutorials/integrations/caesar/</guid>
       <description>&lt;p&gt;This tutorial shows you how to:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;prepare and upload CAESAR data table to the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; online platform.&lt;/li&gt;
+&lt;li&gt;prepare and upload 
+&lt;a href=&#34;https://www.euro.who.int/en/health-topics/disease-prevention/antimicrobial-resistance/surveillance/central-asian-and-european-surveillance-of-antimicrobial-resistance-caesar&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAESAR&lt;/a&gt; data table to the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; online platform.&lt;/li&gt;
 &lt;li&gt;convert the data from the AMRcloud online platfrom to CAESAR data-table format.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;from-caesar-to-amrcloud&#34;&gt;From CAESAR to AMRcloud&lt;/h2&gt;
@@ -6645,7 +6647,8 @@ Full description of CAESAR file columns you can find in
       <link>https://amrcloud.net/en/tutorials/integrations/vitek-2/</link>
       <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
       <guid>https://amrcloud.net/en/tutorials/integrations/vitek-2/</guid>
-      <description>&lt;p&gt;This tutorial shows you how to export and convert the data from &lt;strong&gt;Vitek 2&lt;/strong&gt; system for uploading to the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; online platform.&lt;/p&gt;
+      <description>&lt;p&gt;This tutorial shows you how to export and convert the data from 
+&lt;a href=&#34;https://www.biomerieux.co.uk/product/vitekr-2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vitek 2&lt;/a&gt; system for uploading to the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; online platform.&lt;/p&gt;
 &lt;p&gt;The basic steps of uploading data to the AMRcloud online platform are described in the 
 &lt;a href=&#34;https://amrcloud.net/en/tutorials/import-data/&#34;&gt;AMRcloud Data Import Tutorial&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;vitek-2-export&#34;&gt;VITEK 2 export&lt;/h2&gt;
@@ -7542,7 +7545,8 @@ Full description of CAESAR file columns you can find in
       <link>https://amrcloud.net/en/tutorials/integrations/whonet/</link>
       <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
       <guid>https://amrcloud.net/en/tutorials/integrations/whonet/</guid>
-      <description>&lt;p&gt;This tutorial shows you how to export and convert the data from &lt;strong&gt;WHONET&lt;/strong&gt; program for uploading to the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; online platform.&lt;/p&gt;
+      <description>&lt;p&gt;This tutorial shows you how to export and convert the data from 
+&lt;a href=&#34;https://whonet.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WHONET&lt;/a&gt; program for uploading to the &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; online platform.&lt;/p&gt;
 &lt;p&gt;The basic steps of uploading data to the AMRcloud online platform are described in the 
 &lt;a href=&#34;https://amrcloud.net/en/tutorials/import-data/&#34;&gt;AMRcloud Data Import Tutorial&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;whonet-export&#34;&gt;WHONET export&lt;/h2&gt;

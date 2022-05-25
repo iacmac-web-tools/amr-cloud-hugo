@@ -5,7 +5,7 @@
     <link>https://amrcloud.net/ru/</link>
       <atom:link href="https://amrcloud.net/ru/index.xml" rel="self" type="application/rss+xml" />
     <description>AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2022</copyright><lastBuildDate>Sat, 26 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2022</copyright><lastBuildDate>Wed, 25 May 2022 00:06:00 +0000</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>AMRcloud</title>
@@ -6448,11 +6448,230 @@ File**→** Save with Encoding **→** Windows-1251.
     </item>
     
     <item>
+      <title>Экспорт данных из ЛИС «Патоген»</title>
+      <link>https://amrcloud.net/ru/tutorials/integrations/patogen-lis/</link>
+      <pubDate>Wed, 25 May 2022 00:06:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/integrations/patogen-lis/</guid>
+      <description>&lt;p&gt;Руководство «Экспорт из ЛИС «Патоген» в AMRcloud» рассказывает о том, как имеющиеся у вас данные из 
+&lt;a href=&#34;https://patogen-lis.ru/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ЛИС «Патоген»&lt;/a&gt; подготовить для загрузки в онлайн-платформу AMRcloud.&lt;/p&gt;
+&lt;p&gt;ЛИС «Патоген» имеет встроенный готовый отчет &lt;strong&gt;Выгрузка в AMRcloud&lt;/strong&gt;. Его можно найти в боковом меню программы в разделе &lt;strong&gt;Отчеты&lt;/strong&gt;. По умолчанию выгружаются все данные с момента начала использования ЛИС «Патоген».&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-выбор-отчета&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/patogen-export/Picture1.png&#34; data-caption=&#34;Выбор отчета&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/patogen-export/Picture1.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выбор отчета
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;При необходимости можно отфильтровать данные по следующим параметрам:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;раздел микроорганизмов,&lt;/li&gt;
+&lt;li&gt;антибиотикограммы,&lt;/li&gt;
+&lt;li&gt;микроорганизм,&lt;/li&gt;
+&lt;li&gt;дата регистрации (можно задать период),&lt;/li&gt;
+&lt;li&gt;источник,&lt;/li&gt;
+&lt;li&gt;материал.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Все параметры, кроме даты регистрации, имеют множественный выбор, то есть можно выбрать все группы микроорганизмов, а можно выбрать 1, 2 или более группы, те, которые вам нужны для выборки.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-заполнение-фильтров-выборки&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/patogen-export/Picture2.png&#34; data-caption=&#34;Заполнение фильтров выборки&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/patogen-export/Picture2.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Заполнение фильтров выборки
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;После указания всех фильтров, при нажатии кнопки &lt;strong&gt;Найти&lt;/strong&gt;, сформируется отчет согласно выбранным параметрам с обязательными полями:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;идентификатор изолята,&lt;/li&gt;
+&lt;li&gt;дата,&lt;/li&gt;
+&lt;li&gt;вид микроорганизма,&lt;/li&gt;
+&lt;li&gt;группа микроорганизма,&lt;/li&gt;
+&lt;li&gt;клинический материал,&lt;/li&gt;
+&lt;li&gt;отделение.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Дополнительно выводятся данные о маркерах резистентности. Далее таблица состоит из столбцов с наименованиями антимикробных препаратов и результатами определения чувствительности. ЛИС «Патоген» выгружает данные диаметров зон подавления роста и данные минимальных подавляющих концентраций.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-пример-сформированного-отчета&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/patogen-export/Picture3.png&#34; data-caption=&#34;Пример сформированного отчета&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/patogen-export/Picture3.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Пример сформированного отчета
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Чтобы сформировать файл для загрузки в платформу AMRcloud, нужно справа сверху нажать кнопку &lt;strong&gt;Экспорт в .csv&lt;/strong&gt;, автоматически произойдет скачивание файла в формате таблицы Excel.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-выгрузка-отчета-в-формат-csv&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/patogen-export/Picture4.png&#34; data-caption=&#34;Выгрузка отчета в формат CSV&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/patogen-export/Picture4.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выгрузка отчета в формат CSV
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Готовый отчет можно найти в папке &lt;strong&gt;Загрузки&lt;/strong&gt; вашего браузера.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-отчет-открытый-в-программе-ms-excel&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/patogen-export/Picture5.png&#34; data-caption=&#34;Отчет, открытый в программе MS Excel&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/patogen-export/Picture5.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Отчет, открытый в программе MS Excel
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Созданный файл может быть загружен в &lt;strong&gt;AMRcloud&lt;/strong&gt; для анализа. Как загрузить полученный файл подробно описано в &lt;a href=&#34;https://amrcloud.net/ru/tutorials/import-data/&#34;&gt;Руководстве «AMRcloud. Импорт данных»&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Экспорт из Adagio в AMRcloud</title>
       <link>https://amrcloud.net/ru/tutorials/integrations/adagio/</link>
       <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
       <guid>https://amrcloud.net/ru/tutorials/integrations/adagio/</guid>
-      <description>&lt;p&gt;Руководство «Экспорт из Adagio в AMRcloud» рассказывает о том, как имеющиеся у вас данные из анализатора Adagio подготовить для загрузки в онлайн-платформу &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;Руководство «Экспорт из Adagio в AMRcloud» рассказывает о том, как имеющиеся у вас данные из анализатора 
+&lt;a href=&#34;https://www.bio-rad.com/ru-ru/product/adagio-automated-system&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Adagio&lt;/a&gt; подготовить для загрузки в онлайн-платформу &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
 &lt;div class=&#34;alert alert-warning&#34;&gt;
   &lt;div&gt;
     Предварительно необходимо настроить шаблоны отчетов для выгрузки. Для настройки отчетов обращайтесь в службу поддержки Био-Рад &lt;a href=&#34;mailto:sos@bio-rad.com&#34;&gt;sos@bio-rad.com&lt;/a&gt;
@@ -7261,7 +7480,8 @@ File**→** Save with Encoding **→** Windows-1251.
       <guid>https://amrcloud.net/ru/tutorials/integrations/caesar/</guid>
       <description>&lt;p&gt;Руководство «Конвертация CAESAR &amp;lt;=&amp;gt; AMRcloud» рассказывает о следующем:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;как имеющиеся у вас данные, готовые для репортирования в рамках исследования CAESAR, подготовить для загрузки в онлайн-платформу &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;как имеющиеся у вас данные, готовые для репортирования в рамках исследования 
+&lt;a href=&#34;https://www.euro.who.int/en/health-topics/disease-prevention/antimicrobial-resistance/surveillance/central-asian-and-european-surveillance-of-antimicrobial-resistance-caesar&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAESAR&lt;/a&gt;, подготовить для загрузки в онлайн-платформу &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/li&gt;
 &lt;li&gt;как имеющиеся у вас данные, загруженные в AMRcloud, подготовить для репортирования в рамках исследования CAESAR.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;из-caesar-в-amrcloud&#34;&gt;Из CAESAR в AMRcloud&lt;/h2&gt;
@@ -8020,7 +8240,8 @@ File**→** Save with Encoding **→** Windows-1251.
       <link>https://amrcloud.net/ru/tutorials/integrations/labforce/</link>
       <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
       <guid>https://amrcloud.net/ru/tutorials/integrations/labforce/</guid>
-      <description>&lt;p&gt;Руководство «Экспорт из LabForce в AMRcloud» рассказывает о том, как имеющиеся у вас данные из ЛИС LabForce экспортировать в файл формата &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;Руководство «Экспорт из LabForce в AMRcloud» рассказывает о том, как имеющиеся у вас данные из 
+&lt;a href=&#34;https://labforce.ru/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ЛИС LabForce&lt;/a&gt; экспортировать в файл формата &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;Файл экспорта представляет собой текстовый файл, использующий в качестве разделителя полей символ табуляции и имеющий кодировку WIN1251. Формирование файла выполняется на основании данных, входящих в предварительно созданный список отобранных анализов.&lt;/p&gt;
 &lt;p&gt;Для подготовки данных для выгрузки нужно зайти в меню &lt;strong&gt;Справочники&lt;/strong&gt; &amp;gt; &lt;strong&gt;Интеграция с МИС&lt;/strong&gt; &amp;gt; &lt;strong&gt;Выгрузка в AMRCloud&lt;/strong&gt;.&lt;/p&gt;
 
@@ -8220,7 +8441,8 @@ File**→** Save with Encoding **→** Windows-1251.
       <link>https://amrcloud.net/ru/tutorials/integrations/vitek-2/</link>
       <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
       <guid>https://amrcloud.net/ru/tutorials/integrations/vitek-2/</guid>
-      <description>&lt;p&gt;Руководство «Экспорт из Vitek в AMRcloud» рассказывает о том, как имеющиеся у вас данные из анализатора Vitek 2 подготовить для загрузки в онлайн-платформу &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;Руководство «Экспорт из Vitek в AMRcloud» рассказывает о том, как имеющиеся у вас данные из анализатора 
+&lt;a href=&#34;https://www.biomerieux-russia.com/%D0%BA%D0%BB%D0%B8%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%B4%D0%B8%D0%B0%D0%B3%D0%BD%D0%BE%D1%81%D1%82%D0%B8%D0%BA%D0%B0/%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82/vitek%C2%AE-2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vitek 2&lt;/a&gt; подготовить для загрузки в онлайн-платформу &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;Как загрузить полученный файл подробно описано в 
 &lt;a href=&#34;https://amrcloud.net/ru/tutorials/import-data/&#34;&gt;Руководстве «AMRcloud. Импорт данных»&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;экспорт-из-vitek-2&#34;&gt;Экспорт из VITEK 2&lt;/h2&gt;
@@ -9117,7 +9339,8 @@ File**→** Save with Encoding **→** Windows-1251.
       <link>https://amrcloud.net/ru/tutorials/integrations/whonet/</link>
       <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
       <guid>https://amrcloud.net/ru/tutorials/integrations/whonet/</guid>
-      <description>&lt;p&gt;Руководство «Конвертация из WHONET в AMRcloud» рассказывает о том, как имеющиеся у вас данные из программы WHONET подготовить для загрузки в онлайн-платформу &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;Руководство «Конвертация из WHONET в AMRcloud» рассказывает о том, как имеющиеся у вас данные из программы 
+&lt;a href=&#34;https://whonet.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WHONET&lt;/a&gt; подготовить для загрузки в онлайн-платформу &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;Как загрузить полученный файл подробно описано в 
 &lt;a href=&#34;https://amrcloud.net/ru/tutorials/import-data/&#34;&gt;Руководстве «AMRcloud. Импорт данных»&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;экспорт-из-whonet&#34;&gt;Экспорт из WHONET&lt;/h2&gt;
@@ -10284,7 +10507,8 @@ File**→** Save with Encoding **→** Windows-1251.
       <link>https://amrcloud.net/ru/tutorials/integrations/across/</link>
       <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
       <guid>https://amrcloud.net/ru/tutorials/integrations/across/</guid>
-      <description>&lt;p&gt;Руководство «Экспорт из ЛИС «Акросс-Клиническая Лаборатория» в AMRcloud» рассказывает о том, как имеющиеся у вас данные из ЛИС «Акросс-Клиническая Лаборатория» (ЛИС АКЛ) экспортировать в файл формата AMRcloud.&lt;/p&gt;
+      <description>&lt;p&gt;Руководство «Экспорт из ЛИС «Акросс-Клиническая Лаборатория» в AMRcloud» рассказывает о том, как имеющиеся у вас данные из 
+&lt;a href=&#34;https://across.ru/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ЛИС «Акросс-Клиническая Лаборатория» (ЛИС АКЛ)&lt;/a&gt; экспортировать в файл формата AMRcloud.&lt;/p&gt;
 &lt;p&gt;Формирование файла выполняется на основании данных, входящих в предварительно созданный список отобранных анализов.&lt;/p&gt;
 &lt;p&gt;В общем меню программы выберите подменю &lt;strong&gt;Отчеты&lt;/strong&gt;, затем пункт &lt;strong&gt;Выгрузка в AMRcloud&lt;/strong&gt;.&lt;/p&gt;
 
@@ -10418,7 +10642,8 @@ File**→** Save with Encoding **→** Windows-1251.
       <link>https://amrcloud.net/ru/tutorials/integrations/microb-2/</link>
       <pubDate>Fri, 25 Mar 2022 00:06:00 +0000</pubDate>
       <guid>https://amrcloud.net/ru/tutorials/integrations/microb-2/</guid>
-      <description>&lt;p&gt;Руководство «Экспорт из Микроб-2 в AMRcloud» рассказывает о том, как имеющиеся у вас данные из программы Микроб-2 подготовить для загрузки в онлайн-платформу &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;Руководство «Экспорт из Микроб-2 в AMRcloud» рассказывает о том, как имеющиеся у вас данные из программы 
+&lt;a href=&#34;https://erbarus.com/products/mikrobiologiya/soft/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Микроб-2&lt;/a&gt; подготовить для загрузки в онлайн-платформу &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;создание-файла&#34;&gt;Создание файла&lt;/h2&gt;
 &lt;p&gt;Файл экспорта представляет собой текстовый файл, использующий в качестве разделителя полей символ табуляции и имеющий кодировку WIN1251. Формирование файла выполняется на основании данных, входящих в предварительно созданный список отобранных анализов.&lt;/p&gt;
 &lt;p&gt;Для создания списка отобранных анализов вызовите команду меню &lt;strong&gt;Журнал&lt;/strong&gt; &amp;gt; &lt;strong&gt;Параметры отбора&lt;/strong&gt;:&lt;/p&gt;
