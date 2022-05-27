@@ -339,7 +339,7 @@
   
   <url>
     <loc>https://amrcloud.net/ru/</loc>
-    <lastmod>2022-05-26T01:00:00+03:00</lastmod>
+    <lastmod>2022-05-26T09:00:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -353,13 +353,8 @@
   </url>
   
   <url>
-    <loc>https://amrcloud.net/ru/post/20220526-lis-patogen/</loc>
-    <lastmod>2022-05-26T01:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://amrcloud.net/ru/post/</loc>
-    <lastmod>2022-05-26T01:00:00+03:00</lastmod>
+    <lastmod>2022-05-26T09:00:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -370,6 +365,16 @@
                 hreflang="ru"
                 href="https://amrcloud.net/ru/post/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/post/20220526-xxiv-congress/</loc>
+    <lastmod>2022-05-26T09:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/post/20220526-lis-patogen/</loc>
+    <lastmod>2022-05-26T01:00:00+03:00</lastmod>
   </url>
   
   <url>
