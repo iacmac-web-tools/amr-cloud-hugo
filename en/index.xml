@@ -5,7 +5,7 @@
     <link>https://amrcloud.net/en/</link>
       <atom:link href="https://amrcloud.net/en/index.xml" rel="self" type="application/rss+xml" />
     <description>AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2022</copyright><lastBuildDate>Sat, 26 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2022</copyright><lastBuildDate>Tue, 07 Jun 2022 09:00:00 +0300</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>AMRcloud</title>
@@ -5010,6 +5010,184 @@ Example: flag location with &amp;gt;=50% resistance to ciprofloxacin:&lt;/p&gt;
 
 &lt;/figure&gt;
 
+</description>
+    </item>
+    
+    <item>
+      <title>AMRcloud June update</title>
+      <link>https://amrcloud.net/en/post/20220607-amrcloud-update/</link>
+      <pubDate>Tue, 07 Jun 2022 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/en/post/20220607-amrcloud-update/</guid>
+      <description>&lt;p&gt;AMRcloud has been updated to version 0.9:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Added a new analytical module &lt;strong&gt;Expert System&lt;/strong&gt;, which allows you to automatically find errors and inconsistencies in the phenotypic data of antibiotic resistance.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-example-expert-system-results&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/en/post/20220607-amrcloud-update/img/expert-table_hu6e25c20ee1ca87d64b02bfba5b0102d0_68735_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Example Expert System results&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/en/post/20220607-amrcloud-update/img/expert-table_hu6e25c20ee1ca87d64b02bfba5b0102d0_68735_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1253&#34; height=&#34;809&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Example Expert System results
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;To activate the &lt;strong&gt;Expert system&lt;/strong&gt; tab, you must reset the &lt;strong&gt;Step Four&lt;/strong&gt; of editing the data set and check the box &lt;em&gt;Validate data using an expert system&lt;/em&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-activation-of-the-expert-system-tab&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/en/post/20220607-amrcloud-update/img/expert-checkbox_hu98317270a8df42e4934a1085f1256b99_47791_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Activation of the &amp;lt;strong&amp;gt;Expert system&amp;lt;/strong&amp;gt; tab&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/en/post/20220607-amrcloud-update/img/expert-checkbox_hu98317270a8df42e4934a1085f1256b99_47791_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1256&#34; height=&#34;490&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Activation of the &lt;strong&gt;Expert system&lt;/strong&gt; tab
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Added the ability to select sorting for the display of pie charts on the &lt;strong&gt;Data structure&lt;/strong&gt; tab (by quantity or by name);&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-сортировка-на-круговых-диаграммах&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/en/post/20220607-amrcloud-update/img/pie-sort_hu39c4f4484f79ddefd456403f20d9db5a_40057_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Сортировка на круговых диаграммах&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/en/post/20220607-amrcloud-update/img/pie-sort_hu39c4f4484f79ddefd456403f20d9db5a_40057_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1251&#34; height=&#34;752&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Сортировка на круговых диаграммах
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;When adding a chart to a dashboard, the last used dashboard is selected by default;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Added the ability to change the name of the previously created chart in the dashboard;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Added the ability to change the font size on the X and Y axes (on interactive charts);&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;An optional display of 95% CI is available.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-display-of-95-ci-and-font-size-of-axis-settings&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/en/post/20220607-amrcloud-update/img/hide-show-ci_hu7e87b0f03b30ff3df749e112a2c01aee_66101_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Display of 95% CI and font size of axis settings&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/en/post/20220607-amrcloud-update/img/hide-show-ci_hu7e87b0f03b30ff3df749e112a2c01aee_66101_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1257&#34; height=&#34;772&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Display of 95% CI and font size of axis settings
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

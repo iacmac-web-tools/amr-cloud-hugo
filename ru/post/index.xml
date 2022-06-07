@@ -5,12 +5,190 @@
     <link>https://amrcloud.net/ru/post/</link>
       <atom:link href="https://amrcloud.net/ru/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Новости</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2022</copyright><lastBuildDate>Thu, 26 May 2022 09:00:00 +0300</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2022</copyright><lastBuildDate>Tue, 07 Jun 2022 09:00:00 +0300</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>Новости</title>
       <link>https://amrcloud.net/ru/post/</link>
     </image>
+    
+    <item>
+      <title>Июньское обновление AMRcloud</title>
+      <link>https://amrcloud.net/ru/post/20220607-amrcloud-update/</link>
+      <pubDate>Tue, 07 Jun 2022 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/ru/post/20220607-amrcloud-update/</guid>
+      <description>&lt;p&gt;Июньское обновление платформы для анализа пользовательских данных антибиотикорезистентности AMRcloud:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Добавлен новый аналитической модуль &lt;strong&gt;Экспертная система&lt;/strong&gt;, который позволяет автоматически находить ошибки и несоответствия в фенотипических данных антибиотикорезистентности.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-пример-работы-аналитического-модуля&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/ru/post/20220607-amrcloud-update/img/expert-table_hu051bf44a9ed0c27e431226102f712a41_223526_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Пример работы аналитического модуля&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/ru/post/20220607-amrcloud-update/img/expert-table_hu051bf44a9ed0c27e431226102f712a41_223526_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1788&#34; height=&#34;777&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Пример работы аналитического модуля
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Для активации вкладки &lt;strong&gt;Экспертная система&lt;/strong&gt;, необходимо сбросить 4 шаг редактирования набора данных и проставить галку &lt;em&gt;Проверить данные с использованием экспертной системы&lt;/em&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-активация-вкладки-экспертная-система&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/ru/post/20220607-amrcloud-update/img/expert-checkbox_hu7a0c78da45f87de1cfefe2e6186d2591_131950_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Активация вкладки &amp;lt;strong&amp;gt;Экспертная система&amp;lt;/strong&amp;gt;&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/ru/post/20220607-amrcloud-update/img/expert-checkbox_hu7a0c78da45f87de1cfefe2e6186d2591_131950_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1908&#34; height=&#34;514&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Активация вкладки &lt;strong&gt;Экспертная система&lt;/strong&gt;
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Добавлена возможность выбора сортировки отображения круговых диаграмм на вкладке &lt;strong&gt;Структура данных&lt;/strong&gt; (по количеству или по наименованию);&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-сортировка-на-круговых-диаграммах&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/ru/post/20220607-amrcloud-update/img/pie-sort_hu9171e087d9244a04e0e080a57871d60c_102814_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Сортировка на круговых диаграммах&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/ru/post/20220607-amrcloud-update/img/pie-sort_hu9171e087d9244a04e0e080a57871d60c_102814_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1431&#34; height=&#34;883&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Сортировка на круговых диаграммах
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;При добавлении графика в дашборд по умолчанию выбирается последний используемый дашборд;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Добавлена возможность изменить название созданного ранее графика в дашборде;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Добавлена возможность изменения размера шрифтов на осях Х и Y (на интерактивных графиках);&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Доступно опциональное выключение отображения 95% ДИ.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-настройка-отображения-95-ди&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/ru/post/20220607-amrcloud-update/img/hide-show-ci_hudd94dd29f86ce2b330517344f03d0270_142157_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Настройка отображения 95% ДИ&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/ru/post/20220607-amrcloud-update/img/hide-show-ci_hudd94dd29f86ce2b330517344f03d0270_142157_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1418&#34; height=&#34;853&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Настройка отображения 95% ДИ
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Обучающий семинар «AMRnote — локальные рекомендации по выбору антибиотикотерапии»</title>

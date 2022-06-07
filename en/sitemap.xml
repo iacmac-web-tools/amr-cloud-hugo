@@ -244,7 +244,7 @@
   
   <url>
     <loc>https://amrcloud.net/en/</loc>
-    <lastmod>2022-03-26T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-07T09:00:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -254,6 +254,36 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://amrcloud.net/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/post/20220607-amrcloud-update/</loc>
+    <lastmod>2022-06-07T09:00:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/post/20220607-amrcloud-update/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/post/20220607-amrcloud-update/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/post/</loc>
+    <lastmod>2022-06-07T09:00:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/post/"
                 />
   </url>
   
@@ -509,21 +539,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://amrcloud.net/en/post/20220215-amrcloud-update/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/en/post/</loc>
-    <lastmod>2022-02-15T09:00:00+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/post/"
                 />
   </url>
   
