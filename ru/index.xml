@@ -5,7 +5,7 @@
     <link>https://amrcloud.net/ru/</link>
       <atom:link href="https://amrcloud.net/ru/index.xml" rel="self" type="application/rss+xml" />
     <description>AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2022</copyright><lastBuildDate>Tue, 07 Jun 2022 09:00:00 +0300</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2022</copyright><lastBuildDate>Tue, 14 Jun 2022 09:00:00 +0000</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>AMRcloud</title>
@@ -6444,6 +6444,40 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;h2 id=&#34;дашборды&#34;&gt;Дашборды&lt;/h2&gt;
 &lt;p&gt;Подробно механизм  дашбордов, который позволяет пользователям делиться локальными данными антимикробной резистентности, описан 
 &lt;a href=&#34;https://amrcloud.net/ru/tutorials/dashboard/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;в соответствующем руководстве&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Основные грамотрицательные бактериальные патогены, изолированные из дыхательных путей пациентов с муковисцидозом</title>
+      <link>https://amrcloud.net/ru/project/muco-v/</link>
+      <pubDate>Tue, 14 Jun 2022 09:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/project/muco-v/</guid>
+      <description>&lt;h3 id=&#34;организаторы&#34;&gt;Организаторы&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ФГАОУ ВО РНИМУ им. Н.И. Пирогова Минздрава РФ&lt;/li&gt;
+&lt;li&gt;ФГБОУ ВО «Самарский государственный медицинский университет» Минздрава РФ&lt;/li&gt;
+&lt;li&gt;ГБУЗ «Городская клиническая больница № 15 им. О.М. Филатова» департамента здравоохранения города Москвы&lt;/li&gt;
+&lt;li&gt;ГБУЗ «Морозовская детская городская клиническая больница» департамента здравоохранения города Москвы&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;аннотация&#34;&gt;Аннотация&lt;/h3&gt;
+&lt;p&gt;К грамотрицательным патогенам, имеющим доказанное клиническое значение в развитии легочной инфекции при муковисцидозе, относятся такие микроорганизмы как &lt;em&gt;Pseudomonas aeruginosa&lt;/em&gt;, &lt;em&gt;Achromobacter spp.&lt;/em&gt;, &lt;em&gt;Burkholderia cepacia complex&lt;/em&gt; и &lt;em&gt;Stenotrophomonas maltophilia&lt;/em&gt;. В данном проекте представлены результаты исследования чувствительности к антибиотикам основных грамотрицательных бактериальных патогенов, выделенных из дыхательных путей пациентов с муковисцидозом в Российской Федерации.&lt;/p&gt;
+&lt;h3 id=&#34;бактериальные-изоляты&#34;&gt;Бактериальные изоляты&lt;/h3&gt;
+&lt;p&gt;В январе – феврале 2020 года были проанализированы респираторные образцы 170 пациентов с муковисцидозом (5% от общего числа пациентов с муковисцидозом в Российской Федерации), среди которых были представители 42 регионов в возрасте от 1 года до 33 лет. Объектами исследования были штаммы P. aeruginosa, &lt;em&gt;Achromobacter spp.&lt;/em&gt;, &lt;em&gt;Burkholderia cepacia complex&lt;/em&gt; и &lt;em&gt;S. maltophilia&lt;/em&gt;, выделенные из проанализированных респираторных образцов.&lt;/p&gt;
+&lt;h3 id=&#34;определение-чувствительности-к-антибиотикам&#34;&gt;Определение чувствительности к антибиотикам&lt;/h3&gt;
+&lt;p&gt;Минимальные подавляющие концентрации антибиотиков определяли методом микроразведений в бульоне Мюллера-Хилтон. Результаты интерпретировали в соответствии с критериями Института клинических и лабораторных стандартов США (Clinical and Laboratory Standards Institute – CLSI, 2020 г.).&lt;/p&gt;
+&lt;h3 id=&#34;исследовательская-группа&#34;&gt;Исследовательская группа&lt;/h3&gt;
+&lt;p&gt;Бочарова Ю.А., Савинова Т.А., Лямин А.В., Кондратенко О.В., Федорова Н.И., Семыкин С.Ю., Поликарпова С.В., Жилина С.В., Чаплин А.В., Коростин Д.О., Маянский Н.А., Чеботарь И.В.&lt;/p&gt;
+&lt;h3 id=&#34;финансовая-поддержка&#34;&gt;Финансовая поддержка&lt;/h3&gt;
+&lt;p&gt;Работа выполнена при поддержке гранта Российского научного фонда (проект № 20-15-00235).&lt;/p&gt;
+&lt;div class=&#34;media&#34;&gt;
+  &lt;div class=&#34;media-body&#34;&gt;
+    &lt;h3 class=&#34;mt-0 mb-1&#34;&gt;Контактное лицо&lt;/h3&gt;
+    &lt;h5&gt;Бочарова Юлия Александровна&lt;/h5&gt;
+    &lt;p&gt;Старший научный сотрудник лаборатории молекулярной микробиологии &lt;br&gt;ФГАОУ ВО РНИМУ им. Н.И. Пирогова Минздрава РФ&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&#34;ivrin7@gmail.com&#34; target=&#34;_blank&#34;&gt;ivrin7@gmail.com&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;img class=&#34;ml-3&#34; src=&#34;rnimu.png&#34; style=&#34;width: 300px&#34; alt=&#34;ФГАОУ ВО РНИМУ им. Н.И. Пирогова Минздрава РФ&#34;&gt;
+&lt;/div&gt;
 </description>
     </item>
     

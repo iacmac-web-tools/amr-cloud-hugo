@@ -5,12 +5,46 @@
     <link>https://amrcloud.net/en/project/</link>
       <atom:link href="https://amrcloud.net/en/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Public Datasets</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2022</copyright><lastBuildDate>Mon, 27 Dec 2021 09:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2022</copyright><lastBuildDate>Tue, 14 Jun 2022 09:00:00 +0000</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>Public Datasets</title>
       <link>https://amrcloud.net/en/project/</link>
     </image>
+    
+    <item>
+      <title>The main gram-negative bacterial pathogens recovered from cystic fibrosis patients</title>
+      <link>https://amrcloud.net/en/project/muco-v/</link>
+      <pubDate>Tue, 14 Jun 2022 09:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/project/muco-v/</guid>
+      <description>&lt;h3 id=&#34;organisers&#34;&gt;Organisers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Pirogov Russian National Research Medical University&lt;/li&gt;
+&lt;li&gt;Samara State Medical University&lt;/li&gt;
+&lt;li&gt;Filatov Municipal Clinical Hospital&lt;/li&gt;
+&lt;li&gt;Morozov City Children’s Clinical Hospital&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;The main gram-negative cystic fibrosis bacterial pathogens include &lt;em&gt;Pseudomonas aeruginosa&lt;/em&gt;, &lt;em&gt;Achromobacter spp.&lt;/em&gt;, &lt;em&gt;Burkholderia cepacia complex&lt;/em&gt; and &lt;em&gt;Stenotrophomonas maltophilia&lt;/em&gt;. In this project, the results of antibiotic susceptibility testing of the main gram-negative cystic fibrosis bacterial pathogens recovered from cystic fibrosis patients in Russia are presented.&lt;/p&gt;
+&lt;h3 id=&#34;bacterial-isolates&#34;&gt;Bacterial isolates&lt;/h3&gt;
+&lt;p&gt;In January – February 2020, respiratory tract samples from 170 cystic fibrosis patients (5% of all cystic fibrosis patients in Russia) from 42 regions were analyzed. The detected main gram-negative cystic fibrosis bacterial pathogens (&lt;em&gt;P. aeruginosa&lt;/em&gt;, &lt;em&gt;Achromobacter spp.&lt;/em&gt;, &lt;em&gt;Burkholderia cepacia complex&lt;/em&gt; and &lt;em&gt;S. maltophilia&lt;/em&gt;) were studied.&lt;/p&gt;
+&lt;h3 id=&#34;antibiotic-susceptibility-testing&#34;&gt;Antibiotic susceptibility testing&lt;/h3&gt;
+&lt;p&gt;Minimum inhibitory concentrations of antibacterial agents were determined using broth microdilution method. The results were interpreted according to Clinical and Laboratory Standards Institute (CLSI, 2020) criteria.&lt;/p&gt;
+&lt;h3 id=&#34;study-group&#34;&gt;Study group&lt;/h3&gt;
+&lt;p&gt;Bocharova Yu.A., Savinova T.A., Lyamin A.V., Kondratenko O.V., Fedorova N.I., Semykin S.Yu., Polikarpova S.V., Zhilina S.V., Chaplin A.V., Korostin D.O., Mayansky N.A., Chebotar I.V.&lt;/p&gt;
+&lt;h3 id=&#34;funding&#34;&gt;Funding&lt;/h3&gt;
+&lt;p&gt;The study was supported by the Russian Science Foundation (Project ID 20-15-00235).&lt;/p&gt;
+&lt;div class=&#34;media&#34;&gt;
+  &lt;div class=&#34;media-body&#34;&gt;
+    &lt;h3 class=&#34;mt-0 mb-1&#34;&gt;Contact&lt;/h3&gt;
+    &lt;h5&gt;Yuliya Bocharova&lt;/h5&gt;
+    &lt;p&gt;Senior researcher, laboratory of molecular microbiology,&lt;br&gt;Pirogov Russian National Research Medical University&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&#34;ivrin7@gmail.com&#34; target=&#34;_blank&#34;&gt;ivrin7@gmail.com&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;img class=&#34;ml-3&#34; src=&#34;rnimu.png&#34; style=&#34;width: 300px&#34; alt=&#34;Pirogov Russian National Research Medical University&#34;&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Research project: Veterinary monitoring and Risk Analysis of Zoonotic Bacteria Antimicrobial Resistance.</title>
