@@ -957,7 +957,93 @@ The time for isolates to move to the inactive area is set in the general setting
 <p>If you see the table and the <strong>Convert</strong> button, then the file was successfully recognized by the system.</p>
 <h3 id="converting-a-file">Converting a File</h3>
 <p>The file converting process consists in replacing the VITEK 2 antibiotic and organisms codes with <span style="color:#2BA2E6"><strong>AMRcloud</strong></span> codes.</p>
-<p>Additionally, the values ​​of several columns of resistance markers are combined into one column, starting with the code <code>AMRCLOUD_MARKER_</code>. The converter also removes columns with personal data - <code>PATIENT NAME</code>,<code> PATIENT ID</code>, <code>PATIENT LOCATION</code>,<code> LAB ID</code>.</p>
+<p>As a result, the following columns are added to the table:</p>
+<ul>
+<li><code>AMRCLOUD_ID</code> - auto-generated unique row identifier</li>
+<li><code>AMRCLOUD_ORGANISM_ID</code> - recoded names of microorganism species that allow AMRcloud to interpretations sensitivity data correct</li>
+</ul>
+<div class="alert alert-note">
+  <div>
+    When loading a dataset in <strong>Step Two: Set Fields</strong>, it is recommended that these columns be used.</p>
+<ul>
+<li>For item <em>Select the column containing Isolate ID</em> set <code>AMRCLOUD_ID</code></li>
+<li>For item <em>Select the column containing Organism/Species Names</em> set <code>AMRCLOUD_ORGANISM_ID</code></li>
+</ul>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-select-the-column-containing-isolate-id">
+
+
+  <a data-fancybox="" href="/img/tutorials/vitek-2-export/en/22.png" data-caption="Select the column containing Isolate ID">
+
+
+  <img src="/img/tutorials/vitek-2-export/en/22.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Select the column containing Isolate ID
+  </figcaption>
+
+
+</figure>
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-select-the-column-containing-organismspecies-names">
+
+
+  <a data-fancybox="" href="/img/tutorials/vitek-2-export/en/23.png" data-caption="Select the column containing Organism/Species Names">
+
+
+  <img src="/img/tutorials/vitek-2-export/en/23.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Select the column containing Organism/Species Names
+  </figcaption>
+
+
+</figure>
+
+<p>Additionally, the values ​​of several columns of resistance markers are combined into one column, starting with the code <code>AMRCLOUD_MARKER_</code>. The converter also removes columns with personal data - <code>PATIENT NAME</code>, <code> PATIENT ID</code>, <code>PATIENT LOCATION</code>, <code> LAB ID</code>.</p>
 <p>After successfully uploading the file, click the <strong>Convert</strong> button. At the end of the converting process, a report on the performed manipulations will appear on the page. The report contains a list of codes for antibiotics and organisms that have been changed, as well as warning messages to look out for.</p>
 <p>If errors occurred while analyzing the file, further converting is impossible. You need to fix the file.</p>
 <p>Possible errors:</p>
@@ -1249,6 +1335,93 @@ The time for isolates to move to the inactive area is set in the general setting
 <li>The <strong>Generate Unique IDs</strong> checkbox allows you to add a new column <code>AMRCLOUD_ID</code> to the file with a new generated unique ID.</li>
 <li>The <strong>Concatenate Markers</strong> checkbox allows you to concatenate the values ​​of several columns of resistance markers into one column, starting with the code <code>AMRCLOUD_MARKER_</code>.</li>
 </ul>
+<p>As a result, the following columns are added to the table:</p>
+<ul>
+<li><code>AMRCLOUD_ID</code> - auto-generated unique row identifier</li>
+<li><code>AMRCLOUD_ORGANISM_ID</code> - recoded names of microorganism species that allow AMRcloud to interpretations sensitivity data correct</li>
+<li><code>AMRCLOUD_MARKER_</code> - values of resistance markers</li>
+</ul>
+<div class="alert alert-note">
+  <div>
+    When loading a dataset in <strong>Step Two: Set Fields</strong>, it is recommended that these columns be used.</p>
+<ul>
+<li>For item <em>Select the column containing Isolate ID</em> set <code>AMRCLOUD_ID</code></li>
+<li>For item <em>Select the column containing Organism/Species Names</em> set <code>AMRCLOUD_ORGANISM_ID</code></li>
+</ul>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-select-the-column-containing-isolate-id">
+
+
+  <a data-fancybox="" href="/img/tutorials/vitek-2-export/en/22.png" data-caption="Select the column containing Isolate ID">
+
+
+  <img src="/img/tutorials/vitek-2-export/en/22.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Select the column containing Isolate ID
+  </figcaption>
+
+
+</figure>
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-select-the-column-containing-organismspecies-names">
+
+
+  <a data-fancybox="" href="/img/tutorials/vitek-2-export/en/23.png" data-caption="Select the column containing Organism/Species Names">
+
+
+  <img src="/img/tutorials/vitek-2-export/en/23.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption data-pre="Figure " data-post=":" class="numbered">
+    Select the column containing Organism/Species Names
+  </figcaption>
+
+
+</figure>
+
 <p>To start the converting process, click the <strong>Convert</strong> button.</p>
 
 

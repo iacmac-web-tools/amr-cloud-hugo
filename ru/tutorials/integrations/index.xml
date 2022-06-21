@@ -2247,6 +2247,92 @@
 &lt;p&gt;Если вы видите таблицу и кнопку &lt;strong&gt;Convert&lt;/strong&gt;, значит файл распознался системой.&lt;/p&gt;
 &lt;h3 id=&#34;конвертация&#34;&gt;Конвертация&lt;/h3&gt;
 &lt;p&gt;Процесс конвертации файла заключается в замене кодов антибиотиков и организмов VITEK 2 на обозначения, понятные &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;В результате к таблице добавляются следующие столбцы:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;AMRCLOUD_ID&lt;/code&gt; - искусственно созданный уникальный идентификатор строки в таблице&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;AMRCLOUD_ORGANISM_ID&lt;/code&gt; - перекодированные названия видом микроорганизмов, которые корректно воспримет AMRcloud для простановки интерпретаций данных чувствительности.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    При загрузке набора данных на &lt;strong&gt;Шаге 2: Выбор параметров&lt;/strong&gt; рекомендуется использовать именно эти столбцы.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Для пункта &lt;em&gt;Выберите столбец, содержащий идентификатор изолята&lt;/em&gt; &lt;code&gt;AMRCLOUD_ID&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Для пункта &lt;em&gt;Выберите столбец, содержащий названия видов микроорганизмов&lt;/em&gt; &lt;code&gt;AMRCLOUD_ORGANISM_ID&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-выберите-столбец-содержащий-идентификатор-изолята&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/22.png&#34; data-caption=&#34;Выберите столбец, содержащий идентификатор изолята&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/22.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выберите столбец, содержащий идентификатор изолята
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-выберите-столбец-содержащий-названия-видов-микроорганизмов&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/23.png&#34; data-caption=&#34;Выберите столбец, содержащий названия видов микроорганизмов&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/23.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выберите столбец, содержащий названия видов микроорганизмов
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
 &lt;p&gt;Дополнительно производится объединение значений нескольких столбцов маркеров резистентности в один столбец, начинающийся с кода &lt;code&gt;AMRCLOUD_MARKER_&lt;/code&gt;. Также конвертер удаляет столбцы с персональными данными - &lt;code&gt;PATIENT NAME&lt;/code&gt;, &lt;code&gt;PATIENT ID&lt;/code&gt;, &lt;code&gt;PATIENT LOCATION&lt;/code&gt;, &lt;code&gt;LAB ID&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;После успешной загрузки файла, нажмите кнопку &lt;strong&gt;Convert&lt;/strong&gt;. По окончании процесса конвертации на странице появится отчет о проделанных манипуляциях. Отчет содержит перечень кодов антибиотиков и организмов, которые были перекодированы, а также сообщения-предупреждения на которые стоит обратить внимание.&lt;/p&gt;
 &lt;p&gt;Если при анализе файла возникли ошибки, дальнейшая конвертация невозможна. Необходимо исправить файл.&lt;/p&gt;
@@ -2539,6 +2625,93 @@
 &lt;li&gt;Флажок &lt;strong&gt;Generate Unique IDs&lt;/strong&gt; позволяет добавить к файлу новый столбец &lt;code&gt;AMRCLOUD_ID&lt;/code&gt; с новым сгенерированным уникальным идентификатором.&lt;/li&gt;
 &lt;li&gt;Флажок &lt;strong&gt;Concatenate Markers&lt;/strong&gt; позволяет объединенить значения нескольких столбцов маркеров резистентности в один столбец, начинающийся с кода &lt;code&gt;AMRCLOUD_MARKER_&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;В результате к таблице добавляются следующие столбцы:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;AMRCLOUD_ID&lt;/code&gt; - искусственно созданный уникальный идентификатор строки в таблице&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;AMRCLOUD_ORGANISM_ID&lt;/code&gt; - перекодированные названия видом микроорганизмов, которые корректно воспримет AMRcloud для простановки интерпретаций данных чувствительности.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;AMRCLOUD_MARKER_&lt;/code&gt; - объединенные значения маркеров резистентности&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    При загрузке набора данных на &lt;strong&gt;Шаге 2: Выбор параметров&lt;/strong&gt; рекомендуется использовать именно эти столбцы.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Для пункта &lt;em&gt;Выберите столбец, содержащий идентификатор изолята&lt;/em&gt; &lt;code&gt;AMRCLOUD_ID&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Для пункта &lt;em&gt;Выберите столбец, содержащий названия видов микроорганизмов&lt;/em&gt; &lt;code&gt;AMRCLOUD_ORGANISM_ID&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-выберите-столбец-содержащий-идентификатор-изолята&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/22.png&#34; data-caption=&#34;Выберите столбец, содержащий идентификатор изолята&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/22.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выберите столбец, содержащий идентификатор изолята
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-выберите-столбец-содержащий-названия-видов-микроорганизмов&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/23.png&#34; data-caption=&#34;Выберите столбец, содержащий названия видов микроорганизмов&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/ru/23.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выберите столбец, содержащий названия видов микроорганизмов
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
 &lt;p&gt;Для запуска процесса конвертации нажмите кнопку &lt;strong&gt;Convert&lt;/strong&gt;.&lt;/p&gt;
 
 

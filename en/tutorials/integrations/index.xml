@@ -1799,7 +1799,93 @@ Full description of CAESAR file columns you can find in
 &lt;p&gt;If you see the table and the &lt;strong&gt;Convert&lt;/strong&gt; button, then the file was successfully recognized by the system.&lt;/p&gt;
 &lt;h3 id=&#34;converting-a-file&#34;&gt;Converting a File&lt;/h3&gt;
 &lt;p&gt;The file converting process consists in replacing the VITEK 2 antibiotic and organisms codes with &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; codes.&lt;/p&gt;
-&lt;p&gt;Additionally, the values ​​of several columns of resistance markers are combined into one column, starting with the code &lt;code&gt;AMRCLOUD_MARKER_&lt;/code&gt;. The converter also removes columns with personal data - &lt;code&gt;PATIENT NAME&lt;/code&gt;,&lt;code&gt; PATIENT ID&lt;/code&gt;, &lt;code&gt;PATIENT LOCATION&lt;/code&gt;,&lt;code&gt; LAB ID&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;As a result, the following columns are added to the table:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;AMRCLOUD_ID&lt;/code&gt; - auto-generated unique row identifier&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;AMRCLOUD_ORGANISM_ID&lt;/code&gt; - recoded names of microorganism species that allow AMRcloud to interpretations sensitivity data correct&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    When loading a dataset in &lt;strong&gt;Step Two: Set Fields&lt;/strong&gt;, it is recommended that these columns be used.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For item &lt;em&gt;Select the column containing Isolate ID&lt;/em&gt; set &lt;code&gt;AMRCLOUD_ID&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;For item &lt;em&gt;Select the column containing Organism/Species Names&lt;/em&gt; set &lt;code&gt;AMRCLOUD_ORGANISM_ID&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-select-the-column-containing-isolate-id&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/22.png&#34; data-caption=&#34;Select the column containing Isolate ID&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/22.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Select the column containing Isolate ID
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-select-the-column-containing-organismspecies-names&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/23.png&#34; data-caption=&#34;Select the column containing Organism/Species Names&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/23.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Select the column containing Organism/Species Names
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Additionally, the values ​​of several columns of resistance markers are combined into one column, starting with the code &lt;code&gt;AMRCLOUD_MARKER_&lt;/code&gt;. The converter also removes columns with personal data - &lt;code&gt;PATIENT NAME&lt;/code&gt;, &lt;code&gt; PATIENT ID&lt;/code&gt;, &lt;code&gt;PATIENT LOCATION&lt;/code&gt;, &lt;code&gt; LAB ID&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;After successfully uploading the file, click the &lt;strong&gt;Convert&lt;/strong&gt; button. At the end of the converting process, a report on the performed manipulations will appear on the page. The report contains a list of codes for antibiotics and organisms that have been changed, as well as warning messages to look out for.&lt;/p&gt;
 &lt;p&gt;If errors occurred while analyzing the file, further converting is impossible. You need to fix the file.&lt;/p&gt;
 &lt;p&gt;Possible errors:&lt;/p&gt;
@@ -2091,6 +2177,93 @@ Full description of CAESAR file columns you can find in
 &lt;li&gt;The &lt;strong&gt;Generate Unique IDs&lt;/strong&gt; checkbox allows you to add a new column &lt;code&gt;AMRCLOUD_ID&lt;/code&gt; to the file with a new generated unique ID.&lt;/li&gt;
 &lt;li&gt;The &lt;strong&gt;Concatenate Markers&lt;/strong&gt; checkbox allows you to concatenate the values ​​of several columns of resistance markers into one column, starting with the code &lt;code&gt;AMRCLOUD_MARKER_&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;As a result, the following columns are added to the table:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;AMRCLOUD_ID&lt;/code&gt; - auto-generated unique row identifier&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;AMRCLOUD_ORGANISM_ID&lt;/code&gt; - recoded names of microorganism species that allow AMRcloud to interpretations sensitivity data correct&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;AMRCLOUD_MARKER_&lt;/code&gt; - values of resistance markers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    When loading a dataset in &lt;strong&gt;Step Two: Set Fields&lt;/strong&gt;, it is recommended that these columns be used.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For item &lt;em&gt;Select the column containing Isolate ID&lt;/em&gt; set &lt;code&gt;AMRCLOUD_ID&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;For item &lt;em&gt;Select the column containing Organism/Species Names&lt;/em&gt; set &lt;code&gt;AMRCLOUD_ORGANISM_ID&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-select-the-column-containing-isolate-id&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/22.png&#34; data-caption=&#34;Select the column containing Isolate ID&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/22.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Select the column containing Isolate ID
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-select-the-column-containing-organismspecies-names&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/23.png&#34; data-caption=&#34;Select the column containing Organism/Species Names&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/vitek-2-export/en/23.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Select the column containing Organism/Species Names
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
 &lt;p&gt;To start the converting process, click the &lt;strong&gt;Convert&lt;/strong&gt; button.&lt;/p&gt;
 
 
