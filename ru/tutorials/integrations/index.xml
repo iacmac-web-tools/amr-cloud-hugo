@@ -2505,7 +2505,7 @@
 &lt;h3 id=&#34;установка&#34;&gt;Установка&lt;/h3&gt;
 &lt;p&gt;Для установки программы AMRcloud Vitek Converter скачайте его по ссылке.&lt;/p&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://amrcloud.net/install/AMRcloudVitekConverterSetup.msi&#34;&gt;AMRcloudVitekConverter.msi&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://amrcloud.net/install/AMRcloudVitekConverterSetup_v1.0.1.msi&#34;&gt;AMRcloudVitekConverter.msi&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Если на компьютере не установлен .NET Framework 4, установщик предложит его скачать. По умолчанию программа устанавливается в папку &lt;code&gt;Документы\AMRsolution\AMRcloud Vitek Converter\&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;работа-с-программой&#34;&gt;Работа с программой&lt;/h3&gt;
 &lt;p&gt;Окно программы после запуска выглядит следующим образом.&lt;/p&gt;
