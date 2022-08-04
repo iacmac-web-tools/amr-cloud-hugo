@@ -318,6 +318,106 @@
   </url>
   
   <url>
+    <loc>https://amrcloud.net/en/publication_types/2/</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/publication_types/2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/publication_types/2/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/authors/</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/authors/kozlov-r.s./</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/authors/kuzmenkov-a.y./</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/publication/cmac-2022-t24-n1-p31/</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/publication/cmac-2022-t24-n1-p31/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/publication/cmac-2022-t24-n1-p31/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/publication_types/</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/publication_types/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/publication/</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/publication/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/authors/trushin-i.v./</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/authors/vinogradova-a.g./</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/authors/kuzmenkov-a.yu./</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://amrcloud.net/en/tutorials/</loc>
     <lastmod>2022-03-26T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -803,36 +903,6 @@
   </url>
   
   <url>
-    <loc>https://amrcloud.net/en/publication_types/2/</loc>
-    <lastmod>2020-05-28T10:06:14+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/publication_types/2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/publication_types/2/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/en/authors/</loc>
-    <lastmod>2020-05-28T10:06:14+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/authors/"
-                />
-  </url>
-  
-  <url>
     <loc>https://amrcloud.net/en/publication/cmac-2020-t22-n2-p137/</loc>
     <lastmod>2020-05-28T10:06:14+00:00</lastmod>
     <xhtml:link
@@ -845,51 +915,6 @@
                 hreflang="en"
                 href="https://amrcloud.net/en/publication/cmac-2020-t22-n2-p137/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/en/authors/kuzmenkov-a.y./</loc>
-    <lastmod>2020-05-28T10:06:14+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/en/publication_types/</loc>
-    <lastmod>2020-05-28T10:06:14+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/publication_types/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/publication_types/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/en/publication/</loc>
-    <lastmod>2020-05-28T10:06:14+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/publication/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/publication/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/en/authors/vinogradova-a.g./</loc>
-    <lastmod>2020-05-28T10:06:14+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/en/authors/kuzmenkov-a.yu./</loc>
-    <lastmod>2020-05-28T10:06:14+00:00</lastmod>
   </url>
   
   <url>
@@ -964,16 +989,6 @@
   
   <url>
     <loc>https://amrcloud.net/en/authors/edelstein-m.v./</loc>
-    <lastmod>2019-10-10T00:04:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/en/authors/kozlov-r.s./</loc>
-    <lastmod>2019-10-10T00:04:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/en/authors/trushin-i.v./</loc>
     <lastmod>2019-10-10T00:04:00+00:00</lastmod>
   </url>
   

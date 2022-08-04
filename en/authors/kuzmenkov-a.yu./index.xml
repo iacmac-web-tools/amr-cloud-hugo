@@ -5,12 +5,28 @@
     <link>https://amrcloud.net/en/authors/kuzmenkov-a.yu./</link>
       <atom:link href="https://amrcloud.net/en/authors/kuzmenkov-a.yu./index.xml" rel="self" type="application/rss+xml" />
     <description>​Kuzmenkov A.Yu.</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2022</copyright><lastBuildDate>Thu, 28 May 2020 10:06:14 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2022</copyright><lastBuildDate>Sun, 27 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>​Kuzmenkov A.Yu.</title>
       <link>https://amrcloud.net/en/authors/kuzmenkov-a.yu./</link>
     </image>
+    
+    <item>
+      <title>Practice of local antibiotic resistance monitoring at hospitals in various regions of the Russian Federation</title>
+      <link>https://amrcloud.net/en/publication/cmac-2022-t24-n1-p31/</link>
+      <pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/publication/cmac-2022-t24-n1-p31/</guid>
+      <description>&lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;
+&lt;p&gt;To analyze the features of local antibiotic resistance monitoring at hospitals in the Russian Federation.&lt;/p&gt;
+&lt;h3 id=&#34;materials-and-methods&#34;&gt;Materials and Methods&lt;/h3&gt;
+&lt;p&gt;The study involved a survey of 305 institutions. The duration of data collection was 1 year (March 2020 – April 2021). The responses received were analyzed using the «R» programming language. Special packages were used for data processing and calculation of confidence intervals. Results were assessed by descriptive analysis with calculation of absolute and relative frequencies, and 95% confidence intervals according to the Wilson method. Frequencies were compared using Fisher’s exact test. The significance level α was set at 0.05.&lt;/p&gt;
+&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
+&lt;p&gt;Hospitals at various levels of organization participated in the survey. Data on local epidemiology of antibiotic resistance was available for 54.1% of institutions. The use of computer tools to automate the collection and analysis of antibiotic resistance monitoring data was noted by 26.23%. The implementation of an antimicrobial management system in the work of a medical center was confirmed by 25.3%. Data on identification of pathogens and antibiotic susceptibility test were available in the LIS/MIS – 12.46%. Over 70% of participants indicated that they update interpretation criteria annually. Storage of the AST results for more than 1 year was implemented by over 90% of hospitals. Availability of local antimicrobial therapy protocols was confirmed by 34.75% of the respondents.&lt;/p&gt;
+&lt;h3 id=&#34;conclusions&#34;&gt;Conclusions&lt;/h3&gt;
+&lt;p&gt;Access to data on the local epidemiology of antimicrobial resistance was unavailable for most specialists. Insufficient use of special tools to automate the collection and evaluation of antimicrobial resistance data has been identified. Implementation of an antimicrobial stewardship program and development of local antimicrobial therapy protocols were in a limited number of institutions. The data obtained indicate significant problems in the systemic organization of local antibiotic resistance monitoring.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Data handling as a basis for local antimicrobial resistance surveillance</title>
