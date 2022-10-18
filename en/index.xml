@@ -10083,7 +10083,8 @@ action=&#34;https://api.amrcloud.net/api/auth/invite/cognito/eng&#34; method=&#3
 &lt;script src=&#34;https://code.jquery.com/jquery-3.6.0.min.js&#34; integrity=&#34;sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
 &lt;script&gt;
      $(&#39;#amrcloud-register-form&#39;).submit(function (e) {
-        console.log(&#39;custom&#39;);
+        $(&#39;#message-success&#39;).hide();
+        $(&#39;#message-error&#39;).hide();
         e.preventDefault(); // avoid to execute the actual submit of the form.
         var form = $(this);
         var url = form.attr(&#39;action&#39;);

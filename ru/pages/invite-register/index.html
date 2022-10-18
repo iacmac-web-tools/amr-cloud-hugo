@@ -27,7 +27,7 @@
   
     
   
-  <meta name="description" content="ФИО*   Email*    Научное звание   Должность    Город*   Организация   Дополнительная информация    Я ознакомился и согласен*   с Условиями использования AMRcloud     с Политикой конфиденциальности AMRcloud       ×    ×   Отправить        $(&#39;#amrcloud-register-form&amp;rsquo;).submit(function (e) { console.log(&amp;lsquo;custom&amp;rsquo;); e.preventDefault(); // avoid to execute the actual submit of the form.">
+  <meta name="description" content="ФИО*   Email*    Научное звание   Должность    Город*   Организация   Дополнительная информация    Я ознакомился и согласен*   с Условиями использования AMRcloud     с Политикой конфиденциальности AMRcloud       ×    ×   Отправить        $(&#39;#amrcloud-register-form&amp;rsquo;).submit(function (e) { $(&#39;#message-success&amp;rsquo;).hide(); $(&#39;#message-error&amp;rsquo;).hide(); e.preventDefault(); // avoid to execute the actual submit of the form.">
 
   
   <link rel="alternate" hreflang="en" href="https://amrcloud.net/en/pages/invite-register/">
@@ -267,7 +267,7 @@
   <meta property="og:site_name" content="AMRcloud">
   <meta property="og:url" content="https://amrcloud.net/ru/pages/invite-register/">
   <meta property="og:title" content="Регистрация | AMRcloud">
-  <meta property="og:description" content="ФИО*   Email*    Научное звание   Должность    Город*   Организация   Дополнительная информация    Я ознакомился и согласен*   с Условиями использования AMRcloud     с Политикой конфиденциальности AMRcloud       ×    ×   Отправить        $(&#39;#amrcloud-register-form&amp;rsquo;).submit(function (e) { console.log(&amp;lsquo;custom&amp;rsquo;); e.preventDefault(); // avoid to execute the actual submit of the form."><meta property="og:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png">
+  <meta property="og:description" content="ФИО*   Email*    Научное звание   Должность    Город*   Организация   Дополнительная информация    Я ознакомился и согласен*   с Условиями использования AMRcloud     с Политикой конфиденциальности AMRcloud       ×    ×   Отправить        $(&#39;#amrcloud-register-form&amp;rsquo;).submit(function (e) { $(&#39;#message-success&amp;rsquo;).hide(); $(&#39;#message-error&amp;rsquo;).hide(); e.preventDefault(); // avoid to execute the actual submit of the form."><meta property="og:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png">
   <meta property="twitter:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png"><meta property="og:locale" content="ru-ru">
   
     
@@ -811,7 +811,8 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script>
      $('#amrcloud-register-form').submit(function (e) {
-        console.log('custom');
+        $('#message-success').hide();
+        $('#message-error').hide();
         e.preventDefault(); // avoid to execute the actual submit of the form.
         var form = $(this);
         var url = form.attr('action');

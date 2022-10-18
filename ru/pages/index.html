@@ -655,7 +655,7 @@
       <h2><a href="/ru/pages/invite-register/" >Регистрация</a></h2>
       <div class="article-style">
         
-          ФИО*   Email*    Научное звание   Должность    Город*   Организация   Дополнительная информация    Я ознакомился и согласен* &nbsp; с Условиями использования AMRcloud   &nbsp; с Политикой конфиденциальности AMRcloud       &times;    &times;   Отправить        $('#amrcloud-register-form').submit(function (e) { console.log('custom'); e.preventDefault(); // avoid to execute the actual submit of the form.
+          ФИО*   Email*    Научное звание   Должность    Город*   Организация   Дополнительная информация    Я ознакомился и согласен* &nbsp; с Условиями использования AMRcloud   &nbsp; с Политикой конфиденциальности AMRcloud       &times;    &times;   Отправить        $('#amrcloud-register-form').submit(function (e) { $('#message-success').hide(); $('#message-error').hide(); e.preventDefault(); // avoid to execute the actual submit of the form.
         
       </div>
     </div>
