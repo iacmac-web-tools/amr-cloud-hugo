@@ -27,7 +27,7 @@
   
     
   
-  <meta name="description" content="Cognito.load(&amp;ldquo;forms&amp;rdquo;, { id: &amp;ldquo;2&amp;rdquo; });">
+  <meta name="description" content="Name*   Email*    Science Degree   Job Title    City*   Institution / Company   Additional information    I hereby agree*   with Terms of Use     with Privacy Policy       ×    ×   Submit        $(&#39;#amrcloud-register-form&amp;rsquo;).submit(function (e) { console.log(&amp;lsquo;custom&amp;rsquo;); e.preventDefault(); // avoid to execute the actual submit of the form.">
 
   
   <link rel="alternate" hreflang="ru" href="https://amrcloud.net/ru/pages/invite-register/">
@@ -267,7 +267,7 @@
   <meta property="og:site_name" content="AMRcloud">
   <meta property="og:url" content="https://amrcloud.net/en/pages/invite-register/">
   <meta property="og:title" content="Registration | AMRcloud">
-  <meta property="og:description" content="Cognito.load(&amp;ldquo;forms&amp;rdquo;, { id: &amp;ldquo;2&amp;rdquo; });"><meta property="og:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png">
+  <meta property="og:description" content="Name*   Email*    Science Degree   Job Title    City*   Institution / Company   Additional information    I hereby agree*   with Terms of Use     with Privacy Policy       ×    ×   Submit        $(&#39;#amrcloud-register-form&amp;rsquo;).submit(function (e) { console.log(&amp;lsquo;custom&amp;rsquo;); e.preventDefault(); // avoid to execute the actual submit of the form."><meta property="og:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png">
   <meta property="twitter:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png"><meta property="og:locale" content="en-us">
   
     
@@ -714,10 +714,128 @@
   <div class="article-container">
 
     <div class="article-style">
-      <div class="cognito">
-<script src="https://services.cognitoforms.com/s/M0a4wlljSUmqA5FZxhXqtA"></script>
-<script>Cognito.load("forms", { id: "2" });</script>
+      <form id="amrcloud-register-form" 
+action="https://api.amrcloud.net/api/auth/invite/cognito/eng" method="post">
+<div class="container">
+  <div class="rendered-form">
+    <div class="row">
+      <div class="col-6">
+        <div class="formbuilder-text form-group field-name">
+            <label for="name" class="formbuilder-text-label">Name<span class="formbuilder-required">*</span></label>
+            <input type="text" class="form-control" name="name" access="false" id="name" required="required" aria-required="true"
+                    oninvalid="this.setCustomValidity('Required field')" oninput="this.setCustomValidity('')"
+                    >
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="formbuilder-text form-group field-email-text">
+            <label for="email-text" class="formbuilder-text-label">Email<span class="formbuilder-required">*</span></label>
+            <input type="email" class="form-control" name="email" access="false" id="email-text" required="required" aria-required="true"
+            oninvalid="this.setCustomValidity('Required field')" oninput="this.setCustomValidity('')"
+            >
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <div class="formbuilder-text form-group field-science-degree">
+            <label for="science-degree" class="formbuilder-text-label">Science Degree</label>
+            <input type="text" class="form-control" name="science-degree" access="false" id="science-degree">
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="formbuilder-text form-group field-jobname">
+            <label for="jobname" class="formbuilder-text-label">Job Title</label>
+            <input type="text" class="form-control" name="jobname" access="false" id="jobname">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="formbuilder-text form-group field-city">
+          <label for="city" class="formbuilder-text-label">City<span class="formbuilder-required">*</span></label>
+          <input type="text" class="form-control" name="city" access="false" id="city" required="required" aria-required="true"
+          oninvalid="this.setCustomValidity('Required field')" oninput="this.setCustomValidity('')"
+          >
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="formbuilder-text form-group field-institution">
+          <label for="institution" class="formbuilder-text-label">Institution / Company</label>
+          <input type="text" class="form-control" name="institution" access="false" id="institution">
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="formbuilder-textarea form-group field-additional-info">
+          <label for="additional-info" class="formbuilder-textarea-label">Additional information</label>
+          <textarea type="textarea" placeholder="Put here some additional information if you want" class="form-control" name="additional-info" access="false" id="additional-info"></textarea>
+        </div>
+      </div>
+      <div class="col-12">
+          <div class="formbuilder-checkbox-group form-group field-accept">
+            <label for="accept" class="formbuilder-checkbox-group-label">I hereby agree<span class="formbuilder-required">*</span></label>
+            <div class="checkbox-group">
+                <div class="formbuilder-checkbox form-check">
+                    <label for="accept-0" class="kc-toggle">
+                        <input name="accept[]" access="false" id="accept-0" class="form-check-input" aria-required="true" value="option-1" type="checkbox" required="required" oninvalid="this.setCustomValidity('Required field')" oninput="this.setCustomValidity('')"><span>&nbsp;</span>
+                        <a href="https://amrcloud.net/en/terms-of-use/20190926/" target="_blank">with Terms of Use</a>
+                        </label>
+                </div>
+                <div class="formbuilder-checkbox form-check">
+                    <label for="accept-1" class="kc-toggle">
+                        <input name="accept[]" access="false" id="accept-1" class="form-check-input" aria-required="true" value="option-2" type="checkbox" required="required" oninvalid="this.setCustomValidity('Required field')" oninput="this.setCustomValidity('')"><span>&nbsp;</span>
+                        <a href="https://amrcloud.net/en/privacy-policy/20190926/" target="_blank">with Privacy Policy</a>
+                        </label>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="col-12 text-center">
+      <div id="message-success" class="alert alert-success alert-dismissible fade show mt-2 mb-2" role="alert" style="display: none">
+          <span id="message-success-text"></span>
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+      </div>
+      <div id="message-error" class="alert alert-danger alert-dismissible fade show mt-2 mb-2" role="alert"  style="display: none">
+          <span id="message-error-text"></span>
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+        <button type="submit"  class="btn btn-primary btn-register">Submit</button>
+      </div>
+    </div>    
+  </div>
 </div>
+</form>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+     $('#amrcloud-register-form').submit(function (e) {
+        console.log('custom');
+        e.preventDefault(); // avoid to execute the actual submit of the form.
+        var form = $(this);
+        var url = form.attr('action');
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: form.serialize(), // serializes the form's elements.
+            success: function(data)
+            {
+                console.log(data.message);
+                $('#message-success-text').html(data.message);
+                $('#message-success').show();
+                form[0].reset();
+            },
+            error: function(data) { 
+                console.log(data.message);
+                $('#message-error-text').html(data.message);
+                $('#message-error').show();
+            }
+        });
+    });
+</script>
+
     </div>
 
     
