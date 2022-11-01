@@ -1527,7 +1527,7 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;h2 id=&#34;другие-параметры&#34;&gt;Другие параметры&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Эта категория является &lt;strong&gt;НЕобязательной&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Можно выбрать максимум 10 столбцов с различными параметрами для фильтрации и группировки данных (считая вместе со столбцами географических данных из предыдущего пункта).&lt;/li&gt;
+&lt;li&gt;Можно выбрать максимум 12 столбцов с различными параметрами для фильтрации и группировки данных (считая вместе со столбцами географических данных из предыдущего пункта).&lt;/li&gt;
 &lt;li&gt;Названия столбцов используются в качестве названий параметров.&lt;/li&gt;
 &lt;li&gt;Пользователь может отсортировать загруженные параметры в нужном порядке с помощью перетескивания мышью. Порядок будет влиять на последовательность фильтров в поле &amp;ldquo;Параметры основные&amp;rdquo; на этапе работы с графиками.&lt;/li&gt;
 &lt;/ul&gt;
@@ -1562,6 +1562,52 @@ File**→** Save with Encoding **→** Windows-1251.
   
   &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
     Выбор дополнительных параметров
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;повторные-изоляты&#34;&gt;Повторные изоляты&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Повторные изоляты&lt;/strong&gt; — это изоляты, выделенные из одного локуса инфекции у одного пациента и принадлежащие к одному виду. Выявление повторных изолятов в исходной таблице важно, т.к. их наличие приводит к завышению рассчитанной доли резистентных изолятов.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Эта категория является &lt;strong&gt;НЕобязательной&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Вы можете настроить столбцы &amp;ldquo;Идентификатор объекта&amp;rdquo; и &amp;ldquo;Локус инфекции&amp;rdquo; на автоматическое исключение повторов.&lt;/li&gt;
+&lt;li&gt;Если в таблице один столбец: &amp;ldquo;Идентификатор объекта&amp;rdquo; или &amp;ldquo;Локус инфекции&amp;rdquo;, то для исключения повторов выберите этот столбец в двух выпадающих списках.&lt;/li&gt;
+&lt;li&gt;Установите максимальную разницу (в днях) между датами выделения повторных изолятов от одного объекта. В случае превышения данного значения, изоляты НЕ будут считаться повторными.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-выбор-повторных-изолятов&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/doubleis_filter.jpg&#34; data-caption=&#34;Выбор повторных изолятов&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/doubleis_filter.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выбор повторных изолятов
   &lt;/figcaption&gt;
 
 
@@ -2178,6 +2224,69 @@ File**→** Save with Encoding **→** Windows-1251.
 
 
   &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/step_4_01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;использование-экспертной-системы&#34;&gt;Использование экспертной системы&lt;/h2&gt;
+&lt;p&gt;Если Вы хотите, чтобы ваши данные были автоматически проверены с использованием экспертной системы, то перед нажатием кнопки &lt;strong&gt;Завершить все шаги&lt;/strong&gt;, вам необходимо установить галочку &lt;strong&gt;Проверить данные с использованием экспертной системы&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/step_4_exp1.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/step_4_exp1.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Впоследствии на интерфейсе анализа данных на вкладке &amp;ldquo;Экспертная система&amp;rdquo; Вы сможете просмотреть сообщения экспертной системы.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/step_4_exp2.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/step_4_exp2.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 

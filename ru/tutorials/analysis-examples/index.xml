@@ -3438,5 +3438,200 @@
 </description>
     </item>
     
+    <item>
+      <title>Экспертная система</title>
+      <link>https://amrcloud.net/ru/tutorials/analysis-examples/06/</link>
+      <pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/analysis-examples/06/</guid>
+      <description>&lt;p&gt;Рассмотрим подробно, как можно проанализировать Ваши ранее загруженные данные с помощью экспертной системы AMRcloud.&lt;/p&gt;
+&lt;p&gt;Выберите требуемый набор данных и нажмите кнопку &lt;strong&gt;Редактировать набор данных&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-создание-команды&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/2022-11-01%2011_39_55.png&#34; data-caption=&#34;Создание команды&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/2022-11-01%2011_39_55.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Создание команды
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Перейдите на вкладку &lt;strong&gt;Шаг 4: Категоризация S/I/R&lt;/strong&gt; и нажмите кнопку &lt;strong&gt;Сбросить текцщий шаг&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-создание-команды&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/2022-11-01%2011_41_05.png&#34; data-caption=&#34;Создание команды&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/2022-11-01%2011_41_05.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Создание команды
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Проставьте галочку &lt;strong&gt;Проверить данные с использованием экспертной системы&lt;/strong&gt;, нажмите на кнопку &lt;strong&gt;Интерпретировать МПК и данные диск-диффузии&lt;/strong&gt;, а затем &lt;strong&gt;Завершить все шаги&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-создание-команды&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/2022-11-01%2011_41_42.png&#34; data-caption=&#34;Создание команды&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/2022-11-01%2011_41_42.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Создание команды
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Нажмите на кнопку &lt;strong&gt;Старт&lt;/strong&gt; для перехода к анализу набора данных&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-создание-команды&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/2022-11-01%2011_42_49.png&#34; data-caption=&#34;Создание команды&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/2022-11-01%2011_42_49.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Создание команды
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Перейдите на вкладку &lt;strong&gt;Экспертная система&lt;/strong&gt; и нажмите кнопку &lt;strong&gt;Отобразить&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-создание-команды&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/2022-11-01%2011_43_56.png&#34; data-caption=&#34;Создание команды&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/analysis-examples/ru/2022-11-01%2011_43_56.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Создание команды
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Обработка Ваших данных экспертной системой может занимать продолжительное время, поэтому на вкладке &lt;strong&gt;Экспертная система&lt;/strong&gt; в правом углу может высвечиваться сообщение, что данные ещё обрабатываются. В таком случае Вам необходимо будет подождать, пока экспертная система завершит свою работу, и зайти в этот набор данных позднее.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
