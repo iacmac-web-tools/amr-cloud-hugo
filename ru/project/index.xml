@@ -5,7 +5,7 @@
     <link>https://amrcloud.net/ru/project/</link>
       <atom:link href="https://amrcloud.net/ru/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Открытые проекты</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2022</copyright><lastBuildDate>Tue, 14 Jun 2022 09:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Tue, 14 Jun 2022 09:00:00 +0000</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>Открытые проекты</title>
@@ -215,6 +215,8 @@
 &lt;/div&gt;
 &lt;h3 id=&#34;основные-публикации&#34;&gt;Основные публикации&lt;/h3&gt;
 &lt;ol&gt;
+&lt;li&gt;Edelstein, I.A.; Ivanova, O.V.; Romashov, O.I.; Kozlov, R.S. Course of Lower Respiratory Tract Infection in Young People Treated at the Military Hospital of Smolensk Garrison with Detected Mycoplasma pneumoniae Carrying a Macrolide-Resistant Mutation in 23S rRNA Gene. Pathogens 2023, 12, 103. 
+&lt;a href=&#34;https://doi.org/10.3390/pathogens12010103&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DOI: 10.3390/pathogens12010103&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Эйдельштейн И.А., Руднева Н.С.,  Романов А.В., Зубарева Л.М.,  Кузьменков А.Ю., Колесникова Е.А.,  Трушин И.В., Борисов И.В., Суханова Л.Н., Ахмедова А.М., Новикова О.П.,  Козлов Р.С. &lt;em&gt;Mycoplasma genitalium&lt;/em&gt;: мониторинг распространения мутаций, связанных с резистентностью к макролидам в России. Клиническая микробиология и антимикробная химиотерапия. 2022; 24(1):52-60. 
 &lt;a href=&#34;https://doi.org/10.36488/cmac.2022.1.52-60&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DOI: 10.36488/cmac.2022.1.52-60&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Патент на изобретение RU 2778666 C1. 22.08.2022. Заявка № 2021128513 от 27.09.2021. Способ выявления мутаций в участках генов parC и gyrA QRDR, приводящих к резистентности у &lt;em&gt;Mycoplasma genitalium&lt;/em&gt; к антибиотикам фторхинолонового ряда. Романов А.В., Козлов Р.С., Эйдельштейн И.А., Эйдельштейн М.В. 

@@ -5,7 +5,7 @@
     <link>https://amrcloud.net/en/project/</link>
       <atom:link href="https://amrcloud.net/en/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Public Datasets</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2022</copyright><lastBuildDate>Tue, 14 Jun 2022 09:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Tue, 14 Jun 2022 09:00:00 +0000</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>Public Datasets</title>
@@ -207,6 +207,8 @@
 &lt;/div&gt;
 &lt;h3 id=&#34;publications&#34;&gt;Publications&lt;/h3&gt;
 &lt;ol&gt;
+&lt;li&gt;Edelstein, I.A.; Ivanova, O.V.; Romashov, O.I.; Kozlov, R.S. Course of Lower Respiratory Tract Infection in Young People Treated at the Military Hospital of Smolensk Garrison with Detected Mycoplasma pneumoniae Carrying a Macrolide-Resistant Mutation in 23S rRNA Gene. Pathogens 2023, 12, 103. 
+&lt;a href=&#34;https://doi.org/10.3390/pathogens12010103&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DOI: 10.3390/pathogens12010103&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Edelstein I.A., Rudneva N.S.,  Romanov A.V., Zubareva L.M.,  Kuzmenkov A.Yu., Kolesnikova E.A.,  Trushin I.V., Borisov I.V., Sukhanova L.N., Akhmedova A.M., Novikova O.P.,  Kozlov R.S. Monitoring of macrolide resistanceassociated mutations in &lt;em&gt;Mycoplasma genitalium&lt;/em&gt; in Russia. Clinical Microbiology and Antimicrobial Chemotherapy. 2022; 24(1):52-60. 
 &lt;a href=&#34;https://doi.org/10.36488/cmac.2022.1.52-60&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DOI: 10.36488/cmac.2022.1.52-60&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Romanov A.V., Kozlov R.S., Edelstein I.A., Edelstein M.V. Method of detection of fluoroquinolone resistance-associated mutations genes parC and gyrA QRDR in &lt;em&gt;Mycoplasma genitalium&lt;/em&gt;. Patent # RU 2778666 C1, 22.08.2022. 
