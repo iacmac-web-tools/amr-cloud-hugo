@@ -13,6 +13,453 @@
     </image>
     
     <item>
+      <title>Импорт данных из AMRcloud в систему годовых отчетов</title>
+      <link>https://amrcloud.net/ru/tutorials/integrations/reports/</link>
+      <pubDate>Mon, 23 Jan 2023 18:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/integrations/reports/</guid>
+      <description>&lt;p&gt;Руководство рассказывает о том, как имеющиеся у вас данные в AMRcloud можно использовать для заполнения отчета в системе годовых отчетов для главного внештатного специалиста Министерства здравоохранения Российской Федерации по клинической микробиологии и антимикробной резистентности (specialist.antibiotic.ru).&lt;/p&gt;
+&lt;h2 id=&#34;выгрузка-данных-из-amrcloud&#34;&gt;Выгрузка данных из AMRcloud&lt;/h2&gt;
+&lt;p&gt;Предполагается, что у вас уже есть данные по микробиологическим исследованиям за год, загруженные в какой-либо из наборов данных AMRcloud.&lt;/p&gt;
+&lt;p&gt;Выберите нужный набор и нажмите кнопку &lt;strong&gt;Редактировать набор данных&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-редактирование-набора-данных&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/ru/tutorials/integrations/reports/edit-dataset_hu438669626d559b08cbefa6d6a6288f10_121265_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Редактирование набора данных&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/ru/tutorials/integrations/reports/edit-dataset_hu438669626d559b08cbefa6d6a6288f10_121265_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;2041&#34; height=&#34;747&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Редактирование набора данных
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Перейдите на вкладку &lt;strong&gt;Скачать&lt;/strong&gt;. Выберите пункт &lt;strong&gt;Windows (кириллица)&lt;/strong&gt; если вы планируете использовать MS Excel для работы с таблицей. Поскольку для системы годовых отчетов важны данные о резистентных изолятах, нам нужно выгрузить уже интерпретированные данные, потому нажмите одну из кнопок &lt;strong&gt;Скачать данные МПК&lt;/strong&gt; или &lt;strong&gt;Скачать данные диск-диффузии&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-выгрузка-набора-набора-данных-из-amrcloud&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/ru/tutorials/integrations/reports/download-dataset_hu323e84d7f8b4343708da9eb9ad2bbb43_71675_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Выгрузка набора набора данных из AMRcloud&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/ru/tutorials/integrations/reports/download-dataset_hu323e84d7f8b4343708da9eb9ad2bbb43_71675_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;2021&#34; height=&#34;551&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выгрузка набора набора данных из AMRcloud
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;В результате будет скачан ZIP-архив с файлом. В архиве будет файл CSV, его необходимо открыть в MS Excel.&lt;/p&gt;
+&lt;h2 id=&#34;подготовка-таблицы-для-загрузки-в-систему-годовых-отчетов&#34;&gt;Подготовка таблицы для загрузки в систему годовых отчетов&lt;/h2&gt;
+&lt;p&gt;Чтобы файл корректно обработался системой годовых отчетов, необходимы следующие условия:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Столбец с клиническим материалом должен назваться &lt;strong&gt;Материал&lt;/strong&gt;;&lt;/li&gt;
+&lt;li&gt;Столбец с видом организма должен называться &lt;strong&gt;Организм&lt;/strong&gt;;&lt;/li&gt;
+&lt;li&gt;Написание материалов и видов организмов должны совпадать с таковыми в справочниках системы годовых отчетов;&lt;/li&gt;
+&lt;li&gt;Итоговая таблица должна быть сохранена в формате Excel (xlsx);&lt;/li&gt;
+&lt;li&gt;Файл Excel должен содержать только один лист с данными.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Для этого открываем скачанный файл CSV, находим в нем столбцы с клиническим материалом и видом организма и переименовываем. Порядок столбцов и регистр букв не важен.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-переименование-столбцов&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/ru/tutorials/integrations/reports/column-rename_hu69ad3b0242cfbb8a5454ff58640b757f_20419_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Переименование столбцов&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/ru/tutorials/integrations/reports/column-rename_hu69ad3b0242cfbb8a5454ff58640b757f_20419_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;912&#34; height=&#34;232&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Переименование столбцов
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;При необходимости можно заменить написание клинических материалов и видов организмов, чтобы они соответствовали таковым в системе годовых отчетов. При импорте заполняется только информация по интересующим систему материалам и организмам, все остальные игнорируются.&lt;/p&gt;
+&lt;p&gt;Перечень допустимых названий клинических материалов:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Аспират синуса/промывные воды синуса&lt;/li&gt;
+&lt;li&gt;Биоптат (слизистая оболочка желудка)&lt;/li&gt;
+&lt;li&gt;Другие&lt;/li&gt;
+&lt;li&gt;Кровь&lt;/li&gt;
+&lt;li&gt;Ликвор&lt;/li&gt;
+&lt;li&gt;Мазок из глотки&lt;/li&gt;
+&lt;li&gt;Мокрота, БАЛ, ЭТА, плевральная жидкость&lt;/li&gt;
+&lt;li&gt;Моча&lt;/li&gt;
+&lt;li&gt;Соскоб из уретры&lt;/li&gt;
+&lt;li&gt;Соскоб из цервикального канала&lt;/li&gt;
+&lt;li&gt;Фекалии&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Перечень допустимых названий видов микроорганизмов:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Acinetobacter baumannii&lt;/li&gt;
+&lt;li&gt;Bordetella pertussis/parapertussis&lt;/li&gt;
+&lt;li&gt;Campylobacter spp.&lt;/li&gt;
+&lt;li&gt;Candida albicans&lt;/li&gt;
+&lt;li&gt;Candida spp. (кроме C. albicans)&lt;/li&gt;
+&lt;li&gt;Chlamydia trachomatis&lt;/li&gt;
+&lt;li&gt;Chlamydophila pneumoniae&lt;/li&gt;
+&lt;li&gt;Clostridium difficile&lt;/li&gt;
+&lt;li&gt;Corynebacterium diphtheriae&lt;/li&gt;
+&lt;li&gt;Enterococcus faecalis&lt;/li&gt;
+&lt;li&gt;Enterococcus faecium&lt;/li&gt;
+&lt;li&gt;Escherichia coli&lt;/li&gt;
+&lt;li&gt;Haemophilus influenzae&lt;/li&gt;
+&lt;li&gt;Helicobacter pylori&lt;/li&gt;
+&lt;li&gt;Herpes simplex virus type 1,2&lt;/li&gt;
+&lt;li&gt;Human herpes virus type 4 (Epstein-Barr virus)&lt;/li&gt;
+&lt;li&gt;Human herpes virus type 5 (Cytomegalovirus)&lt;/li&gt;
+&lt;li&gt;Human herpes virus type 6&lt;/li&gt;
+&lt;li&gt;Human papilloma virus&lt;/li&gt;
+&lt;li&gt;Klebsiella pneumoniae&lt;/li&gt;
+&lt;li&gt;Legionella spp.&lt;/li&gt;
+&lt;li&gt;Listeria monocytogenes&lt;/li&gt;
+&lt;li&gt;Moraxella catarrhalis&lt;/li&gt;
+&lt;li&gt;Neisseria gonorrhoeae&lt;/li&gt;
+&lt;li&gt;Neisseria meningitidis&lt;/li&gt;
+&lt;li&gt;Pseudomonas aeruginosa&lt;/li&gt;
+&lt;li&gt;Salmonella spp.&lt;/li&gt;
+&lt;li&gt;Shigella spp.&lt;/li&gt;
+&lt;li&gt;Staphylococcus aureus&lt;/li&gt;
+&lt;li&gt;Streptococci групп B, C, G&lt;/li&gt;
+&lt;li&gt;Streptococcus pneumoniae&lt;/li&gt;
+&lt;li&gt;Streptococcus pyogenes (сг А)&lt;/li&gt;
+&lt;li&gt;Trichomonas vaginalis&lt;/li&gt;
+&lt;li&gt;Ureaplasma urealyticum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;При необходимости можно объединять схожие категории в одну (например все отдельные материалы Мокрота, БАЛ, ЭТА, плевральная жидкость можно объединить в одну категорию, также как и все Candida, отличные от &lt;em&gt;Candida albicans&lt;/em&gt;), воспользоваться функциями фильтров, поиска и замены.&lt;/p&gt;
+&lt;p&gt;После того, как данные подготовлены нужно сохранить файл из формата CSV в формат Excel. Для этого выбираем меню &lt;strong&gt;Файл&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Сохранить как&lt;/strong&gt; -&amp;gt; В диалоге сохранения файла выбираем &lt;strong&gt;Книга Excel (xlsx)&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-сохранение-в-формате-excel&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/ru/tutorials/integrations/reports/save-xlsx_hu5718444fd5cd1b3803ecc417f5d34e52_40871_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Сохранение в формате Excel&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/ru/tutorials/integrations/reports/save-xlsx_hu5718444fd5cd1b3803ecc417f5d34e52_40871_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;942&#34; height=&#34;581&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Сохранение в формате Excel
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Полученный файл готов для загрузки в систему годовых отчетов.&lt;/p&gt;
+&lt;h2 id=&#34;загрузка-данных-в-систему-годовых-отчетов&#34;&gt;Загрузка данных в систему годовых отчетов&lt;/h2&gt;
+&lt;p&gt;С помощью данного файла можно заполнить данные по двум разделам отчета:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Микробный пейзаж&lt;/li&gt;
+&lt;li&gt;Резистентность&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;В каждом из этих разделов в режиме редактирования есть соответствующая кнопка &lt;strong&gt;Загрузить файл AMRcloud&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-кнопка-загрузки-таблицы-в-системе-годовых-отчетов&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/ru/tutorials/integrations/reports/report-button_hu98484ca1f839de357694176666b7ed36_116634_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Кнопка загрузки таблицы в системе годовых отчетов&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/ru/tutorials/integrations/reports/report-button_hu98484ca1f839de357694176666b7ed36_116634_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1985&#34; height=&#34;901&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Кнопка загрузки таблицы в системе годовых отчетов
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Стоит отметить, что в разделе &lt;strong&gt;Микробный пейзаж&lt;/strong&gt; нужно загрузить &lt;strong&gt;отдельный файл для каждого из нужных методов&lt;/strong&gt;. Соответственно, если у вас в одном файле содержатся данные по всем трем методам исследований, необходимо разделить таблицу на три части и сохранить каждую в отдельный файл.&lt;/p&gt;
+&lt;p&gt;При нажатии кнопки &lt;strong&gt;Загрузить файл AMRcloud&lt;/strong&gt; появится диалог, который еще раз напомнит о требованиях к загружаемому файлу и предупредит, что все внесенные ранее данные по микробному пейзажу будут перезаписаны новыми данными из файла AMRcloud. Для загрузки файла нажмите кнопку &lt;strong&gt;Импортировать файл AMRcloud&lt;/strong&gt; и выберите нужный файл.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-диалог-импорта-для-раздела-микробный-пейзаж&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/ru/tutorials/integrations/reports/import-dialog_huda068d23d5e638162eb86ae486a06820_113635_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Диалог импорта для раздела Микробный пейзаж&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/ru/tutorials/integrations/reports/import-dialog_huda068d23d5e638162eb86ae486a06820_113635_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;2045&#34; height=&#34;827&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Диалог импорта для раздела Микробный пейзаж
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;В случае успешной загрузки вы увидите суммарные данные в форме отчета.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-заполненный-раздел-формы-отчета&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/ru/tutorials/integrations/reports/report-landscape_hue00539ae3c4b621f527e5932f07a5ac1_132722_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Заполненный раздел формы отчета&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/ru/tutorials/integrations/reports/report-landscape_hue00539ae3c4b621f527e5932f07a5ac1_132722_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1955&#34; height=&#34;939&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Заполненный раздел формы отчета
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;При необходимости вы можете отредактировать, удалить или добавить новые данные вручную.&lt;/p&gt;
+&lt;p&gt;В разделе &lt;strong&gt;Резистентность&lt;/strong&gt; загрузка происходит полностью аналогично.&lt;/p&gt;
+&lt;p&gt;Стоит только отметить, что для подсчета количества резистентных изолятов используются столбцы с названиями антибиотиков и постфиком &lt;strong&gt;_sir&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-диалог-импорта-для-раздела-резистеность&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/ru/tutorials/integrations/reports/import-dialog-2_hu4f616bd82df5b54bbe2ef2879cd49a86_138670_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Диалог импорта для раздела Резистеность&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/ru/tutorials/integrations/reports/import-dialog-2_hu4f616bd82df5b54bbe2ef2879cd49a86_138670_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;2047&#34; height=&#34;933&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Диалог импорта для раздела Резистеность
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Перечень антибиотиков, для которых формируется отчет приведен ниже:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;cefepime&lt;/li&gt;
+&lt;li&gt;cefotaxime&lt;/li&gt;
+&lt;li&gt;ceftazidime&lt;/li&gt;
+&lt;li&gt;ceftazidime-avibactam&lt;/li&gt;
+&lt;li&gt;ciprofloxacin&lt;/li&gt;
+&lt;li&gt;ertapenem&lt;/li&gt;
+&lt;li&gt;erythromycin&lt;/li&gt;
+&lt;li&gt;imipenem&lt;/li&gt;
+&lt;li&gt;levofloxacin&lt;/li&gt;
+&lt;li&gt;linezolid&lt;/li&gt;
+&lt;li&gt;meropenem&lt;/li&gt;
+&lt;li&gt;moxifloxacin&lt;/li&gt;
+&lt;li&gt;norfloxacin&lt;/li&gt;
+&lt;li&gt;oxacillin-cefoxitin&lt;/li&gt;
+&lt;li&gt;oxacillin-screen&lt;/li&gt;
+&lt;li&gt;penicillin&lt;/li&gt;
+&lt;li&gt;vancomycin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Пример результата загрузки файла AMRcloud в раздел отчета &lt;strong&gt;Резистентность&lt;/strong&gt; приведен ниже.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-заполненный-раздел-формы-отчета&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/ru/tutorials/integrations/reports/report-resistance_huc0204995018b9542d15e2562bc89baa0_138102_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Заполненный раздел формы отчета&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/ru/tutorials/integrations/reports/report-resistance_huc0204995018b9542d15e2562bc89baa0_138102_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1925&#34; height=&#34;1179&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Заполненный раздел формы отчета
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;При необходимости вы можете также отредактировать, удалить или добавить новые данные вручную.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Экспорт из ЛИС «Патоген» в AMRcloud</title>
       <link>https://amrcloud.net/ru/tutorials/integrations/patogen-lis/</link>
       <pubDate>Wed, 25 May 2022 00:06:00 +0000</pubDate>

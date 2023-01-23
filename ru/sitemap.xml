@@ -344,7 +344,7 @@
   
   <url>
     <loc>https://amrcloud.net/ru/</loc>
-    <lastmod>2022-06-14T09:00:00+00:00</lastmod>
+    <lastmod>2023-01-23T18:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -354,6 +354,26 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://amrcloud.net/ru/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/tutorials/integrations/reports/</loc>
+    <lastmod>2023-01-23T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/tutorials/</loc>
+    <lastmod>2023-01-23T18:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/tutorials/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/tutorials/"
                 />
   </url>
   
@@ -425,21 +445,6 @@
   <url>
     <loc>https://amrcloud.net/ru/post/20220526-lis-patogen/</loc>
     <lastmod>2022-05-26T01:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/ru/tutorials/</loc>
-    <lastmod>2022-05-25T00:06:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/tutorials/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/tutorials/"
-                />
   </url>
   
   <url>
