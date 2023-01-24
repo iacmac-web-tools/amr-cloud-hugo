@@ -27,15 +27,14 @@
   
     
   
-  <meta name="description" content="В последующем, если у вас появятся новые данные, структурно не отличающиеся от первоначально загруженных в “Набор данных”, то вам не придётся каждый раз сбрасывать все шаги импорта и перезагружать всю таблицу целиком.
-Добавление данных Выберите необходимый набор данных и нажмите на кнопку Редактировать набор данных.
-Перейдите на вкладку Шаг 4: Категоризация S/I/R и нажмите на кнопку Добавить данные.
-Для выбора файла нажмите Browse (вы можете использовать файл формата CSV — в таком случае вам, возможно, потребуется настроить разделитель столбцов).">
+  <meta name="description" content="Также в AMRcloud предусмотрена возможность выгрузки набора данных в виде табличного файла формата .csv.
+Экспорт данных Выберите необходимый набор данных и нажмите на кнопку Редактировать набор данных.
+Перейдите на вкладку Скачать и выберите необходимую кодировку текста (если в вашем наборе данных встречаются русские символы, то выберете значение Windows (кириллица)).
+Нажмите на одну из кнопок для скачивания табличного файла:
+Скачать исходные данные — таблица с исходным набором данных (с исходными данными МПК, диск-диффузии и категориями SIR) Скачать данные МПК — таблица с исходным набором данных и категориями SIR на основе интерпретации из МПК Скачать данные диск-диффузии — таблица с исходным набором данных и категориями SIR на основе интерпретации из диаметров зон подавления роста">
 
   
-  <link rel="alternate" hreflang="en" href="https://amrcloud.net/en/tutorials/import-data/09-adddata/">
-  
-  <link rel="alternate" hreflang="ru-ru" href="https://amrcloud.net/ru/tutorials/import-data/09-adddata/">
+  <link rel="alternate" hreflang="ru-ru" href="https://amrcloud.net/ru/tutorials/import-data/10-export/">
 
   
 
@@ -250,7 +249,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu1e3f9432ea43508a577ec9e03ae2f676_16946_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu1e3f9432ea43508a577ec9e03ae2f676_16946_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://amrcloud.net/ru/tutorials/import-data/09-adddata/">
+  <link rel="canonical" href="https://amrcloud.net/ru/tutorials/import-data/10-export/">
 
   
   
@@ -268,18 +267,19 @@
   <meta property="twitter:creator" content="@@iacmac1997">
   
   <meta property="og:site_name" content="AMRcloud">
-  <meta property="og:url" content="https://amrcloud.net/ru/tutorials/import-data/09-adddata/">
-  <meta property="og:title" content="Добавление данных | AMRcloud">
-  <meta property="og:description" content="В последующем, если у вас появятся новые данные, структурно не отличающиеся от первоначально загруженных в “Набор данных”, то вам не придётся каждый раз сбрасывать все шаги импорта и перезагружать всю таблицу целиком.
-Добавление данных Выберите необходимый набор данных и нажмите на кнопку Редактировать набор данных.
-Перейдите на вкладку Шаг 4: Категоризация S/I/R и нажмите на кнопку Добавить данные.
-Для выбора файла нажмите Browse (вы можете использовать файл формата CSV — в таком случае вам, возможно, потребуется настроить разделитель столбцов)."><meta property="og:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png">
+  <meta property="og:url" content="https://amrcloud.net/ru/tutorials/import-data/10-export/">
+  <meta property="og:title" content="Экспорт данных | AMRcloud">
+  <meta property="og:description" content="Также в AMRcloud предусмотрена возможность выгрузки набора данных в виде табличного файла формата .csv.
+Экспорт данных Выберите необходимый набор данных и нажмите на кнопку Редактировать набор данных.
+Перейдите на вкладку Скачать и выберите необходимую кодировку текста (если в вашем наборе данных встречаются русские символы, то выберете значение Windows (кириллица)).
+Нажмите на одну из кнопок для скачивания табличного файла:
+Скачать исходные данные — таблица с исходным набором данных (с исходными данными МПК, диск-диффузии и категориями SIR) Скачать данные МПК — таблица с исходным набором данных и категориями SIR на основе интерпретации из МПК Скачать данные диск-диффузии — таблица с исходным набором данных и категориями SIR на основе интерпретации из диаметров зон подавления роста"><meta property="og:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png">
   <meta property="twitter:image" content="https://amrcloud.net/img/amr-cloud-logo-text.png"><meta property="og:locale" content="ru-ru">
   
     
-      <meta property="article:published_time" content="2020-02-14T00:01:00&#43;00:00">
+      <meta property="article:published_time" content="2023-01-24T00:01:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-02-14T00:01:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-01-24T00:01:00&#43;00:00">
   
 
   
@@ -328,7 +328,7 @@
 
 
 
-  <title>Добавление данных | AMRcloud</title>
+  <title>Экспорт данных | AMRcloud</title>
 
 </head>
 
@@ -578,32 +578,6 @@
       
 
       
-            <li class="nav-item dropdown i18n-dropdown">
-              
-                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
-                    
-                        <span class="emoji-flag-icon"><img src="\img\flag-ru.png" alt="RU"></span>
-                        
-                    <span class="d-none d-lg-inline">Русский</span>
-                </a>
-                <div class="dropdown-menu">
-                    <div class="dropdown-item active font-weight-bold">
-                        
-                        <span class="emoji-flag-icon"><img src="\img\flag-ru.png" alt="RU"></span>
-                        
-                        <span>Русский</span>
-                    </div>
-                    
-                    <a class="dropdown-item" href="/en/tutorials/import-data/09-adddata/"  onclick="setPreferredLanguage(&#34;en&#34;)">
-                        
-                        <span class="emoji-flag-icon"><img src="\img\flag-uk.png" alt="ENG"></span>
-                        
-                        <span>English</span>
-                    </a>
-                    
-                </div>
-            </li>
-      
 
     </ul>
 
@@ -674,11 +648,11 @@
         <a href="/ru/tutorials/import-data/07-interpretation/">Шаг 4 - Категоризация S/I/R</a>
       </li>
       
-      <li class="active">
+      <li >
         <a href="/ru/tutorials/import-data/09-adddata/">Добавление данных</a>
       </li>
       
-      <li >
+      <li class="active">
         <a href="/ru/tutorials/import-data/10-export/">Экспорт данных</a>
       </li>
       
@@ -703,11 +677,11 @@
       <article class="article">
 
         <div class="docs-article-container">
-          <h1>Добавление данных</h1>
+          <h1>Экспорт данных</h1>
 
           <div class="article-style">
-            <p>В последующем, если у вас появятся новые данные, структурно не отличающиеся от первоначально загруженных в &ldquo;Набор данных&rdquo;, то вам не придётся каждый раз сбрасывать все шаги импорта и перезагружать всю таблицу целиком.</p>
-<h2 id="добавление-данных">Добавление данных</h2>
+            <p>Также в <span style="color:#2BA2E6"><strong>AMRcloud</strong></span> предусмотрена возможность выгрузки набора данных в виде табличного файла формата <em>.csv</em>.</p>
+<h2 id="экспорт-данных">Экспорт данных</h2>
 <p>Выберите необходимый набор данных и нажмите на кнопку <strong>Редактировать набор данных</strong>.</p>
 
 
@@ -729,17 +703,17 @@
 <figure >
 
 
-  <a data-fancybox="" href="/img/tutorials/import-data/ru/1.png" >
+  <a data-fancybox="" href="/img/tutorials/import-data/ru/exp01.png" >
 
 
-  <img src="/img/tutorials/import-data/ru/1.png" alt=""  >
+  <img src="/img/tutorials/import-data/ru/exp01.png" alt=""  >
 </a>
 
 
 
 </figure>
 
-<p>Перейдите на вкладку <strong>Шаг 4: Категоризация S/I/R</strong> и нажмите на кнопку <strong>Добавить данные</strong>.</p>
+<p>Перейдите на вкладку <strong>Скачать</strong> и выберите необходимую кодировку текста (если в вашем наборе данных встречаются русские символы, то выберете значение <strong>Windows (кириллица)</strong>).</p>
 
 
 
@@ -760,17 +734,22 @@
 <figure >
 
 
-  <a data-fancybox="" href="/img/tutorials/import-data/ru/2.png" >
+  <a data-fancybox="" href="/img/tutorials/import-data/ru/exp02.png" >
 
 
-  <img src="/img/tutorials/import-data/ru/2.png" alt=""  >
+  <img src="/img/tutorials/import-data/ru/exp02.png" alt=""  >
 </a>
 
 
 
 </figure>
 
-<p>Для выбора файла нажмите <strong>Browse</strong> (вы можете использовать файл формата CSV — в таком случае вам, возможно, потребуется настроить разделитель столбцов). Если таблица с данными корректно отобразилась, то проверьте правильность формата дат и поставьте галочку <strong>Отображается ли временная шкала?</strong>. В завершении нажмите на кнопку <strong>Загрузить</strong>.</p>
+<p>Нажмите на одну из кнопок для скачивания табличного файла:</p>
+<ul>
+<li><strong>Скачать исходные данные</strong> — таблица с исходным набором данных (с исходными данными МПК, диск-диффузии и категориями SIR)</li>
+<li><strong>Скачать данные МПК</strong> — таблица с исходным набором данных и категориями SIR на основе интерпретации из МПК</li>
+<li><strong>Скачать данные диск-диффузии</strong> — таблица с исходным набором данных и категориями SIR на основе интерпретации из диаметров зон подавления роста</li>
+</ul>
 
 
 
@@ -791,22 +770,16 @@
 <figure >
 
 
-  <a data-fancybox="" href="/img/tutorials/import-data/ru/3.png" >
+  <a data-fancybox="" href="/img/tutorials/import-data/ru/exp03.png" >
 
 
-  <img src="/img/tutorials/import-data/ru/3.png" alt=""  >
+  <img src="/img/tutorials/import-data/ru/exp03.png" alt=""  >
 </a>
 
 
 
 </figure>
 
-<p>После завершения загрузки вы сможете закрыть окно загрузки и перейти к анализу данных или загрузить ещё дополнительные данные.</p>
-<div class="alert alert-note">
-  <div>
-    Функционал добавления данных появился в AMRcloud с 15 февраля 2022. Для наборов данных, созданных ранее этой даты, будет необходимо сбросить набор на <strong>Шаге 2</strong> и пройти заново все шаги импорта. После этого функционал добавления данных станет доступен.
-  </div>
-</div>
 
           </div>
 
@@ -822,7 +795,7 @@
             Обновлено 
             
             
-              14 февраля 2020
+              24 января 2023
             
           </p>
 
@@ -981,7 +954,7 @@
             $.ajax({
                 url: "https:\/\/api.amrcloud.net\/api/ga/page",
                 data: {
-                    path: "\/ru\/tutorials\/import-data\/09-adddata\/",
+                    path: "\/ru\/tutorials\/import-data\/10-export\/",
                     link: ""
                 },
                 type: 'GET',

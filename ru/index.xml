@@ -5,12 +5,120 @@
     <link>https://amrcloud.net/ru/</link>
       <atom:link href="https://amrcloud.net/ru/index.xml" rel="self" type="application/rss+xml" />
     <description>AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Mon, 23 Jan 2023 18:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Tue, 24 Jan 2023 00:01:00 +0000</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>AMRcloud</title>
       <link>https://amrcloud.net/ru/</link>
     </image>
+    
+    <item>
+      <title>Экспорт данных</title>
+      <link>https://amrcloud.net/ru/tutorials/import-data/10-export/</link>
+      <pubDate>Tue, 24 Jan 2023 00:01:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/import-data/10-export/</guid>
+      <description>&lt;p&gt;Также в &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; предусмотрена возможность выгрузки набора данных в виде табличного файла формата &lt;em&gt;.csv&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;экспорт-данных&#34;&gt;Экспорт данных&lt;/h2&gt;
+&lt;p&gt;Выберите необходимый набор данных и нажмите на кнопку &lt;strong&gt;Редактировать набор данных&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/exp01.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/exp01.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Перейдите на вкладку &lt;strong&gt;Скачать&lt;/strong&gt; и выберите необходимую кодировку текста (если в вашем наборе данных встречаются русские символы, то выберете значение &lt;strong&gt;Windows (кириллица)&lt;/strong&gt;).&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/exp02.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/exp02.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Нажмите на одну из кнопок для скачивания табличного файла:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Скачать исходные данные&lt;/strong&gt; — таблица с исходным набором данных (с исходными данными МПК, диск-диффузии и категориями SIR)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Скачать данные МПК&lt;/strong&gt; — таблица с исходным набором данных и категориями SIR на основе интерпретации из МПК&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Скачать данные диск-диффузии&lt;/strong&gt; — таблица с исходным набором данных и категориями SIR на основе интерпретации из диаметров зон подавления роста&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/ru/exp03.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/ru/exp03.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
     
     <item>
       <title>Графики в дашборде</title>
