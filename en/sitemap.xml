@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://amrcloud.net/en/tutorials/import-data/10-export/</loc>
+    <lastmod>2023-01-24T00:01:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/tutorials/import-data/10-export/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/tutorials/import-data/10-export/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/tutorials/import-data/</loc>
+    <lastmod>2023-01-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/tutorials/import-data/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/tutorials/import-data/"
+                />
+  </url>
+  
+  <url>
     <loc>https://amrcloud.net/en/tutorials/analysis-examples/01/</loc>
     <lastmod>2021-10-12T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -123,21 +153,6 @@
   </url>
   
   <url>
-    <loc>https://amrcloud.net/en/tutorials/import-data/</loc>
-    <lastmod>2020-03-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/tutorials/import-data/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/tutorials/import-data/"
-                />
-  </url>
-  
-  <url>
     <loc>https://amrcloud.net/en/tutorials/import-data/09-adddata/</loc>
     <lastmod>2020-02-14T00:01:00+00:00</lastmod>
     <xhtml:link
@@ -244,7 +259,7 @@
   
   <url>
     <loc>https://amrcloud.net/en/</loc>
-    <lastmod>2022-06-14T09:00:00+00:00</lastmod>
+    <lastmod>2023-01-24T00:01:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -254,6 +269,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://amrcloud.net/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/en/tutorials/</loc>
+    <lastmod>2023-01-24T00:01:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/tutorials/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/tutorials/"
                 />
   </url>
   
@@ -415,21 +445,6 @@
   <url>
     <loc>https://amrcloud.net/en/authors/kuzmenkov-a.yu./</loc>
     <lastmod>2022-03-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/en/tutorials/</loc>
-    <lastmod>2022-03-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/tutorials/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/tutorials/"
-                />
   </url>
   
   <url>

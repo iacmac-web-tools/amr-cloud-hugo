@@ -5,12 +5,120 @@
     <link>https://amrcloud.net/en/</link>
       <atom:link href="https://amrcloud.net/en/index.xml" rel="self" type="application/rss+xml" />
     <description>AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Tue, 14 Jun 2022 09:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Tue, 24 Jan 2023 00:01:00 +0000</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>AMRcloud</title>
       <link>https://amrcloud.net/en/</link>
     </image>
+    
+    <item>
+      <title>Data Export</title>
+      <link>https://amrcloud.net/en/tutorials/import-data/10-export/</link>
+      <pubDate>Tue, 24 Jan 2023 00:01:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/tutorials/import-data/10-export/</guid>
+      <description>&lt;p&gt;In &lt;span style=&#34;color:#2BA2E6&#34;&gt;&lt;strong&gt;AMRcloud&lt;/strong&gt;&lt;/span&gt; you can also save the data set as &lt;em&gt;.csv&lt;/em&gt; file.&lt;/p&gt;
+&lt;h2 id=&#34;save-data&#34;&gt;Save data&lt;/h2&gt;
+&lt;p&gt;Select the required data set and click on the &lt;strong&gt;Edit set&lt;/strong&gt; button.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/exp04.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/exp04.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Go to the &lt;strong&gt;Download&lt;/strong&gt; tab and select the required encoding.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/exp05.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/exp05.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Click on one of the buttons to download the table file:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Download Validated Source Data&lt;/strong&gt; - table with the original dataset (with raw data for MIC, disk diffusion and SIR categories)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Download Validated MIC Data&lt;/strong&gt; - table with the original dataset and SIR categories based on MIC interpretive criteria&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Download Validated Disk Data&lt;/strong&gt; - table with the original dataset and SIR categories based on inhibition zone diameters interpretive criteria&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/import-data/eng/exp06.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/import-data/eng/exp06.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
     
     <item>
       <title>Organization of data analysis &amp; visualization module</title>
