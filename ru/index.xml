@@ -6865,7 +6865,8 @@ File**→** Save with Encoding **→** Windows-1251.
       <link>https://amrcloud.net/ru/tutorials/integrations/reports/</link>
       <pubDate>Mon, 23 Jan 2023 18:00:00 +0000</pubDate>
       <guid>https://amrcloud.net/ru/tutorials/integrations/reports/</guid>
-      <description>&lt;p&gt;Руководство рассказывает о том, как имеющиеся у вас данные в AMRcloud можно использовать для заполнения отчета в системе годовых отчетов для главного внештатного специалиста Министерства здравоохранения Российской Федерации по клинической микробиологии и антимикробной резистентности (specialist.antibiotic.ru).&lt;/p&gt;
+      <description>&lt;p&gt;Руководство рассказывает о том, как имеющиеся у вас данные в AMRcloud можно использовать для заполнения отчета в системе годовых отчетов для главного внештатного специалиста Министерства здравоохранения Российской Федерации по клинической микробиологии и антимикробной резистентности (
+&lt;a href=&#34;https://specialist.antibiotic.ru/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;specialist.antibiotic.ru&lt;/a&gt;).&lt;/p&gt;
 &lt;h2 id=&#34;выгрузка-данных-из-amrcloud&#34;&gt;Выгрузка данных из AMRcloud&lt;/h2&gt;
 &lt;p&gt;Предполагается, что у вас уже есть данные по микробиологическим исследованиям за год, загруженные в какой-либо из наборов данных AMRcloud.&lt;/p&gt;
 &lt;p&gt;Выберите нужный набор и нажмите кнопку &lt;strong&gt;Редактировать набор данных&lt;/strong&gt;.&lt;/p&gt;
