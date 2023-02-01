@@ -5,7 +5,7 @@
     <link>https://amrcloud.net/ru/</link>
       <atom:link href="https://amrcloud.net/ru/index.xml" rel="self" type="application/rss+xml" />
     <description>AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Tue, 24 Jan 2023 00:01:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Mon, 30 Jan 2023 09:00:00 +0300</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>AMRcloud</title>
@@ -6857,6 +6857,211 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;/figure&gt;
 
 &lt;p&gt;Обработка Ваших данных экспертной системой может занимать продолжительное время, поэтому на вкладке &lt;strong&gt;Экспертная система&lt;/strong&gt; в правом углу может высвечиваться сообщение, что данные ещё обрабатываются. В таком случае Вам необходимо будет подождать, пока экспертная система завершит свою работу, и зайти в этот набор данных позднее.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Январский пакет обновлений</title>
+      <link>https://amrcloud.net/ru/post/20230130-amrcloud-update/</link>
+      <pubDate>Mon, 30 Jan 2023 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/ru/post/20230130-amrcloud-update/</guid>
+      <description>&lt;p&gt;Январское обновление платформы для анализа пользовательских данных антибиотикорезистентности AMRcloud:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;у пользователей появилась возможность добавлять графики &lt;strong&gt;&amp;ldquo;Группировать по&amp;rdquo;&lt;/strong&gt; из вкладок &lt;strong&gt;&amp;ldquo;Структура данных&amp;rdquo;&lt;/strong&gt; и &lt;strong&gt;&amp;ldquo;Выбранный антибиотик&amp;rdquo;&lt;/strong&gt; к ранее созданным дашбордам&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-пример-работы-с-вкладкой-структура-данных&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/ru/post/20230130-amrcloud-update/img/adddash1_hu423d66c64a6dd686624d37a70a41fba1_126708_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Пример работы с вкладкой &amp;lt;strong&amp;gt;Структура данных&amp;lt;/strong&amp;gt;&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/ru/post/20230130-amrcloud-update/img/adddash1_hu423d66c64a6dd686624d37a70a41fba1_126708_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1892&#34; height=&#34;897&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Пример работы с вкладкой &lt;strong&gt;Структура данных&lt;/strong&gt;
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-пример-работы-с-вкладкой-выбранный-антибиотик&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/ru/post/20230130-amrcloud-update/img/adddash2_hu81770f8879268bc62bd2dcac580e503e_127720_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Пример работы с вкладкой &amp;lt;strong&amp;gt;Выбранный антибиотик&amp;lt;/strong&amp;gt;&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/ru/post/20230130-amrcloud-update/img/adddash2_hu81770f8879268bc62bd2dcac580e503e_127720_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1891&#34; height=&#34;904&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Пример работы с вкладкой &lt;strong&gt;Выбранный антибиотик&lt;/strong&gt;
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;в глобальных настройках отображения графиков появилась возможность убрать числовые значения&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-настройка-отображения-графиков&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/ru/post/20230130-amrcloud-update/img/chisla_hu2422f1926863d7807b8dd8ce667d16c3_570386_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Настройка отображения графиков&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/ru/post/20230130-amrcloud-update/img/chisla_hu2422f1926863d7807b8dd8ce667d16c3_570386_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1417&#34; height=&#34;1290&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Настройка отображения графиков
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;в режиме просмотра дашбордов (при переходе по ссылке или QR-коду) появилась возможность менять настройки отображения графиков: размер и видимость подписей&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-регулировка-размера-подписей&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/ru/post/20230130-amrcloud-update/img/dashboard1_huf9de52f8e4cba6d3fb6f1601c6efb23a_203605_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Регулировка размера подписей&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/ru/post/20230130-amrcloud-update/img/dashboard1_huf9de52f8e4cba6d3fb6f1601c6efb23a_203605_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1164&#34; height=&#34;570&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Регулировка размера подписей
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-регулировка-отображения-подписей&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/ru/post/20230130-amrcloud-update/img/dashboard2_hu1704a2b9c18d004bff2037a23656aba8_120683_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Регулировка отображения подписей&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/ru/post/20230130-amrcloud-update/img/dashboard2_hu1704a2b9c18d004bff2037a23656aba8_120683_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;792&#34; height=&#34;570&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Регулировка отображения подписей
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
