@@ -359,7 +359,7 @@
   
   <url>
     <loc>https://amrcloud.net/ru/</loc>
-    <lastmod>2023-01-30T09:00:00+03:00</lastmod>
+    <lastmod>2023-02-06T09:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -369,6 +369,36 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://amrcloud.net/ru/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/project/cazavi/</loc>
+    <lastmod>2023-02-06T09:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/project/cazavi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/project/cazavi/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amrcloud.net/ru/project/</loc>
+    <lastmod>2023-02-06T09:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/project/"
                 />
   </url>
   
@@ -424,21 +454,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://amrcloud.net/ru/project/muco-v/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/ru/project/</loc>
-    <lastmod>2022-06-14T09:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/project/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/project/"
                 />
   </url>
   
@@ -1004,21 +1019,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://amrcloud.net/ru/post/20210212-february-update/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://amrcloud.net/ru/project/cazavi-1-2/</loc>
-    <lastmod>2021-02-09T15:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://amrcloud.net/en/project/cazavi-1-2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://amrcloud.net/ru/project/cazavi-1-2/"
                 />
   </url>
   

@@ -5,7 +5,7 @@
     <link>https://amrcloud.net/ru/</link>
       <atom:link href="https://amrcloud.net/ru/index.xml" rel="self" type="application/rss+xml" />
     <description>AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Mon, 30 Jan 2023 09:00:00 +0300</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Mon, 06 Feb 2023 09:00:00 +0000</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>AMRcloud</title>
@@ -6857,6 +6857,79 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;/figure&gt;
 
 &lt;p&gt;Обработка Ваших данных экспертной системой может занимать продолжительное время, поэтому на вкладке &lt;strong&gt;Экспертная система&lt;/strong&gt; в правом углу может высвечиваться сообщение, что данные ещё обрабатываются. В таком случае Вам необходимо будет подождать, пока экспертная система завершит свою работу, и зайти в этот набор данных позднее.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Исследование &#34;CAZ-AVI&#34;</title>
+      <link>https://amrcloud.net/ru/project/cazavi/</link>
+      <pubDate>Mon, 06 Feb 2023 09:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/project/cazavi/</guid>
+      <description>&lt;h3 id=&#34;цель-исследования&#34;&gt;Цель исследования:&lt;/h3&gt;
+&lt;p&gt;Оценить на основании локальных данных &lt;em&gt;in vitro&lt;/em&gt; активность комбинации цефтазидима с авибактамом в отношении клинических изолятов Enterobacterales и &lt;em&gt;Pseudomonas aeruginosa&lt;/em&gt;, выделенных в стационарах различных регионов России, Армении, Грузии и Казахстана.&lt;/p&gt;
+&lt;h3 id=&#34;данные&#34;&gt;Данные:&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Бактериальные изоляты:&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;34 958&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;  Enterobacterales:&lt;/td&gt;
+&lt;td&gt;27 799&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;  &lt;em&gt;Pseudomonas aeruginosa:&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;7 159&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Этап I:&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;11 ноября 2018 - 28 апреля 2019&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Этап II:&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;01 января 2020 - 28 декабря 2020&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Этап III:&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;09 января 2021 - 24 декабря 2021&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Участники:&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;198 центров из 70 городов России, Армении, Грузии и Казахстана&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;критерии-включения&#34;&gt;Критерии включения:&lt;/h3&gt;
+&lt;p&gt;Клинические изоляты Enterobacterales и &lt;em&gt;Pseudomonas aeruginosa&lt;/em&gt;, выделенные у пациентов с клиническими и лабораторными признаками инфекции различной локализации (брюшная полость и органы малого таза, дыхательная система, кожа и мягкие ткани, кости и суставы, мочевые пути, сердце и сосуды, центральная нервная система).&lt;/p&gt;
+&lt;h3 id=&#34;критерии-исключения&#34;&gt;Критерии исключения:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;изоляты, не относящиеся к Enterobacterales и &lt;em&gt;Pseudomonas aeruginosa&lt;/em&gt;;&lt;/li&gt;
+&lt;li&gt;повторные изоляты одного и того же вида, выделенные от одного пациента;&lt;/li&gt;
+&lt;li&gt;колонизирующие изоляты, выделенные от людей без клинических признаков инфекции, или из окружающей среды в целях инфекционного контроля;&lt;/li&gt;
+&lt;li&gt;изоляты, информация о которых не внесена в веб-форму или внесена неправильно.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;процедуры-исследования&#34;&gt;Процедуры исследования:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Выделение, идентификация и определение чувствительности бактериальных изолятов проводится в лабораториях центров-участников исследования.&lt;/li&gt;
+&lt;li&gt;Информация об источнике выделения каждого изолята и его чувствительности к цефтазидиму/авибактаму (диаметр зоны подавления роста) вносится в специализированную веб-форму.&lt;/li&gt;
+&lt;li&gt;При наличии информации о чувствительности к карбапенемам и оксииминоцефалоспоринам указывается диаметр зоны подавления роста или значение МПК.&lt;/li&gt;
+&lt;li&gt;При наличии информации о выявлении продукции карбапенемаз указывается метод тестирования и полученный результат.&lt;/li&gt;
+&lt;li&gt;Определение клинических категорий чувствительности к антибиотикам осуществляется автоматически в соответсвии с действующими 
+&lt;a href=&#34;http://www.eucast.org/clinical_breakpoints/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;критериями EUCAST&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;координатор-исследования&#34;&gt;Координатор исследования&lt;/h3&gt;
+&lt;p&gt;Межрегиональная ассоциация по клинической микробиологии и антимикробной химиотерапии 
+&lt;a href=&#34;https://www.antibiotic.ru/iacmac/about/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;МАКМАХ&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;спонсор-исследования&#34;&gt;Спонсор исследования&lt;/h3&gt;
+&lt;p&gt;Компания 
+&lt;a href=&#34;https://www.pfizer.ru/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pfizer&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -14088,75 +14161,6 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;p&gt;Обновлены данные открытого проекта: 
 &lt;a href=&#34;../../project/cazavi-1-2/&#34;&gt;Исследование «CAZ-AVI»&lt;/a&gt; — Оценка чувствительности клинических изолятов Enterobacterales и &lt;em&gt;Pseudomonas aeruginosa&lt;/em&gt; к цефтазидиму/авибактаму в России с помощью диско-диффузионного метода.&lt;/p&gt;
 &lt;p&gt;Теперь проект включает данные второго этапа исследования: 22 тыс. бактериальных изолятов из 61 города РФ.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Исследование &#34;CAZ-AVI&#34;</title>
-      <link>https://amrcloud.net/ru/project/cazavi-1-2/</link>
-      <pubDate>Tue, 09 Feb 2021 15:00:00 +0000</pubDate>
-      <guid>https://amrcloud.net/ru/project/cazavi-1-2/</guid>
-      <description>&lt;h3 id=&#34;цель-исследования&#34;&gt;Цель исследования:&lt;/h3&gt;
-&lt;p&gt;Оценить на основании локальных данных &lt;em&gt;in vitro&lt;/em&gt; активность комбинации авибактама с цефтазидимом в отношении клинических изолятов Enterobacterales и &lt;em&gt;Pseudomonas aeruginosa&lt;/em&gt;, выделенных в стационарах различных регионов России&lt;/p&gt;
-&lt;h3 id=&#34;данные&#34;&gt;Данные:&lt;/h3&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Бактериальные изоляты:&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;22 121&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;  Enterobacterales:&lt;/td&gt;
-&lt;td&gt;17 456&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;  &lt;em&gt;Pseudomonas aeruginosa:&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;4 665&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Этап I:&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;11 ноября 2018 - 28 апреля 2019&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Этап II:&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;01 января 2020 - 28 декабря 2020&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Участники:&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;160 центров из 61 города РФ&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;критерии-включения&#34;&gt;Критерии включения:&lt;/h3&gt;
-&lt;p&gt;Клинические изоляты Enterobacterales и &lt;em&gt;Pseudomonas aeruginosa&lt;/em&gt;, выделенные у пациентов с клиническими и лабораторными признаками инфекции различной локализации (брюшная полость и органы малого таза, дыхательная система, кожа и мягкие ткани, кости и суставы, мочевые пути, сердце и сосуды, центральная нервная система).&lt;/p&gt;
-&lt;h3 id=&#34;критерии-исключения&#34;&gt;Критерии исключения:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;изоляты, не относящиеся к Enterobacterales и Pseudomonas aeruginosa;&lt;/li&gt;
-&lt;li&gt;повторные изоляты одного и того же вида, выделенные от одного пациента;&lt;/li&gt;
-&lt;li&gt;колонизирующие изоляты, выделенные от людей без клинических признаков инфекции, или из окружающей среды в целях инфекционного контроля;&lt;/li&gt;
-&lt;li&gt;изоляты, информация о которых не внесена в веб-форму или внесена неправильно.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;процедуры-исследования&#34;&gt;Процедуры исследования:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Выделение, идентификация и определение чувствительности бактериальных изолятов проводится в лабораториях центров-участников исследования.&lt;/li&gt;
-&lt;li&gt;Информация об источнике выделения каждого изолята и его чувствительности к цефтазидиму/авибактаму (диаметр зоны подавления роста) вносится в специализированную веб-форму.&lt;/li&gt;
-&lt;li&gt;При наличии информации о чувствительности к карбапенемам и оксииминоцефалоспоринам указывается диаметр зоны подавления роста или значение МПК.&lt;/li&gt;
-&lt;li&gt;При наличии информации о выявлении продукции карбапенемаз указывается метод тестирования и полученный результат.&lt;/li&gt;
-&lt;li&gt;Определение клинических категорий чувствительности к антибиотикам осуществляется автоматически в соответсвии с действующими 
-&lt;a href=&#34;http://www.eucast.org/clinical_breakpoints/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;критериями EUCAST&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;координатор-исследования&#34;&gt;Координатор исследования&lt;/h3&gt;
-&lt;p&gt;Межрегиональная ассоциация по клинической микробиологии и антимикробной химиотерапии 
-&lt;a href=&#34;https://www.antibiotic.ru/iacmac/about/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;МАКМАХ&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;спонсор-исследования&#34;&gt;Спонсор исследования&lt;/h3&gt;
-&lt;p&gt;Компания 
-&lt;a href=&#34;https://www.pfizer.ru/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pfizer&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

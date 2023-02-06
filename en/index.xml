@@ -5,7 +5,7 @@
     <link>https://amrcloud.net/en/</link>
       <atom:link href="https://amrcloud.net/en/index.xml" rel="self" type="application/rss+xml" />
     <description>AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Tue, 24 Jan 2023 00:01:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Mon, 06 Feb 2023 09:00:00 +0000</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>AMRcloud</title>
@@ -5122,6 +5122,79 @@ Example: flag location with &amp;gt;=50% resistance to ciprofloxacin:&lt;/p&gt;
     </item>
     
     <item>
+      <title>CAZ-AVI Disk Study</title>
+      <link>https://amrcloud.net/en/project/cazavi/</link>
+      <pubDate>Mon, 06 Feb 2023 09:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/project/cazavi/</guid>
+      <description>&lt;h3 id=&#34;study-objective&#34;&gt;Study Objective:&lt;/h3&gt;
+&lt;p&gt;To assess the &lt;em&gt;in vitro&lt;/em&gt; activity of ceftazidime-avibactam combination against clinical Enterobacterales and &lt;em&gt;Pseudomonas aeruginosa&lt;/em&gt; isolates in various regions of Russia, Armenia, Georgia and Kazakhstan based on results of local susceptibility testing by disk diffusion method&lt;/p&gt;
+&lt;h3 id=&#34;dataset&#34;&gt;Dataset:&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Bacterial isolates:&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;34 958&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;  Enterobacterales:&lt;/td&gt;
+&lt;td&gt;27 799&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;  &lt;em&gt;Pseudomonas aeruginosa:&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;7 159&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Stage I:&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;November 11, 2018 - April 28, 2019&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Stage II:&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;January 01, 2020 - December 28, 2020&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Stage III:&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;January 09, 2021 - December 24, 2022&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Participating centers:&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;198 hospitals in 70 cities of Russian Federation, Armenia, Georgia and Kazakhstan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;inclusion-criteria&#34;&gt;Inclusion Criteria:&lt;/h3&gt;
+&lt;p&gt;Consecutive, non-duplicate (one per patient) clinical isolates of Enterobacterales and &lt;em&gt;P. aeruginosa&lt;/em&gt; isolated from patients with clinical and laboratory signs of infections of different sites (intraabdominal, respiratory, skin and soft tissue, bones and joints, urinary, bloodstream, and CNS).&lt;/p&gt;
+&lt;h3 id=&#34;exclusion-criteria&#34;&gt;Exclusion Criteria:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Isolates other than Enterobacterales and &lt;em&gt;P. aeruginosa&lt;/em&gt;;&lt;/li&gt;
+&lt;li&gt;Repeated isolates of the same species isolated from the same patient;&lt;/li&gt;
+&lt;li&gt;Colonizing isolates isolated from patients without clinical signs of infection or from the environment for infection control purposes;&lt;/li&gt;
+&lt;li&gt;Isolates for which the required information is the electronic CRF is missing or incomplete.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;study-procedures-and-data-collection&#34;&gt;Study Procedures and Data Collection:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Isolation, species identification, and antimicrobial susceptibility testing of bacterial isolates is performed in the laboratories of the participating centers.&lt;/li&gt;
+&lt;li&gt;Information on the source of each isolate and its susceptibility to ceftazidime-avibactam (the diameter of inhibition zone around the disk) is entered into an electronic CRF.&lt;/li&gt;
+&lt;li&gt;Data on susceptibilities (zone diameters or MICs) to oxyimino-cephalosporins and/or carbapenems is entered into an electronic CRF, if available.&lt;/li&gt;
+&lt;li&gt;Data on the method(s) and result(s) of carbapenemase detection is entered into an electronic CRF, if available.&lt;/li&gt;
+&lt;li&gt;Susceptibility categories of isolates are determined automatically according to current 
+&lt;a href=&#34;http://www.eucast.org/clinical_breakpoints/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EUCAST Clinical Breakpoints&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;study-coordinator&#34;&gt;Study Coordinator&lt;/h3&gt;
+&lt;p&gt;Interregional Association for Clinical Microbiology and Antimicrobial Chemotherapy 
+&lt;a href=&#34;https://www.antibiotic.ru/iacmac/about/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IACMAC&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;study-sponsor&#34;&gt;Study Sponsor&lt;/h3&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.pfizer.ru/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pfizer Inc.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>The main gram-negative bacterial pathogens recovered from cystic fibrosis patients</title>
       <link>https://amrcloud.net/en/project/muco-v/</link>
       <pubDate>Tue, 14 Jun 2022 09:00:00 +0000</pubDate>
@@ -9585,75 +9658,6 @@ For example, laboratories can store their data in different files, or files from
 &lt;h3 id=&#34;caz-avi-disk-a-new-public-dataset-hosted-on-amrcloud&#34;&gt;CAZ-AVI Disk: a new public dataset hosted on AMRcloud&lt;/h3&gt;
 &lt;p&gt;New 
 &lt;a href=&#34;../../project/cazavi-1-2/&#34;&gt;public dataset&lt;/a&gt; has been hosted on the AMRcloud platform which presents the data on in vitro activity of ceftazidime-avibactam, cephalosporins, and carbapenems against clinical isolates of Enterobacterales and &lt;em&gt;Pseudomonas aeruginosa&lt;/em&gt; collected in 160 hospitals, 61 cities in Russia.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>CAZ-AVI Disk Study</title>
-      <link>https://amrcloud.net/en/project/cazavi-1-2/</link>
-      <pubDate>Tue, 09 Feb 2021 15:00:00 +0000</pubDate>
-      <guid>https://amrcloud.net/en/project/cazavi-1-2/</guid>
-      <description>&lt;h3 id=&#34;study-objective&#34;&gt;Study Objective:&lt;/h3&gt;
-&lt;p&gt;To assess the &lt;em&gt;in vitro&lt;/em&gt; activity of ceftazidime-avibactam combination against clinical Enterobacterales and &lt;em&gt;Pseudomonas aeruginosa&lt;/em&gt; isolates in various regions of Russia based on results of local susceptibility testing by disk diffusion method&lt;/p&gt;
-&lt;h3 id=&#34;dataset&#34;&gt;Dataset:&lt;/h3&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Bacterial isolates:&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;22 121&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;  Enterobacterales:&lt;/td&gt;
-&lt;td&gt;17 456&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;  &lt;em&gt;Pseudomonas aeruginosa:&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;4 665&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Stage I:&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;November 11, 2018 - April 28, 2019&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Stage II:&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;January 01, 2020 - December 28, 2020&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Participating centers:&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;160 hospitals in 61 cities of Russian Federation&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;inclusion-criteria&#34;&gt;Inclusion Criteria:&lt;/h3&gt;
-&lt;p&gt;Consecutive, non-duplicate (one per patient) clinical isolates of Enterobacterales and &lt;em&gt;P. aeruginosa&lt;/em&gt; isolated from patients with clinical and laboratory signs of infections of different sites (intraabdominal, respiratory, skin and soft tissue, bones and joints, urinary, bloodstream, and CNS).&lt;/p&gt;
-&lt;h3 id=&#34;exclusion-criteria&#34;&gt;Exclusion Criteria:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Isolates other than Enterobacterales and &lt;em&gt;P. aeruginosa&lt;/em&gt;;&lt;/li&gt;
-&lt;li&gt;Repeated isolates of the same species isolated from the same patient;&lt;/li&gt;
-&lt;li&gt;Colonizing isolates isolated from patients without clinical signs of infection or from the environment for infection control purposes;&lt;/li&gt;
-&lt;li&gt;Isolates for which the required information is the electronic CRF is missing or incomplete.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;study-procedures-and-data-collection&#34;&gt;Study Procedures and Data Collection:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Isolation, species identification, and antimicrobial susceptibility testing of bacterial isolates is performed in the laboratories of the participating centers.&lt;/li&gt;
-&lt;li&gt;Information on the source of each isolate and its susceptibility to ceftazidime-avibactam (the diameter of inhibition zone around the disk) is entered into an electronic CRF.&lt;/li&gt;
-&lt;li&gt;Data on susceptibilities (zone diameters or MICs) to oxyimino-cephalosporins and/or carbapenems is entered into an electronic CRF, if available.&lt;/li&gt;
-&lt;li&gt;Data on the method(s) and result(s) of carbapenemase detection is entered into an electronic CRF, if available.&lt;/li&gt;
-&lt;li&gt;Susceptibility categories of isolates are determined automatically according to current 
-&lt;a href=&#34;http://www.eucast.org/clinical_breakpoints/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EUCAST Clinical Breakpoints&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;study-coordinator&#34;&gt;Study Coordinator&lt;/h3&gt;
-&lt;p&gt;Interregional Association for Clinical Microbiology and Antimicrobial Chemotherapy 
-&lt;a href=&#34;https://www.antibiotic.ru/iacmac/about/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IACMAC&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;study-sponsor&#34;&gt;Study Sponsor&lt;/h3&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://www.pfizer.ru/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pfizer Inc.&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
