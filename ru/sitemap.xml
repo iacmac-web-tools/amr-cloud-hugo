@@ -405,6 +405,16 @@
   <url>
     <loc>https://amrcloud.net/ru/post/20230130-eucast/</loc>
     <lastmod>2023-02-06T09:00:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/post/20230130-eucast/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/post/20230130-eucast/"
+                />
   </url>
   
   <url>
@@ -425,6 +435,16 @@
   <url>
     <loc>https://amrcloud.net/ru/post/20230130-amrcloud-update/</loc>
     <lastmod>2023-01-30T09:00:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amrcloud.net/en/post/20230130-amrcloud-update/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://amrcloud.net/ru/post/20230130-amrcloud-update/"
+                />
   </url>
   
   <url>

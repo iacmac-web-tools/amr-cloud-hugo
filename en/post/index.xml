@@ -5,12 +5,230 @@
     <link>https://amrcloud.net/en/post/</link>
       <atom:link href="https://amrcloud.net/en/post/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Tue, 07 Jun 2022 09:00:00 +0300</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Mon, 06 Feb 2023 09:00:00 +0300</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>News</title>
       <link>https://amrcloud.net/en/post/</link>
     </image>
+    
+    <item>
+      <title>EUCAST 2023 criteria are now available in AMRcloud.</title>
+      <link>https://amrcloud.net/en/post/20230130-eucast/</link>
+      <pubDate>Mon, 06 Feb 2023 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/en/post/20230130-eucast/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;http://www.eucast.org/clinical_breakpoints/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EUCAST v.13.0 (2023)&lt;/a&gt; criteria are now available in AMRcloud.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AMRcloud January update</title>
+      <link>https://amrcloud.net/en/post/20230130-amrcloud-update/</link>
+      <pubDate>Mon, 30 Jan 2023 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/en/post/20230130-amrcloud-update/</guid>
+      <description>&lt;p&gt;AMRcloud has been updated to version 0.9.2:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;added ability to add charts from &amp;ldquo;Data Structure&amp;rdquo; tab (subtab &amp;ldquo;Plot by&amp;rdquo;);&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-data-structure-example&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/en/post/20230130-amrcloud-update/img/adddash1_hu423d66c64a6dd686624d37a70a41fba1_126708_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Data Structure&amp;lt;/strong&amp;gt; example&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/en/post/20230130-amrcloud-update/img/adddash1_hu423d66c64a6dd686624d37a70a41fba1_126708_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1892&#34; height=&#34;897&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Data Structure&lt;/strong&gt; example
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;added ability to add charts from &amp;ldquo;Selected Antibiotic&amp;rdquo; tab (subtab &amp;ldquo;Plot by&amp;rdquo;);&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-selected-antibiotic-example&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/en/post/20230130-amrcloud-update/img/adddash2_hu81770f8879268bc62bd2dcac580e503e_127720_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Selected Antibiotic&amp;lt;/strong&amp;gt; example&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/en/post/20230130-amrcloud-update/img/adddash2_hu81770f8879268bc62bd2dcac580e503e_127720_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1891&#34; height=&#34;904&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Selected Antibiotic&lt;/strong&gt; example
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;added ability to disable numerical captions on the charts.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-setting-the-chart-display&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/en/post/20230130-amrcloud-update/img/chisla_hu2422f1926863d7807b8dd8ce667d16c3_570386_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Setting the chart display&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/en/post/20230130-amrcloud-update/img/chisla_hu2422f1926863d7807b8dd8ce667d16c3_570386_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1417&#34; height=&#34;1290&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Setting the chart display
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;added ability to change the plot display settings (size and visibility of captions) in the dashboards&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-setting-the-size-of-captions&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/en/post/20230130-amrcloud-update/img/dashboard1_huf9de52f8e4cba6d3fb6f1601c6efb23a_203605_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Setting the size of captions&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/en/post/20230130-amrcloud-update/img/dashboard1_huf9de52f8e4cba6d3fb6f1601c6efb23a_203605_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1164&#34; height=&#34;570&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Setting the size of captions
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-setting-the-visibility-of-captions&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/en/post/20230130-amrcloud-update/img/dashboard2_hu1704a2b9c18d004bff2037a23656aba8_120683_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Setting the visibility of captions&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://amrcloud.net/en/post/20230130-amrcloud-update/img/dashboard2_hu1704a2b9c18d004bff2037a23656aba8_120683_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;792&#34; height=&#34;570&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Setting the visibility of captions
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>AMRcloud June update</title>
