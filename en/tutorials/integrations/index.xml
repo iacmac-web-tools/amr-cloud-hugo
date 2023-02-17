@@ -2057,7 +2057,7 @@ Full description of CAESAR file columns you can find in
 &lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
 &lt;p&gt;To install the &amp;ldquo;AMRcloud Vitek Converter&amp;rdquo;, you should download it from the link.&lt;/p&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://amrcloud.net/install/AMRcloudVitekConverterSetup_v1.0.1.msi&#34;&gt;AMRcloudVitekConverter.msi&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://amrcloud.net/install/AmrCloudVitekConverterSetup_v1.0.1.msi&#34;&gt;AMRcloudVitekConverter.msi&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;If .NET Framework 4 is not installed on the computer, the installer will offer to download it. By default, the program is installed in the &lt;code&gt;Documents\AMRsolution\AMRcloud Vitek Converter\&lt;/code&gt; folder.&lt;/p&gt;
 &lt;h3 id=&#34;working&#34;&gt;Working&lt;/h3&gt;
 &lt;p&gt;The program window after launch looks like this.&lt;/p&gt;
