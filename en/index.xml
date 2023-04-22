@@ -5,7 +5,7 @@
     <link>https://amrcloud.net/en/</link>
       <atom:link href="https://amrcloud.net/en/index.xml" rel="self" type="application/rss+xml" />
     <description>AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Mon, 06 Feb 2023 09:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Mon, 06 Feb 2023 09:00:00 +0300</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>AMRcloud</title>
@@ -5122,79 +5122,6 @@ Example: flag location with &amp;gt;=50% resistance to ciprofloxacin:&lt;/p&gt;
     </item>
     
     <item>
-      <title>CAZ-AVI Disk Study</title>
-      <link>https://amrcloud.net/en/project/cazavi/</link>
-      <pubDate>Mon, 06 Feb 2023 09:00:00 +0000</pubDate>
-      <guid>https://amrcloud.net/en/project/cazavi/</guid>
-      <description>&lt;h3 id=&#34;study-objective&#34;&gt;Study Objective:&lt;/h3&gt;
-&lt;p&gt;To assess the &lt;em&gt;in vitro&lt;/em&gt; activity of ceftazidime-avibactam combination against clinical Enterobacterales and &lt;em&gt;Pseudomonas aeruginosa&lt;/em&gt; isolates in various regions of Russia, Armenia, Georgia and Kazakhstan based on results of local susceptibility testing by disk diffusion method&lt;/p&gt;
-&lt;h3 id=&#34;dataset&#34;&gt;Dataset:&lt;/h3&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Bacterial isolates:&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;34 958&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;  Enterobacterales:&lt;/td&gt;
-&lt;td&gt;27 799&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;  &lt;em&gt;Pseudomonas aeruginosa:&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;7 159&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Stage I:&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;November 11, 2018 - April 28, 2019&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Stage II:&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;January 01, 2020 - December 28, 2020&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Stage III:&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;January 09, 2021 - December 24, 2022&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Participating centers:&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;198 hospitals in 70 cities of Russian Federation, Armenia, Georgia and Kazakhstan&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;inclusion-criteria&#34;&gt;Inclusion Criteria:&lt;/h3&gt;
-&lt;p&gt;Consecutive, non-duplicate (one per patient) clinical isolates of Enterobacterales and &lt;em&gt;P. aeruginosa&lt;/em&gt; isolated from patients with clinical and laboratory signs of infections of different sites (intraabdominal, respiratory, skin and soft tissue, bones and joints, urinary, bloodstream, and CNS).&lt;/p&gt;
-&lt;h3 id=&#34;exclusion-criteria&#34;&gt;Exclusion Criteria:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Isolates other than Enterobacterales and &lt;em&gt;P. aeruginosa&lt;/em&gt;;&lt;/li&gt;
-&lt;li&gt;Repeated isolates of the same species isolated from the same patient;&lt;/li&gt;
-&lt;li&gt;Colonizing isolates isolated from patients without clinical signs of infection or from the environment for infection control purposes;&lt;/li&gt;
-&lt;li&gt;Isolates for which the required information is the electronic CRF is missing or incomplete.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;study-procedures-and-data-collection&#34;&gt;Study Procedures and Data Collection:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Isolation, species identification, and antimicrobial susceptibility testing of bacterial isolates is performed in the laboratories of the participating centers.&lt;/li&gt;
-&lt;li&gt;Information on the source of each isolate and its susceptibility to ceftazidime-avibactam (the diameter of inhibition zone around the disk) is entered into an electronic CRF.&lt;/li&gt;
-&lt;li&gt;Data on susceptibilities (zone diameters or MICs) to oxyimino-cephalosporins and/or carbapenems is entered into an electronic CRF, if available.&lt;/li&gt;
-&lt;li&gt;Data on the method(s) and result(s) of carbapenemase detection is entered into an electronic CRF, if available.&lt;/li&gt;
-&lt;li&gt;Susceptibility categories of isolates are determined automatically according to current 
-&lt;a href=&#34;http://www.eucast.org/clinical_breakpoints/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EUCAST Clinical Breakpoints&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;study-coordinator&#34;&gt;Study Coordinator&lt;/h3&gt;
-&lt;p&gt;Interregional Association for Clinical Microbiology and Antimicrobial Chemotherapy 
-&lt;a href=&#34;https://www.antibiotic.ru/iacmac/about/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IACMAC&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;study-sponsor&#34;&gt;Study Sponsor&lt;/h3&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://www.pfizer.ru/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pfizer Inc.&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>EUCAST 2023 clinical breakpoints are now available in AMRcloud.</title>
       <link>https://amrcloud.net/en/post/20230130-eucast/</link>
       <pubDate>Mon, 06 Feb 2023 09:00:00 +0300</pubDate>
@@ -9568,50 +9495,6 @@ For example, laboratories can store their data in different files, or files from
 &lt;li&gt;In the &amp;lsquo;Multiple Resistance&amp;rsquo; sub-tab, the default value is set to 0%;&lt;/li&gt;
 &lt;li&gt;Interface and stability improvements.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Epidemiological study &#34;SPECTRUM&#34;</title>
-      <link>https://amrcloud.net/en/project/spectrum/</link>
-      <pubDate>Thu, 09 Sep 2021 09:00:00 +0300</pubDate>
-      <guid>https://amrcloud.net/en/project/spectrum/</guid>
-      <description>&lt;h3 id=&#34;study-objective&#34;&gt;Study Objective&lt;/h3&gt;
-&lt;p&gt;To estimate prevalence and antimicrobial susceptibility of circulated &lt;em&gt;S. pneumoniae&lt;/em&gt; serotypes in adult population in different regions of the Russian Federation.&lt;/p&gt;
-&lt;h3 id=&#34;dataset&#34;&gt;Dataset&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Bacterial isolates:	500&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;S. pneumoniae&lt;/em&gt;:	500&lt;/li&gt;
-&lt;li&gt;Time:	June 01, 2019 - January 15, 2020&lt;/li&gt;
-&lt;li&gt;Participating centers:	29 hospitals in 20 cities of Russian Federation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;inclusion-criteria&#34;&gt;Inclusion Criteria&lt;/h3&gt;
-&lt;p&gt;Isolates of &lt;em&gt;S. pneumoniae&lt;/em&gt; obtained from patients with invasive pneumococcal disease (IPD), community-acquired pneumonia (CAP), sinusitis/acute otitis media (AOM) and healthy carriers.&lt;/p&gt;
-&lt;h3 id=&#34;study-procedures&#34;&gt;Study Procedures&lt;/h3&gt;
-&lt;p&gt;Re-identification, typing using real-time PCR with 27 primer pairs and antimicrobial susceptibility testing were performed in the central laboratory by standardized methods.&lt;/p&gt;
-&lt;h3 id=&#34;study-coordinator&#34;&gt;Study Coordinator&lt;/h3&gt;
-&lt;p&gt;Interregional Association for Clinical Microbiology and Antimicrobial Chemotherapy IACMAC&lt;/p&gt;
-&lt;h3 id=&#34;study-sponsor&#34;&gt;Study Sponsor&lt;/h3&gt;
-&lt;p&gt;MSD Sharp &amp;amp; Dohme Corp&lt;/p&gt;
-&lt;h3 id=&#34;study-group-spectrum&#34;&gt;Study Group «SPECTRUM»&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Tsvetkova I.A. (St. Petersburg),&lt;/li&gt;
-&lt;li&gt;Morozova O.A. (Moscow),&lt;/li&gt;
-&lt;li&gt;Kirillova G.Sh. (Kazan),&lt;/li&gt;
-&lt;li&gt;Popova L.D. (Omsk)&lt;/li&gt;
-&lt;li&gt;Moskvitina E.N. (Seversk)&lt;/li&gt;
-&lt;li&gt;Petrova T.A. (Smolensk),&lt;/li&gt;
-&lt;li&gt;Martyanova N.M. (Tolyatti)&lt;/li&gt;
-&lt;li&gt;Ershova M.G. (Yaroslavl)&lt;/li&gt;
-&lt;li&gt;Bykonya S.A. (Tomsk).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;publications&#34;&gt;Publications&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Kozlov R.S., Muraviov A.A., Chagaryan A.N., Ivanchik N.V., Kurkova A.A., Kuzmenkov A.Yu., Trushin I.V., Sukhorukova M.V. and «SPECTRUM» Study Group. The prevalence and antimicrobial susceptibility of circulating &lt;em&gt;S. pneumoniae&lt;/em&gt; serotypes in adult population in Russia (epidemiological study «SPECTRUM»). Clinical Microbiology and Antimicrobial Chemotherapy. 2021; 23(2):127-137.&lt;br/&gt;
-&lt;a href=&#34;https://doi.org/10.36488/cmac.2021.2.127-137&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;i class=&#34;ai ai-doi&#34;&gt;&lt;/i&gt; 10.36488/cmac.2021.2.127-137&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Muraviov A.A., Chagaryan A.N., Ivanchik N.V., Kurkova A.A., Tsvetkova I.A., Kozlov R.S. and «SPECTRUM» Study Group. The prevalence of circulating &lt;em&gt;S. pneumoniae&lt;/em&gt; serotypes in people older than 18 years: healthy carriers, patients with acute otitis media, community-acquired pneumonia, and invasive pneumococcal infections (epidemiological study «SPECTRUM»). Clinical Microbiology and Antimicrobial Chemotherapy. 2019; 21(4):275-281.&lt;br/&gt;
-&lt;a href=&#34;https://doi.org/10.36488/cmac.2019.4.275-281&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;i class=&#34;ai ai-doi&#34;&gt;&lt;/i&gt; 10.36488/cmac.2019.4.275-281&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
 </description>
     </item>
     

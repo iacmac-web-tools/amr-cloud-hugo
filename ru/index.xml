@@ -5,7 +5,7 @@
     <link>https://amrcloud.net/ru/</link>
       <atom:link href="https://amrcloud.net/ru/index.xml" rel="self" type="application/rss+xml" />
     <description>AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Mon, 06 Feb 2023 09:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Mon, 06 Feb 2023 09:00:00 +0300</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>AMRcloud</title>
@@ -6861,79 +6861,6 @@ File**→** Save with Encoding **→** Windows-1251.
     </item>
     
     <item>
-      <title>Исследование &#34;CAZ-AVI&#34;</title>
-      <link>https://amrcloud.net/ru/project/cazavi/</link>
-      <pubDate>Mon, 06 Feb 2023 09:00:00 +0000</pubDate>
-      <guid>https://amrcloud.net/ru/project/cazavi/</guid>
-      <description>&lt;h3 id=&#34;цель-исследования&#34;&gt;Цель исследования:&lt;/h3&gt;
-&lt;p&gt;Оценить на основании локальных данных &lt;em&gt;in vitro&lt;/em&gt; активность комбинации цефтазидима с авибактамом в отношении клинических изолятов Enterobacterales и &lt;em&gt;Pseudomonas aeruginosa&lt;/em&gt;, выделенных в стационарах различных регионов России, Армении, Грузии и Казахстана.&lt;/p&gt;
-&lt;h3 id=&#34;данные&#34;&gt;Данные:&lt;/h3&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Бактериальные изоляты:&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;34 958&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;  Enterobacterales:&lt;/td&gt;
-&lt;td&gt;27 799&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;  &lt;em&gt;Pseudomonas aeruginosa:&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;7 159&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Этап I:&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;11 ноября 2018 - 28 апреля 2019&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Этап II:&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;01 января 2020 - 28 декабря 2020&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Этап III:&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;09 января 2021 - 24 декабря 2021&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Участники:&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;198 центров из 70 городов России, Армении, Грузии и Казахстана&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;критерии-включения&#34;&gt;Критерии включения:&lt;/h3&gt;
-&lt;p&gt;Клинические изоляты Enterobacterales и &lt;em&gt;Pseudomonas aeruginosa&lt;/em&gt;, выделенные у пациентов с клиническими и лабораторными признаками инфекции различной локализации (брюшная полость и органы малого таза, дыхательная система, кожа и мягкие ткани, кости и суставы, мочевые пути, сердце и сосуды, центральная нервная система).&lt;/p&gt;
-&lt;h3 id=&#34;критерии-исключения&#34;&gt;Критерии исключения:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;изоляты, не относящиеся к Enterobacterales и &lt;em&gt;Pseudomonas aeruginosa&lt;/em&gt;;&lt;/li&gt;
-&lt;li&gt;повторные изоляты одного и того же вида, выделенные от одного пациента;&lt;/li&gt;
-&lt;li&gt;колонизирующие изоляты, выделенные от людей без клинических признаков инфекции, или из окружающей среды в целях инфекционного контроля;&lt;/li&gt;
-&lt;li&gt;изоляты, информация о которых не внесена в веб-форму или внесена неправильно.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;процедуры-исследования&#34;&gt;Процедуры исследования:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Выделение, идентификация и определение чувствительности бактериальных изолятов проводится в лабораториях центров-участников исследования.&lt;/li&gt;
-&lt;li&gt;Информация об источнике выделения каждого изолята и его чувствительности к цефтазидиму/авибактаму (диаметр зоны подавления роста) вносится в специализированную веб-форму.&lt;/li&gt;
-&lt;li&gt;При наличии информации о чувствительности к карбапенемам и оксииминоцефалоспоринам указывается диаметр зоны подавления роста или значение МПК.&lt;/li&gt;
-&lt;li&gt;При наличии информации о выявлении продукции карбапенемаз указывается метод тестирования и полученный результат.&lt;/li&gt;
-&lt;li&gt;Определение клинических категорий чувствительности к антибиотикам осуществляется автоматически в соответсвии с действующими 
-&lt;a href=&#34;http://www.eucast.org/clinical_breakpoints/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;критериями EUCAST&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;координатор-исследования&#34;&gt;Координатор исследования&lt;/h3&gt;
-&lt;p&gt;Межрегиональная ассоциация по клинической микробиологии и антимикробной химиотерапии 
-&lt;a href=&#34;https://www.antibiotic.ru/iacmac/about/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;МАКМАХ&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;спонсор-исследования&#34;&gt;Спонсор исследования&lt;/h3&gt;
-&lt;p&gt;Компания 
-&lt;a href=&#34;https://www.pfizer.ru/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pfizer&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>В AMRcloud стали доступны критерии EUCAST 2023</title>
       <link>https://amrcloud.net/ru/post/20230130-eucast/</link>
       <pubDate>Mon, 06 Feb 2023 09:00:00 +0300</pubDate>
@@ -13221,50 +13148,6 @@ File**→** Save with Encoding **→** Windows-1251.
 &lt;p&gt;Оффлайн-конвертер представляет собой Windows-приложение, способное работать без подключения к сети, полностью автономно. Присутствует возможность модифицировать встроенные справочники программы конкретно под ваши нужды. Скачать приложение можно по ссылке 
 &lt;a href=&#34;https://amrcloud.net/install/AMRcloudVitekConverterSetup.msi&#34;&gt;AMRcloudVitekConverter.msi&lt;/a&gt;.
 Для работы оффлайн-конвертер требуется .NET Framework 4, если он не установлен на компьютере, будет предложено его скачать и установить. По умолчанию программа устанавливается в папку &lt;code&gt;Документы\AMRsolution\AMRcloud Vitek Converter\&lt;/code&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Исследование «SPECTRUM»</title>
-      <link>https://amrcloud.net/ru/project/spectrum/</link>
-      <pubDate>Thu, 09 Sep 2021 09:00:00 +0300</pubDate>
-      <guid>https://amrcloud.net/ru/project/spectrum/</guid>
-      <description>&lt;h3 id=&#34;цель-исследования&#34;&gt;Цель исследования&lt;/h3&gt;
-&lt;p&gt;Оценить спектр циркулирующих серотипов &lt;em&gt;S. pneumoniae&lt;/em&gt; и их чувствительность к антимикробным препаратам (АМП) во взрослой популяции в различных регионах Российской Федерации.&lt;/p&gt;
-&lt;h3 id=&#34;данные&#34;&gt;Данные&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Бактериальные изоляты:	500&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;S. pneumoniae&lt;/em&gt;:	500&lt;/li&gt;
-&lt;li&gt;Продолжительность исследования:	01 июня 2019 - 15 января 2020 г.&lt;/li&gt;
-&lt;li&gt;Участники:	29 центров из 20 городов РФ&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;критерии-включения&#34;&gt;Критерии включения&lt;/h3&gt;
-&lt;p&gt;Изоляты &lt;em&gt;S. pneumoniae&lt;/em&gt; полученные от лиц старше 18 лет: здоровых носителей, пациентов с синуситами/острым средним отитом, внебольничной пневмонией и инвазивными пневмококковыми инфекциями.&lt;/p&gt;
-&lt;h3 id=&#34;процедуры-исследования&#34;&gt;Процедуры исследования&lt;/h3&gt;
-&lt;p&gt;Серотиповая принадлежность изолятов определялась в центральной лаборатории методом ПЦР в режиме реального времени с использованием 27 пар праймеров. Определение чувствительности к АМП проводилось методом микроразведений согласно критериям EUCAST, версия 11.0.&lt;/p&gt;
-&lt;h3 id=&#34;координатор-исследования&#34;&gt;Координатор исследования&lt;/h3&gt;
-&lt;p&gt;Межрегиональная ассоциация по клинической микробиологии и антимикробной химиотерапии МАКМАХ&lt;/p&gt;
-&lt;h3 id=&#34;спонсор-исследования&#34;&gt;Спонсор исследования&lt;/h3&gt;
-&lt;p&gt;Компания MSD Sharp &amp;amp; Dohme Corp&lt;/p&gt;
-&lt;h3 id=&#34;исследовательская-группа-spectrum&#34;&gt;Исследовательская группа «SPECTRUM»&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Цветкова И.А. (ФГБУ «Детский научно-клинический центр инфекционных болезней» ФМБА России, Санкт-Петербург),&lt;/li&gt;
-&lt;li&gt;Морозова О.А. (ФГАОУ ВО «Первый МГМУ им. И.М. Сеченова» Минздрава России, Москва),&lt;/li&gt;
-&lt;li&gt;Кириллова Г.Ш. (ГАУЗ РТ «БСМП», Казань),&lt;/li&gt;
-&lt;li&gt;Попова Л.Д. (БУЗОО «ОКБ», Омск),&lt;/li&gt;
-&lt;li&gt;Москвитина Е.Н. (ФГБУ «СибФНКЦ» ФМБА России, Северск),&lt;/li&gt;
-&lt;li&gt;Петрова Т.А. (ОГБУЗ «КБ № 1», Смоленск),&lt;/li&gt;
-&lt;li&gt;Мартьянова Н.М. (ГБУЗ СО «ТГКБ № 5», Тольятти),&lt;/li&gt;
-&lt;li&gt;Ершова М.Г. (ГБУЗ ЯО «ИКБ № 1», Ярославль),&lt;/li&gt;
-&lt;li&gt;Быконя С.А. (ОГАУЗ «ТОКБ», Томск).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;основные-публикации&#34;&gt;Основные публикации&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Козлов Р.С., Муравьев А.А., Чагарян А.Н., Иванчик Н.В., Куркова А.А., Кузьменков А.Ю., Трушин И.В., Сухорукова М.В. и исследовательская группа «SPECTRUM». Эпидемиология и антибиотикорезистентность серотипов &lt;em&gt;S. pneumoniae&lt;/em&gt;, циркулирующих во взрослой популяции на территории Российской Федерации (исследование «SPECTRUM»). Клиническая микробиология и антимикробная химиотерапия. 2021; 23(2): 127-137.&lt;br/&gt;
-&lt;a href=&#34;https://doi.org/10.36488/cmac.2021.2.127-137&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;i class=&#34;ai ai-doi&#34;&gt;&lt;/i&gt; 10.36488/cmac.2021.2.127-137&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Муравьев А.А., Чагарян А.Н., Иванчик Н.В., Куркова А.А., Цветкова И.А., Козлов Р.С. и исследовательская группа «SPECTRUM». Эпидемиология серотипов &lt;em&gt;S. pneumoniae&lt;/em&gt;, выделенных у лиц старше 18 лет: здоровых носителей, пациентов с острым средним отитом, внебольничной пневмонией и инвазивной пневмококковой инфекцией (исследование «SPECTRUM»). Клиническая микробиология и антимикробная химиотерапия. 2019; 21(4):275-281.&lt;br/&gt;
-&lt;a href=&#34;https://doi.org/10.36488/cmac.2019.4.275-281&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;i class=&#34;ai ai-doi&#34;&gt;&lt;/i&gt; 10.36488/cmac.2019.4.275-281&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
 </description>
     </item>
     
