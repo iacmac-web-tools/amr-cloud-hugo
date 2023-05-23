@@ -5,12 +5,124 @@
     <link>https://amrcloud.net/ru/project/</link>
       <atom:link href="https://amrcloud.net/ru/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Открытые проекты</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Tue, 14 Jun 2022 09:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Mon, 22 May 2023 09:00:00 +0000</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>Открытые проекты</title>
       <link>https://amrcloud.net/ru/project/</link>
     </image>
+    
+    <item>
+      <title>&lt;em&gt;Klebsiella pneumoniae&lt;/em&gt;: Генетическое разнообразие и чувствительность к антибиотикам</title>
+      <link>https://amrcloud.net/ru/project/kpn-1/</link>
+      <pubDate>Mon, 22 May 2023 09:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/project/kpn-1/</guid>
+      <description>&lt;h3 id=&#34;аннотация&#34;&gt;Аннотация&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Klebsiella pneumoniae&lt;/strong&gt;&lt;/em&gt; – один из наиболее частых и проблемных возбудителей нозокомиальных инфекций. В данном проекте представлены результаты исследования циркулирующих в стационарах РФ и Казахстана клинических штаммов &lt;em&gt;K. pneumoniae&lt;/em&gt;, включающие:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;данные об источниках выделения изолятов&lt;/li&gt;
+&lt;li&gt;молекулярно-генетические характеристики изолятов (принадлежность к клональным группам, SNP-типам, сиквенс-типам, наличие генов приобретенных карбапенемаз, гена &lt;em&gt;rmpA&lt;/em&gt; (регулятора мукоидного фенотипа), хромосомного гена колибактина (&lt;em&gt;clbA&lt;/em&gt;))&lt;/li&gt;
+&lt;li&gt;чувствительность изолятов к антибиотикам различных групп&lt;/li&gt;
+&lt;li&gt;данные string-теста для выявления гипермуковязкого фенотипа&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;бактериальные-изоляты&#34;&gt;Бактериальные изоляты&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;3956&lt;/strong&gt; неповторяющихся (по одному на каждый случай инфекции) клинических изолятов, выделенных в рамках многоцентровых проспективных микробиологических исследований в &lt;strong&gt;период с 10 января 2013 г. по 28 декабря 2020 г. в 75 стационарах 36 городов России и Казахстана&lt;/strong&gt;: Архангельска, Барнаула, Белгорода, Владивостока, Воронежа, Екатеринбурга, Ижевска, Иркутска, Казани, Караганды, Краснодара, Кургана, Майкопа, Москвы, Мурманска, Набережных Челнов, Нижнего Новгорода, Новороссийска, Новосибирска, Омска, Пензы, Перми, Петрозаводска, Ростова-на-Дону, Санкт-Петербурга, Северска, Смоленска, Твери, Тольятти, Томска, Тюмени, Улан-Удэ, Ульяновска, Челябинска, Южно-Сахалинска и Якутска.&lt;/p&gt;
+&lt;h3 id=&#34;определение-чувствительности-к-антибиотикам&#34;&gt;Определение чувствительности к антибиотикам&lt;/h3&gt;
+&lt;p&gt;Определение минимальных подавляющих концентраций (МПК) методом последовательных двукратных разведений в бульоне Мюллера-Хинтон (по стандарту ISO 20776-1:2006). Определение клинических категорий чувствительности в соответствии с пограничными значениями МПК Европейского комитета по определению чувствительности к антимикробным препаратам (EUCAST) v.13.0, 2023 г. (&lt;a href=&#34;https://www.eucast.org/clinical_breakpoints&#34;&gt;https://www.eucast.org/clinical_breakpoints&lt;/a&gt;)&lt;/p&gt;
+&lt;h3 id=&#34;молекулярно-генетическое-субвидовое-типирование&#34;&gt;Молекулярно-генетическое субвидовое типирование&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;SNP-типирование всех изолятов на основании определения выборочных (n=21) однонуклеотидных полиморфизмов (SNP) в семи хромосомных локусах (&lt;em&gt;gapA&lt;/em&gt;, &lt;em&gt;infB&lt;/em&gt;, &lt;em&gt;mdh&lt;/em&gt;, &lt;em&gt;pgi&lt;/em&gt;, &lt;em&gt;phoE&lt;/em&gt;, &lt;em&gt;rpoB&lt;/em&gt;, &lt;em&gt;tonB&lt;/em&gt;) методом высокопроизводительной ПЦР в режиме реального времени&lt;/li&gt;
+&lt;li&gt;Мультилокусное секвенирование-типирование (MLST) отдельных изолятов в соответствии с общепринятой схемой Pasteur (&lt;a href=&#34;https://bigsdb.pasteur.fr/klebsiella/&#34;&gt;https://bigsdb.pasteur.fr/klebsiella/&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;выявление-генов-приобретенных-карбапенемаз&#34;&gt;Выявление генов приобретенных карбапенемаз&lt;/h3&gt;
+&lt;p&gt;Гены наиболее распространенных у &lt;em&gt;Enterobacterales&lt;/em&gt; приобретенных сериновых карбапенемаз (групп OXA-48 и KPC) и MBL (групп VIM, IMP и NDM) определяли методом ПЦР в режиме реального времени.&lt;/p&gt;
+&lt;div class=&#34;media&#34;&gt;
+  &lt;div class=&#34;media-body&#34;&gt;
+    &lt;h3 class=&#34;mt-0 mb-1&#34;&gt;Координатор проекта&lt;/h3&gt;
+    &lt;h5&gt;Шайдуллина Эльвира Расиловна&lt;/h5&gt;
+    &lt;p&gt;научный сотрудник НИИ Антимикробной химиотерапии
+    &lt;br&gt;ФГБОУ ВО «СГМУ» Минздрава России&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&#34;mailto:elvira.shaidullina@antibiotic.ru&#34; target=&#34;_blank&#34;&gt;elvira.shaidullina@antibiotic.ru&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;img class=&#34;ml-3&#34; src=&#34;iac.png&#34; style=&#34;width: 200px&#34; alt=&#34;НИИ антимикробной химиотерапии ФГБОУ ВО «СГМУ» Минздрава России&#34;&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>&lt;em&gt;Klebsiella pneumoniae&lt;/em&gt;: анализ маркеров резистентности и вирулентности на основе данных геномного секвенирования</title>
+      <link>https://amrcloud.net/ru/project/kpn-2/</link>
+      <pubDate>Mon, 22 May 2023 09:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/project/kpn-2/</guid>
+      <description>&lt;h3 id=&#34;аннотация&#34;&gt;Аннотация&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Klebsiella pneumoniae&lt;/strong&gt;&lt;/em&gt; – один из наиболее частых и проблемных возбудителей нозокомиальных инфекций. В данном проекте представлены результаты исследования циркулирующих в стационарах России, Беларуси и Казахстана клинических штаммов &lt;em&gt;K. pneumoniae&lt;/em&gt;, включающие:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;данные об источниках выделения изолятов&lt;/li&gt;
+&lt;li&gt;данные субвидового типирования по MLST, капсульному полисахариду (K-антиген), липополисахариду (O-антиген), иерсинабактин-кодирующему ICE&lt;em&gt;Kp&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;генетические детерминанты (гены) резистентности&lt;/li&gt;
+&lt;li&gt;генетические детерминанты (гены) вирулентности&lt;/li&gt;
+&lt;li&gt;чувствительность изолятов к антибиотикам различных групп&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;бактериальные-изоляты&#34;&gt;Бактериальные изоляты&lt;/h3&gt;
+&lt;p&gt;Неповторяющиеся (по одному на каждый случай инфекции) клинические изоляты (&lt;strong&gt;N=241&lt;/strong&gt;), выделенные от госпитализированных пациентов в рамках многоцентровых проспективных микробиологических исследований НИИАХ/МАКМАХ в период &lt;strong&gt;с 25 февраля 2013 г. по 9 декабря 2019 г. в 45 стационарах 29 городов России, Беларуси и Казахстана&lt;/strong&gt;: Белгорода, Владивостока, Гомеля, Екатеринбурга, Ижевска, Казани, Караганды, Краснодара, Липецка, Майкопа, Минска, Могилева, Москвы, Мурманска, Набережных Челнов, Новосибирска, Омска, Перми, Петрозаводска, Ростова-на-Дону, Санкт-Петербурга, Северска, Смоленска, Твери, Томска, Тюмени, Улан-Удэ, Ульяновска и Якутска.&lt;/p&gt;
+&lt;h3 id=&#34;определение-чувствительности-к-антибиотикам&#34;&gt;Определение чувствительности к антибиотикам&lt;/h3&gt;
+&lt;p&gt;Определение минимальных подавляющих концентраций (МПК) методом последовательных двукратных разведений в бульоне Мюллера-Хинтон (по стандарту ISO 20776-1:2006) &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Определение клинических категорий чувствительности в соответствии с пограничными значениями МПК Европейского комитета по определению чувствительности к антимикробным препаратам (EUCAST) v.13.02&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;полногеномное-секвенирование&#34;&gt;Полногеномное секвенирование&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Секвенирование на платформах NextSeq 550 (Illumina) и/или MinION (Oxford Nanopore Technologies)&lt;/li&gt;
+&lt;li&gt;Определение сиквенс-типа (ST), K-серотипа, О-серотипа, аллельного варианта иерсиниабактина и ICE&lt;em&gt;Kp&lt;/em&gt; в программе Kleborate &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; ,&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;:&lt;/li&gt;
+&lt;li&gt;Определение генов резистентности в программе AMRFinderPlus&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Определение генов вирулентности в программе ABRicate&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; с использованием базы данных BIGSdb-Kp института Пастера&lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Определение и реконструкция плазмид с использованием программы MOB-suite&lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;организации---участники-проекта&#34;&gt;Организации - участники проекта&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;НИИАХ ФГБОУ ВО &amp;ldquo;СГМУ&amp;rdquo; Минздрава России (сбор, идентификация, определение чувствительности клинических изолятов, анализ фенотипических и геномных данных)&lt;/li&gt;
+&lt;li&gt;ФБУН ЦНИИ Эпидемиологии Роспотребнадзора (геномное секвенирование)&lt;/li&gt;
+&lt;li&gt;ФГБУ &amp;ldquo;ЦСП&amp;rdquo; ФМБА России (геномное секвенирование)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;media&#34;&gt;
+  &lt;div class=&#34;media-body&#34;&gt;
+    &lt;h3 class=&#34;mt-0 mb-1&#34;&gt;Координатор проекта&lt;/h3&gt;
+    &lt;h5&gt;Шайдуллина Эльвира Расиловна&lt;/h5&gt;
+    &lt;p&gt;научный сотрудник НИИ Антимикробной химиотерапии
+    &lt;br&gt;ФГБОУ ВО «СГМУ» Минздрава России&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&#34;mailto:elvira.shaidullina@antibiotic.ru&#34; target=&#34;_blank&#34;&gt;elvira.shaidullina@antibiotic.ru&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;img class=&#34;ml-3&#34; src=&#34;iac.png&#34; style=&#34;width: 200px&#34; alt=&#34;НИИ антимикробной химиотерапии ФГБОУ ВО «СГМУ» Минздрава России&#34;&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;ссылки&#34;&gt;Ссылки&lt;/h3&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;ISO 20776-1:2019. Susceptibility testing of infectious agents and evaluation of performance of antimicrobial susceptibility test devices - Part 1: Broth micro-dilution reference method for testing the in vitro activity of antimicrobial agents against rapidly growing aerobic bacteria involved in infectious diseases. 2019. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;EUCAST Clinical Breakpoints v13.0. 2023: (&lt;a href=&#34;https://www.eucast.org/clinical_breakpoints)&#34;&gt;https://www.eucast.org/clinical_breakpoints)&lt;/a&gt;. &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Lam, M. M., Wick, R. R., Watts, S. C., Cerdeira, L. T., Wyres, K. L., &amp;amp; Holt, K. E. (2021). A genomic surveillance framework and genotyping tool for Klebsiella pneumoniae and its related species complex. &lt;em&gt;Nature communications&lt;/em&gt;, 12(1), 4188. (&lt;a href=&#34;https://github.com/klebgenomics/Kleborate)&#34;&gt;https://github.com/klebgenomics/Kleborate)&lt;/a&gt;. &lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Wyres, K. L., Wick, R. R., Gorrie, C., Jenney, A., Follador, R., Thomson, N. R., &amp;amp; Holt, K. E. (2016). Identification of Klebsiella capsule synthesis loci from whole genome data. &lt;em&gt;Microbial genomics&lt;/em&gt;, 2(12):e000102. &lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Feldgarden, M., Brover, V., Gonzalez-Escalona, N., Frye, J. G., Haendiges, J., Haft, D. H., Hoffmann M., Pettengill J.B., Prasad A.B., Tillman G.E., Tyson G.H. &amp;amp; Klimke, W. (2021). AMRFinderPlus and the Reference Gene Catalog facilitate examination of the genomic links among antimicrobial resistance, stress response, and virulence. &lt;em&gt;Sci Rep&lt;/em&gt; 11: 12728. (&lt;a href=&#34;https://github.com/ncbi/amr)&#34;&gt;https://github.com/ncbi/amr)&lt;/a&gt;. &lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Seemann T, Abricate, Github (&lt;a href=&#34;https://github.com/tseemann/abricate)&#34;&gt;https://github.com/tseemann/abricate)&lt;/a&gt;. &lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:7&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Bialek-Davenet S., Criscuolo A., Ailloud F., Passet V., Jones L., Delannoy-Vieillard A.S., Garin B., Le Hello S., Arlet G., Nicolas-Chanoine M.H., Decré D., &amp;amp; Brisse S. (2014). Genomic definition of hypervirulent and multidrug-resistant Klebsiella pneumoniae clonal groups. &lt;em&gt;Emerg Infect Dis&lt;/em&gt; 20: 1812-20 (&lt;a href=&#34;https://bigsdb.pasteur.fr/klebsiella/)&#34;&gt;https://bigsdb.pasteur.fr/klebsiella/)&lt;/a&gt;. &lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:8&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Robertson, J., &amp;amp; Nash, J. H. (2018). MOB-suite: software tools for clustering, reconstruction and typing of plasmids from draft assemblies. &lt;em&gt;Microbial genomics&lt;/em&gt;, 4(8):e000206. &lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
     
     <item>
       <title>Основные грамотрицательные бактериальные патогены, изолированные из дыхательных путей пациентов с муковисцидозом</title>
@@ -166,7 +278,7 @@
     &lt;h3 class=&#34;mt-0 mb-1&#34;&gt;Координатор проекта&lt;/h3&gt;
     &lt;h5&gt;Эйдельштейн Инна Александровна&lt;/h5&gt;
     &lt;p&gt;Руководитель лаборатории молекулярной диагностики НИИ антимикробной химиотерапии&lt;br&gt;ФГБОУ ВО «СГМУ» Минздрава России&lt;/p&gt;
-    &lt;p&gt;&lt;a href=&#34;inna.edelstein@antibiotic.ru &#34; target=&#34;_blank&#34;&gt;inna.edelstein@antibiotic.ru&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&#34;mailto:inna.edelstein@antibiotic.ru &#34; target=&#34;_blank&#34;&gt;inna.edelstein@antibiotic.ru&lt;/a&gt;&lt;/p&gt;
   &lt;/div&gt;
   &lt;img class=&#34;ml-3&#34; src=&#34;iac.png&#34; style=&#34;width: 200px&#34; alt=&#34;НИИ антимикробной химиотерапии ФГБОУ ВО «СГМУ» Минздрава России&#34;&gt;
 &lt;/div&gt;
@@ -313,7 +425,7 @@
     &lt;h3 class=&#34;mt-0 mb-1&#34;&gt;Координатор проекта&lt;/h3&gt;
     &lt;h5&gt;Палагин Иван Сергеевич&lt;/h5&gt;
     &lt;p&gt;Научный сотрудник НИИ антимикробной химиотерапии&lt;br&gt;ФГБОУ ВО «СГМУ» Минздрава России&lt;/p&gt;
-    &lt;p&gt;&lt;a href=&#34;ivan.palagin@gmail.com&#34; target=&#34;_blank&#34;&gt;ivan.palagin@gmail.com&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&#34;mailto:ivan.palagin@gmail.com&#34; target=&#34;_blank&#34;&gt;ivan.palagin@gmail.com&lt;/a&gt;&lt;/p&gt;
   &lt;/div&gt;
   &lt;img class=&#34;ml-3&#34; src=&#34;iac.png&#34; style=&#34;width: 200px&#34; alt=&#34;НИИ антимикробной химиотерапии ФГБОУ ВО «СГМУ» Минздрава России&#34;&gt;
 &lt;/div&gt;
@@ -373,7 +485,7 @@
     &lt;h3 class=&#34;mt-0 mb-1&#34;&gt;Контактное лицо&lt;/h3&gt;
     &lt;h5&gt;Шек Евгений Александрович&lt;/h5&gt;
     &lt;p&gt;Научный сотрудник НИИ антимикробной химиотерапии&lt;br&gt;ФГБОУ ВО «СГМУ» Минздрава России&lt;/p&gt;
-    &lt;p&gt;&lt;a href=&#34;evgeniy.sheck@antibiotic.ru&#34; target=&#34;_blank&#34;&gt;evgeniy.sheck@antibiotic.ru&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&#34;mailto:evgeniy.sheck@antibiotic.ru&#34; target=&#34;_blank&#34;&gt;evgeniy.sheck@antibiotic.ru&lt;/a&gt;&lt;/p&gt;
   &lt;/div&gt;
   &lt;img class=&#34;ml-3&#34; src=&#34;iac.png&#34; style=&#34;width: 200px&#34; alt=&#34;НИИ антимикробной химиотерапии ФГБОУ ВО «СГМУ» Минздрава России&#34;&gt;
 &lt;/div&gt;
