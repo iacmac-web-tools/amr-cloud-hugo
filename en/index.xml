@@ -5,7 +5,7 @@
     <link>https://amrcloud.net/en/</link>
       <atom:link href="https://amrcloud.net/en/index.xml" rel="self" type="application/rss+xml" />
     <description>AMRcloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Mon, 06 Feb 2023 09:00:00 +0300</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Sat, 23 Sep 2023 09:00:00 +0000</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>AMRcloud</title>
@@ -5122,6 +5122,66 @@ Example: flag location with &amp;gt;=50% resistance to ciprofloxacin:&lt;/p&gt;
     </item>
     
     <item>
+      <title>Research project: Veterinary monitoring and Risk Analysis of Zoonotic Bacteria Antimicrobial Resistance.</title>
+      <link>https://amrcloud.net/en/project/vgnki/</link>
+      <pubDate>Sat, 23 Sep 2023 09:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/en/project/vgnki/</guid>
+      <description>&lt;h3 id=&#34;russian-state-center-for-quality-and-standardization-of-veterinary-drugs-and-feed&#34;&gt;Russian State Center for Quality and Standardization of Veterinary Drugs and Feed&lt;/h3&gt;
+&lt;p&gt;Research Institute of the Federal Service for Veterinary and Phytosanitary Surveillance (ROSSELKHOZNADZOR).&lt;/p&gt;
+&lt;p&gt;OIE collaborating Center on Food Safety, Diagnosis and Control of Animal Diseases in Eastern Europe, Central Asia and Transcaucasia.&lt;/p&gt;
+&lt;p&gt;Main activities of VGNKI are ensuring veterinary drugs quality, food of animal origin and feed safety, certification and registration of veterinary drugs, feed and feed additives, including GMO-containing.&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dаta for 2017-2023 years&lt;/li&gt;
+&lt;li&gt;4251 isolates
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Esherichia coli&lt;/em&gt; – 1505,&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Enterococcus spp.&lt;/em&gt; (&lt;em&gt;E.faecalis&lt;/em&gt;, &lt;em&gt;E.faecium&lt;/em&gt;, etc.) – 1554,&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Salmonella enterica&lt;/em&gt; – 647,&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Campylobacter spp.&lt;/em&gt; (&lt;em&gt;C.jejuni&lt;/em&gt;, &lt;em&gt;C.coli&lt;/em&gt;, etc.) – 161,&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Staphylococcus spp.&lt;/em&gt; (&lt;em&gt;S.aureus&lt;/em&gt;, &lt;em&gt;S.haemolyticus&lt;/em&gt;, etc.) – 193&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Listeria monocytogenes&lt;/em&gt; - 191&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Isolates taken from poultry (chicken, turkeys, ducks, geese), cows, pigs, sheep, goats, horses, rabbits, fish.&lt;/li&gt;
+&lt;li&gt;Geographic coverage – 37 regions of Russia from Kaliningrad to the Far East, Belarus, Iran, Turkey.&lt;/li&gt;
+&lt;li&gt;Types of samples: animal biomaterial, internal environment of the enterprise (flushes from equipment, bedding, etc.), food products, incoming material (feed, water), soil at the grazing site.&lt;/li&gt;
+&lt;li&gt;30 antimicrobials from 16 classes: amoxicillin, ampicillin (penicillins), azithromycin (azalides), cefotaxime, ceftaroline, ceftiofur (cephalosporins),chloramphenicol, florfenicol (amphenicols), ciprofloxacin, enrofloxacin, levofloxacin, marbofloxacin, moxifloxacin (fluoroquinolones), clindamycin (lincosamides), colistin, bacitracin (polypeptides), doxycycline, tetracycline (tetracyclines), erythromycin (macrolides), gentamicin, spectinomycin, streptomycin (aminoglycosides), meropenem (carbapenems), rifampicin (anzamycins), sulfadiazine, sulfamethoxazole (sulfonamides), trimethoprim (diaminopyrimidines), trimethoprim/sulfamethoxazole combination, vancomycin (glycopeptides), virginiamycin (streptograms).&lt;/li&gt;
+&lt;li&gt;Antimicrobial susceptibility testing method: Broth microdilution.&lt;/li&gt;
+&lt;li&gt;Interpretation according to EUCAST2023 clinical breakpoints and EUCAST ECOFFs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;data&#34;&gt;Data:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Ivanova O.E.&lt;/li&gt;
+&lt;li&gt;Blumenkranz D.A.&lt;/li&gt;
+&lt;li&gt;Goncharova A.V.&lt;/li&gt;
+&lt;li&gt;Chaykin E.A.&lt;/li&gt;
+&lt;li&gt;Egoreva M.A.&lt;/li&gt;
+&lt;li&gt;Makarov D.A.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You can leave you questions and comments by e-mail: 
+&lt;a href=&#34;mailto:phorez@yandex.ru&#34;&gt;phorez@yandex.ru&lt;/a&gt; (Makarov D.A.)&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Project update from VGNKI</title>
+      <link>https://amrcloud.net/en/post/20230923-vgnki-update/</link>
+      <pubDate>Sat, 23 Sep 2023 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/en/post/20230923-vgnki-update/</guid>
+      <description>&lt;p&gt;VGNKI continues to conduct veterinary monitoring of antibiotic resistance of zoonotic bacteria and is pleased to present an updated project with fresh data.&lt;/p&gt;
+&lt;p&gt;The project is supplemented with data for 2022 and 2023 on 2,629 isolates, including a new microorganism – &lt;em&gt;Listeria monocytogenes&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;In addition to animal biomaterial (feces, flushes, etc.), data on isolates isolated from the internal environment of the enterprise (flushes from surfaces, equipment), food products, incoming material (feed, clean litter, water), and soil selected at the grazing site have been added.&lt;/p&gt;
+&lt;p&gt;Added data on isolates from horses, rabbits, and fish (food products).&lt;/p&gt;
+&lt;p&gt;The geography of research is extended to three regions of Russia, as well as, in the case of food products, to foreign countries - Belarus, Iran, and Turkey. The program included two new antibiotics – virginiamycin and bacitracin.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://amrcloud.net/en/project/vgnki/&#34;&gt;Open project&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>EUCAST 2023 clinical breakpoints are now available in AMRcloud.</title>
       <link>https://amrcloud.net/en/post/20230130-eucast/</link>
       <pubDate>Mon, 06 Feb 2023 09:00:00 +0300</pubDate>
@@ -9369,56 +9429,6 @@ For example, laboratories can store their data in different files, or files from
 &lt;li&gt;when adding a graph to the dashboard, added the ability to select columns to ignore for automatic recalculation of the graph;&lt;/li&gt;
 &lt;li&gt;stability improvements.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Research project: Veterinary monitoring and Risk Analysis of Zoonotic Bacteria Antimicrobial Resistance.</title>
-      <link>https://amrcloud.net/en/project/vgnki/</link>
-      <pubDate>Mon, 27 Dec 2021 09:00:00 +0000</pubDate>
-      <guid>https://amrcloud.net/en/project/vgnki/</guid>
-      <description>&lt;h3 id=&#34;russian-state-center-for-quality-and-standardization-of-veterinary-drugs-and-feed&#34;&gt;Russian State Center for Quality and Standardization of Veterinary Drugs and Feed&lt;/h3&gt;
-&lt;p&gt;Research Institute of the Federal Service for Veterinary and Phytosanitary Surveillance (ROSSELKHOZNADZOR).&lt;/p&gt;
-&lt;p&gt;OIE collaborating Center on Food Safety, Diagnosis and Control of Animal Diseases in Eastern Europe, Central Asia and Transcaucasia.&lt;/p&gt;
-&lt;p&gt;Main activities of VGNKI are ensuring veterinary drugs quality, food of animal origin and feed safety, certification and registration of veterinary drugs, feed and feed additives, including GMO-containing.&lt;/p&gt;
-&lt;h3 id=&#34;abstract&#34;&gt;Abstract:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Dаta for 2017-2021 years&lt;/li&gt;
-&lt;li&gt;1622 isolates (E.coli – 666, Enterococcus spp. – 636, Salmonella spp. – 191, Campylobacter spp. – 69, Staphylococcus spp. – 60)&lt;/li&gt;
-&lt;li&gt;Isolates taken from poultry (chicken, turkeys, ducks, geese), cows, pigs, sheep, goats&lt;/li&gt;
-&lt;li&gt;Geographic coverage – 33 regions of Russia from Kaliningrad to the Far East&lt;/li&gt;
-&lt;li&gt;31 antimicrobials from 16 classes&lt;/li&gt;
-&lt;li&gt;Antimicrobial susceptibility testing method: Broth microdilution (1622 isolates).&lt;/li&gt;
-&lt;li&gt;Methods of molecular biology: PCR (57 isolates), WGS (16 isolates)&lt;/li&gt;
-&lt;li&gt;Interpretation according to EUCAST2021 clinical breakpoints&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;data&#34;&gt;Data:&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Bogomazova A.N.&lt;/li&gt;
-&lt;li&gt;Gergel M.A.&lt;/li&gt;
-&lt;li&gt;Gordeeva V.D.&lt;/li&gt;
-&lt;li&gt;Gritsyuk V.A.&lt;/li&gt;
-&lt;li&gt;Ivanova O.E.&lt;/li&gt;
-&lt;li&gt;Karabanov S.Yu.&lt;/li&gt;
-&lt;li&gt;Komarov A.A.&lt;/li&gt;
-&lt;li&gt;Krylova E.V.&lt;/li&gt;
-&lt;li&gt;Kulikosky A.V.&lt;/li&gt;
-&lt;li&gt;Lenev S.V.&lt;/li&gt;
-&lt;li&gt;Lobova P.A.&lt;/li&gt;
-&lt;li&gt;Makarov D.A.&lt;/li&gt;
-&lt;li&gt;Pleskacheva M.A.&lt;/li&gt;
-&lt;li&gt;Pobolelova Yu. I.&lt;/li&gt;
-&lt;li&gt;Pomazkova A.V.&lt;/li&gt;
-&lt;li&gt;Prasolova O.V.&lt;/li&gt;
-&lt;li&gt;Rusakov S.V.&lt;/li&gt;
-&lt;li&gt;Soltynskaya I.V.&lt;/li&gt;
-&lt;li&gt;Sukhoedova A.V.&lt;/li&gt;
-&lt;li&gt;Yatsentuk S.P&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;You can leave you questions and comments by e-mail: 
-&lt;a href=&#34;mailto:phorez@yandex.ru&#34;&gt;phorez@yandex.ru&lt;/a&gt; (Makarov D.A.)&lt;/p&gt;
-&lt;/blockquote&gt;
 </description>
     </item>
     

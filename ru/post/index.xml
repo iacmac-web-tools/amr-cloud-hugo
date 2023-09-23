@@ -5,12 +5,28 @@
     <link>https://amrcloud.net/ru/post/</link>
       <atom:link href="https://amrcloud.net/ru/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Новости</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Mon, 06 Feb 2023 09:00:00 +0300</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Sat, 23 Sep 2023 09:00:00 +0300</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>Новости</title>
       <link>https://amrcloud.net/ru/post/</link>
     </image>
+    
+    <item>
+      <title>Обновление проекта от ФГБУ «ВГНКИ»</title>
+      <link>https://amrcloud.net/ru/post/20230923-vgnki-update/</link>
+      <pubDate>Sat, 23 Sep 2023 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/ru/post/20230923-vgnki-update/</guid>
+      <description>&lt;p&gt;ФГБУ «ВГНКИ» продолжает проведение ветеринарного мониторинга антибиотикорезистентности зоонозных бактерий и радо представить обновленный проект со свежими данными.&lt;/p&gt;
+&lt;p&gt;Проект дополнен данными за 2022 и 2023 годы по 2629 изолятам, включая новый микроорганизм – &lt;em&gt;Listeria monocytogenes&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Помимо биоматериала животных (фекалии, смывы и тд.) добавлены данные по изолятам , выделенным из объектов внутренней среды предприятия (смывы с поверхностей, оборудования), пищевой продукции, входящего материала (кормов, чистой подстилки, воды), почвы, отобранной в месте выпаса животных.&lt;/p&gt;
+&lt;p&gt;Добавлены данные по изолятам от лошадей, кроликов, рыбы (пищевая продукция).&lt;/p&gt;
+&lt;p&gt;География исследований  расширена на три региона России, а также, в случае пищевой продукции, на зарубежные страны – Беларусь, Иран, Турцию.
+В программу было включено два новых антибиотика – вирджиниамицин и бацитрацин.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://amrcloud.net/ru/project/vgnki/&#34;&gt;Открыть проект&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>В AMRcloud стали доступны критерии EUCAST 2023</title>

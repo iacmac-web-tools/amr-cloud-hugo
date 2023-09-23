@@ -5,12 +5,27 @@
     <link>https://amrcloud.net/en/post/</link>
       <atom:link href="https://amrcloud.net/en/post/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Mon, 06 Feb 2023 09:00:00 +0300</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Sat, 23 Sep 2023 09:00:00 +0300</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>News</title>
       <link>https://amrcloud.net/en/post/</link>
     </image>
+    
+    <item>
+      <title>Project update from VGNKI</title>
+      <link>https://amrcloud.net/en/post/20230923-vgnki-update/</link>
+      <pubDate>Sat, 23 Sep 2023 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/en/post/20230923-vgnki-update/</guid>
+      <description>&lt;p&gt;VGNKI continues to conduct veterinary monitoring of antibiotic resistance of zoonotic bacteria and is pleased to present an updated project with fresh data.&lt;/p&gt;
+&lt;p&gt;The project is supplemented with data for 2022 and 2023 on 2,629 isolates, including a new microorganism – &lt;em&gt;Listeria monocytogenes&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;In addition to animal biomaterial (feces, flushes, etc.), data on isolates isolated from the internal environment of the enterprise (flushes from surfaces, equipment), food products, incoming material (feed, clean litter, water), and soil selected at the grazing site have been added.&lt;/p&gt;
+&lt;p&gt;Added data on isolates from horses, rabbits, and fish (food products).&lt;/p&gt;
+&lt;p&gt;The geography of research is extended to three regions of Russia, as well as, in the case of food products, to foreign countries - Belarus, Iran, and Turkey. The program included two new antibiotics – virginiamycin and bacitracin.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://amrcloud.net/en/project/vgnki/&#34;&gt;Open project&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>EUCAST 2023 clinical breakpoints are now available in AMRcloud.</title>
