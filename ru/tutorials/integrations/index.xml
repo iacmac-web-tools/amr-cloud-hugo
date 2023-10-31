@@ -13,6 +13,105 @@
     </image>
     
     <item>
+      <title>Экспорт из ЛИС «qMS» (компания СП.АРМ) в AMRcloud</title>
+      <link>https://amrcloud.net/ru/tutorials/integrations/qms/</link>
+      <pubDate>Tue, 31 Oct 2023 09:00:00 +0000</pubDate>
+      <guid>https://amrcloud.net/ru/tutorials/integrations/qms/</guid>
+      <description>&lt;p&gt;Руководство «Экспорт из ЛИС «qMS» (компания СП.АРМ) в AMRcloud» рассказывает о том, как имеющиеся у вас данные из 
+&lt;a href=&#34;https://sparm.com/qms-laboratoriya&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Лабораторной Информационной Системы «ЛИС qMS» (компания СП.АРМ)»  &lt;/a&gt; подготовить для загрузки в онлайн-платформу AMRcloud.&lt;/p&gt;
+&lt;p&gt;В ЛИС «qMS» имеется возможность экспортировать результаты проведенных микробиологических исследований в файл формата AMRcloud для последующей загрузки и анализа данных.&lt;/p&gt;
+&lt;p&gt;Выгрузка может производиться за определенный период или только «новые» данные (на усмотрение сотрудников лаборатории) в ручном или фоновом режиме по вашему расписанию.&lt;/p&gt;
+&lt;p&gt;Файлы формируются в формате &lt;strong&gt;«csv»&lt;/strong&gt;, в качестве разделите полей используется символ &lt;strong&gt;«;»&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Формирование файла выполняется для предварительно настроенного списка услуг, микроорганизмов и антибиотиков для данного сервиса в ЛИС.&lt;/p&gt;
+&lt;h2 id=&#34;ручная-выгрузка-данных-из-лис-qms-в-сервис-amrcloud&#34;&gt;Ручная выгрузка данных из ЛИС «qMS» в сервис AMRcloud&lt;/h2&gt;
+&lt;p&gt;Выберите режим &lt;strong&gt;AMRcloud&lt;/strong&gt;, нажмите на тулбаре кнопку &lt;strong&gt;Выгрузить данные&lt;/strong&gt;, выберите период дат, за который необходимо выгрузить результаты в сервис AMRcloud, и нажмите кнопку &lt;strong&gt;Поиск&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-выгрузка-в-сервис-выбор-временного-периода&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/qms-export/1.png&#34; data-caption=&#34;Выгрузка в сервис. Выбор временного периода.&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/qms-export/1.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Выгрузка в сервис. Выбор временного периода.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;По выполнению запроса будет создан файл в формате &lt;strong&gt;csv&lt;/strong&gt; в определенной папке (путь хранения файлов предварительно настраивается в ЛИС в разделе &lt;strong&gt;Настройки для файлового обмена&lt;/strong&gt;).&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-пример-файла&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://amrcloud.net/img/tutorials/qms-export/2.png&#34; data-caption=&#34;Пример файла&#34;&gt;
+
+
+  &lt;img src=&#34;https://amrcloud.net/img/tutorials/qms-export/2.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Рисунок &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Пример файла
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Созданный файл может быть загружен в &lt;strong&gt;AMRcloud&lt;/strong&gt; для анализа. Как загрузить полученный файл подробно описано в &lt;a href=&#34;https://amrcloud.net/ru/tutorials/import-data/&#34;&gt;Руководстве «AMRcloud. Импорт данных»&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-info&#34;&gt;
+  &lt;div&gt;
+    Чтобы получить обновление ЛИС «qMS», позволяющее формировать отчеты в формате AMRcloud, напишите на электронную почту &lt;a href=&#34;mailto:info@sparm.com&#34;&gt;info@sparm.com&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Импорт данных из AMRcloud в систему годовых отчетов</title>
       <link>https://amrcloud.net/ru/tutorials/integrations/reports/</link>
       <pubDate>Mon, 23 Jan 2023 18:00:00 +0000</pubDate>

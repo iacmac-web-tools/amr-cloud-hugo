@@ -5,12 +5,30 @@
     <link>https://amrcloud.net/ru/post/</link>
       <atom:link href="https://amrcloud.net/ru/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Новости</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Sat, 23 Sep 2023 09:00:00 +0300</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>AMRcloud © 2023</copyright><lastBuildDate>Tue, 31 Oct 2023 09:00:00 +0300</lastBuildDate>
     <image>
       <url>https://amrcloud.net/img/amr-cloud-logo-text.png</url>
       <title>Новости</title>
       <link>https://amrcloud.net/ru/post/</link>
     </image>
+    
+    <item>
+      <title>Интеграция с ЛИС «qMS» (компания СП.АРМ)</title>
+      <link>https://amrcloud.net/ru/post/20231031-qms/</link>
+      <pubDate>Tue, 31 Oct 2023 09:00:00 +0300</pubDate>
+      <guid>https://amrcloud.net/ru/post/20231031-qms/</guid>
+      <description>&lt;p&gt;Мы всегда рады приветствовать нового партнера из индустрии, поэтому сообщаем что 
+&lt;a href=&#34;https://sparm.com/qms-laboratoriya&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Лабораторная Информационная Система «ЛИС qMS» (компания СП.АРМ)»&lt;/a&gt; имеется возможность экспортировать результаты проведенных микробиологических исследований в файл формата AMRcloud для последующей загрузки и анализа данных.&lt;/p&gt;
+&lt;p&gt;Выгрузка может производиться за определенный период или только «новые» данные (на усмотрение сотрудников лаборатории) в ручном или фоновом режиме по вашему расписанию.&lt;/p&gt;
+&lt;p&gt;Порядок действий описан в руководстве 
+&lt;a href=&#34;https://amrcloud.net/ru/tutorials/integrations/qms/&#34;&gt;Экспорт из ЛИС «qMS» (компания СП.АРМ) в AMRcloud&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Чтобы получить обновление ЛИС «qMS», позволяющее формировать отчеты в формате AMRcloud, напишите на электронную почту &lt;a href=&#34;mailto:info@sparm.com&#34;&gt;info@sparm.com&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Обновление проекта от ФГБУ «ВГНКИ»</title>
